@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% for emu in site.docs | sort: 'position' %}
+    {% if emu.type != 'history' %}
+        {% continue %}
+    {% endif %}
+    {{ emu.content | markdownify }}
+{% endfor %}

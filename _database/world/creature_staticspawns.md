@@ -1,0 +1,342 @@
+---
+title: creature_staticspawns
+type: worlddb
+category: C
+layout: single_markdown
+---
+
+# creature_staticspawns
+This table prevent units from being unallocated when maps are shutdown. Commonly used for transports, as there is no other reason to optimize in this way unless the spawn or unit, is moving, or is on a schedule. 
+
+## Structure
+
+Field                                                                                                                           | Type          | Default        | Comment
+------------------------------------------------------------------------------------------------------------------------------- | ------------- | -------------- | -------
+[id](#id)                                                       | int(11)       | AUTO_INCREMENT |        
+[entry](#entry)                                                 | int(30)       |                |        
+[map](#map)                                                     | smallint(5)   |                |        
+[position_x](#positions.28x_-_o.29)                             | float(0)      | 0              |        
+[position_y](#positions.28x_-_o.29)                             | float(0)      | 0              |        
+[position_z](#positions.28x_-_o.29)                             | float(0)      | 0              |        
+[orientation](#positions.28x_-_o.29)                            | float(0)      | 0              |        
+[movetype](#movetype)                                           | tinyint(3)    | 0              |        
+[displayid](#displayid)                                         | mediumint(10) | 0              |        
+[faction](#faction)                                             | mediumint(10) | 14             |        
+[flags](#flags)                                                 | int(10)       | 0              |        
+[bytes0](#bytes0)                                               | int(10)       | 0              |        
+[bytes1](#bytes1)                                               | int(10)       | 0              |        
+[bytes2](#bytes2)                                               | int(10)       | 0              |        
+[emote_state](#emote_state)                                     | smallint(5)   | 0              |        
+[npc_respawn_link](#npc_respawn_link)                           | int(10)       | 0              |        
+[channel_spell](#channel_spell)                                 | int(10)       | 0              |        
+[channel_target_sqlid](#channel_target_sqlid)                   | int(10)       | 0              |        
+[channel_target_sqlit_creature](#channel_target_sqlit_creature) | int(10)       | 0              |        
+[standstate](#standstate)                                       | tinyint(3)    | 0              |        
+[death_state](#death_state)                                     | tinyint(3)    | 0              |        
+[mountdisplayid](#mountdisplayid)                               | int(10)       | 0              |        
+[slot1item](#slot1item)                                         | int(10)       | 0              |        
+[slot2item](#slot2item)                                         | int(10)       | 0              |        
+[slot3item](#slot3item)                                         | int(10)       | 0              |        
+[CanFly](#CanFly)                                               | smallint(3)   | 0              |        
+[phase](#phase)                                                 | int(10)       | 1              |        
+
+### id
+
+Spawn ID of the creature (unique, auto)
+
+### entry
+
+Entry ID of the creature from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.
+
+### map
+
+Map ID of the spawned creature.
+
+### positions(x - o)
+
+Coordinates of the spawned creature. (Home position).
+
+### movetype
+
+Detailed description: enum MovementType in AIInterface.h
+
+<pre>
+0 = Walk in line (WP1, WP2, WP3 and return WP2, WP1)
+1 = Walks random through waypoints (WP4, WP2, WP3, WP1)
+2 = Walks in cirlce (WP1, WP2, WP3, WP1, WP2...)
+3 = Coreside WP, walking only if script calls "Walk to WPx")
+4 = Coreside, if a creature has WPs, don't move it automatically.
+10 = If quest started, follow WPs
+11 = TODO: Need description
+</pre>
+
+### displayid
+
+The ID for the display/skin of the creature. 
+
+### faction
+
+The ID of the faction of the creature. Should match the faction ID in the creature's creature_proto. 
+
+### flags
+
+...
+
+### bytes0
+
+...
+
+### bytes1
+
+...
+
+### bytes2
+
+...
+
+### emote_state
+
+Emote ID of the creature.
+
+<pre>
+0   - ONESHOT_NONE
+1   - ONESHOT_TALK(DNR)
+2   - ONESHOT_BOW
+3   - ONESHOT_WAVE(DNR)
+4   - ONESHOT_CHEER(DNR)
+5   - ONESHOT_EXCLAMATION(DNR)
+6   - ONESHOT_QUESTION
+7   - ONESHOT_EAT
+10  - STATE_DANCE
+11  - ONESHOT_LAUGH
+12  - STATE_SLEEP
+13  - STATE_SIT     USE bytes1 1 INSTEAD
+14  - ONESHOT_RUDE(DNR)
+15  - ONESHOT_ROAR(DNR)
+16  - ONESHOT_KNEEL
+17  - ONESHOT_KISS
+18  - ONESHOT_CRY
+19  - ONESHOT_CHICKEN
+20  - ONESHOT_BEG
+21  - ONESHOT_APPLAUD
+22  - ONESHOT_SHOUT(DNR)
+23  - ONESHOT_FLEX
+24  - ONESHOT_SHY(DNR)
+25  - ONESHOT_POINT(DNR)
+26  - STATE_STAND
+27  - STATE_READYUNARMED
+28  - STATE_WORK_SHEATHED
+29  - STATE_POINT(DNR)
+30  - STATE_NONE
+33  - ONESHOT_WOUND
+34  - ONESHOT_WOUNDCRITICAL
+35  - ONESHOT_ATTACKUNARMED
+36  - ONESHOT_ATTACK1H
+37  - ONESHOT_ATTACK2HTIGHT
+38  - ONESHOT_ATTACK2HLOOSE
+39  - ONESHOT_PARRYUNARMED
+43  - ONESHOT_PARRYSHIELD
+44  - ONESHOT_READYUNARMED
+45  - ONESHOT_READY1H
+48  - ONESHOT_READYBOW
+50  - ONESHOT_SPELLPRECAST
+51  - ONESHOT_SPELLCAST
+53  - ONESHOT_BATTLEROAR
+54  - ONESHOT_SPECIALATTACK1H
+60  - ONESHOT_KICK
+61  - ONESHOT_ATTACKTHROWN
+64  - STATE_STUN
+65  - STATE_DEAD
+66  - ONESHOT_SALUTE
+68  - STATE_KNEEL
+69  - STATE_USESTANDING
+70  - ONESHOT_WAVE_NOSHEATHE
+71  - ONESHOT_CHEER_NOSHEATHE
+92  - ONESHOT_EAT_NOSHEATHE
+93  - STATE_STUN_NOSHEATHE
+94  - ONESHOT_DANCE
+113 - ONESHOT_SALUTE_NOSHEATH
+133 - STATE_USESTANDING_NOSHEATHE
+153 - ONESHOT_LAUGH_NOSHEATHE
+173 - STATE_WORK
+193 - STATE_SPELLPRECAST
+213 - ONESHOT_READYRIFLE
+214 - STATE_READYRIFLE
+233 - STATE_WORK_MINING
+234 - STATE_WORK_CHOPWOOD
+253 - STATE_APPLAUD
+254 - ONESHOT_LIFTOFF
+273 - ONESHOT_YES(DNR)
+274 - ONESHOT_NO(DNR)
+275 - ONESHOT_TRAIN(DNR)
+293 - ONESHOT_LAND
+313 - STATE_AT_EASE
+333 - STATE_READY1H
+353 - STATE_SPELLKNEELSTART
+373 - STAND_STATE_SUBMERGED
+374 - ONESHOT_SUBMERGE
+375 - STATE_READY2H
+376 - STATE_READYBOW
+377 - ONESHOT_MOUNTSPECIAL
+378 - STATE_TALK
+379 - STATE_FISHING
+380 - ONESHOT_FISHING
+381 - ONESHOT_LOOT
+382 - STATE_WHIRLWIND
+383 - STATE_DROWNED
+384 - STATE_HOLD_BOW
+385 - STATE_HOLD_RIFLE
+386 - STATE_HOLD_THROWN
+387 - ONESHOT_DROWN
+388 - ONESHOT_STOMP
+389 - ONESHOT_ATTACKOFF
+390 - ONESHOT_ATTACKOFFPIERCE
+391 - STATE_ROAR
+392 - STATE_LAUGH
+393 - ONESHOT_CREATURE_SPECIAL
+394 - ONESHOT_JUMPLANDRUN
+395 - ONESHOT_JUMPEND
+396 - ONESHOT_TALK_NOSHEATHE
+397 - ONESHOT_POINT_NOSHEATHE
+398 - STATE_CANNIBALIZE
+399 - ONESHOT_JUMPSTART
+400 - STATE_DANCESPECIAL
+401 - ONESHOT_DANCESPECIAL
+402 - ONESHOT_CUSTOMSPELL01
+403 - ONESHOT_CUSTOMSPELL02
+404 - ONESHOT_CUSTOMSPELL03
+405 - ONESHOT_CUSTOMSPELL04
+406 - ONESHOT_CUSTOMSPELL05
+407 - ONESHOT_CUSTOMSPELL06
+408 - ONESHOT_CUSTOMSPELL07
+409 - ONESHOT_CUSTOMSPELL08
+410 - ONESHOT_CUSTOMSPELL09
+411 - ONESHOT_CUSTOMSPELL10
+412 - STATE_EXCLAIM
+413 - STATE_DANCE_CUSTOM
+415 - STATE_SIT_CHAIR_MED
+416 - STATE_CUSTOM_SPELL_01
+417 - STATE_CUSTOM_SPELL_02
+418 - STATE_EAT
+419 - STATE_CUSTOM_SPELL_04
+420 - STATE_CUSTOM_SPELL_03
+421 - STATE_CUSTOM_SPELL_05
+422 - STATE_SPELLEFFECT_HOLD
+423 - STATE_EAT_NO_SHEATHE
+424 - STATE_MOUNT
+425 - STATE_READY2HL
+426 - STATE_SIT_CHAIR_HIGH
+427 - STATE_FALL
+428 - STATE_LOOT
+429 - STATE_SUBMERGED
+430 - ONESHOT_COWER(DNR)
+431 - STATE_COWER
+432 - ONESHOT_USESTANDING
+433 - STATE_STEALTH_STAND
+434 - ONESHOT_OMNICAST_GHOUL (W/SOUND)
+435 - ONESHOT_ATTACKBOW
+436 - ONESHOT_ATTACKRIFLE
+437 - STATE_SWIM_IDLE
+438 - STATE_ATTACK_UNARMED
+439 - ONESHOT_SPELLCAST (W/SOUND)
+440 - ONESHOT_DODGE
+441 - ONESHOT_PARRY1H
+442 - ONESHOT_PARRY2H
+443 - ONESHOT_PARRY2HL
+444 - STATE_FLYFALL
+445 - ONESHOT_FLYDEATH
+446 - STATE_FLY_FALL
+447 - ONESHOT_FLY_SIT_GROUND_DOWN
+448 - ONESHOT_FLY_SIT_GROUND_UP
+449 - ONESHOT_EMERGE
+450 - ONESHOT_DRAGONSPIT
+451 - STATE_SPECIALUNARMED
+452 - ONESHOT_FLYGRAB
+453 - STATE_FLYGRABCLOSED
+454 - ONESHOT_FLYGRABTHROWN
+455 - STATE_FLY_SIT_GROUND
+456 - STATE_WALKBACKWARDS
+457 - ONESHOT_FLYTALK
+458 - ONESHOT_FLYATTACK1H
+459 - STATE_CUSTOMSPELL08
+460 - ONESHOT_FLY_DRAGONSPIT
+461 - STATE_SIT_CHAIR_LOW
+462 - ONE_SHOT_STUN
+463 - ONESHOT_SPELLCAST_OMNI
+465 - STATE_READYTHROWN
+466 - ONESHOT_WORK_CHOPWOOD
+467 - ONESHOT_WORK_MINING
+468 - STATE_SPELL_CHANNEL_OMNI
+469 - STATE_SPELL_CHANNEL_DIRECTED
+470 - STAND_STATE_NONE
+471 - STATE_READYJOUST
+473 - STATE_STRANGULATE
+474 - STATE_READYSPELLOMNI
+475 - STATE_HOLD_JOUST
+476 - ONESHOT_CRY (JAINA PROUDMOORE ONLY)
+</pre>
+
+### npc_respawn_link
+
+...
+
+### channel_spell
+
+ID of a Spell that the creature will channel. 
+
+### channel_target_sqlid
+
+...
+
+### channel_target_sqlit_creature
+
+...
+
+### standstate
+
+<pre>
+0 = Stand
+1 = Sitting on the ground
+2 = Sitting on chair
+3 = Sleep
+4 = Sit (Low)
+5 = Sit (Medium)
+6 = Sit (Elevated High)
+7 = Lying Dead
+8 = Kneel
+</pre>
+
+### death_state
+
+<pre>
+0 = alive (Creature acts normal)
+1 = just died (Creature appears dead, but is acting like alive - can speak with you, you can make gossip with this NPC)
+2 = corpse (This creature is dead and acts as dead body)
+</pre>
+
+### mountdisplayid
+
+The Display ID of a mount to be used to make the creature appear mounted. The value here overrides the value for the creature's unit field UNIT_FIELD_MOUNTDISPLAYID. 
+
+### slot1item
+
+Entry ID of an item to be equipped in the Right Hand (Main Hand). 
+
+### slot2item
+
+Entry ID of an item to be equipped in the Left Hand (Off-Hand). 
+
+### slot3item
+
+Entry ID of a ranged item to be equipped. 
+
+### CanFly
+
+<pre>
+0 = Flying disabled
+1 = Flying enabled
+</pre>
+
+### phase
+
+The phase of the creature.

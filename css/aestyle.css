@@ -1,0 +1,158 @@
+/* ---------------------------------------------------
+    Wrapp the content inside it (important for sidebar)
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    width: 100%
+}
+
+/* ---------------------------------------------------
+    Sidebar
+----------------------------------------------------- */
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #1d1b1b;
+    color: #fff;
+    transition: all 0.3s;
+    position: fixed;
+    Height: 100%;
+    overflow-y: auto;
+}
+
+#sidebar .sidebar-header {
+    padding: 10px;
+}
+
+img.sidebar-brand {
+    width: 100%;
+}
+
+/* ---------------------------------------------------
+    Sidebar style from bootstrap
+----------------------------------------------------- */
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+#sidebar ul li a:hover {
+    color: #353332;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #353332;
+    background: #fff;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 20px !important;
+    background: #353332;
+}
+
+ul ul ul a {
+    padding-left: 35px !important;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+a.article, a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    Content
+----------------------------------------------------- */
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    width: 100%;
+    margin-left: 260px;
+}
+
+/* ---------------------------------------------------
+    img overwrite bootstrap default
+----------------------------------------------------- */
+img {
+    vertical-align: bottom;
+}
+
+/* ---------------------------------------------------
+    p styles
+----------------------------------------------------- */
+p.error, p.warning, p.info, p.success {
+    border-left: 5px solid #000;
+    padding: 3px 5px;
+    margin-left: -10px;
+    background-color: #fbfbfb;
+}
+
+p.error {
+    border-color: #ff3022;
+}
+
+p.warning {
+    border-color: #ffe722;
+}
+
+p.info {
+    border-color: #22d3ff;
+}
+
+p.success {
+    border-color: #14ec28;
+}
+
+/* ---------------------------------------------------
+    tables
+----------------------------------------------------- */
+table th, table td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}

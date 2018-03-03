@@ -1,0 +1,88 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <a href="{{ site.url }}/Wiki" title="Visit the main page"><img src="/Wiki/images/logo.png" alt="AscEmu Wiki" class="sidebar-brand"></a>
+    </div>
+
+    <ul class="list-unstyled components">
+        <li><a href="{{ site.url }}/Wiki">Wiki start</a></li>
+        <li>
+            <a href="#installGroup" data-toggle="collapse" aria-expanded="false">Getting started</a>
+            <ul class="collapse list-unstyled" id="installGroup">
+                {% for item in site.docs %}
+                {% if item.type != 'installguid' %}
+                    {% continue %}
+                {% endif %}
+                <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+            
+            <a href="#databaseGroup" data-toggle="collapse" aria-expanded="false">Database</a>
+            <ul class="collapse list-unstyled" id="databaseGroup">
+                
+                <a href="#logonSubGroup" data-toggle="collapse" aria-expanded="false">Logon Database</a>
+                <ul class="collapse list-unstyled" id="logonSubGroup">
+                    {% assign dbdocs = site.database | where: "type","logondb" | group_by: 'category' %}
+                    {% for cat in dbdocs %}
+                        {% assign items = cat.items | sort: 'order' %}
+                        {% for item in items %}
+                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+                
+                <a href="#charSubGroup" data-toggle="collapse" aria-expanded="false">Character Database</a>
+                <ul class="collapse list-unstyled" id="charSubGroup">
+                    {% assign dbdocs = site.database | where: "type","characterdb" | group_by: 'category' %}
+                    {% for cat in dbdocs %}
+                        {% assign items = cat.items | sort: 'order' %}
+                        {% for item in items %}
+                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+                
+                <a href="#worldSubGroup" data-toggle="collapse" aria-expanded="false">World Database</a>
+                <ul class="collapse list-unstyled" id="worldSubGroup">
+                    {% assign dbdocs = site.database | where: "type","worlddb" | group_by: 'category' %}
+                    {% for cat in dbdocs %}
+                        {% assign items = cat.items | sort: 'order' %}
+                        {% for item in items %}
+                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+            </ul>
+            
+            <a href="#accessGroup" data-toggle="collapse" aria-expanded="false">Access & Commands</a>
+            <ul class="collapse list-unstyled" id="accessGroup">
+                {% for item in site.docs %}
+                {% if item.type != 'command' %}
+                    {% continue %}
+                {% endif %}
+                <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+            
+            <a href="#devGroup" data-toggle="collapse" aria-expanded="false">Dev Docs</a>
+            <ul class="collapse list-unstyled" id="devGroup">
+                <li><a href="{{ site.url }}/Wiki/docs/coding-standards/">Coding Standards</a></li>
+                <li><a href="{{ site.url }}/Wiki/docs/mysql-standards/">MySQL Standards</a></li>
+                <li><a href="{{ site.url }}/Wiki/docs/debugging/">Debugging</a></li>
+            </ul>
+            
+            <a href="#unsortedGroup" data-toggle="collapse" aria-expanded="false">Unsorted Docs</a>
+            <ul class="collapse list-unstyled" id="unsortedGroup">
+                {% for item in site.docs %}
+                {% if item.type != 'unsorted' %}
+                    {% continue %}
+                {% endif %}
+                {% if item.title == '_example_file' %}
+                    {% continue %}
+                {% endif %}
+                <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li><a href="{{ site.url }}/Wiki/docs/history/">History</a></li>
+    </ul>
+</nav>
