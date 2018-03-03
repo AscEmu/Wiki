@@ -1,11 +1,11 @@
 ---
-title: Ubuntu Guid
-type: installguid
+title: Ubuntu Guide
+type: installguide
 layout: single_markdown
 position: 2
 ---
 
-# Ubuntu Guid
+# Ubuntu Guide
 ### Basic Linux Setup
 
 Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu. This help file has been written with strict use of the console in mind.  Linux was made to run command line, so there isn't an easier, quicker way to do things than the way we are about to do them. Please note, as I write this guide for Ubuntu that Aptitude is the default package manager, other operating systems may have a different package manager.
