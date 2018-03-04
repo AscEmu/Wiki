@@ -9,7 +9,7 @@
             <a href="#installGroup" data-toggle="collapse" aria-expanded="false">Getting started</a>
             <ul class="collapse list-unstyled" id="installGroup">
                 {% for item in site.docs %}
-                {% if item.type != 'installguid' %}
+                {% if item.type != 'installguide' %}
                     {% continue %}
                 {% endif %}
                 <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
