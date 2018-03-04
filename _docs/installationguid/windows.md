@@ -1,11 +1,11 @@
 ---
-title: Windows Guid
-type: installguid
+title: Windows Guide
+type: installguide
 layout: single_markdown
 position: 1
 ---
 
-# Windows Guid
+# Windows Guide
 ## Requirements
 
 * [DownloadFamilies_2 Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
