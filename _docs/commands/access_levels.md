@@ -20,23 +20,23 @@ An account with GM level az (which is a + z) is considered to have Full Administ
 
 
 ### Worldserver character_db
-You can set the access level in the table "account_permissions": 
-![alt text](/AEWiki/images/world_icon_s.jpg "Worldserver logo")
+You can set the access level in the table "account_permissions":
+![alt text](/Wiki/images/world_icon_s.jpg "Worldserver logo")
 
 
 ## Available Levels
     b - Character bans, kicks, paralyze.
-    c - Block/allow whispers, get tickets from help queue, speak and understand all languages. 
+    c - Block/allow whispers, get tickets from help queue, speak and understand all languages.
     d - Debug, lots of advanced functions, see page.  
     e - Battlegrounds, start, stop, enter, leave.
     f - Disconnect by player, disconnect by account.
-    g - Whisper block/allow. 
+    g - Whisper block/allow.
     h - Shows help for commands.
     i - Invisible.
     j - Invincible.
     l - Lookup access.
     m - Instant teleport to starting location, char additems/removeitems
-    n - Reset rep, skills, talent and NPC commands. 
+    n - Reset rep, skills, talent and NPC commands.
     o - GameObject commands.
     p - Lists GMs online.
     q - Recall commands, list, port, add, delete.
@@ -45,7 +45,7 @@ You can set the access level in the table "account_permissions":
     t - GM flag on/off. (Adds the <gm> in name)
     u - Announcements.
     v - Summon/appear at player, worldport and warp to trigger.
-    w - Waypoint commands. 
+    w - Waypoint commands.
 
 ### Special Groups
     0 - Normal Player.
