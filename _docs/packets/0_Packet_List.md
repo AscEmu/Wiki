@@ -1,6 +1,11 @@
 ---
-layout: default
+title: 0_Packet_List
+type: packets
+layout: single_markdown
+position: 0
 ---
+
+# Packet List
 
 Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 ---------- | ---------- | ---------- | ---------- | ----------
@@ -1004,10 +1009,3 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_REPORT_PVP_AFK_RESULT](#CMSG_REPORT_PVP_AFK_RESULT) |  |  |  | 
 [CMSG_GUILD_BANKER_ACTIVATE](#CMSG_GUILD_BANKER_ACTIVATE) |  |  |  | 
 [CMSG_GUILD_BANK_QUERY_TAB](#CMSG_GUILD_BANK_QUERY_TAB) |  |  |  | 
-
-{% for packets in site.docs | sort: 'position' %}
-    {% if packets.type != 'packets' %}
-        {% continue %}
-    {% endif %}
-    {{ packets.content | markdownify }}
-{% endfor %}

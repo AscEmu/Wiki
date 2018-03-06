@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% for packets in site.docs | sort: 'position' %}
+    {% if packets.type != 'packets' %}
+        {% continue %}
+    {% endif %}
+    {{ packets.content | markdownify }}
+{% endfor %}
