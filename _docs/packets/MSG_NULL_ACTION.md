@@ -1,8 +1,8 @@
 ---
-title: _packet_example_file
+title: MSG_NULL_ACTION
 type: packets
 layout: single_markdown
 position: 0
 ---
 
-# Packet Example File
+# MSG_NULL_ACTION
