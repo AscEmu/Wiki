@@ -1,0 +1,17 @@
+---
+title: CMSG_SET_FACTION_CHEAT
+type: packets
+layout: single_markdown_in_list
+position: 295
+---
+
+# CMSG_SET_FACTION_CHEAT
+
+## Status
+
+Version | Hex | Comment
+---------- | ---------- | ---------- 
+Classic |  |  
+TBC |  |  
+WotLK |  |  
+Cata |  |  

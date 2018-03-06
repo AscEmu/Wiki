@@ -8,9 +8,10 @@ position: 1
 # MSG_NULL_ACTION
 
 ## Status
+
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic | | 
-TBC | | 
-WotLK | | 
-Cata | | 
+Classic |  |  
+TBC |  |  
+WotLK |  |  
+Cata |  |  
