@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 605
 ---
 
-# SMSG_AUCTION_LIST_RESULT
+## SMSG_AUCTION_LIST_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 884
 ---
 
-# SMSG_TITLE_EARNED
+## SMSG_TITLE_EARNED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

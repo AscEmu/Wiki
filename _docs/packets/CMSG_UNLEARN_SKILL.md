@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 515
 ---
 
-# CMSG_UNLEARN_SKILL
+## CMSG_UNLEARN_SKILL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

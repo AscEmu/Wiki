@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 191
 ---
 
-# MSG_MOVE_STOP_TURN
+## MSG_MOVE_STOP_TURN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

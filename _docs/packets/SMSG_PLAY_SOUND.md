@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 723
 ---
 
-# SMSG_PLAY_SOUND
+## SMSG_PLAY_SOUND
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

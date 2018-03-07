@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 15
 ---
 
-# SMSG_MOVE_CHARACTER_CHEAT
+## SMSG_MOVE_CHARACTER_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

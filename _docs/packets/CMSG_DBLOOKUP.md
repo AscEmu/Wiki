@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 3
 ---
 
-# CMSG_DBLOOKUP
+## CMSG_DBLOOKUP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

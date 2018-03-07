@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 261
 ---
 
-# CMSG_TEXT_EMOTE
+## CMSG_TEXT_EMOTE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

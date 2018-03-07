@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 871
 ---
 
-# CMSG_SET_LFG_COMMENT
+## CMSG_SET_LFG_COMMENT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

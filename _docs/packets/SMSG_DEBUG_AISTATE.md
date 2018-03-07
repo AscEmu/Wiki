@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 48
 ---
 
-# SMSG_DEBUG_AISTATE
+## SMSG_DEBUG_AISTATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

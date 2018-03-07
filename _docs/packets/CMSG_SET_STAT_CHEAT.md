@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 542
 ---
 
-# CMSG_SET_STAT_CHEAT
+## CMSG_SET_STAT_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

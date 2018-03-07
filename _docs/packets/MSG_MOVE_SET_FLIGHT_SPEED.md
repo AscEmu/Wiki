@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 895
 ---
 
-# MSG_MOVE_SET_FLIGHT_SPEED
+## MSG_MOVE_SET_FLIGHT_SPEED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

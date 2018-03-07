@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 403
 ---
 
-# SMSG_QUESTGIVER_QUEST_FAILED
+## SMSG_QUESTGIVER_QUEST_FAILED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

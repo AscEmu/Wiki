@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 683
 ---
 
-# MSG_TALENT_WIPE_CONFIRM
+## MSG_TALENT_WIPE_CONFIRM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

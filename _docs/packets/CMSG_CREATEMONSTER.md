@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 18
 ---
 
-# CMSG_CREATEMONSTER
+## CMSG_CREATEMONSTER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 616
 ---
 
-# SMSG_SET_PCT_SPELL_MODIFIER
+## SMSG_SET_PCT_SPELL_MODIFIER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

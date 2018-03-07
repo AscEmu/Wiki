@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 365
 ---
 
-# CMSG_DUEL_ACCEPTED
+## CMSG_DUEL_ACCEPTED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

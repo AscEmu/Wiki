@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 247
 ---
 
-# CMSG_MOVE_HOVER_ACK
+## CMSG_MOVE_HOVER_ACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

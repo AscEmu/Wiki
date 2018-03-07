@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 318
 ---
 
-# CMSG_SET_SELECTION
+## CMSG_SET_SELECTION
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 168
 ---
 
-# CMSG_CHANNEL_ANNOUNCEMENTS
+## CMSG_CHANNEL_ANNOUNCEMENTS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

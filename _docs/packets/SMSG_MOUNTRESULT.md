@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 367
 ---
 
-# SMSG_MOUNTRESULT
+## SMSG_MOUNTRESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

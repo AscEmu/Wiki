@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 244
 ---
 
-# SMSG_MOVE_NORMAL_FALL
+## SMSG_MOVE_NORMAL_FALL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

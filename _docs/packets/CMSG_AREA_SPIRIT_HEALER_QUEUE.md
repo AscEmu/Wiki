@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 740
 ---
 
-# CMSG_AREA_SPIRIT_HEALER_QUEUE
+## CMSG_AREA_SPIRIT_HEALER_QUEUE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

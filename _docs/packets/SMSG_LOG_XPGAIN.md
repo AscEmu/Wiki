@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 465
 ---
 
-# SMSG_LOG_XPGAIN
+## SMSG_LOG_XPGAIN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 251
 ---
 
-# SMSG_TRIGGER_CINEMATIC
+## SMSG_TRIGGER_CINEMATIC
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

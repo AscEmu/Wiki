@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 216
 ---
 
-# MSG_MOVE_SET_TURN_RATE_CHEAT
+## MSG_MOVE_SET_TURN_RATE_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

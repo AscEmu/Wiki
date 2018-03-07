@@ -5,11 +5,11 @@ layout: single_markdown_in_list
 position: 152
 ---
 
-# CMSG_JOIN_CHANNEL
+## CMSG_JOIN_CHANNEL
 
 Join chat channels.
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

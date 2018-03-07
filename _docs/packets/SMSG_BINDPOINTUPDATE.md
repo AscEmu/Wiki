@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 342
 ---
 
-# SMSG_BINDPOINTUPDATE
+## SMSG_BINDPOINTUPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

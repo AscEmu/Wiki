@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 436
 ---
 
-# SMSG_TRAINER_BUY_SUCCEEDED
+## SMSG_TRAINER_BUY_SUCCEEDED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

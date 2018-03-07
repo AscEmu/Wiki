@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 499
 ---
 
-# MSG_TABARDVENDOR_ACTIVATE
+## MSG_TABARDVENDOR_ACTIVATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

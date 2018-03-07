@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 270
 ---
 
-# CMSG_SWAP_INV_ITEM
+## CMSG_SWAP_INV_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

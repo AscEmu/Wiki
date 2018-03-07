@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 645
 ---
 
-# MSG_QUERY_NEXT_MAIL_TIME
+## MSG_QUERY_NEXT_MAIL_TIME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

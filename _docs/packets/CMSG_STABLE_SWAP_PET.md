@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 630
 ---
 
-# CMSG_STABLE_SWAP_PET
+## CMSG_STABLE_SWAP_PET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 811
 ---
 
-# CMSG_GMSURVEY_SUBMIT
+## CMSG_GMSURVEY_SUBMIT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

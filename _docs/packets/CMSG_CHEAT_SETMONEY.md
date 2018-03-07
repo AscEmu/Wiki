@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 37
 ---
 
-# CMSG_CHEAT_SETMONEY
+## CMSG_CHEAT_SETMONEY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 471
 ---
 
-# SMSG_RESISTLOG
+## SMSG_RESISTLOG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

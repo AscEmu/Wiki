@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 377
 ---
 
-# SMSG_PET_NAME_INVALID
+## SMSG_PET_NAME_INVALID
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

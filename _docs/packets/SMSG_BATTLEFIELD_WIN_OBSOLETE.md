@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 576
 ---
 
-# SMSG_BATTLEFIELD_WIN_OBSOLETE
+## SMSG_BATTLEFIELD_WIN_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

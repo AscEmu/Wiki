@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 292
 ---
 
-# SMSG_SET_FACTION_VISIBLE
+## SMSG_SET_FACTION_VISIBLE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

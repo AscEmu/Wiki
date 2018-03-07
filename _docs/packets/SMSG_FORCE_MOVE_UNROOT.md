@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 235
 ---
 
-# SMSG_FORCE_MOVE_UNROOT
+## SMSG_FORCE_MOVE_UNROOT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

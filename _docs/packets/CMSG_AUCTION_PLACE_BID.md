@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 603
 ---
 
-# CMSG_AUCTION_PLACE_BID
+## CMSG_AUCTION_PLACE_BID
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

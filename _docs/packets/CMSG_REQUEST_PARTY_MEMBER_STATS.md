@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 640
 ---
 
-# CMSG_REQUEST_PARTY_MEMBER_STATS
+## CMSG_REQUEST_PARTY_MEMBER_STATS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 312
 ---
 
-# SMSG_EQUIPMENT_SET_SAVED
+## SMSG_EQUIPMENT_SET_SAVED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

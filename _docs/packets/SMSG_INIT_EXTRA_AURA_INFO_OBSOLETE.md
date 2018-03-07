@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 932
 ---
 
-# SMSG_INIT_EXTRA_AURA_INFO_OBSOLETE
+## SMSG_INIT_EXTRA_AURA_INFO_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

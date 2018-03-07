@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 63
 ---
 
-# SMSG_NEW_WORLD
+## SMSG_NEW_WORLD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

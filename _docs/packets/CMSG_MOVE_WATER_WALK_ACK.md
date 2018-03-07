@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 721
 ---
 
-# CMSG_MOVE_WATER_WALK_ACK
+## CMSG_MOVE_WATER_WALK_ACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

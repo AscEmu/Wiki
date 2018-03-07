@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 666
 ---
 
-# SMSG_MEETINGSTONE_MEMBER_ADDED
+## SMSG_MEETINGSTONE_MEMBER_ADDED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

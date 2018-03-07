@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 661
 ---
 
-# CMSG_MEETINGSTONE_CHEAT
+## CMSG_MEETINGSTONE_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

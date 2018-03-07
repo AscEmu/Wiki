@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 892
 ---
 
-# CMSG_CHEAT_SET_HONOR_CURRENCY
+## CMSG_CHEAT_SET_HONOR_CURRENCY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

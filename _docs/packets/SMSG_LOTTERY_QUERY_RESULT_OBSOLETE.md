@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 822
 ---
 
-# SMSG_LOTTERY_QUERY_RESULT_OBSOLETE
+## SMSG_LOTTERY_QUERY_RESULT_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

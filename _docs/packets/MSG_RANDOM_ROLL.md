@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 508
 ---
 
-# MSG_RANDOM_ROLL
+## MSG_RANDOM_ROLL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

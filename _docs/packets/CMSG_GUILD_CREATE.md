@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 130
 ---
 
-# CMSG_GUILD_CREATE
+## CMSG_GUILD_CREATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

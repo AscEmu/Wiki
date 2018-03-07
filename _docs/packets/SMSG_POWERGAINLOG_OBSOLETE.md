@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 527
 ---
 
-# SMSG_POWERGAINLOG_OBSOLETE
+## SMSG_POWERGAINLOG_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

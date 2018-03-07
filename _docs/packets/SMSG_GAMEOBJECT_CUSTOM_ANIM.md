@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 180
 ---
 
-# SMSG_GAMEOBJECT_CUSTOM_ANIM
+## SMSG_GAMEOBJECT_CUSTOM_ANIM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 556
 ---
 
-# CMSG_GM_SUMMONMOB
+## CMSG_GM_SUMMONMOB
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

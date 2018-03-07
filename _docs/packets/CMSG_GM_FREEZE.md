@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 558
 ---
 
-# CMSG_GM_FREEZE
+## CMSG_GM_FREEZE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 395
 ---
 
-# CMSG_QUESTGIVER_COMPLETE_QUEST
+## CMSG_QUESTGIVER_COMPLETE_QUEST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

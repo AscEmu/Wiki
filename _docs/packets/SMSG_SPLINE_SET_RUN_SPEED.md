@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 767
 ---
 
-# SMSG_SPLINE_SET_RUN_SPEED
+## SMSG_SPLINE_SET_RUN_SPEED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

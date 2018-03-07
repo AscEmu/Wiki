@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 295
 ---
 
-# CMSG_SET_FACTION_CHEAT
+## CMSG_SET_FACTION_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

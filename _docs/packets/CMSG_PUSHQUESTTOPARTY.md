@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 414
 ---
 
-# CMSG_PUSHQUESTTOPARTY
+## CMSG_PUSHQUESTTOPARTY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

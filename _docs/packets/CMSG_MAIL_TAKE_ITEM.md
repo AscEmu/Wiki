@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 583
 ---
 
-# CMSG_MAIL_TAKE_ITEM
+## CMSG_MAIL_TAKE_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

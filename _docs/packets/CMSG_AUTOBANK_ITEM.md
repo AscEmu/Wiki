@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 644
 ---
 
-# CMSG_AUTOBANK_ITEM
+## CMSG_AUTOBANK_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

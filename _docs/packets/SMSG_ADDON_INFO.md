@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 752
 ---
 
-# SMSG_ADDON_INFO
+## SMSG_ADDON_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

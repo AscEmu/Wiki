@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 434
 ---
 
-# SMSG_TRAINER_LIST
+## SMSG_TRAINER_LIST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

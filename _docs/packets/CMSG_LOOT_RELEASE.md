@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 352
 ---
 
-# CMSG_LOOT_RELEASE
+## CMSG_LOOT_RELEASE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

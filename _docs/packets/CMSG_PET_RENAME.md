@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 376
 ---
 
-# CMSG_PET_RENAME
+## CMSG_PET_RENAME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

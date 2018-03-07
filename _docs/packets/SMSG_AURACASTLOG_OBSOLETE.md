@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 466
 ---
 
-# SMSG_AURACASTLOG_OBSOLETE
+## SMSG_AURACASTLOG_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

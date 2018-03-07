@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 12
 ---
 
-# SMSG_ZONE_MAP
+## SMSG_ZONE_MAP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

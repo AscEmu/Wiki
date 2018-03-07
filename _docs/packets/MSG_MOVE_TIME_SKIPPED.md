@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 794
 ---
 
-# MSG_MOVE_TIME_SKIPPED
+## MSG_MOVE_TIME_SKIPPED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

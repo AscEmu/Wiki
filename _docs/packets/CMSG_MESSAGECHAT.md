@@ -5,11 +5,11 @@ layout: single_markdown_in_list
 position: 150
 ---
 
-# CMSG_MESSAGECHAT
+## CMSG_MESSAGECHAT
 
 Send message.
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

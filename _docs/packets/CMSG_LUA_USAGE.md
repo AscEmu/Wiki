@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 804
 ---
 
-# CMSG_LUA_USAGE
+## CMSG_LUA_USAGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

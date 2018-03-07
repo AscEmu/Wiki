@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 289
 ---
 
-# SMSG_TRADE_STATUS
+## SMSG_TRADE_STATUS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

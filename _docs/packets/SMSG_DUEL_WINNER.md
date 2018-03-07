@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 364
 ---
 
-# SMSG_DUEL_WINNER
+## SMSG_DUEL_WINNER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

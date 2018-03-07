@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 9
 ---
 
-# CMSG_WORLD_TELEPORT
+## CMSG_WORLD_TELEPORT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

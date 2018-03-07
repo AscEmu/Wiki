@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 912
 ---
 
-# SMSG_OFFER_PETITION_ERROR
+## SMSG_OFFER_PETITION_ERROR
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

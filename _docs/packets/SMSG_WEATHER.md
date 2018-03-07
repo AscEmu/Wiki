@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 757
 ---
 
-# SMSG_WEATHER
+## SMSG_WEATHER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

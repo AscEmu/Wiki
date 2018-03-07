@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 121
 ---
 
-# CMSG_GROUP_SET_LEADER
+## CMSG_GROUP_SET_LEADER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

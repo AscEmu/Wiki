@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 711
 ---
 
-# SMSG_PET_ACTION_FEEDBACK
+## SMSG_PET_ACTION_FEEDBACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

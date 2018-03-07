@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 381
 ---
 
-# CMSG_GOSSIP_SELECT_OPTION
+## CMSG_GOSSIP_SELECT_OPTION
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

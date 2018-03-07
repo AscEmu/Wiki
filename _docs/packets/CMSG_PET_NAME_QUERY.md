@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 83
 ---
 
-# CMSG_PET_NAME_QUERY
+## CMSG_PET_NAME_QUERY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

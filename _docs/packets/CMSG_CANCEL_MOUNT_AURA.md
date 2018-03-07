@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 886
 ---
 
-# CMSG_CANCEL_MOUNT_AURA
+## CMSG_CANCEL_MOUNT_AURA
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

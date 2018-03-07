@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 531
 ---
 
-# SMSG_GMTICKET_GETTICKET
+## SMSG_GMTICKET_GETTICKET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

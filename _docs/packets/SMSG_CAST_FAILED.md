@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 305
 ---
 
-# SMSG_CAST_FAILED
+## SMSG_CAST_FAILED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

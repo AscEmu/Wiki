@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 50
 ---
 
-# CMSG_ADVANCE_SPAWN_TIME
+## CMSG_ADVANCE_SPAWN_TIME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

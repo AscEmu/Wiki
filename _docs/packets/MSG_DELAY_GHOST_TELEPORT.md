@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 815
 ---
 
-# MSG_DELAY_GHOST_TELEPORT
+## MSG_DELAY_GHOST_TELEPORT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

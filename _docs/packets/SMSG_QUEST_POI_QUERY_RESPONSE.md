@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 485
 ---
 
-# SMSG_QUEST_POI_QUERY_RESPONSE
+## SMSG_QUEST_POI_QUERY_RESPONSE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

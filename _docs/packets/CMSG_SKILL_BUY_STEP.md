@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 544
 ---
 
-# CMSG_SKILL_BUY_STEP
+## CMSG_SKILL_BUY_STEP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

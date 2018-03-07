@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 490
 ---
 
-# MSG_GM_SUMMON
+## MSG_GM_SUMMON
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 101
 ---
 
-# CMSG_WHOIS
+## CMSG_WHOIS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

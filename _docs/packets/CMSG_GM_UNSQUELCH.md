@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 972
 ---
 
-# CMSG_GM_UNSQUELCH
+## CMSG_GM_UNSQUELCH
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 399
 ---
 
-# CMSG_QUESTGIVER_CHOOSE_REWARD
+## CMSG_QUESTGIVER_CHOOSE_REWARD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

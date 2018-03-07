@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 596
 ---
 
-# CMSG_TOGGLE_PVP
+## CMSG_TOGGLE_PVP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

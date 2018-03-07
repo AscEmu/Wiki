@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 688
 ---
 
-# SMSG_PET_BROKEN
+## SMSG_PET_BROKEN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

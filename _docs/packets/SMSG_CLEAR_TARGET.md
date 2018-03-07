@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 960
 ---
 
-# SMSG_CLEAR_TARGET
+## SMSG_CLEAR_TARGET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

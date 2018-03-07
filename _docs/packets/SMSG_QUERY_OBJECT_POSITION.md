@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 6
 ---
 
-# SMSG_QUERY_OBJECT_POSITION
+## SMSG_QUERY_OBJECT_POSITION
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

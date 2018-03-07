@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 431
 ---
 
-# SMSG_ACTIVATETAXIREPLY
+## SMSG_ACTIVATETAXIREPLY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

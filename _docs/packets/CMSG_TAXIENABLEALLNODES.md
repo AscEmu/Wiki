@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 424
 ---
 
-# CMSG_TAXIENABLEALLNODES
+## CMSG_TAXIENABLEALLNODES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

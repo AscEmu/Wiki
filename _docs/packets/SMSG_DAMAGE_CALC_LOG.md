@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 637
 ---
 
-# SMSG_DAMAGE_CALC_LOG
+## SMSG_DAMAGE_CALC_LOG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 650
 ---
 
-# CMSG_ADD_PVP_MEDAL_CHEAT
+## CMSG_ADD_PVP_MEDAL_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

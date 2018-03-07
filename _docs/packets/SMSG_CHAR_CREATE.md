@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 59
 ---
 
-# SMSG_CHAR_CREATE
+## SMSG_CHAR_CREATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

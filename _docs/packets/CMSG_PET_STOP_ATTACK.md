@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 747
 ---
 
-# CMSG_PET_STOP_ATTACK
+## CMSG_PET_STOP_ATTACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

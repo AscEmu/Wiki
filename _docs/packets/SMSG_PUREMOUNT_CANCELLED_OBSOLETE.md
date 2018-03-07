@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 369
 ---
 
-# SMSG_PUREMOUNT_CANCELLED_OBSOLETE
+## SMSG_PUREMOUNT_CANCELLED_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

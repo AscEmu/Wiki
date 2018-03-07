@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 64
 ---
 
-# SMSG_TRANSFER_PENDING
+## SMSG_TRANSFER_PENDING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

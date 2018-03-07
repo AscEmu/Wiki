@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 435
 ---
 
-# CMSG_TRAINER_BUY_SPELL
+## CMSG_TRAINER_BUY_SPELL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 755
 ---
 
-# SMSG_PARTY_MEMBER_STATS_FULL
+## SMSG_PARTY_MEMBER_STATS_FULL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

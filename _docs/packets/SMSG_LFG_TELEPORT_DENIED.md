@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 513
 ---
 
-# SMSG_LFG_TELEPORT_DENIED
+## SMSG_LFG_TELEPORT_DENIED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

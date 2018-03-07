@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 931
 ---
 
-# SMSG_VOICE_SET_TALKER_MUTED
+## SMSG_VOICE_SET_TALKER_MUTED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

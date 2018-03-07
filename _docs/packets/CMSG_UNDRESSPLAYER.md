@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 33
 ---
 
-# CMSG_UNDRESSPLAYER
+## CMSG_UNDRESSPLAYER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 718
 ---
 
-# CMSG_REQUEST_RAID_INFO
+## CMSG_REQUEST_RAID_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

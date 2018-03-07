@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 951
 ---
 
-# SMSG_COMMENTATOR_STATE_CHANGED
+## SMSG_COMMENTATOR_STATE_CHANGED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

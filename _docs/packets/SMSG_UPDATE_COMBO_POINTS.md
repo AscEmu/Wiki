@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 926
 ---
 
-# SMSG_UPDATE_COMBO_POINTS
+## SMSG_UPDATE_COMBO_POINTS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

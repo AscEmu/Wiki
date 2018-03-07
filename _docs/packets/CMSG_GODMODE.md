@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 35
 ---
 
-# CMSG_GODMODE
+## CMSG_GODMODE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

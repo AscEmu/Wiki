@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 708
 ---
 
-# SMSG_UPDATE_WORLD_STATE
+## SMSG_UPDATE_WORLD_STATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

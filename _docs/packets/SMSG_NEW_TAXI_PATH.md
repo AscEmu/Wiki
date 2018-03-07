@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 432
 ---
 
-# SMSG_NEW_TAXI_PATH
+## SMSG_NEW_TAXI_PATH
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

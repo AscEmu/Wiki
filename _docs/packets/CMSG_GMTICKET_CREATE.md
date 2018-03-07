@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 518
 ---
 
-# CMSG_GMTICKET_CREATE
+## CMSG_GMTICKET_CREATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

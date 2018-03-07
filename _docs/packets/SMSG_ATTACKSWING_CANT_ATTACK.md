@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 330
 ---
 
-# SMSG_ATTACKSWING_CANT_ATTACK
+## SMSG_ATTACKSWING_CANT_ATTACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

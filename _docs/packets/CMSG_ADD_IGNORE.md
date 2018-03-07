@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 109
 ---
 
-# CMSG_ADD_IGNORE
+## CMSG_ADD_IGNORE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

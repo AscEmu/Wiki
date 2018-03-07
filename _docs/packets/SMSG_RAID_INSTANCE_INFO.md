@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 717
 ---
 
-# SMSG_RAID_INSTANCE_INFO
+## SMSG_RAID_INSTANCE_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

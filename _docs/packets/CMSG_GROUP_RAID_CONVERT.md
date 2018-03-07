@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 655
 ---
 
-# CMSG_GROUP_RAID_CONVERT
+## CMSG_GROUP_RAID_CONVERT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

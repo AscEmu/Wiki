@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 175
 ---
 
-# SMSG_READ_ITEM_OK
+## SMSG_READ_ITEM_OK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 744
 ---
 
-# CMSG_WARDEN_DATA
+## CMSG_WARDEN_DATA
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

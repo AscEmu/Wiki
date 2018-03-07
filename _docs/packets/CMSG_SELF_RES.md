@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 692
 ---
 
-# CMSG_SELF_RES
+## CMSG_SELF_RES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

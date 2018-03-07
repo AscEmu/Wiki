@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 680
 ---
 
-# SMSG_GAMEOBJECT_RESET_STATE
+## SMSG_GAMEOBJECT_RESET_STATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 328
 ---
 
-# SMSG_ATTACKSWING_NOTSTANDING
+## SMSG_ATTACKSWING_NOTSTANDING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

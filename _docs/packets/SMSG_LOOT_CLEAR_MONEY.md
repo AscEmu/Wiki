@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 358
 ---
 
-# SMSG_LOOT_CLEAR_MONEY
+## SMSG_LOOT_CLEAR_MONEY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

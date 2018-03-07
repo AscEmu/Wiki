@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 909
 ---
 
-# CMSG_REALM_SPLIT
+## CMSG_REALM_SPLIT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

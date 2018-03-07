@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 263
 ---
 
-# CMSG_AUTOEQUIP_GROUND_ITEM
+## CMSG_AUTOEQUIP_GROUND_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 266
 ---
 
-# CMSG_STORE_LOOT_IN_SLOT
+## CMSG_STORE_LOOT_IN_SLOT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

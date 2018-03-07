@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 678
 ---
 
-# SMSG_SET_FORCED_REACTIONS
+## SMSG_SET_FORCED_REACTIONS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

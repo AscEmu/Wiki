@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 185
 ---
 
-# MSG_MOVE_START_STRAFE_LEFT
+## MSG_MOVE_START_STRAFE_LEFT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

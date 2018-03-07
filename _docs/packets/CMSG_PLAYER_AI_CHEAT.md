@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 621
 ---
 
-# CMSG_PLAYER_AI_CHEAT
+## CMSG_PLAYER_AI_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 609
 ---
 
-# SMSG_PROCRESIST
+## SMSG_PROCRESIST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

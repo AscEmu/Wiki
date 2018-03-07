@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 66
 ---
 
-# SMSG_CHARACTER_LOGIN_FAILED
+## SMSG_CHARACTER_LOGIN_FAILED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

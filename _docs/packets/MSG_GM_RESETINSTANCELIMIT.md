@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 829
 ---
 
-# MSG_GM_RESETINSTANCELIMIT
+## MSG_GM_RESETINSTANCELIMIT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 133
 ---
 
-# CMSG_GUILD_ACCEPT
+## CMSG_GUILD_ACCEPT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 534
 ---
 
-# SMSG_GAMEOBJECT_DESPAWN_ANIM
+## SMSG_GAMEOBJECT_DESPAWN_ANIM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

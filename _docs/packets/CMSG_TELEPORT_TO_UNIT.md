@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 10
 ---
 
-# CMSG_TELEPORT_TO_UNIT
+## CMSG_TELEPORT_TO_UNIT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 96
 ---
 
-# SMSG_GAMEOBJECT_QUERY_RESPONSE
+## SMSG_GAMEOBJECT_QUERY_RESPONSE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

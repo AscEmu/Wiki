@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 873
 ---
 
-# SMSG_LFG_UPDATE_PARTY
+## SMSG_LFG_UPDATE_PARTY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

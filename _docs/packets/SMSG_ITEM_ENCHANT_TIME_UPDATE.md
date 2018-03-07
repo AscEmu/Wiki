@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 492
 ---
 
-# SMSG_ITEM_ENCHANT_TIME_UPDATE
+## SMSG_ITEM_ENCHANT_TIME_UPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 139
 ---
 
-# SMSG_GUILD_ROSTER
+## SMSG_GUILD_ROSTER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 691
 ---
 
-# CMSG_SERVER_BROADCAST
+## CMSG_SERVER_BROADCAST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

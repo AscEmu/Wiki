@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 687
 ---
 
-# SMSG_MONSTER_MOVE_TRANSPORT
+## SMSG_MONSTER_MOVE_TRANSPORT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

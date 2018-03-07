@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 999
 ---
 
-# CMSG_GUILD_BANKER_ACTIVATE
+## CMSG_GUILD_BANKER_ACTIVATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

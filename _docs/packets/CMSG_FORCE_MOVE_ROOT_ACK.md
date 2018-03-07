@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 234
 ---
 
-# CMSG_FORCE_MOVE_ROOT_ACK
+## CMSG_FORCE_MOVE_ROOT_ACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 359
 ---
 
-# SMSG_ITEM_PUSH_RESULT
+## SMSG_ITEM_PUSH_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

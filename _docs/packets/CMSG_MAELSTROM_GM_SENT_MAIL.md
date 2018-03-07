@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 918
 ---
 
-# CMSG_MAELSTROM_GM_SENT_MAIL
+## CMSG_MAELSTROM_GM_SENT_MAIL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

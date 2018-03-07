@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 31
 ---
 
-# SMSG_REFER_A_FRIEND_EXPIRED
+## SMSG_REFER_A_FRIEND_EXPIRED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

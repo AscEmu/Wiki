@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 487
 ---
 
-# CMSG_GM_INVIS
+## CMSG_GM_INVIS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

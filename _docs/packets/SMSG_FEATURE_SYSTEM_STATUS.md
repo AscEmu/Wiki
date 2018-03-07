@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 970
 ---
 
-# SMSG_FEATURE_SYSTEM_STATUS
+## SMSG_FEATURE_SYSTEM_STATUS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

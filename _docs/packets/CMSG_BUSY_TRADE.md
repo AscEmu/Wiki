@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 281
 ---
 
-# CMSG_BUSY_TRADE
+## CMSG_BUSY_TRADE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 425
 ---
 
-# CMSG_TAXISHOWNODES
+## CMSG_TAXISHOWNODES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

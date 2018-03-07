@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 635
 ---
 
-# CMSG_FAR_SIGHT
+## CMSG_FAR_SIGHT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

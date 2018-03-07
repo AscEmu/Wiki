@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 301
 ---
 
-# SMSG_SUPERCEDED_SPELL
+## SMSG_SUPERCEDED_SPELL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

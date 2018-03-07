@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 715
 ---
 
-# CMSG_MOVE_FALL_RESET
+## CMSG_MOVE_FALL_RESET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

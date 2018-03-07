@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 34
 ---
 
-# CMSG_BEASTMASTER
+## CMSG_BEASTMASTER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

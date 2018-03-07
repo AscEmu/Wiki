@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 631
 ---
 
-# MSG_QUEST_PUSH_RESULT
+## MSG_QUEST_PUSH_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

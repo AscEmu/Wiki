@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 716
 ---
 
-# SMSG_UPDATE_LAST_INSTANCE_CREATED
+## SMSG_UPDATE_LAST_INSTANCE_CREATED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

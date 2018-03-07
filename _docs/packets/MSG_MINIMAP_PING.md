@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 470
 ---
 
-# MSG_MINIMAP_PING
+## MSG_MINIMAP_PING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

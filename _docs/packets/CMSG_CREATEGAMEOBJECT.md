@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 21
 ---
 
-# CMSG_CREATEGAMEOBJECT
+## CMSG_CREATEGAMEOBJECT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 766
 ---
 
-# SMSG_CHAT_RESTRICTED
+## SMSG_CHAT_RESTRICTED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

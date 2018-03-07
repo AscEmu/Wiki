@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 298
 ---
 
-# SMSG_ACTION_BUTTONS
+## SMSG_ACTION_BUTTONS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

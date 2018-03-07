@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 332
 ---
 
-# SMSG_VICTIMSTATEUPDATE_OBSOLETE
+## SMSG_VICTIMSTATEUPDATE_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

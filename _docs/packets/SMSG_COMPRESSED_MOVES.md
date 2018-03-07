@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 764
 ---
 
-# SMSG_COMPRESSED_MOVES
+## SMSG_COMPRESSED_MOVES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

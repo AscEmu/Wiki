@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 992
 ---
 
-# MSG_NOTIFY_PARTY_SQUELCH
+## MSG_NOTIFY_PARTY_SQUELCH
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

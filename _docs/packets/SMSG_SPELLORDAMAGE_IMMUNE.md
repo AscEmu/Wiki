@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 612
 ---
 
-# SMSG_SPELLORDAMAGE_IMMUNE
+## SMSG_SPELLORDAMAGE_IMMUNE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

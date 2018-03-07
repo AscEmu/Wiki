@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 827
 ---
 
-# SMSG_DEFENSE_MESSAGE
+## SMSG_DEFENSE_MESSAGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 501
 ---
 
-# CMSG_ZONEUPDATE
+## CMSG_ZONEUPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

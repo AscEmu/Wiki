@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 319
 ---
 
-# CMSG_EQUIPMENT_SET_DELETE
+## CMSG_EQUIPMENT_SET_DELETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

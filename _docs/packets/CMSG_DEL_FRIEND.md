@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 107
 ---
 
-# CMSG_DEL_FRIEND
+## CMSG_DEL_FRIEND
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

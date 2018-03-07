@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 401
 ---
 
-# CMSG_QUESTGIVER_CANCEL
+## CMSG_QUESTGIVER_CANCEL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

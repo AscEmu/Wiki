@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 275
 ---
 
-# SMSG_INVENTORY_CHANGE_FAILURE
+## SMSG_INVENTORY_CHANGE_FAILURE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

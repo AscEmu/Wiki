@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 103
 ---
 
-# CMSG_CONTACT_LIST
+## CMSG_CONTACT_LIST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

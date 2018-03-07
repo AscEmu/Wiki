@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 505
 ---
 
-# SMSG_EXPLORATION_EXPERIENCE
+## SMSG_EXPLORATION_EXPERIENCE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

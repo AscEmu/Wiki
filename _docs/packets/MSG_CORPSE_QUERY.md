@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 535
 ---
 
-# MSG_CORPSE_QUERY
+## MSG_CORPSE_QUERY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

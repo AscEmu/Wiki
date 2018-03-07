@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 659
 ---
 
-# CMSG_MEETINGSTONE_JOIN
+## CMSG_MEETINGSTONE_JOIN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

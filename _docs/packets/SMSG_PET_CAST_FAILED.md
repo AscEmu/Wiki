@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 313
 ---
 
-# SMSG_PET_CAST_FAILED
+## SMSG_PET_CAST_FAILED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

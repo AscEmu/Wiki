@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 489
 ---
 
-# MSG_GM_BIND_OTHER
+## MSG_GM_BIND_OTHER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

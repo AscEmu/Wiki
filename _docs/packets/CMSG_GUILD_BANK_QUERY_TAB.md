@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 1000
 ---
 
-# CMSG_GUILD_BANK_QUERY_TAB
+## CMSG_GUILD_BANK_QUERY_TAB
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

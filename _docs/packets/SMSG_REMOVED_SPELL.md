@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 516
 ---
 
-# SMSG_REMOVED_SPELL
+## SMSG_REMOVED_SPELL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 523
 ---
 
-# CMSG_REQUEST_ACCOUNT_DATA
+## CMSG_REQUEST_ACCOUNT_DATA
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

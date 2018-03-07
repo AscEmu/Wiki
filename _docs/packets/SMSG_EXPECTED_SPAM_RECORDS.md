@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 819
 ---
 
-# SMSG_EXPECTED_SPAM_RECORDS
+## SMSG_EXPECTED_SPAM_RECORDS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

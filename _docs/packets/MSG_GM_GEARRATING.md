@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 949
 ---
 
-# MSG_GM_GEARRATING
+## MSG_GM_GEARRATING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

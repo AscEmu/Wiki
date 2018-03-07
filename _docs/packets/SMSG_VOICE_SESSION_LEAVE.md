@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 928
 ---
 
-# SMSG_VOICE_SESSION_LEAVE
+## SMSG_VOICE_SESSION_LEAVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

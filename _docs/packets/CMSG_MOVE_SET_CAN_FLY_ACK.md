@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 838
 ---
 
-# CMSG_MOVE_SET_CAN_FLY_ACK
+## CMSG_MOVE_SET_CAN_FLY_ACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

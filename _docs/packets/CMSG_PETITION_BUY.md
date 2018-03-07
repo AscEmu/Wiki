@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 446
 ---
 
-# CMSG_PETITION_BUY
+## CMSG_PETITION_BUY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

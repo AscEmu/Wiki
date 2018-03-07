@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 222
 ---
 
-# SMSG_MONSTER_MOVE
+## SMSG_MONSTER_MOVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

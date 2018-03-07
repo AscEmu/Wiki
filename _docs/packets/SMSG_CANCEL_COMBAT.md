@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 335
 ---
 
-# SMSG_CANCEL_COMBAT
+## SMSG_CANCEL_COMBAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

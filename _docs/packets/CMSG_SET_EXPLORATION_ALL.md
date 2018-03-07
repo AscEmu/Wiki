@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 796
 ---
 
-# CMSG_SET_EXPLORATION_ALL
+## CMSG_SET_EXPLORATION_ALL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

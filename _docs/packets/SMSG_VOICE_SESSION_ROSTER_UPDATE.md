@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 927
 ---
 
-# SMSG_VOICE_SESSION_ROSTER_UPDATE
+## SMSG_VOICE_SESSION_ROSTER_UPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 664
 ---
 
-# SMSG_MEETINGSTONE_COMPLETE
+## SMSG_MEETINGSTONE_COMPLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

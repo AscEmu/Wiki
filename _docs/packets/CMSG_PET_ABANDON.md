@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 375
 ---
 
-# CMSG_PET_ABANDON
+## CMSG_PET_ABANDON
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

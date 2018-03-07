@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 360
 ---
 
-# SMSG_DUEL_REQUESTED
+## SMSG_DUEL_REQUESTED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 891
 ---
 
-# SMSG_FORCED_DEATH_UPDATE
+## SMSG_FORCED_DEATH_UPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

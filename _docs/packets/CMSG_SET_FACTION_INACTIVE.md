@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 792
 ---
 
-# CMSG_SET_FACTION_INACTIVE
+## CMSG_SET_FACTION_INACTIVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 834
 ---
 
-# MSG_MOVE_START_SWIM_CHEAT
+## MSG_MOVE_START_SWIM_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

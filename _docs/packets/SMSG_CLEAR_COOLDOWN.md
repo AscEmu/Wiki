@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 479
 ---
 
-# SMSG_CLEAR_COOLDOWN
+## SMSG_CLEAR_COOLDOWN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

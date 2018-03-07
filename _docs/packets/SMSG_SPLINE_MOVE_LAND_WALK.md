@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 779
 ---
 
-# SMSG_SPLINE_MOVE_LAND_WALK
+## SMSG_SPLINE_MOVE_LAND_WALK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

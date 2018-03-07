@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 776
 ---
 
-# SMSG_SPLINE_MOVE_SET_HOVER
+## SMSG_SPLINE_MOVE_SET_HOVER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

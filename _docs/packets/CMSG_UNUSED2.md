@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 321
 ---
 
-# CMSG_UNUSED2
+## CMSG_UNUSED2
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

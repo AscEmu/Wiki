@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 730
 ---
 
-# CMSG_MOVE_STOP_SWIM_CHEAT
+## CMSG_MOVE_STOP_SWIM_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

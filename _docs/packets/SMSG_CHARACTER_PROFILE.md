@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 825
 ---
 
-# SMSG_CHARACTER_PROFILE
+## SMSG_CHARACTER_PROFILE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

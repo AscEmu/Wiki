@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 788
 ---
 
-# SMSG_SET_FACTION_ATWAR
+## SMSG_SET_FACTION_ATWAR
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 978
 ---
 
-# CMSG_TARGET_SCRIPT_CAST
+## CMSG_TARGET_SCRIPT_CAST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 260
 ---
 
-# SMSG_EMOTE
+## SMSG_EMOTE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

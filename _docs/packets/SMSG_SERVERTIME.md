@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 74
 ---
 
-# SMSG_SERVERTIME
+## SMSG_SERVERTIME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

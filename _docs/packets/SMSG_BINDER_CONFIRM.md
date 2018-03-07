@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 748
 ---
 
-# SMSG_BINDER_CONFIRM
+## SMSG_BINDER_CONFIRM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

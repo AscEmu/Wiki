@@ -5,11 +5,11 @@ layout: single_markdown_in_list
 position: 99
 ---
 
-# CMSG_WHO
+## CMSG_WHO
 
 Called by showing who is online list.
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

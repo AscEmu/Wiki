@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 16
 ---
 
-# CMSG_RECHARGE
+## CMSG_RECHARGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

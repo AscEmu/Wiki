@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 134
 ---
 
-# CMSG_GUILD_DECLINE
+## CMSG_GUILD_DECLINE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

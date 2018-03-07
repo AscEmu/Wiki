@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 890
 ---
 
-# CMSG_CANCEL_TEMP_ENCHANTMENT
+## CMSG_CANCEL_TEMP_ENCHANTMENT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

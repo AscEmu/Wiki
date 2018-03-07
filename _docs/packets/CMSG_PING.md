@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 477
 ---
 
-# CMSG_PING
+## CMSG_PING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

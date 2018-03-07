@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 346
 ---
 
-# SMSG_CLIENT_CONTROL_UPDATE
+## SMSG_CLIENT_CONTROL_UPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 880
 ---
 
-# SMSG_LFG_PLAYER_INFO
+## SMSG_LFG_PLAYER_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

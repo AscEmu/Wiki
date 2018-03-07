@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 181
 ---
 
-# CMSG_AREATRIGGER
+## CMSG_AREATRIGGER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 841
 ---
 
-# CMSG_ARENA_TEAM_CREATE
+## CMSG_ARENA_TEAM_CREATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

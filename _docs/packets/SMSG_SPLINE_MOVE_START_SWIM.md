@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 780
 ---
 
-# SMSG_SPLINE_MOVE_START_SWIM
+## SMSG_SPLINE_MOVE_START_SWIM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

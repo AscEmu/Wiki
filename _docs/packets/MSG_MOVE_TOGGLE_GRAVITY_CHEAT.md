@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 686
 ---
 
-# MSG_MOVE_TOGGLE_GRAVITY_CHEAT
+## MSG_MOVE_TOGGLE_GRAVITY_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

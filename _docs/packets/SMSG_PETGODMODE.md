@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 30
 ---
 
-# SMSG_PETGODMODE
+## SMSG_PETGODMODE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 610
 ---
 
-# SMSG_STANDSTATE_CHANGE_FAILURE_OBSOLETE
+## SMSG_STANDSTATE_CHANGE_FAILURE_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

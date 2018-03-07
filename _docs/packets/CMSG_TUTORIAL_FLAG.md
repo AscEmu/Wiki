@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 255
 ---
 
-# CMSG_TUTORIAL_FLAG
+## CMSG_TUTORIAL_FLAG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

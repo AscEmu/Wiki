@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 302
 ---
 
-# CMSG_NEW_SPELL_SLOT
+## CMSG_NEW_SPELL_SLOT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

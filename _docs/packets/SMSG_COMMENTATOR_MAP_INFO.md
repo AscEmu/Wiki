@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 953
 ---
 
-# SMSG_COMMENTATOR_MAP_INFO
+## SMSG_COMMENTATOR_MAP_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

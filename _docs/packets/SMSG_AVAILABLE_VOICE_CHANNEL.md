@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 987
 ---
 
-# SMSG_AVAILABLE_VOICE_CHANNEL
+## SMSG_AVAILABLE_VOICE_CHANNEL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

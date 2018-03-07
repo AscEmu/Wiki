@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 735
 ---
 
-# SMSG_FORCE_TURN_RATE_CHANGE
+## SMSG_FORCE_TURN_RATE_CHANGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

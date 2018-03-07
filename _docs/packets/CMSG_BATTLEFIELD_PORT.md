@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 726
 ---
 
-# CMSG_BATTLEFIELD_PORT
+## CMSG_BATTLEFIELD_PORT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

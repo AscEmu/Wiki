@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 239
 ---
 
-# MSG_MOVE_HEARTBEAT
+## MSG_MOVE_HEARTBEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

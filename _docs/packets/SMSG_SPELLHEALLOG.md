@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 337
 ---
 
-# SMSG_SPELLHEALLOG
+## SMSG_SPELLHEALLOG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

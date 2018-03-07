@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 483
 ---
 
-# SMSG_SPELL_DELAYED
+## SMSG_SPELL_DELAYED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

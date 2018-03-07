@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 910
 ---
 
-# CMSG_MOVE_CHNG_TRANSPORT
+## CMSG_MOVE_CHNG_TRANSPORT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

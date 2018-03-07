@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 75
 ---
 
-# CMSG_PLAYER_LOGOUT
+## CMSG_PLAYER_LOGOUT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

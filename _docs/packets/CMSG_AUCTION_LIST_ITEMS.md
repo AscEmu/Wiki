@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 601
 ---
 
-# CMSG_AUCTION_LIST_ITEMS
+## CMSG_AUCTION_LIST_ITEMS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

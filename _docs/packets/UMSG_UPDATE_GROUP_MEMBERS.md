@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 129
 ---
 
-# UMSG_UPDATE_GROUP_MEMBERS
+## UMSG_UPDATE_GROUP_MEMBERS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

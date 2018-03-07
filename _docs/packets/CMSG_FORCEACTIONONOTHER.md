@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 26
 ---
 
-# CMSG_FORCEACTIONONOTHER
+## CMSG_FORCEACTIONONOTHER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

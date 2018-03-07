@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 498
 ---
 
-# MSG_SAVE_GUILD_EMBLEM
+## MSG_SAVE_GUILD_EMBLEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

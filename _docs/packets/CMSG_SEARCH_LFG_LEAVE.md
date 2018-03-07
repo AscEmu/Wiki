@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 864
 ---
 
-# CMSG_SEARCH_LFG_LEAVE
+## CMSG_SEARCH_LFG_LEAVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

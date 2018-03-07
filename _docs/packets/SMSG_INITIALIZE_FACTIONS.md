@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 291
 ---
 
-# SMSG_INITIALIZE_FACTIONS
+## SMSG_INITIALIZE_FACTIONS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
