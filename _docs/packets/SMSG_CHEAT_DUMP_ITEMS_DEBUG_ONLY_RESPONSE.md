@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 924
 ---
 
-# SMSG_CHEAT_DUMP_ITEMS_DEBUG_ONLY_RESPONSE
+## SMSG_CHEAT_DUMP_ITEMS_DEBUG_ONLY_RESPONSE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

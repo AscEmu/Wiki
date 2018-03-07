@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 690
 ---
 
-# MSG_MOVE_WATER_WALK
+## MSG_MOVE_WATER_WALK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

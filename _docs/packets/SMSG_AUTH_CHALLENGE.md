@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 493
 ---
 
-# SMSG_AUTH_CHALLENGE
+## SMSG_AUTH_CHALLENGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

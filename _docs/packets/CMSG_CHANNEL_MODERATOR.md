@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 160
 ---
 
-# CMSG_CHANNEL_MODERATOR
+## CMSG_CHANNEL_MODERATOR
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

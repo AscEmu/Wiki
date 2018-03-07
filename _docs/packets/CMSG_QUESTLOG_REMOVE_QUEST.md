@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 405
 ---
 
-# CMSG_QUESTLOG_REMOVE_QUEST
+## CMSG_QUESTLOG_REMOVE_QUEST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 853
 ---
 
-# CMSG_ARENA_TEAM_REMOVE
+## CMSG_ARENA_TEAM_REMOVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

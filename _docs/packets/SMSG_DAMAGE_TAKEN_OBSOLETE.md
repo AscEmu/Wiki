@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 334
 ---
 
-# SMSG_DAMAGE_TAKEN_OBSOLETE
+## SMSG_DAMAGE_TAKEN_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 384
 ---
 
-# CMSG_NPC_TEXT_QUERY
+## CMSG_NPC_TEXT_QUERY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

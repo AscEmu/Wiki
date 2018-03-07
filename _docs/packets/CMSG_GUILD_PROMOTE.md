@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 140
 ---
 
-# CMSG_GUILD_PROMOTE
+## CMSG_GUILD_PROMOTE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

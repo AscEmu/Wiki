@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 231
 ---
 
-# SMSG_FORCE_SWIM_SPEED_CHANGE
+## SMSG_FORCE_SWIM_SPEED_CHANGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

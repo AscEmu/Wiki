@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 672
 ---
 
-# SMSG_LOOT_ROLL_WON
+## SMSG_LOOT_ROLL_WON
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

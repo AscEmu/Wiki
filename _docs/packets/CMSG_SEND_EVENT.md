@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 46
 ---
 
-# CMSG_SEND_EVENT
+## CMSG_SEND_EVENT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

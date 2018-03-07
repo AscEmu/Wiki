@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 674
 ---
 
-# SMSG_LOOT_START_ROLL
+## SMSG_LOOT_START_ROLL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

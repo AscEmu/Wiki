@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 790
 ---
 
-# CMSG_DEBUG_ACTIONS_START
+## CMSG_DEBUG_ACTIONS_START
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

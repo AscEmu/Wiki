@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 713
 ---
 
-# SMSG_CHAR_RENAME
+## SMSG_CHAR_RENAME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

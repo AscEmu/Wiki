@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 702
 ---
 
-# SMSG_DURABILITY_DAMAGE_DEATH
+## SMSG_DURABILITY_DAMAGE_DEATH
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

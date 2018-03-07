@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 592
 ---
 
-# SMSG_SPELLDAMAGESHIELD
+## SMSG_SPELLDAMAGESHIELD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

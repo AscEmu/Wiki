@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 554
 ---
 
-# CMSG_GM_REVEALTO
+## CMSG_GM_REVEALTO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

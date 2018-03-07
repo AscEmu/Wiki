@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 571
 ---
 
-# CMSG_GET_MAIL_LIST
+## CMSG_GET_MAIL_LIST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

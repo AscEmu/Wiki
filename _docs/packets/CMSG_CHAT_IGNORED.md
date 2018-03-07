@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 550
 ---
 
-# CMSG_CHAT_IGNORED
+## CMSG_CHAT_IGNORED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

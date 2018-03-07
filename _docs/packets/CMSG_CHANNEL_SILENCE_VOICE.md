@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 973
 ---
 
-# CMSG_CHANNEL_SILENCE_VOICE
+## CMSG_CHANNEL_SILENCE_VOICE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

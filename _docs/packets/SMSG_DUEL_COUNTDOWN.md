@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 696
 ---
 
-# SMSG_DUEL_COUNTDOWN
+## SMSG_DUEL_COUNTDOWN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

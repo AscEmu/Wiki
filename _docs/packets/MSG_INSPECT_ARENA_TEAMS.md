@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 888
 ---
 
-# MSG_INSPECT_ARENA_TEAMS
+## MSG_INSPECT_ARENA_TEAMS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

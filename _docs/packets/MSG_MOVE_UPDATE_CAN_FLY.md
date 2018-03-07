@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 942
 ---
 
-# MSG_MOVE_UPDATE_CAN_FLY
+## MSG_MOVE_UPDATE_CAN_FLY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 814
 ---
 
-# SMSG_CHAT_PLAYER_AMBIGUOUS
+## SMSG_CHAT_PLAYER_AMBIGUOUS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

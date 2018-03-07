@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 153
 ---
 
-# CMSG_LEAVE_CHANNEL
+## CMSG_LEAVE_CHANNEL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 386
 ---
 
-# SMSG_NPC_WONT_TALK
+## SMSG_NPC_WONT_TALK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

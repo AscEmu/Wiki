@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 543
 ---
 
-# SMSG_SET_REST_START_OBSOLETE
+## SMSG_SET_REST_START_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

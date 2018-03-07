@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 789
 ---
 
-# SMSG_GAMETIMEBIAS_SET
+## SMSG_GAMETIMEBIAS_SET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

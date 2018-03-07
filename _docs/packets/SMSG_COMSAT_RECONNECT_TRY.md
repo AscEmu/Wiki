@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 993
 ---
 
-# SMSG_COMSAT_RECONNECT_TRY
+## SMSG_COMSAT_RECONNECT_TRY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

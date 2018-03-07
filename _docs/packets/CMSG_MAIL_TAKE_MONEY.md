@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 582
 ---
 
-# CMSG_MAIL_TAKE_MONEY
+## CMSG_MAIL_TAKE_MONEY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

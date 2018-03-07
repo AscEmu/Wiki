@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 965
 ---
 
-# SMSG_CHEAT_PLAYER_LOOKUP
+## SMSG_CHEAT_PLAYER_LOOKUP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

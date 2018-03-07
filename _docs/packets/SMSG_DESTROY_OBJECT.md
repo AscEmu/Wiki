@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 171
 ---
 
-# SMSG_DESTROY_OBJECT
+## SMSG_DESTROY_OBJECT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

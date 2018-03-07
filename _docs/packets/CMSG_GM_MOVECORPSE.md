@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 557
 ---
 
-# CMSG_GM_MOVECORPSE
+## CMSG_GM_MOVECORPSE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

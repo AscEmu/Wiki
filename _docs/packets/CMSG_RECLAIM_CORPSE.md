@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 467
 ---
 
-# CMSG_RECLAIM_CORPSE
+## CMSG_RECLAIM_CORPSE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

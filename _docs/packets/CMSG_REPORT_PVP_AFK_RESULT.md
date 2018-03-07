@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 998
 ---
 
-# CMSG_REPORT_PVP_AFK_RESULT
+## CMSG_REPORT_PVP_AFK_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

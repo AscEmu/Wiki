@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 618
 ---
 
-# SMSG_CORPSE_RECLAIM_DELAY
+## SMSG_CORPSE_RECLAIM_DELAY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

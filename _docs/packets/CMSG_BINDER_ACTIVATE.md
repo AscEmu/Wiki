@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 438
 ---
 
-# CMSG_BINDER_ACTIVATE
+## CMSG_BINDER_ACTIVATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

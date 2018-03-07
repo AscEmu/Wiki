@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 67
 ---
 
-# SMSG_LOGIN_SETTIMESPEED
+## SMSG_LOGIN_SETTIMESPEED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

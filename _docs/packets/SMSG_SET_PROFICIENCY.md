@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 296
 ---
 
-# SMSG_SET_PROFICIENCY
+## SMSG_SET_PROFICIENCY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

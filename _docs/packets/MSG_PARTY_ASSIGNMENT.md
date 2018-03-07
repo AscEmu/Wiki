@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 911
 ---
 
-# MSG_PARTY_ASSIGNMENT
+## MSG_PARTY_ASSIGNMENT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

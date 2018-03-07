@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 785
 ---
 
-# MSG_GM_DESTROY_CORPSE
+## MSG_GM_DESTROY_CORPSE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 457
 ---
 
-# SMSG_FISH_NOT_HOOKED
+## SMSG_FISH_NOT_HOOKED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

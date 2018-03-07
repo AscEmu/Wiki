@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 178
 ---
 
-# CMSG_GAMEOBJ_USE
+## CMSG_GAMEOBJ_USE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

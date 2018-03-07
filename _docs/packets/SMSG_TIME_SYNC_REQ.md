@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 913
 ---
 
-# SMSG_TIME_SYNC_REQ
+## SMSG_TIME_SYNC_REQ
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

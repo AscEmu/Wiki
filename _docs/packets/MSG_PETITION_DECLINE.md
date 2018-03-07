@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 451
 ---
 
-# MSG_PETITION_DECLINE
+## MSG_PETITION_DECLINE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

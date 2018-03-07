@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 669
 ---
 
-# SMSG_CANCEL_AUTO_REPEAT
+## SMSG_CANCEL_AUTO_REPEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

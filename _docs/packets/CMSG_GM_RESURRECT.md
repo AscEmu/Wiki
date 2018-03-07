@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 555
 ---
 
-# CMSG_GM_RESURRECT
+## CMSG_GM_RESURRECT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

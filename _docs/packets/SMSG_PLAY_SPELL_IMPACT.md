@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 504
 ---
 
-# SMSG_PLAY_SPELL_IMPACT
+## SMSG_PLAY_SPELL_IMPACT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 371
 ---
 
-# SMSG_MOUNTSPECIAL_ANIM
+## SMSG_MOUNTSPECIAL_ANIM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

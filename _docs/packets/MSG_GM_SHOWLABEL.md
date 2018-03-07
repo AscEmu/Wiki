@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 496
 ---
 
-# MSG_GM_SHOWLABEL
+## MSG_GM_SHOWLABEL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

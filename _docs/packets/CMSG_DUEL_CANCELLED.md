@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 366
 ---
 
-# CMSG_DUEL_CANCELLED
+## CMSG_DUEL_CANCELLED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

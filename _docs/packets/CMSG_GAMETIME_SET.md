@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 69
 ---
 
-# CMSG_GAMETIME_SET
+## CMSG_GAMETIME_SET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

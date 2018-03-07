@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 761
 ---
 
-# CMSG_MINIGAME_MOVE
+## CMSG_MINIGAME_MOVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

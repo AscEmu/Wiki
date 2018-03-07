@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 331
 ---
 
-# SMSG_ATTACKERSTATEUPDATE
+## SMSG_ATTACKERSTATEUPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 378
 ---
 
-# SMSG_PET_SPELLS
+## SMSG_PET_SPELLS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

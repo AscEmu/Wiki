@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 521
 ---
 
-# SMSG_GMTICKET_UPDATETEXT
+## SMSG_GMTICKET_UPDATETEXT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

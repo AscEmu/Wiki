@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 528
 ---
 
-# CMSG_GM_TEACH
+## CMSG_GM_TEACH
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

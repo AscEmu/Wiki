@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 828
 ---
 
-# SMSG_INSTANCE_DIFFICULTY
+## SMSG_INSTANCE_DIFFICULTY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

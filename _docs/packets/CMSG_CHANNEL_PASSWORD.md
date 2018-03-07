@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 157
 ---
 
-# CMSG_CHANNEL_PASSWORD
+## CMSG_CHANNEL_PASSWORD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

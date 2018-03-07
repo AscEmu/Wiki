@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 802
 ---
 
-# MSG_RAID_TARGET_UPDATE
+## MSG_RAID_TARGET_UPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

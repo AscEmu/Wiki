@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 905
 ---
 
-# SMSG_FLIGHT_SPLINE_SYNC
+## SMSG_FLIGHT_SPLINE_SYNC
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 704
 ---
 
-# CMSG_SET_ACTIONBAR_TOGGLES
+## CMSG_SET_ACTIONBAR_TOGGLES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

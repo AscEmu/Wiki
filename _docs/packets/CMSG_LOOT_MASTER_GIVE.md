@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 676
 ---
 
-# CMSG_LOOT_MASTER_GIVE
+## CMSG_LOOT_MASTER_GIVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

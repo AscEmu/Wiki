@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 962
 ---
 
-# SMSG_CROSSED_INEBRIATION_THRESHOLD
+## SMSG_CROSSED_INEBRIATION_THRESHOLD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

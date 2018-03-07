@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 433
 ---
 
-# CMSG_TRAINER_LIST
+## CMSG_TRAINER_LIST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

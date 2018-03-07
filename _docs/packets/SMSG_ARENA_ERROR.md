@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 887
 ---
 
-# SMSG_ARENA_ERROR
+## SMSG_ARENA_ERROR
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

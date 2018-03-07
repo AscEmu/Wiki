@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 252
 ---
 
-# CMSG_NEXT_CINEMATIC_CAMERA
+## CMSG_NEXT_CINEMATIC_CAMERA
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

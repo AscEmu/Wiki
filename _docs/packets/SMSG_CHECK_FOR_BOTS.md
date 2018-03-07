@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 22
 ---
 
-# SMSG_CHECK_FOR_BOTS
+## SMSG_CHECK_FOR_BOTS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

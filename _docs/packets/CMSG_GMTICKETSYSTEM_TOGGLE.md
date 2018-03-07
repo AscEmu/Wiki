@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 667
 ---
 
-# CMSG_GMTICKETSYSTEM_TOGGLE
+## CMSG_GMTICKETSYSTEM_TOGGLE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

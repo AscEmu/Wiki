@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 345
 ---
 
-# SMSG_PLAYERBOUND
+## SMSG_PLAYERBOUND
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

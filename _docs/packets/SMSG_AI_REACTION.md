@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 317
 ---
 
-# SMSG_AI_REACTION
+## SMSG_AI_REACTION
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

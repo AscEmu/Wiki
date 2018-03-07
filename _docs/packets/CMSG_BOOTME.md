@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 2
 ---
 
-# CMSG_BOOTME
+## CMSG_BOOTME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

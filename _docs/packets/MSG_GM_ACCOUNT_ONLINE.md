@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 623
 ---
 
-# MSG_GM_ACCOUNT_ONLINE
+## MSG_GM_ACCOUNT_ONLINE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 907
 ---
 
-# SMSG_JOINED_BATTLEGROUND_QUEUE
+## SMSG_JOINED_BATTLEGROUND_QUEUE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

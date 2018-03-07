@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 41
 ---
 
-# CMSG_COOLDOWN_CHEAT
+## CMSG_COOLDOWN_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

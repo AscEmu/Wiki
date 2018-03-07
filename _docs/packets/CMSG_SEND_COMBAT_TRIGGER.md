@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 917
 ---
 
-# CMSG_SEND_COMBAT_TRIGGER
+## CMSG_SEND_COMBAT_TRIGGER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

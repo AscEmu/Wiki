@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 51
 ---
 
-# SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+## SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

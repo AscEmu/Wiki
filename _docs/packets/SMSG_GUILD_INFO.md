@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 137
 ---
 
-# SMSG_GUILD_INFO
+## SMSG_GUILD_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

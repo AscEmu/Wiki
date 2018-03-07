@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 221
 ---
 
-# MSG_MOVE_WORLDPORT_ACK
+## MSG_MOVE_WORLDPORT_ACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

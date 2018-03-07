@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 756
 ---
 
-# CMSG_PET_SPELL_AUTOCAST
+## CMSG_PET_SPELL_AUTOCAST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

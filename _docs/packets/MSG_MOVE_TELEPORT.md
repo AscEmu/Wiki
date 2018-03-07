@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 198
 ---
 
-# MSG_MOVE_TELEPORT
+## MSG_MOVE_TELEPORT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

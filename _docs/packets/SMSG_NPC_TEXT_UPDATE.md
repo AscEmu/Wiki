@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 385
 ---
 
-# SMSG_NPC_TEXT_UPDATE
+## SMSG_NPC_TEXT_UPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 778
 ---
 
-# SMSG_SPLINE_MOVE_WATER_WALK
+## SMSG_SPLINE_MOVE_WATER_WALK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 240
 ---
 
-# SMSG_MOVE_KNOCK_BACK
+## SMSG_MOVE_KNOCK_BACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

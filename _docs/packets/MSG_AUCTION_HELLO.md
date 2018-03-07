@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 598
 ---
 
-# MSG_AUCTION_HELLO
+## MSG_AUCTION_HELLO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

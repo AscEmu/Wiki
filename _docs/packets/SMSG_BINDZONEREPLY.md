@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 344
 ---
 
-# SMSG_BINDZONEREPLY
+## SMSG_BINDZONEREPLY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

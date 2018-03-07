@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 442
 ---
 
-# CMSG_BUY_BANK_SLOT
+## CMSG_BUY_BANK_SLOT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

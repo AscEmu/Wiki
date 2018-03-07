@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 325
 ---
 
-# SMSG_ATTACKSTOP
+## SMSG_ATTACKSTOP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

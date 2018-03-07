@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 95
 ---
 
-# CMSG_GAMEOBJECT_QUERY
+## CMSG_GAMEOBJECT_QUERY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

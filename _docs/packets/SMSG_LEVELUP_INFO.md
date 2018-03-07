@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 469
 ---
 
-# SMSG_LEVELUP_INFO
+## SMSG_LEVELUP_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

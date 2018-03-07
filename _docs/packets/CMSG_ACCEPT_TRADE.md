@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 283
 ---
 
-# CMSG_ACCEPT_TRADE
+## CMSG_ACCEPT_TRADE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

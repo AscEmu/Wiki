@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 595
 ---
 
-# SMSG_RESURRECT_FAILED
+## SMSG_RESURRECT_FAILED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

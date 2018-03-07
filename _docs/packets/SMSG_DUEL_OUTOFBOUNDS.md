@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 361
 ---
 
-# SMSG_DUEL_OUTOFBOUNDS
+## SMSG_DUEL_OUTOFBOUNDS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

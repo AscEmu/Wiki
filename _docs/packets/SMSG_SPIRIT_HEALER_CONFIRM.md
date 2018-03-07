@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 547
 ---
 
-# SMSG_SPIRIT_HEALER_CONFIRM
+## SMSG_SPIRIT_HEALER_CONFIRM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

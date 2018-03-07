@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 402
 ---
 
-# SMSG_QUESTGIVER_QUEST_COMPLETE
+## SMSG_QUESTGIVER_QUEST_COMPLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

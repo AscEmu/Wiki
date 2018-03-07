@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 257
 ---
 
-# CMSG_TUTORIAL_RESET
+## CMSG_TUTORIAL_RESET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 440
 ---
 
-# CMSG_BANKER_ACTIVATE
+## CMSG_BANKER_ACTIVATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

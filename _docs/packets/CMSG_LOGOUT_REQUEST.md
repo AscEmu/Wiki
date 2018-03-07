@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 76
 ---
 
-# CMSG_LOGOUT_REQUEST
+## CMSG_LOGOUT_REQUEST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

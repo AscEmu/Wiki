@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 566
 ---
 
-# CMSG_GUILD_SET_OFFICER_NOTE
+## CMSG_GUILD_SET_OFFICER_NOTE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

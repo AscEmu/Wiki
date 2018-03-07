@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 44
 ---
 
-# CMSG_FLAG_QUEST_FINISH
+## CMSG_FLAG_QUEST_FINISH
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

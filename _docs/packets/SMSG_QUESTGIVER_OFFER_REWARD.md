@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 398
 ---
 
-# SMSG_QUESTGIVER_OFFER_REWARD
+## SMSG_QUESTGIVER_OFFER_REWARD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

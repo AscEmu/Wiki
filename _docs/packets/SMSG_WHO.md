@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 100
 ---
 
-# SMSG_WHO
+## SMSG_WHO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

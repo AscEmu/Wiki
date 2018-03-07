@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 315
 ---
 
-# MSG_CHANNEL_UPDATE
+## MSG_CHANNEL_UPDATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

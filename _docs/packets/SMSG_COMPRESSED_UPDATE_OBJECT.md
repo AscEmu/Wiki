@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 503
 ---
 
-# SMSG_COMPRESSED_UPDATE_OBJECT
+## SMSG_COMPRESSED_UPDATE_OBJECT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

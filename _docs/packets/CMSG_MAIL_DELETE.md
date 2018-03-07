@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 586
 ---
 
-# CMSG_MAIL_DELETE
+## CMSG_MAIL_DELETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

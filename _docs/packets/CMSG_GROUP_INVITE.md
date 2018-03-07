@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 111
 ---
 
-# CMSG_GROUP_INVITE
+## CMSG_GROUP_INVITE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

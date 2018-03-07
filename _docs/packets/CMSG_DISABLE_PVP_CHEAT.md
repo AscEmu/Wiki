@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 49
 ---
 
-# CMSG_DISABLE_PVP_CHEAT
+## CMSG_DISABLE_PVP_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

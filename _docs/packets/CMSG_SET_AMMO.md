@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 617
 ---
 
-# CMSG_SET_AMMO
+## CMSG_SET_AMMO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

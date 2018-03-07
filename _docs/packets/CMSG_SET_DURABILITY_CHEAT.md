@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 648
 ---
 
-# CMSG_SET_DURABILITY_CHEAT
+## CMSG_SET_DURABILITY_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

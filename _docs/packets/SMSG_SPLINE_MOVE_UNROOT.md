@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 773
 ---
 
-# SMSG_SPLINE_MOVE_UNROOT
+## SMSG_SPLINE_MOVE_UNROOT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

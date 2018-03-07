@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 823
 ---
 
-# CMSG_BUY_LOTTERY_TICKET_OBSOLETE
+## CMSG_BUY_LOTTERY_TICKET_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 570
 ---
 
-# SMSG_SEND_MAIL_RESULT
+## SMSG_SEND_MAIL_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

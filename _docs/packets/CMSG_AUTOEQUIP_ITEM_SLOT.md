@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 272
 ---
 
-# CMSG_AUTOEQUIP_ITEM_SLOT
+## CMSG_AUTOEQUIP_ITEM_SLOT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

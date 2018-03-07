@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 316
 ---
 
-# CMSG_CANCEL_CHANNELLING
+## CMSG_CANCEL_CHANNELLING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

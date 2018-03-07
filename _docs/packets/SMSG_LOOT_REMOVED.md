@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 355
 ---
 
-# SMSG_LOOT_REMOVED
+## SMSG_LOOT_REMOVED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

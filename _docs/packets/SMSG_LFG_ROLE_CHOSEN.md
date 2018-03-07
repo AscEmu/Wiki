@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 700
 ---
 
-# SMSG_LFG_ROLE_CHOSEN
+## SMSG_LFG_ROLE_CHOSEN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

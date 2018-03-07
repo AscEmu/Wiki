@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 803
 ---
 
-# MSG_RAID_READY_CHECK
+## MSG_RAID_READY_CHECK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

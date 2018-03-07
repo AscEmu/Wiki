@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 591
 ---
 
-# SMSG_PERIODICAURALOG
+## SMSG_PERIODICAURALOG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

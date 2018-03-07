@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 147
 ---
 
-# SMSG_GUILD_EVENT
+## SMSG_GUILD_EVENT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

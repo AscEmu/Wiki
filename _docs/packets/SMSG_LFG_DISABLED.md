@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 921
 ---
 
-# SMSG_LFG_DISABLED
+## SMSG_LFG_DISABLED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

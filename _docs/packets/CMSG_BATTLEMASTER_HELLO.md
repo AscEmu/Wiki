@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 728
 ---
 
-# CMSG_BATTLEMASTER_HELLO
+## CMSG_BATTLEMASTER_HELLO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

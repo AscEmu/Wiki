@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 846
 ---
 
-# CMSG_ARENA_TEAM_ROSTER
+## CMSG_ARENA_TEAM_ROSTER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

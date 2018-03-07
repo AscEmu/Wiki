@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 218
 ---
 
-# MSG_MOVE_TOGGLE_COLLISION_CHEAT
+## MSG_MOVE_TOGGLE_COLLISION_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

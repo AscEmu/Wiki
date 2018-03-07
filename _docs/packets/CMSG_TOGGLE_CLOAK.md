@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 699
 ---
 
-# CMSG_TOGGLE_CLOAK
+## CMSG_TOGGLE_CLOAK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

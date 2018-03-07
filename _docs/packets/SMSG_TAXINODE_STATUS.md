@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 428
 ---
 
-# SMSG_TAXINODE_STATUS
+## SMSG_TAXINODE_STATUS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

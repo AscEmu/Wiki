@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 731
 ---
 
-# SMSG_FORCE_WALK_SPEED_CHANGE
+## SMSG_FORCE_WALK_SPEED_CHANGE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

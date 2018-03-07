@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 830
 ---
 
-# SMSG_MOTD
+## SMSG_MOTD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

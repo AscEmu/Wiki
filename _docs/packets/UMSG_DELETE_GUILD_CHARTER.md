@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 705
 ---
 
-# UMSG_DELETE_GUILD_CHARTER
+## UMSG_DELETE_GUILD_CHARTER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

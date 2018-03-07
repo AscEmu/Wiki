@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 877
 ---
 
-# CMSG_LFG_SET_BOOT_VOTE
+## CMSG_LFG_SET_BOOT_VOTE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

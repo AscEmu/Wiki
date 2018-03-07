@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 307
 ---
 
-# SMSG_SPELL_GO
+## SMSG_SPELL_GO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 179
 ---
 
-# CMSG_DESTROY_ITEMS
+## CMSG_DESTROY_ITEMS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 816
 ---
 
-# SMSG_SPELLINSTAKILLLOG
+## SMSG_SPELLINSTAKILLLOG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

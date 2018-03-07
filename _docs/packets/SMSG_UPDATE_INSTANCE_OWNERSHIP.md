@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 812
 ---
 
-# SMSG_UPDATE_INSTANCE_OWNERSHIP
+## SMSG_UPDATE_INSTANCE_OWNERSHIP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

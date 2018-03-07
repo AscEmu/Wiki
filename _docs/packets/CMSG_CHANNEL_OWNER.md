@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 159
 ---
 
-# CMSG_CHANNEL_OWNER
+## CMSG_CHANNEL_OWNER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

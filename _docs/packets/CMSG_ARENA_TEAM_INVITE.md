@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 848
 ---
 
-# CMSG_ARENA_TEAM_INVITE
+## CMSG_ARENA_TEAM_INVITE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 758
 ---
 
-# SMSG_PLAY_TIME_WARNING
+## SMSG_PLAY_TIME_WARNING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

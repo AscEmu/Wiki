@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 746
 ---
 
-# MSG_BATTLEGROUND_PLAYER_POSITIONS
+## MSG_BATTLEGROUND_PLAYER_POSITIONS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

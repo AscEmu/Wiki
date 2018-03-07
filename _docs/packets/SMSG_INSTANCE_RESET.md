@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 799
 ---
 
-# SMSG_INSTANCE_RESET
+## SMSG_INSTANCE_RESET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

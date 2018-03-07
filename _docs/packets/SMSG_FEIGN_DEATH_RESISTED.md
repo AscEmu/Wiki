@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 693
 ---
 
-# SMSG_FEIGN_DEATH_RESISTED
+## SMSG_FEIGN_DEATH_RESISTED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

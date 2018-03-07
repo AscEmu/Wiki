@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 106
 ---
 
-# CMSG_ADD_FRIEND
+## CMSG_ADD_FRIEND
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

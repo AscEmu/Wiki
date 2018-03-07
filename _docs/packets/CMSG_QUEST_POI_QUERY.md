@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 484
 ---
 
-# CMSG_QUEST_POI_QUERY
+## CMSG_QUEST_POI_QUERY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

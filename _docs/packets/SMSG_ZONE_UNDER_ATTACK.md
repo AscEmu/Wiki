@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 597
 ---
 
-# SMSG_ZONE_UNDER_ATTACK
+## SMSG_ZONE_UNDER_ATTACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

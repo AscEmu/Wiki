@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 889
 ---
 
-# SMSG_DEATH_RELEASE_LOC
+## SMSG_DEATH_RELEASE_LOC
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

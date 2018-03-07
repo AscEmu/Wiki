@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 443
 ---
 
-# SMSG_BUY_BANK_SLOT_RESULT
+## SMSG_BUY_BANK_SLOT_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

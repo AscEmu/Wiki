@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 54
 ---
 
-# CMSG_AUTH_SRP6_RECODE
+## CMSG_AUTH_SRP6_RECODE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

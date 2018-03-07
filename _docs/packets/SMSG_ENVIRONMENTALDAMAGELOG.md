@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 509
 ---
 
-# SMSG_ENVIRONMENTALDAMAGELOG
+## SMSG_ENVIRONMENTALDAMAGELOG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 426
 ---
 
-# SMSG_SHOWTAXINODES
+## SMSG_SHOWTAXINODES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

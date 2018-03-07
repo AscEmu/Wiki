@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 249
 ---
 
-# CMSG_TRIGGER_CINEMATIC_CHEAT
+## CMSG_TRIGGER_CINEMATIC_CHEAT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

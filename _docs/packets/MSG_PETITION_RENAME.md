@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 706
 ---
 
-# MSG_PETITION_RENAME
+## MSG_PETITION_RENAME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

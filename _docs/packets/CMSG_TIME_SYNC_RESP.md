@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 914
 ---
 
-# CMSG_TIME_SYNC_RESP
+## CMSG_TIME_SYNC_RESP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

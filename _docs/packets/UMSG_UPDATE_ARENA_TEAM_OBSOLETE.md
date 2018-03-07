@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 843
 ---
 
-# UMSG_UPDATE_ARENA_TEAM_OBSOLETE
+## UMSG_UPDATE_ARENA_TEAM_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

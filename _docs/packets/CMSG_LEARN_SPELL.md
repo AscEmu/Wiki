@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 17
 ---
 
-# CMSG_LEARN_SPELL
+## CMSG_LEARN_SPELL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

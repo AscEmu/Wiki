@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 126
 ---
 
-# SMSG_GROUP_LIST
+## SMSG_GROUP_LIST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

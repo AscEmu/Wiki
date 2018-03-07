@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 754
 ---
 
-# SMSG_PET_UNLEARN_CONFIRM
+## SMSG_PET_UNLEARN_CONFIRM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 128
 ---
 
-# SMSG_PARTY_COMMAND_RESULT
+## SMSG_PARTY_COMMAND_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

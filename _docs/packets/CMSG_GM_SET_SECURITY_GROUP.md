@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 506
 ---
 
-# CMSG_GM_SET_SECURITY_GROUP
+## CMSG_GM_SET_SECURITY_GROUP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

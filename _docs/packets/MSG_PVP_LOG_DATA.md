@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 737
 ---
 
-# MSG_PVP_LOG_DATA
+## MSG_PVP_LOG_DATA
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

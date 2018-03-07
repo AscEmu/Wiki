@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 805
 ---
 
-# SMSG_PET_ACTION_SOUND
+## SMSG_PET_ACTION_SOUND
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

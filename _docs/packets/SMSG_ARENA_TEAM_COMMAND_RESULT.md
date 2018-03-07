@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 842
 ---
 
-# SMSG_ARENA_TEAM_COMMAND_RESULT
+## SMSG_ARENA_TEAM_COMMAND_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

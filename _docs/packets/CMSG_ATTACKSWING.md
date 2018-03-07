@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 322
 ---
 
-# CMSG_ATTACKSWING
+## CMSG_ATTACKSWING
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

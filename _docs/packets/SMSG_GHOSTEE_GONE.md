@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 807
 ---
 
-# SMSG_GHOSTEE_GONE
+## SMSG_GHOSTEE_GONE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

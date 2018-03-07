@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 657
 ---
 
-# CMSG_BUYBACK_ITEM
+## CMSG_BUYBACK_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

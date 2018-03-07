@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 847
 ---
 
-# SMSG_ARENA_TEAM_ROSTER
+## SMSG_ARENA_TEAM_ROSTER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

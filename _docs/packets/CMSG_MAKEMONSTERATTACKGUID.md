@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 23
 ---
 
-# CMSG_MAKEMONSTERATTACKGUID
+## CMSG_MAKEMONSTERATTACKGUID
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

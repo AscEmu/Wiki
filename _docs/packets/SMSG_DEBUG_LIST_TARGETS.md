@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 986
 ---
 
-# SMSG_DEBUG_LIST_TARGETS
+## SMSG_DEBUG_LIST_TARGETS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

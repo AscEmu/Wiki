@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 406
 ---
 
-# SMSG_QUESTLOG_FULL
+## SMSG_QUESTLOG_FULL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

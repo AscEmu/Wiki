@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 594
 ---
 
-# CMSG_LEARN_TALENT
+## CMSG_LEARN_TALENT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 123
 ---
 
-# CMSG_LOOT_METHOD
+## CMSG_LOOT_METHOD
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

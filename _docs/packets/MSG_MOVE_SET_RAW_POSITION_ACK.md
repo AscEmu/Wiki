@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 225
 ---
 
-# MSG_MOVE_SET_RAW_POSITION_ACK
+## MSG_MOVE_SET_RAW_POSITION_ACK
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

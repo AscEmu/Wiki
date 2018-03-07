@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 143
 ---
 
-# CMSG_GUILD_REMOVE
+## CMSG_GUILD_REMOVE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 590
 ---
 
-# SMSG_DEBUGAURAPROC
+## SMSG_DEBUGAURAPROC
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

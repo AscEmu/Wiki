@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 510
 ---
 
-# CMSG_RWHOIS_OBSOLETE
+## CMSG_RWHOIS_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

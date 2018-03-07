@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 448
 ---
 
-# SMSG_PETITION_SHOW_SIGNATURES
+## SMSG_PETITION_SHOW_SIGNATURES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

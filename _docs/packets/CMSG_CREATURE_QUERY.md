@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 97
 ---
 
-# CMSG_CREATURE_QUERY
+## CMSG_CREATURE_QUERY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

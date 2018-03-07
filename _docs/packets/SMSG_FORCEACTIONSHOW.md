@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 28
 ---
 
-# SMSG_FORCEACTIONSHOW
+## SMSG_FORCEACTIONSHOW
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

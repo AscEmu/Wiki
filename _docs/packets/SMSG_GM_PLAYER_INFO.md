@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 561
 ---
 
-# SMSG_GM_PLAYER_INFO
+## SMSG_GM_PLAYER_INFO
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

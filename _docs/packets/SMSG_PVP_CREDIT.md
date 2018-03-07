@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 653
 ---
 
-# SMSG_PVP_CREDIT
+## SMSG_PVP_CREDIT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

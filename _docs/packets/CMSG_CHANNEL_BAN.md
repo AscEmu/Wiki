@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 166
 ---
 
-# CMSG_CHANNEL_BAN
+## CMSG_CHANNEL_BAN
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

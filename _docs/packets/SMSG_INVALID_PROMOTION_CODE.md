@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 488
 ---
 
-# SMSG_INVALID_PROMOTION_CODE
+## SMSG_INVALID_PROMOTION_CODE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

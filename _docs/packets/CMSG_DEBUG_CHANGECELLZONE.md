@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 13
 ---
 
-# CMSG_DEBUG_CHANGECELLZONE
+## CMSG_DEBUG_CHANGECELLZONE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 411
 ---
 
-# SMSG_QUESTUPDATE_ADD_ITEM
+## SMSG_QUESTUPDATE_ADD_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 624
 ---
 
-# MSG_LIST_STABLED_PETS
+## MSG_LIST_STABLED_PETS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

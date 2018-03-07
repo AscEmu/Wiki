@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 412
 ---
 
-# CMSG_QUEST_CONFIRM_ACCEPT
+## CMSG_QUEST_CONFIRM_ACCEPT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

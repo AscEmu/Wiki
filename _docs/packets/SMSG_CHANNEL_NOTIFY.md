@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 154
 ---
 
-# SMSG_CHANNEL_NOTIFY
+## SMSG_CHANNEL_NOTIFY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

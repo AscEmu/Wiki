@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 741
 ---
 
-# SMSG_AREA_SPIRIT_HEALER_TIME
+## SMSG_AREA_SPIRIT_HEALER_TIME
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

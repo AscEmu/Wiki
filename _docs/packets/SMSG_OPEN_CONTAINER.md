@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 276
 ---
 
-# SMSG_OPEN_CONTAINER
+## SMSG_OPEN_CONTAINER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

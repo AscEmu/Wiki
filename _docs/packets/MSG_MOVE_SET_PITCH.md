@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 220
 ---
 
-# MSG_MOVE_SET_PITCH
+## MSG_MOVE_SET_PITCH
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

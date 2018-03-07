@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 102
 ---
 
-# SMSG_WHOIS
+## SMSG_WHOIS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

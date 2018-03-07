@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 727
 ---
 
-# MSG_INSPECT_HONOR_STATS
+## MSG_INSPECT_HONOR_STATS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

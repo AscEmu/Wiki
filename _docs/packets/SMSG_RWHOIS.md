@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 511
 ---
 
-# SMSG_RWHOIS
+## SMSG_RWHOIS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

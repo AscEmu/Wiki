@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 833
 ---
 
-# CMSG_MOVE_FLIGHT_ACK_OBSOLETE
+## CMSG_MOVE_FLIGHT_ACK_OBSOLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

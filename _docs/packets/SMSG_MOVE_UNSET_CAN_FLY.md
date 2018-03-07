@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 837
 ---
 
-# SMSG_MOVE_UNSET_CAN_FLY
+## SMSG_MOVE_UNSET_CAN_FLY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

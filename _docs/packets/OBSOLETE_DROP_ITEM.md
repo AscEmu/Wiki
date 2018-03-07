@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 273
 ---
 
-# OBSOLETE_DROP_ITEM
+## OBSOLETE_DROP_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

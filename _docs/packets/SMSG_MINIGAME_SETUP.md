@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 759
 ---
 
-# SMSG_MINIGAME_SETUP
+## SMSG_MINIGAME_SETUP
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

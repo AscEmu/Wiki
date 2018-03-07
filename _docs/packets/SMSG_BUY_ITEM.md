@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 421
 ---
 
-# SMSG_BUY_ITEM
+## SMSG_BUY_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

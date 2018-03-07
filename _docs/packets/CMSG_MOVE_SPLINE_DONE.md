@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 714
 ---
 
-# CMSG_MOVE_SPLINE_DONE
+## CMSG_MOVE_SPLINE_DONE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

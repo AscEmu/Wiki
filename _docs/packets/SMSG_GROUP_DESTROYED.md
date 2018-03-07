@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 125
 ---
 
-# SMSG_GROUP_DESTROYED
+## SMSG_GROUP_DESTROYED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

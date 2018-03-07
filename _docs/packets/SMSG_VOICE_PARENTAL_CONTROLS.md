@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 946
 ---
 
-# SMSG_VOICE_PARENTAL_CONTROLS
+## SMSG_VOICE_PARENTAL_CONTROLS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

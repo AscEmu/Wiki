@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 475
 ---
 
-# SMSG_PAUSE_MIRROR_TIMER
+## SMSG_PAUSE_MIRROR_TIMER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

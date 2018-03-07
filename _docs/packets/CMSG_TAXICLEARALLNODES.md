@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 423
 ---
 
-# CMSG_TAXICLEARALLNODES
+## CMSG_TAXICLEARALLNODES
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 24
 ---
 
-# CMSG_BOT_DETECTED2
+## CMSG_BOT_DETECTED2
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

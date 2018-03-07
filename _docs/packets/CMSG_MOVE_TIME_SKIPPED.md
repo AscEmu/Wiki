@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 719
 ---
 
-# CMSG_MOVE_TIME_SKIPPED
+## CMSG_MOVE_TIME_SKIPPED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

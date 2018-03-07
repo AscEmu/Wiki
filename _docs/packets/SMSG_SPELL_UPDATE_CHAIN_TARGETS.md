@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 817
 ---
 
-# SMSG_SPELL_UPDATE_CHAIN_TARGETS
+## SMSG_SPELL_UPDATE_CHAIN_TARGETS
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

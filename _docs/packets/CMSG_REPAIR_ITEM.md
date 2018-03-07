@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 681
 ---
 
-# CMSG_REPAIR_ITEM
+## CMSG_REPAIR_ITEM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

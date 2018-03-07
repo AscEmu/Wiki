@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 745
 ---
 
-# SMSG_GROUP_JOINED_BATTLEGROUND
+## SMSG_GROUP_JOINED_BATTLEGROUND
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

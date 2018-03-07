@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 347
 ---
 
-# CMSG_REPOP_REQUEST
+## CMSG_REPOP_REQUEST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

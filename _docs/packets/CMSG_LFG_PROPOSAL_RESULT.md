@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 867
 ---
 
-# CMSG_LFG_PROPOSAL_RESULT
+## CMSG_LFG_PROPOSAL_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

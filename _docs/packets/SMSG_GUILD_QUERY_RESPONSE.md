@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 86
 ---
 
-# SMSG_GUILD_QUERY_RESPONSE
+## SMSG_GUILD_QUERY_RESPONSE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

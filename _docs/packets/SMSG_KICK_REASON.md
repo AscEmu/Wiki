@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 966
 ---
 
-# SMSG_KICK_REASON
+## SMSG_KICK_REASON
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

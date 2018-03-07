@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 341
 ---
 
-# CMSG_SETDEATHBINDPOINT
+## CMSG_SETDEATHBINDPOINT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

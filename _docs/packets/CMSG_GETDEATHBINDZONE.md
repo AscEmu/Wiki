@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 343
 ---
 
-# CMSG_GETDEATHBINDZONE
+## CMSG_GETDEATHBINDZONE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

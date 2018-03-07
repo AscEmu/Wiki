@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 410
 ---
 
-# SMSG_QUESTUPDATE_ADD_KILL
+## SMSG_QUESTUPDATE_ADD_KILL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

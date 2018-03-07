@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 507
 ---
 
-# CMSG_GM_NUKE
+## CMSG_GM_NUKE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

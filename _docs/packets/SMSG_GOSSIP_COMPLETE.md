@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 383
 ---
 
-# SMSG_GOSSIP_COMPLETE
+## SMSG_GOSSIP_COMPLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

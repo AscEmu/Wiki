@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 78
 ---
 
-# SMSG_LOGOUT_COMPLETE
+## SMSG_LOGOUT_COMPLETE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

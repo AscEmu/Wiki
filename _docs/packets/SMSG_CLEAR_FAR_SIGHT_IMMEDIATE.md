@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 526
 ---
 
-# SMSG_CLEAR_FAR_SIGHT_IMMEDIATE
+## SMSG_CLEAR_FAR_SIGHT_IMMEDIATE
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

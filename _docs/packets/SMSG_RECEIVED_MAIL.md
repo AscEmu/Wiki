@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 646
 ---
 
-# SMSG_RECEIVED_MAIL
+## SMSG_RECEIVED_MAIL
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 408
 ---
 
-# SMSG_QUESTUPDATE_FAILEDTIMER
+## SMSG_QUESTUPDATE_FAILEDTIMER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

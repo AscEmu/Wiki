@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 762
 ---
 
-# SMSG_MINIGAME_MOVE_FAILED
+## SMSG_MINIGAME_MOVE_FAILED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

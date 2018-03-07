@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 71
 ---
 
-# CMSG_GAMESPEED_SET
+## CMSG_GAMESPEED_SET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 472
 ---
 
-# SMSG_ENCHANTMENTLOG
+## SMSG_ENCHANTMENTLOG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

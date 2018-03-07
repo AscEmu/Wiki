@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 701
 ---
 
-# SMSG_PLAYER_SKINNED
+## SMSG_PLAYER_SKINNED
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

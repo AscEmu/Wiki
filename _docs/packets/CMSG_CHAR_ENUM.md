@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 56
 ---
 
-# CMSG_CHAR_ENUM
+## CMSG_CHAR_ENUM
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

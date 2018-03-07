@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 893
 ---
 
-# CMSG_CHEAT_SET_ARENA_CURRENCY
+## CMSG_CHEAT_SET_ARENA_CURRENCY
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 253
 ---
 
-# CMSG_COMPLETE_CINEMATIC
+## CMSG_COMPLETE_CINEMATIC
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

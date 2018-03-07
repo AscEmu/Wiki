@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 869
 ---
 
-# SMSG_LFG_JOIN_RESULT
+## SMSG_LFG_JOIN_RESULT
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

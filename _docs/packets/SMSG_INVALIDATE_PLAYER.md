@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 797
 ---
 
-# SMSG_INVALIDATE_PLAYER
+## SMSG_INVALIDATE_PLAYER
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

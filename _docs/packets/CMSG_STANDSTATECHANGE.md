@@ -5,11 +5,11 @@ layout: single_markdown_in_list
 position: 258
 ---
 
-# CMSG_STANDSTATECHANGE
+## CMSG_STANDSTATECHANGE
 
 Send when client goes afk or on sit down
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

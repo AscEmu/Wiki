@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 879
 ---
 
-# CMSG_LFD_PLAYER_LOCK_INFO_REQUEST
+## CMSG_LFD_PLAYER_LOCK_INFO_REQUEST
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

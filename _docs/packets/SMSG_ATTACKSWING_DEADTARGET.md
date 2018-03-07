@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 329
 ---
 
-# SMSG_ATTACKSWING_DEADTARGET
+## SMSG_ATTACKSWING_DEADTARGET
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

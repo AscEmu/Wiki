@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 806
 ---
 
-# SMSG_PET_DISMISS_SOUND
+## SMSG_PET_DISMISS_SOUND
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 

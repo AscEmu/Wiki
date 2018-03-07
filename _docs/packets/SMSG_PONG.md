@@ -5,9 +5,9 @@ layout: single_markdown_in_list
 position: 478
 ---
 
-# SMSG_PONG
+## SMSG_PONG
 
-## Status
+### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
