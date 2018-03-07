@@ -158,9 +158,9 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_GUILD_EVENT](#smsg_guild_event) |  |  |  | 
 [SMSG_GUILD_COMMAND_RESULT](#smsg_guild_command_result) |  |  |  | 
 [UMSG_UPDATE_GUILD](#umsg_update_guild) |  |  |  | 
-[CMSG_MESSAGECHAT](#cmsg_messagechat) |  |  |  | 
+[CMSG_MESSAGECHAT](#cmsg_messagechat) |  | serialized | serialized | 
 [SMSG_MESSAGECHAT](#smsg_messagechat) |  |  |  | 
-[CMSG_JOIN_CHANNEL](#cmsg_join_channel) |  |  |  | 
+[CMSG_JOIN_CHANNEL](#cmsg_join_channel) |  | serialized | serialized | 
 [CMSG_LEAVE_CHANNEL](#cmsg_leave_channel) |  |  |  | 
 [SMSG_CHANNEL_NOTIFY](#smsg_channel_notify) |  |  |  | 
 [CMSG_CHANNEL_LIST](#cmsg_channel_list) |  |  |  | 

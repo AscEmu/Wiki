@@ -7,11 +7,13 @@ position: 150
 
 # CMSG_MESSAGECHAT
 
+Send message.
+
 ## Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
+TBC | 0x095 |  
+WotLK | 0x095 |  
 Cata |  |  

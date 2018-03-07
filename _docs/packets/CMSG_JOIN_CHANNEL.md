@@ -7,11 +7,13 @@ position: 152
 
 # CMSG_JOIN_CHANNEL
 
+Join chat channels.
+
 ## Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
+TBC | 0x097 |  
+WotLK | 0x097 |  
 Cata |  |  
