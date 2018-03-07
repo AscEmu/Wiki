@@ -266,7 +266,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_TUTORIAL_FLAG](#cmsg_tutorial_flag) |  |  |  | 
 [CMSG_TUTORIAL_CLEAR](#cmsg_tutorial_clear) |  |  |  | 
 [CMSG_TUTORIAL_RESET](#cmsg_tutorial_reset) |  |  |  | 
-[CMSG_STANDSTATECHANGE](#cmsg_standstatechange) |  |  |  | 
+[CMSG_STANDSTATECHANGE](#cmsg_standstatechange) |  | serialized | serialized | serialized
 [CMSG_EMOTE](#cmsg_emote) |  |  |  | 
 [SMSG_EMOTE](#smsg_emote) |  |  |  | 
 [CMSG_TEXT_EMOTE](#cmsg_text_emote) |  |  |  | 

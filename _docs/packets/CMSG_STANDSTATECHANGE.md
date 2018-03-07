@@ -7,11 +7,13 @@ position: 258
 
 # CMSG_STANDSTATECHANGE
 
+Send when client goes afk or on sit down
+
 ## Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+TBC | 0x101 |  
+WotLK | 0x101 |  
+Cata | 0x101 |  
