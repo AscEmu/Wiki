@@ -328,8 +328,8 @@ Drop back into MySQL and run the following queries:
 
 ```console
 USE ascemu_world;
-SOURCE2015-03-14_01_gossip_menu_option.SQL;
-SOURCE2015-03-15_01_gossip_menu_option.SQL;
+SOURCE 2015-03-14_01_gossip_menu_option.SQL;
+SOURCE 2015-03-15_01_gossip_menu_option.SQL;
 SOURCE 2015-03-15_02_npc_script_text.SQL;
 SOURCE 2015-03-19_01_creature_names.SQL;
 SOURCE 2015-03-21_01_quest_misc.SQL;
@@ -358,9 +358,7 @@ Use an editor of your choice, in this example it'll be **nano**. Make sure to re
 
 ```console
 cd ~/server/etc
-  nano logonserver.conf
-  nano optional.conf
-  nano realms.conf
+  nano logon.conf
   nano world.conf
 ```
 
