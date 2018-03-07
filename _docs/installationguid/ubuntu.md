@@ -216,8 +216,8 @@ cd ~/server
  $ mkdir etc
  $ mv ~/installer/ascemu/code/configs/*.conf ~/server/etc
  $ cd ~/server
- $ chmod a+x ascemu-logonserver
- $ chmod a+x ascemu-world
+ $ chmod a+x logonserver
+ $ chmod a+x world
 ```
 
 Now your configuration files are in the .../etc folder ready to be edited, and used by the AscEmu server and your AscEmu binaries are executable.
@@ -245,7 +245,7 @@ After we have setup the database, its time to start downloading the files.
 The following section is a work in progress and is incomplete
 {: .info }
 
-You must first download a copy of the database from http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/.
+You must first download a copy of the database: [Link to Download](http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/).
 
 Once you have done that, open a terminal, switch to the directory the zip file is in and extract it.
 
@@ -328,8 +328,8 @@ Drop back into MySQL and run the following queries:
 
 ```console
 USE ascemu_world;
-SOURCE2015-03-14_01_gossip_menu_option.SQL;
-SOURCE2015-03-15_01_gossip_menu_option.SQL;
+SOURCE 2015-03-14_01_gossip_menu_option.SQL;
+SOURCE 2015-03-15_01_gossip_menu_option.SQL;
 SOURCE 2015-03-15_02_npc_script_text.SQL;
 SOURCE 2015-03-19_01_creature_names.SQL;
 SOURCE 2015-03-21_01_quest_misc.SQL;
@@ -358,9 +358,7 @@ Use an editor of your choice, in this example it'll be **nano**. Make sure to re
 
 ```console
 cd ~/server/etc
-  nano logonserver.conf
-  nano optional.conf
-  nano realms.conf
+  nano logon.conf
   nano world.conf
 ```
 
@@ -383,17 +381,17 @@ You're now ready to move on to [Server configuration](http://www.ascemu.org/wiki
 **1.** Go to your world console and create an account.
 
 ```console
-account create <name> <password> <email>
+createaccount <accountname> <password>
 ```
 
-example: account create admin adminpassword admin@your_awsome_server.uk
+example: createaccount admin adminpassword
 
-**2.** Set gmlevel in you logon console:
+**2.** Change permission(gmlevel) in your world console:
 
 ```console
-account set gm <name> <gmlevel>
+setaccpermission <accountname> <permission>
 ```
 
-example: account set gm admin az
+example: setaccpermission admin az
 
-**For further information about access levels, have a look to this page [GM_Access_Levels](http://www.ascemu.org/wiki/index.php?title=GM_Access_Levels "GM Access Levels")**
+**For further information about access levels, have a look to this page [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**

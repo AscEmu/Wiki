@@ -98,7 +98,7 @@ character_structure -> ascemu_char DB
 logon_structure -> ascemu_logon DB
 ```
 
-For ascemu_world use the full_world from: http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/
+For ascemu_world use the full_world from: [Link to Download](http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/).
 {: .info }
 
 ## Updating the DBs
@@ -163,7 +163,7 @@ Enter your MySQL information at the the following section.
 <CharacterDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_char" Port = "3306">
 ```
 
-The last step in configs/world.conf is to change line 502:
+The last step in configs/world.conf is to change line 156:
 
 ```console
 RemotePassword = "change_me_world">
@@ -193,4 +193,4 @@ setaccpermission <accountname> <permission>
 
 example: setaccpermission admin az
 
-**For further information about access levels, have a look to this page [GM_Access_Levels](http://www.ascemu.org/wiki/index.php?title=GM_Access_Levels "GM Access Levels")**
+**For further information about access levels, have a look to this page [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**

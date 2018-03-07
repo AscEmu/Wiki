@@ -9,12 +9,14 @@ position: 1
 There will be NO spaces in any filenames or directories.
 
 Right:
+{: .success }
 
 ```cpp
 /AIAHealSupport/AIAHealSupport.cpp
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 /HealSupport Template/AI AHeal Support.cpp

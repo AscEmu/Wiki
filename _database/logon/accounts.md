@@ -44,7 +44,7 @@ UPDATE accounts SET encrypted_password = SHA(CONCAT(UPPER(login),":",UPPER(passw
 
 ### gm
 
-The permissions, take a look at [GM_Access_Levels](http://www.ascemu.org/wiki/index.php?title=GM_Access_Levels "GM Access Levels")
+The permissions, take a look at [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")
 
 ### banned
 

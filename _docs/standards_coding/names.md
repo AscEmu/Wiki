@@ -19,6 +19,7 @@ Use UpperCamelCase aka PascalCamel for a class, struct and namespace names.
 Use lowerCamelCase for class functions.
 
 Right:
+{: .success }
 
 ```cpp
 class Gameobject;
@@ -29,6 +30,7 @@ char characterDelimiter;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 class gameobject;
@@ -43,6 +45,7 @@ char Characterdelimiter;
 Prefix class and struct data members with "m_".
 
 Right:
+{: .success }
 
 ```cpp
 class CWString
@@ -53,6 +56,7 @@ class CWString
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 class CWString
@@ -67,6 +71,7 @@ class CWString
 Precede boolean values with words like "is", "has" and "did".
 
 Right:
+{: .success }
 
 ```cpp
 bool isValid;
@@ -75,6 +80,7 @@ bool hasChildren;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 bool valid;
@@ -87,6 +93,7 @@ bool children;
 Use full words, for all variables except in the rare cases where an abbreviation would be more canonical and easier to understand.
 
 Right:
+{: .success }
 
 ```cpp
 size_t charSize;
@@ -95,6 +102,7 @@ short tabIndex;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 size_t characterSize;
@@ -111,12 +119,14 @@ Avoid using cross meaning iterator variable names in loops, for example do not u
 Use descriptive verbs in function names.
 
 Right:
+{: .success }
 
 ```cpp
 bool convertToASCII(short\*, size_t);
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 bool toASCII(short\*, size_t);
@@ -127,12 +137,14 @@ bool toASCII(short\*, size_t);
 Leave meaningless variable names out of function declarations.
 
 Right:
+{: .success }
 
 ```cpp
 void setCount(size_t);
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 void SetCount(size_t count);
@@ -143,6 +155,7 @@ void SetCount(size_t count);
 Comment unused variable names out of function definitions.
 
 Right:
+{: .success }
 
 ```cpp
 void CWHeap::Free(void\* /*pAddr*/)
@@ -151,6 +164,7 @@ void CWHeap::Free(void\* /*pAddr*/)
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 void CWHeap::Free(void\* pAddr)
@@ -163,6 +177,7 @@ void CWHeap::Free(void\* pAddr)
 Use "Get"/"Set" for readwrite variable.
 
 Right:
+{: .success }
 
 ```cpp
 size_t getCount();
@@ -171,6 +186,7 @@ size_t setCount();
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 size_t Count();
@@ -181,12 +197,14 @@ size_t Count();
 Precede mutators with the word "set" and should match the name of the variable being accessed.
 
 Right:
+{: .success }
 
 ```cpp
 void setCount(size_t);
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 void count(size_t);
@@ -199,12 +217,14 @@ void count(size_t);
 ```
 
 Right:
+{: .success }
 
 ```cpp
 \#define KEY_ALT_MASK 0x04
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 \#define KeyAltMask 0x04
@@ -213,12 +233,14 @@ Wrong:
 Macros that expand to function calls or other non-constant computation. These should be named like functions, and should have parentheses at the end, even if they take no arguments (with the exception of some special macros like STD_ASSERT). Note that usually it is preferable to use an inline function in such cases instead of a macro.
 
 Right:
+{: .success }
 
 ```cpp
 \#define WBStopButtonTitle()  NSLocalizedString(@"Stop", @"Stop button title")
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 \#define WB_STOP_BUTTON_TITLE  NSLocalizedString(@"Stop", @"Stop button title")
@@ -233,6 +255,7 @@ Wrong:
 ```
 
 Right:
+{: .success }
 
 ```cpp
 \#ifndef _GAMEOBJECT_H
@@ -240,6 +263,7 @@ Right:
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 \#ifndef _GameObject_H_
@@ -251,12 +275,14 @@ The line above the header guard endif should be the standard seperator comment.
 This closing comment should have a space before and after the comment double slash.
 
 Right:
+{: .success }
 
 ```cpp
 \#endif // _GAMEOBJECT_H
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 \#endif

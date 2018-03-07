@@ -17,12 +17,14 @@ CWEntity\* pEntity;
 ```
 
 Right:
+{: .success }
 
 ```cpp
 pEntity = nullptr;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 pEntity = 0;
@@ -37,12 +39,14 @@ bool isValid;
 ```
 
 Right:
+{: .success }
 
 ```cpp
 isValid = true;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 isValid = 1;
@@ -51,12 +55,14 @@ isValid = 1;
 Do not use the Objective-C style BOOL type.
 
 Right:
+{: .success }
 
 ```cpp
 bool isValid;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 BOOL isValid;
@@ -67,12 +73,14 @@ BOOL isValid;
 Tests for true/false and zero/non-zero should all be done without equality comparisons.
 
 Right:
+{: .success }
 
 ```cpp
 if (bCondition)
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 if (bCondition == true)
@@ -83,6 +91,7 @@ if (bCondition == true)
 Do not add explicit initializations to temporary variables if you assign to them before testing their value.
 
 Right:
+{: .success }
 
 ```cpp
 bool bTest;
@@ -91,6 +100,7 @@ bool bTest;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 bool bTest = true;
