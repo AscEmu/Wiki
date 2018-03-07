@@ -216,8 +216,8 @@ cd ~/server
  $ mkdir etc
  $ mv ~/installer/ascemu/code/configs/*.conf ~/server/etc
  $ cd ~/server
- $ chmod a+x ascemu-logonserver
- $ chmod a+x ascemu-world
+ $ chmod a+x logonserver
+ $ chmod a+x world
 ```
 
 Now your configuration files are in the .../etc folder ready to be edited, and used by the AscEmu server and your AscEmu binaries are executable.
