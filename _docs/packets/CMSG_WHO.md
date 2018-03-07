@@ -7,11 +7,13 @@ position: 99
 
 # CMSG_WHO
 
+Called by showing who is online list.
+
 ## Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+TBC | 0x062 |  
+WotLK | 0x062 |  
+Cata | 0x6C15 |  
