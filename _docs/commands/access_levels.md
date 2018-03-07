@@ -18,9 +18,9 @@ There are two other Special Command Groups, a and z. a gives a user access to ev
 
 An account with GM level az (which is a + z) is considered to have Full Administrator access.
 
-### Worldserver character_db
+#### ![alt text](/Wiki/images/world_icon_s.jpg "Worldserver logo") World Access Levels
 
-##### ![alt text](/Wiki/images/world_icon_s.jpg "Worldserver logo") You can set the access level in the table "account_permissions":
+This can be set in your character database in the table ["account_permissions"](/Wiki/database/characters/account_permissions/ "Table account_permissions")
 {: .info }
 
 ## Available Levels
