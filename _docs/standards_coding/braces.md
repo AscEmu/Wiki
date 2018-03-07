@@ -80,6 +80,7 @@ Namespace Whiptail {
 One-line control clauses **can** use braces. For a better overview use braces.
 
 Optimal:
+{: .success }
 
 ```cpp
 if (condition)
@@ -89,6 +90,7 @@ if (condition)
 ```
 
 Disadvantageous:
+{: .error }
 
 ```cpp
 if (condition)
