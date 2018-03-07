@@ -604,7 +604,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_SPELLNONMELEEDAMAGELOG](#smsg_spellnonmeleedamagelog) |  |  |  | 
 [CMSG_LEARN_TALENT](#cmsg_learn_talent) |  |  |  | 
 [SMSG_RESURRECT_FAILED](#smsg_resurrect_failed) |  |  |  | 
-[CMSG_TOGGLE_PVP](#cmsg_toggle_pvp) |  |  |  | 
+[CMSG_TOGGLE_PVP](#cmsg_toggle_pvp) | no data | no data | no data | no data
 [SMSG_ZONE_UNDER_ATTACK](#smsg_zone_under_attack) |  |  |  | 
 [MSG_AUCTION_HELLO](#msg_auction_hello) |  |  |  | 
 [CMSG_AUCTION_SELL_ITEM](#cmsg_auction_sell_item) |  |  |  | 
