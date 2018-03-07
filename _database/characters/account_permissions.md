@@ -22,7 +22,7 @@ This is the same like row "id" in accounts table.
 
 ### permissions
 
-The permissions for the account, take a look at GM Access Levels.
+The permissions for the account, take a look at [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels").
 
 ### name
 

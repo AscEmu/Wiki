@@ -245,7 +245,7 @@ After we have setup the database, its time to start downloading the files.
 The following section is a work in progress and is incomplete
 {: .info }
 
-You must first download a copy of the database from http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/.
+You must first download a copy of the database from: [Link to Download](http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/).
 
 Once you have done that, open a terminal, switch to the directory the zip file is in and extract it.
 
@@ -394,4 +394,4 @@ account set gm <name> <gmlevel>
 
 example: account set gm admin az
 
-**For further information about access levels, have a look to this page [GM_Access_Levels](http://www.ascemu.org/wiki/index.php?title=GM_Access_Levels "GM Access Levels")**
+**For further information about access levels, have a look to this page [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
