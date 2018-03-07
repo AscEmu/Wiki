@@ -7,11 +7,13 @@ position: 109
 
 ## CMSG_ADD_IGNORE
 
+Called on adding ignored player to list.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
+TBC | 0x06C |  
+WotLK | 0x06C |  
 Cata |  |  

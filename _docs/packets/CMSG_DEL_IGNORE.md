@@ -7,11 +7,13 @@ position: 110
 
 ## CMSG_DEL_IGNORE
 
+Called on removing ignored player from list.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
+TBC | 0x06D |  
+WotLK | 0x06D |  
 Cata |  |  

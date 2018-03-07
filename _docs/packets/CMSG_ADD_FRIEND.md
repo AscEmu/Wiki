@@ -7,11 +7,13 @@ position: 106
 
 ## CMSG_ADD_FRIEND
 
+Called by adding friend to list.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
+TBC | 0x069 |  
+WotLK | 0x069 |  
 Cata |  |  

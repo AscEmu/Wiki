@@ -7,11 +7,13 @@ position: 103
 
 ## CMSG_CONTACT_LIST
 
+Called for contact list.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+TBC | 0x066 |  
+WotLK | 0x066 |  
+Cata | 0x4534 |  

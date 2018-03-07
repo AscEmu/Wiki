@@ -111,14 +111,14 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_WHO](#smsg_who) |  |  |  | 
 [CMSG_WHOIS](#cmsg_whois) |  |  |  | 
 [SMSG_WHOIS](#smsg_whois) |  |  |  | 
-[CMSG_CONTACT_LIST](#cmsg_contact_list) |  |  |  | 
+[CMSG_CONTACT_LIST](#cmsg_contact_list) |  | serialized | serialized | serialized
 [SMSG_CONTACT_LIST](#smsg_contact_list) |  |  |  | 
 [SMSG_FRIEND_STATUS](#smsg_friend_status) |  |  |  | 
-[CMSG_ADD_FRIEND](#cmsg_add_friend) |  |  |  | 
-[CMSG_DEL_FRIEND](#cmsg_del_friend) |  |  |  | 
-[CMSG_SET_CONTACT_NOTES](#cmsg_set_contact_notes) |  |  |  | 
-[CMSG_ADD_IGNORE](#cmsg_add_ignore) |  |  |  | 
-[CMSG_DEL_IGNORE](#cmsg_del_ignore) |  |  |  | 
+[CMSG_ADD_FRIEND](#cmsg_add_friend) |  | serialized | serialized | 
+[CMSG_DEL_FRIEND](#cmsg_del_friend) |  | serialized | serialized | 
+[CMSG_SET_CONTACT_NOTES](#cmsg_set_contact_notes) |  | not used | not used | 
+[CMSG_ADD_IGNORE](#cmsg_add_ignore) |  | serialized | serialized | 
+[CMSG_DEL_IGNORE](#cmsg_del_ignore) |  | serialized | serialized | 
 [CMSG_GROUP_INVITE](#cmsg_group_invite) |  |  |  | 
 [SMSG_GROUP_INVITE](#smsg_group_invite) |  |  |  | 
 [CMSG_GROUP_CANCEL](#cmsg_group_cancel) |  |  |  | 

@@ -12,6 +12,6 @@ position: 108
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
+TBC | 0x06B |  
+WotLK | 0x06B |  
 Cata |  |  

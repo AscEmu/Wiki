@@ -7,11 +7,13 @@ position: 107
 
 ## CMSG_DEL_FRIEND
 
+Colled on removing friend from list.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
+TBC | 0x06A |  
+WotLK | 0x06A |  
 Cata |  |  
