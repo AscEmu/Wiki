@@ -57,6 +57,7 @@ class CDocumentation {
 Namespaces should have each brace on its own line and the final brace should be followed by a semicolon.
 
 Right:
+{: .success }
 
 ```cpp
 Namespace Whiptail

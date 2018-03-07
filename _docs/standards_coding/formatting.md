@@ -13,6 +13,7 @@ Use spaces, not tabs. Tabs should only appear in files that require them for sem
 The indent **size is 4 spaces**.
 
 Right:
+{: .success }
 
 ```cpp
 int main()
@@ -45,6 +46,7 @@ Put single blank line after those keywords!
 Any friend keywords should appear at the bottom of a class definition below any other code.
 
 Right:
+{: .success }
 
 ```cpp
 class CDocumention
@@ -77,6 +79,7 @@ Document();
 In a header (.hpp, .h) file, code inside a namespace should be indented.
 
 Right:
+{: .success }
 
 ```cpp
 namespace Whiptail
@@ -113,6 +116,7 @@ A case statement's contents are indented from the case.
 The colon after a case statement should have no spaces before or after it.
 
 Right:
+{: .success }
 
 ```cpp
 switch (condition)
@@ -147,6 +151,7 @@ Use parenthesis in complex mathmatical formulae and expressions.
 It is important to make it easy for future readers of this code to visualize and modify order of operations.
 
 Right:
+{: .success }
 
 ```cpp
 pfloat32 myValue = (pV0->vx \* w0) + ( pV1->vx \* w1) + (pV2->vx \* w2) + (pV3->vx \* w3);
@@ -164,6 +169,7 @@ Use parenthesis in complex logic and conditional expressions.
 It is important to make it easy for future readers of this code to visualize and modify order of operations.
 
 Right:
+{: .success }
 
 ```cpp
 if ((pAudio->pBuffer[0] == 'R') && (pAudio->pBuffer[1] == 'I') && (pAudio->pBuffer[2] == 'F') && (pAudio->pBuffer[3] == 'F'))
