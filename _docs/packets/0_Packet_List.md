@@ -326,7 +326,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [MSG_CHANNEL_UPDATE](#msg_channel_update) |  |  |  | 
 [CMSG_CANCEL_CHANNELLING](#cmsg_cancel_channelling) |  |  |  | 
 [SMSG_AI_REACTION](#smsg_ai_reaction) |  |  |  | 
-[CMSG_SET_SELECTION](#cmsg_set_selection) |  |  |  | 
+[CMSG_SET_SELECTION](#cmsg_set_selection) | serialized | serialized | serialized | serialized
 [CMSG_EQUIPMENT_SET_DELETE](#cmsg_equipment_set_delete) |  |  |  | 
 [CMSG_UNUSED](#cmsg_unused) |  |  |  | 
 [CMSG_UNUSED2](#cmsg_unused2) |  |  |  | 

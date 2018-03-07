@@ -7,11 +7,13 @@ position: 318
 
 ## CMSG_SET_SELECTION
 
+Send when you click for example on your player image.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+Classic | 0x13D |  
+TBC | 0x13D |  
+WotLK | 0x13D |  
+Cata | 0x13D |  
