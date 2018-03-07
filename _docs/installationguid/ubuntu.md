@@ -245,7 +245,7 @@ After we have setup the database, its time to start downloading the files.
 The following section is a work in progress and is incomplete
 {: .info }
 
-You must first download a copy of the database from: [Link to Download](http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/).
+You must first download a copy of the database: [Link to Download](http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/).
 
 Once you have done that, open a terminal, switch to the directory the zip file is in and extract it.
 
@@ -381,17 +381,17 @@ You're now ready to move on to [Server configuration](http://www.ascemu.org/wiki
 **1.** Go to your world console and create an account.
 
 ```console
-account create <name> <password> <email>
+createaccount <accountname> <password>
 ```
 
-example: account create admin adminpassword admin@your_awsome_server.uk
+example: createaccount admin adminpassword
 
-**2.** Set gmlevel in you logon console:
+**2.** Change permission(gmlevel) in your world console:
 
 ```console
-account set gm <name> <gmlevel>
+setaccpermission <accountname> <permission>
 ```
 
-example: account set gm admin az
+example: setaccpermission admin az
 
 **For further information about access levels, have a look to this page [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
