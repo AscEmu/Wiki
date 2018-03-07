@@ -22,6 +22,7 @@ if (condition)
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 x++; y++;
@@ -46,6 +47,7 @@ else
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 if (condition) {
@@ -73,6 +75,7 @@ if (condition)
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 if (condition) {

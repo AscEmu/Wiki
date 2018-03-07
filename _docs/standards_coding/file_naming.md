@@ -15,6 +15,7 @@ Right:
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 /HealSupport Template/AI AHeal Support.cpp

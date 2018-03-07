@@ -22,7 +22,7 @@ An account with GM level az (which is a + z) is considered to have Full Administ
 ### Worldserver character_db
 You can set the access level in the table "account_permissions":
 ![alt text](/Wiki/images/world_icon_s.jpg "Worldserver logo")
-
+{: .info }
 
 ## Available Levels
     b - Character bans, kicks, paralyze.

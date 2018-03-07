@@ -13,12 +13,14 @@ position: 3
 Do not place spaces around unary operators.
 
 Right:
+{: .success }
 
 ```cpp
 i++;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 i++;
@@ -29,6 +31,7 @@ i++;
 Do place spaces around binary operators
 
 Right:
+{: .success }
 
 ```cpp
     y = m \* x + b / n;
@@ -37,6 +40,7 @@ Right:
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
     y=m\*x+b/n;
@@ -49,12 +53,14 @@ Wrong:
 Do place spaces around ternary operators
 
 Right:
+{: .success }
 
 ```cpp
 return condition ? 1 : 0;
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 return condition ? 1:0;
@@ -65,12 +71,14 @@ return condition ? 1:0;
 Do Place spaces between control statements and their parentheses.
 
 Right:
+{: .success }
 
 ```cpp
 if (condition)
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 if(condition)
@@ -81,12 +89,14 @@ if(condition)
 Do Place spaces between each of a functions parameters.
 
 Right:
+{: .success }
 
 ```cpp
     f(a, b, c, d);
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
     f(a,b,c,d);
@@ -95,12 +105,14 @@ Wrong:
 Do not place spaces between a function and its parentheses, or between a parenthesis and its content.
 
 Right:
+{: .success }
 
 ```cpp
     f(a, b);
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
     f (a, b);

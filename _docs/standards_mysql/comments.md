@@ -11,6 +11,7 @@ position: 2
 Comment your script and set these comments in a single line above the part.
 
 Right:
+{: .success }
 
 ```sql
 -- Trenton Lighthammer Gossip
@@ -18,6 +19,7 @@ DELETE FROM npc_gossip_textid WHERE
 ```
 
 Wrong:
+{: .error }
 
 ```sql
 DELETE FROM npc_gossip_textid WHERE id = 1345;  -- Trenton Lighthammer Gossip

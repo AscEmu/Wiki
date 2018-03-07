@@ -22,6 +22,7 @@ int main()
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 int main() 
@@ -59,6 +60,7 @@ class CDocumention
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 class CDocumention
@@ -89,6 +91,7 @@ namespace Whiptail
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 namespace Whiptail
@@ -124,6 +127,7 @@ switch (condition)
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 switch (condition) {
@@ -149,6 +153,7 @@ pfloat32 myValue = (pV0->vx \* w0) + ( pV1->vx \* w1) + (pV2->vx \* w2) + (pV3->
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 pfloat32 myValue = pV0->vx \* w0 + pV1->vx \* w1 + pV2->vx \* w2 + pV3->vx \* w3;
@@ -165,6 +170,7 @@ if ((pAudio->pBuffer[0] == 'R') && (pAudio->pBuffer[1] == 'I') && (pAudio->pBuff
 ```
 
 Wrong:
+{: .error }
 
 ```cpp
 if (pAudio->pBuffer[0] == 'R' && pAudio->pBuffer[1] == 'I' && pAudio->pBuffer[2] == 'F' && pAudio->pBuffer[3] == 'F')
