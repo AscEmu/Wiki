@@ -7,11 +7,13 @@ position: 111
 
 ## CMSG_GROUP_INVITE
 
+Send on inviting a player to group.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+TBC | 0x06E |  
+WotLK | 0x06E |  
+Cata | 0x0513 |  

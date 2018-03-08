@@ -119,8 +119,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_SET_CONTACT_NOTES](#cmsg_set_contact_notes) |  | serialized | serialized | 
 [CMSG_ADD_IGNORE](#cmsg_add_ignore) |  | serialized | serialized | 
 [CMSG_DEL_IGNORE](#cmsg_del_ignore) |  | serialized | serialized | 
-[CMSG_GROUP_INVITE](#cmsg_group_invite) |  |  |  | 
-[SMSG_GROUP_INVITE](#smsg_group_invite) |  |  |  | 
+[CMSG_GROUP_INVITE](#cmsg_group_invite) |  | serialized | serialized | serialized
+[SMSG_GROUP_INVITE](#smsg_group_invite) |  | serialized | serialized | serialized
 [CMSG_GROUP_CANCEL](#cmsg_group_cancel) |  |  |  | 
 [SMSG_GROUP_CANCEL](#smsg_group_cancel) |  |  |  | 
 [CMSG_GROUP_ACCEPT](#cmsg_group_accept) |  |  |  | 

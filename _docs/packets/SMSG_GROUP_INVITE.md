@@ -7,11 +7,13 @@ position: 112
 
 ## SMSG_GROUP_INVITE
 
+Send after inviting a player to a group.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+TBC | 0x06F |  
+WotLK | 0x06F |  
+Cata | 0x31B2 |  
