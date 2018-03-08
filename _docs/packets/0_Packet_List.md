@@ -116,7 +116,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_FRIEND_STATUS](#smsg_friend_status) |  |  |  | 
 [CMSG_ADD_FRIEND](#cmsg_add_friend) |  | serialized | serialized | 
 [CMSG_DEL_FRIEND](#cmsg_del_friend) |  | serialized | serialized | 
-[CMSG_SET_CONTACT_NOTES](#cmsg_set_contact_notes) |  | not used | not used | 
+[CMSG_SET_CONTACT_NOTES](#cmsg_set_contact_notes) |  | serialized | serialized | 
 [CMSG_ADD_IGNORE](#cmsg_add_ignore) |  | serialized | serialized | 
 [CMSG_DEL_IGNORE](#cmsg_del_ignore) |  | serialized | serialized | 
 [CMSG_GROUP_INVITE](#cmsg_group_invite) |  |  |  | 

@@ -7,6 +7,8 @@ position: 108
 
 ## CMSG_SET_CONTACT_NOTES
 
+Send by adding note to friend in contact list.
+
 ### Status
 
 Version | Hex | Comment
