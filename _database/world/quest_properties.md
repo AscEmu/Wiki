@@ -172,17 +172,17 @@ The entry ID of the Zone
 ### sort
 
 <pre>
-  0 = <NOT SET>
-  1 = Epic
- 21 = REUSE - Old Wailing Caverns
- 22 = Seasonal
- 23 = REUSE - Old Undercity
- 24 = Herbalism
- 25 = Battlegrounds
- 41 = REUSE - Old Uldaman
- 61 = Warlock
- 81 = Warrior
- 82 = Shaman
+0 = <NOT SET>
+1 = Epic
+21 = REUSE - Old Wailing Caverns
+22 = Seasonal
+23 = REUSE - Old Undercity
+24 = Herbalism
+25 = Battlegrounds
+41 = REUSE - Old Uldaman
+61 = Warlock
+81 = Warrior
+82 = Shaman
 101 = Fishing
 121 = Blacksmithing
 141 = Paladin

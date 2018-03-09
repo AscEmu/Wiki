@@ -61,3 +61,4 @@ The slot ID of the character:
 ### amount
 
 ATTENTION: You can't use a value > "1" on the playerslots ( You cant stack two shoulders on you :-) )
+{: .info }
