@@ -60,7 +60,7 @@ Declares how the creature moves.
 
 ### forward_emote_id
 
-See [Creature_spawns#emote_state](http://www.ascemu.org/wiki/index.php?title=Creature_spawns#emote_state "Creature spawns")
+See [Creature_spawns#emote_state](/Wiki/database/world/creature_spawns/#emote_state "Creature spawns")
 
 ### backward_emote_oneshot
 
@@ -68,7 +68,7 @@ See [Creature_spawns#emote_state](http://www.ascemu.org/wiki/index.php?title=Cre
 
 ### backward_emote_id
 
-See [Creature_spawns#emote_state](http://www.ascemu.org/wiki/index.php?title=Creature_spawns#emote_state "Creature spawns")
+See [Creature_spawns#emote_state](/Wiki/database/world/creature_spawns/#emote_state "Creature spawns")
 
 ### forward_skin_id
 
