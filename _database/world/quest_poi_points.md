@@ -23,7 +23,7 @@ The quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Ques
 
 ### poiId
 
-The point entry ID used in [quest_poi](http://www.ascemu.org/wiki/index.php?title=Quest_poi "Quest poi") table.
+The point entry ID used in [quest_poi](/Wiki/database/world/quest_poi/ "Quest poi") table.
 
 ### position(x - y)
 

@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # locales_quest
-This table contains the localization for the quest texts [quest_properties](http://www.ascemu.org/wiki/index.php?title=Quest_properties "Quest properties").
+This table contains the localization for the quest texts [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties").
 
 ## Structure
 
