@@ -7,11 +7,13 @@ position: 256
 
 ## CMSG_TUTORIAL_CLEAR
 
+Send on uncheck "Show Tutorials".
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+TBC | 0x0FF |  
+WotLK | 0x0FF |  
+Cata | 0x6515 |  

@@ -7,11 +7,13 @@ position: 257
 
 ## CMSG_TUTORIAL_RESET
 
+Send on tutorial reset.
+
 ### Status
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
 Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+TBC | 0x100 |  
+WotLK | 0x100 |  
+Cata | 0x2726 |  

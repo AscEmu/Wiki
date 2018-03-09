@@ -262,8 +262,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_TRIGGER_CINEMATIC](#smsg_trigger_cinematic) |  |  |  | 
 [CMSG_NEXT_CINEMATIC_CAMERA](#cmsg_next_cinematic_camera) |  |  |  | 
 [CMSG_COMPLETE_CINEMATIC](#cmsg_complete_cinematic) |  |  |  | 
-[SMSG_TUTORIAL_FLAGS](#smsg_tutorial_flags) |  |  |  | 
-[CMSG_TUTORIAL_FLAG](#cmsg_tutorial_flag) |  |  |  | 
+[SMSG_TUTORIAL_FLAGS](#smsg_tutorial_flags) |  | serialized |  | 
+[CMSG_TUTORIAL_FLAG](#cmsg_tutorial_flag) |  | serialized | serialized | 
 [CMSG_TUTORIAL_CLEAR](#cmsg_tutorial_clear) |  |  |  | 
 [CMSG_TUTORIAL_RESET](#cmsg_tutorial_reset) |  |  |  | 
 [CMSG_STANDSTATECHANGE](#cmsg_standstatechange) |  | serialized | serialized | serialized
