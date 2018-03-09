@@ -22,7 +22,7 @@ The item ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action
 
 ### quest
 
-The linked quest ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table.
+The linked quest ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table.
 
 ### item_count
 

@@ -726,7 +726,7 @@ The material of the page:
 
 ### quest_id
 
-The quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table to start the quest.
+The quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table to start the quest.
 
 ### lock_id
 

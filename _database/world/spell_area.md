@@ -32,7 +32,7 @@ The area ID
 
 ### quest_start
 
-The entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table to activate this area spell.
+The entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table to activate this area spell.
 
 ### quest_start_active
 

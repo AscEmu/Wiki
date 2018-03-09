@@ -22,8 +22,8 @@ The entry ID of the gameobject from [gameobject_names](http://www.ascemu.org/wik
 
 ### quest
 
-The entry ID of the quest from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table.
+The entry ID of the quest from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table.
 
 ### required_count
 
-This is simmilar to ReqItemCount-fields in [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table.
+This is simmilar to ReqItemCount-fields in [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table.

@@ -108,11 +108,11 @@ Min level of creatures. If you enter the map the creature will change theyr leve
 
 ### required_quest_A
 
-Required quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table for alliance.
+Required quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table for alliance.
 
 ### required_quest_H
 
-Required quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table for horde.
+Required quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table for horde.
 
 ### required_item
 

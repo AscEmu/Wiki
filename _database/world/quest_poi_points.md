@@ -19,7 +19,7 @@ Field                                                                           
 
 ### questId
 
-The quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table.
+The quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table.
 
 ### poiId
 
