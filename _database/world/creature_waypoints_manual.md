@@ -28,7 +28,7 @@ Field                                                                           
 
 ### group_id
 
-This is a unique ID lonking waypoint_group [Event_creature_spawns#waypoint_group](http://www.ascemu.org/wiki/index.php?title=Event_creature_spawns#waypoint_group "Event creature spawns").
+This is a unique ID lonking waypoint_group [Event_creature_spawns#waypoint_group](/Wiki/database/world/event_creature_spawns/#waypoint_group "Event creature spawns").
 
 ### waypoint_id
 

@@ -172,7 +172,7 @@ The entry ID of the Zone
 ### sort
 
 <pre>
-0 = <NOT SET>
+0 = -NOT SET-
 1 = Epic
 21 = REUSE - Old Wailing Caverns
 22 = Seasonal
@@ -230,6 +230,9 @@ Value  | Name                       | Hex        | Comment
 512    | QUEST_FLAGS_HIDDEN_REWARDS | 0x00000200 | Items and money rewarded only sent in SMSG_QUESTGIVER_OFFER_REWARD
 
 (not in SMSG_QUESTGIVER_QUEST_DETAILS or in client quest log(SMSG_QUEST_QUERY_RESPONSE))
+{: .info }
+Value  | Name                       | Hex        | Comment                                                                                                                                                      
+------ | -------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------
 1024   | QUEST_FLAGS_AUTO_REWARDED  | 0x00000400 | These quests are automatically rewarded on quest complete and they will never appear in quest log client side.                                               
 2048   | QUEST_FLAGS_TBC_RACES      | 0x00000800 | Not used currently: Blood elf/Draenei starting zone quests                                                                                                   
 4096   | QUEST_FLAGS_DAILY          | 0x00001000 | Daily quest. Can be done once a day. Quests reset at regular intervals for all players.                                                                      
