@@ -193,4 +193,4 @@ setaccpermission <accountname> <permission>
 
 example: setaccpermission admin az
 
-**For further information about access levels, have a look to this page [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
+**For further information about access levels, have a look to this page [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
