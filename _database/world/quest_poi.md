@@ -27,7 +27,7 @@ The quest entry ID from [quest_properties](/Wiki/database/world/quest_properties
 
 ### poiId
 
-The point entry ID from [quest_poi_points](_points "Quest poi points") table.
+The point entry ID from [quest_poi_points](/Wiki/database/world/quest_poi_points/ "Quest poi points") table.
 
 ### mapId
 
