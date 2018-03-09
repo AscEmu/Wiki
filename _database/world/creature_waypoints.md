@@ -28,7 +28,7 @@ Field                                                                           
 
 ### spawnid
 
-This is a unique ID from [creature_spawns](http://www.ascemu.org/wiki/index.php?title=Creature_spawns "Creature spawns").
+This is a unique ID from [creature_spawns](/Wiki/database/world/creature_spawns/) "Creature spawns").
 
 ### waypointid
 

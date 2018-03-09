@@ -30,7 +30,7 @@ The number the item is ordered in the menu. 1-...
 
 ### menu_option
 
-The unique menu option ID from [gossip_menu_option](http://www.ascemu.org/wiki/index.php?title=Gossip_menu_option "Gossip menu option") table
+The unique menu option ID from [gossip_menu_option](/Wiki/database/world/gossip_menu_option/ "Gossip menu option") table
 
 ### icon
 
@@ -38,7 +38,7 @@ Icon displayed beside the option.
 
 ### point_of_interest
 
-ID from [points_of_interest](http://www.ascemu.org/wiki/index.php?title=Points_of_interest "Points of interest") table.
+ID from [points_of_interest](/Wiki/database/world/points_of_interest/ "Points of interest") table.
 
 ### next_gossip_menu
 
@@ -46,4 +46,4 @@ Next gossip menu id in this table.
 
 ### next_gossip_text
 
-The unique text id in [npc_text](http://www.ascemu.org/wiki/index.php?title=Npc_text "Npc text") table.
+The unique text id in [npc_text](/Wiki/database/world/npc_text/ "Npc text") table.
