@@ -483,7 +483,7 @@ Money you receive when you complete the quest at the server's max level.
 
 ### ExploreTrigger(1-4)
 
-Areatriggers entry ID from [areatriggers](http://www.ascemu.org/wiki/index.php?title=Areatriggers "Areatriggers") players need to go to, for finishing quest.
+Areatriggers entry ID from [areatriggers](/Wiki/database/world/areatriggers/ "Areatriggers") players need to go to, for finishing quest.
 
 ### RequiredOneOfQuest
 

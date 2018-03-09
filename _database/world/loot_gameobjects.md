@@ -23,7 +23,7 @@ Field                                                                           
 
 ### entryid
 
-The Entry ID of the loot. This referres to [gameobject_properties](http://www.ascemu.org/wiki/index.php?title=Gameobject_properties "Gameobject properties") table parameter_1 (Only for type 3 and 25)
+The Entry ID of the loot. This referres to [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table parameter_1 (Only for type 3 and 25)
 
 ### itemid
 

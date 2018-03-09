@@ -18,7 +18,7 @@ Field                                                                           
 
 ### entry
 
-The entry ID from [worldstring_tables](http://www.ascemu.org/wiki/index.php?title=Worldstring_tables "Worldstring tables")
+The entry ID from [worldstring_tables](/Wiki/database/world/worldstring_tables/ "Worldstring tables")
 
 ### language_code
 

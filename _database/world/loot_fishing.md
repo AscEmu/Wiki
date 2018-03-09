@@ -23,7 +23,7 @@ Field                                                                           
 
 ### entryid
 
-The Entry ID of the zone from [fishing](http://www.ascemu.org/wiki/index.php?title=Fishing "Fishing").
+The Entry ID of the zone from [fishing](/Wiki/database/world/fishing/ "Fishing").
 
 ### itemid
 
