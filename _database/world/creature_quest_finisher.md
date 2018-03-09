@@ -21,4 +21,4 @@ The Entry ID of the mob that completes the quest, from [creature_names](http://w
 
 ### quest
 
-The Entry ID for the quest to be completed, from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)").
+The Entry ID for the quest to be completed, from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties").

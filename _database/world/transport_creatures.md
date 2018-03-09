@@ -21,7 +21,7 @@ Field                                                                           
 
 ### transport_entry
 
-The transport entry ID from [transport_data](http://www.ascemu.org/wiki/index.php?title=Transport_data "Transport data") table.
+The transport entry ID from [transport_data](/Wiki/database/world/transport_data/ "Transport data") table.
 
 ### creature_entry
 

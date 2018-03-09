@@ -489,7 +489,7 @@ The faction ID which is required.
 
 The required faction standing for the defined "RequiredFaction" ID.
 
-For more information, take a look at [playerreputations](http://www.ascemu.org/wiki/index.php?title=Playerreputations "Playerreputations") table. (Rows "factions" and "standing")
+For more information, take a look at [playerreputations](/Wiki/database/characters/playerreputations/ "Playerreputations") table. (Rows "factions" and "standing")
 
 ### Unique
 
@@ -726,7 +726,7 @@ The material of the page:
 
 ### quest_id
 
-The quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table to start the quest.
+The quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table to start the quest.
 
 ### lock_id
 
@@ -764,13 +764,13 @@ The sheath type to controle the action by using "Z" hotkey:
 
 ### randomprop
 
-This field defines the random property "group". This field gets filles with the entry ID from [item_randomprop_groups](http://www.ascemu.org/wiki/index.php?title=Item_randomprop_groups "Item randomprop groups") table.
+This field defines the random property "group". This field gets filles with the entry ID from [item_randomprop_groups](/Wiki/database/world/item_randomprop_groups/ "Item randomprop groups") table.
 
 NOTE!: **It exists no item** with a **randomprop and randomsuffix** value. Make shure that **only one** of these values links to an other table!
 
 ### randomsuffix
 
-This field defines the random suffix "group". This field gets filles with the entry ID from [item_randomsuffix_groups](http://www.ascemu.org/wiki/index.php?title=Item_randomsuffix_groups "Item randomsuffix groups") table.
+This field defines the random suffix "group". This field gets filles with the entry ID from [item_randomsuffix_groups](/Wiki/database/world/item_randomsuffix_groups/ "Item randomsuffix groups") table.
 
 NOTE!: **It exists no item** with a **randomprop and randomsuffix** value. Make shure that **only one** of these values links to an other table!
 

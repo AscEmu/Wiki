@@ -18,7 +18,7 @@ Field                                                                           
 
 ### entry
 
-The unique ID from [gossip_menu_option](http://www.ascemu.org/wiki/index.php?title=Gossip_menu_option "Gossip menu option") for the text.
+The unique ID from [gossip_menu_option](/Wiki/database/world/gossip_menu_option/ "Gossip menu option") for the text.
 
 ### languages_code
 

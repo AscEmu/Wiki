@@ -43,8 +43,7 @@ The type of area trigger it is (Enum defined by Arcemu).
 
 4 = Teleport   (Same as type 1 (Instance) but without the requirements check.) 
 
-<strike>5 = Spell
-</strike>
+<strike>5 = Spell</strike>
 
 <strike>6 = Battleground</strike>
 

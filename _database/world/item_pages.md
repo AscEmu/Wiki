@@ -18,7 +18,7 @@ Field                                                                        | T
 
 ### entry
 
-The unique ID for the page. this id is used in row `page_id` in table [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)")
+The unique ID for the page. this id is used in row `page_id` in table [item_properties](/Wiki/database/world/item_properties/ "Item properties")
 
 ### text
 

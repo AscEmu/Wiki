@@ -19,11 +19,11 @@ Field                                                                           
 
 ### spawn_id
 
-The unique ID from [creature_spawns](http://www.ascemu.org/wiki/index.php?title=Creature_spawns "Creature spawns"). This is the ID that will be following the "leader".
+The unique ID from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns"). This is the ID that will be following the "leader".
 
 ### target_spawn_id
 
-The ID from [creature_spawns](http://www.ascemu.org/wiki/index.php?title=Creature_spawns "Creature spawns"), this is the "leader" that is being followed.
+The ID from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns"), this is the "leader" that is being followed.
 
 ### follow_angle
 

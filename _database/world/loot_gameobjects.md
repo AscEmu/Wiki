@@ -23,11 +23,11 @@ Field                                                                           
 
 ### entryid
 
-The Entry ID of the loot. This referres to [gameobject_properties](http://www.ascemu.org/wiki/index.php?title=Gameobject_properties "Gameobject properties") table parameter_1 (Only for type 3 and 25)
+The Entry ID of the loot. This referres to [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table parameter_1 (Only for type 3 and 25)
 
 ### itemid
 
-The Entry ID of the Item that will drop, from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)").
+The Entry ID of the Item that will drop, from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
 
 ### normal10percentchance
 

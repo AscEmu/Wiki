@@ -108,23 +108,23 @@ Min level of creatures. If you enter the map the creature will change theyr leve
 
 ### required_quest_A
 
-Required quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table for alliance.
+Required quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table for alliance.
 
 ### required_quest_H
 
-Required quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table for horde.
+Required quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table for horde.
 
 ### required_item
 
-Required item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Required item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### heroic_keyid_1
 
-Required item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Required item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### heroic_keyid_2
 
-Required item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Required item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### viewingDistance
 

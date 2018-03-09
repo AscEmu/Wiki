@@ -23,12 +23,12 @@ The unique entry from [creature_names](http://www.ascemu.org/wiki/index.php?titl
 
 ### itemslot_1
 
-The item entry from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)"), for the mainhandslot
+The item entry from [item_properties](/Wiki/database/world/item_properties/ "Item properties"), for the mainhandslot
 
 ### itemslot_2
 
-The item entry from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)"), for the offhand slot
+The item entry from [item_properties](/Wiki/database/world/item_properties/ "Item properties"), for the offhand slot
 
 ### itemslot_3
 
-The item entry from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)"), for the ranged slot
+The item entry from [item_properties](/Wiki/database/world/item_properties/ "Item properties"), for the ranged slot

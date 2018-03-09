@@ -18,11 +18,11 @@ Field                                                                           
 
 ### item
 
-The item ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+The item ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### quest
 
-The linked quest ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table.
+The linked quest ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table.
 
 ### item_count
 

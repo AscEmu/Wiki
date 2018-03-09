@@ -23,11 +23,11 @@ Field                                                                           
 
 ### entryid
 
-The Entry ID of the zone from [fishing](http://www.ascemu.org/wiki/index.php?title=Fishing "Fishing").
+The Entry ID of the zone from [fishing](/Wiki/database/world/fishing/ "Fishing").
 
 ### itemid
 
-The Entry ID of the Item that will drop, from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)").
+The Entry ID of the Item that will drop, from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
 
 ### normal10percentchance
 

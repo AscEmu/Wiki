@@ -382,4 +382,4 @@ The phase of the creature.
 
 ### waypoint_group
 
-The linked waypointgroup from [creature_waypoints_manual](http://www.ascemu.org/wiki/index.php?title=Creature_waypoints_manual "Creature waypoints manual") table.
+The linked waypointgroup from [creature_waypoints_manual](/Wiki/database/world/creature_waypoints_manual/ "Creature waypoints manual") table.

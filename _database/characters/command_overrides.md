@@ -21,4 +21,4 @@ The name of the in-game command.
 
 ### access_level
 
-"[GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")"
+"[GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")"

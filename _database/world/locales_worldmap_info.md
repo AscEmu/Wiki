@@ -18,7 +18,7 @@ Field                                                                           
 
 ### entry
 
-The map entry ID from [worldmap_info](http://www.ascemu.org/wiki/index.php?title=Worldmap_info "Worldmap info")
+The map entry ID from [worldmap_info](/Wiki/database/world/worldmap_info/ "Worldmap info")
 
 ### language_code
 

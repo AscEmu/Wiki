@@ -18,7 +18,7 @@ Field                                                                           
 
 ### entry
 
-The unique ID from [worldbroadcastfor](http://www.ascemu.org/wiki/index.php?title=Worldbroadcast "Worldbroadcast") the text.
+The unique ID from [worldbroadcastfor](/Wiki/database/world/worldbroadcast/ "Worldbroadcast") the text.
 
 ### languages_code
 

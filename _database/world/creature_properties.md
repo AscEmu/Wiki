@@ -538,4 +538,4 @@ ID of the Questitem which can be looted from npc. (untested)
 
 ### waypointid
 
-The waypoint ID from [creature_waypoints](http://www.ascemu.org/wiki/index.php?title=Creature_waypoints "Creature waypoints")
+The waypoint ID from [creature_waypoints](/Wiki/database/world/creature_waypoints/ "Creature waypoints")

@@ -66,8 +66,8 @@ The message Text for the trainer window.
 
 ### can_train_gossip_textid
 
-The TextID shown if trainer can train this spell from [npc_gossip_textid](http://www.ascemu.org/wiki/index.php?title=Npc_gossip_textid "Npc gossip textid") table.
+The TextID shown if trainer can train this spell from [npc_gossip_textid](/Wiki/database/world/npc_gossip_textid/ "Npc gossip textid") table.
 
 ### cannot_train_gossip_textid
 
-The TextID shown if trainer can not train this spell from [npc_gossip_textid](http://www.ascemu.org/wiki/index.php?title=Npc_gossip_textid "Npc gossip textid") table.
+The TextID shown if trainer can not train this spell from [npc_gossip_textid](/Wiki/database/world/npc_gossip_textid/ "Npc gossip textid") table.

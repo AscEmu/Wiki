@@ -17,7 +17,7 @@ Field                                                                           
 
 ### indexid
 
-The entry ID from [playercreateinfo](http://www.ascemu.org/wiki/index.php?title=Playercreateinfo "Playercreateinfo") table.
+The entry ID from [playercreateinfo](/Wiki/database/world/playercreateinfo/ "Playercreateinfo") table.
 
 ### spellid
 

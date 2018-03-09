@@ -43,11 +43,11 @@ The rquired faction value linked to reqrepfaction...
 
 ### canbuyattextid
 
-The TextID shown if vendor can sell things to player from [npc_gossip_textid](http://www.ascemu.org/wiki/index.php?title=Npc_gossip_textid "Npc gossip textid") table.
+The TextID shown if vendor can sell things to player from [npc_gossip_textid](/Wiki/database/world/npc_gossip_textid/ "Npc gossip textid") table.
 
 ### cannotbuyattextid
 
-The TextID shown if vendor can not sell things to player from [npc_gossip_textid](http://www.ascemu.org/wiki/index.php?title=Npc_gossip_textid "Npc gossip textid") table.
+The TextID shown if vendor can not sell things to player from [npc_gossip_textid](/Wiki/database/world/npc_gossip_textid/ "Npc gossip textid") table.
 
 ### flags
 

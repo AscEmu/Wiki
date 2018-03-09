@@ -23,11 +23,11 @@ Field                                                                       | Ty
 
 ### questId
 
-The quest entry ID from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table.
+The quest entry ID from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table.
 
 ### poiId
 
-The point entry ID from [quest_poi_points](_points "Quest poi points") table.
+The point entry ID from [quest_poi_points](/Wiki/database/world/quest_poi_points/ "Quest poi points") table.
 
 ### mapId
 

@@ -35,7 +35,7 @@ The text.
 
 ### creature_entry
 
-The creature entry ID from [creature_properties](http://www.ascemu.org/wiki/index.php?title=Creature_properties "Creature properties") table.
+The creature entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ### id
 

@@ -19,7 +19,7 @@ Field                                                                           
 [mapID](#mapID)                     | int(10)     | 0       |                
 [zoneID](#zoneID)                   | int(10)     | 0       |                
 [positionX](#position.28x_-_o.29)   | float(0)    | 0       |                
-[position>](#position.28x_-_o.29)   | float(0)    | 0       |                
+[positionY](#position.28x_-_o.29)   | float(0)    | 0       |                
 [positionZ](#position.28x_-_o.29)   | float(0)    | 0       |                
 [positionO](#position.28x_-_o.29)   | float(0)    | 0       | (Not available)
 [displayID](#displayID)             | smallint(5) | 0       |                

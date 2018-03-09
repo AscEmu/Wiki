@@ -9,6 +9,7 @@ layout: single_markdown
 This table defines locations for the minimaps pointed by guards.
 
 NOTE: This table is new... All points were moved from core to db, but the old function is available for script developers.
+{: .info }
 
 ## Structure
 

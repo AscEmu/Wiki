@@ -17,7 +17,7 @@ Field                                                                           
 
 ### itemset
 
-The itemset ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)")
+The itemset ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties")
 
 ### itemset_bonus
 

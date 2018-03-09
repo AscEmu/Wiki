@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # locales_quest
-This table contains the localization for the quest texts [quest_properties](http://www.ascemu.org/wiki/index.php?title=Quest_properties "Quest properties").
+This table contains the localization for the quest texts [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties").
 
 ## Structure
 
@@ -27,7 +27,7 @@ Field                                                                           
 
 ### entry
 
-The entry ID of the quest from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)") table.
+The entry ID of the quest from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties") table.
 
 ### language_code
 

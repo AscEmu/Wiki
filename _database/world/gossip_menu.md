@@ -22,7 +22,7 @@ The unique entry ID for the first gossip_menu.
 
 ### text_id
 
-The text ID for the first gossip_menu from [npc_text](http://www.ascemu.org/wiki/index.php?title=Npc_text "Npc text")
+The text ID for the first gossip_menu from [npc_text](/Wiki/database/world/npc_text/ "Npc text")
 
 ### Comment
 

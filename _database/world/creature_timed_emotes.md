@@ -23,7 +23,7 @@ Field                                                                           
 
 ### spawnid
 
-Creature entry ID spawn from [creature_spawns](http://www.ascemu.org/wiki/index.php?title=Creature_spawns "Creature spawns") table.
+Creature entry ID spawn from [creature_spawns](/Wiki/database/world/creature_spawns/) "Creature spawns") table.
 
 ### rowid
 

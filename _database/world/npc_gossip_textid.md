@@ -17,8 +17,8 @@ Field                                                                           
 
 ### creatureid
 
-The entry ID from [creature_properties](http://www.ascemu.org/wiki/index.php?title=Creature_properties "Creature properties")
+The entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties")
 
 ### textid
 
-The text ID from [npc_text](http://www.ascemu.org/wiki/index.php?title=Npc_text "Npc text")
+The text ID from [npc_text](/Wiki/database/world/npc_text/ "Npc text")

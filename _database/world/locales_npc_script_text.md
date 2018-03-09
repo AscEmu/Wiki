@@ -18,7 +18,7 @@ Field                                                                           
 
 ### entry
 
-The unique ID from [npc_script_text](http://www.ascemu.org/wiki/index.php?title=Npc_script_text "Npc script text") for the text.
+The unique ID from [npc_script_text](/Wiki/database/world/npc_script_text/ "Npc script text") for the text.
 
 ### languages_code
 

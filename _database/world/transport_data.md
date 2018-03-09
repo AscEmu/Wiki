@@ -8,8 +8,6 @@ layout: single_markdown
 # transport_data
 This table includes all transport data (Seems to be useless...). 
 
-[Back to:WorldDB](http://www.ascemu.org/wiki/index.php?title=WorldDB "WorldDB")
-
 ## Structure
 
 Field                                                                      | Type         | Default | Comment

@@ -19,11 +19,11 @@ Field                                                                           
 
 ### indexid
 
-The entry ID from [playercreateinfo](http://www.ascemu.org/wiki/index.php?title=Playercreateinfo "Playercreateinfo") table.
+The entry ID from [playercreateinfo](/Wiki/database/world/playercreateinfo/ "Playercreateinfo") table.
 
 ### protoid
 
-The item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+The item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### slotid
 
@@ -61,3 +61,4 @@ The slot ID of the character:
 ### amount
 
 ATTENTION: You can't use a value > "1" on the playerslots ( You cant stack two shoulders on you :-) )
+{: .info }

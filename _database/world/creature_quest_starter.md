@@ -21,4 +21,4 @@ The Entry ID of the mob that starts the quest, from [creature_names](http://www.
 
 ### quest
 
-The Entry ID for the quest to be started, from [quests](http://www.ascemu.org/wiki/index.php?title=Quests&action=edit&redlink=1 "Quests (page does not exist)").
+The Entry ID for the quest to be started, from [quest_properties](/Wiki/database/world/quest_properties/ "Quest properties").

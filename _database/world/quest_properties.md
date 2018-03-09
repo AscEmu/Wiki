@@ -172,17 +172,17 @@ The entry ID of the Zone
 ### sort
 
 <pre>
-  0 = <NOT SET>
-  1 = Epic
- 21 = REUSE - Old Wailing Caverns
- 22 = Seasonal
- 23 = REUSE - Old Undercity
- 24 = Herbalism
- 25 = Battlegrounds
- 41 = REUSE - Old Uldaman
- 61 = Warlock
- 81 = Warrior
- 82 = Shaman
+0 = -NOT SET-
+1 = Epic
+21 = REUSE - Old Wailing Caverns
+22 = Seasonal
+23 = REUSE - Old Undercity
+24 = Herbalism
+25 = Battlegrounds
+41 = REUSE - Old Uldaman
+61 = Warlock
+81 = Warrior
+82 = Shaman
 101 = Fishing
 121 = Blacksmithing
 141 = Paladin
@@ -230,6 +230,9 @@ Value  | Name                       | Hex        | Comment
 512    | QUEST_FLAGS_HIDDEN_REWARDS | 0x00000200 | Items and money rewarded only sent in SMSG_QUESTGIVER_OFFER_REWARD
 
 (not in SMSG_QUESTGIVER_QUEST_DETAILS or in client quest log(SMSG_QUEST_QUERY_RESPONSE))
+{: .info }
+Value  | Name                       | Hex        | Comment                                                                                                                                                      
+------ | -------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------
 1024   | QUEST_FLAGS_AUTO_REWARDED  | 0x00000400 | These quests are automatically rewarded on quest complete and they will never appear in quest log client side.                                               
 2048   | QUEST_FLAGS_TBC_RACES      | 0x00000800 | Not used currently: Blood elf/Draenei starting zone quests                                                                                                   
 4096   | QUEST_FLAGS_DAILY          | 0x00001000 | Daily quest. Can be done once a day. Quests reset at regular intervals for all players.                                                                      
@@ -415,7 +418,7 @@ The required emote Id.
 
 ### RewChoiceItemId(1-6)
 
-Item entry ID's from which player can choose as a quest reward. From [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Item entry ID's from which player can choose as a quest reward. From [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### RewChoiceItemCount(1-6)
 
@@ -423,7 +426,7 @@ Count of each item.
 
 ### RewItemId(1-4)
 
-ID of Item you attain when you complete the quest from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table, can be mixed with rewchoiceitems.
+ID of Item you attain when you complete the quest from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table, can be mixed with rewchoiceitems.
 
 ### RewItemCount(1-4)
 
@@ -467,7 +470,7 @@ The time delay before the mail is send to the player in seconds.
 
 ### MailSendItem
 
-The item entry ID which would be attached to the mail from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+The item entry ID which would be attached to the mail from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### PointMapId
 
@@ -483,7 +486,7 @@ Money you receive when you complete the quest at the server's max level.
 
 ### ExploreTrigger(1-4)
 
-Areatriggers entry ID from [areatriggers](http://www.ascemu.org/wiki/index.php?title=Areatriggers "Areatriggers") players need to go to, for finishing quest.
+Areatriggers entry ID from [areatriggers](/Wiki/database/world/areatriggers/ "Areatriggers") players need to go to, for finishing quest.
 
 ### RequiredOneOfQuest
 
@@ -497,7 +500,7 @@ The quest entry IDs the player must complete before attaining this quest.
 
 ### ReceiveItemId(1-4)
 
-The item entry ID the player revieves from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+The item entry ID the player revieves from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### ReceiveItemCount(1-4)
 
