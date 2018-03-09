@@ -300,7 +300,7 @@ At the time of writing, the following error is output:
 
 Database: You need to apply the world update queries that are newer than 2015-01-21_01_npc_script_text. Exiting.
 
-Database: You can find the world update queries in the sql/world_updates sub-directory of your AscEmu source directory.'
+Database: You can find the world update queries in the sql/world_updates sub-directory of your Arcemu source directory.'
 ```
 
 In this case, the last applied update is _2015-01-21_01_npc_script_text_. This means that we need to apply anything newer than that. For this, cd back to the sql directory:
@@ -394,4 +394,4 @@ setaccpermission <accountname> <permission>
 
 example: setaccpermission admin az
 
-**For further information about access levels, have a look to this page [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
+**For further information about access levels, have a look to this page [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
