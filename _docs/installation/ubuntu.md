@@ -300,6 +300,7 @@ At the time of writing, the following error is output:
 
 Database: You need to apply the world update queries that are newer than 2015-01-21_01_npc_script_text. Exiting.
 
+
 Database: You can find the world update queries in the sql/world_updates sub-directory of your AscEmu source directory.'
 ```
 
@@ -394,4 +395,5 @@ setaccpermission <accountname> <permission>
 
 example: setaccpermission admin az
 
-**For further information about access levels, have a look to this page [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
+
+**For further information about access levels, have a look to this page [GM_Access_Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**

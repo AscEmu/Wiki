@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for packets in site.docs | sort: 'position' %}
+    {% if packets.type != 'packets' %}
+        {% continue %}
+    {% endif %}
+    <div class="topnav">
+        <a target="_blank" href="https://github.com/AscEmu/Wiki/tree/master/{{ packets.path }}"><i class="fas fa-code-branch"></i> Change this part</a>
+    </div>
+    {{ packets.content | markdownify }}
+{% endfor %}
