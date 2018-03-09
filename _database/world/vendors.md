@@ -25,7 +25,7 @@ The entry ID of the vendor from [creature_names](http://www.ascemu.org/wiki/inde
 
 ### item
 
-The entry ID of the selling item from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)")
+The entry ID of the selling item from [item_properties](/Wiki/database/world/item_properties/ "Item properties")
 
 ### amount
 
@@ -41,4 +41,4 @@ The maximum amount of the selling item.
 
 ### extended_cost
 
-Overrides the extended_cost in [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") for the selling item.
+Overrides the extended_cost in [item_properties](/Wiki/database/world/item_properties/ "Item properties") for the selling item.

@@ -23,7 +23,7 @@ The entry ID from [playercreateinfo](/Wiki/database/world/playercreateinfo/ "Pla
 
 ### protoid
 
-The item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+The item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### slotid
 

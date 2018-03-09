@@ -116,15 +116,15 @@ Required quest entry ID from [quest_properties](/Wiki/database/world/quest_prope
 
 ### required_item
 
-Required item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Required item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### heroic_keyid_1
 
-Required item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Required item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### heroic_keyid_2
 
-Required item entry ID from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Required item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### viewingDistance
 

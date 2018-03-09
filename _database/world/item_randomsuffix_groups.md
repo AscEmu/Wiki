@@ -20,7 +20,7 @@ Field                                                                           
 
 This is the numerical identifier of the random suffix group.
 
-This identifier is referenced in the `randomsuffix` field in the [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+This identifier is referenced in the `randomsuffix` field in the [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### randomsuffix
 

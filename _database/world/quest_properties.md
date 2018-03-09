@@ -415,7 +415,7 @@ The required emote Id.
 
 ### RewChoiceItemId(1-6)
 
-Item entry ID's from which player can choose as a quest reward. From [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+Item entry ID's from which player can choose as a quest reward. From [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### RewChoiceItemCount(1-6)
 
@@ -423,7 +423,7 @@ Count of each item.
 
 ### RewItemId(1-4)
 
-ID of Item you attain when you complete the quest from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table, can be mixed with rewchoiceitems.
+ID of Item you attain when you complete the quest from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table, can be mixed with rewchoiceitems.
 
 ### RewItemCount(1-4)
 
@@ -467,7 +467,7 @@ The time delay before the mail is send to the player in seconds.
 
 ### MailSendItem
 
-The item entry ID which would be attached to the mail from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+The item entry ID which would be attached to the mail from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### PointMapId
 
@@ -497,7 +497,7 @@ The quest entry IDs the player must complete before attaining this quest.
 
 ### ReceiveItemId(1-4)
 
-The item entry ID the player revieves from [items](http://www.ascemu.org/wiki/index.php?title=Items&action=edit&redlink=1 "Items (page does not exist)") table.
+The item entry ID the player revieves from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### ReceiveItemCount(1-4)
 
