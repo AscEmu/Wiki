@@ -33,8 +33,8 @@ The creation timestamp of this bugreport.
 
 ### Suggestion
 
-    0 = it is a bugreport
-    ≠ 0 = suggestion
+0 = it is a bugreport
+≠ 0 = suggestion
 
 ### Type
 

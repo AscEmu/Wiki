@@ -15,10 +15,10 @@ Field                                                                           
 [id](#id)                                                       | int(11)       |         | Auto Num
 [entry](#entry)                                                 | mediumint(10) |         |         
 [map](#map)                                                     | smallint(5)   |         |         
-[position_x](#positions.28x_-_o.29)                             | float(0)      |         |         
-[position_y](#positions.28x_-_o.29)                             | float(0)      |         |         
-[position_z](#positions.28x_-_o.29)                             | float(0)      |         |         
-[orientation](#positions.28x_-_o.29)                            | float(0)      |         |         
+[position_x](#positions)                                        | float(0)      |         |         
+[position_y](#positions)                                        | float(0)      |         |         
+[position_z](#positions)                                        | float(0)      |         |         
+[orientation](#positions)                                       | float(0)      |         |         
 [movetype](#movetype)                                           | tinyint(3)    | 0       |         
 [displayid](#displayid)                                         | mediumint(10) | 0       |         
 [faction](#faction)                                             | mediumint(10) | 14      |         
@@ -52,7 +52,7 @@ Entry ID of the creature from [creature_names](http://www.ascemu.org/wiki/index.
 
 Map ID of the spawned creature.
 
-### positions(x - o)
+### positions
 
 Coordinates of the spawned creature. (Home position).
 

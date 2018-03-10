@@ -62,44 +62,31 @@ The entry ID of the NPC.
 
 2 = Damage Taken
 
-<strike>3 = Target Cast Spell
-</strike>
+<strike>3 = Target Cast Spell</strike>
 
-<strike>4 = Target Parried
-</strike>
+<strike>4 = Target Parried</strike>
 
-<strike>5 = Target Dodged
-</strike>
+<strike>5 = Target Dodged</strike>
 
-<strike>6 = Target Blocked
-</strike>
+<strike>6 = Target Blocked</strike>
 
-<strike>7 = Target Critically Hit
-</strike>
+<strike>7 = Target Critically Hit</strike>
 
-<strike>8 = Target Died
-</strike>
+<strike>8 = Target Died</strike>
 
-<strike>9 = Target Died (!)
-</strike>
+<strike>9 = Target Died (!)</strike>
 
-<strike>10 = Unit Parried
-</strike>
+<strike>10 = Unit Parried</strike>
 
-<strike>11 = Unit Dodged
-</strike>
+<strike>11 = Unit Dodged</strike>
 
-<strike>12 = Unit Blocked
-</strike>
+<strike>12 = Unit Blocked</strike>
 
-<strike>13 = Unit Critical Hit
-</strike>
+<strike>13 = Unit Critical Hit</strike>
 
-<strike>14 = Unit Died
-</strike>
+<strike>14 = Unit Died</strike>
 
-<strike>15 = Assisting Target Died (Pet)
-</strike>
+<strike>15 = Assisting Target Died (Pet)</strike>
 
 <strike>16 = Follow Owner</strike>
 
