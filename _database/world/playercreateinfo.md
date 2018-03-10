@@ -18,10 +18,10 @@ Field                                                                           
 [class](#class)                     | tinyint(3)  | 0       |                
 [mapID](#mapID)                     | int(10)     | 0       |                
 [zoneID](#zoneID)                   | int(10)     | 0       |                
-[positionX](#position.28x_-_o.29)   | float(0)    | 0       |                
-[positionY](#position.28x_-_o.29)   | float(0)    | 0       |                
-[positionZ](#position.28x_-_o.29)   | float(0)    | 0       |                
-[positionO](#position.28x_-_o.29)   | float(0)    | 0       | (Not available)
+[positionX](#position)              | float(0)    | 0       |                
+[positionY](#position)              | float(0)    | 0       |                
+[positionZ](#position)              | float(0)    | 0       |                
+[positionO](#position)              | float(0)    | 0       | (Not available)
 [displayID](#displayID)             | smallint(5) | 0       |                
 [BaseStrength](#BaseStrength)       | tinyint(3)  | 0       |                
 [BaseAgility](#BaseAgility)         | tinyint(3)  | 0       |                
@@ -63,7 +63,7 @@ Field                                                                           
 
 ...
 
-### position(x - o)
+### position
 
 ...
 

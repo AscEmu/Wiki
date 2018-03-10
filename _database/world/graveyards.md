@@ -13,10 +13,10 @@ This table contains the graveyard positions. Unfortunately, it seems this table 
 Field                                                                                    | Type         | Default | Comment                    
 ---------------------------------------------------------------------------------------- | ------------ | ------- | ---------------------------
 [id](#id)                           | smallint(4)  |         | Auto Num. Not used in core.
-[position_x](#position.28x_-_o.29)  | float(0)     | 0       |                            
-[position_y](#position.28x_-_o.29)  | float(0)     | 0       |                            
-[position_z](#position.28x_-_o.29)  | float(0)     | 0       |                            
-[orientation](#position.28x_-_o.29) | float(0)     | 0       |                            
+[position_x](#position)             | float(0)     | 0       |                            
+[position_y](#position)             | float(0)     | 0       |                            
+[position_z](#position)             | float(0)     | 0       |                            
+[orientation](#position)            | float(0)     | 0       |                            
 [zoneid](#zoneid)                   | tinyint(1)   |         | not used in core.          
 [adjacentzoneid](#adjacentzoneid)   | tinyint(1)   |         | unused                     
 [mapid](#mapid)                     | smallint(3)  |         |                            
@@ -27,7 +27,7 @@ Field                                                                           
 
 Unique value for ordering not used by core!
 
-### position(x - o)
+### position
 
 The position on map and the orientation.
 

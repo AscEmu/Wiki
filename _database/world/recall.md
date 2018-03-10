@@ -32,6 +32,6 @@ The name of the port, used by the command .recall port and found with the comman
 
 The Map ID of the port point
 
-### position(x - o)
+### position
 
 Alignement by arriving the point.
