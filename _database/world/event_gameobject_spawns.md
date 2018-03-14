@@ -16,14 +16,14 @@ Field                                                                           
 [id](#id)                               | int(11)  |         | Auto Num
 [entry](#entry)                         | int(10)  | 0       |         
 [map](#map)                             | int(10)  | 0       |         
-[position_x](#position.28x_-_z.29)      | float(0) | 0       |         
-[position_y](#position.28x_-_z.29)      | float(0) | 0       |         
-[position_z](#position.28x_-_z.29)      | float(0) | 0       |         
+[position_x](#position_x_y)             | float(0) | 0       |         
+[position_y](#position_x_y)             | float(0) | 0       |         
+[position_z](#position_x_y)             | float(0) | 0       |         
 [facing](#facing)                       | float(0) | 0       |         
-[orientation1](#orientation.281_-_4.29) | float(0) | 0       |         
-[orientation2](#orientation.281_-_4.29) | float(0) | 0       |         
-[orientation3](#orientation.281_-_4.29) | float(0) | 0       |         
-[orientation4](#orientation.281_-_4.29) | float(0) | 0       |         
+[orientation1](#orientation_1_4)        | float(0) | 0       |         
+[orientation2](#orientation_1_4)        | float(0) | 0       |         
+[orientation3](#orientation_1_4)        | float(0) | 0       |         
+[orientation4](#orientation_1_4)        | float(0) | 0       |         
 [state](#state)                         | int(10)  | 0       |         
 [flags](#flags)                         | int(10)  | 0       |         
 [faction](#faction)                     | int(10)  | 0       |         
@@ -34,7 +34,7 @@ Field                                                                           
 
 ### event_entry
 
-The entry ID from [event_names](http://www.ascemu.org/wiki/index.php?title=Event_names&action=edit&redlink=1 "Event names (page does not exist)") table.
+The entry ID from [event_properties](/Wiki/database/world/event_properties/ "Event properties") table.
 
 ### id
 
@@ -48,7 +48,7 @@ The entry ID of the gameobject from [gameobject_names](http://www.ascemu.org/wik
 
 The map ID where the gameobject is set.
 
-### position(x - z)
+### position_x_y
 
 The position on the map where the gameobject is set.
 
@@ -56,7 +56,7 @@ The position on the map where the gameobject is set.
 
 Facing = orientation....
 
-### orientation(1 - 4)
+### orientation_1_4
 
 Thats quiet interesting, it saves triangling of the gameobject.
 
