@@ -18,9 +18,9 @@ Field                                                                           
 ------------------------------------------------------------------------------------------------------------ | ---------- | ------- | -------
 [entry](#entry)                               | int(10)    |         |        
 [mapid](#mapid)                               | int(10)    |         |        
-[x_pos](#.28x_-_z.29pos)                      | float(0)   |         |        
-[y_pos](#.28x_-_z.29pos)                      | float(0)   |         |        
-[z_pos](#.28x_-_z.29pos)                      | float(0)   |         |        
+[x_pos](#x_z_pos)                             | float(0)   |         |        
+[y_pos](#x_z_pos)                             | float(0)   |         |        
+[z_pos](#x_z_pos)                             | float(0)   |         |        
 [orientation](#orientation)                   | float(0)   |         |        
 [required_level](#required_level)             | int(10)    |         |        
 [required_class](#required_class)             | tinyint(2) |         |        
@@ -34,7 +34,7 @@ The entry ID of the gameobject from [gameobject_names](http://www.ascemu.org/wik
 
 The target map ID for teleport.
 
-### (x - z)pos
+### x_z_pos
 
 The target x, y, z position for teleport.
 

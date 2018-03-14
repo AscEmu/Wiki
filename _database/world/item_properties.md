@@ -16,7 +16,7 @@ Field                                                                           
 [class](#class)                                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [subclass](#subclass)                                         | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [field4](#field4)                                             | int(11)      | NOT NULL DEFAULT '-1'            |        
-[name1](#name1)                                               | varchar(255) | NOT NULL DEFAULT                |         
+[name1](#name1)                                               | varchar(255) | NOT NULL DEFAULT                 |         
 [displayid](#displayid)                                       | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
 [quality](#quality)                                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [flags](#flags)                                               | int(11)      | unsigned NOT NULL DEFAULT '0'    |        
@@ -39,76 +39,76 @@ Field                                                                           
 [maxcount](#maxcount)                                         | int(11)      | NOT NULL DEFAULT '0'             |        
 [ContainerSlots](#ContainerSlots)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [itemstatscount](#itemstatscount)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_type1](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value1](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type2](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value2](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type3](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value3](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type4](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value4](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type5](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value5](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type6](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value6](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type7](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value7](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type8](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value8](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type9](#stat_type.281-10.29)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value9](#stat_value.281-10.29)                          | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type10](#stat_type.281-10.29)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value10](#stat_value.281-10.29)                         | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type1](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value1](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type2](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value2](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type3](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value3](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type4](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value4](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type5](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value5](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type6](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value6](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type7](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value7](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type8](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value8](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type9](#stat_type1-10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value9](#stat_value1-10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
+[stat_type10](#stat_type1-10)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[stat_value10](#stat_value1-10)                               | smallint(6)  | NOT NULL DEFAULT '0'             |        
 [ScaledStatsDistributionId](#ScaledStatsDistributionId)       | smallint(6)  | NOT NULL DEFAULT '0'             |        
 [ScaledStatsDistributionFlags](#ScaledStatsDistributionFlags) | int(6)       | unsigned NOT NULL DEFAULT '0'    |        
-[dmg_min1](#dmg_min.2Fmax.281-2.29)                           | float        | NOT NULL DEFAULT '0'             |        
-[dmg_max1](#dmg_min.2Fmax.281-2.29)                           | float        | NOT NULL DEFAULT '0'             |        
-[dmg_type1](#dmg_type.281-2.29)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[dmg_min2](#dmg_min.2Fmax.281-2.29)                           | float        | NOT NULL DEFAULT '0'             |        
-[dmg_max2](#dmg_min.2Fmax.281-2.29)                           | float        | NOT NULL DEFAULT '0'             |        
-[dmg_type2](#dmg_type.281-2.29)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[dmg_min1](#dmg_min_max_1-2)                                  | float        | NOT NULL DEFAULT '0'             |        
+[dmg_max1](#dmg_min_max_1-2)                                  | float        | NOT NULL DEFAULT '0'             |        
+[dmg_type1](#dmg_type1-2)                                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[dmg_min2](#dmg_min_max_1-2)                                  | float        | NOT NULL DEFAULT '0'             |        
+[dmg_max2](#dmg_min_max_1-2)                                  | float        | NOT NULL DEFAULT '0'             |        
+[dmg_type2](#dmg_type1-2)                                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [armor](#armor)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[holy_res](#.28holy-arcane.29_res)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[fire_res](#.28holy-arcane.29_res)                            | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[nature_res](#.28holy-arcane.29_res)                          | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[frost_res](#.28holy-arcane.29_res)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[shadow_res](#.28holy-arcane.29_res)                          | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[arcane_res](#.28holy-arcane.29_res)                          | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[holy_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[fire_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[nature_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[frost_res](#holy-arcane_res)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[shadow_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[arcane_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [delay](#delay)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '1000' |        
 [ammo_type](#ammo_type)                                       | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [range](#range)                                               | float        | NOT NULL DEFAULT '0'             |        
 [spellid_1](#spellid_.281-5.29)                               | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_1](#spelltrigger_.281-5.29)                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_1](#spellcharges_.281-5.29)                     | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_1](#spellcooldown_.281-5.29)                   | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_1](#spellcategory_.281-5.29)                   | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_1](#spellcategorycooldown_.281-5.29)   | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spelltrigger_1](#spelltrigger_1-5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[spellcharges_1](#spellcharges_1-5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
+[spellcooldown_1](#spellcooldown_1-5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spellcategory_1](#spellcategory_1-5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
+[spellcategorycooldown_1](#spellcategorycooldown_1-5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
 [spellid_2](#spellid_.281-5.29)                               | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_2](#spelltrigger_.281-5.29)                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_2](#spellcharges_.281-5.29)                     | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_2](#spellcooldown_.281-5.29)                   | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_2](#spellcategory_.281-5.29)                   | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_2](#spellcategorycooldown_.281-5.29)   | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spelltrigger_2](#spelltrigger_1-5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[spellcharges_2](#spellcharges_1-5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
+[spellcooldown_2](#spellcooldown_1-5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spellcategory_2](#spellcategory_1-5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
+[spellcategorycooldown_2](#spellcategorycooldown_1-5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
 [spellid_3](#spellid_.281-5.29)                               | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_3](#spelltrigger_.281-5.29)                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_3](#spellcharges_.281-5.29)                     | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_3](#spellcooldown_.281-5.29)                   | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_3](#spellcategory_.281-5.29)                   | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_3](#spellcategorycooldown_.281-5.29)   | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spelltrigger_3](#spelltrigger_1-5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[spellcharges_3](#spellcharges_1-5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
+[spellcooldown_3](#spellcooldown_1-5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spellcategory_3](#spellcategory_1-5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
+[spellcategorycooldown_3](#spellcategorycooldown_1-5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
 [spellid_4](#spellid_.281-5.29)                               | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_4](#spelltrigger_.281-5.29)                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_4](#spellcharges_.281-5.29)                     | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_4](#spellcooldown_.281-5.29)                   | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_4](#spellcategory_.281-5.29)                   | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_4](#spellcategorycooldown_.281-5.29)   | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spelltrigger_4](#spelltrigger_1-5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[spellcharges_4](#spellcharges_1-5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
+[spellcooldown_4](#spellcooldown_1-5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spellcategory_4](#spellcategory_1-5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
+[spellcategorycooldown_4](#spellcategorycooldown_1-5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
 [spellid_5](#spellid_.281-5.29)                               | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_5](#spelltrigger_.281-5.29)                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_5](#spellcharges_.281-5.29)                     | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_5](#spellcooldown_.281-5.29)                   | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_5](#spellcategory_.281-5.29)                   | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_5](#spellcategorycooldown_.281-5.29)   | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spelltrigger_5](#spelltrigger_1-5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
+[spellcharges_5](#spellcharges_1-5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
+[spellcooldown_5](#spellcooldown_1-5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
+[spellcategory_5](#spellcategory_1-5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
+[spellcategorycooldown_5](#spellcategorycooldown_1-5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
 [bonding](#bonding)                                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[description](#description)                                   | varchar(255) | NOT NULL DEFAULT                |         
+[description](#description)                                   | varchar(255) | NOT NULL DEFAULT                 |         
 [page_id](#page_id)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
 [page_language](#page_language)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [page_material](#page_material)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
@@ -125,11 +125,11 @@ Field                                                                           
 [mapid](#mapid)                                               | smallint(6)  | NOT NULL DEFAULT '0'             |        
 [bagfamily](#bagfamily)                                       | mediumint(9) | NOT NULL DEFAULT '0'             |        
 [TotemCategory](#TotemCategory)                               | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[socket_color_1](#socket_color_.281-3.29)                     | tinyint(4)   | NOT NULL DEFAULT '0'             |        
+[socket_color_1](#socket_color_1-3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |        
 [unk201_3](#unk201_3)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[socket_color_2](#socket_color_.281-3.29)                     | tinyint(4)   | NOT NULL DEFAULT '0'             |        
+[socket_color_2](#socket_color_1-3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |        
 [unk201_5](#unk201_5)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[socket_color_3](#socket_color_.281-3.29)                     | tinyint(4)   | NOT NULL DEFAULT '0'             |        
+[socket_color_3](#socket_color_1-3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |        
 [unk201_7](#unk201_7)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |        
 [socket_bonus](#socket_bonus)                                 | mediumint(9) | NOT NULL DEFAULT '0'             |        
 [GemProperties](#GemProperties)                               | mediumint(9) | NOT NULL DEFAULT '0'             |        
@@ -511,7 +511,7 @@ Defines how many container slots the item (bag) brings with it.
 
 ...
 
-### stat_type(1-10)
+### stat_type1-10
 
 The type of stat of the item.
 
@@ -565,7 +565,7 @@ The type of stat of the item.
 48 = Block value
 </pre>
 
-### stat_value(1-10)
+### stat_value1-10
 
 The value for the stat type.
 
@@ -584,11 +584,11 @@ The scaling stat distribution ID (from .dbc).
 3 = Scaling stat spell power</strike>
 </pre>
 
-### dmg_min/max(1-2)
+### dmg_min_max_1-2
 
 The minimum/maximum damage of a weapon.
 
-### dmg_type(1-2)
+### dmg_type1-2
 
 <pre>
 0 = Physical
@@ -604,7 +604,7 @@ The minimum/maximum damage of a weapon.
 
 The armor value of the item.
 
-### (holy-arcane)_res
+### holy-arcane_res
 
 The resistance value against the attacking damage types.
 
@@ -631,7 +631,7 @@ The range in feets for a ranged weapon.
 
 The spell ID on the item.
 
-### spelltrigger_(1-5)
+### spelltrigger_1-5
 
 The type how the spell triggers:
 
@@ -645,7 +645,7 @@ The type how the spell triggers:
 6 = Learn spell ID
 </pre>
 
-### spellcharges_(1-5)
+### spellcharges_1-5
 
 The number of times the item can cast the spell.
 
@@ -655,11 +655,11 @@ The number of times the item can cast the spell.
 
 If the number of charges is a negative value, the item deletes itself.
 
-### spellcooldown_(1-5)
+### spellcooldown_1-5
 
 The cooldown for the spell in milliseconds. (If this value = -1, the normal cooldown of this spell is used)
 
-### spellcategory_(1-5)
+### spellcategory_1-5
 
 The spellcategory of the spell.
 
@@ -858,7 +858,7 @@ The map ID where the item can be used on.
 190 = Runed Titanium Rod
 </pre>
 
-### socket_color_(1-3)
+### socket_color_1-3
 
 <pre>
 1 = Meta socket

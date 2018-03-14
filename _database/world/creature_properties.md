@@ -13,12 +13,12 @@ This table contains creature properties information.
 Field                                                                                                             | Type          | Default | Comment
 ----------------------------------------------------------------------------------------------------------------- | ------------- | ------- | -------
 [entry](#entry)                                     | int(30)       | 0       |        
-[killcredit1](#killcredit.281-2.29)                 | int(10)       | 0       |        
-[killcredit2](#killcredit.281-2.29)                 | int(10)       | 0       |        
-[male_displayid](#displayids.28male.2Ffemale.29)    | int(10)       | 0       |        
-[female_displayid](#displayids.28male.2Ffemale.29)  | int(10)       | 0       |        
-[male_displayid2](#displayids.28male.2Ffemale.29)   | int(10)       | 0       |        
-[female_displayid2](#displayids.28male.2Ffemale.29) | int(10)       | 0       |        
+[killcredit1](#killcredit_1_2)                      | int(10)       | 0       |        
+[killcredit2](#killcredit_1_2)                      | int(10)       | 0       |        
+[male_displayid](#displayids_male_female)           | int(10)       | 0       |        
+[female_displayid](#displayids_male_female)         | int(10)       | 0       |        
+[male_displayid2](#displayids_male_female)          | int(10)       | 0       |        
+[female_displayid2](#displayids_male_female)        | int(10)       | 0       |        
 [name](#name)                                       | varchar(100)  |         |        
 [subname](#subname)                                 | varchar(100)  |         |        
 [info_str](#info_str)                               | varchar(500)  |         |        
@@ -64,14 +64,14 @@ Field                                                                           
 [run_speed](#run_speed)                             | float(0)      | 8       |        
 [fly_speed](#fly_speed)                             | float(0)      | 14      |        
 [extra_a9_flags](#extra_a9_flags)                   | int(30)       | 0       |        
-[spell1](#spells.281-8.29)                          | int(10)       | 0       |        
-[spell2](#spells.281-8.29)                          | int(10)       | 0       |        
-[spell3](#spells.281-8.29)                          | int(10)       | 0       |        
-[spell4](#spells.281-8.29)                          | int(10)       | 0       |        
-[spell5](#spells.281-8.29)                          | int(10)       | 0       |        
-[spell6](#spells.281-8.29)                          | int(10)       | 0       |        
-[spell7](#spells.281-8.29)                          | int(10)       | 0       |        
-[spell8](#spells.281-8.29)                          | int(10)       | 0       |        
+[spell1](#spells_1_8)                               | int(10)       | 0       |        
+[spell2](#spells_1_8)                               | int(10)       | 0       |        
+[spell3](#spells_1_8)                               | int(10)       | 0       |        
+[spell4](#spells_1_8)                               | int(10)       | 0       |        
+[spell5](#spells_1_8)                               | int(10)       | 0       |        
+[spell6](#spells_1_8)                               | int(10)       | 0       |        
+[spell7](#spells_1_8)                               | int(10)       | 0       |        
+[spell8](#spells_1_8)                               | int(10)       | 0       |        
 [spell_flags](#spell_flags)                         | int(30)       | 0       |        
 [modImmunities](#modImmunities)                     | int(30)       | 0       |        
 [isTrainingDummy](#isTrainingDummy)                 | int(10)       | 0       |        
@@ -80,23 +80,23 @@ Field                                                                           
 [spelldataid](#spelldataid)                         | int(10)       | 0       |        
 [vehicleid](#vehicleid)                             | int(10)       | 0       |        
 [rooted](#rooted)                                   | int(10)       | 0       |        
-[questitem1](#questitems.281-6.29)                  | int(11)       | 0       |        
-[questitem2](#questitems.281-6.29)                  | int(11)       | 0       |        
-[questitem3](#questitems.281-6.29)                  | int(11)       | 0       |        
-[questitem4](#questitems.281-6.29)                  | int(11)       | 0       |        
-[questitem5](#questitems.281-6.29)                  | int(11)       | 0       |        
-[questitem6](#questitems.281-6.29)                  | int(11)       | 0       |        
+[questitem1](#questitems_1_6)                       | int(11)       | 0       |        
+[questitem2](#questitems_1_6)                       | int(11)       | 0       |        
+[questitem3](#questitems_1_6)                       | int(11)       | 0       |        
+[questitem4](#questitems_1_6)                       | int(11)       | 0       |        
+[questitem5](#questitems_1_6)                       | int(11)       | 0       |        
+[questitem6](#questitems_1_6)                       | int(11)       | 0       |        
 [waypointid](#waypointid)                           | int(10)       | 0       |        
 
 ### entry
 
 The entry ID of the creature.
 
-### killcredit(1-2)
+### killcredit_1_2
 
 ...
 
-### displayids(male/female)
+### displayids_male_female
 
 The Display/Model ID of the creature. If more than 1 filled, randomly picks between them on creature spawn.
 
@@ -468,7 +468,7 @@ The speed of the creature when it is flying.
 
 NOTE currently not used!
 
-### spells(1-8)
+### spells_1_8
 
 The spells that are available to the creature. These are the spells that used when the creature is a Totem, or Pet, Vehicle or when possessed (mind control) too. 
 
@@ -532,7 +532,7 @@ Vehicle data for this creature. Index of Vehicle.dbc
 0 = unrooted
 </pre>
 
-### questitems(1-6)
+### questitems_1_6
 
 ID of the Questitem which can be looted from npc. (untested)
 

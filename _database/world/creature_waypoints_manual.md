@@ -14,9 +14,9 @@ Field                                                                           
 --------------------------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
 [group_id](#group_id)                             | int(10)    | 0       |        
 [waypoint_id](#waypoint_id)                       | int(10)    | 0       |        
-[position_x](#position.28x-z.29)                  | float(0)   | 0.00    |        
-[position_y](#position.28x-z.29)                  | float(0)   | 0.00    |        
-[position_z](#position.28x-z.29)                  | float(0)   | 0.00    |        
+[position_x](#position_x_z)                       | float(0)   | 0.00    |        
+[position_y](#position_x_z)                       | float(0)   | 0.00    |        
+[position_z](#position_x_z)                       | float(0)   | 0.00    |        
 [wait_time](#waittime)                            | int(10)    | 0       |        
 [flags](#flags)                                   | int(10)    | 0       |        
 [forward_emote_oneshot](#forward_emote_oneshot)   | tinyint(3) | 0       |        
