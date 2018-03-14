@@ -18,9 +18,9 @@ Field                                                                           
 [maxplayers](#maxplayers)                   | int(10)      | 0       |        
 [minlevel](#minlevel)                       | int(10)      | 1       |        
 [minlevel_heroic](#minlevel_heroic)         | int(10)      | 0       |        
-[repopx](#repop.28x_-_z.29)                 | float(0)     | 0       |        
-[repopy](#repop.28x_-_z.29)                 | float(0)     | 0       |        
-[repopz](#repop.28x_-_z.29)                 | float(0)     | 0       |        
+[repopx](#repop)                            | float(0)     | 0       |        
+[repopy](#repop)                            | float(0)     | 0       |        
+[repopz](#repop)                            | float(0)     | 0       |        
 [repopentry](#repopentry)                   | int(10)      | 0       |        
 [area_name](#area_name)                     | varchar(100) | 0       |        
 [flags](#flags)                             | int(10)      | 0       |        
@@ -70,7 +70,7 @@ Min player level to enter this map (Default: 1)
 
 Min player heroic level to enter this map.
 
-### repop(x - z)
+### repop
 
 x, y, z where entrance to this map is (graveyards use this)
 
@@ -96,7 +96,7 @@ map ID where entrance to this map is (graveyards use this)
 256 = Map has heroic 25man raid difficulty
 </pre>
 
-You can combine these flags via addition ( 1+8 = 9)
+You can combine these flags via addition (1+8 = 9)
 
 ### cooldown
 

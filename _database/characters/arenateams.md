@@ -24,16 +24,16 @@ Field                                     | Type         | Default | Comment
 [rating](#rating)                         | int(30)      |         |        
 [data](#data)                             | varchar(150) |         |        
 [ranking](#ranking)                       | int(30)      |         |        
-[player_data1](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data2](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data3](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data4](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data5](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data6](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data7](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data8](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data9](#player_data.281_-_10.29)  | varchar(60)  |         |        
-[player_data10](#player_data.281_-_10.29) | varchar(60)  |         |        
+[player_data1](#player_data1-10)          | varchar(60)  |         |        
+[player_data2](#player_data1-10)          | varchar(60)  |         |        
+[player_data3](#player_data1-10)          | varchar(60)  |         |        
+[player_data4](#player_data1-10)          | varchar(60)  |         |        
+[player_data5](#player_data1-10)          | varchar(60)  |         |        
+[player_data6](#player_data1-10)          | varchar(60)  |         |        
+[player_data7](#player_data1-10)          | varchar(60)  |         |        
+[player_data8](#player_data1-10)          | varchar(60)  |         |        
+[player_data9](#player_data1-10)          | varchar(60)  |         |        
+[player_data10](#player_data1-10)         | varchar(60)  |         |        
 
 ### id
 
@@ -84,6 +84,6 @@ The rating of the arena team.
 
 The ranking for the aren team.
 
-### player_data(1 - 10)
+### player_data1-10
 
 Name of arena team member row name from characters table.

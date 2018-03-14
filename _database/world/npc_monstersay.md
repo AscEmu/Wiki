@@ -19,11 +19,11 @@ Field                                                                           
 [language](#language)       | int(10)  | 0       |        
 [type](#type)               | int(10)  | 0       |        
 [monstername](#monstername) | longtext |         |        
-[text0](#text.280_-_4.29)   | longtext |         |        
-[text1](#text.280_-_4.29)   | longtext |         |        
-[text2](#text.280_-_4.29)   | longtext |         |        
-[text3](#text.280_-_4.29)   | longtext |         |        
-[text4](#text.280_-_4.29)   | longtext |         |        
+[text0](#text-0-4)          | longtext |         |        
+[text1](#text-0-4)          | longtext |         |        
+[text2](#text-0-4)          | longtext |         |        
+[text3](#text-0-4)          | longtext |         |        
+[text4](#text-0-4)          | longtext |         |        
 
 ### entry
 
@@ -85,6 +85,6 @@ The percent the monster will say some text on entering event.
 
 Monstername from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table (seems to be optional).
 
-### text(0 - 4)
+### text-0-4
 
 The text the monster say.

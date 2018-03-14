@@ -19,18 +19,18 @@ Field                                                                   | Type  
 [officerNote](#officerNote)                                             | varchar(300) |         |        
 [lastWithdrawReset](#lastWithdrawReset)                                 | int(30)      | 0       |        
 [withdrawlsSinceLastReset](#withdrawlsSinceLastReset)                   | int(30)      | 0       |        
-[lastItemWithdrawReset0](#lastItemWithdrawReset.280-5.29)               | int(30)      | 0       |        
-[itemWithdrawlsSinceLastReset0](#itemWithdrawlsSinceLastReset.280-5.29) | int(30)      | 0       |        
-[lastItemWithdrawReset1](#lastItemWithdrawReset.280-5.29)               | int(30)      | 0       |        
-[itemWithdrawlsSinceLastReset1](#itemWithdrawlsSinceLastReset.280-5.29) | int(30)      | 0       |        
-[lastItemWithdrawReset2](#lastItemWithdrawReset.280-5.29)               | int(30)      | 0       |        
-[itemWithdrawlsSinceLastReset2](#itemWithdrawlsSinceLastReset.280-5.29) | int(30)      | 0       |        
-[lastItemWithdrawReset3](#lastItemWithdrawReset.280-5.29)               | int(30)      | 0       |        
-[itemWithdrawlsSinceLastReset3](#itemWithdrawlsSinceLastReset.280-5.29) | int(30)      | 0       |        
-[lastItemWithdrawReset4](#lastItemWithdrawReset.280-5.29)               | int(30)      | 0       |        
-[itemWithdrawlsSinceLastReset4](#itemWithdrawlsSinceLastReset.280-5.29) | int(30)      | 0       |        
-[lastItemWithdrawReset5](#lastItemWithdrawReset.280-5.29)               | int(30)      | 0       |        
-[itemWithdrawlsSinceLastReset5](#itemWithdrawlsSinceLastReset.280-5.29) | int(30)      | 0       |        
+[lastItemWithdrawReset0](#lastItemWithdrawReset0-5)                     | int(30)      | 0       |        
+[itemWithdrawlsSinceLastReset0](#itemWithdrawlsSinceLastReset0-5)       | int(30)      | 0       |        
+[lastItemWithdrawReset1](#lastItemWithdrawReset0-5)                     | int(30)      | 0       |        
+[itemWithdrawlsSinceLastReset1](#itemWithdrawlsSinceLastReset0-5)       | int(30)      | 0       |        
+[lastItemWithdrawReset2](#lastItemWithdrawReset0-5)                     | int(30)      | 0       |        
+[itemWithdrawlsSinceLastReset2](#itemWithdrawlsSinceLastReset0-5)       | int(30)      | 0       |        
+[lastItemWithdrawReset3](#lastItemWithdrawReset0-5)                     | int(30)      | 0       |        
+[itemWithdrawlsSinceLastReset3](#itemWithdrawlsSinceLastReset0-5)       | int(30)      | 0       |        
+[lastItemWithdrawReset4](#lastItemWithdrawReset0-5)                     | int(30)      | 0       |        
+[itemWithdrawlsSinceLastReset4](#itemWithdrawlsSinceLastReset0-5)       | int(30)      | 0       |        
+[lastItemWithdrawReset5](#lastItemWithdrawReset0-5)                     | int(30)      | 0       |        
+[itemWithdrawlsSinceLastReset5](#itemWithdrawlsSinceLastReset0-5)       | int(30)      | 0       |        
 
 ### guildid
 
@@ -60,10 +60,10 @@ The date/time to controle the "goldLimitPerDay" restriction. For more informatio
 
 The copper/gold the guild member take away from the guild bank. (goldLimitPerDay restriction).
 
-### lastItemWithdrawReset(0-5)
+### lastItemWithdrawReset0-5
 
 The date/time to controle the "itemStacksperDay" restriction. For more information, take a look at guild_ranks definitions.
 
-### itemWithdrawlsSinceLastReset(0-5)
+### itemWithdrawlsSinceLastReset0-5
 
 The itemcount the guild member take away from the guild bank. (itemStacksperDay restriction).
