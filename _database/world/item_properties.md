@@ -785,7 +785,7 @@ The ID of the itemset. Items can be grouped by this ID (They are added all by us
 <pre>
 > 0 A normal set
 = 0 no set
-< 0 is linked to an itemset (Added in table [items_linked_itemsets](http://www.ascemu.org/wiki/index.php?title=Items_linked_itemsets&action=edit&redlink=1 "Items linked itemsets (page does not exist)") to an positive itemsetid)
+< 0 is linked to an itemset (Added in table [itemset_linked_itemsetbonus](/Wiki/database/world/itemset_linked_itemsetbonus/ "Item set linked item set bonus") to an positive itemsetid)
 </pre>
 
 ### MaxDurability
