@@ -18,7 +18,7 @@ Field                                                                           
 
 ### entry
 
-The entry ID from [itempages](http://www.ascemu.org/wiki/index.php?title=Itempages&action=edit&redlink=1 "Itempages (page does not exist)")
+The entry ID from [item_pages](/Wiki/database/world/item_pages/ "Item pages")
 
 ### language_code
 

@@ -686,7 +686,7 @@ The item description at the bottom of tooltip.
 
 ### page_id
 
-The page ID from [itempages](http://www.ascemu.org/wiki/index.php?title=Itempages&action=edit&redlink=1 "Itempages (page does not exist)") (Used for books etc.)
+The page ID from [item_pages](/Wiki/database/world/item_pages/ "Item pages") (Used for books etc.)
 
 ### page_language
 
