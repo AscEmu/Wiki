@@ -29,4 +29,4 @@ The spell ID.
 
 ### TargetID
 
-If TargetType = 0 it is the entry ID from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table, otherwhise it is the entry ID from [gameobject_names](http://www.ascemu.org/wiki/index.php?title=Gameobject_names&action=edit&redlink=1 "Gameobject names (page does not exist)")
+If TargetType = 0 it is the entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table, otherwhise it is the entry ID from [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties")

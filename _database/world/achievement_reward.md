@@ -43,7 +43,7 @@ The recieve item entry ID from [item_properties](/Wiki/database/world/item_prope
 
 ## sender
 
-The sender entry id mostly from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.
+The sender entry id mostly from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ## subject
 

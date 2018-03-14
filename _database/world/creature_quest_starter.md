@@ -17,7 +17,7 @@ Field                                                                           
 
 ### id
 
-The Entry ID of the mob that starts the quest, from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") and [creature_proto](http://www.ascemu.org/wiki/index.php?title=Creature_proto&action=edit&redlink=1 "Creature proto (page does not exist)").
+The Entry ID of the mob that starts the quest, from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties").
 
 ### quest
 

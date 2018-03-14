@@ -23,7 +23,7 @@ Field                                                                           
 
 ### entryid
 
-The Entry ID of the creature you are skinning from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)").
+The Entry ID of the creature you are skinning from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties").
 
 ### itemid
 

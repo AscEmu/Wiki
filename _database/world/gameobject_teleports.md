@@ -8,7 +8,7 @@ layout: single_markdown
 # gameobject_teleports
 This table contains the the teleport gameobjects. The player would be teleported on use this (door or a portal)
 
-NOTE1: To use this function, the gameobject in [gameobject_names](http://www.ascemu.org/wiki/index.php?title=Gameobject_names&action=edit&redlink=1 "Gameobject names (page does not exist)") needs the value 10 in row Type and the value 1 in Sound2.
+NOTE1: To use this function, the gameobject in [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") needs the value 10 in row Type and the value 1 in Sound2.
 
 NOTE2: Pay Attention: This feature is disable by default... need to be activated in the source code.
 
@@ -28,7 +28,7 @@ Field                                                                           
 
 ### entry
 
-The entry ID of the gameobject from [gameobject_names](http://www.ascemu.org/wiki/index.php?title=Gameobject_names&action=edit&redlink=1 "Gameobject names (page does not exist)") table.
+The entry ID of the gameobject from [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table.
 
 ### mapid
 

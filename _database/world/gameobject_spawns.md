@@ -37,7 +37,7 @@ Autofilled by MySQL, do not touch.
 
 ### entry
 
-The entry ID of the gameobject from [gameobject_names](http://www.ascemu.org/wiki/index.php?title=Gameobject_names&action=edit&redlink=1 "Gameobject names (page does not exist)") table.
+The entry ID of the gameobject from [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table.
 
 ### map
 
@@ -85,7 +85,7 @@ The faction...
 
 ### scale
 
-The customized scale. It would be saved after .go mod scale X. This field is set Default to the value from row `Scale` from [gameobject_names](http://www.ascemu.org/wiki/index.php?title=Gameobject_names&action=edit&redlink=1 "Gameobject names (page does not exist)") table.
+The customized scale. It would be saved after .go mod scale X. This field is set Default to the value from row `Scale` from [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table.
 
 ### respwnNpcLink
 

@@ -23,7 +23,7 @@ The ID of the map, use gps to get it.
 
 ### creatureid
 
-The ID of the "boss" from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)").
+The ID of the "boss" from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties").
 
 ### trash
 

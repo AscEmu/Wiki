@@ -46,7 +46,7 @@ Spawn ID of the creature (unique, auto)
 
 ### entry
 
-Entry ID of the creature from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.
+Entry ID of the creature from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ### map
 

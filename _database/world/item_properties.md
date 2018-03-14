@@ -730,7 +730,7 @@ The quest entry ID from [quest_properties](/Wiki/database/world/quest_properties
 
 ### lock_id
 
-The lock ID this item match (key to open a door) to field "Sound1" in [gameobject_names](http://www.ascemu.org/wiki/index.php?title=Gameobject_names&action=edit&redlink=1 "Gameobject names (page does not exist)") table.
+The lock ID this item match (key to open a door) to field "Sound1" in [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table.
 
 ### lock_material
 
