@@ -129,19 +129,6 @@ cd ~/installer/ascemu
 git clone git://github.com/AscEmu/AscEmu.git code
 ```
 
-Switch to the code directory and update our gitmodules
-
-```console
-cd ~/installer/ascemu/code
-```
-
-```console
-sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-```
-
-```console
-git submodule update --init --recursive
-```
 
 #### Compiling
 
@@ -158,7 +145,7 @@ cd ~/installer/ascemu/build
 ```
 
 ```console
-cmake -DCMAKE_INSTALL_PREFIX=~/server ../code
+cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../code
 ```
 
 This will configure AscEmu to be built using the default configuration, which is fine for most people, however if you'd like to customize it more take a look at [CMake](http://www.ascemu.org/wiki/index.php?title=CMake&action=edit&redlink=1 "CMake (page does not exist)")
