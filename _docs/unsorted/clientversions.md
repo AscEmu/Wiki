@@ -12,14 +12,29 @@ This table contains the information about client patch versions
 
 patch      | date       | client_build | interface | comment                  
 ---------- | ---------- | ------------ | --------- | -------------------------
-1.1.0      | 2004-11-07 | 4044         |           |                          
-1.1.1      | 2004-11-17 | 4062         |           |                          
-1.1.2      | 2004-12-06 | 4125         |           |                          
-1.2.0      | 2004-12-18 | 4149         |           | Mysteries of Maraudon    
-1.2.1      | 2004-12-21 | 4150         |           | Mysteries of Maraudon    
-1.2.2      | 2005-02-15 | 4196         |           | Mysteries of Maraudon    
-1.2.3      | 2005-02-22 | 4211         |           | Mysteries of Maraudon    
-1.2.4      | 2005-02-22 | 4222         |           | Mysteries of Maraudon    
+0.5.3      | 2003-12-11 | 3368         | 50        | Beta
+0.5.5      | 2004-03-12 | 3494         | 50        | Beta
+0.6.0      | 2004-04-13 | 3592         | 60        | Beta
+0.7.0      | 2004-06-13 | 3694         | 70        | Beta
+0.7.1      | 2004-06-14 | 3702         | 70        | Beta
+0.7.2      | 2004-06-16 | 3705         | 70        | Beta
+0.7.3      | 2004-06-17 | 3710         | 70        | Beta
+0.7.5      | 2004-06-23 | 3711         | 70        | Beta
+0.7.6      | 2004-06-26 | 3712         | 70        | Beta
+0.8.0      | 2004-07-07 | 3734         | 80        | Beta
+0.9.0      | 2004-08-17 | 3807         | 90        | Beta
+0.9.1      | 2004-08-24 | 3810         | 91        | Beta
+0.10.0     | 2004-09-18 | 3892         | 100       | Beta
+0.11.0     | 2004-09-29 | 3925         | 110       | Beta
+0.12.0     | 2004-10-11 | 3988         | 120       | Beta
+1.1.0      | 2004-11-07 | 4044         | 1100      | World of Warcraft
+1.1.1      | 2004-11-17 | 4062         | 1100      | World of Warcraft
+1.1.2      | 2004-12-06 | 4125         | 1100      | World of Warcraft
+1.2.0      | 2004-12-18 | 4149         | 1200      | Mysteries of Maraudon    
+1.2.1      | 2004-12-21 | 4150         | 1200      | Mysteries of Maraudon    
+1.2.2      | 2005-02-15 | 4196         | 1200      | Mysteries of Maraudon    
+1.2.3      | 2005-02-22 | 4211         | 1200      | Mysteries of Maraudon    
+1.2.4      | 2005-02-22 | 4222         | 1200      | Mysteries of Maraudon    
 1.3.0      | 2005-03-07 | 4284         | 1300      | Ruins of the Dire Mau    
 1.3.1      | 2005-03-22 | 4297         | 1300      | Ruins of the Dire Mau    
 1.4.0      | 2005-04-08 | 4341         | 1300      | The Call to War          
