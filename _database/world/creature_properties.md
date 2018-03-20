@@ -48,12 +48,12 @@ Field                                                                           
 [rangedmaxdamage](#rangedmaxdamage)                 | float(0)      | 0       |        
 [respawntime](#respawntime)                         | int(30)       | 0       |        
 [armor](#armor)                                     | mediumint(10) | 0       |        
-[resistance1](#resistance1)                         | smallint(5)   | 0       | Holy   
-[resistance2](#resistance2)                         | smallint(5)   | 0       | Fire   
-[resistance3](#resistance3)                         | smallint(5)   | 0       | Nature 
-[resistance4](#resistance4)                         | smallint(5)   | 0       | Frost  
-[resistance5](#resistance5)                         | smallint(5)   | 0       | Shadow 
-[resistance6](#resistance6)                         | smallint(5)   | 0       | Arcane 
+[resistance1](#restistance1)                        | smallint(5)   | 0       | Holy   
+[resistance2](#restistance2)                        | smallint(5)   | 0       | Fire   
+[resistance3](#restistance3)                        | smallint(5)   | 0       | Nature 
+[resistance4](#restistance4)                        | smallint(5)   | 0       | Frost  
+[resistance5](#restistance5)                        | smallint(5)   | 0       | Shadow 
+[resistance6](#restistance6)                        | smallint(5)   | 0       | Arcane 
 [combat_reach](#combat_reach)                       | float(0)      | 1       |        
 [bounding_radius](#bounding_radius)                 | float(0)      | 1       |        
 [auras](#auras)                                     | longtext(0)   |         |        

@@ -9,8 +9,10 @@ layout: single_markdown
 This table contains the the teleport gameobjects. The player would be teleported on use this (door or a portal)
 
 NOTE1: To use this function, the gameobject in [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") needs the value 10 in row Type and the value 1 in Sound2.
+{: .info }
 
 NOTE2: Pay Attention: This feature is disable by default... need to be activated in the source code.
+{: .info }
 
 ## Structure
 

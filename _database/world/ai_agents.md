@@ -31,64 +31,45 @@ Field                                                                           
 The entry ID of the NPC.
 
 ### instance_mode
-
+<pre>
 0 = Normal dungeon, Normal old raid, Normal 10 man raid
-
 1 = Heroic dungeon, Normal 25man Raid 
-
 2 = Heroic 10man Raid 
-
 3 = Heroic 25man raid 
-
 4 = All modes (0 - 3)
+</pre>
 
 ### type
 
+<pre>
 1 = Melee
-
 2 = Ranged
-
 3 = Flee
-
 4 = Spell
-
 5 = Call For Help
+</pre>
 
 ### event
 
+<pre>
 0 = Enter Combat
-
 <strike>1 = Leave Combat</strike>
-
 2 = Damage Taken
-
 <strike>3 = Target Cast Spell</strike>
-
 <strike>4 = Target Parried</strike>
-
 <strike>5 = Target Dodged</strike>
-
 <strike>6 = Target Blocked</strike>
-
 <strike>7 = Target Critically Hit</strike>
-
 <strike>8 = Target Died</strike>
-
 <strike>9 = Target Died (!)</strike>
-
 <strike>10 = Unit Parried</strike>
-
 <strike>11 = Unit Dodged</strike>
-
 <strike>12 = Unit Blocked</strike>
-
 <strike>13 = Unit Critical Hit</strike>
-
 <strike>14 = Unit Died</strike>
-
 <strike>15 = Assisting Target Died (Pet)</strike>
-
 <strike>16 = Follow Owner</strike>
+</pre>
 
 ### chance
 
@@ -106,41 +87,30 @@ ID of the spell that will be cast
 
 ### spelltype
 
-1 = Root
-
-2 = Heal
-
-3 = Stun
-
-4 = Fear
-
-5 = Silence
-
-6 = Curse
-
-7 = AoE Damage
-
-8 = Damage
-
-9 = Summon
-
+<pre>
+ 1 = Root
+ 2 = Heal
+ 3 = Stun
+ 4 = Fear
+ 5 = Silence
+ 6 = Curse
+ 7 = AoE Damage
+ 8 = Damage
+ 9 = Summon
 10 = Buff Spell
-
 11 = Debuff Spell
+</pre>
 
 ### targettype_overwrite
 
+<pre>
 0 = Null
-
 1 = Random Target
-
 2 = Target Location
-
 3 = Creature Location
-
 4 = Self
-
 5 = Owner (Pets / Slave cast on their owner)
+</pre>
 
 ### cooldown_overwrite
 

@@ -53,7 +53,7 @@ ID of faction that certain standing with it is required
 Amount of reputation required to train
 
 <pre>
- 42000 - Exalted
+42000 - Exalted
 </pre>
 
 ### trainer_type

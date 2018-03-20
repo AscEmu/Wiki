@@ -19,11 +19,11 @@ Field                                                                           
 [language](#language)       | int(10)  | 0       |        
 [type](#type)               | int(10)  | 0       |        
 [monstername](#monstername) | longtext |         |        
-[text0](#text-0-4)          | longtext |         |        
-[text1](#text-0-4)          | longtext |         |        
-[text2](#text-0-4)          | longtext |         |        
-[text3](#text-0-4)          | longtext |         |        
-[text4](#text-0-4)          | longtext |         |        
+[text0](##text_0_4)         | longtext |         |        
+[text1](##text_0_4)         | longtext |         |        
+[text2](##text_0_4)         | longtext |         |        
+[text3](##text_0_4)         | longtext |         |        
+[text4](##text_0_4)         | longtext |         |        
 
 ### entry
 
@@ -85,6 +85,6 @@ The percent the monster will say some text on entering event.
 
 Monstername from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table (seems to be optional).
 
-### text-0-4
+### text_0_4
 
 The text the monster say.
