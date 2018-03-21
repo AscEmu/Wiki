@@ -40,9 +40,12 @@ Field                                     | Type         | Default | Comment
 This is id of the aren team.
 
 ### type
-    0 = 2v2
-    1 = 3v3
-    2 = 5v5 
+
+<pre>
+0 = 2v2
+1 = 3v3
+2 = 5v5 
+</pre>
 
 ### leader
 

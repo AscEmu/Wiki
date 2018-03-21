@@ -21,25 +21,37 @@ Field                     | Type    | Default | Comment
 
 ### UID
 
-    The unique ID of a bugreport.
+<pre>
+The unique ID of a bugreport.
+</pre>
 
 ### AccountID
 
-    The account ID from accounts table.
+<pre>
+The account ID from accounts table.
+</pre>
 
 ### TimeStamp
 
-    The creation timestamp of this bugreport.
+<pre>
+The creation timestamp of this bugreport.
+</pre>
 
 ### Suggestion
 
-    0 = it is a bugreport
-    ≠ 0 = suggestion
+<pre>
+0 = it is a bugreport
+≠ 0 = suggestion
+</pre>
 
 ### Type
 
-    The cleartext type.
+<pre>
+The cleartext type.
+</pre>
 
 ### Content
 
-    The comments/description of the bugreport.
+<pre>
+The comments/description of the bugreport.
+</pre>
