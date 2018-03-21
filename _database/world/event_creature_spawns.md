@@ -44,7 +44,7 @@ Field                                                                           
 
 ### event_entry
 
-The entry ID from [event_properties] (/Wiki/database/world/event_properties/ "Event properties") table when the spawn is added to world.
+The entry ID from [event_properties](/Wiki/database/world/event_properties/ "Event properties") table when the spawn is added to world.
 
 ### id
 

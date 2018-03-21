@@ -100,12 +100,9 @@ This field describes in which phase the gameobject is.
 <pre>
 1  = 0x01  Makes the gameobject forever visible on the map after you saw it at least once.
 2  = 0x02  When you enter its map, the gameobject gets pushed to you no matter how far it is (but only for players).
-
 <strike>4  = 0x04  he Map will get marked that it contains an object like this.</strike>
 8  = 0x08  When this gameobject moves and sends updates about it's position, do so in the second range - MapMgr::ChangeObjectLocation, +/- 6 units wide instead of +/- 1.
-
 <strike>16 = 0x10  Let the core decide about the flags sent in the A9 - example: 252 instead of 352 for Deeprun Tram.</strike>
-
 <strike>32 = 0x20  Let the core use the full field instead an uint8 in GAMEOBJECT_BYTES_1, if the database creator knows what to do with it.</strike>
 64 = 0x40  Makes it possible for the core to skip calculating these fields and use whatever was specified in the spawn.
 </pre>

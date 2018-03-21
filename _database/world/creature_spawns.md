@@ -117,7 +117,7 @@ So if you want a NPC that is a quest giver, a vendor and can repair you just add
 
 ### bytes0
 
-See [Creature_spawns:bytes](:bytes "Creature spawns:bytes")
+See creature_spawns bytes.
 
 ### bytes1
 
