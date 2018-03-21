@@ -47,11 +47,11 @@ The map ID of the graveyard.
 
 Factions can be combined... don't know why...
 
+<pre>
 0 = Alliance
-
 1 = Horde
-
 3 = Both
+</pre>
 
 ### name
 
