@@ -171,6 +171,12 @@ patch      | date       | client_build | interface | comment
 6.1.2h2    | 2015-04-06 | 19865        | 60100     | The Adventure Continues  
 6.2.0      | 2015-06-22 | 20173        | 60200     | Fury of Hellfire         
 6.2.0h1    | 2015-06-25 | 20182        | 60200     | Fury of Hellfire         
+6.2.2      | 2015-09-01 | 20444        | 60200     | Fury of Hellfire
+6.2.2a     | 2015-09-15 | 20574        | 60200     | Fury of Hellfire
+6.2.3      | 2015-12-01 | 20779        | 60200     | Fury of Hellfire
+6.2.3a     | 2016-01-07 | 20886        | 60200     | Fury of Hellfire
+6.2.4      | 2016-03-22 | 21345        | 60200     | Fury of Hellfire
+6.2.4a     | 2016-03-23 | 21742        | 60200     | Fury of Hellfire
 7.0.3      | 2016-06-19 | 22248        | 70000     | Legion Pre-expansion     
 7.0.3h10   | 2016-08-26 | 22522        | 70000     | Legion                   
 7.1.0      | 2016-10-25 | 22900        | 70100     | Return to Karazhan       
