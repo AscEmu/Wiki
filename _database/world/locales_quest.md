@@ -20,10 +20,10 @@ Field                                                                           
 [CompletionText](#CompletionText)           | text       | 0       |        
 [IncompletionText](#IncompletionText)       | text       | 0       |        
 [EndText](#EndText)                         | text       | 0       |        
-[ObjectiveText1](#ObjectiveText.281_-_4.29) | text       | 0       |        
-[ObjectiveText2](#ObjectiveText.281_-_4.29) | text       | 0       |        
-[ObjectiveText3](#ObjectiveText.281_-_4.29) | text       | 0       |        
-[ObjectiveText4](#ObjectiveText.281_-_4.29) | text       | 0       |        
+[ObjectiveText1](##ObjectiveText_1_4)       | text       | 0       |        
+[ObjectiveText2](##ObjectiveText_1_4)       | text       | 0       |        
+[ObjectiveText3](##ObjectiveText_1_4)       | text       | 0       |        
+[ObjectiveText4](##ObjectiveText_1_4)       | text       | 0       |        
 
 ### entry
 
@@ -63,6 +63,6 @@ The localized IncompletionText.
 
 The localized EndText.
 
-### ObjectiveText(1 - 4)
+### ObjectiveText_1_4
 
 The localized ObjectiveTexts.

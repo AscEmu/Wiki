@@ -44,12 +44,12 @@ Field                                                                           
 [parameter_22](#parameters)       | int(10)      | 0       |        
 [parameter_23](#parameters)       | int(10)      | 0       |        
 [size](#size)                     | float(0)     | 1       |        
-[QuestItem1](#QuestItem.281-6.29) | int(11)      | 0       |        
-[QuestItem2](#QuestItem.281-6.29) | int(11)      | 0       |        
-[QuestItem3](#QuestItem.281-6.29) | int(11)      | 0       |        
-[QuestItem4](#QuestItem.281-6.29) | int(11)      | 0       |        
-[QuestItem5](#QuestItem.281-6.29) | int(11)      | 0       |        
-[QuestItem6](#QuestItem.281-6.29) | int(11)      | 0       |        
+[QuestItem1](#QuestItem_1_6)      | int(11)      | 0       |        
+[QuestItem2](#QuestItem_1_6)      | int(11)      | 0       |        
+[QuestItem3](#QuestItem_1_6)      | int(11)      | 0       |        
+[QuestItem4](#QuestItem_1_6)      | int(11)      | 0       |        
+[QuestItem5](#QuestItem_1_6)      | int(11)      | 0       |        
+[QuestItem6](#QuestItem_1_6)      | int(11)      | 0       |        
 
 ## entry
 
@@ -511,6 +511,6 @@ There are no Fields associated with this object.
 
 The main Size of the gameobject.
 
-## QuestItem(1-6)
+## QuestItem_1_6
 
 The item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.

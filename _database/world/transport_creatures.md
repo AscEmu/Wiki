@@ -14,10 +14,10 @@ Field                                                                           
 ------------------------------------------------------------------------------------------------- | ------- | ------- | -------
 [transport_entry](#transport_entry) | int(10) |         |        
 [creature_entry](#creature_entry)   | int(10) |         |        
-[position_x](#position.28x-o.29)    | float   |         |        
-[position_y](#position.28x-o.29)    | float   |         |        
-[position_z](#position.28x-o.29)    | float   |         |        
-[orientation](#position.28x-o.29)   | float   |         |        
+[position_x](#position)             | float   |         |        
+[position_y](#position)             | float   |         |        
+[position_z](#position)             | float   |         |        
+[orientation](#position)            | float   |         |        
 
 ### transport_entry
 
@@ -25,8 +25,8 @@ The transport entry ID from [transport_data](/Wiki/database/world/transport_data
 
 ### creature_entry
 
-The creature entry ID from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.
+The creature entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
-### position(x-o)
+### position
 
 The data for exact position and orientation.

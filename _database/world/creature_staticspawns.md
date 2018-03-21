@@ -15,10 +15,10 @@ Field                                                                           
 [id](#id)                                                       | int(11)       | AUTO_INCREMENT |        
 [entry](#entry)                                                 | int(30)       |                |        
 [map](#map)                                                     | smallint(5)   |                |        
-[position_x](#positions.28x_-_o.29)                             | float(0)      | 0              |        
-[position_y](#positions.28x_-_o.29)                             | float(0)      | 0              |        
-[position_z](#positions.28x_-_o.29)                             | float(0)      | 0              |        
-[orientation](#positions.28x_-_o.29)                            | float(0)      | 0              |        
+[position_x](#positions)                                        | float(0)      | 0              |        
+[position_y](#positions)                                        | float(0)      | 0              |        
+[position_z](#positions)                                        | float(0)      | 0              |        
+[orientation](#positions)                                       | float(0)      | 0              |        
 [movetype](#movetype)                                           | tinyint(3)    | 0              |        
 [displayid](#displayid)                                         | mediumint(10) | 0              |        
 [faction](#faction)                                             | mediumint(10) | 14             |        
@@ -46,13 +46,13 @@ Spawn ID of the creature (unique, auto)
 
 ### entry
 
-Entry ID of the creature from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.
+Entry ID of the creature from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ### map
 
 Map ID of the spawned creature.
 
-### positions(x - o)
+### positions
 
 Coordinates of the spawned creature. (Home position).
 

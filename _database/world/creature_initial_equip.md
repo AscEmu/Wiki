@@ -19,7 +19,7 @@ Field                                                                           
 
 ### creature_entry
 
-The unique entry from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)")
+The unique entry from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties")
 
 ### itemslot_1
 

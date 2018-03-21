@@ -15,10 +15,10 @@ Field                                                                           
 [id](#id)                            | bigint(20)   |         | Auto Num
 [name](#name)                        | varchar(100) |         |         
 [MapId](#MapId)                      | int(10)      | 0       |         
-[positionX](#positions.28x_-_o.29)   | float(0)     | 0       |         
-[positionY](#positions.28x_-_o.29)   | float(0)     | 0       |         
-[positionZ](#positions.28x_-_o.29)   | float(0)     | 0       |         
-[Orientation](#positions.28x_-_o.29) | float(0)     | 0       |         
+[positionX](#positions)              | float(0)     | 0       |         
+[positionY](#positions)              | float(0)     | 0       |         
+[positionZ](#positions)              | float(0)     | 0       |         
+[Orientation](#positions)            | float(0)     | 0       |         
 
 ### id
 
@@ -32,6 +32,6 @@ The name of the port, used by the command .recall port and found with the comman
 
 The Map ID of the port point
 
-### position(x - o)
+### position
 
 Alignement by arriving the point.

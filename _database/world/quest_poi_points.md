@@ -12,10 +12,10 @@ This table contains the quest points.
 
 Field                                                                                | Type        | Default | Comment
 ------------------------------------------------------------------------------------ | ----------- | ------- | -------
-[questId](#questId)       | smallint(5) |         |        
-[poiId](#poiId)           | tinyint(3)  | 0       |        
-[x](#position.28x_-_y.29) | int(11)     | 0       |        
-[y](#position.28x_-_y.29) | int(11)     | 0       |        
+[questId](#questId)          | smallint(5) |         |        
+[poiId](#poiId)              | tinyint(3)  | 0       |        
+[x](#position) | int(11)     | 0           |        
+[y](#position) | int(11)     | 0           |        
 
 ### questId
 
@@ -25,6 +25,6 @@ The quest entry ID from [quest_properties](/Wiki/database/world/quest_properties
 
 The point entry ID used in [quest_poi](/Wiki/database/world/quest_poi/ "Quest poi") table.
 
-### position(x - y)
+### position
 
 The x and y position of the point.

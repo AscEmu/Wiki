@@ -17,18 +17,18 @@ Field                                           | Type         | Default      | 
 [rankName](#rankName)                           | varchar(255) | Empty String |        
 [rankRights](#rankRights)                       | int(1)       | 0            |        
 [goldLimitPerDay](#goldLimitPerDay)             | int(30)      | 0            |        
-[bankTabFlags0](#bankTabFlags)                  | int(30)      | 0            |        
-[itemStacksPerDay0](#itemStacksPerDay.280-5.29) | int(30)      | 0            |        
-[bankTabFlags1](#bankTabFlags.280-5.29)         | int(30)      | 0            |        
-[itemStacksPerDay1](#itemStacksPerDay.280-5.29) | int(30)      | 0            |        
-[bankTabFlags2](#bankTabFlags.280-5.29)         | int(30)      | 0            |        
-[itemStacksPerDay2](#itemStacksPerDay.280-5.29) | int(30)      | 0            |        
-[bankTabFlags3](#bankTabFlags.280-5.29)         | int(30)      | 0            |        
-[itemStacksPerDay3](#itemStacksPerDay.280-5.29) | int(30)      | 0            |        
-[bankTabFlags4](#bankTabFlags.280-5.29)         | int(30)      | 0            |        
-[itemStacksPerDay4](#itemStacksPerDay.280-5.29) | int(30)      | 0            |        
-[bankTabFlags5](#bankTabFlags.280-5.29)         | int(30)      | 0            |        
-[itemStacksPerDay5](#itemStacksPerDay.280-5.29) | int(30)      | 0            |        
+[bankTabFlags0](#bankTabFlags0-5)               | int(30)      | 0            |        
+[itemStacksPerDay0](#itemStacksPerDay0-5)       | int(30)      | 0            |        
+[bankTabFlags1](#bankTabFlags0-5)               | int(30)      | 0            |        
+[itemStacksPerDay1](#itemStacksPerDay0-5)       | int(30)      | 0            |        
+[bankTabFlags2](#bankTabFlags0-5)               | int(30)      | 0            |        
+[itemStacksPerDay2](#itemStacksPerDay0-5)       | int(30)      | 0            |        
+[bankTabFlags3](#bankTabFlags0-5)               | int(30)      | 0            |        
+[itemStacksPerDay3](#itemStacksPerDay0-5)       | int(30)      | 0            |        
+[bankTabFlags4](#bankTabFlags0-5)               | int(30)      | 0            |        
+[itemStacksPerDay4](#itemStacksPerDay0-5)       | int(30)      | 0            |        
+[bankTabFlags5](#bankTabFlags0-5)               | int(30)      | 0            |        
+[itemStacksPerDay5](#itemStacksPerDay)          | int(30)      | 0            |        
 
 ### guildId
 
@@ -68,7 +68,7 @@ Simply count the single right values together to combine the rights.
 
 Controles the how much money the player can get (in copper) per day.
 
-### bankTabFlags(0-5)
+### bankTabFlags0-5
 
 Defines if the user with this rank can access the tab.
 
@@ -78,6 +78,6 @@ Bankrights:
     2 = can deposit items
     4 = can change tab text
 
-### itemStacksPerDay(0-5)
+### itemStacksPerDay0-5
 
 Defines how many items the player can get at the tab per day.

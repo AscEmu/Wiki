@@ -23,7 +23,7 @@ Field                                                                           
 
 ### spawnid
 
-Creature entry ID spawn from [creature_spawns](/Wiki/database/world/creature_spawns/) "Creature spawns") table.
+Creature entry ID spawn from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns") table.
 
 ### rowid
 
@@ -31,11 +31,11 @@ Unique ID of action done by this row.
 
 ### type
 
+<pre>
 1 = change standstate
-
 2 = change emotestate
-
 3 = do emote oneshoot
+</pre>
 
 ### value
 
@@ -47,23 +47,21 @@ Say something when creature is changing standstate/emote etc.
 
 ### msg_type
 
+<pre>
 12 = CHAT_MSG_MONSTER_SAY
-
 13 = CHAT_MSG_MONSTER_PARTY
-
 14 = CHAT_MSG_MONSTER_YELL
-
 15 = CHAT_MSG_MONSTER_WHISPER
-
 16 = CHAT_MSG_MONSTER_EMOTE
+</pre>
 
 ### msg_lang
 
+<pre>
 0 = universal language
-
 1 = orcish
-
 7 = common
+</pre>
 
 ### expire_after
 

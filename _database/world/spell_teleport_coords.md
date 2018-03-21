@@ -15,10 +15,10 @@ Field                                                                           
 [id](#id)                          | int(10)   | 0       | (Teleport Spell ID)
 [name](#name)                      | char(255) | 0       |                    
 [mapId](#mapId)                    | int(10)   | 0       |                    
-[position_x](#positions.28x-o.29)  | float(0)  | 0       |                    
-[position_y](#positions.28x-o.29)  | float(0)  | 0       |                    
-[position_z](#positions.28x-o.29)  | float(0)  | 0       |                    
-[orientation](#positions.28x-o.29) | float(0)  | 0       |                    
+[position_x](#positions)           | float(0)  | 0       |                    
+[position_y](#positions)           | float(0)  | 0       |                    
+[position_z](#positions)           | float(0)  | 0       |                    
+[orientation](#positions)          | float(0)  | 0       |                    
 
 ### id
 
@@ -32,6 +32,6 @@ The name of the Teleport.
 
 The mapId for the Teleport.
 
-### positions(x-o)
+### positions
 
 The position (x & y), the height (z) and the orientation for arriving.

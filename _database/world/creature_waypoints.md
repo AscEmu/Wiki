@@ -14,9 +14,9 @@ Field                                                                           
 ---------------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
 [spawnid](#spawnid)                           | int(10)    | 0       |        
 [waypointid](#waypointid)                     | int(10)    | 0       |        
-[position_x](#position.28x-z.29)              | float(0)   | 0.00    |        
-[position_y](#position.28x-z.29)              | float(0)   | 0.00    |        
-[position_z](#position.28x-z.29)              | float(0)   | 0.00    |        
+[position_x](#position_x_z)                   | float(0)   | 0.00    |        
+[position_y](#position_x_z)                   | float(0)   | 0.00    |        
+[position_z](#position_x_z)                   | float(0)   | 0.00    |        
 [waittime](#waittime)                         | int(10)    | 0       |        
 [flags](#flags)                               | int(10)    | 0       |        
 [forwardemoteoneshot](#forwardemoteoneshot)   | tinyint(3) | 0       |        
@@ -28,13 +28,13 @@ Field                                                                           
 
 ### spawnid
 
-This is a unique ID from [creature_spawns](/Wiki/database/world/creature_spawns/) "Creature spawns").
+This is a unique ID from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns").
 
 ### waypointid
 
 This is the Waypoint ID
 
-### position(x-z)
+### position_x_z
 
 Position x, y, z where creature move to.
 

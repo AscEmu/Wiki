@@ -18,7 +18,7 @@ Field                                                                           
 
 ### creature_entry
 
-The creature entry ID from [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.
+The creature entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ### accessory_entry
 

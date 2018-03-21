@@ -23,16 +23,12 @@ The creature entry ID
 
 The group of the auction
 
+<pre>
 1 = Stormwind
-
 2 = Alliance
-
 3 = Darnassus
-
 4 = Undercity
-
 5 = Thunderbluff
-
 6 = Horde
-
 7 = Blackwater Raiders (neutral)
+</pre>

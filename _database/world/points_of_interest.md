@@ -16,8 +16,8 @@ NOTE: This table is new... All points were moved from core to db, but the old fu
 Field                                                                                   | Type         | Default | Comment
 --------------------------------------------------------------------------------------- | ------------ | ------- | -------
 [entry](#entry)            | int(10)      | 0       |        
-[x](#position.28x.2C_y.29) | float(0)     | 0       |        
-[y](#position.28x.2C_y.29) | float(0)     | 0       |        
+[x](#position)             | float(0)     | 0       |        
+[y](#position)             | float(0)     | 0       |        
 [icon](#icon)              | mediumint(8) | 0       |        
 [flags](#flags)            | mediumint(8) | 0       |        
 [data](#data)              | mediumint(8) | 0       |        
@@ -27,7 +27,7 @@ Field                                                                           
 
 The entry ID
 
-### position(x, y)
+### position
 
 The x- and y position on the map, for pointing it on minimap.
 

@@ -13,23 +13,23 @@ This table contains the bounding boxes.
 Field                                                                                        | Type        | Default | Comment
 -------------------------------------------------------------------------------------------- | ----------- | ------- | -------
 [displayid](#displayid)     | smallint(5) |         |        
-[lowx](#low.28x-z.29)       | float       |         |        
-[lowy](#low.28x-z.29)       | float       |         |        
-[lowz](#low.28x-z.29)       | float       |         |        
-[highx](#high.28x-z.29)     | float       |         |        
-[highy](#high.28x-z.29)     | float       |         |        
-[highz](#high.28x-z.29)     | float       |         |        
+[lowx](#low_x_z)            | float       |         |        
+[lowy](#low_x_z)            | float       |         |        
+[lowz](#low_x_z)            | float       |         |        
+[highx](#high_x_z)          | float       |         |        
+[highy](#high_x_z)          | float       |         |        
+[highz](#high_x_z)          | float       |         |        
 [boundradius](#boundradius) |             |         |        
 
 ### displayid
 
 ...
 
-### low(x-z)
+### low_x_z
 
 ...
 
-### high(x-z)
+### high_x_z
 
 ...
 

@@ -41,10 +41,10 @@ The percentage of lowest chance the weather proc (must be smaller then med_chanc
 The type the weather would be:
 
 <pre>
-0  = normal
-1  = fog
-2  = rain (normal)
-4  = rain (heavey)
-8  = snow
+ 0  = normal
+ 1  = fog
+ 2  = rain (normal)
+ 4  = rain (heavey)
+ 8  = snow
 16 = sandstorm
 </pre>

@@ -35,11 +35,11 @@ The probability (percent) this text is shown in the gossip.
 
 ### text0_0-7_0
 
-Text for male npcs (depends on fields **male/female_displayid(2)** in [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.)
+Text for male npcs (depends on fields **male/female_displayid(2)** in [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.)
 
 ### text0_1-7_1
 
-Text for female npcs (depends on fields **male/female_displayid(2)** in [creature_names](http://www.ascemu.org/wiki/index.php?title=Creature_names&action=edit&redlink=1 "Creature names (page does not exist)") table.)
+Text for female npcs (depends on fields **male/female_displayid(2)** in [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.)
 
 ### lang0-7
 
