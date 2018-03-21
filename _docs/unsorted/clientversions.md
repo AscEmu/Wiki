@@ -155,6 +155,8 @@ patch      | date       | client_build | interface | comment
 5.4.1      | 2013-10-26 | 17538        | 50400     | Siege of Orgrimmar       
 5.4.2      | 2013-12-10 | 17658        | 50400     | Siege of Orgrimmar       
 5.4.2h1    | 2013-12-18 | 17688        | 50400     | Siege of Orgrimmar       
+5.4.7      | 2014-02-18 | 18019        | 50400     | Siege of Orgrimmar       
+5.4.8      | 2014-05-20 | 18414        | 50400     | Siege of Orgrimmar       
 6.0.1      | 2014-06-27 | 18482        | 60000     | The Iron Tide            
 6.0.2      | 2014-10-14 | 19027        | 60000     | The Iron Tide            
 6.0.2h1    | 2014-10-14 | 19034        | 60000     | The Iron Tide            
