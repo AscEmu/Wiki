@@ -27,12 +27,14 @@ The linked difficulty entry from [creature_properties](/Wiki/database/world/crea
 
 **difficulty column for dungeons:**
 
+<pre>
 difficulty_1 = The linked [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") entry for heroic dungeons
+</pre>
 
 **difficulty column for raids:**
 
-
+<pre>
 difficulty_1 = The linked [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") entry for normal 25 men
 difficulty_2 = The linked [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") entry for heroic 10 men
 difficulty_3 = The linked [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") entry for heroic 25 men
-</pre
+</pre>
