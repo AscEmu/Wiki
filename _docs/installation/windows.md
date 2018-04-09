@@ -98,7 +98,7 @@ character_structure -> ascemu_char DB
 logon_structure -> ascemu_logon DB
 ```
 
-For ascemu_world use the full_world from: [Link to Download](http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/).
+For ascemu_world apply all .sql files in folder Full_DB from: [Link to Github](https://github.com/AscEmu/OneDB).
 {: .info }
 
 ## Updating the DBs

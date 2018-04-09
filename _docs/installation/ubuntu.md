@@ -12,9 +12,6 @@ Please note: this guide has been written with the objective of setting up a Linu
 
 The only part of an ubuntu desktop system GUI we can use is the subversion downloader(Speaking about RabbitVCS which you should have found on a page before this), everything else must be done via the command line or script.
 
-Of course Ubuntu is not the only Linux distribution available.
-For example if you have CentOS you should follow our CentOS guide: [Compiling:CentOS](http://www.ascemu.org/wiki/index.php?title=Compiling:CentOS&action=edit&redlink=1 "Compiling:CentOS (page does not exist)")
-
 #### Initial Setup
 
 First, having presumably installed a fresh copy of Linux, we need to update our server so that we can compile AscEmu. This will require several different packages. For the following commands, log in as the Linux root administrator.
@@ -148,9 +145,6 @@ cd ~/installer/ascemu/build
 cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../code
 ```
 
-This will configure AscEmu to be built using the default configuration, which is fine for most people, however if you'd like to customize it more take a look at [CMake](http://www.ascemu.org/wiki/index.php?title=CMake&action=edit&redlink=1 "CMake (page does not exist)")
-{: .info }
-
 Then we now simply invoke make and make install to install to the prefix directory
 
 ```console
@@ -177,10 +171,6 @@ Next you will transfer the DBC and map files over to your server.
 
 DBC Extraction is now on its OWN page. Please come back to THIS page when you are done extracting DBCs!
 {: .info }
-
-To extract DBCs, follow the guide on the page below.
-
-[Compiling:_DBC_Extraction](http://www.ascemu.org/wiki/index.php?title=Compiling:_DBC_Extraction&action=edit&redlink=1 "Compiling: DBC Extraction (page does not exist)")
 
 Use Wine if you must but preferably a windows machine to extract the DBCs, maps.
 
@@ -227,35 +217,10 @@ The first step in setting up the database will be setting up a mysql user and da
 
 After we have setup the database, its time to start downloading the files.
 
-#### Get a world database
+#### Get the world database
 
-The following section is a work in progress and is incomplete
+For ascemu_world apply all .sql files in folder Full_DB from: [Link to Github](https://github.com/AscEmu/OneDB).
 {: .info }
-
-You must first download a copy of the database: [Link to Download](http://www.board.ascemu.org/filebase/index.php/File/3-AscEmu-full-world-3-3-5/).
-
-Once you have done that, open a terminal, switch to the directory the zip file is in and extract it.
-
-Log in to your MySQL server by running the command
-
-```console
-mysql -u your_mysql_username -p
-```
-
-Once you have done that, create the world database, switch to it and execute the SQL dump file by running the following commands (note that it is important to include the semicolon at the end of the queries)
-
-```console
-CREATE DATABASE ascemu_world;
-USE ascemu_world;
-SOURCE 2015-03-14_ascemu_world.SQL;
-```
-
-It should only take a few seconds to finish executing on a modern machine. Now, we want to switch to the server source folder so that we can apply the character and logon databases. For this, run the following commands:
-
-```console
-cd ~/installer/ascemu/code/sql
-mysql -u your_mysql_username -p
-```
 
 ```console
 CREATE DATABASE ascemu_logon;
