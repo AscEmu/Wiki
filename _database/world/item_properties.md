@@ -10,9 +10,10 @@ This table contains most of the items information.
 
 ## Structure
 
-Field                                                                                                                   | Type         | Default                          | Comment
------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------- | -------
-[entry](#entry)                                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
+Field                                                         | Type         | Default                          | Comment
+------------------------------------------------------------- | ------------ | -------------------------------- | -------
+[entry](#entry)                                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    | key
+[build](#build)                                               | smallint(6)  | 12340                            | key
 [class](#class)                                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [subclass](#subclass)                                         | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
 [field4](#field4)                                             | int(11)      | NOT NULL DEFAULT '-1'            |        
@@ -143,6 +144,10 @@ Field                                                                           
 ### entry
 
 The entry ID of the item.
+
+### build
+
+Build number to determine if the data is for our current compiled version.
 
 ### class
 

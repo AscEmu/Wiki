@@ -10,9 +10,10 @@ This table contains the skills for the players on create.
 
 ## Structure
 
-Field                                                                                   | Type        | Default | Comment
---------------------------------------------------------------------------------------- | ----------- | ------- | -------
-[indexid](#indexid)   | tinyint(3)  | 0       |        
+Field                 | Type        | Default | Comment
+--------------------- | ----------- | ------- | -------
+[indexid](#indexid)   | tinyint(3)  | 0       | key
+[build](#build)       | smallint(6) | 12340   | key
 [skillid](#skillid)   | smallint(5) | 0       |        
 [level](#level)       | smallint(5) | 0       |        
 [maxlevel](#maxlevel) | smallint(5) | 0       |        
@@ -20,6 +21,10 @@ Field                                                                           
 ### indexid
 
 The entry ID from [playercreateinfo](/Wiki/database/world/playercreateinfo/ "Playercreateinfo") table.
+
+### build
+
+Build number used by AE to determine if the data is for our current compiled version.
 
 ### skillid
 

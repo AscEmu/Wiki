@@ -10,9 +10,10 @@ This table contains the types and settings for the different maps.
 
 ## Structure
 
-Field                                                                                               | Type         | Default | Comment
---------------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[entry](#entry)                             | int(10)      | 0       |        
+Field                                       | Type         | Default | Comment
+------------------------------------------- | ------------ | ------- | -------
+[entry](#entry)                             | int(10)      | 0       | key
+[build](#build)                             | smallint(6)  | 12340   | key
 [screenid](#screenid)                       | int(10)      | 0       |        
 [type](#type)                               | int(10)      | 0       |        
 [maxplayers](#maxplayers)                   | int(10)      | 0       |        
@@ -37,6 +38,10 @@ Field                                                                           
 ### entry
 
 The map ID of the entrance.
+
+### build
+
+Build number to determine if the data is for our current compiled version.
 
 ### screenid
 

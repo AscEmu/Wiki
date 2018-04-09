@@ -10,9 +10,10 @@ This table contains gameobject information.
 
 ## Structure
 
-Field                                                                                             | Type         | Default | Comment
-------------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[entry](#entry)                   | int(10)      | 0       |        
+Field                             | Type         | Default | Comment
+--------------------------------- | ------------ | ------- | -------
+[entry](#entry)                   | int(10)      | 0       | key
+[build](#build)                   | smallint(6)  | 12340   | key
 [type](#type)                     | tinyint(3)   | 0       |        
 [display_id](#display_id)         | mediumint(8) | 0       |        
 [name](#name)                     | varchar(100) |         |        
@@ -54,6 +55,10 @@ Field                                                                           
 ## entry
 
 The entry ID of the gameobject.
+
+### build
+
+Build number to determine if the data is for our current compiled version.
 
 ## type
 

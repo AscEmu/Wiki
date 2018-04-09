@@ -10,9 +10,10 @@ This table contains the information about the quests.
 
 ## Structure
 
-Field                                                                                                              | Type      | Default                                             | Comment         
------------------------------------------------------------------------------------------------------------------- | --------- | --------------------------------------------------- | ----------------
-[entry](#entry)                                         | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+Field                                                   | Type      | Default                                             | Comment         
+------------------------------------------------------- | --------- | --------------------------------------------------- | ----------------
+[entry](#entry)                                         | int(10)   | unsigned NOT NULL DEFAULT '0'                       | key
+[build](#build)                                         | smallint(6)   | 12340                                           | key
 [ZoneId](#ZoneId)                                       | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [sort](#sort)                                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [flags](#flags)                                         | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
@@ -164,6 +165,10 @@ Field                                                                           
 ### entry
 
 The unique entry ID of the quest.
+
+### build
+
+Build number to determine if the data is for our current compiled version.
 
 ### ZoneId
 

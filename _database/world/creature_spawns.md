@@ -10,10 +10,12 @@ This table contains spells that creatures use instead of advanced scripting.
 
 ## Structure
 
-Field                                                                                                                     | Type          | Default | Comment 
-------------------------------------------------------------------------------------------------------------------------- | ------------- | ------- | --------
-[id](#id)                                                       | int(11)       |         | Auto Num
-[entry](#entry)                                                 | mediumint(10) |         |         
+Field                                                           | Type          | Default | Comment 
+--------------------------------------------------------------- | ------------- | ------- | --------
+[id](#id)                                                       | int(11)       |         | key, auto
+[min_build](#min_build)                                         | smallint(6)   | 12340   | key
+[max_build](#max_build)                                         | smallint(6)   | 12340   |
+[entry](#entry)                                                 | mediumint(10) |         | 
 [map](#map)                                                     | smallint(5)   |         |         
 [position_x](#positions)                                        | float(0)      |         |         
 [position_y](#positions)                                        | float(0)      |         |         
@@ -39,10 +41,20 @@ Field                                                                           
 [slot3item](#slot3item)                                         | int(10)       | 0       |         
 [CanFly](#CanFly)                                               | smallint(3)   | 0       |         
 [phase](#phase)                                                 | int(10)       | 0       |         
+[event_entry](#event_entry)                                     | int(6)        | 0       |     
+[waypoint_group](#waypoint_group)                               | int(6)        | 0       |        
 
 ### id
 
 Spawn ID of the creature (unique, auto)
+
+### min_build
+
+Build number this spawn was introduced.
+
+### max_build
+
+Max Build number this spawn is valid for.
 
 ### entry
 
@@ -385,3 +397,11 @@ Entry ID of a ranged item to be equipped.
 ### phase
 
 The phase of the creature.
+
+### event_entry
+
+entry from table event_properties
+
+### waypoint_group
+
+entry from table creature_waypoints_manual <-weird naming

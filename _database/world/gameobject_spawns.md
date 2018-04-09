@@ -10,30 +10,42 @@ This table contains the position and custom data for the spawned gameobject.
 
 ## Structure
 
-Field                                                                                               | Type     | Default | Comment 
---------------------------------------------------------------------------------------------------- | -------- | ------- | --------
-[id](#id)                               | int(11)  |         | Auto Num
-[entry](#entry)                         | int(10)  | 0       |         
-[map](#map)                             | int(3)   | 0       |         
-[position_x](#position_x_z)             | float(0) | 0       |         
-[position_y](#position_x_z)             | float(0) | 0       |         
-[position_z](#position_x_z)             | float(0) | 0       |         
-[facing](#facing)                       | float(0) | 0       |         
-[orientation1](#orientation_1-4)        | float(0) | 0       |         
-[orientation2](#orientation_1-4)        | float(0) | 0       |         
-[orientation3](#orientation_1-4)        | float(0) | 0       |         
-[orientation4](#orientation_1-4)        | float(0) | 0       |         
-[state](#state)                         | int(10)  | 0       |         
-[flags](#flags)                         | int(10)  | 0       |         
-[faction](#faction)                     | int(10)  | 0       |         
-[scale](#scale)                         | float(0) | 1       |         
-[respawnNpcLink](#respawnNpcLink)       | int(11)  | 0       |         
-[phase](#phase)                         | int(10)  | 0       |         
-[overrides](#overrides)                 | int(10)  | 0       |         
+Field                                   | Type          | Default | Comment 
+--------------------------------------- | ------------- | ------- | --------
+[id](#id)                               | int(11)       |         | key, auto
+[min_build](#min_build)                 | smallint(6)   | 12340   | key
+[max_build](#max_build)                 | smallint(6)   | 12340   |
+[entry](#entry)                         | int(10)       | 0       |         
+[map](#map)                             | int(3)        | 0       |         
+[position_x](#position_x_z)             | float(0)      | 0       |         
+[position_y](#position_x_z)             | float(0)      | 0       |         
+[position_z](#position_x_z)             | float(0)      | 0       |         
+[facing](#facing)                       | float(0)      | 0       |         
+[orientation1](#orientation_1-4)        | float(0)      | 0       |         
+[orientation2](#orientation_1-4)        | float(0)      | 0       |         
+[orientation3](#orientation_1-4)        | float(0)      | 0       |         
+[orientation4](#orientation_1-4)        | float(0)      | 0       |         
+[state](#state)                         | int(10)       | 0       |         
+[flags](#flags)                         | int(10)       | 0       |         
+[faction](#faction)                     | int(10)       | 0       |         
+[scale](#scale)                         | float(0)      | 1       |         
+[respawnNpcLink](#respawnNpcLink)       | int(11)       | 0       |         
+[phase](#phase)                         | int(10)       | 0       |         
+[overrides](#overrides)                 | int(10)       | 0       |         
+[event_entry](#event_entry)             | int(6)        | 0       |   
 
 ### id
 
 Autofilled by MySQL, do not touch.
+
+### min_build
+
+Build number this spawn was introduced.
+
+### max_build
+
+Max Build number this spawn is valid for.
+
 
 ### entry
 
@@ -106,3 +118,7 @@ This field describes in which phase the gameobject is.
 <strike>32 = 0x20  Let the core use the full field instead an uint8 in GAMEOBJECT_BYTES_1, if the database creator knows what to do with it.</strike>
 64 = 0x40  Makes it possible for the core to skip calculating these fields and use whatever was specified in the spawn.
 </pre>
+
+### event_entry
+
+entry from table event_properties

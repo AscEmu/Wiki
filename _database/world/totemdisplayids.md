@@ -10,17 +10,25 @@ This table contains the displayids for the totems.
 
 ## Structure
 
-Field                                                                                               | Type    | Default | Comment
---------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[displayid](#displayid)               | int(1)  | 0       |        
-[draeneiid](#draeneiid-trollid-orcid) | int(10) | 0       |        
-[trollid](#draeneiid-trollid-orcid)   | int(10) | 0       |        
-[orcid](#draeneiid-trollid-orcid)     | int(10) | 0       |        
+Field                                 | Type         | Default | Comment
+------------------------------------- | ------------ | ------- | -------
+[race](#race)                         | smallint(2)  |         | key
+[build](#build)                       | smallint(8)  | 12340   | key
+[totem](#totem)                       | int(8)       |         | key
+[displayid](#displayid)               | int(8)       | NULL    |  
+
+### race
+
+Race id of the character.
+
+### build
+
+Build number for AE version.
+
+### totem
+
+DisplayId of the basic totem.
 
 ### displayid
 
-The displayid of the totem.
-
-### draeneiid-trollid-orcid
-
-The displayid for the races...
+Race specific displayid for the totem.

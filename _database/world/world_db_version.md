@@ -10,9 +10,14 @@ This table ensures that the world database matches the core
 
 ## Structure
 
-Field                                                                                | Type         | Default      | Comment
------------------------------------------------------------------------------------- | ------------ | ------------ | -------
+Field                     | Type         | Default      | Comment
+------------------------- | ------------ | ------------ | -------
+[id](#id)                 | smallint(6)  | 0            | key, auto
 [LastUpdate](#LastUpdate) | varchar(255) | Empty String |        
+
+### id
+
+Update ID
 
 ### LastUpdate
 

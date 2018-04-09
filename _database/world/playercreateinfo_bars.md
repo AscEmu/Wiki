@@ -10,9 +10,9 @@ This table contains the the bar and button actions for players on create.
 
 ## Structure
 
-Field                                                                             | Type          | Default | Comment
---------------------------------------------------------------------------------- | ------------- | ------- | -------
-[race](#race)     | tinyint(3)    | 0       |        
+Field             | Type          | Default | Comment
+----------------- | ------------- | ------- | -------
+[race](#race)     | tinyint(3)    | 0       | key 
 [class](#class)   | tinyint(3)    | 0       |        
 [button](#button) | tinyint(3)    | 0       |        
 [action](#action) | mediumint(10) | 0       |        

@@ -10,9 +10,10 @@ This table contains creature properties information.
 
 ## Structure
 
-Field                                                                                                             | Type          | Default | Comment
------------------------------------------------------------------------------------------------------------------ | ------------- | ------- | -------
-[entry](#entry)                                     | int(30)       | 0       |        
+Field                                               | Type          | Default | Comment
+--------------------------------------------------- | ------------- | ------- | -------
+[entry](#entry)                                     | int(30)       | 0       | key
+[build](#build)                                     | smallint(6)   | 12340   | key
 [killcredit1](#killcredit_1_2)                      | int(10)       | 0       |        
 [killcredit2](#killcredit_1_2)                      | int(10)       | 0       |        
 [male_displayid](#displayids_male_female)           | int(10)       | 0       |        
@@ -91,6 +92,10 @@ Field                                                                           
 ### entry
 
 The entry ID of the creature.
+
+### build
+
+Build number to determine if the data is for our current compiled version.
 
 ### killcredit_1_2
 
