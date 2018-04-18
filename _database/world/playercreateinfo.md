@@ -15,7 +15,6 @@ Field                               | Type        | Default | Comment
 [Index](#Index)                     | tinyint(3)  |         | key, auto      
 [build](#build)                     | smallint(6) | 12340   | key
 [race](#race)                       | tinyint(3)  | 0       |                
-[factiontemplate](#factiontemplate) | int(10)     | 0       |                
 [class](#class)                     | tinyint(3)  | 0       |                
 [mapID](#mapID)                     | int(10)     | 0       |                
 [zoneID](#zoneID)                   | int(10)     | 0       |                
@@ -48,10 +47,6 @@ Index for this table, used to identify class/race values in other playercreatein
 Build number to determine if the data is for our current compiled version.
 
 ### race
-
-...
-
-### factiontemplate
 
 ...
 
@@ -126,7 +121,6 @@ Build number to determine if the data is for our current compiled version.
 ### maxdmg
 
 ...
-
 
 ### taximask
 
