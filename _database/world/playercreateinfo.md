@@ -22,7 +22,6 @@ Field                               | Type        | Default | Comment
 [positionY](#position)              | float(0)    | 0       |                
 [positionZ](#position)              | float(0)    | 0       |                
 [positionO](#position)              | float(0)    | 0       | (Not available)
-[displayID](#displayID)             | smallint(5) | 0       |                
 [BaseStrength](#BaseStrength)       | tinyint(3)  | 0       |                
 [BaseAgility](#BaseAgility)         | tinyint(3)  | 0       |                
 [BaseStamina](#BaseStamina)         | tinyint(3)  | 0       |                
@@ -63,10 +62,6 @@ Build number to determine if the data is for our current compiled version.
 ...
 
 ### position
-
-...
-
-### displayID
 
 ...
 
