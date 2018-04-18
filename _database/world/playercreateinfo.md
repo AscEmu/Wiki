@@ -37,7 +37,6 @@ Field                               | Type        | Default | Comment
 [attackpower](#attackpower)         | tinyint(3)  | 0       |                
 [mindmg](#mindmg)                   | float(0)    |         |                
 [maxdmg](#maxdmg)                   | float(0)    |         |                
-[introid](#introid)                 | tinyint(3)  | 0       |                
 [taximask](#taximask)               | tinytext(0) | NULL    |                
 
 ### Index
@@ -128,9 +127,6 @@ Build number to determine if the data is for our current compiled version.
 
 ...
 
-### introid
-
-...
 
 ### taximask
 
