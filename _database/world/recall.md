@@ -10,9 +10,11 @@ This table contains spells that creatures use instead of advanced scripting.
 
 ## Structure
 
-Field                                                                                 | Type         | Default | Comment 
-------------------------------------------------------------------------------------- | ------------ | ------- | --------
-[id](#id)                            | bigint(20)   |         | Auto Num
+Field                                | Type         | Default | Comment 
+------------------------------------ | ------------ | ------- | --------
+[id](#id)                            | bigint(20)   |         | key, auto
+[min_build](#min_build)              | smallint(6)  | 12340   | key
+[max_build](#max_build)              | smallint(6)  | 12340   |
 [name](#name)                        | varchar(100) |         |         
 [MapId](#MapId)                      | int(10)      | 0       |         
 [positionX](#positions)              | float(0)     | 0       |         
@@ -22,7 +24,15 @@ Field                                                                           
 
 ### id
 
-A unique MySQL-generated ID. Do not touch unless you know what you are doing!
+Id for this recall, only used internal.
+
+### min_build
+
+Build number this position was available.
+
+### max_build
+
+Max Build number position was valid for.
 
 ### name
 
