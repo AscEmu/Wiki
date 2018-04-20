@@ -10,9 +10,11 @@ This table contains the start/endtime for auto events.
 
 ## Structure
 
-Field                                                                                  | Type         | Default             | Comment
--------------------------------------------------------------------------------------- | ------------ | ------------------- | -------
-[entry](#entry)             | tinyint(3)   |                     |        
+Field                       | Type         | Default             | Comment
+--------------------------- | ------------ | ------------------- | -------
+[entry](#entry)             | tinyint(3)   |                     | key
+[min_build](#min_build)     | smallint(6)  | 12340               | key
+[max_build](#max_build)     | smallint(6)  | 12340               |
 [start_time](#start_time)   | timestamp    | 0000-00-00 00:00:00 |        
 [end_time](#end_time)       | timestamp    | 0000-00-00 00:00:00 |        
 [occurence](#occurence)     | bigint(20)   | 5184000             |        
@@ -25,6 +27,14 @@ Field                                                                           
 ### entry
 
 The entry ID of the event.
+
+### min_build
+
+The version this event was introduced.
+
+### max_build
+
+The max version this event is valid.
 
 ### start_time
 
