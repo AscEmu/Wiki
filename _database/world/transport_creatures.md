@@ -10,14 +10,15 @@ This includes all the transport information for the creatures.
 
 ## Structure
 
-Field                                                                                             | Type    | Default | Comment
-------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[transport_entry](#transport_entry) | int(10) |         |        
-[creature_entry](#creature_entry)   | int(10) |         |        
-[position_x](#position)             | float   |         |        
-[position_y](#position)             | float   |         |        
-[position_z](#position)             | float   |         |        
-[orientation](#position)            | float   |         |        
+Field                               | Type        | Default | Comment
+----------------------------------- | ----------- | ------- | -------
+[transport_entry](#transport_entry) | int(10)     |         | key
+[creature_entry](#creature_entry)   | int(10)     |         | key
+[build](#build)                     | smallint(6) | 12340   | key
+[position_x](#position)             | float       |         |        
+[position_y](#position)             | float       |         |        
+[position_z](#position)             | float       |         |        
+[orientation](#position)            | float       |         |        
 
 ### transport_entry
 
@@ -26,6 +27,10 @@ The transport entry ID from [transport_data](/Wiki/database/world/transport_data
 ### creature_entry
 
 The creature entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
+
+### build
+
+The AE version build number.
 
 ### position
 
