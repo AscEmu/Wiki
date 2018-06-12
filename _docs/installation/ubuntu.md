@@ -24,9 +24,9 @@ Install bzip2
 
 ```console
 cd ..
-wget bzip.org/1.0.3/bzip2-1.0.3.tar.gz
-tar zxvf bzip2-1.0.3.tar.gz
-cd bzip2-1.0.3
+wget bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+tar zxvf bzip2-1.0.6.tar.gz
+cd bzip2-1.0.6
 make install
 ```
 
@@ -60,7 +60,7 @@ Next we have to setup the root account for MySQL so that the server isn't compro
 
 ```console
  mysqladmin -u root password new-password-here
-  mysqladmin -h root@hostname -u root password the-pass-you-just-chose
+ mysqladmin -h root@hostname -u root password the-pass-you-just-chose
 ```
 
 Substitute _hostname_ for the hostname you chose when installing linux. That's it! Setting up MySQL is pretty straight forward.
