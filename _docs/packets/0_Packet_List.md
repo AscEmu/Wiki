@@ -105,8 +105,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_QUEST_QUERY_RESPONSE](#smsg_quest_query_response) |  |  |  | 
 [CMSG_GAMEOBJECT_QUERY](#cmsg_gameobject_query) |  | serialized | serialized | 
 [SMSG_GAMEOBJECT_QUERY_RESPONSE](#smsg_gameobject_query_response) |  | serialized | serialized | 
-[CMSG_CREATURE_QUERY](#cmsg_creature_query) |  |  |  | 
-[SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) |  |  |  | 
+[CMSG_CREATURE_QUERY](#cmsg_creature_query) |  | serialized | serialized | 
+[SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) |  | serialized | serialized | 
 [CMSG_WHO](#cmsg_who) |  | serialized | serialized | serialized
 [SMSG_WHO](#smsg_who) |  |  |  | 
 [CMSG_WHOIS](#cmsg_whois) |  |  |  | 
