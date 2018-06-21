@@ -179,7 +179,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_CHANNEL_ANNOUNCEMENTS](#cmsg_channel_announcements) |  |  |  | 
 [CMSG_CHANNEL_MODERATE](#cmsg_channel_moderate) |  |  |  | 
 [SMSG_UPDATE_OBJECT](#smsg_update_object) |  |  |  | 
-[SMSG_DESTROY_OBJECT](#smsg_destroy_object) |  |  |  | 
+[SMSG_DESTROY_OBJECT](#smsg_destroy_object) |  | serialized | serialized | 
 [CMSG_USE_ITEM](#cmsg_use_item) |  |  |  | 
 [CMSG_OPEN_ITEM](#cmsg_open_item) |  |  |  | 
 [CMSG_READ_ITEM](#cmsg_read_item) |  |  |  | 
