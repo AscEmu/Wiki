@@ -267,10 +267,10 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_TUTORIAL_CLEAR](#cmsg_tutorial_clear) |  |  |  | 
 [CMSG_TUTORIAL_RESET](#cmsg_tutorial_reset) |  |  |  | 
 [CMSG_STANDSTATECHANGE](#cmsg_standstatechange) |  | serialized | serialized | serialized
-[CMSG_EMOTE](#cmsg_emote) |  |  |  | 
-[SMSG_EMOTE](#smsg_emote) |  |  |  | 
-[CMSG_TEXT_EMOTE](#cmsg_text_emote) |  |  |  | 
-[SMSG_TEXT_EMOTE](#smsg_text_emote) |  |  |  | 
+[CMSG_EMOTE](#cmsg_emote) |  | not used | serialized | serialized
+[SMSG_EMOTE](#smsg_emote) |  | serialized | serialized | 
+[CMSG_TEXT_EMOTE](#cmsg_text_emote) |  | serialized | serialized | serialized
+[SMSG_TEXT_EMOTE](#smsg_text_emote) |  | serialized | serialized | serialized
 [CMSG_AUTOEQUIP_GROUND_ITEM](#cmsg_autoequip_ground_item) |  |  |  | 
 [CMSG_AUTOSTORE_GROUND_ITEM](#cmsg_autostore_ground_item) |  |  |  | 
 [CMSG_AUTOSTORE_LOOT_ITEM](#cmsg_autostore_loot_item) |  | serialized | serialized | 
