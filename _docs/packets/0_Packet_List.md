@@ -273,7 +273,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_TEXT_EMOTE](#smsg_text_emote) |  |  |  | 
 [CMSG_AUTOEQUIP_GROUND_ITEM](#cmsg_autoequip_ground_item) |  |  |  | 
 [CMSG_AUTOSTORE_GROUND_ITEM](#cmsg_autostore_ground_item) |  |  |  | 
-[CMSG_AUTOSTORE_LOOT_ITEM](#cmsg_autostore_loot_item) |  |  |  | 
+[CMSG_AUTOSTORE_LOOT_ITEM](#cmsg_autostore_loot_item) |  | serialized | serialized | 
 [CMSG_STORE_LOOT_IN_SLOT](#cmsg_store_loot_in_slot) |  |  |  | 
 [CMSG_AUTOEQUIP_ITEM](#cmsg_autoequip_item) |  |  |  | 
 [CMSG_AUTOSTORE_BAG_ITEM](#cmsg_autostore_bag_item) |  |  |  | 
@@ -363,7 +363,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_LOOT_RELEASE](#cmsg_loot_release) |  |  |  | 
 [SMSG_LOOT_RESPONSE](#smsg_loot_response) |  |  |  | 
 [SMSG_LOOT_RELEASE_RESPONSE](#smsg_loot_release_response) |  |  |  | 
-[SMSG_LOOT_REMOVED](#smsg_loot_removed) |  |  |  | 
+[SMSG_LOOT_REMOVED](#smsg_loot_removed) |  | serialized | serialized | 
 [SMSG_LOOT_MONEY_NOTIFY](#smsg_loot_money_notify) |  |  |  | 
 [SMSG_LOOT_ITEM_NOTIFY](#smsg_loot_item_notify) |  |  |  | 
 [SMSG_LOOT_CLEAR_MONEY](#smsg_loot_clear_money) |  |  |  | 
