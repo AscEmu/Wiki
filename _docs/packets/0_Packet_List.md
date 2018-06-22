@@ -305,7 +305,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_SET_FACTION_ATWAR](#cmsg_set_faction_atwar) |  |  |  | 
 [CMSG_SET_FACTION_CHEAT](#cmsg_set_faction_cheat) |  |  |  | 
 [SMSG_SET_PROFICIENCY](#smsg_set_proficiency) |  |  |  | 
-[CMSG_SET_ACTION_BUTTON](#cmsg_set_action_button) |  |  |  | 
+[CMSG_SET_ACTION_BUTTON](#cmsg_set_action_button) |  | serialized | serialized | serialized
 [SMSG_ACTION_BUTTONS](#smsg_action_buttons) |  |  |  | 
 [SMSG_INITIAL_SPELLS](#smsg_initial_spells) |  |  |  | 
 [SMSG_LEARNED_SPELL](#smsg_learned_spell) |  |  |  | 
