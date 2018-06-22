@@ -469,8 +469,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_FISH_ESCAPED](#smsg_fish_escaped) |  |  |  | 
 [CMSG_BUG](#cmsg_bug) |  |  |  | 
 [SMSG_NOTIFICATION](#smsg_notification) |  |  |  | 
-[CMSG_PLAYED_TIME](#cmsg_played_time) |  |  |  | 
-[SMSG_PLAYED_TIME](#smsg_played_time) |  |  |  | 
+[CMSG_PLAYED_TIME](#cmsg_played_time) |  | serialized | serialized | serialized
+[SMSG_PLAYED_TIME](#smsg_played_time) |  | serialized | serialized | serialized
 [CMSG_QUERY_TIME](#cmsg_query_time) |  |  |  | 
 [SMSG_QUERY_TIME_RESPONSE](#smsg_query_time_response) |  |  |  | 
 [SMSG_LOG_XPGAIN](#smsg_log_xpgain) |  |  |  | 
