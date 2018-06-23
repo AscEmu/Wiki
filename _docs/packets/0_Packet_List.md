@@ -516,7 +516,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_EXPLORATION_EXPERIENCE](#smsg_exploration_experience) |  |  |  | 
 [CMSG_GM_SET_SECURITY_GROUP](#cmsg_gm_set_security_group) |  |  |  | 
 [CMSG_GM_NUKE](#cmsg_gm_nuke) |  |  |  | 
-[MSG_RANDOM_ROLL](#msg_random_roll) |  |  |  | 
+[MSG_RANDOM_ROLL](#msg_random_roll) |  |  | serialized | 
 [SMSG_ENVIRONMENTALDAMAGELOG](#smsg_environmentaldamagelog) |  |  |  | 
 [CMSG_RWHOIS_OBSOLETE](#cmsg_rwhois_obsolete) |  |  |  | 
 [SMSG_RWHOIS](#smsg_rwhois) |  |  |  | 
@@ -914,10 +914,10 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_SPLINE_SET_FLIGHT_BACK_SPEED](#smsg_spline_set_flight_back_speed) |  |  |  | 
 [CMSG_MAELSTROM_INVALIDATE_CACHE](#cmsg_maelstrom_invalidate_cache) |  |  |  | 
 [SMSG_FLIGHT_SPLINE_SYNC](#smsg_flight_spline_sync) |  |  |  | 
-[CMSG_SET_TAXI_BENCHMARK_MODE](#cmsg_set_taxi_benchmark_mode) |  |  |  | 
+[CMSG_SET_TAXI_BENCHMARK_MODE](#cmsg_set_taxi_benchmark_mode) |  | serialzed |  | 
 [SMSG_JOINED_BATTLEGROUND_QUEUE](#smsg_joined_battleground_queue) |  |  |  | 
-[SMSG_REALM_SPLIT](#smsg_realm_split) |  |  |  | 
-[CMSG_REALM_SPLIT](#cmsg_realm_split) |  |  |  | 
+[SMSG_REALM_SPLIT](#smsg_realm_split) |  | serialized |  | 
+[CMSG_REALM_SPLIT](#cmsg_realm_split) |  | serialized |  | 
 [CMSG_MOVE_CHNG_TRANSPORT](#cmsg_move_chng_transport) |  |  |  | 
 [MSG_PARTY_ASSIGNMENT](#msg_party_assignment) |  |  |  | 
 [SMSG_OFFER_PETITION_ERROR](#smsg_offer_petition_error) |  |  |  | 
@@ -1009,4 +1009,6 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_REPORT_PVP_AFK_RESULT](#cmsg_report_pvp_afk_result) |  |  |  | 
 [CMSG_GUILD_BANKER_ACTIVATE](#cmsg_guild_banker_activate) |  |  |  | 
 [CMSG_GUILD_BANK_QUERY_TAB](#cmsg_guild_bank_query_tab) |  |  |  | 
+[SMSG_WORLD_STATE_UI_TIMER_UPDATE](#smsg_world_state_ui_timer_update) |  |  | serialized | 
+[CMSG_GAMEOBJ_REPORT_USE](#cmsg_gameobj_report_use) |  |  | serialized | 
 
