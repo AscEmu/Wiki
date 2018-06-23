@@ -801,7 +801,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [CMSG_DEBUG_ACTIONS_START](#cmsg_debug_actions_start) |  |  |  | 
 [CMSG_DEBUG_ACTIONS_STOP](#cmsg_debug_actions_stop) |  |  |  | 
 [CMSG_SET_FACTION_INACTIVE](#cmsg_set_faction_inactive) |  |  |  | 
-[CMSG_SET_WATCHED_FACTION](#cmsg_set_watched_faction) |  |  |  | 
+[CMSG_SET_WATCHED_FACTION](#cmsg_set_watched_faction) |  | serialized | serialized | 
 [MSG_MOVE_TIME_SKIPPED](#msg_move_time_skipped) |  |  |  | 
 [SMSG_SPLINE_MOVE_ROOT](#smsg_spline_move_root) |  |  |  | 
 [CMSG_SET_EXPLORATION_ALL](#cmsg_set_exploration_all) |  |  |  | 
