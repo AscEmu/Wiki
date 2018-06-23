@@ -818,7 +818,9 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_GHOSTEE_GONE](#smsg_ghostee_gone) |  |  |  | 
 [CMSG_GM_UPDATE_TICKET_STATUS](#cmsg_gm_update_ticket_status) |  |  |  | 
 [SMSG_GM_TICKET_STATUS_UPDATE](#smsg_gm_ticket_status_update) |  |  |  | 
-[MSG_SET_DUNGEON_DIFFICULTY](#msg_set_dungeon_difficulty) |  |  |  | 
+[MSG_SET_DUNGEON_DIFFICULTY](#msg_set_dungeon_difficulty) |  |  | serialized | 
+[MSG_SET_RAID_DIFFICULTY](#msg_set_raid_difficulty) |  |  | serialized | 
+[CMSG_OPT_OUT_OF_LOOT](#cmsg_opt_out_of_loot) |  |  | serialized | 
 [CMSG_GMSURVEY_SUBMIT](#cmsg_gmsurvey_submit) |  |  |  | 
 [SMSG_UPDATE_INSTANCE_OWNERSHIP](#smsg_update_instance_ownership) |  |  |  | 
 [CMSG_IGNORE_KNOCKBACK_CHEAT](#cmsg_ignore_knockback_cheat) |  |  |  | 
