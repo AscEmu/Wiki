@@ -181,7 +181,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_UPDATE_OBJECT](#smsg_update_object) |  |  |  | 
 [SMSG_DESTROY_OBJECT](#smsg_destroy_object) |  | serialized | serialized | 
 [CMSG_USE_ITEM](#cmsg_use_item) |  |  |  | 
-[CMSG_OPEN_ITEM](#cmsg_open_item) |  |  |  | 
+[CMSG_OPEN_ITEM](#cmsg_open_item) |  |  | serialized | 
 [CMSG_READ_ITEM](#cmsg_read_item) |  |  |  | 
 [SMSG_READ_ITEM_OK](#smsg_read_item_ok) |  |  |  | 
 [SMSG_READ_ITEM_FAILED](#smsg_read_item_failed) |  |  |  | 
@@ -681,10 +681,10 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_STANDSTATE_UPDATE](#smsg_standstate_update) |  |  |  | 
 [SMSG_LOOT_ALL_PASSED](#smsg_loot_all_passed) |  |  |  | 
 [SMSG_LOOT_ROLL_WON](#smsg_loot_roll_won) |  |  |  | 
-[CMSG_LOOT_ROLL](#cmsg_loot_roll) |  |  |  | 
+[CMSG_LOOT_ROLL](#cmsg_loot_roll) |  |  | serialized | 
 [SMSG_LOOT_START_ROLL](#smsg_loot_start_roll) |  |  |  | 
 [SMSG_LOOT_ROLL](#smsg_loot_roll) |  |  |  | 
-[CMSG_LOOT_MASTER_GIVE](#cmsg_loot_master_give) |  |  |  | 
+[CMSG_LOOT_MASTER_GIVE](#cmsg_loot_master_give) |  |  | serialized | 
 [SMSG_LOOT_MASTER_LIST](#smsg_loot_master_list) |  |  |  | 
 [SMSG_SET_FORCED_REACTIONS](#smsg_set_forced_reactions) |  |  |  | 
 [SMSG_SPELL_FAILED_OTHER](#smsg_spell_failed_other) |  |  |  | 
@@ -712,7 +712,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_PLAYER_SKINNED](#smsg_player_skinned) |  |  |  | 
 [SMSG_DURABILITY_DAMAGE_DEATH](#smsg_durability_damage_death) |  |  |  | 
 [CMSG_SET_EXPLORATION](#cmsg_set_exploration) |  |  |  | 
-[CMSG_SET_ACTIONBAR_TOGGLES](#cmsg_set_actionbar_toggles) |  |  |  | 
+[CMSG_SET_ACTIONBAR_TOGGLES](#cmsg_set_actionbar_toggles) |  |  | serialized | 
 [UMSG_DELETE_GUILD_CHARTER](#umsg_delete_guild_charter) |  |  |  | 
 [MSG_PETITION_RENAME](#msg_petition_rename) |  |  |  | 
 [SMSG_INIT_WORLD_STATES](#smsg_init_world_states) |  |  |  | 
