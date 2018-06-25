@@ -581,7 +581,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_SEND_MAIL_RESULT](#smsg_send_mail_result) |  |  |  | 
 [CMSG_GET_MAIL_LIST](#cmsg_get_mail_list) |  |  |  | 
 [SMSG_MAIL_LIST_RESULT](#smsg_mail_list_result) |  |  |  | 
-[CMSG_BATTLEFIELD_LIST](#cmsg_battlefield_list) |  |  |  | 
+[CMSG_BATTLEFIELD_LIST](#cmsg_battlefield_list) |  |  | serialized | 
 [SMSG_BATTLEFIELD_LIST](#smsg_battlefield_list) |  |  |  | 
 [CMSG_BATTLEFIELD_JOIN](#cmsg_battlefield_join) |  |  |  | 
 [SMSG_BATTLEFIELD_WIN_OBSOLETE](#smsg_battlefield_win_obsolete) |  |  |  | 
@@ -734,9 +734,9 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_PLAY_SOUND](#smsg_play_sound) |  |  |  | 
 [CMSG_BATTLEFIELD_STATUS](#cmsg_battlefield_status) |  |  |  | 
 [SMSG_BATTLEFIELD_STATUS](#smsg_battlefield_status) |  |  |  | 
-[CMSG_BATTLEFIELD_PORT](#cmsg_battlefield_port) |  |  |  | 
+[CMSG_BATTLEFIELD_PORT](#cmsg_battlefield_port) |  |  | serialized | 
 [MSG_INSPECT_HONOR_STATS](#msg_inspect_honor_stats) |  |  | serialized | 
-[CMSG_BATTLEMASTER_HELLO](#cmsg_battlemaster_hello) |  |  |  | 
+[CMSG_BATTLEMASTER_HELLO](#cmsg_battlemaster_hello) |  |  | serialized | 
 [CMSG_MOVE_START_SWIM_CHEAT](#cmsg_move_start_swim_cheat) |  |  |  | 
 [CMSG_MOVE_STOP_SWIM_CHEAT](#cmsg_move_stop_swim_cheat) |  |  |  | 
 [SMSG_FORCE_WALK_SPEED_CHANGE](#smsg_force_walk_speed_change) |  |  |  | 
@@ -754,7 +754,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status
 [SMSG_WARDEN_DATA](#smsg_warden_data) |  |  |  | 
 [CMSG_WARDEN_DATA](#cmsg_warden_data) |  |  |  | 
 [SMSG_GROUP_JOINED_BATTLEGROUND](#smsg_group_joined_battleground) |  |  |  | 
-[MSG_BATTLEGROUND_PLAYER_POSITIONS](#msg_battleground_player_positions) |  |  |  | 
+[MSG_BATTLEGROUND_PLAYER_POSITIONS](#msg_battleground_player_positions) |  |  | serialized | 
 [CMSG_PET_STOP_ATTACK](#cmsg_pet_stop_attack) |  |  |  | 
 [SMSG_BINDER_CONFIRM](#smsg_binder_confirm) |  |  |  | 
 [SMSG_BATTLEGROUND_PLAYER_JOINED](#smsg_battleground_player_joined) |  |  |  | 
