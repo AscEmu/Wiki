@@ -12,7 +12,7 @@ This table defines the main values of the guilds.
 
 Field                               | Type         | Default      | Comment
 ----------------------------------- | ------------ | ------------ | -------
-[guildId](#guildId)                 | bigint(20)   |              |        
+[guildId](#guildId)                 | bigint(20)   |              | key1
 [guildName](#guildName)             | varchar(32)  | Empty String |        
 [leaderGuid](#leaderGuid)           | bigint(20)   | 0            |        
 [emblemStyle](#emblemStyle)         | int(10)      | 0            |        

@@ -12,10 +12,10 @@ This table defines the ranks for each guild.
 
 Field                                           | Type         | Default      | Comment
 ----------------------------------------------- | ------------ | ------------ | -------
-[guildId](#guildId)                             | int(6)       | 0            |        
-[rankId](#rankId)                               | int(1)       |              |        
+[guildId](#guildId)                             | int(6)       | 0            | key1
+[rankId](#rankId)                               | int(1)       |              | key2
 [rankName](#rankName)                           | varchar(255) | Empty String |        
-[rankRights](#rankRights)                       | int(1)       | 0            |        
+[rankRights](#rankRights)                       | int(3)       | 0            |        
 [goldLimitPerDay](#goldLimitPerDay)             | int(30)      | 0            |        
 [bankTabFlags0](#bankTabFlags0-5)               | int(30)      | 0            |        
 [itemStacksPerDay0](#itemStacksPerDay0-5)       | int(30)      | 0            |        

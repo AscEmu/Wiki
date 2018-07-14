@@ -1,20 +1,20 @@
 ---
-title: guild_bankitems
+title: guild_bank_items
 type: characterdb
 category: G
 layout: single_markdown
 ---
 
-# guild_bankitems
+# guild_bank_items
 This table contains all bankitems for the guilds.
 
 ## Structure
 
 Field                 | Type    | Default | Comment
 --------------------- | ------- | ------- | -------
-[guildId](#guildId)   | int(30) |         |        
-[tabId](#tabId)       | int(30) |         |        
-[slotId](#slotId)     | int(30) |         |        
+[guildId](#guildId)   | int(30) |         | key1
+[tabId](#tabId)       | int(30) |         | key2
+[slotId](#slotId)     | int(30) |         | key3
 [itemGuid](#itemGuid) | int(30) |         |        
 
 ### guildId

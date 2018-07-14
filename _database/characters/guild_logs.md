@@ -10,29 +10,26 @@ This table contains the logs for guilds.
 
 ## Structure
 
-Field                     | Type    | Default | Comment
-------------------------- | ------- | ------- | -------
-[log_id](#log_id)         | int(30) |         |        
-[guildId](#guildId)       | int(30) |         |        
-[timestamp](#timestamp)   | int(30) |         |        
-[event_type](#event_type) | int(30) |         |        
-[misc1](#misc_values)     | int(30) |         |        
-[misc2](#misc_values)     | int(30) |         |        
-[misc3](#misc_values)     | int(30) |         |        
+Field                      | Type       | Default | Comment
+-------------------------- | ---------- | ------- | -------
+[guildId](#guildId)        | int(10)    |         | key1
+[logGuid](#logGuid)        | int(10)    |         | key2
+[eventType](#eventType)    | tinyint(3) |         |        
+[playerGuid1](#playerGuid) | int(10)    |         |        
+[playerGuid2](#playerGuid) | int(20)    |         |        
+[newRank](#newRank)        | tinyint(3) |         |        
+[timestamp](#timestamp)    | int(10)    |         |        
 
-### log_id
-
-The log identyfier (unique).
 
 ### guildId
 
 This is the guild ID from guilds table.
 
-### timestamp
+### logGuid
 
-The Timestamp of the log entry.
+The log identyfier (unique).
 
-### event_type
+### eventType
 
     1 = invite member
     2 = join guild
@@ -41,34 +38,14 @@ The Timestamp of the log entry.
     5 = removal
     6 = left guild
 
-### misc values
+### playerGuid
 
-**event_type = 1** 
+Used for eventTypes.
 
-    misc1 =
-    misc2 =
+### newRank
 
-**event_type = 2** 
+Log the new rank based on the eventType.
+    
+### timestamp
 
-    misc1 = join date
-
-**event_type = 3** 
-
-    misc1 =
-    misc2 =
-    misc3 =
-
-**event_type = 4** 
-
-    misc1 =
-    misc2 =
-    misc3 =
-
-**event_type = 5** 
-
-    misc1 =
-    misc2 =
-
-**event_type = 6** 
-
-    misc1 = leave date
+The Timestamp of the log entry.

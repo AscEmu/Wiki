@@ -1,19 +1,19 @@
 ---
-title: guild_banktabs
+title: guild_bank_tabs
 type: characterdb
 category: G
 layout: single_markdown
 ---
 
-# guild_banktabs
+# guild_bank_tabs
 This table contains all created tabs for the guildbanks.
 
 ## Structure
 
 Field               | Type         | Default | Comment
 ------------------- | ------------ | ------- | -------
-[guildId](#guildId) | int(30)      |         |        
-[tabId](#tabId)     | int(30)      |         |        
+[guildId](#guildId) | int(30)      |         | key1
+[tabId](#tabId)     | int(30)      |         | key2
 [tabName](#tabName) | varchar(200) |         |        
 [tabIcon](#tabIcon) | varchar(200) |         |        
 [tabInfo](#tabInfo) | varchar(200) |         |        
