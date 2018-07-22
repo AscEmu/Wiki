@@ -8,7 +8,7 @@ position: 1
 # Windows Guide
 ## Requirements
 
-* [DownloadFamilies_2 Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
+* [Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
 * [CMake](http://www.cmake.org/)
 * [Git](http://git-scm.com/)
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
