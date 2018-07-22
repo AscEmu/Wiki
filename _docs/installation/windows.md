@@ -18,8 +18,9 @@ Microsoft Visual C++ 2017 Redistributable Package (Only if you run AscEmu on ano
 
 **Helpful Programs**
 
-*  Notepad++
-*  HeidiSQL/SQLYog
+* [Notepad++](https://notepad-plus-plus.org/download/)
+* [HeidiSQL](https://www.heidisql.com/download.php)
+* SQLYog
 
 # Getting the source
 
@@ -37,7 +38,6 @@ Use GitGui to get AscEmu source files.
 *  PathToYourFolder/NotExistingFolder
 
 **4.** Click on "clone" and wait until everything is loaded.
-
 
 # CMake Precompile
 
@@ -98,7 +98,7 @@ character_structure -> ascemu_char DB
 logon_structure -> ascemu_logon DB
 ```
 
-For ascemu_world apply all .sql files in folder Full_DB from: [Link to Github](https://github.com/AscEmu/OneDB).
+For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).
 {: .info }
 
 ## Updating the DBs
@@ -110,6 +110,9 @@ char_updates (all .sql files)  -> ascemu_char
 logon_updates (all .sql files) -> ascemu_logon
 world_updates (all .sql files) -> ascemu_world
 ```
+
+For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB).
+{: .info }
 
 **Done** Your databases are up to date. Move on with this guid.
 

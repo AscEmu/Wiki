@@ -47,7 +47,7 @@ sudo vi /etc/mysql/my.cnf
 And comment out the following line (by adding the #):
 
 ```console
-\#bind-address = 127.0.0.1
+#bind-address = 127.0.0.1
 ```
 
 Then save, exit, and restart the mysql service.
@@ -219,7 +219,7 @@ After we have setup the database, its time to start downloading the files.
 
 #### Get the world database
 
-For ascemu_world apply all .sql files in folder Full_DB from: [Link to Github](https://github.com/AscEmu/OneDB).
+For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).
 {: .info }
 
 ```console
@@ -248,56 +248,53 @@ If no errors appear, your database is up to date. Next, close the logon server w
 At the time of writing, the following error is output:
 
 ```console
-'Database: Last world database update doesnt match the required one which is 2015-03-31_01_misc_gossip_texts.
-
-Database: You need to apply the world update queries that are newer than 2015-01-21_01_npc_script_text. Exiting.
-
-Database: You can find the world update queries in the sql/world_updates sub-directory of your AscEmu source directory.'
+Database: Last world database update doesnt match the required one which is 20180418-00_playercreateinfo_introid.
+Database: You need to apply the world update queries that are newer than 20180418-01_playercreateinfo_faction. Exiting.
 ```
 
-In this case, the last applied update is _2015-01-21_01_npc_script_text_. This means that we need to apply anything newer than that. For this, cd back to the sql directory:
+In this case, the last applied update is 20180418-01_playercreateinfo_faction. This means that we need to apply anything newer than that. For this, cd back to the sql directory:
 
-```console
-cd ~/installer/ascemu/code/sql/world_updates
-ls
-```
+For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB).
+{: .info }
 
 Which produces an output similar to
 
 ```console
-2015-03-14_01_gossip_menu_option.sql   2015-03-25_01_event_seasons_spawns.sql
-2015-03-15_01_gossip_menu_option.sql   2015-03-25_02_creature_spawns.sql
-2015-03-15_02_npc_script_text.sql      2015-03-25_03_misc_quest.sql
-2015-03-19_01_creature_names.sql       2015-03-26_01_gameobject_spawns.sql
-2015-03-21_01_quest_misc.sql           2015-03-26_02_npc_monstersay.sql
-2015-03-22_01_quest_misc.sql           2015-03-26_03_npc_gameobject_alterac.sql
-2015-03-22_02_creature_waypoints.sql   2015-03-29_01_areatriggers.sql
-2015-03-22_03_spell_area.sql           2015-03-31_01_misc_gossip_texts.sql
-2015-03-24_01_player_xp_for_level.sql  2015-03-31_02_gameobject_spawns.sql
+20180331-00_build_creature_properties.sql      20180403-00_build_totemdisplayids.sql
+20180331-01_world_db_version.sql               20180403-01_staticspawns.sql
+20180331-02_build_player_xp_for_level.sql      20180403-02_spell_custom_override.sql
+20180401-00_build_creature_properties.sql      20180404-00_build_creature_spawns.sql
+20180401-01_build_gameobject_properties.sql    20180405-00_build_gameobject_spawns.sql
+20180401-02_build_item_properties.sql          20180416-00_playercreateinfo.sql
+20180401-03_build_quest_properties.sql         20180417-00_playercreateinfo_misc.sql
+20180401-04_build_map_info.sql                 20180418-00_playercreateinfo_introid.sql
+20180402-00_build_playercreateinfo.sql         20180418-01_playercreateinfo_faction.sql
 ```
+For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB).
+{: .info }
 
 Drop back into MySQL and run the following queries:
 
 ```console
 USE ascemu_world;
-SOURCE 2015-03-14_01_gossip_menu_option.SQL;
-SOURCE 2015-03-15_01_gossip_menu_option.SQL;
-SOURCE 2015-03-15_02_npc_script_text.SQL;
-SOURCE 2015-03-19_01_creature_names.SQL;
-SOURCE 2015-03-21_01_quest_misc.SQL;
-SOURCE 2015-03-22_01_quest_misc.SQL;
-SOURCE 2015-03-22_02_creature_waypoints.SQL;
-SOURCE 2015-03-22_03_spell_area.SQL;
-SOURCE 2015-03-24_01_player_xp_for_level.SQL;
-SOURCE 2015-03-25_01_event_seasons_spawns.SQL;
-SOURCE 2015-03-25_02_creature_spawns.SQL;
-SOURCE 2015-03-25_03_misc_quest.SQL;
-SOURCE 2015-03-26_01_gameobject_spawns.SQL;
-SOURCE 2015-03-26_02_npc_monstersay.SQL;
-SOURCE 2015-03-26_03_npc_gameobject_alterac.SQL;
-SOURCE 2015-03-29_01_areatriggers.SQL;
-SOURCE 2015-03-31_01_misc_gossip_texts.SQL;
-SOURCE 2015-03-31_02_gameobject_spawns.SQL;
+SOURCE 20180331-00_build_creature_properties.sql;
+SOURCE 20180331-01_world_db_version.sql;
+SOURCE 20180331-02_build_player_xp_for_level.sql;
+SOURCE 20180401-00_build_creature_properties.sql;
+SOURCE 20180401-01_build_gameobject_properties.sql;
+SOURCE 20180401-02_build_item_properties.sql;
+SOURCE 20180401-03_build_quest_properties.sql;
+SOURCE 20180401-04_build_map_info.sql;
+SOURCE 20180402-00_build_playercreateinfo.sql;
+SOURCE 20180403-00_build_totemdisplayids.sql;
+SOURCE 20180403-01_staticspawns.sql;
+SOURCE 20180403-02_spell_custom_override.sql;
+SOURCE 20180404-00_build_creature_spawns.sql;
+SOURCE 20180405-00_build_gameobject_spawns.sql;
+SOURCE 20180416-00_playercreateinfo.sql;
+SOURCE 20180417-00_playercreateinfo_misc.sql;
+SOURCE 20180418-00_playercreateinfo_introid.sql;
+SOURCE 20180418-01_playercreateinfo_faction.sql;
 EXIT;
 ```
 
@@ -314,19 +311,95 @@ cd ~/server/etc
   nano world.conf
 ```
 
-The configuration is documented in [Server Configuration](http://www.ascemu.org/wiki/index.php?title=Server_Configuration&action=edit&redlink=1 "Server Configuration (page does not exist)"), but the configuration files are richly documented, too. You should be fine :)
+## Configuring logon.conf
 
-# Starting the Server
+Enter your MySQL information at the the following section. 
+
+```console
+<LogonDatabase Hostname = "localhost"
+Username = "ascemu"
+Password = "ascemu"
+Name     = "ascemu_logon"
+Port     = "3306">
+```
+
+## Configuring world.conf
+
+Enter your MySQL information at the the following section. 
+
+```console
+<WorldDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_world" Port = "3306">
+<CharacterDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_char" Port = "3306">
+```
+
+The last step in configs/world.conf is to change line 156:
+
+```console
+RemotePassword = "change_me_world">
+```
+
+to:
+
+```console
+RemotePassword = "change_me_logon">
+```
 
 ### Using Screen
 
-~ This article has been consolidated here [Screen](http://www.ascemu.org/wiki/index.php?title=Screen&action=edit&redlink=1 "Screen (page does not exist)")
+You may also wish to preserve the AscEmu processes once you've logged out of SSH. To do this, you'll need to install Screen if it isn't installed already.
 
-Please return to this page for the next step in the process after reading about Screen and how to use it to launch AscEmu.
+The syntax is relatively simple.
+
+```console
+screen ./world
+```
+
+This will run the 'world' program in a new session. To leave this screen and keep it running, press "CTRL + A and then D" to detach.
+
+To return to the screen later on use
+
+```console
+screen --list
+```
+
+then type
+
+```console
+screen -r ScreenIDHere
+```
+
+You may replace ./world with sh AE_Restarter.sh for example, to run a restart program or even use screen on startup to launch the server.
+
+To do this, you can either use a restart script, cronjob, or if you are working with a desktop linux environment you can simply use the built in startup application manager(Both Gnome and KDE have these).
+
+
+If you wish to set up a cronjob, google around - far more documentation is provided for both cron AND Screen then the AscEmu team can provide on these programs.
+
+### Sample restart script
+
+```console
+#! /bin/bash
+while :
+do
+./world
+sleep 150
+wait $!
+echo Realm went down, restarting!
+done
+```
+
+Increase 150 to 250 or 300 to prevent bash from spamming the executable or the script may cause undesired effects if the server refuses to start or has an error.
+{: .info }
+
+Save the above script as AE_Restarter.sh and call it using
+
+```console
+screen ./AE_Restarter.sh
+```
 
 ## **Done**
 
-You're now ready to move on to [Server configuration](http://www.ascemu.org/wiki/index.php?title=Server_configuration&action=edit&redlink=1 "Server configuration (page does not exist)")
+You are now ready to move on to create an account.
 
 # Create an Account
 
@@ -345,6 +418,5 @@ setaccpermission <accountname> <permission>
 ```
 
 example: setaccpermission admin az
-
 
 **For further information about access levels, have a look to this page [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
