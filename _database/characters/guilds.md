@@ -12,7 +12,7 @@ This table defines the main values of the guilds.
 
 Field                               | Type         | Default      | Comment
 ----------------------------------- | ------------ | ------------ | -------
-[guildId](#guildId)                 | bigint(20)   |              |        
+[guildId](#guildId)                 | bigint(20)   |              | key1
 [guildName](#guildName)             | varchar(32)  | Empty String |        
 [leaderGuid](#leaderGuid)           | bigint(20)   | 0            |        
 [emblemStyle](#emblemStyle)         | int(10)      | 0            |        
@@ -24,6 +24,9 @@ Field                               | Type         | Default      | Comment
 [motd](#motd)                       | varchar(300) | Empty String |        
 [createdate](#createdate)           | int(30)      |              |        
 [bankBalance](#bankBalance)         | bigint(30)   |              |        
+[guildLevel](#guildLevel)           | int(10)      | 1            | Used for Cata only
+[guildExperience](#guildExperience) | bigint(20)   | 0            | Used for Cata only
+[todayExperience](#todayExperience) | bigint(20)   | 0            | Used for Cata only
 
 ### guildId
 
@@ -72,3 +75,15 @@ The createdate of the guild.
 ### bankBalance
 
 The total money, in copper, that is currently in the guild's guild bank.
+
+### guildLevel
+
+The level of the guild (cata only)
+
+### guildExperience
+
+Experience of the guild (cata only)
+
+### todayExperience
+
+Current/todays experience (cata only)

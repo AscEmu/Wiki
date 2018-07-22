@@ -9,8 +9,8 @@ position: 1
 ## Requirements
 
 * [Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
-* [CMake](https://cmake.org/download/)
-* [Git](https://git-scm.com/downloads)
+* [CMake](http://www.cmake.org/)
+* [Git](http://git-scm.com/)
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
 
 **Optional**
