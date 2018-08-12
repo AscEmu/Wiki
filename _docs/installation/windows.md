@@ -10,6 +10,7 @@ position: 1
 
 * [Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
+* [Git](https://git-scm.com/downloads/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [CMake](https://cmake.org/download/)
 
@@ -23,14 +24,21 @@ Microsoft Visual C++ 2017 Redistributable Package (Only if you run AscEmu on ano
 
 # Getting the source
 
-[help.github.desktop.guides)](https://help.github.com/desktop/guides/) Before you start working with the program, read the instruction.
+Before you start working with the program, read the instruction. [help.github.desktop.guides](https://help.github.com/desktop/guides/) .
 {: .info }
 
 Sign in to GitHub and GitHub Desktop before you start to clone.
+{: .info }
+
+**1.** In the File menu, click Clone Repository.
 
 ![github.desktop_1.png](/Wiki/images/installation.windows/github.desktop_1.png)
 
+**2.** Fill in the required information (Repository URL and Local path).
+
 ![github.desktop_2.png](/Wiki/images/installation.windows/github.desktop_2.png)
+
+**3.** Click on "clone" and wait until everything is loaded.
 
 ![github.desktop_3.png](/Wiki/images/installation.windows/github.desktop_3.png)
 
@@ -40,7 +48,7 @@ Sign in to GitHub and GitHub Desktop before you start to clone.
 
 ![cmake_1.png](/Wiki/images/installation.windows/cmake_1.png)
 
-**2.** Choose your compiler (Visual Studio 15 2017)
+**2.** Choose your compiler "Visual Studio 15 2017" or other.
 
 ![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)
 
