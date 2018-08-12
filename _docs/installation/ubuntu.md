@@ -142,7 +142,7 @@ cd ~/installer/ascemu/build
 ```
 
 ```console
-cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../code
+cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DWITH_EXPERIMENTAL_FILESYSTEM=1 -DASCEMU_VERSION=WotLK ../code
 ```
 
 Then we now simply invoke make and make install to install to the prefix directory
