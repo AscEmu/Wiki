@@ -17,17 +17,7 @@ The only part of an ubuntu desktop system GUI we can use is the subversion downl
 First, having presumably installed a fresh copy of Linux, we need to update our server so that we can compile AscEmu. This will require several different packages. For the following commands, log in as the Linux root administrator.
 
 ```console
-sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-dev libpcre3-dev
-```
-
-Install bzip2
-
-```console
-cd ..
-wget bzip.org/1.0.6/bzip2-1.0.6.tar.gz
-tar zxvf bzip2-1.0.6.tar.gz
-cd bzip2-1.0.6
-make install
+sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-dev libpcre3-dev libbz2-dev
 ```
 
 #### MySQL Setup
