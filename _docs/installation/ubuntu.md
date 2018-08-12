@@ -332,18 +332,6 @@ Enter your MySQL information at the the following section.
 <CharacterDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_char" Port = "3306">
 ```
 
-The last step in configs/world.conf is to change line 156:
-
-```console
-RemotePassword = "change_me_world">
-```
-
-to:
-
-```console
-RemotePassword = "change_me_logon">
-```
-
 ### Using Screen
 
 You may also wish to preserve the AscEmu processes once you've logged out of SSH. To do this, you'll need to install Screen if it isn't installed already.
