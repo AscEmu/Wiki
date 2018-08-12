@@ -166,18 +166,6 @@ Enter your MySQL information at the the following section.
 <CharacterDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_char" Port = "3306">
 ```
 
-The last step in configs/world.conf is to change line 156:
-
-```console
-RemotePassword = "change_me_world">
-```
-
-to:
-
-```console
-RemotePassword = "change_me_logon">
-```
-
 # Create an Account
 
 **1.** Go to your world console and create an account.
