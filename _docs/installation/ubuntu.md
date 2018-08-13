@@ -121,6 +121,13 @@ With the -b required_branch, you can select a branch.
 git clone -b master git://github.com/AscEmu/AscEmu.git code
 ```
 
+Update the code to the current version.
+
+```console
+cd ~/installer/ascemu/code
+git pull origin master
+```
+
 #### Compiling
 
 ##### Start Compiling
