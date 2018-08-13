@@ -58,8 +58,9 @@ Substitute _hostname_ for the hostname you chose when installing linux. That's i
 #### Security and Accounts
 
 Once that is complete, we have the right environment in Linux to compile the server.  Before we can compile though we need to address some very serious security issues.  Whatever distro you are using, whether your server is private or public. 
-Please do NOT run your AscEmu server using your root account.
 {: .info }
+Please do NOT run your AscEmu server using your root account.
+{: .error }
 
 Having said that, lets move on to create a basic account in linux from which you will run AscEmu. You can name this account anything you would like, but for the sake of standardization, we will name ours ascemu.  While still in your root account type:
 
@@ -208,7 +209,7 @@ mysql -u root -p
  GRANT ALL PRIVILEGES ON `ascemu_char` . \* TO 'username'@'%';
  CREATE DATABASE `ascemu_logon` ;
  GRANT ALL PRIVILEGES ON `ascemu_logon` . \* TO 'username'@'%';
- exit
+EXIT;
 ```
 
 After we have setup the database, its time to start downloading the files.
@@ -220,12 +221,11 @@ For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](
 
 ```console
 CREATE DATABASE ascemu_logon;
-USE  ascemu_logon;
-SOURCE logon_base.sql;
-CREATE DATABASE ascemu_char;
-USE ascemu_char;
-SOURCE character_base.sql;
-
+ USE ascemu_logon;
+ SOURCE logon_base.sql;
+ CREATE DATABASE ascemu_char;
+ USE ascemu_char;
+ SOURCE character_base.sql;
 EXIT;
 ```
 
@@ -274,24 +274,24 @@ Drop back into MySQL and run the following queries:
 
 ```console
 USE ascemu_world;
-SOURCE 20180331-00_build_creature_properties.sql;
-SOURCE 20180331-01_world_db_version.sql;
-SOURCE 20180331-02_build_player_xp_for_level.sql;
-SOURCE 20180401-00_build_creature_properties.sql;
-SOURCE 20180401-01_build_gameobject_properties.sql;
-SOURCE 20180401-02_build_item_properties.sql;
-SOURCE 20180401-03_build_quest_properties.sql;
-SOURCE 20180401-04_build_map_info.sql;
-SOURCE 20180402-00_build_playercreateinfo.sql;
-SOURCE 20180403-00_build_totemdisplayids.sql;
-SOURCE 20180403-01_staticspawns.sql;
-SOURCE 20180403-02_spell_custom_override.sql;
-SOURCE 20180404-00_build_creature_spawns.sql;
-SOURCE 20180405-00_build_gameobject_spawns.sql;
-SOURCE 20180416-00_playercreateinfo.sql;
-SOURCE 20180417-00_playercreateinfo_misc.sql;
-SOURCE 20180418-00_playercreateinfo_introid.sql;
-SOURCE 20180418-01_playercreateinfo_faction.sql;
+ SOURCE 20180331-00_build_creature_properties.sql;
+ SOURCE 20180331-01_world_db_version.sql;
+ SOURCE 20180331-02_build_player_xp_for_level.sql;
+ SOURCE 20180401-00_build_creature_properties.sql;
+ SOURCE 20180401-01_build_gameobject_properties.sql;
+ SOURCE 20180401-02_build_item_properties.sql;
+ SOURCE 20180401-03_build_quest_properties.sql;
+ SOURCE 20180401-04_build_map_info.sql;
+ SOURCE 20180402-00_build_playercreateinfo.sql;
+ SOURCE 20180403-00_build_totemdisplayids.sql;
+ SOURCE 20180403-01_staticspawns.sql;
+ SOURCE 20180403-02_spell_custom_override.sql;
+ SOURCE 20180404-00_build_creature_spawns.sql;
+ SOURCE 20180405-00_build_gameobject_spawns.sql;
+ SOURCE 20180416-00_playercreateinfo.sql;
+ SOURCE 20180417-00_playercreateinfo_misc.sql;
+ SOURCE 20180418-00_playercreateinfo_introid.sql;
+ SOURCE 20180418-01_playercreateinfo_faction.sql;
 EXIT;
 ```
 
