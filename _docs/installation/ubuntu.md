@@ -184,11 +184,11 @@ All that is left to do is create the /etc/ directory and move the configuration 
 
 ```console
 cd ~/server
- $ mkdir etc
- $ mv ~/installer/ascemu/code/configs/*.conf ~/server/etc
- $ cd ~/server
- $ chmod a+x logonserver
- $ chmod a+x world
+ mkdir etc
+ mv ~/installer/ascemu/code/configs/*.conf ~/server/etc
+ cd ~/server
+ chmod a+x logonserver
+ chmod a+x world
 ```
 
 Now your configuration files are in the .../etc folder ready to be edited, and used by the AscEmu server and your AscEmu binaries are executable.
@@ -198,14 +198,16 @@ Now your configuration files are in the .../etc folder ready to be edited, and u
 The first step in setting up the database will be setting up a mysql user and databases to interact with AscEmu.  Please change the respective usernames and passwords to your own unique variants!  Note, when it asks for your password, please enter your root mysql password.
 
 ```console
- $ mysql -u root -p
+mysql -u root -p
  CREATE USER 'username'@'%' IDENTIFIED BY 'password';
  GRANT USAGE ON \* . \* TO 'username'@'%' IDENTIFIED BY 'password' 
  WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0 ;
- CREATE DATABASE `ascemu-world` ;
- GRANT ALL PRIVILEGES ON `ascemu-world` . \* TO 'username'@'%';
- CREATE DATABASE `ascemu-acct` ;
- GRANT ALL PRIVILEGES ON `ascemu-acct` . \* TO 'username'@'%';
+ CREATE DATABASE `ascemu_world` ;
+ GRANT ALL PRIVILEGES ON `ascemu_world` . \* TO 'username'@'%';
+ CREATE DATABASE `ascemu_char` ;
+ GRANT ALL PRIVILEGES ON `ascemu_char` . \* TO 'username'@'%';
+ CREATE DATABASE `ascemu_logon` ;
+ GRANT ALL PRIVILEGES ON `ascemu_logon` . \* TO 'username'@'%';
  exit
 ```
 
@@ -213,16 +215,17 @@ After we have setup the database, its time to start downloading the files.
 
 #### Get the world database
 
-For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).
+For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 ```console
 CREATE DATABASE ascemu_logon;
 USE  ascemu_logon;
-SOURCE logon_structure.SQL;
-CREATE DATABASE ascemu_characters;
-USE ascemu_characters;
-SOURCE character_structure.SQL;
+SOURCE logon_base.sql;
+CREATE DATABASE ascemu_char;
+USE ascemu_char;
+SOURCE character_base.sql;
+
 EXIT;
 ```
 
