@@ -97,8 +97,8 @@ ascemu_world  The world database (NPC, GO, Instances, Items, ...)
 Import the structure for our databases. Use the files from ".../sql/xxx"
 
 ```console
-character_structure -> ascemu_char DB
-logon_structure -> ascemu_logon DB
+character_base -> ascemu_char DB
+logon_base -> ascemu_logon DB
 ```
 
 For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).
