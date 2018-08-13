@@ -113,16 +113,11 @@ As you may have guessed, the installer directory will contain the ascemu files, 
 ```console
 cd ~/installer/ascemu
 ```
-
-```console
-git clone -b master git://github.com/AscEmu/AscEmu.git code
-```
-
-With the -b command, you can select the needed branch.
+With the -b required_branch, you can select a branch.
 {: .info }
 
 ```console
-git clone -b needed_branch git://github.com/AscEmu/AscEmu.git code
+git clone -b master git://github.com/AscEmu/AscEmu.git code
 ```
 
 #### Compiling
