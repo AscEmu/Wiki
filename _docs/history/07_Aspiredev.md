@@ -27,4 +27,4 @@ position: 7
  
 ## Sidenote
 Aspire
-![alt text](/Wiki/images/Aspire_med.png "Aspire logo")
+![alt text](/Wiki/images/history/Aspire_logo.png "Aspire logo")

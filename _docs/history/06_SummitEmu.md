@@ -19,4 +19,4 @@ position: 6
 
 ## Sidenote
 In 2010 something was announced with " Summit the new age"
-![alt text](/Wiki/images/Summit_logo.png "Summit logo")
+![alt text](/Wiki/images/history/Summit_logo.png "Summit logo")

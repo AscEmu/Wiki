@@ -32,4 +32,4 @@ position: 4
 * Eggy
 
 Ascentemu
-![alt text](/Wiki/images/Ascent2.png "Ascent logo")
+![alt text](/Wiki/images/history/Ascent_logo.png "Ascent logo")

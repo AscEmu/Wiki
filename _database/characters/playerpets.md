@@ -127,11 +127,11 @@ The current happiness of the pet.
 
     The happiness of a pet is shown beside the pet's portrait and in his pet paper doll as a small smiley face icon. This icon shows the states of happiness your pet goes through:
 
-3 = ![Pet happy](/Wiki/images/Pet_happy_19x20.png "Pet happy") Happy. Your pet is happy and do 125% damage during fights.
+3 = ![Pet happy](/Wiki/images/database.character/Pet_happy_19x20.png "Pet happy") Happy. Your pet is happy and do 125% damage during fights.
 {: .success }
-2 = ![Pet neutral](/Wiki/images/Pet_neutral_19x20.png "Pet neutral") Content. Your pet is contented and do 100% damage during fights.
+2 = ![Pet neutral](/Wiki/images/database.character/Pet_neutral_19x20.png "Pet neutral") Content. Your pet is contented and do 100% damage during fights.
 {: .warning }
-1 = ![Pet unhappy](/Wiki/images/Pet_unhappy_19x20.png "Pet unhappy") Unhappy. Your pet do only 75% damage during fights.
+1 = ![Pet unhappy](/Wiki/images/database.character/Pet_unhappy_19x20.png "Pet unhappy") Unhappy. Your pet do only 75% damage during fights.
 {: .error }
 
 ### renamable

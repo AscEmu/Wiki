@@ -9,9 +9,10 @@ position: 1
 ## Requirements
 
 * [Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
-* [CMake](http://www.cmake.org/)
-* [Git](http://git-scm.com/)
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
+* [Git](https://git-scm.com/downloads/)
+* [GitHub Desktop](https://desktop.github.com/)
+* [CMake](https://cmake.org/download/)
 
 **Optional**
 Microsoft Visual C++ 2017 Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
@@ -20,44 +21,46 @@ Microsoft Visual C++ 2017 Redistributable Package (Only if you run AscEmu on ano
 
 * [Notepad++](https://notepad-plus-plus.org/download/)
 * [HeidiSQL](https://www.heidisql.com/download.php)
-* SQLYog
 
 # Getting the source
 
-Use GitGui to get AscEmu source files.
+Before you start working with the program, read the instruction. [help.github.desktop.guides](https://help.github.com/desktop/guides/) .
+{: .info }
 
-## Download
+Sign in to GitHub and GitHub Desktop before you start to clone.
+{: .info }
 
-**1.** Create a new folder, rightclick on it and choose GitGui
+**1.** In the File menu, click Clone Repository.
 
-**2.** Choose "clone projectarchiv".
+![github.desktop_1.png](/Wiki/images/installation.windows/github.desktop_1.png)
 
-**3.** Fill in the required information:
+**2.** Fill in the required information (Repository URL and Local path).
 
-* https://github.com/AscEmu/AscEmu
-*  PathToYourFolder/NotExistingFolder
+![github.desktop_2.png](/Wiki/images/installation.windows/github.desktop_2.png)
 
-**4.** Click on "clone" and wait until everything is loaded.
+**3.** Click on "clone" and wait until everything is loaded.
+
+![github.desktop_3.png](/Wiki/images/installation.windows/github.desktop_3.png)
 
 # CMake Precompile
 
 **1.** Open **CMake(cmake-gui)** and fill in the source-path and the build-path:
 
-![cmake_1.JPG](/Wiki/images/cmake_1.JPG)
+![cmake_1.png](/Wiki/images/installation.windows/cmake_1.png)
 
-**2.** Choose your compiler (Visual Studio 12) or (Visual Studio 12 2013)
+**2.** Choose your compiler "Visual Studio 15 2017" or other.
 
-![cmake_2.JPG](/Wiki/images/cmake_2.JPG)
+![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)
 
 **3.** You should get a list with all available parts of our framework. Make your selection and press "Configure". Remember to create the folder specified under CMAKE_INSTALL_PREFIX, otherwise the INSTALL project will fail.
 
 You can choose which client should be supported by AscEmu.
 
-![cmake_3.JPG](/Wiki/images/cmake_3.JPG)
+![cmake_3.png](/Wiki/images/installation.windows/cmake_3.png)
 
 **4.** Now you can click on "Generate"
 
-![cmake_4.JPG](/Wiki/images/cmake_4.JPG)
+![cmake_4.png](/Wiki/images/installation.windows/cmake_4.png)
 
 # VS Compiling
 
@@ -65,15 +68,15 @@ You can choose which client should be supported by AscEmu.
 
 **2.** Right-click on "Solution Ascemu" and choose "Build Solution" (F7).
 
-![msvc_1.png](/Wiki/images/msvc_1.png)
+![msvc_1.png](/Wiki/images/installation.windows/msvc_1.png)
 
 **3.** Wait while VS compiles your binaries. At the end VS shows something like this:
 
-![msvc_2.png](/Wiki/images/msvc_2.png)
+![msvc_2.png](/Wiki/images/installation.windows/msvc_2.png)
 
 **4.** Right-click on "INSTALL" and choose "Project Only -> Build Only INSTALL"
 
-![msvc_3.png](/Wiki/images/msvc_3.png)
+![msvc_3.png](/Wiki/images/installation.windows/msvc_3.png)
 
 **5.** The required server files will now be in the folder specified by CMAKE_INSTALL_PREFIX (by default: C:\AscEmu)
 
@@ -94,8 +97,8 @@ ascemu_world  The world database (NPC, GO, Instances, Items, ...)
 Import the structure for our databases. Use the files from ".../sql/xxx"
 
 ```console
-character_structure -> ascemu_char DB
-logon_structure -> ascemu_logon DB
+character_base -> ascemu_char DB
+logon_base -> ascemu_logon DB
 ```
 
 For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).

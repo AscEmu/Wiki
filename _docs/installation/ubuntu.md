@@ -8,26 +8,16 @@ position: 2
 # Ubuntu Guide
 ### Basic Linux Setup
 
-Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu. This help file has been written with strict use of the console in mind.  Linux was made to run command line, so there isn't an easier, quicker way to do things than the way we are about to do them. Please note, as I write this guide for Ubuntu that Aptitude is the default package manager, other operating systems may have a different package manager.
-
-The only part of an ubuntu desktop system GUI we can use is the subversion downloader(Speaking about RabbitVCS which you should have found on a page before this), everything else must be done via the command line or script.
+Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu. This help file has been written with strict use of the console in mind.  Linux was made to run command line, so there isn't an easier, quicker way to do things than the way we are about to do them.
 
 #### Initial Setup
 
-First, having presumably installed a fresh copy of Linux, we need to update our server so that we can compile AscEmu. This will require several different packages. For the following commands, log in as the Linux root administrator.
+First, having presumably installed a fresh copy of Linux, we need to update our server so that we can compile AscEmu. This will require several different packages. 
+
+For the following commands, log in as the Linux root administrator.
 
 ```console
-sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-dev libpcre3-dev
-```
-
-Install bzip2
-
-```console
-cd ..
-wget bzip.org/1.0.6/bzip2-1.0.6.tar.gz
-tar zxvf bzip2-1.0.6.tar.gz
-cd bzip2-1.0.6
-make install
+sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-dev libpcre3-dev libbz2-dev
 ```
 
 #### MySQL Setup
@@ -67,7 +57,10 @@ Substitute _hostname_ for the hostname you chose when installing linux. That's i
 
 #### Security and Accounts
 
-Once that is complete, we have the right environment in Linux to compile the server.  Before we can compile though we need to address some very serious security issues.  Whatever distro you are using, whether your server is private or public, please do NOT run your AscEmu server using your root account--you might as well just castrate yourself.
+Once that is complete, we have the right environment in Linux to compile the server.  Before we can compile though we need to address some very serious security issues.  Whatever distro you are using, whether your server is private or public. 
+{: .info }
+Please do NOT run your AscEmu server using your root account.
+{: .error }
 
 Having said that, lets move on to create a basic account in linux from which you will run AscEmu. You can name this account anything you would like, but for the sake of standardization, we will name ours ascemu.  While still in your root account type:
 
@@ -102,7 +95,7 @@ Next, we need to download the ascemu files to compile them.  Lets make sure we a
 cd ~
 ```
 
-I am a fan of organization, so lets make some directories and organize this mess.  We will create an installer, server, and arcmenu directory so that we can keep all of our files straight.  The installer directory may seem like a waste for now, but it will come into play later when we install the database.
+I am a fan of organization, so lets make some directories and organize this mess.  We will create an installer, server, and ascemu directory so that we can keep all of our files straight.  The installer directory may seem like a waste for now, but it will come into play later when we install the database.
 
 ```console
 mkdir ~/installer
@@ -121,11 +114,19 @@ As you may have guessed, the installer directory will contain the ascemu files, 
 ```console
 cd ~/installer/ascemu
 ```
+With the -b required_branch, you can select a branch.
+{: .info }
 
 ```console
-git clone git://github.com/AscEmu/AscEmu.git code
+git clone -b master git://github.com/AscEmu/AscEmu.git code
 ```
 
+Update the code to the current version.
+
+```console
+cd ~/installer/ascemu/code
+git pull origin master
+```
 
 #### Compiling
 
@@ -142,24 +143,25 @@ cd ~/installer/ascemu/build
 ```
 
 ```console
-cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../code
+cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DWITH_EXPERIMENTAL_FILESYSTEM=1 -DASCEMU_VERSION=WotLK ../code
 ```
 
-Then we now simply invoke make and make install to install to the prefix directory
+Then we now simply invoke make and make install to install to the prefix directory.
 
 ```console
 make && make install
 ```
 
-Also, if you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of processors + 1.  For example, with 2 processors x would be 3.
-
-If you want to use all your processors just use a large number like 15.
+If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1.  For example, with 2 cores x would be 3.
+If you want to use all your cores just use a large number like 15.
+{: .info }
 
 ```console
 make -j x && make install
 ```
 
-<big> _**This will not effect your server, this will only tell "make" to compile using all of your available CPU power**_</big>
+This will not effect your server, this will only tell "make" to compile using all of your available CPU power.
+{: .info }
 
 If this last step is successful then you are ready to configure your server and get on your way.
 
@@ -190,11 +192,11 @@ All that is left to do is create the /etc/ directory and move the configuration 
 
 ```console
 cd ~/server
- $ mkdir etc
- $ mv ~/installer/ascemu/code/configs/*.conf ~/server/etc
- $ cd ~/server
- $ chmod a+x logonserver
- $ chmod a+x world
+ mkdir etc
+ mv ~/installer/ascemu/code/configs/*.conf ~/server/etc
+ cd ~/server
+ chmod a+x logonserver
+ chmod a+x world
 ```
 
 Now your configuration files are in the .../etc folder ready to be edited, and used by the AscEmu server and your AscEmu binaries are executable.
@@ -204,31 +206,33 @@ Now your configuration files are in the .../etc folder ready to be edited, and u
 The first step in setting up the database will be setting up a mysql user and databases to interact with AscEmu.  Please change the respective usernames and passwords to your own unique variants!  Note, when it asks for your password, please enter your root mysql password.
 
 ```console
- $ mysql -u root -p
+mysql -u root -p
  CREATE USER 'username'@'%' IDENTIFIED BY 'password';
  GRANT USAGE ON \* . \* TO 'username'@'%' IDENTIFIED BY 'password' 
  WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0 ;
- CREATE DATABASE `ascemu-world` ;
- GRANT ALL PRIVILEGES ON `ascemu-world` . \* TO 'username'@'%';
- CREATE DATABASE `ascemu-acct` ;
- GRANT ALL PRIVILEGES ON `ascemu-acct` . \* TO 'username'@'%';
- exit
+ CREATE DATABASE `ascemu_world` ;
+ GRANT ALL PRIVILEGES ON `ascemu_world` . \* TO 'username'@'%';
+ CREATE DATABASE `ascemu_char` ;
+ GRANT ALL PRIVILEGES ON `ascemu_char` . \* TO 'username'@'%';
+ CREATE DATABASE `ascemu_logon` ;
+ GRANT ALL PRIVILEGES ON `ascemu_logon` . \* TO 'username'@'%';
+EXIT;
 ```
 
 After we have setup the database, its time to start downloading the files.
 
 #### Get the world database
 
-For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).
+For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 ```console
 CREATE DATABASE ascemu_logon;
-USE  ascemu_logon;
-SOURCE logon_structure.SQL;
-CREATE DATABASE ascemu_characters;
-USE ascemu_characters;
-SOURCE character_structure.SQL;
+ USE ascemu_logon;
+ SOURCE logon_base.sql;
+ CREATE DATABASE ascemu_char;
+ USE ascemu_char;
+ SOURCE character_base.sql;
 EXIT;
 ```
 
@@ -254,7 +258,7 @@ Database: You need to apply the world update queries that are newer than 2018041
 
 In this case, the last applied update is 20180418-01_playercreateinfo_faction. This means that we need to apply anything newer than that. For this, cd back to the sql directory:
 
-For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB).
+For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 Which produces an output similar to
@@ -270,31 +274,31 @@ Which produces an output similar to
 20180401-04_build_map_info.sql                 20180418-00_playercreateinfo_introid.sql
 20180402-00_build_playercreateinfo.sql         20180418-01_playercreateinfo_faction.sql
 ```
-For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB).
+For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 Drop back into MySQL and run the following queries:
 
 ```console
 USE ascemu_world;
-SOURCE 20180331-00_build_creature_properties.sql;
-SOURCE 20180331-01_world_db_version.sql;
-SOURCE 20180331-02_build_player_xp_for_level.sql;
-SOURCE 20180401-00_build_creature_properties.sql;
-SOURCE 20180401-01_build_gameobject_properties.sql;
-SOURCE 20180401-02_build_item_properties.sql;
-SOURCE 20180401-03_build_quest_properties.sql;
-SOURCE 20180401-04_build_map_info.sql;
-SOURCE 20180402-00_build_playercreateinfo.sql;
-SOURCE 20180403-00_build_totemdisplayids.sql;
-SOURCE 20180403-01_staticspawns.sql;
-SOURCE 20180403-02_spell_custom_override.sql;
-SOURCE 20180404-00_build_creature_spawns.sql;
-SOURCE 20180405-00_build_gameobject_spawns.sql;
-SOURCE 20180416-00_playercreateinfo.sql;
-SOURCE 20180417-00_playercreateinfo_misc.sql;
-SOURCE 20180418-00_playercreateinfo_introid.sql;
-SOURCE 20180418-01_playercreateinfo_faction.sql;
+ SOURCE 20180331-00_build_creature_properties.sql;
+ SOURCE 20180331-01_world_db_version.sql;
+ SOURCE 20180331-02_build_player_xp_for_level.sql;
+ SOURCE 20180401-00_build_creature_properties.sql;
+ SOURCE 20180401-01_build_gameobject_properties.sql;
+ SOURCE 20180401-02_build_item_properties.sql;
+ SOURCE 20180401-03_build_quest_properties.sql;
+ SOURCE 20180401-04_build_map_info.sql;
+ SOURCE 20180402-00_build_playercreateinfo.sql;
+ SOURCE 20180403-00_build_totemdisplayids.sql;
+ SOURCE 20180403-01_staticspawns.sql;
+ SOURCE 20180403-02_spell_custom_override.sql;
+ SOURCE 20180404-00_build_creature_spawns.sql;
+ SOURCE 20180405-00_build_gameobject_spawns.sql;
+ SOURCE 20180416-00_playercreateinfo.sql;
+ SOURCE 20180417-00_playercreateinfo_misc.sql;
+ SOURCE 20180418-00_playercreateinfo_introid.sql;
+ SOURCE 20180418-01_playercreateinfo_faction.sql;
 EXIT;
 ```
 
@@ -330,18 +334,6 @@ Enter your MySQL information at the the following section.
 ```console
 <WorldDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_world" Port = "3306">
 <CharacterDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_char" Port = "3306">
-```
-
-The last step in configs/world.conf is to change line 156:
-
-```console
-RemotePassword = "change_me_world">
-```
-
-to:
-
-```console
-RemotePassword = "change_me_logon">
 ```
 
 ### Using Screen

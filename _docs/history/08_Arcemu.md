@@ -73,4 +73,4 @@ sLog.outBasic("                          `.-///:-.`            ");
 
 ## Sidenote
 Arcemu
-![alt text](/Wiki/images/Arcemu_logo.png "Arcemu logo")
+![alt text](/Wiki/images/history/Arcemu_logo.png "Arcemu logo")
