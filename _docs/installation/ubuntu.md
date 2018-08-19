@@ -25,6 +25,15 @@ sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-de
 
 First we need to install MySQL into Linux as well as make sure that we have the correct libraries to properly operate it.
 
+Only for Debian.
+{: .success }
+```console
+echo -e "deb http://repo.mysql.com/apt/debian/ stretch mysql-5.7\ndeb-src http://repo.mysql.com/apt/debian/ stretch mysql-5.7" > /etc/apt/sources.list.d/mysql.list
+wget -O /tmp/RPM-GPG-KEY-mysql https://repo.mysql.com/RPM-GPG-KEY-mysql
+apt-key add /tmp/RPM-GPG-KEY-mysql
+apt update
+```
+
 ```console
 sudo apt-get install mysql-server mysql-client libmysqlclient-dev
 ```
@@ -358,7 +367,6 @@ screen -r ScreenIDHere
 You may replace ./world with sh AE_Restarter.sh for example, to run a restart program or even use screen on startup to launch the server.
 
 To do this, you can either use a restart script, cronjob, or if you are working with a desktop Linux environment you can simply use the built in startup application manager(Both Gnome and KDE have these).
-
 
 If you wish to set up a cronjob, google around - far more documentation is provided for both cron AND Screen then the AscEmu team can provide on these programs.
 
