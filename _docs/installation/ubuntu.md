@@ -25,14 +25,14 @@ sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-de
 
 First we need to install MySQL into Linux as well as make sure that we have the correct libraries to properly operate it.
 
+<pre>
 Only for Debian.
-{: .success }
-```console
+
 echo -e "deb http://repo.mysql.com/apt/debian/ stretch mysql-5.7\ndeb-src http://repo.mysql.com/apt/debian/ stretch mysql-5.7" > /etc/apt/sources.list.d/mysql.list
 wget -O /tmp/RPM-GPG-KEY-mysql https://repo.mysql.com/RPM-GPG-KEY-mysql
 apt-key add /tmp/RPM-GPG-KEY-mysql
 apt update
-```
+</pre>
 
 ```console
 sudo apt-get install mysql-server mysql-client libmysqlclient-dev
