@@ -8,7 +8,8 @@ layout: single_markdown
 ### Linux Guide
 
 Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu/Debian.
-This help file has been written with strict use of the console in mind. Linux was made to run command line, so there isn’t an easier, quicker way to do things than the way we are about to do them.
+{: .success }
+This guide file has been written with strict use of the console in mind. Linux was made to run command line, so there isn’t an easier, quicker way to do things than the way we are about to do them.
 {: .info }
 
 ### Initial Setup
@@ -79,11 +80,9 @@ Once you have added the ascemu user, you will have a new directory in **/home/as
 In the commands below, ~ is used as a shorthand for the current user's home directory, which we assume to be /home/ascemu. If for whatever reason you cannot use ~, simply replace it with /home/ascemu.
 {: .info }
 
-### Server Compilation
+### Getting the Files
 
-#### Getting the Files
-
-First, switch to the ascemu account, or whichever account you have just created.
+First, switch to the AscEmu account, or whichever account you have just created.
 
 ```console
 sudo su - ascemu
@@ -129,8 +128,6 @@ git pull origin master
 ```
 
 ### Compiling
-
-#### Start Compiling
 
 Once we have the files we can start compiling AscEmu. The first step is to create the configuration file that will be used to pass the variables to the make file so that AscEmu will compile properly.
 
@@ -386,8 +383,6 @@ Save the above script as AE_Restarter.sh and call it using
 ```console
 screen ./AE_Restarter.sh
 ```
-
-### **Done**
 
 You are now ready to move on to create an account.
 

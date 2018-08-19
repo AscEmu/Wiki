@@ -6,7 +6,8 @@ layout: single_markdown
 ---
 
 ### Windows Guide
-#### Requirements
+
+### Requirements
 
 * [Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
