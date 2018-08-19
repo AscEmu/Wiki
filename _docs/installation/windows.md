@@ -1,8 +1,8 @@
 ---
-title: Windows Guide
+title: Windows_Guide
 type: installguide
+category: 1
 layout: single_markdown
-position: 1
 ---
 
 # Windows Guide

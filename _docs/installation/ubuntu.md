@@ -1,14 +1,16 @@
 ---
-title: Ubuntu Guide
+title: Linux_Guide
 type: installguide
+category: 2
 layout: single_markdown
-position: 2
 ---
 
-# Ubuntu Guide
 ### Basic Linux Setup
 
-Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu. This help file has been written with strict use of the console in mind.  Linux was made to run command line, so there isn't an easier, quicker way to do things than the way we are about to do them.
+Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu/Debian.
+{: .info }
+This help file has been written with strict use of the console in mind. Linux was made to run command line, so there isn’t an easier, quicker way to do things than the way we are about to do them.
+{: .info }
 
 #### Initial Setup
 
@@ -53,7 +55,7 @@ Next we have to setup the root account for MySQL so that the server isn't compro
  mysqladmin -h root@hostname -u root password the-pass-you-just-chose
 ```
 
-Substitute _hostname_ for the hostname you chose when installing linux. That's it! Setting up MySQL is pretty straight forward.
+Substitute _hostname_ for the hostname you chose when installing Linux. That's it! Setting up MySQL is pretty straight forward.
 
 #### Security and Accounts
 
@@ -62,7 +64,7 @@ Once that is complete, we have the right environment in Linux to compile the ser
 Please do NOT run your AscEmu server using your root account.
 {: .error }
 
-Having said that, lets move on to create a basic account in linux from which you will run AscEmu. You can name this account anything you would like, but for the sake of standardization, we will name ours ascemu.  While still in your root account type:
+Having said that, lets move on to create a basic account in Linux from which you will run AscEmu. You can name this account anything you would like, but for the sake of standardization, we will name ours ascemu.  While still in your root account type:
 
 ```console
 sudo useradd -m -s /bin/bash ascemu
@@ -362,7 +364,7 @@ screen -r ScreenIDHere
 
 You may replace ./world with sh AE_Restarter.sh for example, to run a restart program or even use screen on startup to launch the server.
 
-To do this, you can either use a restart script, cronjob, or if you are working with a desktop linux environment you can simply use the built in startup application manager(Both Gnome and KDE have these).
+To do this, you can either use a restart script, cronjob, or if you are working with a desktop Linux environment you can simply use the built in startup application manager(Both Gnome and KDE have these).
 
 
 If you wish to set up a cronjob, google around - far more documentation is provided for both cron AND Screen then the AscEmu team can provide on these programs.
