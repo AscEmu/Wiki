@@ -38,6 +38,12 @@ apt update
 sudo apt-get install mysql-server mysql-client libmysqlclient-dev
 ```
 
+Set up a password.
+
+```console
+sudo mysql_secure_installation
+```
+
 In order to make your MySQL server available to other computers aside from your host (this is generally a good idea). Open up the mysql configuration with your favourite text editor.
 
 ```console
