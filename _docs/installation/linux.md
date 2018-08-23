@@ -1,31 +1,47 @@
 ---
-title: Ubuntu Guide
+title: Linux Guide
 type: installguide
+category: 2
 layout: single_markdown
-position: 2
 ---
 
-# Ubuntu Guide
-### Basic Linux Setup
+### Linux Guide
 
-Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu. This help file has been written with strict use of the console in mind.  Linux was made to run command line, so there isn't an easier, quicker way to do things than the way we are about to do them.
+Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu/Debian.
+{: .success }
+This guide file has been written with strict use of the console in mind. Linux was made to run command line, so there isn’t an easier, quicker way to do things than the way we are about to do them.
+{: .info }
 
-#### Initial Setup
+### Initial Setup
 
 First, having presumably installed a fresh copy of Linux, we need to update our server so that we can compile AscEmu. This will require several different packages. 
-
 For the following commands, log in as the Linux root administrator.
 
 ```console
 sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-dev libpcre3-dev libbz2-dev
 ```
 
-#### MySQL Setup
+### MySQL Setup
 
 First we need to install MySQL into Linux as well as make sure that we have the correct libraries to properly operate it.
 
+<pre>
+Only for Debian.
+
+echo -e "deb http://repo.mysql.com/apt/debian/ stretch mysql-5.7\ndeb-src http://repo.mysql.com/apt/debian/ stretch mysql-5.7" > /etc/apt/sources.list.d/mysql.list
+wget -O /tmp/RPM-GPG-KEY-mysql https://repo.mysql.com/RPM-GPG-KEY-mysql
+apt-key add /tmp/RPM-GPG-KEY-mysql
+apt update
+</pre>
+
 ```console
 sudo apt-get install mysql-server mysql-client libmysqlclient-dev
+```
+
+Set up a password.
+
+```console
+sudo mysql_secure_installation
 ```
 
 In order to make your MySQL server available to other computers aside from your host (this is generally a good idea). Open up the mysql configuration with your favourite text editor.
@@ -53,16 +69,16 @@ Next we have to setup the root account for MySQL so that the server isn't compro
  mysqladmin -h root@hostname -u root password the-pass-you-just-chose
 ```
 
-Substitute _hostname_ for the hostname you chose when installing linux. That's it! Setting up MySQL is pretty straight forward.
+Substitute _hostname_ for the hostname you chose when installing Linux. That's it! Setting up MySQL is pretty straight forward.
 
-#### Security and Accounts
+### Security and Accounts
 
 Once that is complete, we have the right environment in Linux to compile the server.  Before we can compile though we need to address some very serious security issues.  Whatever distro you are using, whether your server is private or public. 
 {: .info }
 Please do NOT run your AscEmu server using your root account.
 {: .error }
 
-Having said that, lets move on to create a basic account in linux from which you will run AscEmu. You can name this account anything you would like, but for the sake of standardization, we will name ours ascemu.  While still in your root account type:
+Having said that, lets move on to create a basic account in Linux from which you will run AscEmu. You can name this account anything you would like, but for the sake of standardization, we will name ours ascemu.  While still in your root account type:
 
 ```console
 sudo useradd -m -s /bin/bash ascemu
@@ -79,11 +95,9 @@ Once you have added the ascemu user, you will have a new directory in **/home/as
 In the commands below, ~ is used as a shorthand for the current user's home directory, which we assume to be /home/ascemu. If for whatever reason you cannot use ~, simply replace it with /home/ascemu.
 {: .info }
 
-### Server Compilation
+### Getting the Files
 
-#### Getting the Files
-
-First, switch to the ascemu account, or whichever account you have just created.
+First, switch to the AscEmu account, or whichever account you have just created.
 
 ```console
 sudo su - ascemu
@@ -128,9 +142,7 @@ cd ~/installer/ascemu/code
 git pull origin master
 ```
 
-#### Compiling
-
-##### Start Compiling
+### Compiling
 
 Once we have the files we can start compiling AscEmu. The first step is to create the configuration file that will be used to pass the variables to the make file so that AscEmu will compile properly.
 
@@ -165,9 +177,7 @@ This will not effect your server, this will only tell "make" to compile using al
 
 If this last step is successful then you are ready to configure your server and get on your way.
 
-### Wrap-up
-
-#### DBC and map files
+### DBC and map files
 
 Next you will transfer the DBC and map files over to your server.
 
@@ -186,7 +196,7 @@ mkdir ~/server/maps
 
 Place the DBC and map files in their respective directories above.
 
-#### Config Files
+### Config Files
 
 All that is left to do is create the /etc/ directory and move the configuration files into it, and make the AscEmu binaries executable.
 
@@ -201,7 +211,7 @@ cd ~/server
 
 Now your configuration files are in the .../etc folder ready to be edited, and used by the AscEmu server and your AscEmu binaries are executable.
 
-#### MySQL Setup
+### MySQL Setup
 
 The first step in setting up the database will be setting up a mysql user and databases to interact with AscEmu.  Please change the respective usernames and passwords to your own unique variants!  Note, when it asks for your password, please enter your root mysql password.
 
@@ -221,7 +231,7 @@ EXIT;
 
 After we have setup the database, its time to start downloading the files.
 
-#### Get the world database
+### Get the world database
 
 For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
@@ -305,7 +315,7 @@ EXIT;
 Now cd back to the server directory and try running the server again, and it should launch without any sql errors
 This concludes the compile section of the Wiki. You should now have a fully functioning copy of AscEmu. Refer to the sections below for information on how to startup and perform basic administrative functions.
 
-# Configuration Files
+### Configuration Files
 
 Use an editor of your choice, in this example it'll be **nano**. Make sure to read all files at least once, so you know what configuration is where and you don't end up with an administrator account with default password you didn't know about ;)
 
@@ -315,7 +325,7 @@ cd ~/server/etc
   nano world.conf
 ```
 
-## Configuring logon.conf
+### Configuring logon.conf
 
 Enter your MySQL information at the the following section. 
 
@@ -327,7 +337,7 @@ Name     = "ascemu_logon"
 Port     = "3306">
 ```
 
-## Configuring world.conf
+### Configuring world.conf
 
 Enter your MySQL information at the the following section. 
 
@@ -362,8 +372,7 @@ screen -r ScreenIDHere
 
 You may replace ./world with sh AE_Restarter.sh for example, to run a restart program or even use screen on startup to launch the server.
 
-To do this, you can either use a restart script, cronjob, or if you are working with a desktop linux environment you can simply use the built in startup application manager(Both Gnome and KDE have these).
-
+To do this, you can either use a restart script, cronjob, or if you are working with a desktop Linux environment you can simply use the built in startup application manager(Both Gnome and KDE have these).
 
 If you wish to set up a cronjob, google around - far more documentation is provided for both cron AND Screen then the AscEmu team can provide on these programs.
 
@@ -389,11 +398,9 @@ Save the above script as AE_Restarter.sh and call it using
 screen ./AE_Restarter.sh
 ```
 
-## **Done**
-
 You are now ready to move on to create an account.
 
-# Create an Account
+### Create an Account
 
 **1.** Go to your world console and create an account.
 

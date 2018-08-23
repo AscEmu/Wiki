@@ -1,12 +1,13 @@
 ---
 title: Windows Guide
 type: installguide
+category: 1
 layout: single_markdown
-position: 1
 ---
 
-# Windows Guide
-## Requirements
+### Windows Guide
+
+### Requirements
 
 * [Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
@@ -22,7 +23,7 @@ Microsoft Visual C++ 2017 Redistributable Package (Only if you run AscEmu on ano
 * [Notepad++](https://notepad-plus-plus.org/download/)
 * [HeidiSQL](https://www.heidisql.com/download.php)
 
-# Getting the source
+### Getting the source
 
 Before you start working with the program, read the instruction. [help.github.desktop.guides](https://help.github.com/desktop/guides/) .
 {: .info }
@@ -30,7 +31,7 @@ Before you start working with the program, read the instruction. [help.github.de
 Sign in to GitHub and GitHub Desktop before you start to clone.
 {: .info }
 
-**1.** In the File menu, click Clone Repository.
+**1.** In the File menu, **click** Clone Repository.
 
 ![github.desktop_1.png](/Wiki/images/installation.windows/github.desktop_1.png)
 
@@ -38,17 +39,17 @@ Sign in to GitHub and GitHub Desktop before you start to clone.
 
 ![github.desktop_2.png](/Wiki/images/installation.windows/github.desktop_2.png)
 
-**3.** Click on "clone" and wait until everything is loaded.
+**3.** Click on **Clone** and wait until everything is loaded.
 
 ![github.desktop_3.png](/Wiki/images/installation.windows/github.desktop_3.png)
 
-# CMake Precompile
+### CMake Precompile
 
 **1.** Open **CMake(cmake-gui)** and fill in the source-path and the build-path:
 
 ![cmake_1.png](/Wiki/images/installation.windows/cmake_1.png)
 
-**2.** Choose your compiler "Visual Studio 15 2017" or other.
+**2.** Choose your compiler **Visual Studio 15 2017** or other.
 
 ![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)
 
@@ -62,7 +63,7 @@ You can choose which client should be supported by AscEmu.
 
 ![cmake_4.png](/Wiki/images/installation.windows/cmake_4.png)
 
-# VS Compiling
+### VS Compiling
 
 **1.** Open PathToYourPrecompiledSource/Ascemu.sln
 
@@ -80,9 +81,9 @@ You can choose which client should be supported by AscEmu.
 
 **5.** The required server files will now be in the folder specified by CMAKE_INSTALL_PREFIX (by default: C:\AscEmu)
 
-# Database Setup
+### Database Setup
 
-## Create the basic DBs
+#### Create the basic DBs
 
 Create the 3 Databases.
 
@@ -92,7 +93,7 @@ ascemu_char   The characters database (All created characters)
 ascemu_world  The world database (NPC, GO, Instances, Items, ...)
 ```
 
-## Import the Structure
+### Import the Structure
 
 Import the structure for our databases. Use the files from ".../sql/xxx"
 
@@ -104,7 +105,7 @@ logon_base -> ascemu_logon DB
 For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).
 {: .info }
 
-## Updating the DBs
+### Updating the DBs
 
 Make shure you use the updatefiles for the DBs. You can find them in ".../sql/"
 
@@ -119,7 +120,7 @@ For world_updates apply all .sql files in folder 'updates' from: [Link to Github
 
 **Done** Your databases are up to date. Move on with this guid.
 
-# Extractors
+### Extractors
 
 You can find the extractors in:
 
@@ -137,7 +138,7 @@ You can test mmaps by running mmaps_generator (output: mmaps). This will take a 
 
 Copy all output directories (dbc, maps, vmaps opt. mmaps) to your server folder (C:/Ascemu/)
 
-# Configuration
+### Configuration
 
 Look for the *.conf files in the "configs" folder of AscEmu github-trunk. Copy the entire configs folder to your AscEmu Installation Folder in order for the server to read them.
 
@@ -148,7 +149,7 @@ C:/Ascemu/configs/world.conf
 C:/Ascemu/configs/logon.conf
 ```
 
-## Configuring logon.conf
+### Configuring logon.conf
 
 Enter your MySQL information at the the following section. 
 
@@ -160,7 +161,7 @@ Name     = "ascemu_logon"
 Port     = "3306">
 ```
 
-## Configuring world.conf
+### Configuring world.conf
 
 Enter your MySQL information at the the following section. 
 
@@ -169,7 +170,7 @@ Enter your MySQL information at the the following section.
 <CharacterDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_char" Port = "3306">
 ```
 
-# Create an Account
+### Create an Account
 
 **1.** Go to your world console and create an account.
 
