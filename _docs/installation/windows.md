@@ -105,7 +105,7 @@ character_base -> ascemu_char DB
 logon_base -> ascemu_logon DB
 ```
 
-For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB).
+For ascemu_world apply all .sql files in folder 'fullDB' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB).
 {: .info }
 
 ### Updating the DBs
@@ -118,7 +118,7 @@ logon_updates (all .sql files) -> ascemu_logon
 world_updates (all .sql files) -> ascemu_world
 ```
 
-For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB).
+For world_updates apply all .sql files in folder 'updates' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB).
 {: .info }
 
 **Done** Your databases are up to date. Move on with this guid.

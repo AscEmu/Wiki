@@ -233,7 +233,7 @@ After we have setup the database, its time to start downloading the files.
 
 ### Get the world database
 
-For ascemu_world apply all .sql files in folder 'fullDB' from: [Link to Github](https://github.com/AscEmu/OneDB/).
+For ascemu_world apply all .sql files in folder 'fullDB' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 ```console
@@ -268,7 +268,7 @@ Database: You need to apply the world update queries that are newer than 2018041
 
 In this case, the last applied update is 20180418-01_playercreateinfo_faction. This means that we need to apply anything newer than that. For this, cd back to the sql directory:
 
-For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB/).
+For world_updates apply all .sql files in folder 'updates' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 Which produces an output similar to
@@ -284,7 +284,7 @@ Which produces an output similar to
 20180401-04_build_map_info.sql                 20180418-00_playercreateinfo_introid.sql
 20180402-00_build_playercreateinfo.sql         20180418-01_playercreateinfo_faction.sql
 ```
-For world_updates apply all .sql files in folder 'updates' from: [Link to Github](https://github.com/AscEmu/OneDB/).
+For world_updates apply all .sql files in folder 'updates' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 Drop back into MySQL and run the following queries:
