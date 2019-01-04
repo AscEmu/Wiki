@@ -122,14 +122,14 @@ Right:
 {: .success }
 
 ```cpp
-bool convertToASCII(short\*, size_t);
+bool convertToASCII(short*, size_t);
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-bool toASCII(short\*, size_t);
+bool toASCII(short*, size_t);
 ```
 
 ## meaningless variable names
@@ -158,7 +158,7 @@ Right:
 {: .success }
 
 ```cpp
-void CWHeap::Free(void\* /*pAddr*/)
+void CWHeap::Free(void* /*pAddr*/)
 {
 }
 ```
@@ -167,7 +167,7 @@ Wrong:
 {: .error }
 
 ```cpp
-void CWHeap::Free(void\* pAddr)
+void CWHeap::Free(void* pAddr)
 {
 }
 ```
@@ -220,14 +220,14 @@ Right:
 {: .success }
 
 ```cpp
-\#define KEY_ALT_MASK 0x04
+#define KEY_ALT_MASK 0x04
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-\#define KeyAltMask 0x04
+#define KeyAltMask 0x04
 ```
 
 Macros that expand to function calls or other non-constant computation. These should be named like functions, and should have parentheses at the end, even if they take no arguments (with the exception of some special macros like STD_ASSERT). Note that usually it is preferable to use an inline function in such cases instead of a macro.
@@ -236,16 +236,16 @@ Right:
 {: .success }
 
 ```cpp
-\#define WBStopButtonTitle()  NSLocalizedString(@"Stop", @"Stop button title")
+#define WBStopButtonTitle()  NSLocalizedString(@"Stop", @"Stop button title")
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-\#define WB_STOP_BUTTON_TITLE  NSLocalizedString(@"Stop", @"Stop button title")
+#define WB_STOP_BUTTON_TITLE  NSLocalizedString("Stop", "Stop button title")
 
-\#define WBStopButtontitle  NSLocalizedString(@"Stop", @"Stop button title")
+#define WBStopButtontitle  NSLocalizedString("Stop", "Stop button title")
 ```
 
 ## ifndef, define, endif
@@ -258,16 +258,16 @@ Right:
 {: .success }
 
 ```cpp
-\#ifndef _GAMEOBJECT_H
-\#define _GAMEOBJECT_H
+#ifndef _GAMEOBJECT_H
+#define _GAMEOBJECT_H
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-\#ifndef _GameObject_H_
-\#define _GameObject_H_
+#ifndef _GameObject_H_
+#define _GameObject_H_
 ```
 
 The #endif for the header guard at the end of the header file should have a double slash comment appended after it showing the macro name
@@ -278,12 +278,12 @@ Right:
 {: .success }
 
 ```cpp
-\#endif // _GAMEOBJECT_H
+#endif // _GAMEOBJECT_H
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-\#endif
+#endif
 ```

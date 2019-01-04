@@ -20,7 +20,7 @@ Right:
 {: .success }
 
 ```cpp
-Documentation::Documentation(Document\* pDoc): XMLReader(), XMLWriter(),
+Documentation::Documentation(Document* pDoc): XMLReader(), XMLWriter(),
    m_memberAlpha(0), m_memberBeta(0), m_memberGamma(0),
    m_memberDelta(0), m_memberEpsilon(0), m_memberZeta(0),
 {
@@ -43,7 +43,7 @@ Wrong:
 {: .error }
 
 ```cpp
-Documentation::Documentation(Document\* pDoc) : XMLReader(), XMLWriter()
+Documentation::Documentation(Document* pDoc) : XMLReader(), XMLWriter()
 {
    m_memberAlpha = 0;
    m_memberBeta = 0;
@@ -62,9 +62,9 @@ Right:
 {: .success }
 
 ```cpp
-Image\* TextureHandler::DoSomething(Color& tint)
+Image* TextureHandler::DoSomething(Color& tint)
 {
-   Color\* pElement = static_cast<Color\*>(node());
+   Color* pElement = static_cast<Color*>(node());
    const ColorArray& colors = ColorInputs();
 ```
 
@@ -72,9 +72,9 @@ Wrong:
 {: .error }
 
 ```cpp
-Image \*TextureHandler::DoSomething(Color &tint)
+Image *TextureHandler::DoSomething(Color &tint)
 {
-   Color \*element = static_cast<Color \*>(node());
+   Color *element = static_cast<Color *>(node());
    const ColorArray &colors = ColorInputs();
 ```
 
@@ -88,14 +88,14 @@ Right:
 {: .success }
 
 ```cpp
-inline Color\* GetColor() { return m_pColor; }
+inline Color* GetColor() { return m_pColor; }
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-Color\* GetColor() { return m_color; }
+Color *GetColor() { return m_color; }
 ```
 
 Inline functions consisting of one call or operation should occupy no more than 1 line of code and coexist inside the class definition.
@@ -104,14 +104,14 @@ Right:
 {: .success }
 
 ```cpp
-inline Color\* GetColor() { return m_pColor; }
+inline Color* GetColor() { return m_pColor; }
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-inline Color\* GetColor()
+inline Color* GetColor()
 {
   return m_color;
 }
@@ -201,9 +201,9 @@ Right:
 {: .success }
 
 ```cpp
-void Print(const char\* pString); // pString is not modified
+void Print(const char* pString); // pString is not modified
 
-void ModifyString(char\* pString); // pString may be modified
+void ModifyString(char* pString); // pString may be modified
 
 void ScanObject(const CObject& obj); // obj is not modified
 
@@ -214,9 +214,9 @@ Wrong:
 {: .error }
 
 ```cpp
-void Print(char\* pString);
+void Print(char* pString);
 
-void ModifyString(const char\* pString);
+void ModifyString(const char* pString);
 
 void ScanObject(CObject& obj)
 
@@ -229,7 +229,7 @@ Right:
 {: .success }
 
 ```cpp
-const CObject\* pObj
+const CObject* pObj
 ```
 
 Wrong:
@@ -245,14 +245,14 @@ Right:
 {: .success }
 
 ```cpp
-CObject\* const pObj
+CObject* const pObj
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-const CObject\* pObj
+const CObject* pObj
 ```
 
 ## structures

@@ -34,7 +34,7 @@ Right:
 {: .success }
 
 ```cpp
-    y = m \* x + b / n;
+    y = m * x + b / n;
     f(a, b);
     c = a | b;
 ```
@@ -43,7 +43,7 @@ Wrong:
 {: .error }
 
 ```cpp
-    y=m\*x+b/n;
+    y=m*x+b/n;
     f(a,b);
     c = a|b;
 ```
