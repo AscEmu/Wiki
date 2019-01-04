@@ -8,24 +8,6 @@ position: 3
 
 ## operators
 
-### unary
-
-Do not place spaces around unary operators.
-
-Right:
-{: .success }
-
-```cpp
-i++;
-```
-
-Wrong:
-{: .error }
-
-```cpp
-i++;
-```
-
 ### binary
 
 Do place spaces around binary operators

@@ -236,7 +236,7 @@ Right:
 {: .success }
 
 ```cpp
-#define WBStopButtonTitle()  NSLocalizedString(@"Stop", @"Stop button title")
+#define WBStopButtonTitle()  NSLocalizedString("Stop", "Stop button title")
 ```
 
 Wrong:
@@ -250,9 +250,7 @@ Wrong:
 
 ## ifndef, define, endif
 
-```cpp
 #ifndef, #define "header guards" should be named as for example _FILENAME replacing the '.' with a '_' and capitalizing the text.
-```
 
 Right:
 {: .success }
