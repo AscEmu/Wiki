@@ -4,6 +4,9 @@ type: codingstandard
 layout: single_markdown
 position: 5
 ---
+
+More information about the coding standard http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html
+
 # Braces
 
 ## function definitions
