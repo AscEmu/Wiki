@@ -63,6 +63,9 @@ You can choose which client should be supported by AscEmu.
 
 ![cmake_4.png](/Wiki/images/installation.windows/cmake_4.png)
 
+If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
+{: .info }
+
 ### VS Compiling
 
 **1.** Open PathToYourPrecompiledSource/Ascemu.sln
