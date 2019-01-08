@@ -8,24 +8,6 @@ position: 3
 
 ## operators
 
-### unary
-
-Do not place spaces around unary operators.
-
-Right:
-{: .success }
-
-```cpp
-i++;
-```
-
-Wrong:
-{: .error }
-
-```cpp
-i++;
-```
-
 ### binary
 
 Do place spaces around binary operators
@@ -34,7 +16,7 @@ Right:
 {: .success }
 
 ```cpp
-    y = m \* x + b / n;
+    y = m * x + b / n;
     f(a, b);
     c = a | b;
 ```
@@ -43,7 +25,7 @@ Wrong:
 {: .error }
 
 ```cpp
-    y=m\*x+b/n;
+    y=m*x+b/n;
     f(a,b);
     c = a|b;
 ```

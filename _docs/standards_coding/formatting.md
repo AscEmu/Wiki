@@ -12,6 +12,11 @@ Use spaces, not tabs. Tabs should only appear in files that require them for sem
 
 The indent **size is 4 spaces**.
 
+Notepad++
+{: .info }
+
+![Notepad_1.png](/Wiki/images/standards.coding/Notepad_1.png)
+
 Right:
 {: .success }
 
@@ -51,12 +56,12 @@ Right:
 ```cpp
 class CDocumention
 {
-  public:
+public:
 
-     Document();
-     ...
+    Document();
+    ...
 
-  friend class CEffectList;
+    friend class CEffectList;
 
 };
 ```
@@ -84,12 +89,12 @@ Right:
 ```cpp
 namespace Whiptail
 {
-  class CDocumention
-  {
-     public:
+    class CDocumention
+    {
+    public:
 
         Document();
-  };
+    };
 };
 ```
 
@@ -121,12 +126,12 @@ Right:
 ```cpp
 switch (condition)
 {
-   case mostLikelyCondition:
-   case leastLikelyCondition:
-      i++;
-      break;
-   default:
-      i--;
+    case mostLikelyCondition:
+    case leastLikelyCondition:
+        i++;
+        break;
+    default:
+        i--;
 }
 ```
 
@@ -154,14 +159,14 @@ Right:
 {: .success }
 
 ```cpp
-pfloat32 myValue = (pV0->vx \* w0) + ( pV1->vx \* w1) + (pV2->vx \* w2) + (pV3->vx \* w3);
+pfloat32 myValue = (pV0->vx * w0) + ( pV1->vx * w1) + (pV2->vx * w2) + (pV3->vx * w3);
 ```
 
 Wrong:
 {: .error }
 
 ```cpp
-pfloat32 myValue = pV0->vx \* w0 + pV1->vx \* w1 + pV2->vx \* w2 + pV3->vx \* w3;
+pfloat32 myValue = pV0->vx * w0 + pV1->vx * w1 + pV2->vx * w2 + pV3->vx * w3;
 ```
 
 Use parenthesis in complex logic and conditional expressions.

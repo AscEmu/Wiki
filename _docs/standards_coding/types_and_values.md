@@ -13,7 +13,7 @@ The null pointer value should be never written as NULL/0.
 **Use nullptr**!
 
 ```cpp
-CWEntity\* pEntity;
+CWEntity* pEntity;
 ```
 
 Right:

@@ -4,6 +4,12 @@ type: codingstandard
 layout: single_markdown
 position: 5
 ---
+
+# Coding standards
+
+More information about the coding standard ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html)
+{: .info }
+
 # Braces
 
 ## function definitions
