@@ -211,7 +211,7 @@ end
 RegisterServerHook(6, "OnPlayerDied")
 ```
 
-*Sends you the message* <span style="color:FFFFCC00">You're a winner, </span><span style="color:FFCC6600"><Player Name></span>           
+![alt text](/Wiki/images/example/example_lua_text_color.jpg "Code Tag example")           
 
 I used two color codes: Orange and Brown. Before writing the color codes I used two F's.             
 

@@ -87,7 +87,7 @@ Cell 1 | Cell 2
 SELECT * FROM account_names WHERE id = 254;
 ```
 
-![alt text](/Wiki/images/code_tag_example.jpg "Code Tag example")
+![alt text](/Wiki/images/example/example_code_tag.jpg "Code Tag example")
 
 
 ## Tasks

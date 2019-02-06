@@ -18,7 +18,7 @@ Information about the typical function names:
 
 ### [Basic Lua](/Wiki/docs/standards_sctipts/methods_lua/Basic_Lua)
 
-### [List of all Events](/Wiki/docs/standards_sctipts/methods_lua/List_of_all_Events)
+### [Register Events and Server Hooks](/Wiki/docs/standards_sctipts/methods_lua/List_of_all_Events)
 
 ### [GameObject Methods](/Wiki/docs/standards_sctipts/methods_lua/GameObject_Methods)
 
