@@ -2,7 +2,7 @@
 title: GameObject Methods
 type: standards_lua
 layout: single_markdown
-position: 2
+position: 3
 ---
 
 ## Get (Return) Methods

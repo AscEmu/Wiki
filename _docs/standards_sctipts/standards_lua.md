@@ -16,7 +16,7 @@ Because Lua can easily be embedded into applications, it is frequently used in g
 ## Functions
 Information about the typical function names:
 
-### [Basic Lua](/Wiki/docs/standards_sctipts/methods_lua/Basic_Lua) ###### Colors
+### [Basic Lua](/Wiki/docs/standards_sctipts/methods_lua/Basic_Lua)
 
 ### [List of all Events](/Wiki/docs/standards_sctipts/methods_lua/List_of_all_Events)
 

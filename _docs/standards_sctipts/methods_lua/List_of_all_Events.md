@@ -2,7 +2,7 @@
 title: List of all Events
 type: standards_lua
 layout: single_markdown
-position: 1
+position: 2
 ---
 
 ## Register Quest Events
