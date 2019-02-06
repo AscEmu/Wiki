@@ -199,7 +199,9 @@ BLACK   = 000000
 WHITE   = FFFFFF
 ```
 
-To color your text in-game you must use ***|c*** to begin the color code and ***|r*** to end it. Also use two ***F***'s after the ***|c*** in order to get the correct color.
+```
+To color your text in-game you must use |c to begin the color code and  |r to end it. Also use two F's after the |c in order to get the correct color.
+```
 
 ## Example:
 
