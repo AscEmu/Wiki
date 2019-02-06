@@ -17,3 +17,4 @@ Classic |  |
 TBC | 0x06D |  
 WotLK | 0x06D |  
 Cata |  |  
+MoP |  |  

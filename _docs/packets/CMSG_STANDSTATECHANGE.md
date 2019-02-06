@@ -13,7 +13,8 @@ Send when client goes afk or on sit down
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x101 |  
-WotLK | 0x101 |  
-Cata | 0x101 |  
+Classic    |            |  
+TBC        | 0x101      |  
+WotLK      | 0x101      |  
+Cata       | 0x101      |  
+MoP        |            |  

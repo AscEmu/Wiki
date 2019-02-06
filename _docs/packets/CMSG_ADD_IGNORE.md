@@ -13,7 +13,8 @@ Called on adding ignored player to list.
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x06C |  
-WotLK | 0x06C |  
-Cata |  |  
+Classic    |            |  
+TBC        | 0x06C      |  
+WotLK      | 0x06C      |  
+Cata       |            |  
+MoP        |            |  

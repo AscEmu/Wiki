@@ -13,7 +13,8 @@ Called for contact list.
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x066 |  
-WotLK | 0x066 |  
-Cata | 0x4534 |  
+Classic    |            |  
+TBC        | 0x066      |  
+WotLK      | 0x066      |  
+Cata       | 0x4534     |  
+MoP        |            |  
