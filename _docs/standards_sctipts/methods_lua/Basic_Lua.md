@@ -215,7 +215,7 @@ RegisterServerHook(6, "OnPlayerDied")
 ```
 Sends you the messeage.      
 
-![Sends you the messeage You have died, <player_name>.](/Wiki/images/standards/example/example_lua_text_color.jpg "Sends you the messeage.")           
+![OnPlayerDied](/Wiki/images/standards/example/example_lua_text_color.jpg "Sends you the messeage")           
 
 I used two color codes: Orange and Brown. Before writing the color codes I used two F's.             
 
