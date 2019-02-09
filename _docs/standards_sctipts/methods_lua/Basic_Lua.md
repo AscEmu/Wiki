@@ -233,7 +233,7 @@ BRIGHTEN    = 8
 
 These can be added together though, Example: Red(4) + Blue(1) = Purple(5).
 
-## Example:
+#### Example:
 
 ```
 logcol(5)
