@@ -87,7 +87,11 @@ Cell 1 | Cell 2
 SELECT * FROM account_names WHERE id = 254;
 ```
 
-![alt text](/Wiki/images/example/example_code_tag.jpg "Code Tag example")
+<pre>
+```sql
+SELECT * FROM account_names WHERE id = 254;
+```
+</pre>
 
 
 ## Tasks

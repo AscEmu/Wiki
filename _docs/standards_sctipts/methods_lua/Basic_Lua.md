@@ -28,11 +28,12 @@ end
 
 Variables in Lua:
 
+```
 global method_1
 local method_2
 method_1 = nil
 method_2 = 1234
-
+```
 
 The global variable method_1 is being detroyed and method_2 becomes 1234. Variables in Lua are case-sensitive and can only contain letter, numbers, operators, colons & semicolons and underscores!         
 
@@ -207,13 +208,14 @@ To color your text in-game you must use |c to begin the color code and  |r to en
 
 ```
 function OnPlayerDied(event, player)
-player:SendBroadcastMessage("|cFFFFCC00 You're a winner,|r |cFFCC6600"..player:GetName()..".|r")
+player:SendBroadcastMessage("|cFFFFCC00 You have died,|r |cFFCC6600"..player:GetName()..".|r")
 end
 
 RegisterServerHook(6, "OnPlayerDied")
 ```
+Sends you the messeage.      
 
-![alt text](/Wiki/images/example/example_lua_text_color.jpg "Code Tag example")           
+![Sends you the messeage You have died, <player_name>.](/Wiki/images/standards/example/example_lua_text_color.jpg "Sends you the messeage.")           
 
 I used two color codes: Orange and Brown. Before writing the color codes I used two F's.             
 
