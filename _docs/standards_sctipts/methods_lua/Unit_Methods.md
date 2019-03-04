@@ -52,11 +52,10 @@ GetInRangeEnemies()                                                             
 GetInRangeFriends()                                                                                                                        | Returns all friendlies in range of the Unit.
 GetInRangeObjects()                                                                                                                        | Returns all nearby GameObjects in range of the Unit.
 GetInRangeObjectsCount()                                                                                                                   | Returns a count of all the GameObjects in range of the Unit.
-GetInRangePlayers()                                                                                                                        | Returns all players in range of the Unit.
-GetInRangePlayersCount()                                                                                                                   | Returns a count of all the players in range of the Unit.
-GetInRangeUnits()                                                                                                                          | Returns all units in the range of the Unit.
+[GetInRangePlayers()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetInRangePlayers)                                         | Returns all players in range of the Unit.
+[GetInRangePlayersCount()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetInRangePlayersCount)                               | Returns a count of all the players in range of the Unit.
+[GetInRangeUnits()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetInRangeUnits)                                             | Returns all units in the range of the Unit.
 GetInstanceID()                                                                                                                            | Return the Unit's instance id.
-GetInstanceID()                                                                                                                            | Returns the Unit's Instance ID.
 GetInstanceOwner()                                                                                                                         | Returns the owner of Unit's instance.
 GetInventoryItem(bag, bagslot)                                                                                                             | Returns the item in the player's inventory in specified bag and slot.
 GetInventoryItemById(entry)                                                                                                                | Returns the slot that the item is in in the player's inventory.
