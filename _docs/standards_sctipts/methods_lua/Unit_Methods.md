@@ -5,7 +5,7 @@ layout: single_markdown
 position: 4
 ---
 
-[Moooo()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/moooo)
+[Moooo](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Mooo)
 
 # Get (Return) Methods
 
@@ -162,7 +162,7 @@ NoRespawn(true/false)                                                           
 RemoveFlag(field, value)                                                                                     | Removes the Unit's flag at field, value.
 RemoveThreat(target)                                                                                         | Erases the target from the threat table.
 SetActionBar()                                                                                               | Unknown, see core for usage.
-SetAIState(state)                                                                                            | Sets the Unit's AI State to the designated one. See page for more information.
+[SetAIState(state)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SetAIState)                    | Sets the Unit's AI State to the designated one. See page for more information.
 SetAttackTimer(timer, offhand)                                                                               | Sets the Unit's main-hand attack speed to timer. If offhand is true, offhand is also set to this.
 SetBindPoint(x, y, z, map, zone)                                                                             | Sets the Unit's bind point to the co-ordinates specified.
 SetByte(index, index1, value)                                                                                | Sets the byte at index, index1 to value.
