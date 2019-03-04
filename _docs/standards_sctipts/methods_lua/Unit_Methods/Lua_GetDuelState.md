@@ -41,7 +41,7 @@ wombat = pPlayer:GetDuelState()
 if wombat == 2 then
 ```
 
-## Another example:
+Another example:
 
 ```
 function OnEnterWorld(event, pPlayer)

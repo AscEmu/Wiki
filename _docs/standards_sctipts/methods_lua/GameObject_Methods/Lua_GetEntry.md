@@ -21,11 +21,11 @@ Returns the entry ID of the unit. Works for NPC as well as for GO.
 
 ```
 function CheckUnits(pUnit)
-    for k, pFriend in pairs(pUnit:GetInRangeFriends()) do
-        if(pFriend:GetEntry()==101) and (pFriend ~= nil) then
-            pFriend:SendChatMessage(12, 0, "You found me!")
-        end
+  for k, pFriend in pairs(pUnit:GetInRangeFriends()) do
+    if(pFriend:GetEntry()==101) and (pFriend ~= nil) then
+      pFriend:SendChatMessage(12, 0, "You found me!")
     end
+  end
 end
 ```
 

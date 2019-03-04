@@ -10,7 +10,7 @@ position: 10
 ## Syntax
 
 ```
-int Skillvalue = pPlayer:GetCurrentSkill( int Skillid )
+int Skillvalue = pPlayer:GetCurrentSkill(int Skillid)
 ```
 
 ## Description
@@ -19,7 +19,7 @@ With :GetCurrentSkill(id) you can find the level of a user's skill. A skill such
 
 ## Example
 
-This example shows you how to check and display the user's Defense. Note: I use this for a Gossip NPC!
+This example shows you how to check and display the user's Defense. Note: Use this for a Gossip NPC!
 
 ```
 function OnGossip(pUnit, event, pPlayer)
