@@ -37,10 +37,10 @@ Will get the unit's AI-State and return the value.
 
 # Example
 
-```
 This example will get the player's AI-State when he/she enters the world and simply reset it. 
 Same as in '[SetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SetAIState)'.
 
+```
 function OnEnterWorld(event, pPlayer)
 	local AI = pPlayer:GetAIState()
 	if(AI == 1 or AI == 2 or AI == 3 or AI == 4 or AI == 5) then
