@@ -11,7 +11,7 @@ position: 23
 
 Returns a value based on the GM level of the account (a, az etc.). Returns nil if the account is not a GM.
 
-##Usage/Example
+## Usage/Example
 
 ```
 function GMCheck(event, player)

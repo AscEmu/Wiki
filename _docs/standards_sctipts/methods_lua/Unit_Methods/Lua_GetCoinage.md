@@ -18,8 +18,9 @@ Returns the amount of copper a player has.
 1 Silver                      | 100
 1 Gold                        | 10000
 
------------------------------ | ---------- 
-10 Gold 53 Silver 14 Copper   | 105314
+```
+10 Gold 53 Silver 14 Copper = 105314
+```
 
 ## Usage/Examples
 

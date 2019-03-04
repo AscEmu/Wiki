@@ -16,14 +16,14 @@ Returns the numerical value representing the units faction.
 ```
 1:    Human
 3:    Dwarf
-4:    Nightelf
-115:  Gnom
+4:    Night Elf
+115:  Gnome
 1629: Draenei
 
 
 2:    Orc
 5:    Undead
-6:    Taur
+6:    Tauren
 116:  Troll
 1610: Blood Elf
 ```
@@ -32,6 +32,6 @@ Returns the numerical value representing the units faction.
 
 ```
 function ReturnFaction(pUnit)
-	pUnit:SendChatMessage(12, 0, "Hello my faction is: "..pUnit:GetFaction().."!")
+  pUnit:SendChatMessage(12, 0, "Hello my faction is: "..pUnit:GetFaction().."!")
 end
 ```

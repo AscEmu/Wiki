@@ -44,12 +44,12 @@ Same as in '[SetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods
 
 ```
 function OnEnterWorld(event, pPlayer)
-	local AI = pPlayer:GetAIState()
-	if(AI == 1 or AI == 2 or AI == 3 or AI == 4 or AI == 5) then
-		pPlayer:SetAIState(0)
-	elseif(AI == 6 or AI == 7 or AI == 8 or AI == 9 or  AI == 10 or AI == 11) then
-		pPlayer:SetAIState(0)
-	end
+  local AI = pPlayer:GetAIState()
+  if(AI == 1 or AI == 2 or AI == 3 or AI == 4 or AI == 5) then
+    pPlayer:SetAIState(0)
+  elseif(AI == 6 or AI == 7 or AI == 8 or AI == 9 or  AI == 10 or AI == 11) then
+    pPlayer:SetAIState(0)
+  end
 end
  
 RegisterServerHook(4, "OnEnterWorld")

@@ -9,21 +9,22 @@ position: 16
 
 ## Syntax
 
+```
 int State = pPlayer:GetDuelState()
+```
 
 ## Description
 
 Will indicate if the unit is in a duel state.
 
-Will return
+Will return:
+
 ---- | ------
-0    | Requested
-1    | Started
-2    | Finished
+ 0   | Requested
+ 1   | Started
+ 2   | Finished
 
 ## Examples
-
-Just the little code ;)
 
 ```
 wombat = pPlayer:GetDuelState()
@@ -40,7 +41,7 @@ wombat = pPlayer:GetDuelState()
 if wombat == 2 then
 ```
 
-Another example:
+## Another example:
 
 ```
 function OnEnterWorld(event, pPlayer)

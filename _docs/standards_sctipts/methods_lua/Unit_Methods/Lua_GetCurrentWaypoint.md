@@ -32,13 +32,11 @@ end
 RegisterServerHook(4, "OnEnterWorld")
 ```
 
-### About ~=nil
-
-If you use
+If you use "~=nil"
 
 ```
 if(pPlayer:GetCurrentWaypoint() ~=nil) then
 end
 ```
 
-it will check if the waypoint is not found. If the waypoint couldn't be found then stuff after this 'if' happens.
+It will check if the waypoint is not found. If the waypoint couldn't be found then stuff after this 'if' happens.

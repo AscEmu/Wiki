@@ -15,8 +15,8 @@ Returns the Display ID of a unit.
 
 ```
 function CheckDisplayId(Unit)
-	if(Unit:GetDisplay()==10990) then
-		Unit:SendChatMessage(12, 0, "I'm a Panda!")
-	end
+  if(Unit:GetDisplay()==10990) then
+    Unit:SendChatMessage(12, 0, "I'm a Panda!")
+  end
 end
 ```
