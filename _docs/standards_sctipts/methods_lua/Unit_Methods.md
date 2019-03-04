@@ -22,7 +22,7 @@ GetAuraObject(slot)                                                             
 GetByteValue(index, index1)                                                                                  | Returns the Byte value at index, index1.
 [GetClosestEnemy()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestEnemy)               | Returns the closest Unit to the Unit considered 'hostile'.
 [GetClosestFriend()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestFriend)             | Returns the closest Unit to the Unit considered 'friendly'.
-GetClosestPlayer()                                                                                           | Returns the closets player to the Unit.
+[GetClosestPlayer()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestPlayer)             | Returns the closets player to the Unit.
 GetCoinage()                                                                                                 | Returns the amount of copper the player has.
 GetCreatureNearestCoords(x, y, z, id)                                                                        | Returns a creature that with the specified ID that is closest to the co-ordinates given.
 GetCurrentSkill(skill)                                                                                       | Returns the player's Skill level of the skill specified.
