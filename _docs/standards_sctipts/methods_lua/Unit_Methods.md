@@ -5,11 +5,12 @@ layout: single_markdown
 position: 4
 ---
 
+[Moooo()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/moooo)
 
 # Get (Return) Methods
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
-GetAccountName()                                                                                             | Returns the player's account name.
+[GetAccountName()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAccountName)                 | Returns the player's account name.
 GetAddTank()                                                                                                 | Returns the Unit second on the Unit's threat table.
 GetAIState()                                                                                                 | Returns the Unit's AI state.
 GetAITargets()                                                                                               | Returns all units with threat on the Unit's threat table.
@@ -284,7 +285,7 @@ AdvanceAllSkills(amount)                                                        
 AdvanceSkill(skill, count)                                                                                   | Advances the skill by count.
 AggroWithInRangeFriends()                                                                                    | Unknown. See core for usage.
 Attack(target)                                                                                               | Clears the threat list, taunts the target and makes the Unit attack it.
-AttackReaction(target, damage, spell)                                                                        | Adds threat to the target (***Not damage***) using the spell specified.
+AttackReaction(target, damage, spell)                                                                        | Adds threat to the target (*Not damage*) using the spell specified.
 CancelSpell()                                                                                                | Stops casting the current spell.
 CastSpell(spell)                                                                                             | Casts the specified spell. Any cast time is ignored.
 CastSpellAoF(x, y, z, id)                                                                                    | Casts the targeted AoE spell (Think Blizzard & Shadowfury) at the given area. Ignores cast times.
@@ -434,7 +435,7 @@ GetGroupPlayers()                                                               
 ------------------------------------------------------------------------------------------------------------ | ---------- 
 GetGuildLeader()                                                                                             | Returns a string value of the Guild Leader's name
 IsInGuild()                                                                                                  | Returns true if the Unit is in a guild, otherwise false.
-GetGuildId()                                                                                                 | Returns the player's Guild ID. ***Note that the guild ID is NOT the guild name.***
+GetGuildId()                                                                                                 | Returns the player's Guild ID. *Note that the guild ID is NOT the guild name.*
 GetGuildName()                                                                                               | Returns the player's guild name.
 GetGuildMotd()                                                                                               | Returns the Message of the Day from the specified unit's guild.
 SetGuildMotd(string)                                                                                         | Sets the Message of the Day of the unit's guild to the string given.
@@ -519,24 +520,24 @@ SetVar(var [, subindex], value)                                                 
 GetVar(var [, subindex])                                                                                     | See above, but returns the value on success or nil on failure.
 GetAuraSlot()                                                                                                | Returns the current slot of the aura. Gonna update this page at saturday - Ice.
 SetAuraSlot(slot)                                                                                            | Sets the slot of the aura.
-Remove()                                                                                                     | Removes ***ALL*** effects and events by the aura. (Triggers, effect, etc.) 
+Remove()                                                                                                     | Removes *ALL* effects and events by the aura. (Triggers, effect, etc.) 
 GetTimeLeft()                                                                                                | Returns the duration left of the aura.
 
 
 # Vehicle Methods
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
-AddVehiclePassenger( creature_entry )                                                                        | Spawns an NPC and adds it as a passenger to the vehicle.
+AddVehiclePassenger(creature_entry)                                                                          | Spawns an NPC and adds it as a passenger to the vehicle.
 DismissVehicle()                                                                                             | Dismisses the vehicle of the selected unit.
 EjectAllVehiclePassengers()                                                                                  | Ejects all passengers from the Unit's vehicle.
-EjectVehiclePassengerFromSeat( seat )                                                                        | Ejects the passenger from the specified seat of the Unit's vehicle.
-MoveVehiclePassengerToSeat( unit, seat )                                                                     | Moves the specified passenger of the unit's vehicle to another seat.
-EnterVehicle( guid, delay )                                                                                  | Makes the Unit enter a vehicle.
+EjectVehiclePassengerFromSeat(seat)                                                                          | Ejects the passenger from the specified seat of the Unit's vehicle.
+MoveVehiclePassengerToSeat(unit, seat)                                                                       | Moves the specified passenger of the unit's vehicle to another seat.
+EnterVehicle(guid, delay)                                                                                    | Makes the Unit enter a vehicle.
 ExitVehicle()                                                                                                | Makes the Unit exit it's vehicle.
 GetVehicleBase()                                                                                             | Retrieves the base unit of the Unit's vehicle. 
 IsOnVehicle()                                                                                                | Tells if the unit is on a vehicle. 
 HasEmptyVehicleSeat()                                                                                        | Tells if the Unit's vehicle has an empty seat. 
-SpawnAndEnterVehicle( creature_entry, delay )                                                                | Spawns a new vehicle and makes the Unit enter it.
+SpawnAndEnterVehicle(creature_entry, delay)                                                                  | Spawns a new vehicle and makes the Unit enter it.
 
 
 # Deprecated Methods
