@@ -25,9 +25,9 @@ GetByteValue(index, index1)                                                     
 [GetClosestPlayer()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestPlayer)                            | Returns the closets player to the Unit.
 [GetCoinage()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCoinage)                                        | Returns the amount of copper the player has.
 [GetCreatureNearestCoords(x, y, z, id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCreatureNearestCoords) | Returns a creature that with the specified ID that is closest to the co-ordinates given.
-GetCurrentSkill(skill)                                                                                                      | Returns the player's Skill level of the skill specified.
-GetCurrentSpell()                                                                                                           | Returns a SPELL object.
-GetCurrentSpellId()                                                                                                         | Returns the spell entry ID that is current casting.
+[GetCurrentSkill(skill)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCurrentSkill)                         | Returns the player's Skill level of the skill specified.
+[GetCurrentSpell()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCurrentSpell)                              | Returns a *spell* object.
+[GetCurrentSpellId()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCurrentSpellId)                          | Returns the spell entry ID that is current casting.
 GetCurrentWaypoint()                                                                                                        | Returns the waypoint the Unit is currently at.
 GetDisplay()                                                                                                                | Returns the Unit's current display ID.
 GetDistance(target)                                                                                                         | Returns the number of pixels between the Unit and target.
