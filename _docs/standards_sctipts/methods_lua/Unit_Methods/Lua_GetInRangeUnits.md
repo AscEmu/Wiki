@@ -17,7 +17,7 @@ array = pUnit:GetInRangeUnits()
 
 Returns a table of unit objects, close to pUnit.
 
-## Example 1
+## Example
 
 ```
 function ListNearestNPC(pUnit)

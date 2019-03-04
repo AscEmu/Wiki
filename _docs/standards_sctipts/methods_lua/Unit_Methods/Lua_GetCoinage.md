@@ -11,7 +11,7 @@ position: 8
 
 Returns the amount of copper a player has.
 
-## Gold/Silver/Copper Examples
+## Gold/Silver/Copper Example
 
 ---------- | ---------- 
 1 Copper   | 1
@@ -20,7 +20,7 @@ Returns the amount of copper a player has.
 
 10 Gold 53 Silver 14 Copper = 105314
 
-## Usage/Examples
+## Usage/Example
 
 ```
 function DealCost(player)

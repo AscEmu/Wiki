@@ -11,7 +11,7 @@ position: 14
 
 Returns the Display ID of a unit.
 
-## Usage/Examples
+## Usage/Example
 
 ```
 function CheckDisplayId(Unit)
