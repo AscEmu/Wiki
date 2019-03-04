@@ -28,8 +28,8 @@ GetByteValue(index, index1)                                                     
 [GetCurrentSkill(skill)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCurrentSkill)                         | Returns the player's Skill level of the skill specified.
 [GetCurrentSpell()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCurrentSpell)                              | Returns a *spell* object.
 [GetCurrentSpellId()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCurrentSpellId)                          | Returns the spell entry ID that is current casting.
-GetCurrentWaypoint()                                                                                                        | Returns the waypoint the Unit is currently at.
-GetDisplay()                                                                                                                | Returns the Unit's current display ID.
+[GetCurrentWaypoint()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCurrentWaypoint)                        | Returns the waypoint the Unit is currently at.
+[GetDisplay()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetDisplay)                                        | Returns the Unit's current display ID.
 GetDistance(target)                                                                                                         | Returns the number of pixels between the Unit and target.
 GetDistanceYards(target)                                                                                                    | Returns the number of yards between the Unit and target.
 GetDuelState()                                                                                                              | Returns the stage in which a duel is taking place with the unit. 0 (Requested), 1 (Started) or 2 (Finished).
@@ -520,7 +520,7 @@ SetVar(var [, subindex], value)                                                 
 GetVar(var [, subindex])                                                                                     | See above, but returns the value on success or nil on failure.
 GetAuraSlot()                                                                                                | Returns the current slot of the aura. Gonna update this page at saturday - Ice.
 SetAuraSlot(slot)                                                                                            | Sets the slot of the aura.
-Remove()                                                                                                     | Removes *ALL* effects and events by the aura. (Triggers, effect, etc.) 
+Remove()                                                                                                     | Removes *all* effects and events by the aura. (Triggers, effect, etc.) 
 GetTimeLeft()                                                                                                | Returns the duration left of the aura.
 
 
