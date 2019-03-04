@@ -9,113 +9,113 @@ position: 4
 
 # Get (Return) Methods
 
------------------------------------------------------------------------------------------------------------- | ---------- 
-[GetAccountName()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAccountName)                 | Returns the player's account name.
-[GetAddTank()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAddTank)                         | Returns the Unit second on the Unit's threat table.
-[GetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAIState)                         | Returns the Unit's AI state.
-GetAITargets()                                                                                               | Returns all units with threat on the Unit's threat table.
-GetAITargetsCount()                                                                                          | Returns the amount of units with threat on the Unit's threat table.
-GetAreaId()                                                                                                  | Returns the Unit's area id.
-GetAura(slot)                                                                                                | Returns the spell id of the aura in the slot specified.
-GetAuraObject(slot)                                                                                          | Returns an AURA object from the slot specified.
-[GetAuraObjectById(spell id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAuraObjectById)   | Returns a aura object with the entered spell id.
-GetByteValue(index, index1)                                                                                  | Returns the Byte value at index, index1.
-[GetClosestEnemy()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestEnemy)               | Returns the closest Unit to the Unit considered 'hostile'.
-[GetClosestFriend()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestFriend)             | Returns the closest Unit to the Unit considered 'friendly'.
-[GetClosestPlayer()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestPlayer)             | Returns the closets player to the Unit.
-[GetCoinage()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCoinage)                         | Returns the amount of copper the player has.
-GetCreatureNearestCoords(x, y, z, id)                                                                        | Returns a creature that with the specified ID that is closest to the co-ordinates given.
-GetCurrentSkill(skill)                                                                                       | Returns the player's Skill level of the skill specified.
-GetCurrentSpell()                                                                                            | Returns a SPELL object.
-GetCurrentSpellId()                                                                                          | Returns the spell entry ID that is current casting.
-GetCurrentWaypoint()                                                                                         | Returns the waypoint the Unit is currently at.
-GetDisplay()                                                                                                 | Returns the Unit's current display ID.
-GetDistance(target)                                                                                          | Returns the number of pixels between the Unit and target.
-GetDistanceYards(target)                                                                                     | Returns the number of yards between the Unit and target.
-GetDuelState()                                                                                               | Returns the stage in which a duel is taking place with the unit. 0 (Requested), 1 (Started) or 2 (Finished).
-GetDungeonDifficulty()                                                                                       | Returns the dungeon difficulty of the Unit.
-GetEntry()                                                                                                   | Returns the Unit's entry id (does not work for items).
-GetEntryId()                                                                                                 | Same as GetEntry, but used for items.
-GetEquippedItemBySlot(slot)                                                                                  | Returns an ITEM object from the item in the slot specified.
-GetFaction()                                                                                                 | Returns the Unit's faction.
-GetFactionStanding(faction)                                                                                  | Returns a string value of the Unit's standing with the faction.
-GetFloatValue()                                                                                              | Returns the Unit's float value.
-GetGameObjectNearestCoords(x, y, z, id)                                                                      | Returns the object closest to the co-ordinates specified with the id designated.
-GetGender()                                                                                                  | Returns a numerical representation of the Unit's gender.
-GetGmRank()                                                                                                  | Returns the player's GM rank in string form (Ie, "a", "az"). Returns nil when the player is not a GM.
-GetGUID()                                                                                                    | Returns the Unit's GUID. A GUID is a unique number assigned to each and every object, unit and player in AE.
-GetHealth()                                                                                                  | Returns an absolute value of the Unit's health.
-GetHealthPct()                                                                                               | Returns a percentage of the Unit's health.
-GetHonorToday()                                                                                              | Returns all Honor earned by the Unit today.
-GetHonorYesterday()                                                                                          | Returns the Unit's honor that was earnt yesterday.
-GetInRangeEnemies()                                                                                          | Returns all hostiles in range of the Unit.
-GetInRangeFriends()                                                                                          | Returns all friendlies in range of the Unit.
-GetInRangeObjects()                                                                                          | Returns all nearby GameObjects in range of the Unit.
-GetInRangeObjectsCount()                                                                                     | Returns a count of all the GameObjects in range of the Unit.
-GetInRangePlayers()                                                                                          | Returns all players in range of the Unit.
-GetInRangePlayersCount()                                                                                     | Returns a count of all the players in range of the Unit.
-GetInRangeUnits()                                                                                            | Returns all units in the range of the Unit.
-GetInstanceID()                                                                                              | Return the Unit's instance id.
-GetInstanceID()                                                                                              | Returns the Unit's Instance ID.
-GetInstanceOwner()                                                                                           | Returns the owner of Unit's instance.
-GetInventoryItem(bag, bagslot)                                                                               | Returns the item in the player's inventory in specified bag and slot.
-GetInventoryItemById(entry)                                                                                  | Returns the slot that the item is in in the player's inventory.
-GetItemCount(item)                                                                                           | Returns how many of an item the Unit has.
-GetLocation()                                                                                                | Returns the Unit's x, y, z and o co-ordinates.
-GetMainTank()                                                                                                | Returns the Unit with the highest threat on the Unit's threat table.
-GetMana()                                                                                                    | Returns an absolute value of the Unit's mana.
-GetManaPct()                                                                                                 | Returns a percentage of the Unit's mana.
-GetMapId()                                                                                                   | Returns the Unit's map id.
-GetMaxHealth()                                                                                               | Returns the maximum amount of health the Unit can have.
-GetMaxMana()                                                                                                 | Returns the maximum amount of mana the Unit can have.
-GetMaxPower(type)                                                                                            | Returns the absolute value of the Unit's power (If type is specified, that type is returned instead).
-GetMaxSkill(skill)                                                                                           | Returns the player's Max Skill level of the skill specified.
-GetName()                                                                                                    | Returns the Unit's name.
-GetNativeDisplay()                                                                                           | Returns the Unit's spawn display ID.
-GetNativeFaction()                                                                                           | Returns the Unit's spawn faction.
-GetNextTarget()                                                                                              | Returns the target set by SetNextTarget(target).
-GetNumWaypoints()                                                                                            | Returns the amount of waypoints that Unit has.
-GetO()                                                                                                       | Returns the Unit's o co-ordinate.
-GetObject(guid)                                                                                              | Returns a Unit based on the GUID given.
-GetObjectType()                                                                                              | Returns 'Player' or 'Unit' depending on the Unit.
-GetPlayerClass()                                                                                             | Returns a string representation of the player's class.
-GetPlayerLevel()                                                                                             | Returns the Unit's level.
-GetPlayerMovementFlags()                                                                                     | Returns the movement flag of the player. See page for more information.
-GetPlayerMovementVector()                                                                                    | Returns information about the Player's movement. 
-GetPlayerRace()                                                                                              | Returns a numerical representation of the player's race.
-GetPower(type)                                                                                               | Returns an absolute value of the Unit's power (If type is specified, that type is returned instead).
-GetPowerPct(type)                                                                                            | Return a percentage of the Unit's power (If type is specified, that type is returned instead).
-GetPowerType()                                                                                               | Returns a numerical representation of the Unit's power type.
-GetPrimaryCombatTarget()                                                                                     | Returns the Unit that the Unit is attacking.
-GetRandomEnemy()                                                                                             | Returns a Unit that is considered an Enemy to the Unit.
-GetRandomFriend()                                                                                            | Gets a Unit that is considered a Friend to the Unit.
-GetRandomPlayer(flag)                                                                                        | Returns a random player based on the flag specified. See page for more details.
-GetSelectedGO()                                                                                              | Returns the player's currently selected GameObject.
-GetSelection()                                                                                               | Returns the player's currently selected Unit.
-GetSoulLinkedWith()                                                                                          | Returns the Unit that the unit specified is soul-linked with. To Soul-Link a mob, use SetSoulLinkedWith().
-GetSpawnId()                                                                                                 | Returns the Unit's spawn ID.
-GetSpawnLocation()                                                                                           | Returns the Unit's spawn x, y, and z co-ordinates.
-GetSpawnO()                                                                                                  | Return the Unit's spawn position x co-ordinate.
-GetSpawnX()                                                                                                  | Return the Unit's spawn position x co-ordinate.
-GetSpawnY()                                                                                                  | Return the Unit's spawn position x co-ordinate.
-GetSpawnZ()                                                                                                  | Return the Unit's spawn position x co-ordinate.
-GetStanding(faction)                                                                                         | Returns a numerical value of the Unit's standing with the faction.
-GetStealthLevel()                                                                                            | Returns the Unit's stealth level. To set the stealth level, use SetStealthLevel().
-GetTalentPoints(spec)                                                                                        | Returns the player's free talent points in the player's primary (0) spec or secondary (1) spec.
-GetTauntedBy()                                                                                               | Returns the Unit that taunted the Unit.
-GetTaxi()                                                                                                    | Returns the taxi that the player is on.
-GetTeam()                                                                                                    | Returns 1 if Horde, and 0 if Alliance.
-GetThreat(target)                                                                                            | Returns the amount of threat that the Unit has with the target specified.
-GetTotalHonor()                                                                                              | Returns the unit's total honor.
-GetUInt32Value(field)                                                                                        | Returns the UInt32Value for Unit at field.
-GetUInt64Value(field)                                                                                        | Returns the UInt64Value for Unit at field.
-GetUnitByGUID(guid)                                                                                          | Returns the Unit with the GUID specified.
-GetUnitBySqlId(id)                                                                                           | Returns the Unit with the specified SQL ID.
-GetUnitToFollow()                                                                                            | Returns the unit that the Unit specified is following.
-GetX()                                                                                                       | Returns the Unit's x co-ordinate.
-GetY()                                                                                                       | Returns the Unit's y co-ordinate.
-GetZ()                                                                                                       | Returns the Unit's z co-ordinate.
-GetZoneId()                                                                                                  | Returns the Unit's zone id.
+--------------------------------------------------------------------------------------------------------------------------- | ---------- 
+[GetAccountName()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAccountName)                                | Returns the player's account name.
+[GetAddTank()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAddTank)                                        | Returns the Unit second on the Unit's threat table.
+[GetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAIState)                                        | Returns the Unit's AI state.
+GetAITargets()                                                                                                              | Returns all units with threat on the Unit's threat table.
+GetAITargetsCount()                                                                                                         | Returns the amount of units with threat on the Unit's threat table.
+GetAreaId()                                                                                                                 | Returns the Unit's area id.
+GetAura(slot)                                                                                                               | Returns the spell id of the aura in the slot specified.
+GetAuraObject(slot)                                                                                                         | Returns an AURA object from the slot specified.
+[GetAuraObjectById(spell id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAuraObjectById)                  | Returns a aura object with the entered spell id.
+GetByteValue(index, index1)                                                                                                 | Returns the Byte value at index, index1.
+[GetClosestEnemy()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestEnemy)                              | Returns the closest Unit to the Unit considered 'hostile'.
+[GetClosestFriend()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestFriend)                            | Returns the closest Unit to the Unit considered 'friendly'.
+[GetClosestPlayer()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetClosestPlayer)                            | Returns the closets player to the Unit.
+[GetCoinage()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCoinage)                                        | Returns the amount of copper the player has.
+[GetCreatureNearestCoords(x, y, z, id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetCreatureNearestCoords) | Returns a creature that with the specified ID that is closest to the co-ordinates given.
+GetCurrentSkill(skill)                                                                                                      | Returns the player's Skill level of the skill specified.
+GetCurrentSpell()                                                                                                           | Returns a SPELL object.
+GetCurrentSpellId()                                                                                                         | Returns the spell entry ID that is current casting.
+GetCurrentWaypoint()                                                                                                        | Returns the waypoint the Unit is currently at.
+GetDisplay()                                                                                                                | Returns the Unit's current display ID.
+GetDistance(target)                                                                                                         | Returns the number of pixels between the Unit and target.
+GetDistanceYards(target)                                                                                                    | Returns the number of yards between the Unit and target.
+GetDuelState()                                                                                                              | Returns the stage in which a duel is taking place with the unit. 0 (Requested), 1 (Started) or 2 (Finished).
+GetDungeonDifficulty()                                                                                                      | Returns the dungeon difficulty of the Unit.
+GetEntry()                                                                                                                  | Returns the Unit's entry id (does not work for items).
+GetEntryId()                                                                                                                | Same as GetEntry, but used for items.
+GetEquippedItemBySlot(slot)                                                                                                 | Returns an ITEM object from the item in the slot specified.
+GetFaction()                                                                                                                | Returns the Unit's faction.
+GetFactionStanding(faction)                                                                                                 | Returns a string value of the Unit's standing with the faction.
+GetFloatValue()                                                                                                             | Returns the Unit's float value.
+GetGameObjectNearestCoords(x, y, z, id)                                                                                     | Returns the object closest to the co-ordinates specified with the id designated.
+GetGender()                                                                                                                 | Returns a numerical representation of the Unit's gender.
+GetGmRank()                                                                                                                 | Returns the player's GM rank in string form (Ie, "a", "az"). Returns nil when the player is not a GM.
+GetGUID()                                                                                                                   | Returns the Unit's GUID. A GUID is a unique number assigned to each and every object, unit and player in AE.
+GetHealth()                                                                                                                 | Returns an absolute value of the Unit's health.
+GetHealthPct()                                                                                                              | Returns a percentage of the Unit's health.
+GetHonorToday()                                                                                                             | Returns all Honor earned by the Unit today.
+GetHonorYesterday()                                                                                                         | Returns the Unit's honor that was earnt yesterday.
+GetInRangeEnemies()                                                                                                         | Returns all hostiles in range of the Unit.
+GetInRangeFriends()                                                                                                         | Returns all friendlies in range of the Unit.
+GetInRangeObjects()                                                                                                         | Returns all nearby GameObjects in range of the Unit.
+GetInRangeObjectsCount()                                                                                                    | Returns a count of all the GameObjects in range of the Unit.
+GetInRangePlayers()                                                                                                         | Returns all players in range of the Unit.
+GetInRangePlayersCount()                                                                                                    | Returns a count of all the players in range of the Unit.
+GetInRangeUnits()                                                                                                           | Returns all units in the range of the Unit.
+GetInstanceID()                                                                                                             | Return the Unit's instance id.
+GetInstanceID()                                                                                                             | Returns the Unit's Instance ID.
+GetInstanceOwner()                                                                                                          | Returns the owner of Unit's instance.
+GetInventoryItem(bag, bagslot)                                                                                              | Returns the item in the player's inventory in specified bag and slot.
+GetInventoryItemById(entry)                                                                                                 | Returns the slot that the item is in in the player's inventory.
+GetItemCount(item)                                                                                                          | Returns how many of an item the Unit has.
+GetLocation()                                                                                                               | Returns the Unit's x, y, z and o co-ordinates.
+GetMainTank()                                                                                                               | Returns the Unit with the highest threat on the Unit's threat table.
+GetMana()                                                                                                                   | Returns an absolute value of the Unit's mana.
+GetManaPct()                                                                                                                | Returns a percentage of the Unit's mana.
+GetMapId()                                                                                                                  | Returns the Unit's map id.
+GetMaxHealth()                                                                                                              | Returns the maximum amount of health the Unit can have.
+GetMaxMana()                                                                                                                | Returns the maximum amount of mana the Unit can have.
+GetMaxPower(type)                                                                                                           | Returns the absolute value of the Unit's power (If type is specified, that type is returned instead).
+GetMaxSkill(skill)                                                                                                          | Returns the player's Max Skill level of the skill specified.
+GetName()                                                                                                                   | Returns the Unit's name.
+GetNativeDisplay()                                                                                                          | Returns the Unit's spawn display ID.
+GetNativeFaction()                                                                                                          | Returns the Unit's spawn faction.
+GetNextTarget()                                                                                                             | Returns the target set by SetNextTarget(target).
+GetNumWaypoints()                                                                                                           | Returns the amount of waypoints that Unit has.
+GetO()                                                                                                                      | Returns the Unit's o co-ordinate.
+GetObject(guid)                                                                                                             | Returns a Unit based on the GUID given.
+GetObjectType()                                                                                                             | Returns 'Player' or 'Unit' depending on the Unit.
+GetPlayerClass()                                                                                                            | Returns a string representation of the player's class.
+GetPlayerLevel()                                                                                                            | Returns the Unit's level.
+GetPlayerMovementFlags()                                                                                                    | Returns the movement flag of the player. See page for more information.
+GetPlayerMovementVector()                                                                                                   | Returns information about the Player's movement. 
+GetPlayerRace()                                                                                                             | Returns a numerical representation of the player's race.
+GetPower(type)                                                                                                              | Returns an absolute value of the Unit's power (If type is specified, that type is returned instead).
+GetPowerPct(type)                                                                                                           | Return a percentage of the Unit's power (If type is specified, that type is returned instead).
+GetPowerType()                                                                                                              | Returns a numerical representation of the Unit's power type.
+GetPrimaryCombatTarget()                                                                                                    | Returns the Unit that the Unit is attacking.
+GetRandomEnemy()                                                                                                            | Returns a Unit that is considered an Enemy to the Unit.
+GetRandomFriend()                                                                                                           | Gets a Unit that is considered a Friend to the Unit.
+GetRandomPlayer(flag)                                                                                                       | Returns a random player based on the flag specified. See page for more details.
+GetSelectedGO()                                                                                                             | Returns the player's currently selected GameObject.
+GetSelection()                                                                                                              | Returns the player's currently selected Unit.
+GetSoulLinkedWith()                                                                                                         | Returns the Unit that the unit specified is soul-linked with. To Soul-Link a mob, use SetSoulLinkedWith().
+GetSpawnId()                                                                                                                | Returns the Unit's spawn ID.
+GetSpawnLocation()                                                                                                          | Returns the Unit's spawn x, y, and z co-ordinates.
+GetSpawnO()                                                                                                                 | Return the Unit's spawn position x co-ordinate.
+GetSpawnX()                                                                                                                 | Return the Unit's spawn position x co-ordinate.
+GetSpawnY()                                                                                                                 | Return the Unit's spawn position x co-ordinate.
+GetSpawnZ()                                                                                                                 | Return the Unit's spawn position x co-ordinate.
+GetStanding(faction)                                                                                                        | Returns a numerical value of the Unit's standing with the faction.
+GetStealthLevel()                                                                                                           | Returns the Unit's stealth level. To set the stealth level, use SetStealthLevel().
+GetTalentPoints(spec)                                                                                                       | Returns the player's free talent points in the player's primary (0) spec or secondary (1) spec.
+GetTauntedBy()                                                                                                              | Returns the Unit that taunted the Unit.
+GetTaxi()                                                                                                                   | Returns the taxi that the player is on.
+GetTeam()                                                                                                                   | Returns 1 if Horde, and 0 if Alliance.
+GetThreat(target)                                                                                                           | Returns the amount of threat that the Unit has with the target specified.
+GetTotalHonor()                                                                                                             | Returns the unit's total honor.
+GetUInt32Value(field)                                                                                                       | Returns the UInt32Value for Unit at field.
+GetUInt64Value(field)                                                                                                       | Returns the UInt64Value for Unit at field.
+GetUnitByGUID(guid)                                                                                                         | Returns the Unit with the GUID specified.
+GetUnitBySqlId(id)                                                                                                          | Returns the Unit with the specified SQL ID.
+GetUnitToFollow()                                                                                                           | Returns the unit that the Unit specified is following.
+GetX()                                                                                                                      | Returns the Unit's x co-ordinate.
+GetY()                                                                                                                      | Returns the Unit's y co-ordinate.
+GetZ()                                                                                                                      | Returns the Unit's z co-ordinate.
+GetZoneId()                                                                                                                 | Returns the Unit's zone id.
 
 
 # Gossip Methods
