@@ -18,7 +18,7 @@ GetAITargetsCount()                                                             
 GetAreaId()                                                                                                  | Returns the Unit's area id.
 GetAura(slot)                                                                                                | Returns the spell id of the aura in the slot specified.
 GetAuraObject(slot)                                                                                          | Returns an AURA object from the slot specified.
-GetAuraObjectById(spell id)                                                                                  | Returns a aura object with the entered spell id.
+[GetAuraObjectById(spell id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAuraObjectById)   | Returns a aura object with the entered spell id.
 GetByteValue(index, index1)                                                                                  | Returns the Byte value at index, index1.
 GetClosestEnemy()                                                                                            | Returns the closest Unit to the Unit considered 'hostile'.
 GetClosestFriend()                                                                                           | Returns the closest Unit to the Unit considered 'friendly'.
