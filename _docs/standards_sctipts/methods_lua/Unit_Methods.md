@@ -11,7 +11,7 @@ position: 4
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
 [GetAccountName()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAccountName)                 | Returns the player's account name.
-GetAddTank()                                                                                                 | Returns the Unit second on the Unit's threat table.
+[GetAddTank()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAddTank)                         | Returns the Unit second on the Unit's threat table.
 GetAIState()                                                                                                 | Returns the Unit's AI state.
 GetAITargets()                                                                                               | Returns all units with threat on the Unit's threat table.
 GetAITargetsCount()                                                                                          | Returns the amount of units with threat on the Unit's threat table.
