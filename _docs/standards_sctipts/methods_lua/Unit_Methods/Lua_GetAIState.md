@@ -5,7 +5,9 @@ layout: single_markdown
 position: 3
 ---
 
-# Syntax
+# Lua GetAIState
+
+## Syntax
 
 ```
 int State = pPlayer:GetAIState()
@@ -14,7 +16,7 @@ int State = pPlayer:GetAIState()
 Similar to: '[SetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SetAIState)'
 
 
-# Return Values
+## Return Values
 
 ---------- | ---------- 
 Value      | Description
@@ -31,11 +33,11 @@ Value      | Description
 10         | STATE_SCRIPTMOVE
 11         | STATE_SCRIPTIDLE
 
-# Description
+## Description
 
 Will get the unit's AI-State and return the value.
 
-# Example
+## Example
 
 This example will get the player's AI-State when he/she enters the world and simply reset it. 
 Same as in '[SetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SetAIState)'.
