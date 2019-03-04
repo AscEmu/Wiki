@@ -5,7 +5,7 @@ layout: single_markdown
 position: 4
 ---
 
-# Lua_GetAuraObjectById
+# Lua GetAuraObjectById
 
 ## Information
 
