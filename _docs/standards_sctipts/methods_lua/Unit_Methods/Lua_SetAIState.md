@@ -5,7 +5,9 @@ layout: single_markdown
 position: $
 ---
 
-# Syntax
+# Lua SetAIState
+
+## Syntax
 
 ```
 pUnit:SetAIState(int State)
@@ -28,11 +30,11 @@ Value      | Description
 10         | STATE_SCRIPTMOVE
 11         | STATE_SCRIPTIDLE
 
-# Description
+## Description
 
 Sets the unit's AI-State.
 
-# Example
+## Example
 
 This example will reset the player's AI-State when he/she enters the world.
 
