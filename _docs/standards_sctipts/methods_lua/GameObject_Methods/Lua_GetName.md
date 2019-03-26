@@ -11,7 +11,7 @@ position: 2
 
 Returns the name of a unit or gameobject.    
 
-## Example
+## Usage/Example
 
 ```
 function Someone_OnEnterCombat(pUnit, Event)

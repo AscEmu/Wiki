@@ -20,7 +20,7 @@ GOSSIP_EVENT_ON_TALK             | 1          | When a player talks to the npc t
 GOSSIP_EVENT_ON_SELECT_OPTION    | 2          | When a player selects an intid in a menu this function is activated
 GOSSIP_EVENT_ON_END              | 3          | When a gossip is ended this function is activated
 
-## Example
+## Usage/Example
 
 ```
 --[[ Beginning of the menu.

@@ -34,7 +34,7 @@ Value      | Description
 
 Sets the unit's AI-State.
 
-## Example
+## Usage/Example
 
 This example will reset the player's AI-State when he/she enters the world.
 

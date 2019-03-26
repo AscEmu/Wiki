@@ -17,7 +17,7 @@ entry = pUnit:GetEntry()
 
 Returns the entry ID of the unit. Works for NPC as well as for GO
 
-## Example
+## Usage/Example
 
 ```
 function CheckUnits(pUnit)

@@ -15,6 +15,6 @@ Used to find the instance ID number of the instance the unit is in, if the unit 
 
 ```
 function OnSpawn(pUnit)
-	INSTANCES[pUnit:GetInstanceID()]["MyMob"] = pUnit:GetGUID() -- Store our GUID inside this instances' table.
+  INSTANCES[pUnit:GetInstanceID()]["MyMob"] = pUnit:GetGUID() -- Store our GUID inside this instances' table.
 end
 ```

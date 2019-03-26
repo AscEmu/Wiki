@@ -11,7 +11,7 @@ position: 1
 
 Returns the player's account name.
 
-## Example
+## Usage/Example
 
 ```
 print(pPlayer:GetAccountName())

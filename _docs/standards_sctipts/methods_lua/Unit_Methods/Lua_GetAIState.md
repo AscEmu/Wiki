@@ -37,7 +37,7 @@ Value      | Description
 
 Will get the unit's AI-State and return the value.
 
-## Example
+## Usage/Example
 
 This example will get the player's AI-State when he/she enters the world and simply reset it. 
 Same as in '[SetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SetAIState)'.

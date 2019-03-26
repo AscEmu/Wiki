@@ -15,7 +15,7 @@ pObject = pUnit:GetGameObjectNearestCoords(x, y, z, id)
 
 Returns the gameobject with given ID that is nearest the given coordinates.
 
-## Example
+## Usage/Example
 
 This example opens (or closes) a door.
 

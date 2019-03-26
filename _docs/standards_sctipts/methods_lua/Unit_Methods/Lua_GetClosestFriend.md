@@ -17,7 +17,7 @@ pFriend = pUnit:GetClosestFriend()
 
 Will get the closest unit that is considered 'friendly'.
 
-## Example
+## Usage/Example
 
 ```
 function OnEnterWorld(event, pPlayer)

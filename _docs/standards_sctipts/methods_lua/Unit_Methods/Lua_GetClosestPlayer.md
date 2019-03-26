@@ -17,7 +17,7 @@ pPlayer = pUnit:GetClosestPlayer()
 
 Used when you want the unit to target the closest player in range. Target must be a player and is a unit-only command. It is recommended to add nil checks after registering this command.
 
-## Example
+## Usage/Example
 
 ```
 function OnEnterWorld(event, pPlayer)

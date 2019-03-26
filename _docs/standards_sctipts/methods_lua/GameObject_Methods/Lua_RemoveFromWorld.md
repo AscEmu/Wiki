@@ -15,7 +15,7 @@ pGameObject:RemoveFromWorld()
 
 Removes a GameObject from the world. It doesn't delete it in the database.
 
-## Example
+## Usage/Example
 
 ```
 PerformIngameSpawn(2, 179697, 0, -13203, 277, 22, 4.18, 100, 0)

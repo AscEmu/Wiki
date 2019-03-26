@@ -24,7 +24,7 @@ Will return:
  1   | Started
  2   | Finished
 
-## Examples
+## Usage/Example
 
 ```
 wombat = pPlayer:GetDuelState()

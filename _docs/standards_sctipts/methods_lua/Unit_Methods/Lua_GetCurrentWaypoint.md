@@ -18,7 +18,7 @@ target = pUnit:GetCurrentWaypoint()
 Will indicate where the current waypoint is for the selected unit and then return this waypoint.
 A waypoint should always be returned unless the target unit doesn't exist.
 
-## Example
+## Usage/Example
 
 ```
 function OnEnterWorld(event, pPlayer)

@@ -17,7 +17,7 @@ int Skillvalue = pPlayer:GetCurrentSkill(int Skillid)
 
 With :GetCurrentSkill(id) you can find the level of a user's skill. A skill such as: One Handed Swords, Defense, Axes.
 
-## Example
+## Usage/Example
 
 This example shows you how to check and display the user's Defense. Note: Use this for a Gossip NPC!
 

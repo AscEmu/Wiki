@@ -6,3 +6,5 @@ position: $
 ---
 
 # Mooo
+
+[MoooId()]

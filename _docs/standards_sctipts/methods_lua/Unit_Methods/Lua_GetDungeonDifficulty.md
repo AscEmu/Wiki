@@ -7,7 +7,7 @@ position: 17
 
 # Lua GetDungeonDifficulty
 
-## Example
+## Usage/Example
 
 ```
 function VHC_OnSpawn (Unit, Event)

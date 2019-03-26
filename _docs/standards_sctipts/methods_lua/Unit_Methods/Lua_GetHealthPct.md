@@ -18,7 +18,7 @@ Unit:GetHealthPct()
 player:GetHealthPct()
 ```
 
-## Example
+## Usage/Example
 
 ```
 function NPCScript(Unit)

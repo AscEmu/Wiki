@@ -17,7 +17,7 @@ pEnemy = pUnit:GetClosestEnemy()
 
 Will get the closest unit that is considered 'hostile' (so 'unfriendly').
 
-## Example
+## Usage/Example
 
 ```
 function OnEnterWorld(event, pPlayer)

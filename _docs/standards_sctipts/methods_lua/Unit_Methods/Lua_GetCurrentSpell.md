@@ -11,7 +11,7 @@ position: 11
 
 Returns the spell ID of the spell being cast by the target (or unit if no target is defined), if one is being cast at time of registration. Useful if your mob is susceptible to silence or interrupt effects.
 
-## Example
+## Usage/Example
 
 This example would be used to make the unit cast a spell on itself (with cast time), and if interrupted at least 10 milliseconds after being cast, registers the function again so it begins to cast the spell a second time.          
 This example would repeat casting if it was silenced each time, otherwise it would register your next event ("Next_Event").

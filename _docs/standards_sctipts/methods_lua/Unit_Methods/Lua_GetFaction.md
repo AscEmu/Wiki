@@ -28,7 +28,7 @@ Returns the numerical value representing the units faction.
 1610: Blood Elf
 ```
 
-## Usage/Examples
+## Usage/Example
 
 ```
 function ReturnFaction(pUnit)
