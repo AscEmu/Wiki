@@ -55,66 +55,65 @@ GetInRangeObjectsCount()                                                        
 [GetInRangePlayers()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetInRangePlayers)                                         | Returns all players in range of the Unit.
 [GetInRangePlayersCount()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetInRangePlayersCount)                               | Returns a count of all the players in range of the Unit.
 [GetInRangeUnits()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetInRangeUnits)                                             | Returns all units in the range of the Unit.
-GetInstanceID()                                                                                                                            | Return the Unit's instance id.
+[GetInstanceID()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetInstanceID)                                                 | Return the Unit's instance id.
 GetInstanceOwner()                                                                                                                         | Returns the owner of Unit's instance.
 GetInventoryItem(bag, bagslot)                                                                                                             | Returns the item in the player's inventory in specified bag and slot.
 GetInventoryItemById(entry)                                                                                                                | Returns the slot that the item is in in the player's inventory.
-GetItemCount(item)                                                                                                                         | Returns how many of an item the Unit has.
-GetLocation()                                                                                                                              | Returns the Unit's x, y, z and o co-ordinates.
-GetMainTank()                                                                                                                              | Returns the Unit with the highest threat on the Unit's threat table.
-GetMana()                                                                                                                                  | Returns an absolute value of the Unit's mana.
-GetManaPct()                                                                                                                               | Returns a percentage of the Unit's mana.
-GetMapId()                                                                                                                                 | Returns the Unit's map id.
-GetMaxHealth()                                                                                                                             | Returns the maximum amount of health the Unit can have.
-GetMaxMana()                                                                                                                               | Returns the maximum amount of mana the Unit can have.
-GetMaxPower(type)                                                                                                                          | Returns the absolute value of the Unit's power (If type is specified, that type is returned instead).
-GetMaxSkill(skill)                                                                                                                         | Returns the player's Max Skill level of the skill specified.
-GetName()                                                                                                                                  | Returns the Unit's name.
+[GetItemCount(item)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetItemCount)                                               | Returns how many of an item the Unit has.
+[GetLocation()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetLocation)                                                     | Returns the Unit's x, y, z and o co-ordinates.
+[GetMainTank()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetMainTank)                                                     | Returns the Unit with the highest threat on the Unit's threat table.
+[GetMana()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetMana)                                                             | Returns an absolute value of the Unit's mana.
+[GetManaPct()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetManaPct)                                                       | Returns a percentage of the Unit's mana.
+[GetMapId()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetMapId)                                                           | Returns the Unit's map id.
+[GetMaxHealth()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetMaxHealth)                                                   | Returns the maximum amount of health the Unit can have.
+[GetMaxMana()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetMaxMana)                                                       | Returns the maximum amount of mana the Unit can have.
+[GetMaxPower(type)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetMaxPower)                                                 | Returns the absolute value of the Unit's power (If type is specified, that type is returned instead).
+[GetMaxSkill(skill)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetMaxSkill)                                                | Returns the player's Max Skill level of the skill specified.
+[GetName(skill)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetName)                                                        | Returns the Unit's name.
 GetNativeDisplay()                                                                                                                         | Returns the Unit's spawn display ID.
 GetNativeFaction()                                                                                                                         | Returns the Unit's spawn faction.
-GetNextTarget()                                                                                                                            | Returns the target set by SetNextTarget(target).
+[GetNextTarget()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetNextTarget)                                                 | Returns the target set by SetNextTarget(target).
 GetNumWaypoints()                                                                                                                          | Returns the amount of waypoints that Unit has.
-GetO()                                                                                                                                     | Returns the Unit's o co-ordinate.
+[GetO()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetO)                                                                   | Returns the Unit's o co-ordinate.
 GetObject(guid)                                                                                                                            | Returns a Unit based on the GUID given.
 GetObjectType()                                                                                                                            | Returns 'Player' or 'Unit' depending on the Unit.
-GetPlayerClass()                                                                                                                           | Returns a string representation of the player's class.
-GetPlayerLevel()                                                                                                                           | Returns the Unit's level.
+[GetPlayerClass()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetPlayerClass)                                               | Returns a string representation of the player's class.
+[GetPlayerLevel()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetPlayerLevel)                                               | Returns the Unit's level.
 GetPlayerMovementFlags()                                                                                                                   | Returns the movement flag of the player. See page for more information.
 GetPlayerMovementVector()                                                                                                                  | Returns information about the Player's movement. 
-GetPlayerRace()                                                                                                                            | Returns a numerical representation of the player's race.
-GetPower(type)                                                                                                                             | Returns an absolute value of the Unit's power (If type is specified, that type is returned instead).
-GetPowerPct(type)                                                                                                                          | Return a percentage of the Unit's power (If type is specified, that type is returned instead).
-GetPowerType()                                                                                                                             | Returns a numerical representation of the Unit's power type.
+[GetPlayerRace()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetPlayerRace)                                                 | Returns a numerical representation of the player's race.
+[GetPower(type)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetPower)                                                       | Returns an absolute value of the Unit's power (If type is specified, that type is returned instead).
+[GetPowerPct(type)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetPowerPct)                                                 | Return a percentage of the Unit's power (If type is specified, that type is returned instead).
+[GetPowerType()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetPowerType)                                                   | Returns a numerical representation of the Unit's power type.
 GetPrimaryCombatTarget()                                                                                                                   | Returns the Unit that the Unit is attacking.
-GetRandomEnemy()                                                                                                                           | Returns a Unit that is considered an Enemy to the Unit.
-GetRandomFriend()                                                                                                                          | Gets a Unit that is considered a Friend to the Unit.
-GetRandomPlayer(flag)                                                                                                                      | Returns a random player based on the flag specified. See page for more details.
-GetSelectedGO()                                                                                                                            | Returns the player's currently selected GameObject.
-GetSelection()                                                                                                                             | Returns the player's currently selected Unit.
+[GetRandomEnemy()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetRandomEnemy)                                               | Returns a Unit that is considered an Enemy to the Unit.
+[GetRandomFriend()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetRandomFriend)                                             | Gets a Unit that is considered a Friend to the Unit.
+[GetRandomPlayer()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetRandomPlayer)                                             | Returns a random player based on the flag specified. See page for more details.
+[GetSelection()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetSelection)                                                   | Returns the player's currently selected Unit.
 GetSoulLinkedWith()                                                                                                                        | Returns the Unit that the unit specified is soul-linked with. To Soul-Link a mob, use SetSoulLinkedWith().
 GetSpawnId()                                                                                                                               | Returns the Unit's spawn ID.
-GetSpawnLocation()                                                                                                                         | Returns the Unit's spawn x, y, and z co-ordinates.
-GetSpawnO()                                                                                                                                | Return the Unit's spawn position x co-ordinate.
-GetSpawnX()                                                                                                                                | Return the Unit's spawn position x co-ordinate.
-GetSpawnY()                                                                                                                                | Return the Unit's spawn position x co-ordinate.
-GetSpawnZ()                                                                                                                                | Return the Unit's spawn position x co-ordinate.
-GetStanding(faction)                                                                                                                       | Returns a numerical value of the Unit's standing with the faction.
+[GetSpawnLocation()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetSpawnLocation)                                           | Returns the Unit's spawn x, y, and z co-ordinates.
+[GetSpawnO()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetSpawnO)                                                         | Return the Unit's spawn position x co-ordinate.
+[GetSpawnX()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetSpawnX)                                                         | Return the Unit's spawn position x co-ordinate.
+[GetSpawnY()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetSpawnY)                                                         | Return the Unit's spawn position x co-ordinate.
+[GetSpawnZ()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetSpawnZ)                                                         | Return the Unit's spawn position x co-ordinate.
+[GetStanding(faction)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetStanding)                                              | Returns a numerical value of the Unit's standing with the faction.
 GetStealthLevel()                                                                                                                          | Returns the Unit's stealth level. To set the stealth level, use SetStealthLevel().
 GetTalentPoints(spec)                                                                                                                      | Returns the player's free talent points in the player's primary (0) spec or secondary (1) spec.
-GetTauntedBy()                                                                                                                             | Returns the Unit that taunted the Unit.
+[GetTauntedBy()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetTauntedBy)                                                   | Returns the Unit that taunted the Unit.
 GetTaxi()                                                                                                                                  | Returns the taxi that the player is on.
-GetTeam()                                                                                                                                  | Returns 1 if Horde, and 0 if Alliance.
+[GetTeam()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetTeam)                                                             | Returns 1 if Horde, and 0 if Alliance.
 GetThreat(target)                                                                                                                          | Returns the amount of threat that the Unit has with the target specified.
 GetTotalHonor()                                                                                                                            | Returns the unit's total honor.
-GetUInt32Value(field)                                                                                                                      | Returns the UInt32Value for Unit at field.
+[GetUInt32Value(field)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetUInt32Value)                                          | Returns the UInt32Value for Unit at field.
 GetUInt64Value(field)                                                                                                                      | Returns the UInt64Value for Unit at field.
-GetUnitByGUID(guid)                                                                                                                        | Returns the Unit with the GUID specified.
-GetUnitBySqlId(id)                                                                                                                         | Returns the Unit with the specified SQL ID.
+[GetUnitByGUID(guid)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetUnitByGUID)                                             | Returns the Unit with the GUID specified.
+[GetUnitBySqlId(id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetUnitBySqlId)                                             | Returns the Unit with the specified SQL ID.
 GetUnitToFollow()                                                                                                                          | Returns the unit that the Unit specified is following.
-GetX()                                                                                                                                     | Returns the Unit's x co-ordinate.
-GetY()                                                                                                                                     | Returns the Unit's y co-ordinate.
-GetZ()                                                                                                                                     | Returns the Unit's z co-ordinate.
-GetZoneId()                                                                                                                                               | Returns the Unit's zone id.
+[GetX()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetX)                                                                   | Returns the Unit's x co-ordinate.
+[GetY()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetY)                                                                   | Returns the Unit's y co-ordinate.
+[GetZ()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetZ)                                                                   | Returns the Unit's z co-ordinate.
+GetZoneId()                                                                                                                                | Returns the Unit's zone id.
 
 
 # Gossip Methods
