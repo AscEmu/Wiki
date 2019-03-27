@@ -11,8 +11,9 @@ position: 61
 
 Will return a numerical value 0 or 1. 
 
-0 = Alliance      
-1 = Horde      
+---- | ------
+0    | Alliance
+1    | Horde     
 
 ## Syntax
 

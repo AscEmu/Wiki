@@ -15,8 +15,8 @@ Returns the Unit's maximum amount of mana.
 
 ```
 function NPC_Spawn(pUnit)
-   if (pUnit:GetMana() < pUnit:GetMaxMana()) then
-      pUnit:SetMana(pUnit:GetMaxMana())
-   end
+  if (pUnit:GetMana() < pUnit:GetMaxMana()) then
+    pUnit:SetMana(pUnit:GetMaxMana())
+  end
 end
 ```

@@ -15,11 +15,6 @@ This method is used to find the mana in an absolute value of the unit when the m
 
 ```
 Unit:GetMana()
-```
-
-or
-
-```
 Player:GetMana()
 ```
 

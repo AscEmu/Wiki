@@ -18,5 +18,5 @@ position: $
 ## Usage/Example
 
 ```
-[MoooId()]()
+Mooo
 ```
