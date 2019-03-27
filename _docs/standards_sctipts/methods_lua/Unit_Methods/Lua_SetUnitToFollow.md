@@ -9,4 +9,8 @@ position: 93
 
 ## Description
 
-You can easily do this Unit:SetUnitToFollow(player, 1, 0)
+You can easily do this.
+
+```
+Unit:SetUnitToFollow(player, 1, 0)
+```

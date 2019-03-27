@@ -10,6 +10,7 @@ position: 94
 ## Description
 
 (../world/Units/Players/PlayerDefines.hpp)
+
 ```
 enum RankTitles : uint16_t
 {

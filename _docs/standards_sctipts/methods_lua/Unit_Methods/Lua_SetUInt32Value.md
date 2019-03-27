@@ -8,9 +8,8 @@ position: 92
 # Lua SetUInt32Value
 
 ## Description
-
-52: ITEM_FIELD_ENCHANTMENT_11_1
-46: UNIT_FIELD_FLAGS              -- in wow ver: 3.3.5a.
+         
+46: UNIT_FIELD_FLAGS -- in wow ver: 3.3.5a.           
 
 Here are some of the Unit field flags flags. These are the same flags as in the field flags in the creature_spawns table.
 
