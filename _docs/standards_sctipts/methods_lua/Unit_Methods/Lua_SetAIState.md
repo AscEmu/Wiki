@@ -2,7 +2,7 @@
 title: Lua_SetAIState
 type: standards_lua
 layout: single_markdown
-position: $
+position: 78
 ---
 
 # Lua SetAIState
