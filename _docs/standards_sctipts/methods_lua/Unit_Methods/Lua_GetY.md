@@ -7,15 +7,15 @@ position: 65
 
 # Lua GetY
 
+## Description
+
+Returns the X-Value of the Unit.
+
 ## Syntax
 
 ```
 GetY() - No Arguments
 ```
-
-## Description
-
-Returns the X-Value of the Unit.
 
 ## Usage/Example
 

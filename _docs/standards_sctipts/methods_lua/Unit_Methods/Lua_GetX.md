@@ -7,15 +7,15 @@ position: 64
 
 # Lua GetX
 
+## Description
+
+Returns the X-Value of the Unit.
+
 ## Syntax
 
 ```
 GetX() - No Arguments
 ```
-
-## Description
-
-Returns the X-Value of the Unit.
 
 ## Usage/Example
 

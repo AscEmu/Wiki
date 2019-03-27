@@ -7,15 +7,15 @@ position: 40
 
 # Lua GetMaxSkill
 
+## Description
+
+Will return the level of the given skill. A skill ID must be used, not skill names!
+
 ## Syntax
 
 ```
 int MaxSkill = pPlayer:GetMaxSkill(int SkillID)
 ```
-
-## Description
-
-Will return the level of the given skill. A skill ID must be used, not skill names!
 
 ## Usage/Example
 

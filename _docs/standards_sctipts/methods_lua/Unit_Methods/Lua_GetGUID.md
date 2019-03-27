@@ -7,15 +7,15 @@ position: 24
 
 # Lua GetGUID
 
+## Description
+
+Returns the GUID for the selected target and returns a UInt64 value. If target is empty it returns the GUID of the player.
+
 ## Syntax
 
 ```
 pUnit:GetGUID([target])
 ```
-
-## Description
-
-Returns the GUID for the selected target and returns a UInt64 value. If target is empty it returns the GUID of the player.
 
 ## Usage/Example
 

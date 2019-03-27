@@ -7,15 +7,15 @@ position: 49
 
 # Lua GetRandomEnemy
 
+## Description
+
+Will get a random 'enemy' near the unit. That means get a random unit seen as 'hostile'.
+
 ## Syntax
 
 ```
 pRandomEnemy = pUnit:GetRandomEnemy()
 ```
-
-## Description
-
-Will get a random 'enemy' near the unit. That means get a random unit seen as 'hostile'.
 
 ## Usage/Example
 

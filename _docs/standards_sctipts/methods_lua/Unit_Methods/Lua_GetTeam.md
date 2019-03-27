@@ -7,18 +7,18 @@ position: 61
 
 # Lua GetTeam
 
-## Syntax
-
-```
-int Team = pPlayer:GetTeam()
-```
-
 ## Description
 
 Will return a numerical value 0 or 1. 
 
 0 = Alliance      
 1 = Horde      
+
+## Syntax
+
+```
+int Team = pPlayer:GetTeam()
+```
 
 ## Usage/Example
 

@@ -7,15 +7,15 @@ position: 27
 
 # Lua GetInRangePlayers
 
+## Description
+
+Returns a table of player objects, close to pUnit.
+
 ## Syntax
 
 ```
 array = pUnit:GetInRangePlayers()
 ```
-
-## Description
-
-Returns a table of player objects, close to pUnit.
 
 ## Example 1
 

@@ -7,15 +7,15 @@ position: 29
 
 # Lua GetInRangeUnits
 
+## Description
+
+Returns a table of unit objects, close to pUnit.
+
 ## Syntax
 
 ```
 array = pUnit:GetInRangeUnits()
 ```
-
-## Description
-
-Returns a table of unit objects, close to pUnit.
 
 ## Usage/Example
 

@@ -7,15 +7,15 @@ position: 42
 
 # Lua GetO
 
+## Description
+
+Returns the oriantation.
+
 ## Syntax
 
 ```
 :GetO() - No Arguments
 ```
-
-## Description
-
-Returns the oriantation.
 
 ## Usage/Example
 
