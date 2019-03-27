@@ -19,10 +19,10 @@ A Gossip NPC MUST have the Gossip NPC flag. Currently, the Gossip flag for an NP
 object pUnit:GossipCreateMenu(int text_id, object pPlayer, int AutoSend)
 ```
 
-pUnit, menu sender object. Usually NPC, gameobject or item, also player is accepted.
-text_id, Entry from npc_text table. Use locales_npc_text for languages other than english.
-pPlayer, player object, who the menu is created for.
-AutoSend, defines if the menu is autosended. If AutoSend is not 0, then the menu is autosended and no GossipSendMenu() is needed.
+pUnit, menu sender object. Usually NPC, gameobject or item, also player is accepted.            
+text_id, Entry from npc_text table. Use locales_npc_text for languages other than english.            
+pPlayer, player object, who the menu is created for.            
+AutoSend, defines if the menu is autosended. If AutoSend is not 0, then the menu is autosended and no GossipSendMenu() is needed.            
 
 ## Usage/Example
 

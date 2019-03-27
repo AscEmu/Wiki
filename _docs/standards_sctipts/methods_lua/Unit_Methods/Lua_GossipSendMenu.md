@@ -16,11 +16,11 @@ If the gossip window is not closed with this method, the menu will freeze. Use t
 
 ```
 local function NPC_GossipHello(pUnit, event, pPlayer)
-	pUnit:GossipCreateMenu(100, pPlayer, 0)
-	pUnit:GossipMenuAddItem(0, "Close menu", 1, 0)
-	pUnit:GossipMenuAddItem(0, "Return to main menu", 2, 0)
-	pUnit:GossipMenuAddItem(0, "Menu freeze test", 3, 0)
-	pUnit:GossipSendMenu(pPlayer)
+  pUnit:GossipCreateMenu(100, pPlayer, 0)
+  pUnit:GossipMenuAddItem(0, "Close menu", 1, 0)
+  pUnit:GossipMenuAddItem(0, "Return to main menu", 2, 0)
+  pUnit:GossipMenuAddItem(0, "Menu freeze test", 3, 0)
+  pUnit:GossipSendMenu(pPlayer)
 end
  
 function NPC_GossipSelect(pUnit, event, pPlayer, id, intid, code)
