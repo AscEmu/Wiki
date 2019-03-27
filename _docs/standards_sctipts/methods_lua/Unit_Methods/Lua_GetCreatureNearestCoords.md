@@ -7,9 +7,11 @@ position: 9
 
 # Lua GetCreatureNearestCoords
 
-## Usage/Example
+## Description
 
 This example shows a healing ward targeting a creature and then casting a healing spell on it:
+
+## Usage/Example
 
 ```
 function Healing_Ward(Unit, Event)

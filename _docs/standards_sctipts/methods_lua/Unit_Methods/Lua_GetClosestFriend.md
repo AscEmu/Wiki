@@ -7,11 +7,11 @@ position: 6
 
 # Lua GetClosestFriend
 
-## Syntax
-
 ## Description
 
 Will get the closest unit that is considered 'friendly'.
+
+## Syntax
 
 ```
 pFriend = pUnit:GetClosestFriend()

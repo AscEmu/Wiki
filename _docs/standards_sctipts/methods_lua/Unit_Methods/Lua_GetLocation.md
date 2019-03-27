@@ -7,9 +7,11 @@ position: 32
 
 # Lua GetLocation
 
-## How to use
+## Description
 
 Declare four variables to hold the coordinates, and assign them to the values returned from this function.
+
+## Usage/Example
 
 ```
 function foo(Unit, Event)

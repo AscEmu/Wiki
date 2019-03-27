@@ -7,11 +7,11 @@ position: 16
 
 # Lua GetDuelState
 
-## Syntax
-
 ## Description
 
 Will indicate if the unit is in a duel state.
+
+## Syntax
 
 ```
 int State = pPlayer:GetDuelState()

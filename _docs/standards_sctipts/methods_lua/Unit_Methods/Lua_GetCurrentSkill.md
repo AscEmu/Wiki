@@ -7,11 +7,11 @@ position: 10
 
 # Lua GetCurrentSkill
 
-## Syntax
-
 ## Description
 
 With :GetCurrentSkill(id) you can find the level of a user's skill. A skill such as: One Handed Swords, Defense, Axes.
+
+## Syntax
 
 ```
 int Skillvalue = pPlayer:GetCurrentSkill(int Skillid)
