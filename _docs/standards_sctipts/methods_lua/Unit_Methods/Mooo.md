@@ -7,4 +7,4 @@ position: $
 
 # Mooo
 
-[MoooId()]
+[MoooId()]()
