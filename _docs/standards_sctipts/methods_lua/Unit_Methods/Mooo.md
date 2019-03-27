@@ -7,4 +7,16 @@ position: $
 
 # Mooo
 
+## Description
+
+...
+
+## Syntax
+
+...
+
+## Usage/Example
+
+```
 [MoooId()]()
+```

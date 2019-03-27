@@ -11,7 +11,7 @@ position: 35
 
 Used to find the percent of mana the target has at the time it is called. Will return a numeric value and can be used on units and players.
 
-## Usage
+## Syntax
 
 ```
 Unit:GetManaPct()

@@ -7,15 +7,15 @@ position: 66
 
 # Lua GetZ
 
+## Description
+
+Returns the X-Value of the Unit.
+
 ## Syntax
 
 ```
 GetZ() - No Arguments
 ```
-
-## Description
-
-Returns the X-Value of the Unit.
 
 ## Usage/Example
 

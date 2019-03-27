@@ -11,7 +11,7 @@ position: 26
 
 This method is used to find the health percentage of the unit when the method is called. Will return a numeric value and can be used on both units and players.
 
-## Usage
+## Syntax
 
 ```
 Unit:GetHealthPct()

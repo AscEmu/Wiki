@@ -7,6 +7,10 @@ position: $
 
 # Lua SetAIState
 
+## Description
+
+Sets the unit's AI-State.
+
 ## Syntax
 
 ```
@@ -29,10 +33,6 @@ Value      | Description
 9          | STATE_STOPPED
 10         | STATE_SCRIPTMOVE
 11         | STATE_SCRIPTIDLE
-
-## Description
-
-Sets the unit's AI-State.
 
 ## Usage/Example
 
