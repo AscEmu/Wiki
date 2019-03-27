@@ -9,13 +9,13 @@ position: 16
 
 ## Syntax
 
-```
-int State = pPlayer:GetDuelState()
-```
-
 ## Description
 
 Will indicate if the unit is in a duel state.
+
+```
+int State = pPlayer:GetDuelState()
+```
 
 Will return:
 

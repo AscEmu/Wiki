@@ -11,7 +11,7 @@ position: 51
 
 This command returns a random player specified by these numbers:
 
-(scripts/LuaEngine/LUAEngine.h)
+(../scripts/LuaEngine/LUAEngine.h)
 
 ```
 RANDOM_ANY           = 0

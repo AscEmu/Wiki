@@ -7,6 +7,8 @@ position: 31
 
 # Lua GetItemCount
 
+## Description
+
 Returns the number of items in a player's inventory to the NPC script. You can also use HasItem() if you are just looking for one non-stackable item. HasItem is a bool (if) command, must be used with an "if" statement. Examples and description here:
 
 ## Syntax

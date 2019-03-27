@@ -7,15 +7,15 @@ position: 5
 
 # Lua GetClosestEnemy
 
+## Description
+
+Will get the closest unit that is considered 'hostile' (so 'unfriendly').
+
 ## Syntax
 
 ```
 pEnemy = pUnit:GetClosestEnemy()
 ```
-
-## Description
-
-Will get the closest unit that is considered 'hostile' (so 'unfriendly').
 
 ## Usage/Example
 

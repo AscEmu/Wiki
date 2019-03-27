@@ -7,15 +7,15 @@ position: 7
 
 # Lua GetClosestPlayer
 
+## Description
+
+Used when you want the unit to target the closest player in range. Target must be a player and is a unit-only command. It is recommended to add nil checks after registering this command.
+
 ## Syntax
 
 ```
 pPlayer = pUnit:GetClosestPlayer()
 ```
-
-## Description
-
-Used when you want the unit to target the closest player in range. Target must be a player and is a unit-only command. It is recommended to add nil checks after registering this command.
 
 ## Usage/Example
 

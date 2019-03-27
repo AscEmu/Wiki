@@ -7,6 +7,8 @@ position: 33
 
 # Lua GetMainTank
 
+## Description
+
 This returns whatever player has the most aggro/threat. It can be used to determine if an event will take place, or to select a unit to cast spells on, etc.
 
 ## Usage/Example:

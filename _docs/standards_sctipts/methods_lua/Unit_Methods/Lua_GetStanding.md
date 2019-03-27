@@ -19,5 +19,4 @@ function NPCGossip(pUnit, Event, player)
     pUnit:SendChatMessage(12, 0, "Example")
 end
 end
-
 ```

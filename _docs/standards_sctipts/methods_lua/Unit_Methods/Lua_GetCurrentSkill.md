@@ -9,13 +9,13 @@ position: 10
 
 ## Syntax
 
-```
-int Skillvalue = pPlayer:GetCurrentSkill(int Skillid)
-```
-
 ## Description
 
 With :GetCurrentSkill(id) you can find the level of a user's skill. A skill such as: One Handed Swords, Defense, Axes.
+
+```
+int Skillvalue = pPlayer:GetCurrentSkill(int Skillid)
+```
 
 ## Usage/Example
 

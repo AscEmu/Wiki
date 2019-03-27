@@ -7,15 +7,15 @@ position: 1
 
 # Lua GetEntry
 
+## Description
+
+Returns the entry ID of the unit. Works for NPC as well as for GO.        
+
 ## Syntax
 
 ```
 entry = pUnit:GetEntry()
 ```
-
-## Description
-
-Returns the entry ID of the unit. Works for NPC as well as for GO.        
 
 ## Usage/Example
 

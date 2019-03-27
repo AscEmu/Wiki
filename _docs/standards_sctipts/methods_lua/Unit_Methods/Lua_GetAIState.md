@@ -7,6 +7,10 @@ position: 3
 
 # Lua GetAIState
 
+## Description
+
+Will get the unit's AI-State and return the value.
+
 ## Syntax
 
 ```
@@ -32,10 +36,6 @@ Value      | Description
 9          | STATE_STOPPED
 10         | STATE_SCRIPTMOVE
 11         | STATE_SCRIPTIDLE
-
-## Description
-
-Will get the unit's AI-State and return the value.
 
 ## Usage/Example
 

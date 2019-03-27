@@ -7,13 +7,15 @@ position: 21
 
 # Lua GetGameObjectNearestCoords
 
+## Description
+
+Returns the gameobject with given ID that is nearest the given coordinates.
+
 ## Syntax
 
 ```
 pObject = pUnit:GetGameObjectNearestCoords(x, y, z, id) 
 ```
-
-Returns the gameobject with given ID that is nearest the given coordinates.
 
 ## Usage/Example
 

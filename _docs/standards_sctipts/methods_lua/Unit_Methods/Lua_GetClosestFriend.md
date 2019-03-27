@@ -9,13 +9,13 @@ position: 6
 
 ## Syntax
 
-```
-pFriend = pUnit:GetClosestFriend()
-```
-
 ## Description
 
 Will get the closest unit that is considered 'friendly'.
+
+```
+pFriend = pUnit:GetClosestFriend()
+```
 
 ## Usage/Example
 
