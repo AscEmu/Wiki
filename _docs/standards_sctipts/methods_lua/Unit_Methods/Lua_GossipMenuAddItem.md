@@ -23,7 +23,8 @@ Name, option name/label. Shows up in the gossip window.
 Intid, a key value for gossip select hook. Used for linking a script to the option.                    
 Code, defines whether the player needs to fill a code box before doing anything. If 0, then no codebox, if 1, then show codebox. The player inserted code is sended to gossip select hook.                    
 Popup, defines whther a popup is shown to the player or not and what the popup says. Use blank "" for no popup. Optional.                    
-Gold, the amount of copper required to access the menu. The player will be notified if the requirement is not matched. The amount needed is notified when the option is clicked. The copper is NOT removed, this needs to be done in gossip select hook. Optional.                    
+Gold, the amount of copper required to access the menu. The player will be notified if the requirement is not matched. The amount needed is notified when the option is clicked.              
+The copper is NOT removed, this needs to be done in gossip select hook. Optional.                    
 
 ## Usage/Example
 
