@@ -11,6 +11,8 @@ position: 93
 
 You can easily do this.
 
+## Syntax
+
 ```
 Unit:SetUnitToFollow(player, 1, 0)
 ```

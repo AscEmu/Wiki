@@ -14,7 +14,7 @@ Returns the X-Value of the Unit.
 ## Syntax
 
 ```
-GetY() - No Arguments
+GetY() -- No Arguments
 ```
 
 ## Usage/Example

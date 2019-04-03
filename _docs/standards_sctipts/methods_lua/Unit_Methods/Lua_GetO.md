@@ -14,7 +14,7 @@ Returns the oriantation.
 ## Syntax
 
 ```
-:GetO() - No Arguments
+:GetO() -- No Arguments
 ```
 
 ## Usage/Example
