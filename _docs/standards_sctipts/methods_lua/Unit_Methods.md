@@ -222,52 +222,49 @@ WipeThreatList()                                                                
 # Is/Has (Boolean) Methods
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
-
-
-
 IsCasting()                                                                                                                                               | Returns true if the Unit is casting, otherwise false.
-IsGm()                                                                                                                                                    | Returns true if the Unit has GM levels, otherwise false.
+[IsGm()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsGm)                                                                                  | Returns true if the Unit has GM levels, otherwise false.
 CanUseCommand("level")                                                                                                                                    | Returns true if the Unit can use the specified level ("a" is usually GM, "az" for an admin).
 HasSpell(spell)                                                                                                                                           | Returns true if the Unit has the spell specified, false if not.
 HasSkill(skill)                                                                                                                                           | Returns true if the Unit has the skill specified, false if not.
-HasNegativeAura()                                                                                                                                         | Returns true if the Unit has a debuff on them, otherwise it returns false.
-HasPositiveAura()                                                                                                                                         | The same as HasNegativeAura(), but with buffs instead of debuffs.
-IsMounted()                                                                                                                                               | Returns true if the Unit is mounted, false if not.
-IsPlayerMoving()                                                                                                                                          | Returns true if the player is moving, false if not.
-HasItem(item)                                                                                                                                             | Returns true if the player has the item specified, false if not.
-IsPlayerAttacking()                                                                                                                                       | Returns true if the player is attacking, false if not.
-IsPacified()                                                                                                                                              | Returns true if the unit is pacified, false if not.
-IsPoisoned()                                                                                                                                              | Returns true if the unit is poisoned, false if not.
-IsStunned()                                                                                                                                               | Returns true if the unit is stunned, false if not.
-IsDazed()                                                                                                                                                 | Returns true if the Unit is dazed, otherwise false.
-IsFeared()                                                                                                                                                | Returns true if the Unit is feared, otherwise false. 
-IsFlying()                                                                                                                                                | Returns true if the Unit is flying, otherwise false.
+[HasNegativeAura()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_HasNegativeAura)                                                            | Returns true if the Unit has a debuff on them, otherwise it returns false.
+[HasPositiveAura()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_HasPositiveAura)                                                            | The same as HasNegativeAura(), but with buffs instead of debuffs.
+[IsMounted()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsMounted)                                                                        | Returns true if the Unit is mounted, false if not.
+[IsPlayerMoving()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsPlayerMoving)                                                              | Returns true if the player is moving, false if not.
+[HasItem(item)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_HasItem)                                                                        | Returns true if the player has the item specified, false if not.
+[IsPlayerAttacking()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsPlayerAttacking)                                                        | Returns true if the player is attacking, false if not.
+[IsPacified()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsPacified)                                                                      | Returns true if the unit is pacified, false if not.
+[IsPoisoned()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsPoisoned)                                                                      | Returns true if the unit is poisoned, false if not.
+[IsStunned()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsStunned)                                                                        | Returns true if the unit is stunned, false if not.
+[IsDazed()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsDazed)                                                                            | Returns true if the Unit is dazed, otherwise false.
+[IsFeared()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsFeared)                                                                          | Returns true if the Unit is feared, otherwise false. 
+[IsFlying()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsFlying)                                                                          | Returns true if the Unit is flying, otherwise false.
 CanAttack(target)                                                                                                                                         | Returns true if the unit can attack the target, false if not.
-IsPlayer()                                                                                                                                                | Returns true if the Unit is a player, otherwise returns false.
-IsCreatureMoving()                                                                                                                                        | Akin to IsPlayerMoving() for creatures.
+[IsPlayer()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsPlayer)                                                                          | Returns true if the Unit is a player, otherwise returns false.
+IsCreatureMoving()                                                                                                                                        | Akin to [IsPlayerMoving()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsPlayerMoving) for creatures.
 IsOnTaxi()                                                                                                                                                | Returns true if the Unit is on a taxi, otherwise false.
 IsPet()                                                                                                                                                   | Returns true if the Unit is a pet, otherwise false.
 IsStealthed()                                                                                                                                             | Returns true if the Unit is stealthed, otherwise false.
 IsAlive()                                                                                                                                                 | Returns true if the Unit is alive, otherwise false.
 IsDead()                                                                                                                                                  | Returns true if the Unit is dead, otherwise false.
-IsFriendly(target)                                                                                                                                        | Returns true if the target is friendly to the Unit, otherwise false.
-IsHostile(target)                                                                                                                                         | IsFriendly() for hostile Units.
+[IsFriendly(target)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsFriendly)                                                                | Returns true if the target is friendly to the Unit, otherwise false.
+IsHostile(target)                                                                                                                                         | [IsFriendly(target)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsFriendly) for hostile Units.
 HasFlag(index, flag)                                                                                                                                      | Returns true if the Unit possess the flag at index, otherwise false.
 IsInWorld()                                                                                                                                               | Returns true if the Unit is in the world, otherwise false.
 IsInDungeon()                                                                                                                                             | Returns true if the Unit is in a dungeon, otherwise false.
 IsInRaid()                                                                                                                                                | IsInDungeon() for raids.
-IsCreature()                                                                                                                                              | Returns true if the Unit is a creature, otherwise false.
+[IsCreature()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsCreature)                                                                      | Returns true if the Unit is a creature, otherwise false.
 IsInBack(target)                                                                                                                                          | Returns true if the Unit is considered 'behind' target.
 IsInFront(target)                                                                                                                                         | Returns true if the Unit is considered 'in front' target.
 HasInRangeObjects()                                                                                                                                       | Returns true if there are GameObjects in range of the Unit.
-HasAura(id)                                                                                                                                               | Returns true if the Unit is afflicted by an aura with the id specified, otherwise false.
+[HasAura(id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_HasAura)                                                                          | Returns true if the Unit is afflicted by an aura with the id specified, otherwise false.
 HasAuraWithMechanic(mechanic)                                                                                                                             | Returns true if the Unit has an aura that has a specific mechanic. See page for more details.
 IsRooted()                                                                                                                                                | Returns true if the Unit is rooted, otherwise false.
 IsInPhase(phase)                                                                                                                                          | Returns true if the Unit is in the specified phase, otherwise false.
 IsInWater()                                                                                                                                               | Returns true if the Unit is in water, otherwise false.
 IsPvPFlagged()                                                                                                                                            | Returns true if the Unit is flagged for PvP, otherwise false.
 IsFFAPvPFlagged()                                                                                                                                         | Returns true if the Unit is flagged for free for all, otherwise false.
-IsInCombat()                                                                                                                                              | Returns true if the Unit is in Combat, otherwise false.
+[IsInCombat()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsInCombat)                                                                      | Returns true if the Unit is in Combat, otherwise false.
 IsAttackable(target)                                                                                                                                      | Returns true if Unit can attack target, otherwise false.
 HasTitle(id)                                                                                                                                              | Returns true if the Unit has the title specified, otherwise false.
 
