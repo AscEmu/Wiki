@@ -2,7 +2,7 @@
 title: Lua_IsInCombat
 type: standards_lua
 layout: single_markdown
-position: 111
+position: 112
 ---
 
 # Lua IsInCombat
