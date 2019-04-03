@@ -420,18 +420,18 @@ SendPacketToGroup(packet)                                                       
 ExpandToRaid()                                                                                                                                                           | Forcibly changes the Unit's group to a raid.
 IsGroupFull()                                                                                                                                                            | Returns true if the group is full, false if not.
 GetGroupType()                                                                                                                                                           | Returns the player's group type. Returns nil if the player is not in a group.
-GetGroupLeader()                                                                                                                                                         | Returns a object of the player's group leader.
+[GetGroupLeader()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetGroupLeader)                                                                             | Returns a object of the player's group leader.
 SetGroupLeader(newleader[, silent])                                                                                                                                      | Promotes the player specified to the Group Leader. If silent is set to true, then no message is made in the chat frame.
 IsInGroup()                                                                                                                                                              | Returns true if the player is in a group, false if not.
 IsGroupedWith(target)                                                                                                                                                    | Returns true if the player is in a group with the target, false if not.
 AddGroupMember(target)                                                                                                                                                   | Adds the Target to the Player's group.
-GetGroupPlayers()                                                                                                                                                        | Returns a table with the userdata of all players in Unit's group.
+[GetGroupPlayers()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetGroupPlayers)                                                                           | Returns a table with the userdata of all players in Unit's group.
 
 
 # Guild Methods
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------
-GetGuildLeader()                                                                                                                                                         | Returns a string value of the Guild Leader's name
+[GetGuildLeader()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetGuildLeader)                                                                             | Returns a string value of the Guild Leader's name
 IsInGuild()                                                                                                                                                              | Returns true if the Unit is in a guild, otherwise false.
 GetGuildId()                                                                                                                                                             | Returns the player's Guild ID. *Note that the guild ID is NOT the guild name.*
 GetGuildName()                                                                                                                                                           | Returns the player's guild name.
@@ -481,13 +481,13 @@ IsInArc(target, degrees)                                                        
 StartQuest(Id)                                                                                                                                                           | Force-start the quest with the given ID. If any items are required for the quest, these are automatically added.
 FinishQuest(Id)                                                                                                                                                          | Forces the Unit to finish quest ID. Rewards are not given.
 HasQuest(Id)                                                                                                                                                             | Returns true if the Unit has the quest, returns false otherwise.
-MarkQuestObjectiveAsComplete(QuestID, Objective)                                                                                                                         | Marks the objective of questid as completed.
-HasFinishedQuest(Id)                                                                                                                                                     | Returns true if the unit has completed the quest, false otherwise.
+[MarkQuestObjectiveAsComplete(QuestID, Objective)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_MarkQuestObjectiveAsComplete)                               | Marks the objective of questid as completed.
+[HasFinishedQuest(Id)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_HasFinishedQuest)                                                                       | Returns true if the unit has completed the quest, false otherwise.
 QuestAddStarter(Id)                                                                                                                                                      | Allows the NPC to be used to start the quest with the id given.
 QuestAddFinisher(Id)                                                                                                                                                     | Allows the NPC to be used to finish the quest with the id given.
 AdvanceQuestObjective(Id, Objective)                                                                                                                                     | Advances the objective in quest id by 1.
 CreatureHasQuest(Id)                                                                                                                                                     | Returns true if the creature can give the quest, otherwise returns false.
-GetQuestObjectiveCompletion(QuestID, Objective)                                                                                                                          | Returns how many mobs killed for the specified quest and objective.
+[GetQuestObjectiveCompletion(QuestID, Objective)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetQuestObjectiveCompletion)                                 | Returns how many mobs killed for the specified quest and objective.
 
 
 # Channel Methods
