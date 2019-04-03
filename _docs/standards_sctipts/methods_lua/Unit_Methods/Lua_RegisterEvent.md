@@ -11,7 +11,7 @@ position: 132
 
 This command basically tells the server to register the next function you want to use. Each function in your script must be referenced by this command, or else the scripted unit will not use that function.
 
-You need to have unit events registered to the creature before you can use this function. To make a "dummy" register, if you are using gossip only for example, you can use this:
+[You need to have unit events registered](/Wiki/docs/standards_sctipts/methods_lua/List_of_all_Events) to the creature before you can use this function. To make a "dummy" register, if you are using gossip only for example, you can use this:
 {: .info }
 
 ```
