@@ -9,7 +9,7 @@ position: 92
 
 ## Description
          
-46: UNIT_FIELD_FLAGS -- in wow ver: 3.3.5a.           
+UNIT_FIELD_FLAGS = 46 these are client flags (ver: 3.3.5a)         
 
 Here are some of the Unit field flags flags. These are the same flags as in the field flags in the creature_spawns table.
 
