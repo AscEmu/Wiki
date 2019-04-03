@@ -9,7 +9,8 @@ position: 118
 
 ## Description
 
-If there is no waypoint map bound to this unit, then it creates one. Each waypoint created with this has the index of the size of the waypoint map plus one. So the first waypoint you create will start at 1, the next one that the script comes across for this unit will be 2.
+If there is no waypoint map bound to this unit, then it creates one. Each waypoint created with this has the index of the size of the waypoint map plus one.                           
+So the first waypoint you create will start at 1, the next one that the script comes across for this unit will be 2.
 
 ## Syntax
 :CreateWaypoint(x, y, z, o, wait time, flags, model id)
