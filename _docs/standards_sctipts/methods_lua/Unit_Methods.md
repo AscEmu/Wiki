@@ -5,8 +5,6 @@ layout: single_markdown
 position: 4
 ---
 
-[Moooo](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Mooo)
-
 # Get (Return) Methods
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------
