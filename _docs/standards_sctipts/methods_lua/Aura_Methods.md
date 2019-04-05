@@ -39,16 +39,15 @@ GetAuraSlot()                                                                   
 SetAuraSlot(slot)                                                                                            | Sets the aura's slot. See Unit.h for meanings. 
 
 
-The following 3 functions will be called from a Player or Unit, not an aura, and they deal with or return an aura object.
-{: .info }
+### The following 3 functions will be called from a Player or Unit, not an aura, and they deal with or return an aura object.
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
 GetAuraObject(slot)                                                                                          | Returns the aura object at that slot.
 GetAuraObjectById(spell id)                                                                                  | Returns an aura object for the spell id.
 AddAuraObject(aura)                                                                                          | aura is not a spell id. It is an aura object.
 
-The following do not return aura objects, and are still called from a Player or Unit, not an "aura" object. 
-{: .info }
+
+### The following do not return aura objects, and are still called from a Player or Unit, not an "aura" object. 
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
 RemoveAura(SpellID)                                                                                          | If the unit has the aura with the spell given, will remove it.
