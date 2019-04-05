@@ -39,7 +39,7 @@ GetAuraSlot()                                                                   
 SetAuraSlot(slot)                                                                                            | Sets the aura's slot. See Unit.h for meanings. 
 
 
-# The following 3 functions will be called from a Player or Unit, not an aura, and they deal with or return an aura object.
+The following 3 functions will be called from a Player or Unit, not an aura, and they deal with or return an aura object.
 {: .info }
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
