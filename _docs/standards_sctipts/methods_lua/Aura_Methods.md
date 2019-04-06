@@ -15,7 +15,7 @@ function OnCombat(Unit, event)
   local aura = Unit:GetAuraObjectById(1337)
   local spell_id = aura:GetSpellId()
   -- spell id would be 1337
-  tostring( aura:GetCaster() ) == tostring( Unit ) --would return true
+  tostring( aura:GetCaster() ) == tostring( Unit ) -- would return true
   -- Just stick aura, in front of the command the same way you would Player or Unit
 end
 ```
@@ -43,22 +43,22 @@ SetAuraSlot(slot)                                                               
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
 GetAuraObject(slot)                                                                                          | Returns the aura object at that slot.
-GetAuraObjectById(spell id)                                                                                  | Returns an aura object for the spell id.
+[GetAuraObjectById(spell id)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_GetAuraObjectById)   | Returns an aura object for the spell id.
 AddAuraObject(aura)                                                                                          | aura is not a spell id. It is an aura object.
 
 
 ### The following do not return aura objects, and are still called from a Player or Unit, not an "aura" object. 
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
-RemoveAura(SpellID)                                                                                          | If the unit has the aura with the spell given, will remove it.
-RemoveAllAuras()                                                                                             | Removes all auras, positive or negative, from the unit or target.
-HasAura(spellID)                                                                                             | Checks if the target or unit has the spell aura specified.
+[RemoveAura(SpellID)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_RemoveAura)                  | If the unit has the aura with the spell given, will remove it.
+[RemoveAllAuras()](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_RemoveAllAuras)                 | Removes all auras, positive or negative, from the unit or target.
+[HasAura(spellID)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_HasAura)                        | Checks if the target or unit has the spell aura specified.
 RemoveAurasByMechanic(string, 1 or 0)                                                                        | Removes auras with the mechanic specified in string form, set to 1 for only the hostile auras, set to 0 to remove all auras with given mechanic type.
 RemoveAurasType(type)                                                                                        | Removes all auras with the given type, similar to RemoveAurasByMechanic.
-AddAura(spellid, duration, temp)                                                                             | Adds aura with spell id, duration, and if it is temporary or not (true/false). See core for more info.
+[AddAura(spellid, duration, temp)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_AddAura)        | Adds aura with spell id, duration, and if it is temporary or not (true/false). See core for more info.
 RemoveNegativeAuras()                                                                                        | Removes every negative aura from the unit.
 GetAura(slot)                                                                                                | Returns the spell id of the aura at the slot. 
 HasAuraWithMechanic(number)                                                                                  | Returns true if the unit/player has the aura with said mechanic. 
-HasNegativeAura()                                                                                            | Returns true if the player has any negative aura. 
-HasPositiveAura()                                                                                            | Returns true if the player has any positive aura. 
+[HasNegativeAura()](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_HasNegativeAura)               | Returns true if the player has any negative aura. 
+[HasPositiveAura()](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_HasPositiveAura)               | Returns true if the player has any positive aura. 
 GetAuraStackCount(spell id)                                                                                  | Returns the number of stacks the aura has. 
