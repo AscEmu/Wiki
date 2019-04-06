@@ -78,6 +78,8 @@ GetGuildByName(name)                                                            
 GetGuildByLeaderGuid(guid)                                                                                                                           | Returns a guild with the name given.
 
 
+## Packet – Functions
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
 SendPacketToWorld(worldpacket)                                                                                                                       | Sends the packet to everyone online. 
 SendPacketToInstance(worldpacket, instance id)                                                                                                       | Sends the packet to everyone in the instance. 
