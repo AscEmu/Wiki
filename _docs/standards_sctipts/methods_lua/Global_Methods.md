@@ -5,9 +5,7 @@ layout: single_markdown
 position: 7
 ---
 
-# Global Functions
-
-## Database Functions
+# Database Functions
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
 WorldDBQuery(query)                                                                                                                                  | Performs a query on the world database. Returns a "QueryResult" object.
@@ -20,7 +18,7 @@ result:GetRowCount()                                                            
 result:NextRow()                                                                                                                                     | Fetches the next row
 
 
-## Core/Engine functions
+# Core/Engine functions
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
 GetLUAEngine()                                                                                                                                       | Returns what engine the server is using. Should be LuaEngine.
@@ -32,7 +30,7 @@ GetLuaEngineRevision()                                                          
 GetPlatform()                                                                                                                                        | Returns the platform ex. Win32. 
 
 
-## C++ style bit functions
+# C++ style bit functions
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- 
 bit_and(...)                                                                                                                                         |
@@ -43,7 +41,7 @@ bit_shiftleft(op, shift number)                                                 
 bit_shiftright(op, shift number)                                                                                                                     |
 
 
-## Timed Events
+# Timed Events
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
 RegisterTimedEvent(function_name, delay, repeats [, optionalParamtersToFunction ...])                                                                | Registers a timed event
@@ -56,7 +54,7 @@ HasTimedEventWithName(name)                                                     
 HasTimedEvent(reference)                                                                                                                             | Returns true if the specific event is still registered. reference is returned by RegisterTimedEvent.
 
 
-## Other Functions
+# Other Functions
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
 PerformIngameSpawn(spawntype, entry id, map, x, y, z, o, faction (unit) or scale (go), duration [, equip1, equip2, equip3, instance id, save])       | Spawns a unit or gameobject.
@@ -78,7 +76,7 @@ GetGuildByName(name)                                                            
 GetGuildByLeaderGuid(guid)                                                                                                                           | Returns a guild with the name given.
 
 
-## Packet – Functions
+# Packet – Functions
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
 SendPacketToWorld(worldpacket)                                                                                                                       | Sends the packet to everyone online. 
