@@ -10,12 +10,16 @@ position: 7
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
 [WorldDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                           | Performs a query on the world database. Returns a "QueryResult" object.
 [CharDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                            | Performs a query on the character database. Returns a "QueryResult" object.
-WorldDBQueryTable(query)                                                                                                                             | Similar to WorldDBQuery(query). See core for more info.
-CharDBQueryTable(query)                                                                                                                              | Similar to CharDBQuery(query). See core for more info.
-result:GetColumn()                                                                                                                                   | Get a column by index in the query result
-result:GetColumnCount()                                                                                                                              | Get number of columns in the query result
-result:GetRowCount()                                                                                                                                 | Get number of rows in the query result
-result:NextRow()                                                                                                                                     | Fetches the next row
+
+## Database Functions Options
+
+---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
+WorldDBQueryTable(query)                                                                                                                             | Similar to [WorldDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery). See core for more info.
+CharDBQueryTable(query)                                                                                                                              | Similar to [CharDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery). See core for more info.
+[GetColumn()](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                                   | Get a column by index in the query result
+[GetColumnCount()](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                              | Get number of columns in the query result
+[GetRowCount()](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                                 | Get number of rows in the query result
+[NextRow()](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                                     | Fetches the next row
 
 
 # Packet – Functions
