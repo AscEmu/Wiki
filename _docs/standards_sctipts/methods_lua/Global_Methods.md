@@ -8,7 +8,7 @@ position: 7
 # Database Functions
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
-WorldDBQuery(query)                                                                                                                                  | Performs a query on the world database. Returns a "QueryResult" object.
+[WorldDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_DBQuery)                                                             | Performs a query on the world database. Returns a "QueryResult" object.
 CharDBQuery(query)                                                                                                                                   | Performs a query on the character database. Returns a "QueryResult" object.
 WorldDBQueryTable(query)                                                                                                                             | Similar to WorldDBQuery(query). See core for more info.
 CharDBQueryTable(query)                                                                                                                              | Similar to CharDBQuery(query). See core for more info.
@@ -16,6 +16,15 @@ result:GetColumn()                                                              
 result:GetColumnCount()                                                                                                                              | Get number of columns in the query result
 result:GetRowCount()                                                                                                                                 | Get number of rows in the query result
 result:NextRow()                                                                                                                                     | Fetches the next row
+
+
+# Packet – Functions
+
+---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
+SendPacketToWorld(worldpacket)                                                                                                                       | Sends the packet to everyone online. 
+SendPacketToInstance(worldpacket, instance id)                                                                                                       | Sends the packet to everyone in the instance. 
+SendPacketToZone(worldpacket, zone id)                                                                                                               | Sends the packet to everyone in the zone. 
+SendPacketToChannel(worldpacket, channel name, team)                                                                                                 | Sends the packet to the said team on the channel. 
 
 
 # Core/Engine functions
@@ -26,20 +35,8 @@ GetLUAEngineVersion()                                                           
 ReloadLuaEngine()                                                                                                                                    | Reloads the Lua engine and scripts.
 Rehash()                                                                                                                                             | Rehashes server config files.
 logcol(color)                                                                                                                                        | Changes the color of the log to the number given.
-GetLuaEngineRevision()                                                                                                                               | Returns the server's AE revision.
+GetAERevision()                                                                                                                                      | Returns the server's AE revision.
 GetPlatform()                                                                                                                                        | Returns the platform ex. Win32. 
-
-
-# C++ style bit functions
-
----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- 
-bit_and(...)                                                                                                                                         |
-bit_or(...)                                                                                                                                          |
-bit_xor(...)                                                                                                                                         |
-bit_not(op1)                                                                                                                                         |
-bit_shiftleft(op, shift number)                                                                                                                      |
-bit_shiftright(op, shift number)                                                                                                                     |
-
 
 # Timed Events
 
@@ -75,11 +72,13 @@ GetPlayersInInstance(map id, instance id)                                       
 GetGuildByName(name)                                                                                                                                 | Returns a guild with the name given.
 GetGuildByLeaderGuid(guid)                                                                                                                           | Returns a guild with the name given.
 
+# C++ style bit functions
 
-# Packet – Functions
+---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- 
+bit_and(...)                                                                                                                                         |
+bit_or(...)                                                                                                                                          |
+bit_xor(...)                                                                                                                                         |
+bit_not(op1)                                                                                                                                         |
+bit_shiftleft(op, shift number)                                                                                                                      |
+bit_shiftright(op, shift number)                                                                                                                     |
 
----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
-SendPacketToWorld(worldpacket)                                                                                                                       | Sends the packet to everyone online. 
-SendPacketToInstance(worldpacket, instance id)                                                                                                       | Sends the packet to everyone in the instance. 
-SendPacketToZone(worldpacket, zone id)                                                                                                               | Sends the packet to everyone in the zone. 
-SendPacketToChannel(worldpacket, channel name, team)                                                                                                 | Sends the packet to the said team on the channel. 

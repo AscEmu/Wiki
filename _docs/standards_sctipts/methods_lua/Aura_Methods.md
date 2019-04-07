@@ -25,7 +25,7 @@ end
 ------------------------------------------------------------------------------------------------------------ | ---------- 
 GetObjectType()                                                                                              | Will return Aura if the aura is not nil. 
 GetSpellId()                                                                                                 | Returns the aura's spell id.
-GetCaster()                                                                                                  | Returns the object that casted the aura. Can be a Unit, Game Object, or Item. 
+GetCaster()                                                                                                  | Returns the object that casted the aura. Can be a Unit, GameObject, or Item. 
 GetTarget()                                                                                                  | Returns the target of the aura; the person who is currently affected by it. 
 GetDuration()                                                                                                | Returns the duration in miliseconds.
 SetDuration(duration)                                                                                        | Sets the duration of the aura. The aura will be removed after the duration has passed. 

@@ -13,7 +13,8 @@ Lua is dynamically typed, runs by interpreting bytecode for a register-based vir
 
 Because Lua can easily be embedded into applications, it is frequently used in games, such as World of Warcraft, Far Cry, Baldur's Gate, Garry's Mod and Warhammer titles.
 
-## Functions
+## API Documentation
+
 Information about the typical function names:
 
 ### [Basic Lua](/Wiki/docs/standards_sctipts/methods_lua/Basic_Lua)
