@@ -8,8 +8,8 @@ position: 7
 # Database Functions
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------
-[WorldDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_DBQuery)                                                             | Performs a query on the world database. Returns a "QueryResult" object.
-CharDBQuery(query)                                                                                                                                   | Performs a query on the character database. Returns a "QueryResult" object.
+[WorldDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                           | Performs a query on the world database. Returns a "QueryResult" object.
+[CharDBQuery(query)](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods/Lua_DBQuery)                                                            | Performs a query on the character database. Returns a "QueryResult" object.
 WorldDBQueryTable(query)                                                                                                                             | Similar to WorldDBQuery(query). See core for more info.
 CharDBQueryTable(query)                                                                                                                              | Similar to CharDBQuery(query). See core for more info.
 result:GetColumn()                                                                                                                                   | Get a column by index in the query result

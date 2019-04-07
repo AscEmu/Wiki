@@ -72,7 +72,7 @@ Get number of columns in the query result.
 int cols = pResult:GetColumnCount()
 ```
 
-## :NextRow()
+### :NextRow()
 
 Fetches the next row of the SQL query. Returns false if no more row exist.
 
