@@ -12,6 +12,8 @@ position: 1
 ### WorldDBQuery() and CharDBQuery()           
 Performs a query on the world database or on the char database. Returns a "QueryResult" object.
 
+## Syntax
+
 ```
 pResult = WorldDBQuery(string sql)
 ```
