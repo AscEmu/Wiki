@@ -5,7 +5,7 @@ layout: single_markdown
 position: 1
 ---
 
-# Information About Lua Engine
+# Information About ALE (AscEmu LuaEngine)
 
 Lua is a powerful, fast, lightweight, embeddable scripting language.   
 Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics.   
@@ -15,7 +15,7 @@ Because Lua can easily be embedded into applications, it is frequently used in g
 
 ## API Documentation
 
-Information about the typical function names:
+Information About the typical function names:
 
 ### [Basic Lua](/Wiki/docs/standards_sctipts/methods_lua/Basic_Lua)
 
