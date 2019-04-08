@@ -7,6 +7,8 @@ position: 4
 
 # Lua ReloadLuaEngine
 
+## Description
+
 Method is not stable and is disabled.
 
 <!--- This is currently disabled. See https://github.com/arcemu/arcemu/issues/271 for more information.
