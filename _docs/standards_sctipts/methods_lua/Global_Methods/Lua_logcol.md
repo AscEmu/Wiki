@@ -7,6 +7,8 @@ position: 6
 
 # Lua logcol
 
+## Description
+
 Method is not stable and is disabled.
 
 <!--- This is currently disabled. See https://github.com/arcemu/arcemu/commit/ee5ae6fa149d73eb980ed1fb69e167f29ee604f8 for more information.
