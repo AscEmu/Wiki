@@ -13,10 +13,9 @@ Returns a numerical representation of the Unit's gender. Once returned, that num
 
 Returned Value : Value meaning
 
-```
-0 = male
-1 = female
-```
+--- | ----------
+0   | male
+1   | female
 
 ## Usage/Example
 
