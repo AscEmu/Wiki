@@ -15,7 +15,7 @@ The indent **size is 4 spaces**.
 Notepad++
 {: .info }
 
-![Notepad_1.png](/Wiki/images/standards.coding/Notepad_1.png)
+![Notepad_1.png](/Wiki/images/standards/coding/Notepad_1.png)
 
 Right:
 {: .success }

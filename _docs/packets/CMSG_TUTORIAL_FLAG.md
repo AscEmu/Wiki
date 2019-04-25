@@ -13,7 +13,8 @@ Send on log into world.
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x0FE |  
-WotLK | 0x0FE |  
-Cata | 0x6C26 |  
+Classic    |            |  
+TBC        | 0x0FE      |  
+WotLK      | 0x0FE      |  
+Cata       | 0x6C26     |  
+MoP        |            |  

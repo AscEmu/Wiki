@@ -15,3 +15,4 @@ Classic |  |
 TBC |  |  
 WotLK |  |  
 Cata |  |  
+MoP |  |  

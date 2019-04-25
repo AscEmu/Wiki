@@ -17,3 +17,4 @@ Classic |  |
 TBC | 0x069 |  
 WotLK | 0x069 |  
 Cata |  |  
+MoP |  |  

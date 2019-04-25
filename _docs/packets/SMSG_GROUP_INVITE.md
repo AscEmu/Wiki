@@ -13,7 +13,8 @@ Send after inviting a player to a group.
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x06F |  
-WotLK | 0x06F |  
-Cata | 0x31B2 |  
+Classic    |            |  
+TBC        | 0x06F      |  
+WotLK      | 0x06F      |  
+Cata       | 0x31B2     |  
+MoP        |            |  

@@ -13,7 +13,8 @@ Send on inviting a player to group.
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x06E |  
-WotLK | 0x06E |  
-Cata | 0x0513 |  
+Classic    |            |  
+TBC        | 0x06E      |  
+WotLK      | 0x06E      |  
+Cata       | 0x0513     |  
+MoP        |            |  

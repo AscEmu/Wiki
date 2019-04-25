@@ -11,7 +11,8 @@ position: 149
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       |            |
+MoP        |            |  

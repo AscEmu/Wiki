@@ -13,7 +13,8 @@ Send on tutorial reset.
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x100 |  
-WotLK | 0x100 |  
-Cata | 0x2726 |  
+Classic    |            |  
+TBC        | 0x100      |  
+WotLK      | 0x100      |  
+Cata       | 0x2726     |  
+MoP        |            |  

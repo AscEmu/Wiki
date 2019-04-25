@@ -13,7 +13,8 @@ Called by showing who is online list.
 
 Version | Hex | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x062 |  
-WotLK | 0x062 |  
-Cata | 0x6C15 |  
+Classic    |            |  
+TBC        | 0x062      |  
+WotLK      | 0x062      |  
+Cata       | 0x6C15     |  
+MoP        |            |  
