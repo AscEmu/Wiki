@@ -1,6 +1,6 @@
 ---
 title: List of all Events
-type: standards_lua
+type: list_of_all_events
 layout: single_markdown
 position: 2
 ---

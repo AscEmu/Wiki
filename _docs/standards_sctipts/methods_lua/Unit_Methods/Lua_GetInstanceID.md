@@ -1,6 +1,6 @@
 ---
 title: Lua_GetInstanceID
-type: standards_lua
+type: unit_methods
 layout: single_markdown
 position: 30
 ---

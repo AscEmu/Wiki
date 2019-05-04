@@ -1,6 +1,6 @@
 ---
 title: Lua_GetPlatform
-type: standards_lua
+type: global_methods
 layout: single_markdown
 position: 8
 ---

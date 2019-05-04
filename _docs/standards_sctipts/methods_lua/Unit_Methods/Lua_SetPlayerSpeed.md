@@ -1,6 +1,6 @@
 ---
 title: Lua_SetPlayerSpeed
-type: standards_lua
+type: unit_methods
 layout: single_markdown
 position: 89
 ---

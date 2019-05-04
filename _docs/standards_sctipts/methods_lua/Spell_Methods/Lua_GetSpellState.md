@@ -1,6 +1,6 @@
 ---
 title: Lua_GetSpellState
-type: standards_lua
+type: spell_methods
 layout: single_markdown
 position: 2
 ---

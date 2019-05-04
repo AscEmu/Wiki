@@ -1,6 +1,6 @@
 ---
 title: Basic Lua
-type: standards_lua
+type: basic_lua
 layout: single_markdown
 position: 1
 ---

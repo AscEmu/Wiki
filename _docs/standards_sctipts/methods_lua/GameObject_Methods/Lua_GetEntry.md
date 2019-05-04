@@ -1,6 +1,6 @@
 ---
 title: Lua_GetEntry
-type: standards_lua
+type: gameobject_methods
 layout: single_markdown
 position: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: Lua_SetMaxMana
-type: standards_lua
+type: unit_methods
 layout: single_markdown
 position: 86
 ---
