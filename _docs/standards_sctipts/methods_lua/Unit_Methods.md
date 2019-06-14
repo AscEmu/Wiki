@@ -523,17 +523,17 @@ GetTimeLeft()                                                                   
 # Vehicle Methods
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------
-AddVehiclePassenger(creature_entry)                                                                                                                                      | Spawns an NPC and adds it as a passenger to the vehicle.
-DismissVehicle()                                                                                                                                                         | Dismisses the vehicle of the selected unit.
-EjectAllVehiclePassengers()                                                                                                                                              | Ejects all passengers from the Unit's vehicle.
-EjectVehiclePassengerFromSeat(seat)                                                                                                                                      | Ejects the passenger from the specified seat of the Unit's vehicle.
-MoveVehiclePassengerToSeat(unit, seat)                                                                                                                                   | Moves the specified passenger of the unit's vehicle to another seat.
-EnterVehicle(guid, delay)                                                                                                                                                | Makes the Unit enter a vehicle.
-ExitVehicle()                                                                                                                                                            | Makes the Unit exit it's vehicle.
-GetVehicleBase()                                                                                                                                                         | Retrieves the base unit of the Unit's vehicle. 
-IsOnVehicle()                                                                                                                                                            | Tells if the unit is on a vehicle. 
-HasEmptyVehicleSeat()                                                                                                                                                    | Tells if the Unit's vehicle has an empty seat. 
-SpawnAndEnterVehicle(creature_entry, delay)                                                                                                                              | Spawns a new vehicle and makes the Unit enter it.
+[AddVehiclePassenger(creature_entry)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_AddVehiclePassenger)                                                     | Spawns an NPC and adds it as a passenger to the vehicle.
+[DismissVehicle()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_DismissVehicle)                                                                             | Dismisses the vehicle of the selected unit.
+[EjectAllVehiclePassengers()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_EjectAllVehiclePassengers)                                                       | Ejects all passengers from the Unit's vehicle.
+[EjectVehiclePassengerFromSeat(seat)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_EjectVehiclePassengerFromSeat)                                           | Ejects the passenger from the specified seat of the Unit's vehicle.
+[MoveVehiclePassengerToSeat(unit, seat)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_MoveVehiclePassengerToSeat)                                           | Moves the specified passenger of the unit's vehicle to another seat.
+[EnterVehicle(guid, delay)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_EnterVehicle)                                                                      | Makes the Unit enter a vehicle.
+[ExitVehicle()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_ExitVehicle)                                                                                   | Makes the Unit exit it's vehicle.
+[GetVehicleBase()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetVehicleBase)                                                                             | Retrieves the base unit of the Unit's vehicle. 
+[IsOnVehicle()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_IsOnVehicle)                                                                                   | Tells if the unit is on a vehicle. 
+[HasEmptyVehicleSeat()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_HasEmptyVehicleSeat)                                                                   | Tells if the Unit's vehicle has an empty seat. 
+[SpawnAndEnterVehicle(creature_entry, delay)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SpawnAndEnterVehicle)                                            | Spawns a new vehicle and makes the Unit enter it.
 
 
 # Deprecated Methods
