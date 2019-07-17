@@ -1,6 +1,6 @@
 ---
 title: Lua_GetSpawnLocation
-type: standards_lua
+type: gameobject_methods
 layout: single_markdown
 position: 3
 ---

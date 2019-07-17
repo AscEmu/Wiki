@@ -1,6 +1,6 @@
 ---
 title: Lua_AddAura
-type: standards_lua
+type: unit_methods
 layout: single_markdown
 position: 113
 ---

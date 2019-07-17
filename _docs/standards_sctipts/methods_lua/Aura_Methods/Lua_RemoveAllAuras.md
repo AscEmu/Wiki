@@ -1,6 +1,6 @@
 ---
 title: Lua_RemoveAllAuras
-type: standards_lua
+type: aura_methods
 layout: single_markdown
 position: 3
 ---

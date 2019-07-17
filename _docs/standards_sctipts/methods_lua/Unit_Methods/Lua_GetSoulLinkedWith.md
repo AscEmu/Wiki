@@ -1,6 +1,6 @@
 ---
 title: Lua_GetSoulLinkedWith
-type: standards_lua
+type: unit_methods
 layout: single_markdown
 position: 53
 ---
