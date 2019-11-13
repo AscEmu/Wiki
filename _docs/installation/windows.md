@@ -9,14 +9,14 @@ layout: single_markdown
 
 ### Requirements
 
-* [Visual Studio 2017 Community](https://www.visualstudio.com/downloads/)
+* [Visual Studio](https://www.visualstudio.com/downloads/) Installing Visual Studio make sure to select 'Desktop Development with C++' 
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
 * [Git](https://git-scm.com/downloads/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [CMake](https://cmake.org/download/)
 
 **Optional**
-Microsoft Visual C++ 2017 Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
+Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
 
 **Helpful Programs**
 
@@ -49,7 +49,7 @@ Sign in to GitHub and GitHub Desktop before you start to clone.
 
 ![cmake_1.png](/Wiki/images/installation.windows/cmake_1.png)
 
-**2.** Choose your compiler **Visual Studio 15 2017** or other.
+**2.** Choose your compiler **Visual Studio** or other.
 
 ![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)
 
