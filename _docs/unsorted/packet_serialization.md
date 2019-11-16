@@ -51,7 +51,7 @@ struct GuildBankMoneyLog
     uint32_t timestamp;
 };
 
-namespace AscEmu { namespace Packets
+namespace AscEmu::Packets
 {
     class MsgGuildBankLogQuery : public ManagedPacket
     {
