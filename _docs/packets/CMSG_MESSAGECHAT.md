@@ -11,10 +11,10 @@ Send message.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x095 |  
-WotLK | 0x095 |  
-Cata |  |  
-MoP |  |  
+Classic    |            | 
+TBC        | 0x095      | 
+WotLK      | 0x095      | 
+Cata       |            | 
+MoP        |            | 
