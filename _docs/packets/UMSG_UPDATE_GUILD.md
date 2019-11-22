@@ -9,10 +9,10 @@ position: 149
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    |            |
 TBC        |            |
 WotLK      |            |
-Cata       |            |
-MoP        |            |  
+Cata       |            | 
+MoP        |            | 
