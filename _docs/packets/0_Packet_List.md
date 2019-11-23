@@ -212,7 +212,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_ITEM_COOLDOWN](#smsg_item_cooldown) |  |  |  |  | 
 [CMSG_GAMEOBJ_USE](#cmsg_gameobj_use) | serialized |  | serialized | serialized | serialized
 [CMSG_DESTROY_ITEMS](#cmsg_destroy_items) |  |  |  |  | 
-[SMSG_GAMEOBJECT_CUSTOM_ANIM](#smsg_gameobject_custom_anim) |  |  |  |  | 
+[SMSG_GAMEOBJECT_CUSTOM_ANIM](#smsg_gameobject_custom_anim) | serialized | serialized | serialized | serialized | serialized
 [CMSG_AREATRIGGER](#cmsg_areatrigger) |  |  | serialized | 
 [MSG_MOVE_START_FORWARD](#msg_move_start_forward) |  |  |  |  | 
 [MSG_MOVE_START_BACKWARD](#msg_move_start_backward) |  |  |  |  | 
@@ -583,7 +583,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_GMTICKET_GETTICKET](#smsg_gmticket_getticket) | serialized |  | serialized | serialized | serialized
 [CMSG_UNLEARN_TALENTS](#cmsg_unlearn_talents) |  |  |  |  | 
 [SMSG_UPDATE_INSTANCE_ENCOUNTER_UNIT](#smsg_update_instance_encounter_unit) |  |  |  |  | 
-[SMSG_GAMEOBJECT_DESPAWN_ANIM](#smsg_gameobject_despawn_anim) |  |  |  |  | 
+[SMSG_GAMEOBJECT_DESPAWN_ANIM](#smsg_gameobject_despawn_anim) | serialized | serialized | serialized | serialized | serialized
 [MSG_CORPSE_QUERY](#msg_corpse_query) |  |  | serialized | 
 [CMSG_GMTICKET_DELETETICKET](#cmsg_gmticket_deleteticket) |  |  |  |  | 
 [SMSG_GMTICKET_DELETETICKET](#smsg_gmticket_deleteticket) | serialized | serialized | serialized | serialized | serialized
@@ -711,7 +711,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_AUTOBANK_ITEM](#cmsg_autobank_item) | serialized |  | serialized | serialized | serialized
 [MSG_QUERY_NEXT_MAIL_TIME](#msg_query_next_mail_time) |  |  |  |  | 
 [SMSG_RECEIVED_MAIL](#smsg_received_mail) |  |  |  |  | 
-[SMSG_RAID_GROUP_ONLY](#smsg_raid_group_only) |  |  |  |  | 
+[SMSG_RAID_GROUP_ONLY](#smsg_raid_group_only) | serialized | serialized | serialized | serialized | serialized
 [CMSG_SET_DURABILITY_CHEAT](#cmsg_set_durability_cheat) |  |  |  |  | 
 [CMSG_SET_PVP_RANK_CHEAT](#cmsg_set_pvp_rank_cheat) |  |  |  |  | 
 [CMSG_ADD_PVP_MEDAL_CHEAT](#cmsg_add_pvp_medal_cheat) |  |  |  |  | 
@@ -719,7 +719,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_DEL_PVP_MEDAL_CHEAT](#cmsg_del_pvp_medal_cheat) |  |  |  |  | 
 [CMSG_DEL_VOICE_IGNORE](#cmsg_del_voice_ignore) |  |  |  |  | 
 [CMSG_SET_PVP_TITLE](#cmsg_set_pvp_title) |  |  |  |  | 
-[SMSG_PVP_CREDIT](#smsg_pvp_credit) |  |  |  |  | 
+[SMSG_PVP_CREDIT](#smsg_pvp_credit) | serialized | serialized | serialized | serialized | serialized 
 [SMSG_PVP_OPTIONS_ENABLED](#smsg_pvp_options_enabled) | not used | not used | not used | serialized | serialized
 [SMSG_AUCTION_REMOVED_NOTIFICATION](#smsg_auction_removed_notification) |  |  |  |  | 
 [CMSG_GROUP_RAID_CONVERT](#cmsg_group_raid_convert) |  |  |  |  | 

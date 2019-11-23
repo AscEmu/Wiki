@@ -9,10 +9,10 @@ position: 180
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x0B3      |  
+TBC        | 0x0B3      |  
+WotLK      | 0x0B3      |  
+Cata       | 0x4936     |  
+MoP        | 0x4936     |  
