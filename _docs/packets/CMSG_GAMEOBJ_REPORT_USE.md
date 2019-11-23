@@ -11,8 +11,8 @@ position: 1002
 
 Version | Hex | Comment
 ---------- | ---------- | ----------
-Classic |  |
-TBC |  |
-WotLK |  |
-Cata |  |
-MoP |  |
+Classic    | -          | not used
+TBC        | -          | not used
+WotLK      | 0x481      |
+Cata       | 0x4827     |
+MoP        | 0x4827     |
