@@ -11,11 +11,8 @@ position: 1019
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
-WotLK      |            | 
-Cata       |            | 
-MoP        |            | 
-
-
-1111
+Classic    | -          | not used
+TBC        | -          | not used
+WotLK      | -          | not used
+Cata       | 0x1233     | 
+MoP        | 0x1233     |
