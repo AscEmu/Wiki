@@ -73,8 +73,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_CHAR_DELETE](#cmsg_char_delete) | serialized | serialized | serialized | serialized | serialized
 [CMSG_CHAR_FACTION_CHANGE](#cmsg_char_faction_change) | not used | not used | serialized | serialized | serialized
 [SMSG_CHAR_FACTION_CHANGE](#smsg_char_faction_change) | not used | not used | serialized | serialized | serialized
-[CMSG_CHAR_CUSTOMIZE](#cmsg_char_customize) |  |  | serialized | serialized | serialized
-[SMSG_CHAR_CUSTOMIZE](#smsg_char_customize) |  |  | serialized | serialized | serialized
+[CMSG_CHAR_CUSTOMIZE](#cmsg_char_customize) | not used | not used | serialized | serialized | serialized
+[SMSG_CHAR_CUSTOMIZE](#smsg_char_customize) | not used | not used | serialized | serialized | serialized
 [SMSG_AUTH_SRP6_RESPONSE](#smsg_auth_srp6_response) |  |  |  |  | 
 [SMSG_AVAILABLE_VOICE_CHANNEL](#smsg_available_voice_channel) |  |  |  |  | 
 [SMSG_BARBER_SHOP_RESULT](#smsg_barber_shop_result) | not used | not used |  | serialized | serialized
