@@ -11,10 +11,10 @@ Called by adding friend to list.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x069 |  
-WotLK | 0x069 |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x069      | 
+TBC        | 0x069      | 
+WotLK      | 0x069      | 
+Cata       |            | 
+MoP        |            | 

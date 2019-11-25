@@ -11,10 +11,10 @@ Send by adding note to friend in contact list.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x06B |  
-WotLK | 0x06B |  
-Cata |  |  
-MoP |  |  
+Classic    |            | 
+TBC        | 0x06B      | 
+WotLK      | 0x06B      | 
+Cata       |            | 
+MoP        |            | 

@@ -11,10 +11,10 @@ Called for contact list.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |  
+Classic    | 0x066      |  
 TBC        | 0x066      |  
 WotLK      | 0x066      |  
 Cata       | 0x4534     |  
-MoP        |            |  
+MoP        | 0x4534     |  

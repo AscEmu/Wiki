@@ -11,9 +11,9 @@ Send on inviting a player to group.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |  
+Classic    | 0x06E      |  
 TBC        | 0x06E      |  
 WotLK      | 0x06E      |  
 Cata       | 0x0513     |  

@@ -122,25 +122,25 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_GAMEOBJECT_QUERY](#cmsg_gameobject_query) |  | serialized | serialized | serialized | serialized
 [SMSG_GAMEOBJECT_QUERY_RESPONSE](#smsg_gameobject_query_response) | serialized | serialized | serialized | serialized | serialized
 [CMSG_CREATURE_QUERY](#cmsg_creature_query) |  | serialized | serialized | serialized | serialized
-[SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) |  | serialized | serialized |  | 
-[CMSG_WHO](#cmsg_who) |  | serialized | serialized | serialized
+[SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) | serialized | serialized | serialized | serialized | serialized
+[CMSG_WHO](#cmsg_who) | serialized | serialized | serialized | serialized | serialized
 [SMSG_WHO](#smsg_who) |  |  |  |  | 
 [CMSG_WHOIS](#cmsg_whois) | serialized |  | serialized | serialized | serialized
 [SMSG_WHOIS](#smsg_whois) |  |  |  |  | 
-[SMSG_WORLD_STATE_UI_TIMER_UPDATE](#smsg_world_state_ui_timer_update) |  |  | serialized | serialized | serialized
-[CMSG_CONTACT_LIST](#cmsg_contact_list) |  | serialized | serialized | serialized
+[SMSG_WORLD_STATE_UI_TIMER_UPDATE](#smsg_world_state_ui_timer_update) | not used | not used | serialized | serialized | serialized
+[CMSG_CONTACT_LIST](#cmsg_contact_list) | serialized | serialized | serialized | serialized | serialized 
 [SMSG_COMSAT_CONNECT_FAIL](#smsg_comsat_connect_fail) |  |  |  |  | 
 [SMSG_COMSAT_DISCONNECT](#smsg_comsat_disconnect) |  |  |  |  | 
 [SMSG_COMSAT_RECONNECT_TRY](#smsg_comsat_reconnect_try) |  |  |  |  | 
 [SMSG_CONTACT_LIST](#smsg_contact_list) |  |  |  |  | 
 [SMSG_FRIEND_STATUS](#smsg_friend_status) | serialized | serialized | serialized | serialized | serialized
-[CMSG_ADD_FRIEND](#cmsg_add_friend) |  | serialized | serialized | 
-[CMSG_DEL_FRIEND](#cmsg_del_friend) |  | serialized | serialized | 
+[CMSG_ADD_FRIEND](#cmsg_add_friend) | serialized | serialized | serialized |  | 
+[CMSG_DEL_FRIEND](#cmsg_del_friend) | serialized | serialized | serialized |  | 
 [CMSG_SET_CONTACT_NOTES](#cmsg_set_contact_notes) |  | serialized | serialized | 
-[CMSG_ADD_IGNORE](#cmsg_add_ignore) |  | serialized | serialized | 
-[CMSG_DEL_IGNORE](#cmsg_del_ignore) |  | serialized | serialized | 
-[CMSG_GROUP_INVITE](#cmsg_group_invite) |  | serialized | serialized | 
-[SMSG_GROUP_INVITE](#smsg_group_invite) |  | serialized | serialized | 
+[CMSG_ADD_IGNORE](#cmsg_add_ignore) | serialized | serialized | serialized |  | 
+[CMSG_DEL_IGNORE](#cmsg_del_ignore) | serialized | serialized | serialized |  | 
+[CMSG_GROUP_INVITE](#cmsg_group_invite) | serialized | serialized | serialized |  | 
+[SMSG_GROUP_INVITE](#smsg_group_invite) | serialized | serialized | serialized | serialized | serialized
 [CMSG_GROUP_CANCEL](#cmsg_group_cancel) |  |  |  |  | 
 [SMSG_GROUP_CANCEL](#smsg_group_cancel) |  |  |  |  | 
 [CMSG_GROUP_ACCEPT](#cmsg_group_accept) |  |  |  |  | 
@@ -149,8 +149,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_GROUP_UNINVITE](#cmsg_group_uninvite) | serialized |  | serialized |  | 
 [CMSG_GROUP_UNINVITE_GUID](#cmsg_group_uninvite_guid) | serialized |  | serialized | serialized | serialized
 [SMSG_GROUP_UNINVITE](#smsg_group_uninvite) |  |  |  |  | 
-[SMSG_GUILD_BANK_MONEY_WITHDRAWN](#smsg_guild_bank_money_withdrawn) | serialized | serialized | serialized |  |
-[SMSG_GUILD_BANK_QUERY_TEXT_RESULT](#smsg_guild_bank_query_text_result) | serialized | serialized | serialized | serialized |
+[SMSG_GUILD_BANK_MONEY_WITHDRAWN](#smsg_guild_bank_money_withdrawn) | not used | not used | not used | serialized | serialized
+[SMSG_GUILD_BANK_QUERY_TEXT_RESULT](#smsg_guild_bank_query_text_result) | not used | not used | not used | serialized | serialized
 [CMSG_GROUP_SET_LEADER](#cmsg_group_set_leader) | serialized |  | serialized | serialized | serialized
 [SMSG_GROUP_SET_LEADER](#smsg_group_set_leader) |  |  |  |  | 
 [CMSG_LOOT_METHOD](#cmsg_loot_method) | serialized |  | serialized | serialized | serialized
