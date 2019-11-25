@@ -9,7 +9,7 @@ position: 1002
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    | -          | not used
 TBC        | -          | not used
