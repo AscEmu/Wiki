@@ -9,7 +9,7 @@ position: 55
 
 ### Status
 
-Version    | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x036      |  
 TBC        | 0x036      |  
