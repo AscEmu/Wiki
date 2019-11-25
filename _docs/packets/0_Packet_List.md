@@ -89,7 +89,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_LOGIN_SETTIMESPEED](#smsg_login_settimespeed) |  |  |  |  | 
 [SMSG_GAMETIME_UPDATE](#smsg_gametime_update) |  |  |  |  | 
 [CMSG_GAMETIME_SET](#cmsg_gametime_set) |  |  |  |  | 
-[CMSG_GET_CHANNEL_MEMBER_COUNT](#cmsg_get_channel_member_count) |  |  | serialized |  | 
+[CMSG_GET_CHANNEL_MEMBER_COUNT](#cmsg_get_channel_member_count) |  | serialized | serialized | serialized | serialized
 [SMSG_GAMETIME_SET](#smsg_gametime_set) |  |  |  |  | 
 [CMSG_GAMESPEED_SET](#cmsg_gamespeed_set) |  |  |  |  | 
 [SMSG_GAMESPEED_SET](#smsg_gamespeed_set) |  |  |  |  | 
@@ -103,7 +103,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_LOGOUT_COMPLETE](#smsg_logout_complete) |  |  |  |  | 
 [CMSG_LOGOUT_CANCEL](#cmsg_logout_cancel) |  |  |  |  | 
 [SMSG_LOGOUT_CANCEL_ACK](#smsg_logout_cancel_ack) |  |  |  |  | 
-[CMSG_NAME_QUERY](#cmsg_name_query) |  |  | serialized |  | 
+[CMSG_NAME_QUERY](#cmsg_name_query) | serialized | serialized | serialized | serialized | serialized
 [SMSG_NAME_QUERY_RESPONSE](#smsg_name_query_response) | serialized | serialized | serialized | serialized | serialized
 [CMSG_PET_NAME_QUERY](#cmsg_pet_name_query) | serialized |  | serialized |  | 
 [SMSG_PET_NAME_QUERY_RESPONSE](#smsg_pet_name_query_response) | serialized | serialized | serialized | serialized | serialized
@@ -116,13 +116,13 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_PAGE_TEXT_QUERY](#cmsg_page_text_query) |  |  | serialized | 
 [CMSG_PARTY_SILENCE](#cmsg_party_silence) |  |  |  |  | 
 [CMSG_PARTY_UNSILENCE](#cmsg_party_unsilence) |  |  |  |  | 
-[SMSG_PAGE_TEXT_QUERY_RESPONSE](#smsg_page_text_query_response) |  |  | serialized | 
+[SMSG_PAGE_TEXT_QUERY_RESPONSE](#smsg_page_text_query_response) | serialized | serialized | serialized | serialized
 [CMSG_QUEST_QUERY](#cmsg_quest_query) | serialized | serialized | serialized | serialized | serialized
 [SMSG_QUEST_QUERY_RESPONSE](#smsg_quest_query_response) |  |  |  |  | 
-[CMSG_GAMEOBJECT_QUERY](#cmsg_gameobject_query) |  | serialized | serialized | 
-[SMSG_GAMEOBJECT_QUERY_RESPONSE](#smsg_gameobject_query_response) |  | serialized | serialized | 
-[CMSG_CREATURE_QUERY](#cmsg_creature_query) |  | serialized | serialized | 
-[SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) |  | serialized | serialized | 
+[CMSG_GAMEOBJECT_QUERY](#cmsg_gameobject_query) |  | serialized | serialized | serialized | serialized
+[SMSG_GAMEOBJECT_QUERY_RESPONSE](#smsg_gameobject_query_response) | serialized | serialized | serialized | serialized | serialized
+[CMSG_CREATURE_QUERY](#cmsg_creature_query) |  | serialized | serialized | serialized | serialized
+[SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) |  | serialized | serialized |  | 
 [CMSG_WHO](#cmsg_who) |  | serialized | serialized | serialized
 [SMSG_WHO](#smsg_who) |  |  |  |  | 
 [CMSG_WHOIS](#cmsg_whois) | serialized |  | serialized | serialized | serialized
