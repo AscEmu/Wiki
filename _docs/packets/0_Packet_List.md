@@ -125,7 +125,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) | serialized | serialized | serialized | serialized | serialized
 [CMSG_WHO](#cmsg_who) | serialized | serialized | serialized | serialized | serialized
 [SMSG_WHO](#smsg_who) |  |  |  |  | 
-[CMSG_WHOIS](#cmsg_whois) | serialized |  | serialized | serialized | serialized
+[CMSG_WHOIS](#cmsg_whois) | serialized | serialized | serialized | serialized | serialized
 [SMSG_WHOIS](#smsg_whois) |  |  |  |  | 
 [SMSG_WORLD_STATE_UI_TIMER_UPDATE](#smsg_world_state_ui_timer_update) | not used | not used | serialized | serialized | serialized
 [CMSG_CONTACT_LIST](#cmsg_contact_list) | serialized | serialized | serialized | serialized | serialized 
@@ -167,17 +167,17 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_GUILD_DECLINE](#cmsg_guild_decline) |  |  |  |  | 
 [SMSG_GUILD_DECLINE](#smsg_guild_decline) |  |  |  |  | 
 [CMSG_GUILD_INFO](#cmsg_guild_info) |  |  |  |  | 
-[SMSG_GUILD_INFO](#smsg_guild_info) | serialized | serialized | serialized | | 
+[SMSG_GUILD_INFO](#smsg_guild_info) | serialized | serialized | serialized |  | 
 [CMSG_GUILD_ROSTER](#cmsg_guild_roster) |  |  |  |  | 
 [SMSG_GUILD_ROSTER](#smsg_guild_roster) |  |  |  |  | 
 [CMSG_GUILD_SET_NOTE](#cmsg_guild_set_note) |  |  |  | serialized | serialized
-[CMSG_GUILD_PROMOTE](#cmsg_guild_promote) | serialized | serialized | serialized | serialized | serialized
-[CMSG_GUILD_DEMOTE](#cmsg_guild_demote) | serialized | serialized | serialized | serialized | serialized
+[CMSG_GUILD_PROMOTE](#cmsg_guild_promote) | serialized | | serialized | serialized | serialized
+[CMSG_GUILD_DEMOTE](#cmsg_guild_demote) | serialized |  | serialized | serialized | serialized
 [CMSG_GUILD_LEAVE](#cmsg_guild_leave) |  |  |  |  | 
 [CMSG_GUILD_REMOVE](#cmsg_guild_remove) | serialized |  | serialized | serialized | serialized
 [CMSG_GUILD_DISBAND](#cmsg_guild_disband) |  |  |  |  | 
-[CMSG_GUILD_LEADER](#cmsg_guild_leader) | serialized | serialized | serialized | serialized | 
-[CMSG_GUILD_MOTD](#cmsg_guild_motd) | serialized |  | serialized | serialized | 
+[CMSG_GUILD_LEADER](#cmsg_guild_leader) | serialized |  | serialized | serialized | serialized
+[CMSG_GUILD_MOTD](#cmsg_guild_motd) | serialized |  | serialized | serialized | serialized
 [SMSG_GUILD_EVENT](#smsg_guild_event) | serialized | serialized | serialized | serialized | serialized
 [SMSG_GUILD_COMMAND_RESULT](#smsg_guild_command_result) | serialized | serialized | serialized | serialized | serialized
 [UMSG_UPDATE_GUILD](#umsg_update_guild) |  |  |  |  | 
