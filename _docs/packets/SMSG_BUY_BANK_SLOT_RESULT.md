@@ -9,10 +9,10 @@ position: 443
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x1BA      | 
+TBC        | 0x1BA      | 
+WotLK      | 0x1BA      | 
+Cata       | 0x4806     | 
+MoP        | 0x4806     | 
