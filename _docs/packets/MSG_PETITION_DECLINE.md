@@ -9,10 +9,10 @@ position: 451
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x1C2      | 
+TBC        |            | 
+WotLK      | 0x1C2      | 
+Cata       | 0x4905     | 
+MoP        | 0x4905     | 
