@@ -9,10 +9,10 @@ position: 603
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x25A      | 
+TBC        |            | 
+WotLK      | 0x25A      | 
+Cata       | 0x2306     | 
+MoP        | 0x2306     | 
