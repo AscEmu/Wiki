@@ -9,10 +9,10 @@ position: 1022
 
 ### Status
 
-Version | Hex | Comment
----------- | ---------- | ----------
-Classic |  |
-TBC |  |
-WotLK |  |
-Cata |  |
-MoP |  |
+Version    | Hex        | Comment
+---------- | ---------- | ---------- 
+Classic    |            | 
+TBC        |            | 
+WotLK      | 0x4B3      | 
+Cata       | 0x2206     | 
+MoP        | 0x2206     | 
