@@ -9,10 +9,10 @@ position: 1046
 
 ### Status
 
-Version | Hex | Comment
----------- | ---------- | ----------
-Classic |  |
-TBC |  |
-WotLK |  |
-Cata |  |
-MoP |  |
+Version    | Hex        | Comment
+---------- | ---------- | ---------- 
+Classic    | -          | not used
+TBC        | -          | not used
+WotLK      | -          | not used
+Cata       | 0x34A1     | 
+MoP        | 0x34A1     | 
