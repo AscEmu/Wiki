@@ -1,0 +1,18 @@
+---
+title: MSG_SET_RAID_DIFFICULTY
+type: packets
+layout: single_markdown_in_list
+position: 1057
+---
+
+## MSG_SET_RAID_DIFFICULTY
+
+### Status
+
+Version | Hex | Comment
+---------- | ---------- | ---------- 
+Classic |  |  
+TBC |  |  
+WotLK |  |  
+Cata |  |  
+MoP |  |  
