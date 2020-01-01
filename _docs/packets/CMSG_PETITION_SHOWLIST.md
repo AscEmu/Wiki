@@ -9,10 +9,10 @@ position: 444
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x1BB      | 
+TBC        |            | 
+WotLK      | 0x1BB      | 
+Cata       |            | 
+MoP        |            | 
