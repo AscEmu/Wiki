@@ -435,9 +435,9 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_QUESTGIVER_QUEST_AUTOLAUNCH](#cmsg_questgiver_quest_autolaunch) |  |  |  |  | 
 [SMSG_QUESTGIVER_QUEST_DETAILS](#smsg_questgiver_quest_details) |  |  |  |  | 
 [CMSG_QUESTGIVER_ACCEPT_QUEST](#cmsg_questgiver_accept_quest) | serialized | serialized | serialized | serialized | serialized
-[CMSG_QUESTGIVER_COMPLETE_QUEST](#cmsg_questgiver_complete_quest) | serialized | serialized | serialized | serialized | serialized
+[CMSG_QUESTGIVER_COMPLETE_QUEST](#cmsg_questgiver_complete_quest) | serialized |  | serialized | serialized | serialized
 [SMSG_QUESTGIVER_REQUEST_ITEMS](#smsg_questgiver_request_items) |  |  |  |  | 
-[CMSG_QUESTGIVER_REQUEST_REWARD](#cmsg_questgiver_request_reward) | serialized | serialized | serialized | serialized | serialized
+[CMSG_QUESTGIVER_REQUEST_REWARD](#cmsg_questgiver_request_reward) | serialized |  | serialized | serialized | serialized
 [SMSG_QUESTGIVER_OFFER_REWARD](#smsg_questgiver_offer_reward) |  |  |  |  | 
 [CMSG_QUESTGIVER_CHOOSE_REWARD](#cmsg_questgiver_choose_reward) | serialized |  | serialized | serialized | serialized
 [SMSG_QUESTGIVER_QUEST_INVALID](#smsg_questgiver_quest_invalid) |  |  |  |  | 
@@ -500,7 +500,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_PETITION_QUERY_RESPONSE](#smsg_petition_query_response) | serialized | serialized | serialized | serialized | serialized
 [SMSG_FISH_NOT_HOOKED](#smsg_fish_not_hooked) |  |  |  |  | 
 [SMSG_FISH_ESCAPED](#smsg_fish_escaped) |  |  |  |  | 
-[CMSG_BUG](#cmsg_bug) | serialized |  | serialized | serialized | serialized
+[CMSG_BUG](#cmsg_bug) | serialized |  | serialized | serialized | serialized | 
 [SMSG_NOTIFICATION](#smsg_notification) |  |  |  |  | 
 [CMSG_PLAYED_TIME](#cmsg_played_time) |  | serialized | serialized | serialized
 [SMSG_PLAYED_TIME](#smsg_played_time) |  | serialized | serialized | serialized
