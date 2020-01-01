@@ -185,7 +185,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_MESSAGECHAT](#smsg_messagechat) | serialized | serialized | serialized | serialized | serialized
 [CMSG_JOIN_CHANNEL](#cmsg_join_channel) |  | serialized | serialized | serialized | serialized
 [CMSG_LEAVE_CHANNEL](#cmsg_leave_channel) | serialized |  | serialized | serialized | serialized
-[SMSG_CHANNEL_NOTIFY](#smsg_channel_notify) |  |  |  |  | 
+[SMSG_CHANNEL_NOTIFY](#smsg_channel_notify) | serialized | serialized | serialized | serialized | serialized
 [CMSG_CHANNEL_LIST](#cmsg_channel_list) | serialized |  | serialized | serialized | serialized
 [SMSG_CHANNEL_LIST](#smsg_channel_list) |  |  |  |  | 
 [SMSG_CHANNEL_MEMBER_COUNT](#smsg_channel_member_count) | serialized | serialized | serialized | serialized | serialized
@@ -442,7 +442,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_QUESTGIVER_CHOOSE_REWARD](#cmsg_questgiver_choose_reward) | serialized |  | serialized | serialized | serialized
 [SMSG_QUESTGIVER_QUEST_INVALID](#smsg_questgiver_quest_invalid) |  |  |  |  | 
 [CMSG_QUESTGIVER_CANCEL](#cmsg_questgiver_cancel) |  |  |  |  | 
-[SMSG_QUESTGIVER_QUEST_COMPLETE](#smsg_questgiver_quest_complete) |  |  |  |  | 
+[SMSG_QUESTGIVER_QUEST_COMPLETE](#smsg_questgiver_quest_complete) | serialized | serialized | serialized | serialized | serialized
 [SMSG_QUESTGIVER_QUEST_FAILED](#smsg_questgiver_quest_failed) |  |  |  |  | 
 [CMSG_QUESTLOG_SWAP_QUEST](#cmsg_questlog_swap_quest) |  |  |  |  | 
 [CMSG_QUESTLOG_REMOVE_QUEST](#cmsg_questlog_remove_quest) | serialized |  | serialized | serialized | serialized
@@ -873,9 +873,9 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_SET_EXPLORATION_ALL](#cmsg_set_exploration_all) |  |  |  |  | 
 [SMSG_INVALIDATE_PLAYER](#smsg_invalidate_player) |  |  |  |  | 
 [CMSG_RESET_INSTANCES](#cmsg_reset_instances) |  |  |  |  | 
-[SMSG_INSTANCE_RESET](#smsg_instance_reset) |  |  |  |  | 
+[SMSG_INSTANCE_RESET](#smsg_instance_reset) | serialized | serialized | serialized | serialized | serialized
 [SMSG_INSTANCE_RESET_FAILED](#smsg_instance_reset_failed) |  |  |  |  | 
-[SMSG_UPDATE_LAST_INSTANCE](#smsg_update_last_instance) |  |  |  |  | 
+[SMSG_UPDATE_LAST_INSTANCE](#smsg_update_last_instance) | serialized | serialized | serialized | serialized | serialized
 [MSG_RAID_TARGET_UPDATE](#msg_raid_target_update) | serialized |  | serialized |  | 
 [MSG_RAID_READY_CHECK](#msg_raid_ready_check) | serialized |  | serialized | serialized | serialized
 [CMSG_LUA_USAGE](#cmsg_lua_usage) |  |  |  |  | 
@@ -888,7 +888,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [MSG_SET_RAID_DIFFICULTY](#msg_set_raid_difficulty) |  |  | serialized | 
 [CMSG_OPT_OUT_OF_LOOT](#cmsg_opt_out_of_loot) |  |  | serialized | 
 [CMSG_GMSURVEY_SUBMIT](#cmsg_gmsurvey_submit) |  |  | serialized |  | 
-[SMSG_UPDATE_INSTANCE_OWNERSHIP](#smsg_update_instance_ownership) |  |  |  |  | 
+[SMSG_UPDATE_INSTANCE_OWNERSHIP](#smsg_update_instance_ownership) | serialized | serialized | serialized | serialized | serialized
 [CMSG_IGNORE_KNOCKBACK_CHEAT](#cmsg_ignore_knockback_cheat) |  |  |  |  | 
 [SMSG_CHAT_PLAYER_AMBIGUOUS](#smsg_chat_player_ambiguous) |  |  |  |  | 
 [MSG_DELAY_GHOST_TELEPORT](#msg_delay_ghost_teleport) |  |  |  |  | 
