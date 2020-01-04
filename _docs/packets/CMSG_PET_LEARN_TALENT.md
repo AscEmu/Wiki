@@ -9,10 +9,10 @@ position: 1025
 
 ### Status
 
-Version | Hex | Comment
----------- | ---------- | ----------
-Classic |  |
-TBC |  |
-WotLK |  |
-Cata |  |
-MoP |  |
+Version    | Hex        | Comment
+---------- | ---------- | ---------- 
+Classic    | -          | not used
+TBC        | -          | not used
+WotLK      | 0x47A      | 
+Cata       | 0x6725     | 
+MoP        | 0x6725     | 
