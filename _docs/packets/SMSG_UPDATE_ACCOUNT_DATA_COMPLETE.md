@@ -9,10 +9,10 @@ position: 1050
 
 ### Status
 
-Version | Hex | Comment
----------- | ---------- | ----------
-Classic |  |
-TBC |  |
-WotLK |  |
-Cata |  |
-MoP |  |
+Version    | Hex        | Comment
+---------- | ---------- | ---------- 
+Classic    | -          | not used
+TBC        | -          | not used
+WotLK      | 0x463      | 
+Cata       | 0x2015     | 
+MoP        | 0x2015     | 
