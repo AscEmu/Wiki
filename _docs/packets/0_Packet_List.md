@@ -123,8 +123,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_GAMEOBJECT_QUERY_RESPONSE](#smsg_gameobject_query_response) | serialized | serialized | serialized | serialized | serialized
 [CMSG_CREATURE_QUERY](#cmsg_creature_query) |  | serialized | serialized | serialized | serialized
 [SMSG_CREATURE_QUERY_RESPONSE](#smsg_creature_query_response) | serialized | serialized | serialized | serialized | serialized
-[SMSG_CRITERIA_DELETED](#smsg_criteria_deleted) |  |  |  |  | 
-[SMSG_CRITERIA_UPDATE](#smsg_criteria_update) |  |  |  |  | 
+[SMSG_CRITERIA_DELETED](#smsg_criteria_deleted) | not used | not used | serialized | serialized | serialized
+[SMSG_CRITERIA_UPDATE](#smsg_criteria_update) | not used | not used | serialized | serialized | serialized
 [CMSG_WHO](#cmsg_who) | serialized | serialized | serialized | serialized | serialized
 [SMSG_WHO](#smsg_who) |  |  |  |  | 
 [CMSG_WHOIS](#cmsg_whois) | serialized | serialized | serialized | serialized | serialized
@@ -286,7 +286,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [MSG_MOVE_HOVER](#msg_move_hover) |  |  |  |  | 
 [CMSG_TRIGGER_CINEMATIC_CHEAT](#cmsg_trigger_cinematic_cheat) |  |  |  |  | 
 [CMSG_OPENING_CINEMATIC](#cmsg_opening_cinematic) |  |  |  |  | 
-[CMSG_OPT_OUT_OF_LOOT](#cmsg_opt_out_of_loot) |  |  |  |  | 
+[CMSG_OPT_OUT_OF_LOOT](#cmsg_opt_out_of_loot) | serialized |  | serialized |  | 
 [SMSG_TRIGGER_CINEMATIC](#smsg_trigger_cinematic) |  |  |  |  | 
 [CMSG_NEXT_CINEMATIC_CAMERA](#cmsg_next_cinematic_camera) |  |  |  |  | 
 [CMSG_COMPLETE_CINEMATIC](#cmsg_complete_cinematic) |  |  |  |  | 
@@ -573,7 +573,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_GMTICKET_UPDATETEXT](#cmsg_gmticket_updatetext) | serialized |  | serialized | serialized | serialized
 [SMSG_GMTICKET_UPDATETEXT](#smsg_gmticket_updatetext) | serialized | serialized | serialized | serialized | serialized
 [SMSG_ACCOUNT_DATA_TIMES](#smsg_account_data_times) |  |  |  |  | 
-[SMSG_ACHIEVEMENT_DELETED](#smsg_achievement_deleted) |  |  |  |  | 
+[SMSG_ACHIEVEMENT_DELETED](#smsg_achievement_deleted) | not used | not used | serialized | serialized | serialized
 [CMSG_REQUEST_ACCOUNT_DATA](#cmsg_request_account_data) |  |  |  |  | 
 [CMSG_UPDATE_ACCOUNT_DATA](#cmsg_update_account_data) | serialized |  | serialized | serialized | serialized
 [SMSG_UPDATE_ACCOUNT_DATA](#smsg_update_account_data) |  |  |  |  | 
@@ -632,7 +632,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_CLEAR_EXPLORATION](#cmsg_clear_exploration) |  |  |  |  | 
 [CMSG_SEND_MAIL](#cmsg_send_mail) | serialized |  | serialized | serialized | serialized
 [SMSG_SEND_MAIL_RESULT](#smsg_send_mail_result) | serialized | serialized | serialized | serialized | serialized
-[SMSG_SERVER_FIRST_ACHIEVEMENT](#smsg_server_first_achievement) |  |  |  |  | 
+[SMSG_SERVER_FIRST_ACHIEVEMENT](#smsg_server_first_achievement) | not used | not used | serialized | serialized | serialized
 [CMSG_GET_MAIL_LIST](#cmsg_get_mail_list) |  |  |  |  | 
 [SMSG_MAIL_LIST_RESULT](#smsg_mail_list_result) |  |  |  |  | 
 [CMSG_BATTLEFIELD_LIST](#cmsg_battlefield_list) | serialized |  | serialized | serialized | serialized
@@ -890,7 +890,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_GM_UPDATE_TICKET_STATUS](#cmsg_gm_update_ticket_status) |  |  |  |  | 
 [SMSG_GM_TICKET_STATUS_UPDATE](#smsg_gm_ticket_status_update) |  |  |  |  | 
 [MSG_SET_DUNGEON_DIFFICULTY](#msg_set_dungeon_difficulty) | serialized |  | serialized | serialized | serialized
-[MSG_SET_RAID_DIFFICULTY](#msg_set_raid_difficulty) |  |  |  |  | 
+[MSG_SET_RAID_DIFFICULTY](#msg_set_raid_difficulty) | not used | not used | 0x4EB | 0x0614 | 0x0614
 [CMSG_GMSURVEY_SUBMIT](#cmsg_gmsurvey_submit) |  |  | serialized |  | 
 [SMSG_UPDATE_INSTANCE_OWNERSHIP](#smsg_update_instance_ownership) | serialized | serialized | serialized | serialized | serialized
 [CMSG_IGNORE_KNOCKBACK_CHEAT](#cmsg_ignore_knockback_cheat) |  |  |  |  | 
