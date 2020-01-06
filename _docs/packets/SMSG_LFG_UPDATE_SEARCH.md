@@ -9,10 +9,10 @@ position: 874
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | -          | not used
+TBC        | -          | not used
+WotLK      | 0x369      | 
+Cata       | 0x136A     | 
+MoP        | 0x136A     | 

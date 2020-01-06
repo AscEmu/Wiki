@@ -11,10 +11,10 @@ Join chat channels.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x097 |  
-WotLK | 0x097 |  
-Cata |  |  
-MoP |  |  
+Classic    |            | 
+TBC        | 0x097      | 
+WotLK      | 0x097      | 
+Cata       | 0x0156     | 
+MoP        | 0x0156     | 

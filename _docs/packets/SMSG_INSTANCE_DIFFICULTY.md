@@ -9,9 +9,10 @@ position: 828
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
+Classic    | 0x33B      | 
+TBC        | 0x33B      | 
+WotLK      | 0x33B      | 
+Cata       | 0x33B      | !
+MoP        | 0x33B      | !

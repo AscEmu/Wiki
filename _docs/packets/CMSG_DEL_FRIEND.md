@@ -11,10 +11,10 @@ Colled on removing friend from list.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC | 0x06A |  
-WotLK | 0x06A |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x06A      | 
+TBC        | 0x06A      | 
+WotLK      | 0x06A      | 
+Cata       |            | 
+MoP        |            | 

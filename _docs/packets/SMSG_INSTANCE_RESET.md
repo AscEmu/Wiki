@@ -9,10 +9,10 @@ position: 799
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x31E      | 
+TBC        | 0x31E      | 
+WotLK      | 0x31E      | 
+Cata       | 0x6F05     | 
+MoP        | 0x6F05     | 

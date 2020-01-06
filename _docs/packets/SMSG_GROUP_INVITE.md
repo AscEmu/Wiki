@@ -11,10 +11,10 @@ Send after inviting a player to a group.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |  
-TBC        | 0x06F      |  
-WotLK      | 0x06F      |  
-Cata       | 0x31B2     |  
-MoP        |            |  
+Classic    | 0x06F      | 
+TBC        | 0x06F      | 
+WotLK      | 0x06F      | 
+Cata       | 0x31B2     | 
+MoP        | 0x31B2     | 

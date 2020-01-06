@@ -11,10 +11,10 @@ Called on adding ignored player to list.
 
 ### Status
 
-Version | Hex | Comment
----------- | ---------- | ---------- 
-Classic    |            |  
-TBC        | 0x06C      |  
-WotLK      | 0x06C      |  
-Cata       |            |  
-MoP        |            |  
+Version    | Hex        | Comment
+---------- | ---------- | ----------
+Classic    | 0x06C      | 
+TBC        | 0x06C      | 
+WotLK      | 0x06C      | 
+Cata       |            | 
+MoP        |            | 

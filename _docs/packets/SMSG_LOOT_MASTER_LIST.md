@@ -9,10 +9,10 @@ position: 677
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x2A4      | 
+TBC        | 0x2A4      | 
+WotLK      | 0x2A4      | 
+Cata       | 0x0325     | 
+MoP        | 0x0325     | 

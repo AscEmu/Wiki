@@ -11,10 +11,10 @@ Called by showing who is online list.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |  
-TBC        | 0x062      |  
-WotLK      | 0x062      |  
-Cata       | 0x6C15     |  
-MoP        |            |  
+Classic    | 0x062      | 
+TBC        | 0x062      | 
+WotLK      | 0x062      | 
+Cata       | 0x6C15     | 
+MoP        | 0x6C15     | 

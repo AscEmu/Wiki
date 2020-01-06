@@ -9,10 +9,10 @@ position: 802
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x321      | 
+TBC        |            | 
+WotLK      | 0x321      | 
+Cata       |            | 
+MoP        |            | 

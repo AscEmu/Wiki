@@ -9,10 +9,10 @@ position: 751
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x2EE      | 
+TBC        |            | 
+WotLK      | 0x2EE      | 
+Cata       | 0x7902     | 
+MoP        | 0x7902     | 

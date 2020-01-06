@@ -9,10 +9,10 @@ position: 388
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x183      | 
+TBC        | 0x183      | 
+WotLK      | 0x183      | 
+Cata       | 0x2115     | 
+MoP        | 0x2115     | 

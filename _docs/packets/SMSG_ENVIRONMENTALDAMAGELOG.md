@@ -9,10 +9,10 @@ position: 509
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x1FC      | 
+TBC        | 0x1FC      | 
+WotLK      | 0x1FC      | 
+Cata       | 0x6C05     | 
+MoP        | 0x6C05     | 

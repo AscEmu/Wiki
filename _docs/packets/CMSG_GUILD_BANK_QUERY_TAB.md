@@ -9,10 +9,10 @@ position: 1000
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x3E6      | 
+TBC        |            | 
+WotLK      | 0x3E6      | 
+Cata       | 0x2E35     | 
+MoP        | 0x2E35     | 

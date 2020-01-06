@@ -9,10 +9,10 @@ position: 95
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    |            | 
+TBC        | 0x05E      | 
+WotLK      | 0x05E      | 
+Cata       | 0x4017     | 
+MoP        | 0x4017     | 
