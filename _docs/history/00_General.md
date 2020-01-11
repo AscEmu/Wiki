@@ -1,7 +1,7 @@
 ---
-title: WoWD
+title: General
 type: history
 position: 1
 ---
 
-# WOWD
+# General

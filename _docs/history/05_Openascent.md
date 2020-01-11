@@ -1,7 +1,7 @@
 ---
 title: Openascent
 type: history
-position: 5
+position: 6
 ---
 # Openascent
 
