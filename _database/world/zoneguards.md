@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # zoneguards
-This table includes the zoneguards? o.O. 
+This table includes the zoneguards.
 
 ## Structure
 

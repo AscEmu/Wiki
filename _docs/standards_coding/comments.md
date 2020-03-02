@@ -67,5 +67,3 @@ Use the following style to describe.
 ///\todo Mark a todo like this
 ///- Mark a point like this
 ```
-
-See in Doxygen Manual [[1]](http://www.stack.nl/~dimitri/doxygen/manual/commands.html#cmddefgroup)
