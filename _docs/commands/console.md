@@ -1,8 +1,8 @@
 ---
 title: Console Documentation
-type: unsorted
+type: command
 layout: single_markdown
-position: 2
+position: 3
 ---
 
 # [![logon_icon_s.jpg](/Wiki/images/logon_icon_s.jpg)](/Wiki/images/logon_icon_s.jpg)Logon console
