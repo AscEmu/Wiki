@@ -98,11 +98,11 @@ ascemu_world  The world database (NPC, GO, Instances, Items, ...)
 
 ### Import the Structure
 
-For **ascemu_world** apply all .sql files in folder 'fullDB' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
+For **ascemu_world** apply all .sql files in folder 'fullDB' from source: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
 
 ### Updating the DBs
 
-For updatefiles **ascemu_logon**, **ascemu_char** and **ascemu_world** you need to copy the **sql** folder to **C:/AscEmu/sql/** from ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/AscEmu/).
+For updatefiles **ascemu_logon**, **ascemu_char** and **ascemu_world** you need to copy the **sql** folder to **C:/AscEmu/sql/** from source: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/AscEmu/).
 
 **Done** Your databases are up to date. Move on with this guide.
 
