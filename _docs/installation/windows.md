@@ -68,7 +68,9 @@ If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
 
 ### VS Compiling
 
-**1.** Open PathToYourPrecompiledSource/Ascemu.sln
+**1.** Open Project Ascemu.sln
+
+![cmake_5.png](/Wiki/images/installation.windows/cmake_5.png)
 
 **2.** Right-click on "Solution Ascemu" and choose "Build Solution" (F7).
 
@@ -82,11 +84,9 @@ If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
 
 ![msvc_3.png](/Wiki/images/installation.windows/msvc_3.png)
 
-**5.** The required server files will now be in the folder specified by CMAKE_INSTALL_PREFIX (by default: C:\AscEmu)
+**5.** The required server files will now be in the folder specified by CMAKE_INSTALL_PREFIX (by default: C:/AscEmu/)
 
 ### Database Setup
-
-#### Create the basic DBs
 
 Create the 3 Databases.
 
@@ -98,30 +98,13 @@ ascemu_world  The world database (NPC, GO, Instances, Items, ...)
 
 ### Import the Structure
 
-Import the structure for our databases. Use the files from ".../sql/xxx"
-
-```console
-character_base -> ascemu_char DB
-logon_base -> ascemu_logon DB
-```
-
-For ascemu_world apply all .sql files in folder 'fullDB' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB).
-{: .info }
+For **ascemu_world** apply all .sql files in folder 'fullDB' from source: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
 
 ### Updating the DBs
 
-Make shure you use the updatefiles for the DBs. You can find them in ".../sql/"
+For updatefiles **ascemu_logon**, **ascemu_char** and **ascemu_world** you need to copy the **sql** folder to **C:/AscEmu/sql/** from source: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/AscEmu/).
 
-```console
-char_updates (all .sql files)  -> ascemu_char
-logon_updates (all .sql files) -> ascemu_logon
-world_updates (all .sql files) -> ascemu_world
-```
-
-For world_updates apply all .sql files in folder 'updates' from: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB).
-{: .info }
-
-**Done** Your databases are up to date. Move on with this guid.
+**Done** Your databases are up to date. Move on with this guide.
 
 ### Extractors
 
