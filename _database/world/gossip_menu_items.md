@@ -62,6 +62,9 @@ Icon displayed beside the option.
 ***Action 5***
 - No data, close gossip on clicking on option.
 
+***Action 6***
+- Toggle gain XP, (on_choose_data = box money, on_choose_data2 = box textId)
+
 
 ### next_gossip_menu
 
@@ -80,3 +83,9 @@ The unique text id in [npc_text](/Wiki/database/world/npc_text/ "Npc text") tabl
 
 ***Type 2***
 - Check for completed quest (wip) (requirement_data = questId)
+
+***Type 3***
+- Check if player can gain xp
+
+***Type 4***
+- Check if player can not gain xp
