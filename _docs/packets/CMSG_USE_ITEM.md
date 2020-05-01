@@ -12,7 +12,7 @@ position: 172
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0AB      | 
-TBC        |            | 
+TBC        | 0x0AB      | 
 WotLK      | 0x0AB      | 
 Cata       | 0x2C06     | 
 MoP        | 0x2C06     | 

@@ -12,7 +12,7 @@ position: 352
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x15F      | 
-TBC        |            | 
+TBC        | 0x15F      | 
 WotLK      | 0x15F      | 
 Cata       | 0x2007     | 
 MoP        | 0x2007     |  

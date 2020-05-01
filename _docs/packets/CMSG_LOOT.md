@@ -12,7 +12,7 @@ position: 350
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x15D      | 
-TBC        |            | 
+TBC        | 0x15D      | 
 WotLK      | 0x15D      | 
 Cata       | 0x0127     | 
 MoP        | 0x0127     | 
