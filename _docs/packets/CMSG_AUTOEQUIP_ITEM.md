@@ -12,7 +12,7 @@ position: 267
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x10A      | 
-TBC        |            | 
+TBC        | 0x10A      | 
 WotLK      | 0x10A      | 
 Cata       | 0x4304     | 
 MoP        | 0x4304     | 

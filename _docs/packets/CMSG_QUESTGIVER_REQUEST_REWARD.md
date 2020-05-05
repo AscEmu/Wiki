@@ -12,7 +12,7 @@ position: 397
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x18C      | 
-TBC        |            | 
+TBC        | 0x18C      | 
 WotLK      | 0x18C      | 
 Cata       | 0x2534     | 
 MoP        | 0x2534     | 
