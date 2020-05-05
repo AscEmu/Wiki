@@ -305,12 +305,12 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_STORE_LOOT_IN_SLOT](#cmsg_store_loot_in_slot) |  |  |  |  | 
 [CMSG_AUTOEQUIP_ITEM](#cmsg_autoequip_item) | serialized | serialized | serialized | serialized | serialized
 [CMSG_AUTOSTORE_BAG_ITEM](#cmsg_autostore_bag_item) | serialized |  | serialized | serialized | serialized
-[CMSG_SWAP_ITEM](#cmsg_swap_item) | serialized |  | serialized | serialized | serialized
-[CMSG_SWAP_INV_ITEM](#cmsg_swap_inv_item) | serialized |  | serialized | serialized | serialized
+[CMSG_SWAP_ITEM](#cmsg_swap_item) | serialized | serialized | serialized | serialized | serialized
+[CMSG_SWAP_INV_ITEM](#cmsg_swap_inv_item) | serialized | serialized | serialized | serialized | serialized
 [CMSG_SPLIT_ITEM](#cmsg_split_item) | serialized |  | serialized | serialized | serialized
 [CMSG_AUTOEQUIP_ITEM_SLOT](#cmsg_autoequip_item_slot) | serialized |  | serialized | serialized | serialized
 [OBSOLETE_DROP_ITEM](#obsolete_drop_item) |  |  |  |  | 
-[CMSG_DESTROYITEM](#cmsg_destroyitem) | serialized |  | serialized | serialized | serialized
+[CMSG_DESTROYITEM](#cmsg_destroyitem) | serialized | serialized | serialized | serialized | serialized
 [SMSG_INVENTORY_CHANGE_FAILURE](#smsg_inventory_change_failure) | serialized | serialized | serialized | serialized | serialized
 [SMSG_OPEN_CONTAINER](#smsg_open_container) |  |  |  |  | 
 [CMSG_INSPECT](#cmsg_inspect) | serialized |  | serialized | serialized | serialized

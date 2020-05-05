@@ -12,7 +12,7 @@ position: 269
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x10C      | 
-TBC        |            | 
+TBC        | 0x10C      | 
 WotLK      | 0x10C      | 
 Cata       | 0x6326     | 
 MoP        | 0x6326     | 
