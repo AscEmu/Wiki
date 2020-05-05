@@ -12,7 +12,7 @@ position: 520
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x207      | 
-TBC        |            | 
+TBC        | 0x207      | 
 WotLK      | 0x207      | 
 Cata       | 0x0636     | 
 MoP        | 0x0636     | 

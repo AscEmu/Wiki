@@ -11,8 +11,8 @@ position: 1035
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x3FE      | 
-TBC        |            | 
+Classic    | 0x3FD      | 
+TBC        | 0x3FD      | 
 WotLK      | 0x3FE      | 
 Cata       |            | 
 MoP        |            | 
