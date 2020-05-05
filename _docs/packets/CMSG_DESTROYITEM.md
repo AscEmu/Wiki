@@ -12,7 +12,7 @@ position: 274
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x111      | 
-TBC        |            | 
+TBC        | 0x111      | 
 WotLK      | 0x111      | 
 Cata       | 0x4A27     | 
 MoP        | 0x4A27     | 

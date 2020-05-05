@@ -12,7 +12,7 @@ position: 270
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x10D      | 
-TBC        |            | 
+TBC        | 0x10D      | 
 WotLK      | 0x10D      | 
 Cata       | 0x2614     | 
 MoP        | 0x2614     | 

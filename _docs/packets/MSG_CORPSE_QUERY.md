@@ -12,7 +12,7 @@ position: 535
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    |            | 
-TBC        |            | 
+TBC        | 0x216      | 
 WotLK      | 0x216      | 
 Cata       | 0x4336     | 
 MoP        | 0x4336     | 

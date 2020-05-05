@@ -12,7 +12,7 @@ position: 405
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x194      | 
-TBC        |            | 
+TBC        | 0x194      | 
 WotLK      | 0x194      | 
 Cata       | 0x0D16     | 
 MoP        | 0x0D16     | 

@@ -12,7 +12,7 @@ position: 9
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x008      |  
-TBC        |            |  
+TBC        | 0x008      |  
 WotLK      | 0x008      |  
 Cata       |            |  
 MoP        |            |  

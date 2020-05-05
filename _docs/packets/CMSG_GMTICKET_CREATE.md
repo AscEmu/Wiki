@@ -12,7 +12,7 @@ position: 518
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    |            | 
-TBC        |            | 
+TBC        | 0x205      | 
 WotLK      | 0x205      | 
 Cata       | 0x0137     | 
 MoP        | 0x0137     | 
