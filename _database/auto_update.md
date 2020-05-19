@@ -1,15 +1,15 @@
 ---
 title: Auto Database
-type: unsorted
+type: database
 layout: single_markdown
-position: 7
+position: 1
 ---
 
 # Auto Database Update
 Since the first database update files exists there was confusion how to properly use it. So why not simply use the latest version and the server will take for updates?
 
 ## Update setup
-First of all, enable the option WITH_EXPERIMENTAL_FILESYSTEM during the cmake setup and compile the server.
+We made sure that everything was done automatically.
 
 ### Windows
 After you have compiled AE build only the INSTALL project, and everything you need for auto db updates will be copied.
