@@ -24,9 +24,45 @@ Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another 
 * [Notepad++](https://notepad-plus-plus.org/download/)
 * [HeidiSQL](https://www.heidisql.com/download.php)
 
+### Install MySQL Server
+
+**1.** Start installer.
+
+![MySQL_1.png](/Wiki/images/installation.windows/MySQL_1.png)
+
+**2.** Select mode of server you can select Server only or Custom or just keep Developer (will installed all components).
+
+![MySQL_2.png](/Wiki/images/installation.windows/MySQL_2.png)
+
+![MySQL_3.png](/Wiki/images/installation.windows/MySQL_3.png)
+
+**3.** Set account login and password for root account : ascemu (login) ascemu (password)
+
+![MySQL_4.png](/Wiki/images/installation.windows/MySQL_4.png)
+
+**4.** Check the configuration: MySQL should start as a Windows service at system startup.
+
+![MySQL_5.png](/Wiki/images/installation.windows/MySQL_5.png)
+
+**5.** Optional: Config mysql server config
+
+Sometimes you can receive a error: **MySQL server has gone away (error 2006)** 
+
+Attention: folder hidden – [how to open](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files).
+
+C:\ProgramData\MySQL\MySQL Server **8.0**\my.ini
+
+```
+# The maximum size of one packet or any generated or intermediate string, or any parameter sent by the
+# mysql_stmt_send_long_data() C API function.
+max_allowed_packet=4M
+```
+
+Change on **max_allowed_packet**=128M or 500M and restart mysql service.
+
 ### Getting the source
 
-Before you start working with the program, read the instruction. [help.github.desktop.guides](https://help.github.com/desktop/guides/) .
+Before you start working with the program, read the instruction [help.github.desktop.guides](https://help.github.com/desktop/guides/).
 {: .info }
 
 Sign in to GitHub and GitHub Desktop before you start to clone.
