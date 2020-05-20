@@ -14,6 +14,7 @@ layout: single_markdown
 * [Git](https://git-scm.com/downloads/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [CMake](https://cmake.org/download/)
+* [7-Zip](https://sourceforge.net/projects/sevenzip/?source=directory)
 
 **Optional**
 Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
@@ -23,9 +24,44 @@ Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another 
 * [Notepad++](https://notepad-plus-plus.org/download/)
 * [HeidiSQL](https://www.heidisql.com/download.php)
 
+### Install MySQL Server
+
+**1.** Start installer.
+
+![MySQL_1.png](/Wiki/images/installation.windows/MySQL_1.png)
+
+**2.** Select mode of server you can select Server only or Custom or just keep Developer (will installed all components).
+
+![MySQL_2.png](/Wiki/images/installation.windows/MySQL_2.png)
+
+![MySQL_3.png](/Wiki/images/installation.windows/MySQL_3.png)
+
+**3.** Set account login and password for root account : ascemu (login) ascemu (password)
+
+![MySQL_4.png](/Wiki/images/installation.windows/MySQL_4.png)
+
+**4.** Check the configuration: MySQL should start as a Windows service at system startup.
+
+![MySQL_5.png](/Wiki/images/installation.windows/MySQL_5.png)
+
+**5.** Optional: Config mysql server config
+
+Sometimes you can receive a error: **MySQL server has gone away (error 2006)** 
+
+Attention: folder hidden – [how to open](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files).
+
+Open file : C:\ProgramData\MySQL\MySQL Server **8.0**\my.ini 
+```
+# The maximum size of one packet or any generated or intermediate string, or any parameter sent by the
+# mysql_stmt_send_long_data() C API function.
+max_allowed_packet=4M
+```
+
+Change on **max_allowed_packet**=128M or 500M and restart mysql service.
+
 ### Getting the source
 
-Before you start working with the program, read the instruction. [help.github.desktop.guides](https://help.github.com/desktop/guides/) .
+Before you start working with the program, read the instruction [help.github.desktop.guides](https://help.github.com/desktop/guides/).
 {: .info }
 
 Sign in to GitHub and GitHub Desktop before you start to clone.
@@ -86,25 +122,36 @@ If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
 
 **5.** The required server files will now be in the folder specified by CMAKE_INSTALL_PREFIX (by default: C:/AscEmu/)
 
+![msvc_4.png](/Wiki/images/installation.windows/msvc_4.png)
+
+**6.** After compilation, the directory with ascemu should look like this.
+
 ### Database Setup
 
-Create the 3 Databases.
+Create the 3 Databases. Replace your_username with the username you used in the previous step.
 
-```console
-ascemu_logon  The login database (accounts)
-ascemu_char   The characters database (All created characters)
-ascemu_world  The world database (NPC, GO, Instances, Items, ...)
+```HeidiSQL
+-- The world database (NPC, GO, Instances, Items, ...)
+CREATE DATABASE `ascemu_world`;
+GRANT ALL PRIVILEGES ON ascemu_world.* TO 'your_username'@'%';
+-- The characters database (All created characters)
+CREATE DATABASE `ascemu_char`;
+GRANT ALL PRIVILEGES ON ascemu_char.* TO 'your_username'@'%';
+-- The login database (accounts)
+CREATE DATABASE `ascemu_logon`;
+GRANT ALL PRIVILEGES ON ascemu_logon.* TO 'your_username'@'%';
+quit
 ```
 
-### Import the Structure
+After you have created the databases, it’s time to populate them with the SQL files.
 
-For **ascemu_world** apply all .sql files in folder 'fullDB' from source: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
+![sql_1.png](/Wiki/images/installation.windows/sql_1.png)
+
+You will download and extract the world_base.sql into your sql/world/ dir. The latest full db can be downloaded here: [world db](https://github.com/AscEmu/OneDB/)
 
 ### Updating the DBs
 
-For updatefiles **ascemu_logon**, **ascemu_char** and **ascemu_world** you need to copy the **sql** folder to **C:/AscEmu/sql/** from source: ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/AscEmu/).
-
-**Done** Your databases are up to date. Move on with this guide.
+The process is automated, [more information.](https://ascemu.github.io/Wiki/database/auto_update/)
 
 ### Extractors
 
@@ -155,6 +202,21 @@ Enter your MySQL information at the the following section.
 <WorldDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_world" Port = "3306">
 <CharacterDatabase Hostname = "localhost" Username = "ascemu" Password = "ascemu" Name = "ascemu_char" Port = "3306">
 ```
+
+Enter your Password in **RemotePassword**. 
+
+```console
+<LogonServer Address        = "127.0.0.1"
+             Port           = "8093"
+             Name           = "Default Logon"
+             RealmCount     = "1"
+             DisablePings   = "0"
+             RemotePassword = "moo">
+```
+
+![sql_2.png](/Wiki/images/installation.windows/sql_2.png)
+
+In db ascemu_logon->realms. (**RemotePassword** must match).
 
 ### Create an Account
 

@@ -9,10 +9,10 @@ position: 913
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x390      | 
+TBC        | 0x390      | 
+WotLK      | 0x390      | 
+Cata       | 0x3CA4     | 
+MoP        | 0x0000     | 

@@ -18,7 +18,7 @@
             
             <a href="#databaseGroup" data-toggle="collapse" aria-expanded="false">Database</a>
             <ul class="collapse list-unstyled" id="databaseGroup">
-                
+                <li><a href="{{ site.url }}/Wiki/database/auto_update">Auto Database Update</a></li>
                 <a href="#logonSubGroup" data-toggle="collapse" aria-expanded="false">Logon Database</a>
                 <ul class="collapse list-unstyled" id="logonSubGroup">
                     {% assign dbdocs = site.database | where: "type","logondb" | group_by: 'category' %}
