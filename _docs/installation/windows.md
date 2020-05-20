@@ -50,8 +50,7 @@ Sometimes you can receive a error: **MySQL server has gone away (error 2006)**
 
 Attention: folder hidden – [how to open](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files).
 
-C:\ProgramData\MySQL\MySQL Server **8.0**\my.ini
-
+Open file : C:\ProgramData\MySQL\MySQL Server **8.0**\my.ini 
 ```
 # The maximum size of one packet or any generated or intermediate string, or any parameter sent by the
 # mysql_stmt_send_long_data() C API function.
