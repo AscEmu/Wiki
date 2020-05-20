@@ -581,6 +581,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_UPDATE_AURA_DURATION](#smsg_update_aura_duration) |  | serialized |  |  |
 [SMSG_CLEAR_FAR_SIGHT_IMMEDIATE](#smsg_clear_far_sight_immediate) |  |  |  |  | 
 [SMSG_POWERGAINLOG_OBSOLETE](#smsg_powergainlog_obsolete) |  |  |  |  | 
+[SMSG_PRE_RESURRECT](#smsg_pre_resurrect) |  |  | serialized | serialized | serialized
 [CMSG_GM_TEACH](#cmsg_gm_teach) |  |  |  |  | 
 [CMSG_GM_CREATE_ITEM_TARGET](#cmsg_gm_create_item_target) |  |  |  |  | 
 [CMSG_GMTICKET_GETTICKET](#cmsg_gmticket_getticket) | serialized | serialized | serialized | serialized | serialized
@@ -657,7 +658,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_SPELLLOGEXECUTE](#smsg_spelllogexecute) |  |  |  |  | 
 [SMSG_DEBUGAURAPROC](#smsg_debugauraproc) |  |  |  |  | 
 [SMSG_PERIODICAURALOG](#smsg_periodicauralog) |  |  |  |  | 
-[SMSG_SPELLDAMAGESHIELD](#smsg_spelldamageshield) |  |  |  |  | 
+[SMSG_SPELLDAMAGESHIELD](#smsg_spelldamageshield) | serialized | serialized | serialized | serialized | serialized
 [SMSG_SPELLNONMELEEDAMAGELOG](#smsg_spellnonmeleedamagelog) |  |  |  |  | 
 [CMSG_LEARN_TALENT](#cmsg_learn_talent) | serialized |  | serialized | serialized | serialized
 [CMSG_LEARN_TALENTS_MULTIPLE](#cmsg_learn_talents_multiple) | not used | not used | serialized |  |
@@ -728,6 +729,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_PVP_CREDIT](#smsg_pvp_credit) | serialized | serialized | serialized | serialized | serialized 
 [SMSG_PVP_OPTIONS_ENABLED](#smsg_pvp_options_enabled) | not used | not used | not used | serialized | serialized
 [SMSG_AUCTION_REMOVED_NOTIFICATION](#smsg_auction_removed_notification) |  |  |  |  | 
+[SMSG_AURA_UPDATE](#smsg_aura_update) |  |  | serialized | serialized | 
+[SMSG_AURA_UPDATE_ALL](#smsg_aura_update_all) |  |  | serialized | serialized | 
 [CMSG_GROUP_RAID_CONVERT](#cmsg_group_raid_convert) |  |  |  |  | 
 [CMSG_GROUP_ASSISTANT_LEADER](#cmsg_group_assistant_leader) | serialized |  | serialized |  | 
 [CMSG_BUYBACK_ITEM](#cmsg_buyback_item) | serialized |  | serialized | serialized | serialized
@@ -1068,4 +1071,4 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_TARGET_SCRIPT_CAST](#cmsg_target_script_cast) |  |  |  |  | 
 [CMSG_CHANNEL_DISPLAY_LIST](#cmsg_channel_display_list) | serialized |  | serialized | serialized | serialized
 
-<!-- position next 1061 -->  
+<!-- position next 1064 -->  
