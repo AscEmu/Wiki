@@ -673,16 +673,16 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_AUCTION_LIST_PENDING_SALES](#cmsg_auction_list_pending_sales) | not used | not used | serialized | serialized | serialized
 [CMSG_AUCTION_PLACE_BID](#cmsg_auction_place_bid) | serialized |  | serialized | serialized | serialized
 [SMSG_AUCTION_COMMAND_RESULT](#smsg_auction_command_result) | serialized | serialized | serialized | serialized | serialized
-[SMSG_AUCTION_LIST_RESULT](#smsg_auction_list_result) |  |  |  |  | 
-[SMSG_AUCTION_OWNER_LIST_RESULT](#smsg_auction_owner_list_result) |  |  |  |  | 
-[SMSG_AUCTION_BIDDER_NOTIFICATION](#smsg_auction_bidder_notification) |  |  |  |  | 
-[SMSG_AUCTION_OWNER_NOTIFICATION](#smsg_auction_owner_notification) |  |  |  |  | 
+[SMSG_AUCTION_LIST_RESULT](#smsg_auction_list_result) | serialized | serialized | serialized | serialized | serialized
+[SMSG_AUCTION_OWNER_LIST_RESULT](#smsg_auction_owner_list_result) | serialized | serialized | serialized | serialized | serialized
+[SMSG_AUCTION_BIDDER_NOTIFICATION](#smsg_auction_bidder_notification) | serialized | serialized | serialized | serialized | serialized
+[SMSG_AUCTION_OWNER_NOTIFICATION](#smsg_auction_owner_notification) | serialized | serialized | serialized | serialized | serialized
 [SMSG_PROCRESIST](#smsg_procresist) |  |  |  |  | 
 [SMSG_STANDSTATE_CHANGE_FAILURE_OBSOLETE](#smsg_standstate_change_failure_obsolete) |  |  |  |  | 
 [SMSG_DISPEL_FAILED](#smsg_dispel_failed) |  |  |  |  | 
 [SMSG_SPELLORDAMAGE_IMMUNE](#smsg_spellordamage_immune) |  |  |  |  | 
 [CMSG_AUCTION_LIST_BIDDER_ITEMS](#cmsg_auction_list_bidder_items) | serialized |  | serialized | serialized | serialized 
-[SMSG_AUCTION_BIDDER_LIST_RESULT](#smsg_auction_bidder_list_result) |  |  |  |  | 
+[SMSG_AUCTION_BIDDER_LIST_RESULT](#smsg_auction_bidder_list_result) | serialized | serialized | serialized | serialized | serialized
 [SMSG_SET_FLAT_SPELL_MODIFIER](#smsg_set_flat_spell_modifier) | serialized | serialized | serialized | serialized | serialized
 [SMSG_SET_PCT_SPELL_MODIFIER](#smsg_set_pct_spell_modifier) | serialized | serialized | serialized | serialized | serialized
 [CMSG_SET_AMMO](#cmsg_set_ammo) |  |  |  |  | 
@@ -931,9 +931,9 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_ARENA_TEAM_QUERY](#cmsg_arena_team_query) | serialized |  | serialized |  | 
 [SMSG_ARENA_TEAM_QUERY_RESPONSE](#smsg_arena_team_query_response) | serialized | serialized | serialized | serialized | serialized
 [CMSG_ARENA_TEAM_ROSTER](#cmsg_arena_team_roster) | serialized |  | serialized |  | 
-[SMSG_ARENA_TEAM_ROSTER](#smsg_arena_team_roster) |  |  |  |  | 
+[SMSG_ARENA_TEAM_ROSTER](#smsg_arena_team_roster) | serialized | serialized | serialized | serialized | serialized
 [CMSG_ARENA_TEAM_INVITE](#cmsg_arena_team_invite) | serialized |  | serialized |  | 
-[SMSG_ARENA_TEAM_INVITE](#smsg_arena_team_invite) |  |  |  |  | 
+[SMSG_ARENA_TEAM_INVITE](#smsg_arena_team_invite) | serialized | serialized | serialized | serialized | serialized
 [CMSG_ARENA_TEAM_ACCEPT](#cmsg_arena_team_accept) |  |  |  |  | 
 [CMSG_ARENA_TEAM_DECLINE](#cmsg_arena_team_decline) |  |  |  |  | 
 [CMSG_ARENA_TEAM_LEAVE](#cmsg_arena_team_leave) | serialized |  | serialized |  | 
