@@ -9,10 +9,10 @@ position: 80
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x04F      | 
+TBC        | 0x04F      | 
+WotLK      | 0x04F      | 
+Cata       | 0x6514     | 
+MoP        | 0x6514     | 

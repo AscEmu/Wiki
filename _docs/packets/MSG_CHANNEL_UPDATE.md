@@ -9,10 +9,10 @@ position: 315
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x13A      | 
+TBC        | 0x13A      | 
+WotLK      | 0x13A      | 
+Cata       | 0x2417     | 
+MoP        | 0x2417     | 
