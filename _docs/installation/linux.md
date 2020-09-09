@@ -119,9 +119,10 @@ mkdir ~/installer
 mkdir ~/server
 ```
 
-As you may have guessed, the installer directory will contain AscEmu source files, and the server directory will contain the actual compiled files (like the libraries and binaries) to run the server.  The next step is to download the source files, so we will change to our installer/ascemu directory and use svn to get the files.
+As you may have guessed, the installer directory will contain AscEmu source files, and the server directory will contain the actual compiled files (like the libraries and binaries) to run the server.  The next step is to download the source files, so we will change to our installer/ascemu_code directory and use git to get the files.
 
 ```console
+mkdir ~/installer/ascemu_code
 cd ~/installer/ascemu_code
 ```
 With the -b required_branch, you can select a branch.
