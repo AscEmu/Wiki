@@ -25,9 +25,10 @@ sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-de
 
 First we need to install MySQL into Linux as well as make sure that we have the correct libraries to properly operate it.
 
-<pre>
 Only for Debian.
+{: .info }
 
+<pre>
 echo -e "deb http://repo.mysql.com/apt/debian/ stretch mysql-5.7\ndeb-src http://repo.mysql.com/apt/debian/ stretch mysql-5.7" > /etc/apt/sources.list.d/mysql.list
 wget -O /tmp/RPM-GPG-KEY-mysql https://repo.mysql.com/RPM-GPG-KEY-mysql
 apt-key add /tmp/RPM-GPG-KEY-mysql
@@ -115,29 +116,25 @@ mkdir ~/installer
 ```
 
 ```console
-mkdir ~/installer/ascemu
-```
-
-```console
 mkdir ~/server
 ```
 
 As you may have guessed, the installer directory will contain AscEmu source files, and the server directory will contain the actual compiled files (like the libraries and binaries) to run the server.  The next step is to download the source files, so we will change to our installer/ascemu directory and use svn to get the files.
 
 ```console
-cd ~/installer/ascemu
+cd ~/installer/ascemu_code
 ```
 With the -b required_branch, you can select a branch.
 {: .info }
 
 ```console
-git clone -b master git://github.com/AscEmu/AscEmu.git code
+git clone -b master git://github.com/AscEmu/AscEmu.git ~/installer/ascemu_code
 ```
 
 Update the code to the current version.
 
 ```console
-cd ~/installer/ascemu/code
+cd ~/installer/ascemu_code
 git pull origin master
 ```
 
@@ -146,15 +143,15 @@ git pull origin master
 Once we have the source files we can start compiling AscEmu. The first step is to create a configuration file that will be used to pass the variables to the make file so that AscEmu will compile properly.
 
 ```console
-mkdir ~/installer/ascemu/build
+mkdir ~/installer/build
 ```
 
 ```console
-cd ~/installer/ascemu/build
+cd ~/installer/build
 ```
 
 ```console
-cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../code
+cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../ascemu_code
 ```
 
 Here is a quick view of the variables you can include with cmake command:
@@ -210,7 +207,7 @@ All that is left to do is to create the /etc/ directory and move the configurati
 ```console
 cd ~/server
 mkdir etc
-mv ~/installer/ascemu/code/configs/*.conf ~/server/etc
+mv ~/installer/ascemu_code/configs/*.conf ~/server/etc
 chmod a+x logon
 chmod a+x world
 ```
@@ -282,7 +279,7 @@ Let's move the full SQL folder from AscEmu code to the server folder.
 
 ```console
 cd ~/server
-cp -r ~/installer/ascemu/code/sql ./
+cp -r ~/installer/ascemu_code/sql ./
 cd ~/server/sql
 ```
 
@@ -330,9 +327,6 @@ Enter your MySQL information you created in Database Setup at the the following 
 ```
 
 That's it! You should now have a fully functioning copy of AscEmu. Look at the sections below for handy scripts and how to create an account.
-
-
-
 
 ### Using Screen
 
