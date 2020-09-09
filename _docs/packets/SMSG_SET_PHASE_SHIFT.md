@@ -1,11 +1,11 @@
 ---
-title: SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+title: SMSG_SET_PHASE_SHIFT
 type: packets
 layout: single_markdown_in_list
-position: 51
+position: 1070
 ---
 
-## SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+## SMSG_SET_PHASE_SHIFT
 
 ### Status
 
@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | 
 TBC        | -          | 
-WotLK      | 0x032      | 
-Cata       | 0x4825     | 
-MoP        | 0x4825     | 
+WotLK      | 0x47C      | 
+Cata       | 0x70A0     | 
+MoP        | 0x70A0     | 

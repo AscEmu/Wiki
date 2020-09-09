@@ -9,10 +9,10 @@ position: 432
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x1AF      | 
+TBC        | 0x1AF      | 
+WotLK      | 0x1AF      | 
+Cata       | 0x4B35     | 
+MoP        | 0x4B35     | 

@@ -1,11 +1,11 @@
 ---
-title: SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+title: SMSG_PLAYER_VEHICLE_DATA
 type: packets
 layout: single_markdown_in_list
-position: 51
+position: 1069
 ---
 
-## SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+## SMSG_PLAYER_VEHICLE_DATA
 
 ### Status
 
@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | 
 TBC        | -          | 
-WotLK      | 0x032      | 
-Cata       | 0x4825     | 
-MoP        | 0x4825     | 
+WotLK      | 0x4A7      | 
+Cata       | 0x4115     | 
+MoP        | 0x4115     | 

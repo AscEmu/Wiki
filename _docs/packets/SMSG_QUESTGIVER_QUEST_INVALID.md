@@ -9,10 +9,10 @@ position: 400
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x18F      | 
+TBC        | 0x18F      | 
+WotLK      | 0x18F      | 
+Cata       | 0x4016     | 
+MoP        | 0x4016     | 

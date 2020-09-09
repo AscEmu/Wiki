@@ -1,11 +1,11 @@
 ---
-title: SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+title: SMSG_CONTROL_VEHICLE
 type: packets
 layout: single_markdown_in_list
-position: 51
+position: 1064
 ---
 
-## SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+## SMSG_CONTROL_VEHICLE
 
 ### Status
 
@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | 
 TBC        | -          | 
-WotLK      | 0x032      | 
-Cata       | 0x4825     | 
-MoP        | 0x4825     | 
+WotLK      | 0x49D      | 
+Cata       | 0x49D      | 
+MoP        | 0x49D      | 

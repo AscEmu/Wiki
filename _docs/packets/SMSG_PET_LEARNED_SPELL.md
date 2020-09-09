@@ -1,11 +1,11 @@
 ---
-title: SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+title: SMSG_PET_LEARNED_SPELL
 type: packets
 layout: single_markdown_in_list
-position: 51
+position: 
 ---
 
-## SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+## SMSG_PET_LEARNED_SPELL
 
 ### Status
 
@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | 
 TBC        | -          | 
-WotLK      | 0x032      | 
-Cata       | 0x4825     | 
-MoP        | 0x4825     | 
+WotLK      | 0x499      | 
+Cata       | 0x0507     | 
+MoP        | 0x0507     | 

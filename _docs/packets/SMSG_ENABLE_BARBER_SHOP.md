@@ -1,11 +1,11 @@
 ---
-title: SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+title: SMSG_ENABLE_BARBER_SHOP
 type: packets
 layout: single_markdown_in_list
-position: 51
+position: 1066
 ---
 
-## SMSG_DESTRUCTIBLE_BUILDING_DAMAGE
+## SMSG_ENABLE_BARBER_SHOP
 
 ### Status
 
@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | 
 TBC        | -          | 
-WotLK      | 0x032      | 
-Cata       | 0x4825     | 
-MoP        | 0x4825     | 
+WotLK      | 0x427      | 
+Cata       | 0x2D16     | 
+MoP        | 0x2D16     | 

@@ -9,10 +9,10 @@ position: 327
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x146      | 
+TBC        | 0x146      | 
+WotLK      | 0x146      | 
+Cata       | 0x6C07     | 
+MoP        | 0x6C07     | 

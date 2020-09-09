@@ -9,10 +9,10 @@ position: 614
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x265      | 
+TBC        | 0x265      | 
+WotLK      | 0x265      | 
+Cata       | 0x0027     | 
+MoP        | 0x0027     | 

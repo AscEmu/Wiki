@@ -9,10 +9,10 @@ position: 672
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x29F      | 
+TBC        | 0x29F      | 
+WotLK      | 0x29F      | 
+Cata       | 0x6617     | 
+MoP        | 0x6617     | 

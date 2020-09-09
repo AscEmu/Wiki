@@ -9,10 +9,10 @@ position: 960
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic |  |  
-TBC |  |  
-WotLK |  |  
-Cata |  |  
-MoP |  |  
+Classic    | 0x3BE      | 
+TBC        | 0x3BE      | 
+WotLK      | 0x3BF      | 
+Cata       | 0x4B26     | 
+MoP        | 0x4B26     | 
