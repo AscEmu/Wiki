@@ -248,40 +248,25 @@ Wrong:
 #define WBStopButtontitle  NSLocalizedString("Stop", "Stop button title")
 ```
 
-## ifndef, define, endif
-
-#ifndef, #define "header guards" should be named as for example _FILENAME replacing the '.' with a '_' and capitalizing the text.
+## "header guards" (ifndef, define, endif, pragma once)
 
 Right:
 {: .success }
-
 ```cpp
-#ifndef _GAMEOBJECT_H
-#define _GAMEOBJECT_H
+#pragma once
+// all your myfile.hpp here
 ```
 
 Wrong:
 {: .error }
+```cpp
+#ifndef _GAMEOBJECT_H
+#define _GAMEOBJECT_H
+#endif
+```
 
 ```cpp
 #ifndef _GameObject_H_
 #define _GameObject_H_
-```
-
-The #endif for the header guard at the end of the header file should have a double slash comment appended after it showing the macro name
-The line above the header guard endif should be the standard seperator comment.
-This closing comment should have a space before and after the comment double slash.
-
-Right:
-{: .success }
-
-```cpp
-#endif // _GAMEOBJECT_H
-```
-
-Wrong:
-{: .error }
-
-```cpp
 #endif
 ```
