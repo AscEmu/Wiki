@@ -179,7 +179,7 @@ Right:
 {: .success }
 
 ```cpp
-unsignedint GetSize() const { return m_size; }
+unsigned int GetSize() const { return m_size; }
 
 unsigned int SetSize(unsigned int size) { m_size = size; }
 ```

@@ -9,10 +9,10 @@ position: 7
 
 ## Description
 
-GetAERevision() Returns the revision of AE server.
+Returns the revision/commit hash of the current AE server.
 
 ## Usage/Example
 
 ```
-print("AE are currently using version/commit hash : " .. GetAERevision())
+print("LuaEngine : AscEmu Revision: " .. GetAERevision())
 ```

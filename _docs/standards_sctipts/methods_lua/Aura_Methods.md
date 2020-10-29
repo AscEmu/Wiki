@@ -30,8 +30,6 @@ GetTarget()                                                                     
 GetDuration()                                                                                                | Returns the duration in miliseconds.
 SetDuration(duration)                                                                                        | Sets the duration of the aura. The aura will be removed after the duration has passed. 
 GetTimeLeft()                                                                                                | Returns the amount of time left until the aura expires in miliseconds.
-SetNegative([amount])                                                                                        | Sets the aura specified as negative, amount is optional; the number of "points" to take away. (Some spells need more "points" to be removed to make it negative, generally unneeded though)
-SetPositive([amount])                                                                                        | Sets the aura specified as positive, amount is optional; the number of points to add. 
 Remove()                                                                                                     | Removes the aura & all of its events (duration, etc.,).
 SetVar(var [,subindex], value)                                                                               | var is a string referring to a parameter of Spell. subindex is optional; used when the variable you are setting has sub indexes. value is what you want to set it to. Returns true on success, false on failure.
 GetVar(var [,subindex])                                                                                      | See above, but returns the value on success or nil on failure.
@@ -42,7 +40,6 @@ SetAuraSlot(slot)                                                               
 ### The following 3 functions will be called from a Player or Unit, not an aura, and they deal with or return an aura object.
 
 ------------------------------------------------------------------------------------------------------------ | ---------- 
-GetAuraObject(slot)                                                                                          | Returns the aura object at that slot.
 [GetAuraObjectById(spell id)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_GetAuraObjectById)   | Returns an aura object for the spell id.
 AddAuraObject(aura)                                                                                          | aura is not a spell id. It is an aura object.
 
@@ -57,7 +54,6 @@ RemoveAurasByMechanic(string, 1 or 0)                                           
 RemoveAurasType(type)                                                                                        | Removes all auras with the given type, similar to RemoveAurasByMechanic.
 [AddAura(spellid, duration, temp)](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_AddAura)        | Adds aura with spell id, duration, and if it is temporary or not (true/false). See core for more info.
 RemoveNegativeAuras()                                                                                        | Removes every negative aura from the unit.
-GetAura(slot)                                                                                                | Returns the spell id of the aura at the slot. 
 HasAuraWithMechanic(number)                                                                                  | Returns true if the unit/player has the aura with said mechanic. 
 [HasNegativeAura()](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_HasNegativeAura)               | Returns true if the player has any negative aura. 
 [HasPositiveAura()](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods/Lua_HasPositiveAura)               | Returns true if the player has any positive aura. 
