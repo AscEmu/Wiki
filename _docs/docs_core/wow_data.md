@@ -1,6 +1,6 @@
 ---
 title: WoW Data
-type: unsorted
+type: CoreGroup
 layout: single_markdown
 position: 4
 ---

@@ -1,6 +1,6 @@
 ---
 title: Clientversions
-type: unsorted
+type: devGroup
 layout: single_markdown
 position: 1
 ---

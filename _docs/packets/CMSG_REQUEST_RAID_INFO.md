@@ -11,8 +11,8 @@ position: 718
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2CD      | 
-TBC        | 0x2CD      | 
-WotLK      | 0x2CD      | 
-Cata       | 0x2F26     | 
-MoP        | 0x2F26     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

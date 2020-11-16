@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x1F2      | 
 TBC        |            | 
 WotLK      | 0x1F2      | 
-Cata       |            | 
+Cata       | 0x6926     | 
 MoP        |            | 

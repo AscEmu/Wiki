@@ -11,8 +11,8 @@ position: 720
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2CF      | 
-TBC        | 0x2CF      | 
-WotLK      | 0x2CF      | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
 Cata       |            | 
 MoP        |            | 

@@ -11,8 +11,8 @@ position: 1028
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2C8      | 
-TBC        | 0x2C8      | 
-WotLK      | 0x2C8      | 
-Cata       | 0x2024     | 
-MoP        | 0x2024     | 
+Classic    | 0          | not used
+TBC        | 0          | not used
+WotLK      | 0          | not used
+Cata       | 0x2423     | 
+MoP        | 0x2423     | 

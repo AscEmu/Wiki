@@ -11,8 +11,8 @@ position: 236
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0EB      | 
-TBC        | 0x0EB      | 
-WotLK      | 0x0EB      | 
-Cata       | 0x7808     | 
-MoP        | 0x7808     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

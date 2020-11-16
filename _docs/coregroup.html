@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for emu in site.docs | sort: 'position' %}
-    {% if emu.type != 'debugging' %}
+    {% if emu.type != 'CoreGroup' %}
         {% continue %}
     {% endif %}
     {{ emu.content | markdownify }}

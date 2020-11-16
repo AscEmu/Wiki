@@ -11,8 +11,8 @@ position: 234
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0E9      | 
-TBC        | 0x0E9      | 
-WotLK      | 0x0E9      | 
-Cata       | 0x701E     | 
-MoP        | 0x701E     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

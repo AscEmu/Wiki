@@ -11,7 +11,7 @@ position: 888
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
+Classic    | 0x377      | 
 TBC        |            | 
 WotLK      | 0x377      | 
 Cata       |            | 

@@ -11,9 +11,9 @@ position: 144
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x08F      | 
+Classic    |            | 
 TBC        |            | 
-WotLK      | 0x08F      | 
-Cata       | 0x3226     | 
-MoP        | 0x3226     | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 
  

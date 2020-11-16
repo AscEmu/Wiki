@@ -11,8 +11,8 @@ position: 1022
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    | 0          | not used
+TBC        | 0          | not used
 WotLK      | 0x4B3      | 
 Cata       | 0x2206     | 
 MoP        | 0x2206     | 

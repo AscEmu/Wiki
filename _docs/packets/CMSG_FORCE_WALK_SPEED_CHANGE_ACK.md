@@ -11,8 +11,8 @@ position: 732
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2DB      | 
-TBC        | 0x2DB      | 
-WotLK      | 0x2DB      | 
-Cata       | 0x7210     | 
-MoP        | 0x7210     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

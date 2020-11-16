@@ -11,8 +11,8 @@ position: 401
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x190      | 
-TBC        | 0x190      | 
-WotLK      | 0x190      | 
-Cata       | 0x1191     | 
-MoP        | 0x1191     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

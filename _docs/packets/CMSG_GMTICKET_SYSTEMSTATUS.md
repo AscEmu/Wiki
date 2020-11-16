@@ -11,8 +11,8 @@ position: 539
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x21A      | 
-TBC        | 0x21A      | 
-WotLK      | 0x21A      | 
-Cata       | 0x4205     | 
-MoP        | 0x4205     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 
