@@ -2,12 +2,12 @@
 title: Windows Visual Studio
 type: CoreGroup
 layout: single_markdown
-position: 1
+position: 2
 ---
 
-## Windows: Visual Studio
+# Windows: Visual Studio
 
-### Setup
+## Setup
 
 Right-Click on world project and choose "Properties"
 
@@ -23,7 +23,7 @@ Right-Click on world project and set the project as startup project:
 
 Start the world project in debugging mode by pressing ""F5" in your active msvc window.
 
-### Using break points
+## Using break points
 
 If you like to try check a function step by step you can set "break points" like this:
 
