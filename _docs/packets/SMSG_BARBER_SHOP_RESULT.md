@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    | -          | not used
 TBC        | -          | not used
-WotLK      | 0x428      |
+WotLK      |            |
 Cata       | 0x6125     |
 MoP        | 0x6125     |

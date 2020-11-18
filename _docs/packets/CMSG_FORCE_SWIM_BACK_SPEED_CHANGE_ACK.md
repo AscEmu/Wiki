@@ -11,8 +11,8 @@ position: 734
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2DD      | 
-TBC        | 0x2DD      | 
-WotLK      | 0x2DD      | 
-Cata       | 0x7A16     | 
-MoP        | 0x7A16     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            |  
+Cata       |            | 
+MoP        |            | 

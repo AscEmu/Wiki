@@ -11,8 +11,8 @@ position: 667
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x29A      | 
-TBC        | 0x29A      | 
-WotLK      | 0x29A      | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
 Cata       |            | 
 MoP        |            | 

@@ -11,10 +11,10 @@ Send on tutorial reset.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |  
-TBC        | 0x100      |  
-WotLK      | 0x100      |  
-Cata       | 0x2726     |  
-MoP        |            |  
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

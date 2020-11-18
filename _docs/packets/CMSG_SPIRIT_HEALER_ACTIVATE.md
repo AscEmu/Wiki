@@ -11,8 +11,8 @@ position: 541
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x21C      | 
-TBC        | 0x21C      | 
-WotLK      | 0x21C      | 
-Cata       | 0x2E26     | 
-MoP        | 0x2E26     | 
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

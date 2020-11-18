@@ -11,8 +11,8 @@ position: 304
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x12F      | 
-TBC        | 0x12F      | 
-WotLK      | 0x12F      | 
-Cata       | 0x0115     | 
-MoP        | 0x0115     |  
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            |  

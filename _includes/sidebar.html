@@ -15,7 +15,7 @@
                 <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
                 {% endfor %}
             </ul>
-            
+
             <a href="#databaseGroup" data-toggle="collapse" aria-expanded="false">Database</a>
             <ul class="collapse list-unstyled" id="databaseGroup">
                 <li><a href="{{ site.url }}/Wiki/database/auto_update">Auto Database Update</a></li>
@@ -29,7 +29,7 @@
                         {% endfor %}
                     {% endfor %}
                 </ul>
-                
+
                 <a href="#charSubGroup" data-toggle="collapse" aria-expanded="false">Character Database</a>
                 <ul class="collapse list-unstyled" id="charSubGroup">
                     {% assign dbdocs = site.database | where: "type","characterdb" | group_by: 'category' %}
@@ -40,7 +40,7 @@
                         {% endfor %}
                     {% endfor %}
                 </ul>
-                
+
                 <a href="#worldSubGroup" data-toggle="collapse" aria-expanded="false">World Database</a>
                 <ul class="collapse list-unstyled" id="worldSubGroup">
                     {% assign dbdocs = site.database | where: "type","worlddb" | group_by: 'category' %}
@@ -52,7 +52,7 @@
                     {% endfor %}
                 </ul>
             </ul>
-            
+
             <a href="#accessGroup" data-toggle="collapse" aria-expanded="false">Access & Commands</a>
             <ul class="collapse list-unstyled" id="accessGroup">
                 {% for item in site.docs %}
@@ -62,12 +62,20 @@
                 <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
                 {% endfor %}
             </ul>
-            
+
             <a href="#devGroup" data-toggle="collapse" aria-expanded="false">Dev Docs</a>
             <ul class="collapse list-unstyled" id="devGroup">
                 <li><a href="{{ site.url }}/Wiki/docs/coding-standards/">Coding Standards</a></li>
                 <li><a href="{{ site.url }}/Wiki/docs/mysql-standards/">MySQL Standards</a></li>
-                <li><a href="{{ site.url }}/Wiki/docs/debugging/">Debugging</a></li>
+                <li><a href="{{ site.url }}/Wiki/docs/docs_dev/clientversions">Client Versions</a></li>
+            </ul>
+
+            <a href="#CoreGroup" data-toggle="collapse" aria-expanded="false">Core Docs</a>
+            <ul class="collapse list-unstyled" id="CoreGroup">
+                <li><a href="{{ site.url }}/Wiki/docs/docs_core/packet_serialization">Packet Serialization</a></li>
+                <li><a href="{{ site.url }}/Wiki/docs/packets">Packets</a></li>
+                <li><a href="{{ site.url }}/Wiki/docs/docs_core/wow_data">Wow Data</a></li>
+                <li><a href="{{ site.url }}/Wiki/docs/docs_core/debugging">Debugging</a></li>
             </ul>
 
             <a href="#sctiptsGroup" data-toggle="collapse" aria-expanded="false">Sctipts Docs</a>
@@ -86,7 +94,7 @@
                 {% endif %}
                 <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
                 {% endfor %}
-                <li><a href="{{ site.url }}/Wiki/docs/packets">Packets</a></li>
+
             </ul>
         </li>
         <li><a href="{{ site.url }}/Wiki/docs/history/">History</a></li>

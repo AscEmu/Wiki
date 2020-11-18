@@ -11,7 +11,7 @@ position: 830
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x33D      | 
+Classic    | -          | 0x33D
 TBC        | 0x33D      | 
 WotLK      | 0x33D      | 
 Cata       | 0x0A35     | 

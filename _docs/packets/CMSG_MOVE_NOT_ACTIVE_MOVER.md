@@ -11,8 +11,8 @@ position: 722
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2D1      | 
-TBC        | 0x2D1      | 
-WotLK      | 0x2D1      | 
-Cata       | 0x7A1A     | 
-MoP        | 0x7A1A     | 
+Classic    |            | 
+TBC        |            |
+WotLK      |            |
+Cata       |            |
+MoP        |            |

@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x130      | 
 TBC        | 0x130      | 
 WotLK      | 0x130      | 
-Cata       | 0x130      | 
-MoP        | 0x4D16     | 
+Cata       | 0x4D16     | 
+MoP        | 0x130      |

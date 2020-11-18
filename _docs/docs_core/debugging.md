@@ -1,12 +1,13 @@
 ---
 title: Windows Visual Studio
-type: debugging
+type: CoreGroup
 layout: single_markdown
-position: 1
+position: 2
 ---
-## Windows: Visual Studio
 
-### Setup
+# Windows: Visual Studio
+
+## Setup
 
 Right-Click on world project and choose "Properties"
 
@@ -22,10 +23,12 @@ Right-Click on world project and set the project as startup project:
 
 Start the world project in debugging mode by pressing ""F5" in your active msvc window.
 
-### Using break points
+## Using break points
 
 If you like to try check a function step by step you can set "break points" like this:
 
 [![2015-11-29 22-04-57.jpg](/Wiki/images/debugging.windows/2015-11-29_22-04-57.jpg)]()
 
 If the programm hit that point it stops and you can investigate the variables and values.
+
+<!-- ## Linux:  --> 

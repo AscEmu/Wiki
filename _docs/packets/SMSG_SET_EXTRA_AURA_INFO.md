@@ -11,8 +11,8 @@ position: 1047
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    |            |
+Classic    | 0x3A4      |
 TBC        | 0x3A4      |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+WotLK      | 0          | not used
+Cata       | 0          | not used
+MoP        | 0          | not used

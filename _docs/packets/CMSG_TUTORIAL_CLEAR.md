@@ -11,10 +11,10 @@ Send on uncheck "Show Tutorials".
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |  
-TBC        | 0x0FF      |  
-WotLK      | 0x0FF      |  
-Cata       | 0x6515     |  
-MoP        |            |  
+Classic    |            | 
+TBC        |            | 
+WotLK      |            | 
+Cata       |            | 
+MoP        |            | 

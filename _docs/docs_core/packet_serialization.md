@@ -1,6 +1,6 @@
 ---
 title: Packet Serialization
-type: unsorted
+type: CoreGroup
 layout: single_markdown
 position: 3
 ---
