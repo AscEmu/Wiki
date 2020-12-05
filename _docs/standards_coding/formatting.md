@@ -57,12 +57,11 @@ Right:
 class CDocumention
 {
 public:
-
     Document();
     ...
 
     friend class CEffectList;
-
+    Document2()
 };
 ```
 
