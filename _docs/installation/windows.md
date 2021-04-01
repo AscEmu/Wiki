@@ -9,7 +9,12 @@ layout: single_markdown
 
 ### Requirements
 
-* [Visual Studio](https://www.visualstudio.com/downloads/) Installing Visual Studio make sure to select 'Desktop Development with C++' 
+* [Visual Studio](https://www.visualstudio.com/downloads/) 
+
+![VisualStudio_1.png](/Wiki/images/installation.windows/VisualStudio_1.png)
+
+Installing Visual Studio make sure to select 'Desktop Development with C++' 
+
 * [MySQL Server](http://dev.mysql.com/downloads/mysql/)
 * [Git](https://git-scm.com/downloads/)
 * [GitHub Desktop](https://desktop.github.com/)

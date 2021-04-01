@@ -316,8 +316,8 @@ So if you want a NPC that is a quest giver, a vendor and can repair you just add
  UNIT_NPC_FLAG_NONE              |  0         |  0000 0000 0000 0000 0000 0000 0000 0000
  UNIT_NPC_FLAG_GOSSIP            |  1         |  0000 0000 0000 0000 0000 0000 0000 0001 |  (If NPC has more gossip options, add this flag to bring up a menu.)                         
  UNIT_NPC_FLAG_QUESTGIVER        |  2         |  0000 0000 0000 0000 0000 0000 0000 0010 |  (Any NPC giving or taking quests needs to have this flag.)                                  
- UNIT_NPC_FLAG_UNKNOWN1          |  4         |  0000 0000 0000 0000 0000 0000 0000 0100
- UNIT_NPC_FLAG_UNKOWN2           |  8         |  0000 0000 0000 0000 0000 0000 0000 1000
+ UNIT_NPC_FLAG_UNK1              |  4         |  0000 0000 0000 0000 0000 0000 0000 0100
+ UNIT_NPC_FLAG_UNK2              |  8         |  0000 0000 0000 0000 0000 0000 0000 1000
  UNIT_NPC_FLAG_TRAINER           |  16        |  0000 0000 0000 0000 0000 0000 0001 0000 |  (Allows the NPC to have a trainer list to teach spells, all trainers must have this flag)   
  UNIT_NPC_FLAG_TRAINER_CLASS     |  32        |  0000 0000 0000 0000 0000 0000 0010 0000
  UNIT_NPC_FLAG_TRAINER_PROF      |  64        |  0000 0000 0000 0000 0000 0000 0100 0000
