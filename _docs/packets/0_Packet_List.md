@@ -545,7 +545,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [MSG_GM_SUMMON](#msg_gm_summon) |  |  |  |  | 
 [MSG_GUILD_BANK_LOG_QUERY](#msg_guild_bank_log_query) | serialized |  | serialized | serialized | serialized
 [MSG_GUILD_BANK_MONEY_WITHDRAWN](#msg_guild_bank_money_withdrawn) | serialized | serialized | serialized |  | 
-[SMSG_ITEM_TIME_UPDATE](#smsg_item_time_update) | serialized | serialized | serialized | serialized | not used
+[SMSG_ITEM_TIME_UPDATE](#smsg_item_time_update) | serialized | serialized | serialized | serialized | serialized
 [SMSG_ITEM_ENCHANT_TIME_UPDATE](#smsg_item_enchant_time_update) | serialized | serialized | serialized | serialized | serialized
 [SMSG_AUTH_CHALLENGE](#smsg_auth_challenge) | serialized | serialized | serialized | serialized | serialized
 [CMSG_AUTH_SESSION](#cmsg_auth_session) |  |  |  |  | 
@@ -737,7 +737,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_PVP_OPTIONS_ENABLED](#smsg_pvp_options_enabled) | not used | not used | not used | serialized | serialized
 [SMSG_AUCTION_REMOVED_NOTIFICATION](#smsg_auction_removed_notification) |  |  |  |  | 
 [SMSG_AURA_UPDATE](#smsg_aura_update) | not used | not used | serialized | serialized | serialized
-[SMSG_AURA_UPDATE_ALL](#smsg_aura_update_all) |  |  | serialized | serialized | 
+[SMSG_AURA_UPDATE_ALL](#smsg_aura_update_all) | not used | not used | serialized | serialized | serialized
 [CMSG_GROUP_RAID_CONVERT](#cmsg_group_raid_convert) |  |  |  |  | 
 [CMSG_GROUP_ASSISTANT_LEADER](#cmsg_group_assistant_leader) | serialized |  | serialized |  | 
 [CMSG_BUYBACK_ITEM](#cmsg_buyback_item) | serialized |  | serialized | serialized | serialized
@@ -1009,7 +1009,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_MOVE_CHNG_TRANSPORT](#cmsg_move_chng_transport) |  |  |  |  | 
 [MSG_PARTY_ASSIGNMENT](#msg_party_assignment) | serialized |  | serialized |  | 
 [SMSG_OFFER_PETITION_ERROR](#smsg_offer_petition_error) |  |  |  |  | 
-[SMSG_TIME_SYNC_REQ](#smsg_time_sync_req) | serialized | serialized | serialized | serialized | 
+[SMSG_TIME_SYNC_REQ](#smsg_time_sync_req) | serialized | serialized | serialized | serialized | serialized
 [CMSG_TIME_SYNC_RESP](#cmsg_time_sync_resp) |  |  |  |  | 
 [CMSG_SEND_LOCAL_EVENT](#cmsg_send_local_event) |  |  |  |  | 
 [CMSG_SEND_GENERAL_TRIGGER](#cmsg_send_general_trigger) |  |  |  |  | 

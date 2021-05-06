@@ -15,4 +15,4 @@ Classic    | -          | not used
 TBC        | -          | not used
 WotLK      | 0x4EB      | 
 Cata       | 0x0614     | 
-MoP        | 0x0614     | 
+MoP        | 0x0591     | 

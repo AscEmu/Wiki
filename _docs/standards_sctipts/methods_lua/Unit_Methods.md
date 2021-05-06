@@ -535,5 +535,4 @@ GetTimeLeft()                                                                   
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------
 GetGameTime()                                                                                                                                                            | Deprecated. Use the global GetGameTime() instead.
-GetTarget()                                                                                                                                                              | Deprecated. Use [GetSelection()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetSelection) instead.
 SendPacketToInstance(packet)                                                                                                                                             | Deprecated. Use SendPacketToInstance(packet) instead.
