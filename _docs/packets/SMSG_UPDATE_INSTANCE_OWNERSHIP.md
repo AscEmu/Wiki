@@ -15,4 +15,4 @@ Classic    | 0x32B      |
 TBC        | 0x32B      | 
 WotLK      | 0x32B      | 
 Cata       | 0x4915     | 
-MoP        | 0x4915     | 
+MoP        | 0x10E0     | 

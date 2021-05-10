@@ -666,15 +666,13 @@ worldport  | v      | Ports you to given map and coordination      | .worldport 
 
 ## .transport
 
-Subcommand | Access | Description                                 | Usage                                               
----------- | ------ | ------------------------------------------- | ----------------------------------------------------
-info       | m      |  Displays the current transport info        | .transport info                                     
-spawn      | m      | Spawns a transport in the current instance  | .transport spawn <entry:u32> <period:u32 time in ms>
-despawn    | m      | Despawns the transport you are currently on | .transport despawn                                  
-start      | m      | Force starts the current transport          | .transport start                                    
-stop       | m      | Force stops the current transport           | .transport stop                                     
-modperiod  | m      | Changes the period of the current transport | .transport modpersiod <period:i32 time in ms>       
-getperiod  | m      | Displays the current transport period in ms | .transport getperiod                                
+Subcommand | Access | Description                                               | Usage                                               
+---------- | ------ | --------------------------------------------------------- | ----------------------------------------------------
+info       | m      | Displays the current transport info                       | .transport info                                     
+spawn      | m      | Spawns transport with entry/period in current instance    | .transport spawn <entry:u32> <period:u32 time in ms>                        
+start      | m      | Force starts the current transport                        | .transport start                                    
+stop       | m      | Force stops the current transport                         | .transport stop                                     
+getperiod  | m      | Displays the current transport period in ms               | .transport getperiod                                
 
 ## .vehicle
 

@@ -15,4 +15,4 @@ Classic    | 0x390      |
 TBC        | 0x390      | 
 WotLK      | 0x390      | 
 Cata       | 0x3CA4     | 
-MoP        | 0x0000     | 
+MoP        | 0x1A8F     | 
