@@ -1,11 +1,11 @@
 ---
-title: npc_gossip_text
+title: npc_gossip_texts
 type: worlddb
 category: N
 layout: single_markdown
 ---
 
-# npc_gossip_text
+# npc_gossip_texts
 This table is ONLY for gossip text!!!
 This table contains the npc texts
 
