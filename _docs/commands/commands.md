@@ -509,7 +509,6 @@ select           | n      | selects npc closest                                 
 follow           | m      | Sets selected npc to follow you                                                        | .npc npcfollow                                                                                                                         
 stopfollow       | m      | Sets npc to not follow anything                                                        | .npc nullfollow                                                                                                                        
 listloot         | m      | displays possible loot for the selected NPC.                                           | .npc listloot <quality_id>                                                                                                             
-ongameobject     | n      | Toggles selected NPC onGameobject state. Required when spawning a NPC on a Gameobject. | .npc ongameobject save                                                                                                                 
 cast             | n      | Makes the selected NPC cast this spell.                                                | .npc cast <spellid>                                                                                                                    
 
 ### .npc set
@@ -519,9 +518,7 @@ Subcommand      | Access | Description                                          
 canfly          | n      | Toggles selected NPC CanFly state                           | .npc set canfly <save>                                                                                                                     
 emote           | n      | Sets emote state of the targeted npc.                       | .npc set emote <emote_id> (sets emote temporarily) .npc set emote <emote> 1 (saves the emote in creature_spawn table)                    
 equip           | m      | Equipping selected npc.                                     | .npc set equip <slot> <itemid> (to equip item) .npc set equip <slot> 0 (to remove equiped item) Slots: 0 =melee, 1 = offhand, 2 = ranged
-formationmaster | m      | Sets formation master.                                      | .npc set formationmaster                                                                                                                   
-formationslave  | m      | Sets formation slave with distance and angle                | .npc set formationslave <angle> <distance> .npc set formationslave <angle> <distance> 1 (saves the formation data)                       
-formationclear  | m      | Removes formation from creature                             | .npc set formationclear .npc set formationclear 1 (removes the formation data from db)                                                   
+formationmaster | m      | Sets formation master.                                      | .npc set formationmaster to you                                                                                                                   
 flags           | m      | Change flags for creature spawn. You may dclear your cache. | .npc set flags <flags> .npc set flags <flags> 1 (saves the flags to creature_spawns table)                                               
 phase           | n      | Sets phase of selected creature.                            | .npc set <phase> .npc set phase <phase> 1 (saves the phase to creature_spawns table)                                                     
 standstate      | m      | Change standstate for creature spawn.                       | .npc set standstate <standstate> .npc set standstate <standstate> 1 (saves the standstate to creature_spawns table)                      
