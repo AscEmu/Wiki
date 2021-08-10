@@ -42,6 +42,7 @@ Field                                                           | Type          
 [CanFly](#CanFly)                                               | smallint(3)   | 0       |         
 [phase](#phase)                                                 | int(10)       | 0       |         
 [event_entry](#event_entry)                                     | int(6)        | 0       |     
+[wander_distance](#wander_distance)                             | int(6)        | 0       |     
 [waypoint_group](#waypoint_group)                               | int(6)        | 0       |        
 
 ### id
@@ -401,6 +402,10 @@ The phase of the creature.
 ### event_entry
 
 entry from table event_properties
+
+### wander_distance
+
+the distance the creature will move from initiated spawn point (only applied on random movement)
 
 ### waypoint_group
 
