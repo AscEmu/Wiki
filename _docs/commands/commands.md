@@ -692,15 +692,4 @@ add        | w      | Add wp at current pos to selected NPC.                    
 show       | w      | Show wp's for selected creature                              | .waypoint show                  
 hide       | w      | Hide wp's for selected creature                              | .waypoint hide                  
 delete     | w      | Delete selected wp                                           | .waypoint delete                
-movehere   | w      | NPC moves to selected wp                                     | .waypoint movehere              
-flags      | w      | Wp flags                                                     | .waypoint flags <num>           
-waittime   | w      | Adds the wait time to selected wp                            | .waypoint waittime <seconds>    
-emote      | w      | Adds emote to selected wp                                    | .waypoint emote <emote_id>      
-skin       | w      | Let the NPC skin at this wp                                  | .waypoint skin                  
-change     | w      | Change at this wp                                            | .waypoint change                
-info       | w      | Show info for wp                                             | .waypoint info                  
-movetype   | w      | Change the movement type for NPC by reaching the selected wp | .waypoint movetype <movetype_id>
-generate   | w      | Generates randomly wps for selected NPC.                     | .waypoint generate              
-save       | w      | Save all waypoints of the selected NPC.                      | .waypoint save                  
 deleteall  | w      | Delete all waypoints of the selected NOC.                    | .waypoint deleteall             
-addfly     | w      | Adds a flying waypoint on current position for selected NPC. | .waypoint addfly                
