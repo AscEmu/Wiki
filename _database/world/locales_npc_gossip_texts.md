@@ -1,11 +1,11 @@
 ---
-title: locales_npc_text
+title: locales_npc_gossip_texts
 type: worlddb
 category: L
 layout: single_markdown
 ---
 
-# locales_npc_text
+# locales_npc_gossip_texts
 This table contains the localized creature monstersay. 
 
 ### entry
