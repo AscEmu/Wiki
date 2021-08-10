@@ -1,11 +1,11 @@
 ---
-title: npc_gossip_textid
+title: npc_gossip_properties
 type: worlddb
 category: N
 layout: single_markdown
 ---
 
-# npc_gossip_textid
+# npc_gossip_properties
 This table defines the gossip textids for creatures. 
 
 ## Structure
