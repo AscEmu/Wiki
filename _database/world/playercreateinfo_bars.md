@@ -12,12 +12,17 @@ This table contains the the bar and button actions for players on create.
 
 Field             | Type          | Default | Comment
 ----------------- | ------------- | ------- | -------
-[race](#race)     | tinyint(3)    | 0       | key 
-[class](#class)   | tinyint(3)    | 0       |        
+[build](#build)     | smallint(6)   | 12340   | key
+[race](#race)     | tinyint(3)    | 0       | key
+[class](#class)   | tinyint(3)    | 0       | key
 [button](#button) | tinyint(3)    | 0       |        
 [action](#action) | mediumint(10) | 0       |        
 [type](#type)     | tinyint(3)    | 0       |        
 [misc](#misc)     | tinyint(3)    | 0       |        
+
+### build
+
+Build number used by AE to determine if the data is for our current compiled version.
 
 ### race
 
