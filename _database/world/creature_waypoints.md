@@ -12,25 +12,23 @@ This table contains waypoints for creatures to move on.
 
 Field                                                                                                      | Type       | Default | Comment
 ---------------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[spawnid](#spawnid)                           | int(10)    | 0       |        
-[waypointid](#waypointid)                     | int(10)    | 0       |        
+[id](#id)                           | int(10)    | 0       |        
+[point](#point)                     | int(10)    | 0       |        
 [position_x](#position_x_z)                   | float(0)   | 0.00    |        
 [position_y](#position_x_z)                   | float(0)   | 0.00    |        
 [position_z](#position_x_z)                   | float(0)   | 0.00    |        
-[waittime](#waittime)                         | int(10)    | 0       |        
-[flags](#flags)                               | int(10)    | 0       |        
-[forwardemoteoneshot](#forwardemoteoneshot)   | tinyint(3) | 0       |        
-[forwardemoteid](#forwardemoteid)             | int(10)    | 0       |        
-[backwardemoteoneshot](#backwardemoteoneshot) | tinyint(3) | 0       |        
-[backwardemoteid](#backwardemoteid)           | int(10)    | 0       |        
-[forwardskinid](#forwardskinid)               | int(10)    | 0       |        
-[backwardskinid](#backwardskinid)             | int(10))   | 0       |        
+[orientation](#orientation)                   | float(0)   | 0.00    |        
+[delay](#delay)                         | int(10)    | 0       |        
+[move_type](#move_type)                               | int(10)    | 0       |        
+[action](#action)   | tinyint(3) | 0       |        
+[action_chance](#action_chance)             | int(10)    | 0       |        
+[wpguid](#wpguid) | tinyint(3) | 0       |        
 
-### spawnid
+### id
 
 This is a unique ID from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns").
 
-### waypointid
+### point
 
 This is the Waypoint ID
 
@@ -38,42 +36,35 @@ This is the Waypoint ID
 
 Position x, y, z where creature move to.
 
-### waittime
+### orientation
+
+The orientation at this point
+
+### delay
 
 How long the mob waits at the Waypoint, in milliseconds.
 
 _Note : a waittime under 5ms might slow your server down._
 
-### flags
+### move_type
 
-Declares how the creature moves.
+Declares how the creature moves at this point.
 
 <pre>
   0 = Walk
-256 = Run
-768 = Fly
+  1 = Run
+  2 = Land
+  3 = Take Off
 </pre>
 
-### forwardemoteonshot
+### action
 
-1 = emote is played once
+The action on this waypoint
 
-### forwardemoteid
+### action_chance
 
-See [Creature_spawns#emote_state](/Wiki/database/world/creature_spawns/#emote_state "Creature spawns")
+The chance the action will happen in percent.
 
-### backwardemoteshot
-
-1 = emote is played once
-
-### backwardemoteid
-
-See [Creature_spawns#emote_state](/Wiki/database/world/creature_spawns/#emote_state "Creature spawns")
-
-### forwardskinid
-
-...
-
-### backwardskinid
+### wpguid
 
 ...
