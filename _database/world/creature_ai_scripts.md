@@ -25,10 +25,10 @@ Field                                                                           
 [spell_type](#spell_type)               | int       | 0      |        
 [triggered](#triggered)                 | tinyint   | 0      | 1 = true, 0 = false       
 [target](#target)                       | int       | 0      |        
-[cooldownMin](#cooldownMin-Max)         | int       | 0      |        
-[cooldownMax](#cooldownMin-Max)         | int       | 0      |        
-[minHealth](#min-maxHealth)             | float     | 0      |        
-[maxHealth](#min-maxHealth)             | float     | 100    |        
+[cooldownMin](#cooldownmin-max)         | int       | 0      |        
+[cooldownMax](#cooldownmin-max)         | int       | 0      |        
+[minHealth](#min-maxhealth)             | float     | 0      |        
+[maxHealth](#min-maxhealth)             | float     | 100    |        
 [textId](#textId)                       | int       | 0      |        
 [misc1](#misc1)                         | int       | 0      |        
 [comments](#comments)                   | text      | NULL   |        
@@ -121,15 +121,19 @@ The target for this spell:
 9 = TARGET_FURTHEST
 </pre>
 
-### cooldownMin-Max
+### cooldownmin-max
 
 **action = 1 (spell)**
+
 min/max cooldown in ms
 
+
 **action = 3 (change phase)**
+
 min/max time for changing script phase
 
-### min-maxHealth
+
+### min-maxhealth
 
 **action = 1 (spell)
 
