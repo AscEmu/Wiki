@@ -78,24 +78,11 @@
                 <li><a href="{{ site.url }}/Wiki/docs/docs_core/debugging">Debugging</a></li>
             </ul>
 
-            <a href="#sctiptsGroup" data-toggle="collapse" aria-expanded="false">Sctipts Docs</a>
-            <ul class="collapse list-unstyled" id="sctiptsGroup">
-                <li><a href="{{ site.url }}/Wiki/docs/standards_sctipts/standards_lua">Lua Standards</a></li>
+            <a href="#scriptsGroup" data-toggle="collapse" aria-expanded="false">Scripts Docs</a>
+            <ul class="collapse list-unstyled" id="scriptsGroup">
+                <li><a href="{{ site.url }}/Wiki/docs/standards_scripts/standards_lua">Lua Methods</a></li>
             </ul>
 
-            <a href="#unsortedGroup" data-toggle="collapse" aria-expanded="false">Unsorted Docs</a>
-            <ul class="collapse list-unstyled" id="unsortedGroup">
-                {% for item in site.docs %}
-                {% if item.type != 'unsorted' %}
-                    {% continue %}
-                {% endif %}
-                {% if item.title == '_example_file' %}
-                    {% continue %}
-                {% endif %}
-                <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
-                {% endfor %}
-
-            </ul>
         </li>
         <li><a href="{{ site.url }}/Wiki/docs/history/">History</a></li>
     </ul>
