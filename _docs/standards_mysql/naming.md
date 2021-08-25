@@ -4,6 +4,11 @@ type: mysqlstandard
 layout: single_markdown
 position: 1
 ---
+# File naming
+
+We use the following file naming: yyyymmdd-xx_description.sql. All files missing the file naming rules will be declined.
+This rule will only apply on official update files. If you are providing data in the as WIP you can ignore this rule.
+
 # Table naming
 
 Seperate names with one underscore and use lower case.
@@ -48,7 +53,22 @@ Wrong:
  ...
 ```
 
-# File naming
+# Column naming
 
-We use the following file naming: yyyymmdd-xx_description.sql. All files missing the file naming rules will be declined.
-This rule will only apply on official update files. If you are providing data in the as WIP you can ignore this rule.
+Do NOT use lowerUppercase or any uppercase in your column naming! If you need to seperate words use underscore _
+
+Right:
+{: .success }
+
+```sql
+min_healt
+max_health
+```
+
+Wrong:
+{: .error }
+
+```sql
+minHealt
+maxHealth
+```
