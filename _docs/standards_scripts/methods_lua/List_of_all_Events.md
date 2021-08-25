@@ -72,7 +72,7 @@ GAMEOBJECT_EVENT_ON_DESTROYED               = 8    -- (pGameObject)
 ## Register Unit Gossip Events
 
 Gossip Event callbacks can be made using any of the following functions. Note that the pUnit in the arguments of these functions variate depending on the register you use.       
-[RegisterUnitGossipEvent(UnitId, EventId, function)](/Wiki/docs/standards_sctipts/methods_lua/List_of_all_Events/Lua_RegisterUnitGossipEvent) (Applies to Creatures only)            
+[RegisterUnitGossipEvent(UnitId, EventId, function)](/Wiki/docs/standards_scripts/methods_lua/List_of_all_Events/Lua_RegisterUnitGossipEvent) (Applies to Creatures only)            
 ***RegisterGOGossipEvent(GameObjectId, EventId, function)***        
 ***RegisterItemGossipEvent(ItemId, EventId, function)***     
 
@@ -85,7 +85,7 @@ GAMEOBJECT_GOSSIP_EVENT_ON_TALK             = 4    -- (pGameObject, event, pPlay
 
 ## Register Dummy Spell Event
 
-Dummy Spell callbacks can be made by using the function [RegisterDummySpell(SpellId, function)](/Wiki/docs/standards_sctipts/methods_lua/List_of_all_Events/Lua_RegisterDummySpell)
+Dummy Spell callbacks can be made by using the function [RegisterDummySpell(SpellId, function)](/Wiki/docs/standards_scripts/methods_lua/List_of_all_Events/Lua_RegisterDummySpell)
 
 ```
  -- (spellIndex, pSpell)

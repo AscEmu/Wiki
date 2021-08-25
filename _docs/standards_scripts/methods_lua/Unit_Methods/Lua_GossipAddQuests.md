@@ -10,7 +10,7 @@ position: 69
 ## Description
 
 This function is used to show quests in the npc's gossip menu if any quests are available.                 
-The function must be placed between [GossipCreateMenu()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GossipCreateMenu) and  [GossipSendMenu(pPlayer)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GossipSendMenu) functions.
+The function must be placed between [GossipCreateMenu()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipCreateMenu) and  [GossipSendMenu(pPlayer)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipSendMenu) functions.
 
 ## Syntax
 

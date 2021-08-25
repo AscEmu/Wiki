@@ -22,5 +22,5 @@ end
 
 ## Similar commands
 
-[ModifyFlySpeed(speed)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_ModifyFlySpeed) : Modifies the Unit's fly speed to the specified speed.             
-[ModifyRunSpeed(speed)](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_ModifyRunSpeed) : Modifies the Unit's run speed to the specified speed.
+[ModifyFlySpeed(speed)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_ModifyFlySpeed) : Modifies the Unit's fly speed to the specified speed.             
+[ModifyRunSpeed(speed)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_ModifyRunSpeed) : Modifies the Unit's run speed to the specified speed.

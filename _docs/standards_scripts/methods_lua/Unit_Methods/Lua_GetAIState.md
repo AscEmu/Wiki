@@ -17,7 +17,7 @@ Will get the unit's AI-State and return the value.
 int State = pPlayer:GetAIState()
 ```
 
-Similar to: '[SetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SetAIState)'
+Similar to: '[SetAIState()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_SetAIState)'
 
 
 ## Return Values
@@ -40,7 +40,7 @@ Value      | Description
 ## Usage/Example
 
 This example will get the player's AI-State when he/she enters the world and simply reset it. 
-Same as in '[SetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_SetAIState)'.
+Same as in '[SetAIState()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_SetAIState)'.
 
 ```
 function OnEnterWorld(event, pPlayer)

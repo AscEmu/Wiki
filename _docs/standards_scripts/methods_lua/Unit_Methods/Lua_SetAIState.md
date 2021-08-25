@@ -17,7 +17,7 @@ Sets the unit's AI-State.
 pUnit:SetAIState(int State)
 ```
 
-Similar to: '[GetAIState()](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods/Lua_GetAIState)'
+Similar to: '[GetAIState()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetAIState)'
 
 ---------- | ---------- 
 Value      | Description
