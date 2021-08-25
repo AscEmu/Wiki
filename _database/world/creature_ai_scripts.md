@@ -135,7 +135,7 @@ min/max time for changing script phase
 
 ### min-maxhealth
 
-**action = 1 (spell)
+**action = 1 (spell)**
 
 min and max = used for hp range when a spell can get casted.
 
