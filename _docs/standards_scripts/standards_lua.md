@@ -17,19 +17,19 @@ Because Lua can easily be embedded into applications, it is frequently used in g
 
 Information About the typical function names:
 
-### [Basic Lua](/Wiki/docs/standards_sctipts/methods_lua/Basic_Lua)
+### [Basic Lua](/Wiki/docs/standards_scripts/methods_lua/Basic_Lua)
 
-### [Register Events and Server Hooks](/Wiki/docs/standards_sctipts/methods_lua/List_of_all_Events)
+### [Register Events and Server Hooks](/Wiki/docs/standards_scripts/methods_lua/List_of_all_Events)
 
-### [GameObject Methods](/Wiki/docs/standards_sctipts/methods_lua/GameObject_Methods)
+### [GameObject Methods](/Wiki/docs/standards_scripts/methods_lua/GameObject_Methods)
 
-### [Unit Methods](/Wiki/docs/standards_sctipts/methods_lua/Unit_Methods)
+### [Unit Methods](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods)
 
-### [Spell Methods](/Wiki/docs/standards_sctipts/methods_lua/Spell_Methods)
+### [Spell Methods](/Wiki/docs/standards_scripts/methods_lua/Spell_Methods)
 
-### [Aura Methods](/Wiki/docs/standards_sctipts/methods_lua/Aura_Methods)
+### [Aura Methods](/Wiki/docs/standards_scripts/methods_lua/Aura_Methods)
 
-### [Global Methods](/Wiki/docs/standards_sctipts/methods_lua/Global_Methods)
+### [Global Methods](/Wiki/docs/standards_scripts/methods_lua/Global_Methods)
 
 ## Key Terminology
 You may find some of these terms within the Wiki pages.
