@@ -12,8 +12,8 @@ This table is for simple creature scripts e.g. trashmobs in several instances.
 
 Field                                                                                | Type     | Default | Comment
 ------------------------------------------------------------------------------------ | -------- | ------- | -------
-[min_build](#min/max_build)             | int       | 12340  |        
-[max_build](#min/max_build)             | int       | 12340  |        
+[min_build](#min-max_build)             | int       | 12340  |        
+[max_build](#min-max_build)             | int       | 12340  |        
 [entry](#entry)                         | int       |        |        
 [difficulty](#difficulty)               | tinyint   | 0      |        
 [phase](#phase)                         | tinyint   | 0      |        
@@ -25,15 +25,15 @@ Field                                                                           
 [spell_type](#spell_type)               | int       | 0      |        
 [triggered](#triggered)                 | tinyint   | 0      | 1 = true, 0 = false       
 [target](#target)                       | int       | 0      |        
-[cooldownMin](#cooldownMin/Max)         | int       | 0      |        
-[cooldownMax](#cooldownMin/Max)         | int       | 0      |        
-[minHealth](#min/maxHealth)             | float     | 0      |        
-[maxHealth](#min/maxHealth)             | float     | 100    |        
+[cooldownMin](#cooldownMin-Max)         | int       | 0      |        
+[cooldownMax](#cooldownMin-Max)         | int       | 0      |        
+[minHealth](#min-maxHealth)             | float     | 0      |        
+[maxHealth](#min-maxHealth)             | float     | 100    |        
 [textId](#textId)                       | int       | 0      |        
 [misc1](#misc1)                         | int       | 0      |        
 [comments](#comments)                   | text      | NULL   |        
 
-### min/max_build
+### min-max_build
 
 The build range for this script to be loaded.
 
@@ -121,7 +121,7 @@ The target for this spell:
 9 = TARGET_FURTHEST
 </pre>
 
-### cooldownMin/Max
+### cooldownMin-Max
 
 **action = 1 (spell)**
 min/max cooldown in ms
@@ -129,12 +129,15 @@ min/max cooldown in ms
 **action = 3 (change phase)**
 min/max time for changing script phase
 
-### min/maxHealth
+### min-maxHealth
 
 **action = 1 (spell)
+
 min and max = used for hp range when a spell can get casted.
 
+
 **events**
+
 Call For Help Health
 
 Flee Health
@@ -147,18 +150,26 @@ ChangePhase at % hp
 ### textId
 
 **action = 1 (spell)**
+
 Send message on casting spell.
 
+
 **action = 2 (chat message)**
+
 Send message on event.
+
 
 ### misc1
 
 **action = 3 (change phase)**
+
 change script phase to X.
 
+
 **event = 9 (flee)**
+
 Duration in ms how long creature is fleeing.
+
 
 ### comments
 Used for db devs.
