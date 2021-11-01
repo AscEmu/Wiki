@@ -100,6 +100,21 @@ The spellId to cast.
 
 The spell type
 
+<pre>
+0 = NUll,
+1 = Root,
+2 = Heal,
+3 = Stun,
+4 = Fear,
+5 = Silence,
+6 = Curse,
+7 = AOE,
+8 = Damage,
+9 = Summon,
+10 = Buff,
+11 = Debuff
+</pre>
+
 ### triggered
 
 Defines if the spell is triggered (1) or not (0).
