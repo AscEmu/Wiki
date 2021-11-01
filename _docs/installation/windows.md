@@ -21,6 +21,24 @@ Installing Visual Studio make sure to select 'Desktop Development with C++'
 * [CMake](https://cmake.org/download/)
 * [7-Zip](https://sourceforge.net/projects/sevenzip/?source=directory)
 
+
+[OpenSSL](http://slproweb.com/products/Win32OpenSSL.html)
+
+Do NOT use the light version of OpenSSL. Here are the direct links to the msi installer. Make sure to change the option to **The OpenSSL binaries (/bin) directory**
+
+![openssl_option.jpg](/Wiki/images/installation.windows/openssl_option.jpg)
+
+**Win64**
+
+64bit version OpenSSL v1.1.1L [https://slproweb.com/download/Win64OpenSSL-1_1_1L.exe](https://slproweb.com/download/Win64OpenSSL-1_1_1L.exe)
+
+
+**Wind32**
+
+32bit version OpenSSL v1.1.1L [https://slproweb.com/download/Win32OpenSSL-1_1_1L.exe](https://slproweb.com/download/Win32OpenSSL-1_1_1L.exe)
+
+
+
 **Optional**
 Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
 
