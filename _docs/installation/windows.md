@@ -9,22 +9,26 @@ layout: single_markdown
 
 ### Requirements
 
+* [MySQL Server](http://dev.mysql.com/downloads/mysql/)
+* [Git](https://git-scm.com/downloads/)
+* [GitHub Desktop](https://desktop.github.com/)
+* [CMake](https://cmake.org/download/)
+* [7-Zip](https://sourceforge.net/projects/sevenzip/?source=directory)
+* [Notepad++](https://notepad-plus-plus.org/download/) - Helpful Program
+* [HeidiSQL](https://www.heidisql.com/download.php) - Helpful Program
 * [Visual Studio](https://www.visualstudio.com/downloads/) 
 
 ![VisualStudio_1.png](/Wiki/images/installation.windows/VisualStudio_1.png)
 
 Installing Visual Studio make sure to select 'Desktop Development with C++' 
 
-* [MySQL Server](http://dev.mysql.com/downloads/mysql/)
-* [Git](https://git-scm.com/downloads/)
-* [GitHub Desktop](https://desktop.github.com/)
-* [CMake](https://cmake.org/download/)
-* [7-Zip](https://sourceforge.net/projects/sevenzip/?source=directory)
+**Optional**
+Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
 
-
-[OpenSSL](http://slproweb.com/products/Win32OpenSSL.html)
+* [OpenSSL](http://slproweb.com/products/Win32OpenSSL.html)
 
 Do NOT use the light version of OpenSSL. Here are the direct links to the msi installer. Make sure to change the option to **The OpenSSL binaries (/bin) directory**
+{: .success }
 
 ![openssl_option.jpg](/Wiki/images/installation.windows/openssl_option.jpg)
 
@@ -32,20 +36,9 @@ Do NOT use the light version of OpenSSL. Here are the direct links to the msi in
 
 64bit version OpenSSL v1.1.1L [https://slproweb.com/download/Win64OpenSSL-1_1_1L.exe](https://slproweb.com/download/Win64OpenSSL-1_1_1L.exe)
 
-
 **Wind32**
 
 32bit version OpenSSL v1.1.1L [https://slproweb.com/download/Win32OpenSSL-1_1_1L.exe](https://slproweb.com/download/Win32OpenSSL-1_1_1L.exe)
-
-
-
-**Optional**
-Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
-
-**Helpful Programs**
-
-* [Notepad++](https://notepad-plus-plus.org/download/)
-* [HeidiSQL](https://www.heidisql.com/download.php)
 
 ### Install MySQL Server
 
@@ -120,10 +113,10 @@ You can choose which client should be supported by AscEmu.
 
 **4.** Now you can click on "Generate"
 
-![cmake_4.png](/Wiki/images/installation.windows/cmake_4.png)
-
 If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
 {: .info }
+
+![cmake_4.png](/Wiki/images/installation.windows/cmake_4.png)
 
 ### VS Compiling
 
@@ -184,15 +177,31 @@ You can find the extractors in:
 C:/Ascemu/tools/
 ```
 
-Copy all extractors to you main WOW-folder (same folder where you can find wow.exe)
+Copy all extractors (map_extractor.exe, vmap4_assembler.exe vmap4_extractor.exe, mmaps_generator.exe, ae_tools.bat) to you main WOW-folder (same folder where you can find wow.exe)
 
-First run map_extractor.exe (output: dbc and maps)
-Run vmaps.bat (output: vmaps)
+![extractor_1.png](/Wiki/images/installation.windows/extractor_1.png)
+
+Run 1 - Maps (output: dbc and maps), 2 - Vmaps (output: vmaps), 3 - Mmaps (output: mmaps)
 
 **Optional**
-You can test mmaps by running mmaps_generator (output: mmaps). This will take a long time...
+You can test mmaps by running mmaps_generator . This will take a long time...
 
-Copy all output directories (dbc, maps, vmaps opt. mmaps) to your server folder (C:/Ascemu/)
+Copy all output directories (dbc, maps, vmaps opt. mmaps) to your server folder (C:/Ascemu/) or (C:/Ascemu/**expansion**) 
+
+"expansion" directory stores DBC, Maps, VMaps and MMaps data of a single version.
+
+```console
+#   DataDir
+#        Set up the data dir for DBC, Maps, VMaps and MMaps.
+#        Default: "" (root directory)
+
+DataDir = "expansion">
+```
+
+![extractor_2.png](/Wiki/images/installation.windows/extractor_2.png)
+
+1 - root directory
+2 - expansion directory
 
 ### Configuration
 
