@@ -5,42 +5,70 @@ category: 1
 layout: single_markdown
 ---
 
-### Windows Guide
-
 ### Requirements
 
-* [MySQL Server](http://dev.mysql.com/downloads/mysql/)
-* [Git](https://git-scm.com/downloads/)
-* [GitHub Desktop](https://desktop.github.com/)
-* [CMake](https://cmake.org/download/)
+* [OpenSSL](#openssl)
+* [Redistributable Package](#redistributable-package)
+* [MySQL Server](#mysql-server)
+* [GitHub Desktop](#github-desktop)
+* [Visual Studio](#visual-studio)
+* [CMake](#cmake)
+* [Compiling Core](#compiling-core)
+* [Database Setup](#database-setup)
+* [Extractors](#extractors)
+* [Configuration](#configuration)
+* [Automatic Database Updating](#automatic-database-updating)
+* [Create an Account](#create-an-account)
+
+### Helpful Program
+
+* [Notepad++](https://notepad-plus-plus.org/download/)
+* [HeidiSQL](https://www.heidisql.com/download.php)
+* [MySQL Notifier](https://downloads.mysql.com/archives/notifier/)
+* [SQLyog](https://github.com/webyog/sqlyog-community/wiki/Downloads)
+* [DBeaver](https://dbeaver.io/download/)
 * [7-Zip](https://sourceforge.net/projects/sevenzip/?source=directory)
-* [Notepad++](https://notepad-plus-plus.org/download/) - Helpful Program
-* [HeidiSQL](https://www.heidisql.com/download.php) - Helpful Program
-* [Visual Studio](https://www.visualstudio.com/downloads/) 
 
-![VisualStudio_1.png](/Wiki/images/installation.windows/VisualStudio_1.png)
+### Windows Guide
 
-Installing Visual Studio make sure to select 'Desktop Development with C++' 
+#### OpenSSL
 
-**Optional**
-Microsoft Visual C++ Redistributable Package (Only if you run AscEmu on another PC as it was compiled)
-
-* [OpenSSL](http://slproweb.com/products/Win32OpenSSL.html)
-
-Do NOT use the light version of OpenSSL. Here are the direct links to the msi installer. Make sure to change the option to **The OpenSSL binaries (/bin) directory**
+[OpenSSL](https://slproweb.com/products/Win32OpenSSL.html) - The Win32/Win64 OpenSSL Installation Project is dedicated to providing a simple installation of OpenSSL for Microsoft Windows.
+ 
+Do **NOT use the light version** of OpenSSL. Here are the direct links to the msi installer. Make sure to change the option to **The OpenSSL binaries (/bin) directory**
 {: .success }
 
 ![openssl_option.jpg](/Wiki/images/installation.windows/openssl_option.jpg)
 
 **Win64**
 
-64bit version OpenSSL v1.1.1L [https://slproweb.com/download/Win64OpenSSL-1_1_1L.exe](https://slproweb.com/download/Win64OpenSSL-1_1_1L.exe)
+64bit version OpenSSL v1.1.1o [https://slproweb.com/download/Win64OpenSSL-1_1_1o.exe](https://slproweb.com/download/Win64OpenSSL-1_1_1o.exe)
 
 **Wind32**
 
-32bit version OpenSSL v1.1.1L [https://slproweb.com/download/Win32OpenSSL-1_1_1L.exe](https://slproweb.com/download/Win32OpenSSL-1_1_1L.exe)
+32bit version OpenSSL v1.1.1o [https://slproweb.com/download/Win32OpenSSL-1_1_1o.exe](https://slproweb.com/download/Win32OpenSSL-1_1_1o.exe)
 
-### Install MySQL Server
+OpenSSL 3.0 is not supported.
+{: .success }
+
+#### Redistributable Package
+
+The Visual C++ [Redistributable Package](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) Microsoft C and C++ (MSVC) runtime libraries.
+
+**Win64**
+
+64bit version [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+
+**Wind32**
+
+32bit version [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+
+#### MySQL Server
+
+[MySQL Server](https://dev.mysql.com/downloads/windows/installer/) - Installation Project is dedicated to providing a simple installation of MySQL for Microsoft Windows.
+
+Use **version ≥ 5.7** with mysql server configuration.
+{: .success }
 
 **1.** Start installer.
 
@@ -52,7 +80,7 @@ Do NOT use the light version of OpenSSL. Here are the direct links to the msi in
 
 ![MySQL_3.png](/Wiki/images/installation.windows/MySQL_3.png)
 
-**3.** Set account login and password for root account : ascemu (login) ascemu (password)
+**3.** Set account login and password for root account : ascemu (login) ascemu (password).
 
 ![MySQL_4.png](/Wiki/images/installation.windows/MySQL_4.png)
 
@@ -67,6 +95,7 @@ Sometimes you can receive a error: **MySQL server has gone away (error 2006)**
 Attention: folder hidden – [how to open](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files).
 
 Open file : C:\ProgramData\MySQL\MySQL Server **8.0**\my.ini 
+
 ```
 # The maximum size of one packet or any generated or intermediate string, or any parameter sent by the
 # mysql_stmt_send_long_data() C API function.
@@ -75,9 +104,11 @@ max_allowed_packet=4M
 
 Change on **max_allowed_packet**=128M or 500M and restart mysql service.
 
-### Getting the source
+#### GitHub Desktop
 
-Before you start working with the program, read the instruction [help.github.desktop.guides](https://help.github.com/desktop/guides/).
+[GitHub Desktop](https://desktop.github.com/) - Installation Project is an application that enables you to interact with GitHub using a GUI instead of the command line or a web browser.
+
+Before you start working with the program, read the instruction [Help guides](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop/).
 {: .info }
 
 Sign in to GitHub and GitHub Desktop before you start to clone.
@@ -95,9 +126,19 @@ Sign in to GitHub and GitHub Desktop before you start to clone.
 
 ![github.desktop_3.png](/Wiki/images/installation.windows/github.desktop_3.png)
 
-### CMake Precompile
+#### Visual Studio
 
-**1.** Open **CMake(cmake-gui)** and fill in the source-path and the build-path:
+[Visual Studio](https://www.visualstudio.com/downloads/) - The comprehensive IDE for C++ developers on Windows. 
+
+![VisualStudio_1.png](/Wiki/images/installation.windows/VisualStudio_1.png)
+
+Installing Visual Studio make sure to select 'Desktop Development with C++' and install all required components. 
+
+#### CMake
+
+[CMake](https://cmake.org/download/) - Installation Project is an open-source, cross-platform family of tools designed to build, test and package software.
+
+**1.** Open **CMake (cmake-gui)** and fill in the source-path and the build-path:
 
 ![cmake_1.png](/Wiki/images/installation.windows/cmake_1.png)
 
@@ -118,7 +159,7 @@ If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
 
 ![cmake_4.png](/Wiki/images/installation.windows/cmake_4.png)
 
-### VS Compiling
+#### Compiling Core
 
 **1.** Open Project Ascemu.sln
 
@@ -140,36 +181,27 @@ If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
 
 ![msvc_4.png](/Wiki/images/installation.windows/msvc_4.png)
 
-**6.** After compilation, the directory with ascemu should look like this.
+After compilation, the directory with ascemu should look like this.
 
-### Database Setup
+#### Database Setup
 
-Create the 3 Databases. Replace your_username with the username you used in the previous step.
+**1.** Open HeidiSQL and set account login and password for root account : ascemu (login) ascemu (password).
 
-```HeidiSQL
--- The world database (NPC, GO, Instances, Items, ...)
-CREATE DATABASE `ascemu_world`;
-GRANT ALL PRIVILEGES ON ascemu_world.* TO 'your_username'@'%';
--- The characters database (All created characters)
-CREATE DATABASE `ascemu_char`;
-GRANT ALL PRIVILEGES ON ascemu_char.* TO 'your_username'@'%';
--- The login database (accounts)
-CREATE DATABASE `ascemu_logon`;
-GRANT ALL PRIVILEGES ON ascemu_logon.* TO 'your_username'@'%';
-quit
-```
+![HeidiSQL_1.png](/Wiki/images/installation.windows/HeidiSQL_1.png)
 
-After you have created the databases, it’s time to populate them with the SQL files.
+**2.** Create the 3 Databases (**ascemu_world**, **ascemu_char**, **ascemu_logon**).
+
+![HeidiSQL_2.png](/Wiki/images/installation.windows/HeidiSQL_2.png)
+
+show with an example **ascemu_world**
+
+![HeidiSQL_3.png](/Wiki/images/installation.windows/HeidiSQL_3.png)
+
+**3.** Download world db [OneDB](https://github.com/AscEmu/OneDB/) and extract the **world_base.sql** into your **sql/world/** dir.
 
 ![sql_1.png](/Wiki/images/installation.windows/sql_1.png)
 
-You will download and extract the world_base.sql into your sql/world/ dir. The latest full db can be downloaded here: [world db](https://github.com/AscEmu/OneDB/)
-
-### Updating the DBs
-
-The process is automated, [more information.](https://ascemu.github.io/Wiki/database/auto_update/)
-
-### Extractors
+#### Extractors
 
 You can find the extractors in:
 
@@ -203,7 +235,7 @@ DataDir = "expansion">
 1 - root directory
 2 - expansion directory
 
-### Configuration
+#### Configuration
 
 Look for the *.conf files in the "configs" folder of AscEmu github-trunk. Copy the entire configs folder to your AscEmu Installation Folder in order for the server to read them.
 
@@ -214,7 +246,7 @@ C:/Ascemu/configs/world.conf
 C:/Ascemu/configs/logon.conf
 ```
 
-### Configuring logon.conf
+#### Configuring logon.conf
 
 Enter your MySQL information at the the following section. 
 
@@ -226,7 +258,7 @@ Name     = "ascemu_logon"
 Port     = "3306">
 ```
 
-### Configuring world.conf
+#### Configuring world.conf
 
 Enter your MySQL information at the the following section. 
 
@@ -250,7 +282,12 @@ Enter your Password in **RemotePassword**.
 
 In db ascemu_logon->realms. (**RemotePassword** must match).
 
-### Create an Account
+#### Automatic Database Updating
+
+The process is automated, [more information.](https://ascemu.github.io/Wiki/database/auto_update/)
+It remains only to **run logon.exe** and **run world.exe**
+
+#### Create an Account
 
 **1.** Go to your world console and create an account.
 

@@ -10,15 +10,20 @@ This table contains the information about connected and allowed realms.
 
 ## Structure
 
-Field                                     | Type         | Default   | Comment
------------------------------------------ | ------------ | --------- | -------
-[id](#id)                                 | int(10)      |           | key
-[status](#status)                         | tinyint(1)   |           |        
-[status_change_time](#status_change_time) | timestamp()  | On Update |        
+Field                                     | Type         | Default          | Comment
+----------------------------------------- | ------------ | ---------------- | -------
+[id](#id)                                 | int(10)      |                  | key
+[password](#password)                     | varchar(60)  |                  | 
+[status](#status)                         | tinyint(1)   |                  |        
+[status_change_time](#status_change_time) | timestamp()  | On Update        |        
 
 ### id
 
 Unique realm id.
+
+### password
+
+??
 
 ### status
 

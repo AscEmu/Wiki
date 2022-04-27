@@ -34,13 +34,13 @@ The Entry ID of the area trigger (must be in AreaTrigger.dbc).
 The type of area trigger it is (Enum defined by AscEmu).
 
 <pre>
-<strike>0 = Null</strike>
-1 = Instance   (When a player enter in a trigger of that type he'll be teleported at the position set in the fields below. The core also check if the player has the prerequisites.)
-<strike>2 = Quest</strike>
+0 = Null - not used
+1 = Instance (When a player enter in a trigger of that type he'll be teleported at the position set in the fields below. The core also check if the player has the prerequisites.)
+2 = Quest - not used
 3 = Inn (When a player enter in a trigger of that type he'll enter in rest state.) 
 4 = Teleport (Same as type 1 (Instance) but without the requirements check.) 
-<strike>5 = Spell</strike>
-<strike>6 = Battleground</strike>
+5 = Spell - not used
+6 = Battleground - not used
 </pre>
 
 ### map

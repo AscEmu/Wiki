@@ -12,10 +12,9 @@ This table contains the information about the player accounts.
 
 Field                                     | Type         | Default             | Comment 
 ----------------------------------------- | ------------ | ------------------- | --------
-[acct](#acct)                             | int(10)      |                     | Auto Num
-[login](#login)                           | varchar(32)  |                     |         
+[id](#id)                                 | int(10)      |                     | Auto Num
+[acc_name](#acc_name)                     | varchar(32)  |                     |         
 [encrypted_password](#encrypted_password) | varchar(42)  |                     |         
-[gm](#gm)                                 | varchar(32)  |                     |         
 [banned](#banned)                         | int(10)      |                     |         
 [lastlogin](#lastlogin)                   | timestamp    | 0000-00-00 00:00:00 |         
 [lastip](#lastip)                         | varchar(16)  |                     |         
@@ -26,11 +25,11 @@ Field                                     | Type         | Default             |
 [banreason](#banreason)                   | varchar(255) | NULL                |         
 [joindate](#joindate)                     | timestamp    | CURRENT_TIMESTAMP   |         
 
-### acct
+### id
 
 The unique account id.
 
-### login
+### acc_name
 
 The account name
 
@@ -41,10 +40,6 @@ If you would switch from cleartext password to encrypted passwords, execute the 
 ```sql
 UPDATE accounts SET encrypted_password = SHA(CONCAT(UPPER(login),":",UPPER(password)));
 ```
-
-### gm
-
-The permissions, take a look at [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")
 
 ### banned
 

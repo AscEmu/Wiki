@@ -48,8 +48,7 @@ The entry ID of the item from item_properties table.
 ### wrapped_item_id
 
 The "wrapped" item entry ID from item_properties template.
-NOTE: The item needed the flag 
-<strike>512</strike> Something is curious with the item flags!
+NOTE: The item needed the flag 512. Something is curious with the item flags!
 
 ### wrapped_creator
 
@@ -71,39 +70,39 @@ The left charges of this item.
 
 The flag of the playeritem:
 
-    0          = no flag
-    1          = soulbound
-    2          = conjured
-    4          = lootable
-    8          = wrapped
-    16         = broken
-    32         = indestructible
-    <strike>64         = unknown
-    128        = unknown
-    256        = unknown</strike>
-    512        = gift
-    1024       = create item (probably wrong)
-    2048       = lootable in ffa (free for all)
-    4096       = refundable
-    8192       = signable
-    16384      = readable
-    <strike>32768      = unknown</strike>
-    65536      = event required (maybe wrong)
-    <strike>131072     = unknown</strike>
-    262144     = prospectable
-    524288     = unique equipment
-    <strike>1048576    = unknown</strike>
-    2097152    = useable in arena
-    4194304    = thrown
-    8388608    = shapeshitg ok
-    <strike>16777216   = unknwon</strike>
-    33554432   = profession recipes (lootable if you meet requirements)
-    <strike>67108864   = unknown</strike>
-    134217728  = accountbound
-    <strike>268435456  = unknown</strike>
-    536870912  = millable
-    <strike>1073741824 = unknown</strike>
-    2147483648 = bind on pickup (tradeable)
+    0               = no flag
+    1               = soulbound
+    2               = conjured
+    4               = lootable
+    8               = wrapped
+    16              = broken
+    32              = indestructible
+    64              = unknown - not used
+    128             = unknown - not used
+    256             = unknown - not used
+    512             = gift
+    1024            = create item (probably wrong)
+    2048            = lootable in ffa (free for all)
+    4096            = refundable
+    8192            = signable
+    16384           = readable
+    32768           = unknown - not used
+    65536           = event required (maybe wrong)
+    131072          = unknown - not used
+    262144          = prospectable
+    524288          = unique equipment
+    1048576         = unknown - not used
+    2097152         = useable in arena
+    4194304         = thrown
+    8388608         = shapeshitg ok
+    16777216        = unknwon - not used
+    33554432        = profession recipes (lootable if you meet requirements)
+    67108864        = unknown - not used
+    134217728       = accountbound
+    268435456       = unknown - not used
+    536870912       = millable
+    1073741824      = unknown - not used
+    2147483648      = bind on pickup (tradeable)
 
 ### randomprop
 
@@ -184,8 +183,9 @@ If the default Backpack (-1 in containerslot) is set:
 In this row you find three values separated by ",".
 The form of these values:
 
-<Enchantment ID>, <time>,<Enchantment Slot>
-
+```
+<Enchantment ID>, <time>, <Enchantment Slot>
+```
 
 ### duration_expireson
 

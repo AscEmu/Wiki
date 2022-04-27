@@ -72,5 +72,5 @@ The name/description of the event.
 <pre>
 0 = no announce
 1 = announce
-<strike>2 = custom</strike>
+2 = custom - not used
 </pre>
