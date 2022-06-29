@@ -98,7 +98,8 @@ Field                                           | Type         | Default        
 [talents2](#talents2)                           | longtext     | NOT NULL                      |                                   
 [numspecs](#numspecs)                           | int(10)      | NOT NULL DEFAULT '1'          |                                   
 [currentspec](#currentspec)                     | int(10)      | NOT NULL DEFAULT '0'          |                                   
-[talentpoints](#talentpoints)                   | longtext     | NOT NULL                      |                                   
+[talentpoints](#talentpoints)                   | longtext     | NOT NULL                      |
+[firsttalenttree](#firsttalenttree)             | int(11)      | NULL                          |            
 [phase](#phase)                                 | int(10)      | unsigned NOT NULL DEFAULT '1' |                                   
 [CanGainXp](#CanGainXp)                         | int(10)      | unsigned NOT NULL DEFAULT '1' |                                   
 [data](#data)                                   | longtext     | NULL                          |                                   
@@ -162,9 +163,8 @@ The custom faction (flags). These values allow to customize the character in cha
 
     0       = None (default)
     1       = Customize (allows to change name, gender and the look of the character)
-    <strike>65536   = Factionchange (allows to change the faction)
-    1048576 = Racechange (allows to change the race)</strike>
-
+    65536   = Factionchange (allows to change the faction) - not used
+    1048576 = Racechange (allows to change the race) - not used
 
 ### level
 
@@ -423,6 +423,10 @@ The current used specialization type.
 ### talentpoints
 
 The talentpoints the character can set.
+
+### firsttalenttree
+
+??
 
 ### phase
 

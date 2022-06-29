@@ -10,13 +10,14 @@ This table contains the guild charters.
 
 ## Structure
 
-Field                       | Type        | Default      | Comment
---------------------------- | ----------- | ------------ | -------
-[charterId](#charterId)     | int(30)     |              |        
-[charterType](#charterType) | int(30)     | 0            |        
-[leaderGuid](#leaderGuid)   | int(20)     | 0            |        
-[guildName](#guildName)     | varchar(32) | Empty String |        
-[signer(1-9)](#signers)     | int(10)     | 0            |        
+Field                       | Type        | Default                 | Comment
+--------------------------- | ----------- | ----------------------- | -------
+[charterId](#charterId)     | int(30)     |                         |        
+[charterType](#charterType) | int(30)     | 0                       |        
+[leaderGuid](#leaderGuid)   | int(20)     | 0                       |        
+[guildName](#guildName)     | varchar(32) | Empty String            |        
+[itemGuid](#itemGuid)       | varchar(32) |                         |        
+[signer(1-9)](#signers)     | int(10)     | 0                       |        
 
 ### charterId
 
@@ -36,6 +37,10 @@ The ID of the guild (filled by the core).
 ### guildName
 
 The name of the guild.
+
+### itemGuid
+
+??
 
 ### signers
 

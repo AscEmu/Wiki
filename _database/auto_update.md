@@ -1,11 +1,11 @@
 ---
-title: Auto Database
+title: Automatic Database Updating
 type: database
 layout: single_markdown
 position: 1
 ---
 
-# Auto Database Update
+# Automatic Database Updating
 Since the first database update files exists there was confusion how to properly use it. So why not simply use the latest version and the server will take for updates?
 
 ## Update setup

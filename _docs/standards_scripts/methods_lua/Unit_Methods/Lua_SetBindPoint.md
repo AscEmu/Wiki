@@ -22,7 +22,7 @@ end
  
 function SubPlayerHearth(unit, event, player, id, intid, code)
   if(intid == 1) then
-    player:SetBindPoint(player:GetX(), player:GetY(), player:GetZ(), player:GetZoneId(), player:GetMapId())
+    player:SetBindPoint(player:GetX(), player:GetY(), player:GetZ(), player:GetO(), player:GetZoneId(), player:GetMapId())
   end
 end
  

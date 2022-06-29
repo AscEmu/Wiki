@@ -72,13 +72,12 @@ Amount of money (in copper) needed to recieve this message.
 ### stationary
 
     0  = Standard
-    <strike>1  = Test 1
-    41 = Test 2</strike>
+    1  = Test 1 - not used
+    41 = Test 2 - not used
     61 = Gamemaster
     62 = Auction
     64 = Valentines day
     65 = Chrismas
-
 
 ### expiry_time
 

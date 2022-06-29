@@ -212,15 +212,15 @@ Build number to determine if the data is for our current compiled version.
 6 = Polearm
 7 = Sword (1-handed)
 8 = Sword (2-handed)
-<strike>9 = UNKNOWN</strike>
+9 = UNKNOWN - not used
 10 = Staff
-<strike>11 = UNKNOWN
-12 = UNKNOWN</strike>
+11 = UNKNOWN - not used
+12 = UNKNOWN - not used
 13 = Fist Weapon
 14 = Misc Weapon
 15 = Dagger
 16 = Thrown
-<strike>17 = UNKNOWN Spear (Used only for Argent Tournament Lances)</strike>
+17 = UNKNOWN Spear (Used only for Argent Tournament Lances) - not used
 18 = Crossbow
 19 = Wand
 20 = Fishing Pole
@@ -298,11 +298,11 @@ Build number to determine if the data is for our current compiled version.
 
 <pre>
 0 = Junk
-<strike>1 = Reagents
-2 = non-combat pets
-3 = Holiday items
-4 = Other
-5 = Mounts</strike>
+1 = Reagents        - not used
+2 = non-combat pets - not used
+3 = Holiday items   - not used
+4 = Other           - not used
+5 = Mounts          - not used
 </pre>
 
 ### field4
@@ -519,8 +519,7 @@ The type of stat of the item.
 <pre>
  0 = Power
  1 = Health
-
-<strike>2 = UNKNOWN</strike>
+ 2 = UNKNOWN - not used
  3 = Agility
  4 = Strength
  5 = Intellect
@@ -579,10 +578,10 @@ The scaling stat distribution ID (from .dbc).
 ### ScaledStatsDistributionFlag
 
 <pre>
-<strike>0 = Scaling stat stat? what?
-1 = Scaling stat armor
-2 = Scaling stat damage
-3 = Scaling stat spell power</strike>
+0 = Scaling stat stat? what?         - not used
+1 = Scaling stat armor               - not used
+2 = Scaling stat damage              - not used
+3 = Scaling stat spell power         - not used
 </pre>
 
 ### dmg_min_max_1_2
@@ -641,8 +640,7 @@ The type how the spell triggers:
 1 = On equip
 2 = Chance on hit
 4 = Soulstone
-
-<strike>5 = No delay</strike>
+5 = No delay - not used
 6 = Learn spell ID
 </pre>
 
@@ -817,9 +815,8 @@ The map ID where the item can be used on.
   256 = Keys (Keyring)
   512 = Jewelcrafting supplies (JC toolboxes)
  1024 = Mining Supplies (Mining toolboxes)
-
-<strike>2048 = Soulbound Equipment
- 4096 = Vanity Pets</strike>
+ 2048 = Soulbound Equipment - not used
+ 4096 = Vanity Pets - not used
  8192 = Currency
 16384 = Quest items
 </pre>

@@ -16,7 +16,9 @@ Field                     | Type        | Default | Comment
 [name](#name)             | varchar(50) | NULL    |         
 [crc](#crc)               | bigint(20)  | NULL    |         
 [banned](#banned)         | int(10)     | 0       |         
-[showinlist](#showinlist) | int(10)     | 0       |         
+[showinlist](#showinlist) | int(10)     | 0       |     
+[timestamp](#timestamp)   | TIMESTAMP   | NULL    |     
+[version](#version)       | varchar(60) | NULL    |     
 
 ### id
 
@@ -43,3 +45,11 @@ The CRC value of the addon.
 
     0 = not shown
     1 = shown
+
+### timestamp
+
+??
+
+### version
+
+??
