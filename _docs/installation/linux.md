@@ -9,7 +9,7 @@ layout: single_markdown
 
 Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu/Debian.
 {: .success }
-This guide file has been written with strict use of the console in mind. Linux was made to run command line, so there isn’t an easier, quicker way to do things than the way we are about to do them.
+This guide file has been written with strict use of the console in mind so it suites both Linux desktop and server users. Linux was made to run command line, so there isn’t an easier, quicker way to do things than the way we are about to do them.
 {: .info }
 
 ### Initial Setup
@@ -18,6 +18,7 @@ First, having presumably installed a fresh copy of Linux, we need to update our 
 For the following commands, log in as the Linux root administrator.
 
 ```console
+sudo apt-get update && sudo apt-get dist-upgrade
 sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-dev libpcre3-dev libbz2-dev
 ```
 
@@ -68,6 +69,108 @@ sudo /etc/init.d/mysql restart
 ```
 
 That's it! Setting up MySQL is pretty straight forward.
+
+### OpenSSL
+
+Some Linux distributions, such as Ubuntu 22.04 LTS, come with incompatible version of OpenSSL.
+To make sure your Linux has correct version run following command:
+
+```console
+openssl version
+```
+
+If the output says "OpenSSL 1.X.X" you can skip this section and continue on Security and Accounts.
+However, if it says "OpenSSL 3.X.X" or higher, you must downgrade your OpenSSL to 1.X.X version. Client supports up to OpenSSL 1.1.1 only.
+
+First, install a new package.
+
+```console
+sudo apt-get install checkinstall
+```
+
+We will install OpenSSL 1.1.1 alongside your existing OpenSSL version in /usr/local/. Let's change directory.
+
+```console
+cd /usr/local/src/
+```
+
+Next you must find latest 1.1.1 version from [OpenSSL website](https://www.openssl.org/source/). As of writing this the latest version is 1.1.1q.
+Copy the download link and use wget to download it.
+
+```console
+sudo wget https://www.openssl.org/source/openssl-1.1.1q.tar.gz
+```
+
+Extract the content and navigate into it.
+
+```console
+sudo tar -xf openssl-1.1.1q.tar.gz
+cd openssl-1.1.1q
+```
+
+Before compiling let's setup OpenSSL config.
+
+```console
+sudo ./config --prefix=/usr/local/ssl --openssldir=/usr/local/ssl shared zlib
+```
+
+Now it's ready for compile. Run the following commands:
+
+```console
+sudo make
+sudo make test
+sudo make install
+```
+
+OpenSSL is now ready for use, but we must still do some changes to tell your Linux to use this version of OpenSSL.
+Create a new config file with your favourite text editor. Replace 1.1.1q with your downloaded version of OpenSSL.
+
+```console
+sudo nano /etc/ld.so.conf.d/openssl-1.1.1q.conf
+```
+
+Add following line to the file:
+
+```console
+/usr/local/ssl/lib
+```
+
+Save the file and close it.
+
+Next reload the dynamic link.
+
+```console
+sudo ldconfig -v
+```
+
+Backup the existing OpenSSL binaries.
+
+```console
+sudo mv /usr/bin/c_rehash /usr/bin/c_rehash.backup
+sudo mv /usr/bin/openssl /usr/bin/openssl.backup
+```
+
+Last but not least, add **:/usr/local/ssl/bin** to the end of your PATH.
+Make sure you add it inside the quotation marks.
+
+```console
+sudo nano /etc/environment
+```
+
+Save the file and reload environment.
+
+```console
+source /etc/environment
+```
+
+Now you can test it by checking OpenSSL version again.
+You should see "OpenSSL 1.1.1q" (or your downloaded version) if everything went right.
+
+```console
+openssl version
+```
+
+<sub>Credits for this section to Aviscall01@getmangos.eu</sub>
 
 ### Security and Accounts
 
@@ -153,6 +256,13 @@ cd ~/installer/build
 cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../ascemu_code
 ```
 
+If you needed to downgrade your OpenSSL version earlier you must add some additional variables:
+
+```console
+cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0
+-DASCEMU_VERSION=WotLK -DOPENSSL_LIBRARIES=/usr/local/ssl/lib -DOPENSSL_INCLUDE_DIR=/usr/local/ssl/include ../ascemu_code
+```
+
 Here is a quick view of the variables you can include with cmake command:
 
 <pre>
@@ -161,6 +271,7 @@ Here is a quick view of the variables you can include with cmake command:
 -DBUILD_WITH_WARNINGS = 0 (false) or 1 (true)
 -DBUILD_TOOLS = 0 (false) or 1 (true)
 -DASCEMU_VERSION = choose from Classic, TBC, WotLK, Cata or MoP
+-DUSE_PCH = 0 (disabled) or 1 (enabled) - Precompiled headers are enabled by default
 </pre>
 
 Then we now simply invoke make and make install to install to the prefix directory.
