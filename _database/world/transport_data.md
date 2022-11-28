@@ -15,7 +15,6 @@ Field             | Type         | Default | Comment
 [entry](#entry)   | mediumint(8) | 0       | key
 [build](#build)   | smallint(6)  | 12340   | key
 [name](#name)     | text         |         |        
-[period](#period) | mediumint(8) | 0       |        
 
 ### entry
 
@@ -28,7 +27,3 @@ The AE version build number.
 ### name
 
 The transport name (optional).
-
-### period
-
-...

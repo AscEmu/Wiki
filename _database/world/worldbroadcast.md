@@ -12,10 +12,10 @@ This table contains the broatcast texts.
 
 Field                                                                                        | Type         | Default | Comment
 -------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[id](#id)                           | int(11)      |         |        
-[interval](#interval)               | int(3)       |         |        
-[random_interval](#random_interval) | int(3)       |         |        
-[text](#text)                       | varchar(255) |         |        
+[id](#id)                                                                                    | int(10)      |         |        
+[interval](#interval)                                                                        | int(11)      |         |        
+[random_interval](#random_interval)                                                          | int(11)      |         |        
+[text](#text)                                                                                | varchar(100) |         |        
 
 ### id
 

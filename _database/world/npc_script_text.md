@@ -13,17 +13,17 @@ This table contains the npc say text for special scripts.
 
 Field                                                                                       | Type         | Default | Comment   
 ------------------------------------------------------------------------------------------- | ------------ | ------- | ----------
-[entry](#entry)                   | int(10)      |         | auto num  
-[text](#text)                     | longtext     |         |           
-[creature_entry](#creature_entry) | mediumint(8) | 0       | (not used)
-[id](#id)                         | tinyint(3)   | 0       | (not used)
-[type](#type)                     | tinyint(3)   | 0       |           
-[language](#language)             | int(10)      | 0       |           
-[probability](#probability)       | float        | 0       | (not used)
-[emote](#emote)                   | mediumint(8) | 0       |           
-[duration](#duration)             | mediumint(8) | 0       |           
-[sound](#sound)                   | mediumint(8) | 0       |           
-[broadcast_id](#broadcast_id)     | mediumint(6) | 0       | (not used)
+[entry](#entry)                                                                             | int(10)      |         | auto num  
+[text](#text)                                                                               | longtext     |         |           
+[creature_entry](#creature_entry)                                                           | mediumint(8) | 0       | (not used)
+[id](#id)                                                                                   | tinyint(3)   | 0       | (not used)
+[type](#type)                                                                               | tinyint(3)   | 0       |           
+[language](#language)                                                                       | int(10)      | 0       |           
+[probability](#probability)                                                                 | float        | 0       | (not used)
+[emote](#emote)                                                                             | mediumint(8) | 0       |           
+[duration](#duration)                                                                       | mediumint(8) | 0       |           
+[sound](#sound)                                                                             | mediumint(8) | 0       |           
+[broadcast_id](#broadcast_id)                                                               | mediumint(6) | 0       | (not used)
 
 ### entry
 

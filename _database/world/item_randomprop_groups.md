@@ -12,9 +12,9 @@ This table defines the relation between random property groups and random proper
 
 Field                                                                                                        | Type        | Default | Comment
 ------------------------------------------------------------------------------------------------------------ | ----------- | ------- | -------
-[entry_id](#entry_id)                       | smallint(4) | 0       |        
-[randomprops_entryid](#randomprops_entryid) | smallint(4) | 0       |        
-[chance](#chance)                           | float(0)    | 0       |        
+[entry_id](#entry_id)                                                                                        | smallint(4) | 0       |        
+[randomprops_entryid](#randomprops_entryid)                                                                  | smallint(4) | 0       |        
+[chance](#chance)                                                                                            | float(0)    | 0       |        
 
 ### entry_id
 

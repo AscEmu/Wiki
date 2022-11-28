@@ -290,8 +290,8 @@ Build number to determine if the data is for our current compiled version.
 **Class = 11 => Quiver and ammo pounches**
 
 <pre>
-    2 = Quiver
-    3 = Quiver Ammo Pounch
+2 = Quiver
+3 = Quiver Ammo Pounch
 </pre>
 
 **Class = 15 => Miscellaneous**
@@ -789,7 +789,7 @@ The ID of the itemset. Items can be grouped by this ID (They are added all by us
 
 itemset (Added in table [itemset_linked_itemsetbonus](/Wiki/database/world/itemset_linked_itemsetbonus/ "Item set linked item set bonus") to an positive itemsetid).
 
- ### MaxDurability
+### MaxDurability
 
 Maximum durability on item (for equippable items)
 

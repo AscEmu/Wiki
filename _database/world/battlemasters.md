@@ -12,8 +12,8 @@ Includes all Battlemasters...
 
 Field                                                                                       | Type        | Default | Comment
 ------------------------------------------------------------------------------------------- | ----------- | ------- | -------
-[creature_entry](#creature_entry)   | smallint(5) |         |        
-[battleground_id](#battleground_id) | tinyint(2)  |         |        
+[creature_entry](#creature_entry)                                                           | smallint(5) |         |        
+[battleground_id](#battleground_id)                                                         | tinyint(2)  |         |        
 
 ### creature_entry
 

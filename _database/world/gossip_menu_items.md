@@ -12,19 +12,19 @@ This table contains all data for gossip menu generation.
 
 Field                                                                                               | Type    | Default | Comment
 --------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[id](#id)                               | int(10) |         | key 1  
-[item_order](#item_order)               | int(10) | 1       | key 2  
-[menu_option](#menu_option)             | int(10) | 0       |        
-[icon](#icon)                           | int(10) | 0       |        
-[on_choose_action](#on_choose_action)   | int(8)  | 0       |        
-[on_choose_data](#on_choose_action)     | int(10) | 0       |        
-[on_choose_data2](#on_choose_action)    | int(10) | 0       |  
-[on_choose_data3](#on_choose_action)    | int(10) | 0       |  
-[on_choose_data4](#on_choose_action)    | int(10) | 0       |  
-[next_gossip_menu](#next_gossip_menu)   | int(10) | 0       |        
-[next_gossip_text](#next_gossip_text)   | int(10) | 0       |        
-[requirement_type](#requirement_type)   | int(8)  | 0       |        
-[requirement_data](#requirement_data)   | int(10) | 0       |        
+[id](#id)                                                                                           | int(10) |         | key 1  
+[item_order](#item_order)                                                                           | int(10) | 1       | key 2  
+[menu_option](#menu_option)                                                                         | int(10) | 0       |        
+[icon](#icon)                                                                                       | int(10) | 0       |        
+[on_choose_action](#on_choose_action)                                                               | int(8)  | 0       |        
+[on_choose_data](#on_choose_action)                                                                 | int(10) | 0       |        
+[on_choose_data2](#on_choose_action)                                                                | int(10) | 0       |  
+[on_choose_data3](#on_choose_action)                                                                | int(10) | 0       |  
+[on_choose_data4](#on_choose_action)                                                                | int(10) | 0       |  
+[next_gossip_menu](#next_gossip_menu)                                                               | int(10) | 0       |        
+[next_gossip_text](#next_gossip_text)                                                               | int(10) | 0       |        
+[requirement_type](#requirement_type)                                                               | int(8)  | 0       |        
+[requirement_data](#requirement_data)                                                               | int(10) | 0       |        
 
 ### id
 
@@ -64,7 +64,6 @@ Icon displayed beside the option.
 
 ***Action 6***
 - Toggle gain XP, (on_choose_data = box money, on_choose_data2 = box textId)
-
 
 ### next_gossip_menu
 

@@ -12,8 +12,8 @@ This table defines the linked itemset to calculate itemset bonus
 
 Field                                                                                                 | Type   | Default | Comment
 ----------------------------------------------------------------------------------------------------- | ------ | ------- | -------
-[itemset](#itemset)             | int(5) |         |        
-[itemset_bonus](#itemset_bonus) | int(5) |         |        
+[itemset](#itemset)                                                                                   | int(5) |         |        
+[itemset_bonus](#itemset_bonus)                                                                       | int(5) |         |        
 
 ### itemset
 

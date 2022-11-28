@@ -22,7 +22,6 @@ Field                               | Type        | Default | Comment
 [BaseIntellect](#BaseIntellect)     | tinyint(3)  | 0       |                
 [BaseSpirit](#BaseSpirit)           | tinyint(3)  | 0       |                
 
-
 ### build
 
 Build number to determine if the data is for our current compiled version.

@@ -12,15 +12,15 @@ This table defines the important facts to learn a spell.
 
 Field                                                                                    | Type    | Default | Comment
 ---------------------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry)                 | int(11) | 0       |        
-[cast_spell](#cast_spell)       | int(11) | 0       |        
-[learn_spell](#learn_spell)     | int(11) | 0       |        
-[spellcost](#spellcost)         | int(11) | 0       |        
-[reqspell](#reqspell)           | int(11) | 0       |        
-[reqskill](#reqskill)           | int(11) | 0       |        
-[reqskillvalue](#reqskillvalue) | int(11) | 0       |        
-[reqlevel](#reqlevel)           | int(11) | 0       |        
-[deletespell](#deletespell)     | int(11) | 0       |        
+[entry](#entry)                                                                          | int(11) | 0       |        
+[cast_spell](#cast_spell)                                                                | int(11) | 0       |        
+[learn_spell](#learn_spell)                                                              | int(11) | 0       |        
+[spellcost](#spellcost)                                                                  | int(11) | 0       |        
+[reqspell](#reqspell)                                                                    | int(11) | 0       |        
+[reqskill](#reqskill)                                                                    | int(11) | 0       |        
+[reqskillvalue](#reqskillvalue)                                                          | int(11) | 0       |        
+[reqlevel](#reqlevel)                                                                    | int(11) | 0       |        
+[deletespell](#deletespell)                                                              | int(11) | 0       |        
 
 ### entry
 

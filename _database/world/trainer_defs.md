@@ -12,17 +12,17 @@ This table defines which spells would be trained by trainers.
 
 Field                                                                                                            | Type    | Default | Comment
 ---------------------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry)                                           | int(11) | 0       |        
-[required_skill](#required_skill)                         | int(11) | 0       |        
-[required_skillvalue](#required_skillvalue)               | int(11) | 0       |        
-[req_class](#req_class)                                   | int(11) | 0       |        
-[RequiredRace](#RequiredRace)                             | int(11) | 0       |        
-[RequiredReputation](#RequiredReputation)                 | int(11) | 0       |        
-[RequiredReputationValue](#RequiredReputationValue)       | int(11) | 0       |        
-[trainer_type](#trainer_type)                             | int(11) | 0       |        
-[trainer_ui_window_message](#trainer_ui_window_message)   | text    | 0       |        
-[can_train_gossip_textid](#can_train_gossip_textid)       | int(11) | 0       |        
-[cannot_train_gossip_textid](#cannot_train_gossip_textid) | int(11) | 0       |        
+[entry](#entry)                                                                                                  | int(11) | 0       |        
+[required_skill](#required_skill)                                                                                | int(11) | 0       |        
+[required_skillvalue](#required_skillvalue)                                                                      | int(11) | 0       |        
+[req_class](#req_class)                                                                                          | int(11) | 0       |        
+[RequiredRace](#RequiredRace)                                                                                    | int(11) | 0       |        
+[RequiredReputation](#RequiredReputation)                                                                        | int(11) | 0       |        
+[RequiredReputationValue](#RequiredReputationValue)                                                              | int(11) | 0       |        
+[trainer_type](#trainer_type)                                                                                    | int(11) | 0       |        
+[trainer_ui_window_message](#trainer_ui_window_message)                                                          | text    | 0       |        
+[can_train_gossip_textid](#can_train_gossip_textid)                                                              | int(11) | 0       |        
+[cannot_train_gossip_textid](#cannot_train_gossip_textid)                                                        | int(11) | 0       |        
 
 ### entry
 

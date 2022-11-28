@@ -12,10 +12,10 @@ This table contains the instance bosses and the relation to the trashmobs.
 
 Field                                                                                                       | Type    | Default | Comment
 ----------------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[mapid](#mapid)                                   | int(11) | 0       |        
-[creatureid](#creatureid)                         | int(11) | 0       |        
-[trash](#trash)                                   | text(0) |         |        
-[trash_respawn_override](#trash_respawn_override) | int(11) | 0       |        
+[mapid](#mapid)                                                                                             | int(11) | 0       |        
+[creatureid](#creatureid)                                                                                   | int(11) | 0       |        
+[trash](#trash)                                                                                             | text(0) |         |        
+[trash_respawn_override](#trash_respawn_override)                                                           | int(11) | 0       |        
 
 ### mapid
 

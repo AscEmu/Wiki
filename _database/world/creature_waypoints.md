@@ -12,17 +12,17 @@ This table contains waypoints for creatures to move on.
 
 Field                                                                                                      | Type       | Default | Comment
 ---------------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[id](#id)                           | int(10)    | 0       |        
-[point](#point)                     | int(10)    | 0       |        
-[position_x](#position_x_z)                   | float(0)   | 0.00    |        
-[position_y](#position_x_z)                   | float(0)   | 0.00    |        
-[position_z](#position_x_z)                   | float(0)   | 0.00    |        
-[orientation](#orientation)                   | float(0)   | 0.00    |        
-[delay](#delay)                         | int(10)    | 0       |        
-[move_type](#move_type)                               | int(10)    | 0       |        
-[action](#action)   | tinyint(3) | 0       |        
-[action_chance](#action_chance)             | int(10)    | 0       |        
-[wpguid](#wpguid) | tinyint(3) | 0       |        
+[id](#id)                                                                                                  | int(10)    | 0       |        
+[point](#point)                                                                                            | int(10)    | 0       |        
+[position_x](#position_x_z)                                                                                | float(0)   | 0.00    |        
+[position_y](#position_x_z)                                                                                | float(0)   | 0.00    |        
+[position_z](#position_x_z)                                                                                | float(0)   | 0.00    |        
+[orientation](#orientation)                                                                                | float(0)   | 0.00    |        
+[delay](#delay)                                                                                            | int(10)    | 0       |        
+[move_type](#move_type)                                                                                    | int(10)    | 0       |        
+[action](#action)                                                                                          | tinyint(3) | 0       |        
+[action_chance](#action_chance)                                                                            | int(10)    | 0       |        
+[wpguid](#wpguid)                                                                                          | tinyint(3) | 0       |        
 
 ### id
 
@@ -51,10 +51,10 @@ _Note : a waittime under 5ms might slow your server down._
 Declares how the creature moves at this point.
 
 <pre>
-  0 = Walk
-  1 = Run
-  2 = Land
-  3 = Take Off
+0 = Walk
+1 = Run
+2 = Land
+3 = Take Off
 </pre>
 
 ### action

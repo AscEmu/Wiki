@@ -6,16 +6,15 @@ layout: single_markdown
 ---
 
 # gameobject_quest_item_binding
-This table includes... yeahr what is this about? :-)
 
 ## Structure
 
 Field                                                                                             | Type    | Default | Comment
 ------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry)           | int(11) | 0       |        
-[quest](#quest)           | int(11) | 0       |        
-[item](#item)             | int(11) | 0       |        
-[item_count](#item_count) | int(11) | 0       |        
+[entry](#entry)                                                                                   | int(11) | 0       |        
+[quest](#quest)                                                                                   | int(11) | 0       |        
+[item](#item)                                                                                     | int(11) | 0       |        
+[item_count](#item_count)                                                                         | int(11) | 0       |        
 
 ### entry
 

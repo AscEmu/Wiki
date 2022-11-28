@@ -12,8 +12,8 @@ This table defines which spellclick events for creatures.
 
 Field                                                                                | Type    | Default | Comment
 ------------------------------------------------------------------------------------ | ------- | ------- | -------
-[CreatureID](#CreatureID) | int(10) |         |        
-[SpellID](#SpellID)       | int(10) |         |        
+[CreatureID](#CreatureID)                                                            | int(10) |         |        
+[SpellID](#SpellID)                                                                  | int(10) |         |        
 
 ### CreatureID
 

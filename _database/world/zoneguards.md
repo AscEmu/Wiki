@@ -12,9 +12,9 @@ This table includes the zoneguards.
 
 Field                                                                                  | Type    | Default | Comment
 -------------------------------------------------------------------------------------- | ------- | ------- | -------
-[zone](#zone)                     | int(10) |         |        
-[horde_entry](#horde_entry)       | int(10) | 0       |        
-[alliance_entry](#alliance_entry) | int(10) | 0       |        
+[zone](#zone)                                                                          | int(10) |         |        
+[horde_entry](#horde_entry)                                                            | int(10) | 0       |        
+[alliance_entry](#alliance_entry)                                                      | int(10) | 0       |        
 
 ### zone
 

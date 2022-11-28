@@ -12,9 +12,9 @@ This table defines the localization for worldmap info.
 
 Field                                                                                           | Type         | Default | Comment
 ----------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[entry](#entry)                 | int(11)      |         |        
-[language_code](#language_code) | varchar(5)   |         |        
-[text](#text)                   | varchar(255) |         |        
+[entry](#entry)                                                                                 | int(11)      |         |        
+[language_code](#language_code)                                                                 | varchar(5)   |         |        
+[text](#text)                                                                                   | varchar(255) |         |        
 
 ### entry
 

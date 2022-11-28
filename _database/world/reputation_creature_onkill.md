@@ -12,11 +12,11 @@ This table contains...
 
 Field                                                                                                                    | Type    | Default | Comment
 ------------------------------------------------------------------------------------------------------------------------ | ------- | ------- | -------
-[creature_id](#creature_id)                         | int(30) |         |        
-[faction_change_alliance](#faction_change_alliance) | int(30) |         |        
-[faction_change_horde](#faction_change_horde)       | int(30) |         |        
-[change_value](#change_value)                       | int(30) |         |        
-[rep_limit](#rep_limit)                             | int(30) |         |        
+[creature_id](#creature_id)                                                                                              | int(30) |         |        
+[faction_change_alliance](#faction_change_alliance)                                                                      | int(30) |         |        
+[faction_change_horde](#faction_change_horde)                                                                            | int(30) |         |        
+[change_value](#change_value)                                                                                            | int(30) |         |        
+[rep_limit](#rep_limit)                                                                                                  | int(30) |         |        
 
 ### creature_id
 

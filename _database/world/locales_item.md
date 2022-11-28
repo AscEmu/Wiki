@@ -12,9 +12,9 @@ This table defines the localization for itempages.
 
 Field                                                                                  | Type       | Default | Comment                                            
 -------------------------------------------------------------------------------------- | ---------- | ------- | ---------------------------------------------------
-[entry](#entry)                 | int(10)    | 0       |                                                    
-[language_code](#language_code) | varchar(5) |         |                                                    
-[text](#text)                   | text       |         | "Using the same type like in itempage! (longtext)!"
+[entry](#entry)                                                                        | int(10)    | 0       |                                                    
+[language_code](#language_code)                                                        | varchar(5) |         |                                                    
+[text](#text)                                                                          | text       |         | "Using the same type like in itempage! (longtext)!"
 
 ### entry
 

@@ -12,18 +12,18 @@ Triggers, like instance doors, quest scripts, other things. Trigger's position i
 
 Field                                                                                              | Type         | Default | Comment         
 -------------------------------------------------------------------------------------------------- | ------------ | ------- | ----------------
-[entry](#entry)                             | smallint(5)  |         |                 
-[type](#type)                               | tinyint(3)   | 0       |                 
-[map](#map)                                 | smallint(5)  | 0       |                 
-[screen](#screen)                           | smallint(5)  | 0       | Not used by core
-[name](#name)                               | varchar(100) | Unknown | Not used by core
-[maxcount](#maxcount)                       | tinyint(3)   | 0       |                 
-[position_x](#positions)                    | float(0)     | 0       |                 
-[position_y](#positions)                    | float(0)     | 0       |                 
-[position_z](#positions)                    | float(0)     | 0       |                 
-[orientation](#positions)                   | float(0)     | 0       |                 
-[required_honor_rank](#required_honor_rank) | tinyint(3)   | 0       |                 
-[required_level](#required_level)           | tinyint(3)   | 0       |                 
+[entry](#entry)                                                                                    | smallint(5)  |         |                 
+[type](#type)                                                                                      | tinyint(3)   | 0       |                 
+[map](#map)                                                                                        | smallint(5)  | 0       |                 
+[screen](#screen)                                                                                  | smallint(5)  | 0       | Not used by core
+[name](#name)                                                                                      | varchar(100) | Unknown | Not used by core
+[maxcount](#maxcount)                                                                              | tinyint(3)   | 0       |                 
+[position_x](#positions)                                                                           | float(0)     | 0       |                 
+[position_y](#positions)                                                                           | float(0)     | 0       |                 
+[position_z](#positions)                                                                           | float(0)     | 0       |                 
+[orientation](#positions)                                                                          | float(0)     | 0       |                 
+[required_honor_rank](#required_honor_rank)                                                        | tinyint(3)   | 0       |                 
+[required_level](#required_level)                                                                  | tinyint(3)   | 0       |                 
 
 ### entry
 

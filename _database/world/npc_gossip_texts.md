@@ -13,17 +13,17 @@ This table contains the npc texts
 
 Field                                                                                      | Type | Default | Comment
 ------------------------------------------------------------------------------------------ | ---- | ------- | -------
-[entry](#entry)                         |      |         |        
-[prob0-7](#prob0-7)                     |      |         |        
-[text0_0-7_0](#text0_0-7_0)             |      |         |        
-[text0_1-7_1](#text0_1-7_1)             |      |         |        
-[lang0-7](#lang0-7)                     |      |         |        
-[EmoteDelay0_0-7_0](#EmoteDelay0_0-7_0) |      |         |        
-[Emote0_0-7_0](#Emote0_0-7_0)           |      |         |        
-[EmoteDelay0_1-7_1](#EmoteDelay0_1-7_1) |      |         |        
-[Emote0_1-7_1](#Emote0_1-7_1)           |      |         |        
-[EmoteDelay0_2-7_2](#EmoteDelay0_2-7_2) |      |         |        
-[Emote0_2-7_2](#Emote0_2-7_2)           |      |         |        
+[entry](#entry)                                                                            |      |         |        
+[prob0-7](#prob0-7)                                                                        |      |         |        
+[text0_0-7_0](#text0_0-7_0)                                                                |      |         |        
+[text0_1-7_1](#text0_1-7_1)                                                                |      |         |        
+[lang0-7](#lang0-7)                                                                        |      |         |        
+[EmoteDelay0_0-7_0](#EmoteDelay0_0-7_0)                                                    |      |         |        
+[Emote0_0-7_0](#Emote0_0-7_0)                                                              |      |         |        
+[EmoteDelay0_1-7_1](#EmoteDelay0_1-7_1)                                                    |      |         |        
+[Emote0_1-7_1](#Emote0_1-7_1)                                                              |      |         |        
+[EmoteDelay0_2-7_2](#EmoteDelay0_2-7_2)                                                    |      |         |        
+[Emote0_2-7_2](#Emote0_2-7_2)                                                              |      |         |        
 
 ### entry
 
@@ -84,4 +84,4 @@ Delay for doing the emote in ms.
 
 ### Emote0_2-7_2
 
-... dont know what this is...
+...

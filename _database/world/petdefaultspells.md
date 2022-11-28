@@ -12,8 +12,8 @@ This table defines default spells for pets.
 
 Field                                                                      | Type    | Default | Comment
 -------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry) | int(11) | 0       |        
-[spell](#spell) | int(11) | 0       |        
+[entry](#entry)                                                            | int(11) | 0       |        
+[spell](#spell)                                                            | int(11) | 0       |        
 
 ### entry
 

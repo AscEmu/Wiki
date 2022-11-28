@@ -268,8 +268,8 @@ Here is a quick view of the variables you can include with cmake command:
 <pre>
 -DCMAKE_INSTALL_PREFIX = the location where AscEmu binaries are installed
 -DCMAKE_BUILD_TYPE = choose from Release or Debug mode
--DBUILD_WITH_WARNINGS = 0 (false) or 1 (true)
--DBUILD_TOOLS = 0 (false) or 1 (true)
+-DBUILD_WITH_WARNINGS = 0 (disabled) or 1 (enabled)
+-DBUILD_TOOLS = 0 (disabled) or 1 (enabled)
 -DASCEMU_VERSION = choose from Classic, TBC, WotLK, Cata or MoP
 -DUSE_PCH = 0 (disabled) or 1 (enabled) - Precompiled headers are enabled by default
 </pre>

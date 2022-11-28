@@ -23,3 +23,7 @@ The guild level
 ### xp_for_next_level
 
 The required xp for the next level.
+
+### next_page
+
+...

@@ -12,9 +12,9 @@ This table contains the localized npc_script texts.
 
 Field                                                                                             | Type       | Default | Comment
 ------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[entry](#entry)                 | int(10)    | 0       |        
-[language_code](#language_code) | varchar(5) | 0       |        
-[text](#text)                   | longtext   |         |        
+[entry](#entry)                                                                                   | int(10)    | 0       |        
+[language_code](#language_code)                                                                   | varchar(5) | 0       |        
+[text](#text)                                                                                     | longtext   |         |        
 
 ### entry
 

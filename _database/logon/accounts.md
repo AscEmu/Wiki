@@ -66,7 +66,7 @@ The client flags:
     8 - The Burning Crusade
     16 - Wrath of the Lich King
     24 - Wrath of the Lich King & The Burning Crusade
-    32 - Cataclysm (untested)
+    32 - Cataclysm
     64 -  Mists of Pandaria (untested)
     128 - Warlords of Draenor (untested)
     256 - Legion (untested)

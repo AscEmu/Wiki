@@ -12,9 +12,9 @@ This table contains the localizations for the gameobjects.
 
 Field                                                                                        | Type         | Default | Comment
 -------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[entry](#entry)                 | int(30)      |         |        
-[language_code](#language_code) | varchar(5)   |         |        
-[name](#name)                   | varchar(100) |         |        
+[entry](#entry)                                                                              | int(30)      |         |        
+[language_code](#language_code)                                                              | varchar(5)   |         |        
+[name](#name)                                                                                | varchar(100) |         |        
 
 ### entry
 

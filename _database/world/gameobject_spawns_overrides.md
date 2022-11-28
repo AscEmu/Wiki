@@ -15,9 +15,9 @@ Field                                   | Type          | Default | Comment
 [id](#id)                               | int(11)       |         | key, auto
 [min_build](#min_build)                 | smallint(6)   | 12340   | key
 [max_build](#max_build)                 | smallint(6)   | 12340   |
-[scale](#scale)                         | float(0)       | 0       |                
-[faction](#faction)                     | int(10)       | 0       |  
-[flags](#flags)                         | int(10)       | 0       |              
+[scale](#scale)                         | float(0)      | 0       |
+[faction](#faction)                     | int(10)       | 0       |
+[flags](#flags)                         | int(10)       | 0       |
 
 ### id
 

@@ -12,14 +12,14 @@ This table contains the rewards for lfg dungeons.
 
 Field                                                                                     | Type       | Default | Comment
 ----------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[dungeon_id](#dungeon_id)   | int(10)    | 0       |        
-[max_level](#max_level)     | tinyint(3) | 0       |        
-[quest_id_1](#quest_id_1)   | int(10)    | 0       |        
-[money_var_1](#money_var_1) | int(10)    | 0       |        
-[xp_var_1](#xp_var_1)       | int(10)    | 0       |        
-[quest_id_2](#quest_id_2)   | int(10)    | 0       |        
-[money_var_2](#money_var_2) | int(10)    | 0       |        
-[xp_var_2](#xp_var_2)       | int(10)    | 0       |        
+[dungeon_id](#dungeon_id)                                                                 | int(10)    | 0       |        
+[max_level](#max_level)                                                                   | tinyint(3) | 0       |        
+[quest_id_1](#quest_id_1)                                                                 | int(10)    | 0       |        
+[money_var_1](#money_var_1)                                                               | int(10)    | 0       |        
+[xp_var_1](#xp_var_1)                                                                     | int(10)    | 0       |        
+[quest_id_2](#quest_id_2)                                                                 | int(10)    | 0       |        
+[money_var_2](#money_var_2)                                                               | int(10)    | 0       |        
+[xp_var_2](#xp_var_2)                                                                     | int(10)    | 0       |        
 
 ### dungeon_id
 

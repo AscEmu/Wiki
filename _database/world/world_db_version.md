@@ -13,7 +13,7 @@ This table ensures that the world database matches the core
 Field                     | Type         | Default      | Comment
 ------------------------- | ------------ | ------------ | -------
 [id](#id)                 | smallint(6)  | 0            | key, auto
-[LastUpdate](#LastUpdate) | varchar(255) | Empty String |        
+[LastUpdate](#LastUpdate) | varchar(100) | Empty String |        
 
 ### id
 
@@ -21,4 +21,4 @@ Update ID
 
 ### LastUpdate
 
-Filled by sql script from world_updates
+Filled by sql script from world_updates.

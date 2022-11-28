@@ -12,14 +12,14 @@ This table contains the bounding boxes.
 
 Field                                                                                        | Type        | Default | Comment
 -------------------------------------------------------------------------------------------- | ----------- | ------- | -------
-[displayid](#displayid)     | smallint(5) |         |        
-[lowx](#low_x_z)            | float       |         |        
-[lowy](#low_x_z)            | float       |         |        
-[lowz](#low_x_z)            | float       |         |        
-[highx](#high_x_z)          | float       |         |        
-[highy](#high_x_z)          | float       |         |        
-[highz](#high_x_z)          | float       |         |        
-[boundradius](#boundradius) |             |         |        
+[displayid](#displayid)                                                                      | smallint(5) |         |        
+[lowx](#low_x_z)                                                                             | float       |         |        
+[lowy](#low_x_z)                                                                             | float       |         |        
+[lowz](#low_x_z)                                                                             | float       |         |        
+[highx](#high_x_z)                                                                           | float       |         |        
+[highy](#high_x_z)                                                                           | float       |         |        
+[highz](#high_x_z)                                                                           | float       |         |        
+[boundradius](#boundradius)                                                                  |             |         |        
 
 ### displayid
 

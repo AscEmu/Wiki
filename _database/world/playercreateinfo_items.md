@@ -13,8 +13,8 @@ This table contains the custom applied items for new created players.
 Field               | Type          | Default | Comment
 ------------------- | ------------- | ------- | -------
 [build](#build)     | smallint(6)   | 12340   | key
-[race](#race)     | smallint(6)   | 0   | key
-[class](#class)     | smallint(6)   | 0   | key
+[race](#race)       | smallint(6)   | 0       | key
+[class](#class)     | smallint(6)   | 0       | key
 [protoid](#protoid) | mediumint(10) | 0       |        
 [slotid](#slotid)   | tinyint(3)    | 0       |        
 [amount](#amount)   | tinymint(3)   | 0       |        
@@ -70,5 +70,5 @@ The slot ID of the character:
 
 ### amount
 
-ATTENTION: You can't use a value > "1" on the playerslots ( You cant stack two shoulders on you :-) )
+ATTENTION: You can't use a value > "1" on the playerslots (You cant stack two shoulders on you).
 {: .info }

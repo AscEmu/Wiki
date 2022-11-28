@@ -12,9 +12,9 @@ This table defines which spells contraints which target.
 
 Field                                                                                      | Type    | Default | Comment
 ------------------------------------------------------------------------------------------ | ------- | ------- | -------
-[SpellID](#SpellID)       | int(10) | 0       |        
-[TargetType](#TargetType) | int(10) | 0       |        
-[TargetID](#TargetID)     | int(10) | 0       |        
+[SpellID](#SpellID)                                                                        | int(10) | 0       |        
+[TargetType](#TargetType)                                                                  | int(10) | 0       |        
+[TargetID](#TargetID)                                                                      | int(10) | 0       |        
 
 ### SpellID
 

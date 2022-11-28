@@ -12,16 +12,16 @@ This table contains the graveyard positions. Unfortunately, it seems this table 
 
 Field                                                                                    | Type         | Default | Comment                    
 ---------------------------------------------------------------------------------------- | ------------ | ------- | ---------------------------
-[id](#id)                           | smallint(4)  |         | Auto Num. Not used in core.
-[position_x](#position)             | float(0)     | 0       |                            
-[position_y](#position)             | float(0)     | 0       |                            
-[position_z](#position)             | float(0)     | 0       |                            
-[orientation](#position)            | float(0)     | 0       |                            
-[zoneid](#zoneid)                   | tinyint(1)   |         | not used in core.          
-[adjacentzoneid](#adjacentzoneid)   | tinyint(1)   |         | unused                     
-[mapid](#mapid)                     | smallint(3)  |         |                            
-[faction](#faction)                 | enum(0)      |         |                            
-[name](#name)                       | varchar(255) |         | not used in core.          
+[id](#id)                                                                                | smallint(4)  |         | Auto Num. Not used in core.
+[position_x](#position)                                                                  | float(0)     | 0       |                            
+[position_y](#position)                                                                  | float(0)     | 0       |                            
+[position_z](#position)                                                                  | float(0)     | 0       |                            
+[orientation](#position)                                                                 | float(0)     | 0       |                            
+[zoneid](#zoneid)                                                                        | tinyint(1)   |         | not used in core.          
+[adjacentzoneid](#adjacentzoneid)                                                        | tinyint(1)   |         | unused                     
+[mapid](#mapid)                                                                          | smallint(3)  |         |                            
+[faction](#faction)                                                                      | enum(0)      |         |                            
+[name](#name)                                                                            | varchar(255) |         | not used in core.          
 
 ### id
 

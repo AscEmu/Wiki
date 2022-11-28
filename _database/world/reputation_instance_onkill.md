@@ -12,13 +12,13 @@ This table contains...
 
 Field                                                                                                                    | Type          | Default | Comment
 ------------------------------------------------------------------------------------------------------------------------ | ------------- | ------- | -------
-[mapid](#mapid)                                     | smallint(5)   |         |        
-[mob_rep_reward](#mob_rep_reward)                   | mediumint(10) | 0       |        
-[mob_rep_limit](#mob_rep_limit)                     | mediumint(10) | 0       |        
-[boss_rep_reward](#boss_rep_reward)                 | smallint(5)   | 0       |        
-[boss_rep_limit](#boss_rep_limit)                   | mediumint(10) | 0       |        
-[faction_change_alliance](#faction_change_alliance) | smallint(5)   |         |        
-[faction_change_horde](#faction_change_horde)       | smallint(5)   |         |        
+[mapid](#mapid)                                                                                                          | smallint(5)   |         |        
+[mob_rep_reward](#mob_rep_reward)                                                                                        | mediumint(10) | 0       |        
+[mob_rep_limit](#mob_rep_limit)                                                                                          | mediumint(10) | 0       |        
+[boss_rep_reward](#boss_rep_reward)                                                                                      | smallint(5)   | 0       |        
+[boss_rep_limit](#boss_rep_limit)                                                                                        | mediumint(10) | 0       |        
+[faction_change_alliance](#faction_change_alliance)                                                                      | smallint(5)   |         |        
+[faction_change_horde](#faction_change_horde)                                                                            | smallint(5)   |         |        
 
 ### mapid
 
