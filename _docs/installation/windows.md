@@ -35,7 +35,7 @@ layout: single_markdown
 
 [OpenSSL](https://slproweb.com/products/Win32OpenSSL.html) - The Win32/Win64 OpenSSL Installation Project is dedicated to providing a simple installation of OpenSSL for Microsoft Windows.
 
-OpenSSL 3.0 is supported.
+OpenSSL **3.0** is supported.
 {: .success }
 
 Do **NOT use the light version** of OpenSSL. Here are the direct links to the msi installer. Make sure to change the option to **The OpenSSL binaries (/bin) directory**
@@ -144,7 +144,7 @@ Installing Visual Studio make sure to select 'Desktop Development with C++' and 
 
 **2.** Choose your compiler **Visual Studio** or other.
 
-Visual Studio 16, 17 and newer is supported.
+Visual Studio **16, 17** is supported.
 {: .success }
 
 ![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)
@@ -292,9 +292,9 @@ Enter your Password in **RemotePassword**.
              RemotePassword = "moo">
 ```
 
-![sql_2.png](/Wiki/images/installation.windows/sql_2.png)
-
 In db ascemu_logon->realms. (**RemotePassword** must match).
+
+![sql_2.png](/Wiki/images/installation.windows/sql_2.png)
 
 #### Automatic Database Updating
 
