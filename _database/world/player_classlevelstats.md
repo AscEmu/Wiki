@@ -15,9 +15,8 @@ Field                               | Type        | Default | Comment
 [build](#build)                     | smallint(6) | 12340   | key
 [class](#class)                     | tinyint(3)  | 0       |                
 [level](#level)                     | int(10)     | 0       |                
-[BaseHealth](#BaseHealth)                   | int(10)     | 0       |                
-[BaseMana](#BaseMana)                   | int(10)     | 0       |                
-
+[BaseHealth](#BaseHealth)           | int(10)     | 0       |                
+[BaseMana](#BaseMana)               | int(10)     | 0       |                
 
 ### build
 

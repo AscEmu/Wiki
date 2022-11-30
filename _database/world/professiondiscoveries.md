@@ -12,10 +12,10 @@ This table defines the profession discoveries.
 
 Field                                                                                               | Type     | Default | Comment
 --------------------------------------------------------------------------------------------------- | -------- | ------- | -------
-[SpellId](#SpellId)                 | int(10)  | 0       |        
-[SpellToDiscover](#SpellToDiscover) | int(10)  | 0       |        
-[SkillValue](#SkillValue)           | int(10)  | 0       |        
-[Chance](#Chance)                   | float(0) | 0       |        
+[SpellId](#SpellId)                                                                                 | int(10)  | 0       |        
+[SpellToDiscover](#SpellToDiscover)                                                                 | int(10)  | 0       |        
+[SkillValue](#SkillValue)                                                                           | int(10)  | 0       |        
+[Chance](#Chance)                                                                                   | float(0) | 0       |        
 
 ### SpellId
 

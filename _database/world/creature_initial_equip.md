@@ -12,10 +12,10 @@ Contains standard itemslot items for creatures
 
 Field                                                                                              | Type         | Default | Comment
 -------------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[creature_entry](#creature_entry) | mediumint(8) |         |        
-[itemslot_1](#itemslot_1)         | mediumint(8) | 0       |        
-[itemslot_2](#itemslot_2)         | mediumint(8) | 0       |        
-[itemslot_3](#itemslot_3)         | mediumint(8) | 0       |        
+[creature_entry](#creature_entry)                                                                  | mediumint(8) |         |        
+[itemslot_1](#itemslot_1)                                                                          | mediumint(8) | 0       |        
+[itemslot_2](#itemslot_2)                                                                          | mediumint(8) | 0       |        
+[itemslot_3](#itemslot_3)                                                                          | mediumint(8) | 0       |        
 
 ### creature_entry
 

@@ -12,13 +12,13 @@ This table contains the target coordinates of the teleport-spells.
 
 Field                                                                                              | Type      | Default | Comment            
 -------------------------------------------------------------------------------------------------- | --------- | ------- | -------------------
-[id](#id)                          | int(10)   | 0       | (Teleport Spell ID)
-[name](#name)                      | char(255) | 0       |                    
-[mapId](#mapId)                    | int(10)   | 0       |                    
-[position_x](#positions)           | float(0)  | 0       |                    
-[position_y](#positions)           | float(0)  | 0       |                    
-[position_z](#positions)           | float(0)  | 0       |                    
-[orientation](#positions)          | float(0)  | 0       |                    
+[id](#id)                                                                                          | int(10)   | 0       | (Teleport Spell ID)
+[name](#name)                                                                                      | char(255) | 0       |                    
+[mapId](#mapId)                                                                                    | int(10)   | 0       |                    
+[position_x](#positions)                                                                           | float(0)  | 0       |                    
+[position_y](#positions)                                                                           | float(0)  | 0       |                    
+[position_z](#positions)                                                                           | float(0)  | 0       |                    
+[orientation](#positions)                                                                          | float(0)  | 0       |                    
 
 ### id
 

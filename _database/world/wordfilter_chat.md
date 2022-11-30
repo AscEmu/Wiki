@@ -12,8 +12,8 @@ NOTE: DO NOT FILL ANY DATA INTO THIS TABLE. WORLDSERVER CRASH INSTANTLY!
 
 Field                                                                                                         | Type         | Default | Comment
 ------------------------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[regex_match](#regex_match)                         | varchar(500) |         |        
-[regex_ignore_if_matched](#regex_ignore_if_matched) | varchar(500) |         |        
+[regex_match](#regex_match)                                                                                   | varchar(300) |         |        
+[regex_ignore_if_matched](#regex_ignore_if_matched)                                                           | varchar(300) |         |        
 
 ### regex_match
 

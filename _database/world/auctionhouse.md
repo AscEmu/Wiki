@@ -12,8 +12,8 @@ This table stores auctioneer NPCs.
 
 Field                                                                                    | Type        | Default | Comment
 ---------------------------------------------------------------------------------------- | ----------- | ------- | -------
-[creature_entry](#creature_entry) | smallint(5) |         |        
-[ahgroup](#ahgroup)               | tinyint(1)  |         |        
+[creature_entry](#creature_entry)                                                        | smallint(5) |         |        
+[ahgroup](#ahgroup)                                                                      | tinyint(1)  |         |        
 
 ### creature_entry
 

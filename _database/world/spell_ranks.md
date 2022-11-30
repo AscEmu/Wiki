@@ -12,9 +12,9 @@ This table defines the spell ranks.
 
 Field                                                                       | Type         | Default | Comment
 --------------------------------------------------------------------------- | ------------ | ------- | -------
-[spell_id](#spell_id) | int(10)      | 0       |        
-[rank](#rank)         | tinyint(3)   | 0       |        
-[name](#name)         | varchar(300) | NULL    |        
+[spell_id](#spell_id)                                                       | int(10)      | 0       |        
+[rank](#rank)                                                               | tinyint(3)   | 0       |        
+[name](#name)                                                               | varchar(300) | NULL    |        
 
 ### spell_id
 

@@ -12,10 +12,10 @@ This table defines and keep up the worldstates.
 
 Field                                                                          | Type    | Default | Comment
 ------------------------------------------------------------------------------ | ------- | ------- | -------
-[map](#map)     | int(10) | 0       |        
-[zone](#zone)   | int(10) | 0       |        
-[field](#field) | int(10) | 0       |        
-[value](#value) | int(10) | 0       |        
+[map](#map)                                                                    | int(10) | 0       |        
+[zone](#zone)                                                                  | int(10) | 0       |        
+[field](#field)                                                                | int(10) | 0       |        
+[value](#value)                                                                | int(10) | 0       |        
 
 ### map
 

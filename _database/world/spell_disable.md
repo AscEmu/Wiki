@@ -12,8 +12,8 @@ This table defines which spells would be disabled/replaced by an other spell.
 
 Field                                                                                               | Type          | Default | Comment
 --------------------------------------------------------------------------------------------------- | ------------- | ------- | -------
-[spellid](#spellid)                         | mediumint(10) |         |        
-[replacement_spellid](#replacement_spellid) | mediumint(10) |         |        
+[spellid](#spellid)                                                                                 | mediumint(10) |         |        
+[replacement_spellid](#replacement_spellid)                                                         | mediumint(10) |         |        
 
 ### spellid
 

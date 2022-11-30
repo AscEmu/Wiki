@@ -12,8 +12,8 @@ This table defines the gossip textids for creatures.
 
 Field                                                                                 | Type    | Default | Comment
 ------------------------------------------------------------------------------------- | ------- | ------- | -------
-[creatureid](#creatureid) | int(10) | 0       |        
-[textid](#textid)         | int(10) | 0       |        
+[creatureid](#creatureid)                                                             | int(10) | 0       |        
+[textid](#textid)                                                                     | int(10) | 0       |        
 
 ### creatureid
 

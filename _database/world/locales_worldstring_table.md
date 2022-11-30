@@ -12,9 +12,9 @@ This table defines the localization for worldstrings.
 
 Field                                                                                               | Type       | Default | Comment
 --------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[entry](#entry)                 | int(11)    |         |        
-[language_code](#language_code) | varchar(5) |         |        
-[text](#text)                   | text(255)  |         |        
+[entry](#entry)                                                                                     | int(11)    |         |        
+[language_code](#language_code)                                                                     | varchar(5) |         |        
+[text](#text)                                                                                       | text(255)  |         |        
 
 ### entry
 

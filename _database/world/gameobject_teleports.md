@@ -18,15 +18,15 @@ NOTE2: Pay Attention: This feature is disable by default... need to be activated
 
 Field                                                                                                        | Type       | Default | Comment
 ------------------------------------------------------------------------------------------------------------ | ---------- | ------- | -------
-[entry](#entry)                               | int(10)    |         |        
-[mapid](#mapid)                               | int(10)    |         |        
-[x_pos](#x_z_pos)                             | float(0)   |         |        
-[y_pos](#x_z_pos)                             | float(0)   |         |        
-[z_pos](#x_z_pos)                             | float(0)   |         |        
-[orientation](#orientation)                   | float(0)   |         |        
-[required_level](#required_level)             | int(10)    |         |        
-[required_class](#required_class)             | tinyint(2) |         |        
-[required_achievement](#required_achievement) | int(5)     |         |        
+[entry](#entry)                                                                                              | int(10)    |         |        
+[mapid](#mapid)                                                                                              | int(10)    |         |        
+[x_pos](#x_z_pos)                                                                                            | float(0)   |         |        
+[y_pos](#x_z_pos)                                                                                            | float(0)   |         |        
+[z_pos](#x_z_pos)                                                                                            | float(0)   |         |        
+[orientation](#orientation)                                                                                  | float(0)   |         |        
+[required_level](#required_level)                                                                            | int(10)    |         |        
+[required_class](#required_class)                                                                            | tinyint(2) |         |        
+[required_achievement](#required_achievement)                                                                | int(5)     |         |        
 
 ### entry
 

@@ -12,8 +12,8 @@ This table contains the world strings (texts).
 
 Field                                                                        | Type         | Default | Comment
 ---------------------------------------------------------------------------- | ------------ | ------- | -------
-[entry](#entry) | int(11)      |         |        
-[text](#text)   | varchar(255) |         |        
+[entry](#entry)                                                              | int(11)      |         |        
+[text](#text)                                                                | varchar(255) |         |        
 
 ### entry
 

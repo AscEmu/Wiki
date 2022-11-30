@@ -12,13 +12,13 @@ This table defines the weather chances in the different zones.
 
 Field                                                                         | Type    | Default | Comment              
 ----------------------------------------------------------------------------- | ------- | ------- | ---------------------
-[zoneId](#zoneId)           | int(11) | 0       |                      
-[high_chance](#high_chance) | int(11) | 0       |                      
-[high_type](#weather_types) | int(11) | 0       | linked to high_chance
-[med_chance](#med_chance)   | int(11) | 0       |                      
-[med_type](#weather_types)  | int(11) | 0       | linked to med_chance 
-[low_chance](#low_chance)   | int(11) | 0       |                      
-[low_type](#weather_types)  | int(11) | 0       | linked to low_chance 
+[zoneId](#zoneId)                                                             | int(11) | 0       |                      
+[high_chance](#high_chance)                                                   | int(11) | 0       |                      
+[high_type](#weather_types)                                                   | int(11) | 0       | linked to high_chance
+[med_chance](#med_chance)                                                     | int(11) | 0       |                      
+[med_type](#weather_types)                                                    | int(11) | 0       | linked to med_chance 
+[low_chance](#low_chance)                                                     | int(11) | 0       |                      
+[low_type](#weather_types)                                                    | int(11) | 0       | linked to low_chance 
 
 ### zoneId
 

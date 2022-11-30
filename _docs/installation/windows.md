@@ -9,7 +9,7 @@ layout: single_markdown
 
 * [OpenSSL](#openssl)
 * [Redistributable Package](#redistributable-package)
-* [MySQL Server](#mysql-server)
+* [MySQL Setup](#mysql-setup)
 * [GitHub Desktop](#github-desktop)
 * [Visual Studio](#visual-studio)
 * [CMake](#cmake)
@@ -34,7 +34,10 @@ layout: single_markdown
 #### OpenSSL
 
 [OpenSSL](https://slproweb.com/products/Win32OpenSSL.html) - The Win32/Win64 OpenSSL Installation Project is dedicated to providing a simple installation of OpenSSL for Microsoft Windows.
- 
+
+OpenSSL **3.0** is supported.
+{: .success }
+
 Do **NOT use the light version** of OpenSSL. Here are the direct links to the msi installer. Make sure to change the option to **The OpenSSL binaries (/bin) directory**
 {: .success }
 
@@ -42,14 +45,11 @@ Do **NOT use the light version** of OpenSSL. Here are the direct links to the ms
 
 **Win64**
 
-64bit version OpenSSL v1.1.1o [https://slproweb.com/download/Win64OpenSSL-1_1_1o.exe](https://slproweb.com/download/Win64OpenSSL-1_1_1o.exe)
+Find the 64bit version by finding the latest 1.0.x, 1.1.x or 3.0.0 Win64 OpenSSL that is NOT the "light" version. (Example: Win64 OpenSSL v1.1.1o)
 
 **Wind32**
 
-32bit version OpenSSL v1.1.1o [https://slproweb.com/download/Win32OpenSSL-1_1_1o.exe](https://slproweb.com/download/Win32OpenSSL-1_1_1o.exe)
-
-OpenSSL 3.0 is not supported.
-{: .success }
+Find the 32bit version by finding the latest 1.0.x, 1.1.x or 3.0.0 Win32 OpenSSL that is NOT the "light" version. (Example: Win32 OpenSSL v1.1.1o)
 
 #### Redistributable Package
 
@@ -63,7 +63,7 @@ The Visual C++ [Redistributable Package](https://docs.microsoft.com/en-us/cpp/wi
 
 32bit version [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
-#### MySQL Server
+#### MySQL Setup
 
 [MySQL Server](https://dev.mysql.com/downloads/windows/installer/) - Installation Project is dedicated to providing a simple installation of MySQL for Microsoft Windows.
 
@@ -144,6 +144,9 @@ Installing Visual Studio make sure to select 'Desktop Development with C++' and 
 
 **2.** Choose your compiler **Visual Studio** or other.
 
+Visual Studio **16, 17** is supported.
+{: .success }
+
 ![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)
 
 **3.** You should get a list with all available parts of our framework. Make your selection and press "Configure". Remember to create the folder specified under CMAKE_INSTALL_PREFIX, otherwise the INSTALL project will fail.
@@ -156,6 +159,17 @@ You can choose which client should be supported by AscEmu.
 
 If you need maps, vmaps, mmaps enable menu item BUILD_TOOLS
 {: .info }
+
+Here is a quick view of the variables you can include with cmake command:
+
+<pre>
+-DCMAKE_INSTALL_PREFIX = the location where AscEmu binaries are installed
+-DCMAKE_BUILD_TYPE = choose from Release or Debug mode
+-DBUILD_WITH_WARNINGS = 0 (disabled) or 1 (enabled)
+-DBUILD_TOOLS = 0 (disabled) or 1 (enabled)
+-DASCEMU_VERSION = choose from Classic, TBC, WotLK, Cata or MoP
+-DUSE_PCH = 0 (disabled) or 1 (enabled) - Precompiled headers are enabled by default
+</pre>
 
 ![cmake_4.png](/Wiki/images/installation.windows/cmake_4.png)
 
@@ -278,9 +292,9 @@ Enter your Password in **RemotePassword**.
              RemotePassword = "moo">
 ```
 
-![sql_2.png](/Wiki/images/installation.windows/sql_2.png)
-
 In db ascemu_logon->realms. (**RemotePassword** must match).
+
+![sql_2.png](/Wiki/images/installation.windows/sql_2.png)
 
 #### Automatic Database Updating
 

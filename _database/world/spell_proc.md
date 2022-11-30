@@ -12,16 +12,16 @@ This table defines the spell procs.
 
 Field                                                                                             | Type         | Default | Comment
 ------------------------------------------------------------------------------------------------- | ------------ | ------- | -------
-[spellID](#spellID)                          | int(30)      | 0       |        
-[ProcOnNameHash](#ProcOnNameHash)            | int(30)      | 0       |        
-[ProcFlag](#ProcFlag)                        | int(30)      | 0       |        
-[TargetSelf](#TargetSelf)                    | tinyint(1)   | 0       |        
-[ProcChance](#ProcChance)                    | int(30)      |  -1     |        
-[ProcCharges](#ProcCharges)                  | smallint(30) |  -1     |        
-[ProcInterval](#ProcInterval)                | int(30)      | 0       |        
-[EffectTriggerSpell[0]](#EffectTriggerSpell) | smallint(10) |  -1     |        
-[EffectTriggerSpell[1]](#EffectTriggerSpell) | smallint(10) |  -1     |        
-[EffectTriggerSpell[2]](#EffectTriggerSpell) | smallint(10) |  -1     |        
+[spellID](#spellID)                                                                               | int(30)      | 0       |        
+[ProcOnNameHash](#ProcOnNameHash)                                                                 | int(30)      | 0       |        
+[ProcFlag](#ProcFlag)                                                                             | int(30)      | 0       |        
+[TargetSelf](#TargetSelf)                                                                         | tinyint(1)   | 0       |        
+[ProcChance](#ProcChance)                                                                         | int(30)      |  -1     |        
+[ProcCharges](#ProcCharges)                                                                       | smallint(30) |  -1     |        
+[ProcInterval](#ProcInterval)                                                                     | int(30)      | 0       |        
+[EffectTriggerSpell[0]](#EffectTriggerSpell)                                                      | smallint(10) |  -1     |        
+[EffectTriggerSpell[1]](#EffectTriggerSpell)                                                      | smallint(10) |  -1     |        
+[EffectTriggerSpell[2]](#EffectTriggerSpell)                                                      | smallint(10) |  -1     |        
 
 ### spellID
 

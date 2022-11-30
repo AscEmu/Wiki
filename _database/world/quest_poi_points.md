@@ -10,12 +10,12 @@ This table contains the quest points.
 
 ## Structure
 
-Field                                                                                | Type        | Default | Comment
------------------------------------------------------------------------------------- | ----------- | ------- | -------
-[questId](#questId)          | smallint(5) |         |        
-[poiId](#poiId)              | tinyint(3)  | 0       |        
-[x](#position) | int(11)     | 0           |        
-[y](#position) | int(11)     | 0           |        
+Field                                                                                | Type        | Default        | Comment
+------------------------------------------------------------------------------------ | ----------- | -------------- | -------
+[questId](#questId)                                                                  | smallint(5) |                |        
+[poiId](#poiId)                                                                      | tinyint(3)  | 0              |        
+[x](#position)                                                                       | int(11)     | 0              |        
+[y](#position)                                                                       | int(11)     | 0              |        
 
 ### questId
 

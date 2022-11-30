@@ -12,10 +12,10 @@ Contains information on creature formations. Ex. making an NPC follow a leader i
 
 Field                                                                                             | Type     | Default | Comment
 ------------------------------------------------------------------------------------------------- | -------- | ------- | -------
-[spawn_id](#spawn_id)               | int(10)  | 0       |        
-[target_spawn_id](#target_spawn_id) | int(10)  | 0       |        
-[follow_angle](#follow_angle)       | float(0) | 0       |        
-[follow_dist](#follow_dist)         | float(0) | 0       |        
+[spawn_id](#spawn_id)                                                                             | int(10)  | 0       |        
+[target_spawn_id](#target_spawn_id)                                                               | int(10)  | 0       |        
+[follow_angle](#follow_angle)                                                                     | float(0) | 0       |        
+[follow_dist](#follow_dist)                                                                       | float(0) | 0       |        
 
 ### spawn_id
 

@@ -12,18 +12,18 @@ This table contains the localization for the quest texts [quest_properties](/Wik
 
 Field                                                                                               | Type       | Default | Comment
 --------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[entry](#entry)                             | int(30)    |         |        
-[language_code](#language_code)             | varchar(5) | 0       |        
-[Title](#Title)                             | text       | 0       |        
-[Details](#Details)                         | text       | 0       |        
-[Objectives](#Objectives)                   | text       | 0       |        
-[CompletionText](#CompletionText)           | text       | 0       |        
-[IncompletionText](#IncompletionText)       | text       | 0       |        
-[EndText](#EndText)                         | text       | 0       |        
-[ObjectiveText1](##ObjectiveText_1_4)       | text       | 0       |        
-[ObjectiveText2](##ObjectiveText_1_4)       | text       | 0       |        
-[ObjectiveText3](##ObjectiveText_1_4)       | text       | 0       |        
-[ObjectiveText4](##ObjectiveText_1_4)       | text       | 0       |        
+[entry](#entry)                                                                                     | int(30)    |         |        
+[language_code](#language_code)                                                                     | varchar(5) | 0       |        
+[Title](#Title)                                                                                     | text       | 0       |        
+[Details](#Details)                                                                                 | text       | 0       |        
+[Objectives](#Objectives)                                                                           | text       | 0       |        
+[CompletionText](#CompletionText)                                                                   | text       | 0       |        
+[IncompletionText](#IncompletionText)                                                               | text       | 0       |        
+[EndText](#EndText)                                                                                 | text       | 0       |        
+[ObjectiveText1](#ObjectiveText_1_4)                                                                | text       | 0       |        
+[ObjectiveText2](#ObjectiveText_1_4)                                                                | text       | 0       |        
+[ObjectiveText3](#ObjectiveText_1_4)                                                                | text       | 0       |        
+[ObjectiveText4](#ObjectiveText_1_4)                                                                | text       | 0       |        
 
 ### entry
 

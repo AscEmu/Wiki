@@ -12,8 +12,8 @@ This table contains the gameobjects which finish a quest.
 
 Field                                                                               | Type    | Default | Comment
 ----------------------------------------------------------------------------------- | ------- | ------- | -------
-[id](#id)       | int(11) | 0       |        
-[quest](#quest) | int(11) | 0       |        
+[id](#id)                                                                           | int(11) | 0       |        
+[quest](#quest)                                                                     | int(11) | 0       |        
 
 ### id
 

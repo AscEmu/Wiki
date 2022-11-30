@@ -12,14 +12,14 @@ This table managed Creature timed emotes.
 
 Field                                                                                         | Type       | Default | Comment
 --------------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[Spwnid](#Spwnid)             | int(10)    | 0       |        
-[rowid](#rowid)               | int(10)    | 0       |        
-[type](#type)                 | tinyint(1) | 1       |        
-[value](#value)               | int(10)    | 0       |        
-[msg](#msg)                   | text(0)    | NULL    |        
-[msg_type](#msg_type)         | int(10)    | 0       |        
-[msg_lang](#msg_lang)         | int(10)    | 0       |        
-[expire_after](#expire_after) | int(10)    | 0       |        
+[Spwnid](#Spwnid)                                                                             | int(10)    | 0       |        
+[rowid](#rowid)                                                                               | int(10)    | 0       |        
+[type](#type)                                                                                 | tinyint(1) | 1       |        
+[value](#value)                                                                               | int(10)    | 0       |        
+[msg](#msg)                                                                                   | text(0)    | NULL    |        
+[msg_type](#msg_type)                                                                         | int(10)    | 0       |        
+[msg_lang](#msg_lang)                                                                         | int(10)    | 0       |        
+[expire_after](#expire_after)                                                                 | int(10)    | 0       |        
 
 ### spawnid
 

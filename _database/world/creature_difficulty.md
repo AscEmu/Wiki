@@ -12,10 +12,10 @@ This table includes the linked difficulty entry IDs to basic creatures.
 
 Field                                                                                     | Type    | Default | Comment
 ----------------------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry)             | int(30) | 0       |        
-[difficulty_1](#difficulty) | int(30) | 0       |        
-[difficulty_2](#difficulty) | int(30) | 0       |        
-[difficulty_3](#difficulty) | int(30) | 0       |        
+[entry](#entry)                                                                           | int(30) | 0       |        
+[difficulty_1](#difficulty)                                                               | int(30) | 0       |        
+[difficulty_2](#difficulty)                                                               | int(30) | 0       |        
+[difficulty_3](#difficulty)                                                               | int(30) | 0       |        
 
 ### entry
 
@@ -28,7 +28,6 @@ The linked difficulty entry from [creature_properties](/Wiki/database/world/crea
 **difficulty column for dungeons:**
 
 - difficulty_1 = The linked [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") entry for heroic dungeons
-
 
 **difficulty column for raids:**
 

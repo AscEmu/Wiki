@@ -446,7 +446,7 @@ Reputation value on player at which the quest wont give anymore reputation (will
 
 ### RewMoney
 
-Money you earn when finishing quest (in copper [e.x. - 105075 = 10g 50s 75c) Negative value means that quest require money.
+Money you earn when finishing quest (in copper (e.x. - 105075 = 10g 50s 75c) Negative value means that quest require money.
 
 ### RewXP
 
@@ -537,20 +537,40 @@ The amount of players suggested to complete the quest.
 
 ### detailemotecount
 
+...
+
 ### detailemote
+
+...
 
 ### detailemotedelay
 
+...
+
 ### completionemotecnt
+
+...
 
 ### completionemote
 
+...
+
 ### completionemotedelay
+
+...
 
 ### completeemote
 
+...
+
 ### incompleteemote
+
+...
 
 ### iscompletedbyspelleffect
 
+...
+
 ### RewXPId
+
+...

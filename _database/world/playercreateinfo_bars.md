@@ -12,7 +12,7 @@ This table contains the the bar and button actions for players on create.
 
 Field             | Type          | Default | Comment
 ----------------- | ------------- | ------- | -------
-[build](#build)     | smallint(6)   | 12340   | key
+[build](#build)   | smallint(6)   | 12340   | key
 [race](#race)     | tinyint(3)    | 0       | key
 [class](#class)   | tinyint(3)    | 0       | key
 [button](#button) | tinyint(3)    | 0       |        

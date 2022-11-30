@@ -12,8 +12,8 @@ This table defines which spells would be override by another spell.
 
 Field                                                                             | Type    | Default | Comment
 --------------------------------------------------------------------------------- | ------- | ------- | -------
-[overrideId](#overrideId) | int(10) | 0       |        
-[spellId](#spellId)       | int(10) |         |        
+[overrideId](#overrideId)                                                         | int(10) | 0       |        
+[spellId](#spellId)                                                               | int(10) |         |        
 
 ### overrideId
 

@@ -12,9 +12,9 @@ This table contains the localized gossip menu option texts.
 
 Field                                                                                                | Type       | Default | Comment
 ---------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
-[entry](#entry)                 | int(10)    |         |        
-[language_code](#language_code) | varchar(5) |         |        
-[text](#text)                   | text       |         |        
+[entry](#entry)                                                                                      | int(10)    |         |        
+[language_code](#language_code)                                                                      | varchar(5) |         |        
+[text](#text)                                                                                        | text       |         |        
 
 ### entry
 

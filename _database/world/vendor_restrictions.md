@@ -12,14 +12,14 @@ This table defines the vendor restrictions.
 
 Field                                                                                                   | Type    | Default | Comment
 ------------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry)                           | int(10) |         |        
-[racemask](#racemask)                     | int(11) |  -1     |        
-[classmask](#classmask)                   | int(11) |  -1     |        
-[reqrepfaction](#reqrepfaction)           | int(10) | 0       |        
-[reqrepfactionvalue](#reqrepfactionvalue) | int(10) | 0       |        
-[canbuyattextid](#canbuyattextid)         | int(10) | 0       |        
-[cannotbuyattextid](#cannotbuyattextid)   | int(10) | 0       |        
-[flags](#flags)                           | int(10) | 0       |        
+[entry](#entry)                                                                                         | int(10) |         |        
+[racemask](#racemask)                                                                                   | int(11) | -1      |        
+[classmask](#classmask)                                                                                 | int(11) | -1      |        
+[reqrepfaction](#reqrepfaction)                                                                         | int(10) | 0       |        
+[reqrepfactionvalue](#reqrepfactionvalue)                                                               | int(10) | 0       |        
+[canbuyattextid](#canbuyattextid)                                                                       | int(10) | 0       |        
+[cannotbuyattextid](#cannotbuyattextid)                                                                 | int(10) | 0       |        
+[flags](#flags)                                                                                         | int(10) | 0       |        
 
 ### entry
 

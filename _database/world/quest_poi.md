@@ -12,14 +12,14 @@ This table managed the quest points.
 
 Field                                                                       | Type        | Default | Comment
 --------------------------------------------------------------------------- | ----------- | ------- | -------
-[questId](#questId)     | smallint(5) |         |        
-[poiId](#poiId)         | tibyint(3)  |         |        
-[objIndex](#objIndex)   | tinyint(2)  | 0       |        
-[mapId](#mapId)         | smallint(3) | 0       |        
-[mapAreaId](#mapAreaId) | smallint(3) | 0       |        
-[floorId](#floorId)     | tinyint(1)  | 0       |        
-[unk3](#unk3)           | tinyint(1)  | 0       |        
-[unk4](#unk4)           | tinyint(1)  | 0       |        
+[questId](#questId)                                                         | smallint(5) |         |        
+[poiId](#poiId)                                                             | tibyint(3)  |         |        
+[objIndex](#objIndex)                                                       | tinyint(2)  | 0       |        
+[mapId](#mapId)                                                             | smallint(3) | 0       |        
+[mapAreaId](#mapAreaId)                                                     | smallint(3) | 0       |        
+[floorId](#floorId)                                                         | tinyint(1)  | 0       |        
+[unk3](#unk3)                                                               | tinyint(1)  | 0       |        
+[unk4](#unk4)                                                               | tinyint(1)  | 0       |        
 
 ### questId
 

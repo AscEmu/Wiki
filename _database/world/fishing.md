@@ -12,9 +12,9 @@ This table contains the zone and skill requirements for fishing.
 
 Field                                                                   | Type        | Default | Comment
 ----------------------------------------------------------------------- | ----------- | ------- | -------
-[zone](#zone)         | smallint(5) |         |        
-[MinSkill](#MinSkill) | smallint(5) | 0       |        
-[MaxSkill](#MaxSkill) | smallint(5) | 0       |        
+[zone](#zone)                                                           | smallint(5) |         |        
+[MinSkill](#MinSkill)                                                   | smallint(5) | 0       |        
+[MaxSkill](#MaxSkill)                                                   | smallint(5) | 0       |        
 
 ### zone
 

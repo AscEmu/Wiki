@@ -33,12 +33,9 @@ Build number this override is valid.
 
 Max Build number this override is valid for.
 
-
-
 ### direct_coefficient
 
 ...
-
 
 ### overtime_coefficient
 

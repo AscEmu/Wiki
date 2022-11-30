@@ -12,12 +12,12 @@ This table defines the selling items for vendors.
 
 Field                                                                             | Type       | Default | Comment              
 --------------------------------------------------------------------------------- | ---------- | ------- | ---------------------
-[entry](#entry)                 | int(10)    | 0       |                      
-[item](#item)                   | int(10)    | 0       |                      
-[amount](#amount)               | int(10)    | 0       | This is min_amount...
-[max_amount](#max_amount)       | int(10)    | 0       |                      
-[inctime](#inctime)             | bigint(20) | 0       |                      
-[extended_cost](#extended_cost) | int(11)    | 0       |                      
+[entry](#entry)                                                                   | int(10)    | 0       |                      
+[item](#item)                                                                     | int(10)    | 0       |                      
+[amount](#amount)                                                                 | int(10)    | 0       | This is min_amount...
+[max_amount](#max_amount)                                                         | int(10)    | 0       |                      
+[inctime](#inctime)                                                               | bigint(20) | 0       |                      
+[extended_cost](#extended_cost)                                                   | int(11)    | 0       |                      
 
 ### entry
 

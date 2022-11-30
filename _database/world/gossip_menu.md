@@ -12,9 +12,9 @@ This table contains the texts for initial gossip menus.
 
 Field                                                                             | Type         | Default | Comment
 --------------------------------------------------------------------------------- | ------------ | ------- | -------
-[gossip_menu](#gossip_menu) | int(10)      |         | key    
-[text_id](#text_id)         | int(10)      | 0       |        
-[Comment](#Comment)         | varchar(200) | NULL    |        
+[gossip_menu](#gossip_menu)                                                       | int(10)      |         | key    
+[text_id](#text_id)                                                               | int(10)      | 0       |        
+[Comment](#Comment)                                                               | varchar(200) | NULL    |        
 
 ### gossip_menu
 
@@ -26,4 +26,4 @@ The text ID for the first gossip_menu from [npc_text](/Wiki/database/world/npc_t
 
 ### Comment
 
-Comment, not used by core.
+Not used by core.

@@ -12,9 +12,9 @@ This table defines the itempages.
 
 Field                                                                        | Type     | Default | Comment
 ---------------------------------------------------------------------------- | -------- | ------- | -------
-[entry](#entry)         | int(10)  | 0       |        
-[text](#text)           | longtext |         |        
-[next_page](#next_page) | int(10)  | 0       |        
+[entry](#entry)                                                              | int(10)  | 0       |        
+[text](#text)                                                                | longtext |         |        
+[next_page](#next_page)                                                      | int(10)  | 0       |        
 
 ### entry
 
@@ -22,8 +22,8 @@ The unique ID for the page. this id is used in row `page_id` in table [item_prop
 
 ### text
 
-The Text on the page
+The Text on the page.
 
 ### next_page
 
-The next entry ID in this Table :-)
+The next entry ID in this Table.

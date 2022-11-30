@@ -12,8 +12,8 @@ This table contains the texts for menu options.
 
 Field                                                                                    | Type    | Default | Comment
 ---------------------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry)             | int(10) | AUTO    |        
-[option_text](#option_text) | text    |         |        
+[entry](#entry)                                                                          | int(10) | AUTO    |        
+[option_text](#option_text)                                                              | text    |         |        
 
 ### entry
 

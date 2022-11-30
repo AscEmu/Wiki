@@ -11,12 +11,16 @@ This table defines the vehicle accessoires.
 ## Structure
 
 Field                                                                                             | Type    | Default | Comment
-------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[creature_entry](#creature_entry)   | int(10) | 0       |        
-[accessory_entry](#accessory_entry) | int(10) | 0       |        
-[seat](#seat)                       | int(10) | 0       |        
+------------------------------------------------------------------------------------------------- | ------------- | ---------------- | -------
+[entry](entry)                                                                                    | mediumint(8)  | 0                |
+[accessory_entry](accessory_entry)                                                                | mediumint(8)  | 0                |
+[seat_id](#seat_id)                                                                               | tinyint(4)    | 0                |
+[minion](minion)                                                                                  | tinyint(3)    | 0                |
+[description](description)                                                                        | text          | NOT NULL         |
+[summontype](#summontype)                                                                         | tinyint(3)    | 0                |
+[summontimer](summontimer)                                                                        | INT(10)       | 0                |
 
-### creature_entry
+### entry
 
 The creature entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
@@ -24,6 +28,22 @@ The creature entry ID from [creature_properties](/Wiki/database/world/creature_p
 
 The accessoir ID...
 
-### seat
+### seat_id
 
 The seat ID...
+
+### minion
+
+...
+
+### description
+
+...
+
+### summontype
+
+...
+
+### summontimer
+
+...

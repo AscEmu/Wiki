@@ -13,9 +13,9 @@ Modifies threat > creature per spell.
 
 Field                                                                            | Type     | Default | Comment
 -------------------------------------------------------------------------------- | -------- | ------- | -------
-[spell](#spell)     | int(11)  | 0       |        
-[mod](#mod)         | int(11)  | 0       |        
-[modcoef](#modcoef) | float(0) | 1       |        
+[spell](#spell)                                                                  | int(11)  | 0       |        
+[mod](#mod)                                                                      | int(11)  | 0       |        
+[modcoef](#modcoef)                                                              | float(0) | 1       |        
 
 ### spell
 

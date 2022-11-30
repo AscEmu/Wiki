@@ -12,26 +12,26 @@ This table is for simple creature scripts e.g. trashmobs in several instances.
 
 Field                                                                                | Type     | Default | Comment
 ------------------------------------------------------------------------------------ | -------- | ------- | -------
-[min_build](#min-max_build)             | int       | 12340  |        
-[max_build](#min-max_build)             | int       | 12340  |        
-[entry](#entry)                         | int       |        |        
-[difficulty](#difficulty)               | tinyint   | 0      |        
-[phase](#phase)                         | tinyint   | 0      |        
-[event](#event)                         | tinyint   | 0      |        
-[action](#action)                       | tinyint   | 0      |        
-[maxCount](#maxCount)                   | tinyint   | 0      |        
-[chance](#chance)                       | float     | 1      |        
-[spell](#spell)                         | int       | 0      |        
-[spell_type](#spell_type)               | int       | 0      |        
-[triggered](#triggered)                 | tinyint   | 0      | 1 = true, 0 = false       
-[target](#target)                       | int       | 0      |        
-[cooldownMin](#cooldownmin-max)         | int       | 0      |        
-[cooldownMax](#cooldownmin-max)         | int       | 0      |        
-[minHealth](#min-maxhealth)             | float     | 0      |        
-[maxHealth](#min-maxhealth)             | float     | 100    |        
-[textId](#textId)                       | int       | 0      |        
-[misc1](#misc1)                         | int       | 0      |        
-[comments](#comments)                   | text      | NULL   |        
+[min_build](#min-max_build)                                                          | int       | 12340  |        
+[max_build](#min-max_build)                                                          | int       | 12340  |        
+[entry](#entry)                                                                      | int       |        |        
+[difficulty](#difficulty)                                                            | tinyint   | 0      |        
+[phase](#phase)                                                                      | tinyint   | 0      |        
+[event](#event)                                                                      | tinyint   | 0      |        
+[action](#action)                                                                    | tinyint   | 0      |        
+[maxCount](#maxCount)                                                                | tinyint   | 0      |        
+[chance](#chance)                                                                    | float     | 1      |        
+[spell](#spell)                                                                      | int       | 0      |        
+[spell_type](#spell_type)                                                            | int       | 0      |        
+[triggered](#triggered)                                                              | tinyint   | 0      | 1 = true, 0 = false       
+[target](#target)                                                                    | int       | 0      |        
+[cooldownMin](#cooldownmin-max)                                                      | int       | 0      |        
+[cooldownMax](#cooldownmin-max)                                                      | int       | 0      |        
+[minHealth](#min-maxhealth)                                                          | float     | 0      |        
+[maxHealth](#min-maxhealth)                                                          | float     | 100    |        
+[textId](#textId)                                                                    | int       | 0      |        
+[misc1](#misc1)                                                                      | int       | 0      |        
+[comments](#comments)                                                                | text      | NULL   |        
 
 ### min-max_build
 
@@ -191,4 +191,5 @@ Duration in ms how long creature is fleeing.
 
 
 ### comments
+
 Used for db devs.

@@ -13,8 +13,8 @@ NOTE: This table is new... All points were moved from core to db, but the old fu
 
 ## Structure
 
-Field                                                                                   | Type         | Default | Comment
---------------------------------------------------------------------------------------- | ------------ | ------- | -------
+Field                      | Type         | Default | Comment
+-------------------------- | ------------ | ------- | -------
 [entry](#entry)            | int(10)      | 0       |        
 [x](#position)             | float(0)     | 0       |        
 [y](#position)             | float(0)     | 0       |        
@@ -29,7 +29,7 @@ The entry ID
 
 ### position
 
-The x- and y position on the map, for pointing it on minimap.
+The x - and y position on the map, for pointing it on minimap.
 
 ### icon
 

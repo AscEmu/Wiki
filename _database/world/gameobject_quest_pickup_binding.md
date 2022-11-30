@@ -6,15 +6,14 @@ layout: single_markdown
 ---
 
 # gameobject_quest_pickup_binding
-This table includes... yeahr what is this about? :-)
 
 ## Structure
 
 Field                                                                                                       | Type    | Default | Comment
 ----------------------------------------------------------------------------------------------------------- | ------- | ------- | -------
-[entry](#entry)                   | int(11) | 0       |        
-[quest](#quest)                   | int(11) | 0       |        
-[required_count](#required_count) | int(11) | 0       |        
+[entry](#entry)                                                                                             | int(11) | 0       |        
+[quest](#quest)                                                                                             | int(11) | 0       |        
+[required_count](#required_count)                                                                           | int(11) | 0       |        
 
 ### entry
 

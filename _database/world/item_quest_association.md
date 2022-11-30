@@ -12,9 +12,9 @@ This table contains the association for items to quests (or something similar...
 
 Field                                                                                      | Type    | Default | Comment
 ------------------------------------------------------------------------------------------ | ------- | ------- | -------
-[item](#item)             | int(11) | 0       |        
-[quest](#quest)           | int(11) | 0       |        
-[item_count](#item_count) | int(11) | 0       |        
+[item](#item)                                                                              | int(11) | 0       |        
+[quest](#quest)                                                                            | int(11) | 0       |        
+[item_count](#item_count)                                                                  | int(11) | 0       |        
 
 ### item
 
