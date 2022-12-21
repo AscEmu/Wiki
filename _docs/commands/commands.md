@@ -67,14 +67,6 @@ Description: Sends Widescreen Msg To All
 
 Usage: .wannounce <text to announce>
 
-## .autosavechanges
-
-Access: 1 
-
-Description: All commands which require " 1" at the end will save data automatically without a " 1" at the end of the command.
-
-Usage: .autosavechanges
-
 ## .ban and .unban
 
 .ban Subcommand   | Access | Description                               | Usage                                              
@@ -318,11 +310,11 @@ rotate     | g      | Rotates the selected GO (x-, y-,o-axis). Default o.       
 
 Subcommand   | Access | Description                              | Usage                                                                                                    
 ------------ | ------ | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------
-state        | o      | Sets the state byte of the selected GO   | .gobject set state <state_bytes> .gobject set state <state_bytes> 1 (saves to gamobject_spawns table)  
-flag         | o      | Sets the flags of the GO                 | .gobject set flag <flags> .gobject set flag <flags> 1  (saves to gamobject_spawns table)               
-faction      | o      | Sets the faction of the GO               | .gobject set faction <faction_id> .gobject set faction <faction_id> 1 (saves to gamobject_spawns table)
-phase        | o      | Phase selected GameObject                | .gobject set phase <phase_num> .gobject set phase <phase_num> 1 (saves to gamobject_spawns table)      
-scale        | o      | Sets scale of selected GO. (1 is normal) | .gobject set  scale <scale> .gobject set  scale <scale> 1 (saves to gamobject_spawns table)            
+state        | o      | Sets the state byte of the selected GO   | .gobject set state <state_bytes> .gobject set state <state_bytes>  
+flag         | o      | Sets the flags of the GO                 | .gobject set flag <flags> .gobject set flag <flags>              
+faction      | o      | Sets the faction of the GO               | .gobject set faction <faction_id> .gobject set faction <faction_id>
+phase        | o      | Phase selected GameObject                | .gobject set phase <phase_num> .gobject set phase <phase_num>     
+scale        | o      | Sets scale of selected GO. (1 is normal) | .gobject set  scale <scale> .gobject set  scale <scale>           
 animprogress | o      | Sets anim progress                       | .gobject set  animprogress                                                                               
 
 ## go*  (teleport)
@@ -516,12 +508,12 @@ cast             | n      | Makes the selected NPC cast this spell.             
 Subcommand      | Access | Description                                                 | Usage                                                                                                                                      
 --------------- | ------ | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
 canfly          | n      | Toggles selected NPC CanFly state                           | .npc set canfly <save>                                                                                                                     
-emote           | n      | Sets emote state of the targeted npc.                       | .npc set emote <emote_id> (sets emote temporarily) .npc set emote <emote> 1 (saves the emote in creature_spawn table)                    
+emote           | n      | Sets emote state of the targeted npc.                       | .npc set emote <emote_id> (sets emote temporarily) .npc set emote <emote>                   
 equip           | m      | Equipping selected npc.                                     | .npc set equip <slot> <itemid> (to equip item) .npc set equip <slot> 0 (to remove equiped item) Slots: 0 =melee, 1 = offhand, 2 = ranged
 formationmaster | m      | Sets formation master.                                      | .npc set formationmaster to you                                                                                                                   
-flags           | m      | Change flags for creature spawn. You may dclear your cache. | .npc set flags <flags> .npc set flags <flags> 1 (saves the flags to creature_spawns table)                                               
-phase           | n      | Sets phase of selected creature.                            | .npc set <phase> .npc set phase <phase> 1 (saves the phase to creature_spawns table)                                                     
-standstate      | m      | Change standstate for creature spawn.                       | .npc set standstate <standstate> .npc set standstate <standstate> 1 (saves the standstate to creature_spawns table)                      
+flags           | m      | Change flags for creature spawn. You may dclear your cache. | .npc set flags <flags> .npc set flags <flags>                                               
+phase           | n      | Sets phase of selected creature.                            | .npc set <phase> .npc set phase <phase>                                                     
+standstate      | m      | Change standstate for creature spawn.                       | .npc set standstate <standstate> .npc set standstate <standstate>                   
 
 ## .pet
 
