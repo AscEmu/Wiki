@@ -24,6 +24,7 @@ Field                                                                           
 [reqskillvalue](#reqskillvalue)                                                          | int(11) | 0       |        
 [reqlevel](#reqlevel)                                                                    | int(11) | 0       |        
 [deletespell](#deletespell)                                                              | int(11) | 0       |        
+[static](#static)                                                                        | int(11) | 0       |        
 
 ### id
 
@@ -69,6 +70,10 @@ The required level of the player to learn this spell.
 ### deletespell
 
 The spell entry ID which would be removed.
+
+### static
+
+1 = this spell is always visible in this spell set.
 
 ### under development
 
