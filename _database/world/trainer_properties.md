@@ -23,7 +23,7 @@ Field                                                                           
 [trainer_type](#trainer_type)                                                                                    | int(11) | 0       |        
 [trainer_ui_window_message](#trainer_ui_window_message)                                                          | text    | 0       |        
 [can_train_gossip_textid](#can_train_gossip_textid)                                                              | int(11) | 0       |        
-[trainer_properties_spell](#trainer_properties_spell)                                                            | int     | 0       |        
+[spellset_id](#spellset_id)                                                                                      | int     | 0       |        
 [can_train_max_level](#can_train_max_level)                                                                      | int     | 0       |        
 [can_train_min_skill_value](#can_train_min_skill_value)                                                          | int     | 0       |        
 [can_train_max_skill_value](#can_train_max_skill_value)                                                          | int     | 0       |        
@@ -80,20 +80,17 @@ The TextID shown if trainer can train this spell from [npc_gossip_textid](/Wiki/
 
 The TextID shown if trainer can not train this spell from [npc_gossip_textid](/Wiki/database/world/npc_gossip_textid/ "Npc gossip textid") table.
 
-### trainer_properties_spell
-ID to the template defined in [trainer_properties_spells](/Wiki/database/world/trainer_properties_spells/) table.
-
-### comment
-Internal comment for database devs.
+### spellset_id
+ID to the spellset defined in [trainer_properties_spells](/Wiki/database/world/trainer_properties_spellset/) table.
 
 ### can_train_max_level
-Defines which level of spell can be trained. 0 = all levels in the template. [trainer_properties_spells](/Wiki/database/world/trainer_properties_spells/ "reqlevel")
+Defines which level of spell can be trained. 0 = all levels in the spellset. [trainer_properties_spells](/Wiki/database/world/trainer_properties_spells/ "reqlevel")
 
 ### can_train_min_skill_value
-Defines which skill value of spell can be trained. 0 = no minimum skill values in the template. [trainer_properties_spells](/Wiki/database/world/trainer_properties_spells/ "reqskillvalue")
+Defines which skill value of spell can be trained. 0 = no minimum skill values in the spellset. [trainer_properties_spells](/Wiki/database/world/trainer_properties_spells/ "reqskillvalue")
 
 ### can_train_max_skill_value
-Defines which skill value of spell can be trained. 0 = no maximum skill values in the template. [trainer_properties_spells](/Wiki/database/world/trainer_properties_spells/ "reqskillvalue")
+Defines which skill value of spell can be trained. 0 = no maximum skill values in the spellset. [trainer_properties_spells](/Wiki/database/world/trainer_properties_spells/ "reqskillvalue")
 
 ### comment
 Internal comment for database devs.

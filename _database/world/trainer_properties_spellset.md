@@ -1,5 +1,5 @@
 ---
-title: trainer_properties_spells
+title: trainer_properties_spellset
 type: worlddb
 category: T
 layout: single_markdown
@@ -18,7 +18,6 @@ Field                                                                           
 [cast_spell](#cast_spell)                                                                | int(11) | 0       | Unique Key
 [learn_spell](#learn_spell)                                                              | int(11) | 0       | Unique Key
 [spellcost](#spellcost)                                                                  | int(11) | 0       |        
-[racemask](#racemask)                                                                    | int(11) | 0       |        
 [reqspell](#reqspell)                                                                    | int(11) | 0       |        
 [reqskill](#reqskill)                                                                    | int(11) | 0       |        
 [reqskillvalue](#reqskillvalue)                                                          | int(11) | 0       |        
@@ -47,9 +46,6 @@ The spell ID which would be teached by the trainer.
 ### spellcost
 
 The cost to learn this spell.  
-
-### racemask
-The racemask this spell is valid to be trained.
 
 ### reqspell
 
