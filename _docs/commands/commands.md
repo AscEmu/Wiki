@@ -316,7 +316,7 @@ animprogress | o      | Sets anim progress                       | .gobject set 
 Subcommand      | Access | Description                                        | Usage                       
 --------------- | ------ | -------------------------------------------------- | ----------------------------
 gocreature      | v      | Teleports you to the creature with spawn id x.     | .gocreature <spawn_id>      
-gogameobject    | v      | Teleports you to the gameobject with spawn ID      | .gogameobject <spawn_ID>    
+gogameobject    | v      | Teleports you to the gameobject with spawn ID      | .gogameobject <spawn_id>    
 gostartlocation | m      | Teleports player target to names starting location | .gostartlocation <race_name>
 gotrig          | v      | Teleports you to the chosen area trigger position. | .gotrig <area_trigger_id>   
 
@@ -475,8 +475,8 @@ Usage: .dismount
 
 Subcommand       | Access | Description                                                                            | Usage                                                                                                                                  
 ---------------- | ------ | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------
-addagent         |  n     |                                                                                        | .npc addagent <agent> <procEvent> <procChance> <procCount> <spellId> <spellType> <spelltargetType> <spellCooldown> <floatMisc1> <Misc2>
-addtrainerspell  |  m     | Adds trainer spell to trainer                                                          |  .npc addtrainerspell <spell id> <training cost> <required spell id> <required player level> <delete spell id>
+addagent         | n      |                                                                                        | .npc addagent <agent> <procEvent> <procChance> <procCount> <spellId> <spellType> <spelltargetType> <spellCooldown> <floatMisc1> <Misc2>
+addtrainerspell  | m      | Adds trainer spell to trainer                                                          | .npc addtrainerspell <spell id> <training cost> <required spell id> <required player level> <delete spell id>
 set              | 0      | Shows set subcommands                                                                  | .npc set                                                                                                                               
 vendoradditem    | n      | Adds to vendor                                                                         | .npc vendoradditem <item_entry> <count>                                                                                                
 vendorremoveitem | n      | Removes from vendor.                                                                   | .npc vendorremoveitem <item_entry>                                                                                                     

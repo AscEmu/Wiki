@@ -75,8 +75,8 @@ patch      | date       | client_build | interface | comment
 2.0.8      | 2007-02-16 | 6403         | 20003     | Before the Storm         
 2.0.10     | 2007-03-06 | 6448         | 20003     | Before the Storm         
 2.0.12     | 2007-04-03 | 6546         | 20003     | Before the Storm         
-2.1.0.6692 | 2007-05-22 | 6692         | 20100     | The Black Temple         
-2.1.0.6729 | 2007-05-30 | 6729         | 20100     | The Black Temple         
+2.1.0      | 2007-05-22 | 6692         | 20100     | The Black Temple         
+2.1.0      | 2007-05-30 | 6729         | 20100     | The Black Temple         
 2.1.1      | 2007-06-05 | 6739         | 20100     | The Black Temple         
 2.1.2      | 2007-06-19 | 6803         | 20100     | The Black Temple         
 2.1.3      | 2007-07-10 | 6898         | 20100     | The Black Temple         
