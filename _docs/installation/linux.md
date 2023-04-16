@@ -312,17 +312,17 @@ Place the DBC and map files in their respective directories above.
 
 ### Config Files
 
-All that is left to do is to create the /etc/ directory and move the configuration files there, and make the AscEmu binaries executable.
+All that is left to do is to create the /configs/ directory and move the configuration files there, and make the AscEmu binaries executable.
 
 ```console
 cd ~/server
-mkdir etc
-mv ~/installer/ascemu_code/configs/*.conf ~/server/etc
+mkdir configs
+mv ~/installer/ascemu_code/configs/*.conf ~/server/configs
 chmod a+x logon
 chmod a+x world
 ```
 
-Now your configuration files are in the .../etc folder ready to be edited, and used by the AscEmu server and your AscEmu binaries are executable.
+Now your configuration files are in the .../configs folder ready to be edited, and used by the AscEmu server and your AscEmu binaries are executable.
 
 ### Database Setup
 
@@ -410,7 +410,7 @@ Please note that when there are new SQL updates in the future, they will not aut
 Use an editor of your choice, in this example it'll be **nano**. Make sure to read all config files at least once, so you know what configuration is where and you don't end up with an administrator account with default password you didn't know about ;)
 
 ```console
-cd ~/server/etc
+cd ~/server/configs
 nano logon.conf
 nano world.conf
 ```

@@ -14,80 +14,80 @@ Field                                               | Type          | Default | 
 --------------------------------------------------- | ------------- | ------- | -------
 [entry](#entry)                                     | int(30)       | 0       | key
 [build](#build)                                     | smallint(6)   | 12340   | key
-[killcredit1](#killcredit_1_2)                      | int(10)       | 0       |        
-[killcredit2](#killcredit_1_2)                      | int(10)       | 0       |        
-[male_displayid](#displayids_male_female)           | int(10)       | 0       |        
-[female_displayid](#displayids_male_female)         | int(10)       | 0       |        
-[male_displayid2](#displayids_male_female)          | int(10)       | 0       |        
-[female_displayid2](#displayids_male_female)        | int(10)       | 0       |        
-[name](#name)                                       | varchar(100)  |         |        
-[subname](#subname)                                 | varchar(100)  |         |        
-[info_str](#info_str)                               | varchar(500)  |         |        
-[type_flags](#type_flags)                           | int(10)       | 0       |        
-[type](#type)                                       | int(10)       | 0       |        
-[family](#family)                                   | int(10)       | 0       |        
-[rank](#rank)                                       | int(10)       | 0       |        
-[encounter](#encounter)                             | int(10)       | 0       |        
-[base_attack_mod](#base_attack_mod)                 | float(0)      | 1       |        
-[range_attack_mod](#range_attack_mod)               | float(0)      | 1       |        
-[leader](#leader)                                   | tinyint(3)    | 0       |        
-[minlevel](#minlevel)                               | int(30)       |         |        
-[maxlevel](#maxlevel)                               | int(30)       |         |        
-[faction](#faction)                                 | int(30)       | 0       |        
-[minhealth](#minhealth)                             | int(30)       |         |        
-[maxhealth](#maxhealth)                             | int(30)       | 0       |        
-[mana](#mana)                                       | int(30)       | 0       |        
-[scale](#scale)                                     | float(0)      | 0       |        
-[npcflags](#npcflags)                               | int(30)       | 0       |        
-[attacktime](#attacktime)                           | int(30)       | 0       |        
-[attack_school](#attack_school)                     | tinyint(1)    | 0       |        
-[mindamage](#mindamage)                             | float(0)      | 0       |        
-[maxdamage](#maxdamage)                             | float(0)      | 0       |        
-[can_ranged](#can_ranged)                           | int(11)       | 0       |        
-[rangedattacktime](#rangedattacktime)               | int(30)       | 0       |        
-[rangedmindamage](#rangedmindamage)                 | float(0)      | 0       |        
-[rangedmaxdamage](#rangedmaxdamage)                 | float(0)      | 0       |        
-[respawntime](#respawntime)                         | int(30)       | 0       |        
-[armor](#armor)                                     | mediumint(10) | 0       |        
-[resistance1](#restistance1)                        | smallint(5)   | 0       | Holy   
-[resistance2](#restistance2)                        | smallint(5)   | 0       | Fire   
-[resistance3](#restistance3)                        | smallint(5)   | 0       | Nature 
-[resistance4](#restistance4)                        | smallint(5)   | 0       | Frost  
-[resistance5](#restistance5)                        | smallint(5)   | 0       | Shadow 
-[resistance6](#restistance6)                        | smallint(5)   | 0       | Arcane 
-[combat_reach](#combat_reach)                       | float(0)      | 1       |        
-[bounding_radius](#bounding_radius)                 | float(0)      | 1       |        
-[auras](#auras)                                     | longtext(0)   |         |        
-[boss](#boss)                                       | int(11)       | 0       |        
-[money](#money)                                     | int(30)       | 0       |        
-[invisibility_type](#invisibility_type)             | int(30)       | 0       |        
-[walk_speed](#walk_speed)                           | float(0)      | 2.5     |        
-[run_speed](#run_speed)                             | float(0)      | 8       |        
-[fly_speed](#fly_speed)                             | float(0)      | 14      |        
-[extra_a9_flags](#extra_a9_flags)                   | int(30)       | 0       |        
-[spell1](#spells_1_8)                               | int(10)       | 0       |        
-[spell2](#spells_1_8)                               | int(10)       | 0       |        
-[spell3](#spells_1_8)                               | int(10)       | 0       |        
-[spell4](#spells_1_8)                               | int(10)       | 0       |        
-[spell5](#spells_1_8)                               | int(10)       | 0       |        
-[spell6](#spells_1_8)                               | int(10)       | 0       |        
-[spell7](#spells_1_8)                               | int(10)       | 0       |        
-[spell8](#spells_1_8)                               | int(10)       | 0       |        
-[spell_flags](#spell_flags)                         | int(30)       | 0       |        
-[modImmunities](#modImmunities)                     | int(30)       | 0       |        
-[isTrainingDummy](#isTrainingDummy)                 | int(10)       | 0       |        
-[guardtype](#guardtype)                             | int(10)       | 0       |        
-[summonguard](#summonguard)                         | int(10)       | 0       |        
-[spelldataid](#spelldataid)                         | int(10)       | 0       |        
-[vehicleid](#vehicleid)                             | int(10)       | 0       |        
-[rooted](#rooted)                                   | int(10)       | 0       |        
-[questitem1](#questitems_1_6)                       | int(11)       | 0       |        
-[questitem2](#questitems_1_6)                       | int(11)       | 0       |        
-[questitem3](#questitems_1_6)                       | int(11)       | 0       |        
-[questitem4](#questitems_1_6)                       | int(11)       | 0       |        
-[questitem5](#questitems_1_6)                       | int(11)       | 0       |        
-[questitem6](#questitems_1_6)                       | int(11)       | 0       |        
-[waypointid](#waypointid)                           | int(10)       | 0       |        
+[killcredit1](#killcredit_1)                        | int(10)       | 0       |
+[killcredit2](#killcredit_2)                        | int(10)       | 0       |
+[male_displayid](#displayids_male_female)           | int(10)       | 0       |
+[female_displayid](#displayids_male_female)         | int(10)       | 0       |
+[male_displayid2](#displayids_male_female)          | int(10)       | 0       |
+[female_displayid2](#displayids_male_female)        | int(10)       | 0       |
+[name](#name)                                       | varchar(100)  |         |
+[subname](#subname)                                 | varchar(100)  |         |
+[info_str](#info_str)                               | varchar(500)  |         |
+[type_flags](#type_flags)                           | int(10)       | 0       |
+[type](#type)                                       | int(10)       | 0       |
+[family](#family)                                   | int(10)       | 0       |
+[rank](#rank)                                       | int(10)       | 0       |
+[encounter](#encounter)                             | int(10)       | 0       |
+[base_attack_mod](#base_attack_mod)                 | float(0)      | 1       |
+[range_attack_mod](#range_attack_mod)               | float(0)      | 1       |
+[leader](#leader)                                   | tinyint(3)    | 0       |
+[minlevel](#minlevel)                               | int(30)       |         |
+[maxlevel](#maxlevel)                               | int(30)       |         |
+[faction](#faction)                                 | int(30)       | 0       |
+[minhealth](#minhealth)                             | int(30)       |         |
+[maxhealth](#maxhealth)                             | int(30)       | 0       |
+[mana](#mana)                                       | int(30)       | 0       |
+[scale](#scale)                                     | float(0)      | 0       |
+[npcflags](#npcflags)                               | int(30)       | 0       |
+[attacktime](#attacktime)                           | int(30)       | 0       |
+[attack_school](#attack_school)                     | tinyint(1)    | 0       |
+[mindamage](#mindamage)                             | float(0)      | 0       |
+[maxdamage](#maxdamage)                             | float(0)      | 0       |
+[can_ranged](#can_ranged)                           | int(11)       | 0       |
+[rangedattacktime](#rangedattacktime)               | int(30)       | 0       |
+[rangedmindamage](#rangedmindamage)                 | float(0)      | 0       |
+[rangedmaxdamage](#rangedmaxdamage)                 | float(0)      | 0       |
+[respawntime](#respawntime)                         | int(30)       | 0       |
+[armor](#armor)                                     | mediumint(10) | 0       |
+[resistance1](#restistance1)                        | smallint(5)   | 0       | Holy
+[resistance2](#restistance2)                        | smallint(5)   | 0       | Fire
+[resistance3](#restistance3)                        | smallint(5)   | 0       | Nature
+[resistance4](#restistance4)                        | smallint(5)   | 0       | Frost
+[resistance5](#restistance5)                        | smallint(5)   | 0       | Shadow
+[resistance6](#restistance6)                        | smallint(5)   | 0       | Arcane
+[combat_reach](#combat_reach)                       | float(0)      | 1       |
+[bounding_radius](#bounding_radius)                 | float(0)      | 1       |
+[auras](#auras)                                     | longtext(0)   |         |
+[boss](#boss)                                       | int(11)       | 0       |
+[money](#money)                                     | int(30)       | 0       |
+[isTriggerNpc](isTriggerNpc)                        | smallint(5)   | 0       |
+[walk_speed](#walk_speed)                           | float(0)      | 2.5     |
+[run_speed](#run_speed)                             | float(0)      | 8       |
+[fly_speed](#fly_speed)                             | float(0)      | 14      |
+[extra_a9_flags](#extra_a9_flags)                   | int(30)       | 0       |
+[spell1](#spells_1_8)                               | int(10)       | 0       |
+[spell2](#spells_1_8)                               | int(10)       | 0       |
+[spell3](#spells_1_8)                               | int(10)       | 0       |
+[spell4](#spells_1_8)                               | int(10)       | 0       |
+[spell5](#spells_1_8)                               | int(10)       | 0       |
+[spell6](#spells_1_8)                               | int(10)       | 0       |
+[spell7](#spells_1_8)                               | int(10)       | 0       |
+[spell8](#spells_1_8)                               | int(10)       | 0       |
+[spell_flags](#spell_flags)                         | int(30)       | 0       |
+[modImmunities](#modImmunities)                     | int(30)       | 0       |
+[isTrainingDummy](#isTrainingDummy)                 | int(10)       | 0       |
+[guardtype](#guardtype)                             | int(10)       | 0       |
+[summonguard](#summonguard)                         | int(10)       | 0       |
+[spelldataid](#spelldataid)                         | int(10)       | 0       |
+[vehicleid](#vehicleid)                             | int(10)       | 0       |
+[rooted](#rooted)                                   | int(10)       | 0       |
+[questitem1](#questitems_1_6)                       | int(11)       | 0       |
+[questitem2](#questitems_1_6)                       | int(11)       | 0       |
+[questitem3](#questitems_1_6)                       | int(11)       | 0       |
+[questitem4](#questitems_1_6)                       | int(11)       | 0       |
+[questitem5](#questitems_1_6)                       | int(11)       | 0       |
+[questitem6](#questitems_1_6)                       | int(11)       | 0       |
+[waypointid](#waypointid)                           | int(10)       | 0       |
 
 ### entry
 
@@ -97,7 +97,11 @@ The entry ID of the creature.
 
 Build number to determine if the data is for our current compiled version.
 
-### killcredit_1_2
+### killcredit_1
+
+...
+
+### killcredit_2
 
 ...
 
@@ -115,43 +119,57 @@ The subname/title of the creature. Displayed in-game below the name, in <>'s.
 
 ### info_str
 
-The MouseFlags (when you hover over the npc). 
+Used to tell the player what kind of NPC this creature is (when you hover over the npc).
 
 <pre>
-PVP
-Quest
-Repair
-Point
-Speak
-Summon 1 -- ??
-Summmon 2 -- ??
-taxi
-Trainer
-vehichleCursor
-Gunner
-Directions
-Buy
-Attack
-alarm bot 1 -- ??
-The "scream" -- ??
-LootAll
+Repair - shows a Anvil icon identifying this npc as a Repair NPC.
+Speak - shows a Chat Bubble icon if this NPC has Quest/Gossip options.
+Taxi - shows a Boot wings icon identifying this NPC as a "Taxi".
+Trainer - shows a Book icon, identifying this NPC as a "Trainer".
+vehichleCursor - indicator that this is a Player Controlled Vehicle.
+Gunner - indicator of a Turret NPC/Player Controlled.
+Directions - used for Guards and Teleporter NPC's.
+Buy - shows a Brown Bag icon usually if the NPC only sells things.
+Attack - shows a Sword icon indicating you can attack this target.
+Point - used for Guards and Teleporter NPC's.
+Pickup - shows a Hand Grasping icon of if this NPC can be picked up for quest/items.
+LootAll - shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature).
+PVP - unused or Unknown.
+Quest - unused or Unknown.
+
+Transmogrify - added in patch 4.3.0
+Reforge - added in patch 4.0.1
+
+currently in use, it's worth standardizing. (don't use these values).
+
+Voidstorage
+SkinAlliance
+PickLock
+openhandglow
+openhand
+Interact
+Inspect
+GatherHerbs
+EngineerSkin
+Driver
+Cast
 </pre>
 
 ### type_flags
 
 <pre>
-1     = Makes the mob tamable. Must be type "Beast" [1] and "family" set.
-2     = This creature can be seen also when player is dead.
-4     = Creature is a world boss
-128   = Player can interact with creature while it is dead.
-256   = Makes mob herb-able.
-512   = Makes mob mine-able.
-1024 = Death event will not show up in combat log.
-2048  = Creature will fight mounted if has mount.
-4096  = Creature can heal players?
-32768 = Engineer can loot this npc.
-65536 = Exotic pet
-524288 = Reacts on projectile?
+1        = Makes the mob tamable. Must be type "Beast" [1] and "family" set.
+2        = This creature can be seen also when player is dead.
+4        = Creature is a world boss
+128      = Player can interact with creature while it is dead.
+256      = Makes mob herb-able.
+512      = Makes mob mine-able.
+1024     = Death event will not show up in combat log.
+2048     = Creature will fight mounted if has mount.
+4096     = Creature can heal players?
+32768    = Engineer can loot this npc.
+65536    = Exotic pet
+524288   = Reacts on projectile?
 67108864 = Counts for party members?
 </pre>
 
@@ -309,38 +327,38 @@ The flags of the creature.
 
 Note that most of these also require the "Gossip" [1] flag to work.
 
-So if you want a NPC that is a quest giver, a vendor and can repair you just add the specific flags together: 1 + 2 + 128 + 4096 = 4227. 
+So if you want a NPC that is a quest giver, a vendor and can repair you just add the specific flags together: 1 + 2 + 128 + 4096 = 4227.
 
- Pure Flags                     |   Decimal   |  Binary (32 Bit)                         | Remarks                                                                                      
+ Pure Flags                     |   Decimal   |  Binary (32 Bit)                         | Remarks
 -------------------------------- | ---------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------
  UNIT_NPC_FLAG_NONE              |  0         |  0000 0000 0000 0000 0000 0000 0000 0000
- UNIT_NPC_FLAG_GOSSIP            |  1         |  0000 0000 0000 0000 0000 0000 0000 0001 |  (If NPC has more gossip options, add this flag to bring up a menu.)                         
- UNIT_NPC_FLAG_QUESTGIVER        |  2         |  0000 0000 0000 0000 0000 0000 0000 0010 |  (Any NPC giving or taking quests needs to have this flag.)                                  
+ UNIT_NPC_FLAG_GOSSIP            |  1         |  0000 0000 0000 0000 0000 0000 0000 0001 |  (If NPC has more gossip options, add this flag to bring up a menu.)
+ UNIT_NPC_FLAG_QUESTGIVER        |  2         |  0000 0000 0000 0000 0000 0000 0000 0010 |  (Any NPC giving or taking quests needs to have this flag.)
  UNIT_NPC_FLAG_UNK1              |  4         |  0000 0000 0000 0000 0000 0000 0000 0100
  UNIT_NPC_FLAG_UNK2              |  8         |  0000 0000 0000 0000 0000 0000 0000 1000
- UNIT_NPC_FLAG_TRAINER           |  16        |  0000 0000 0000 0000 0000 0000 0001 0000 |  (Allows the NPC to have a trainer list to teach spells, all trainers must have this flag)   
+ UNIT_NPC_FLAG_TRAINER           |  16        |  0000 0000 0000 0000 0000 0000 0001 0000 |  (Allows the NPC to have a trainer list to teach spells, all trainers must have this flag)
  UNIT_NPC_FLAG_TRAINER_CLASS     |  32        |  0000 0000 0000 0000 0000 0000 0010 0000
  UNIT_NPC_FLAG_TRAINER_PROF      |  64        |  0000 0000 0000 0000 0000 0000 0100 0000
- UNIT_NPC_FLAG_VENDOR            |  128       |  0000 0000 0000 0000 0000 0000 1000 0000 |  (Any NPC selling items needs to have this flag)                                             
+ UNIT_NPC_FLAG_VENDOR            |  128       |  0000 0000 0000 0000 0000 0000 1000 0000 |  (Any NPC selling items needs to have this flag)
  UNIT_NPC_FLAG_VENDOR_AMMO       |  256       |  0000 0000 0000 0000 0000 0001 0000 0000
  UNIT_NPC_FLAG_VENDOR_FOOD       |  512       |  0000 0000 0000 0000 0000 0010 0000 0000
  UNIT_NPC_FLAG_VENDOR_POISON     |  1024      |  0000 0000 0000 0000 0000 0100 0000 0000
  UNIT_NPC_FLAG_VENDOR_REAGENT    |  2048      |  0000 0000 0000 0000 0000 1000 0000 0000
- UNIT_NPC_FLAG_ARMORER           |  4096      |  0000 0000 0000 0000 0001 0000 0000 0000 |  (NPC with this flag can repair items.)                                                      
- UNIT_NPC_FLAG_TAXIVENDOR        |  8192      |  0000 0000 0000 0000 0010 0000 0000 0000 |  (Any NPC serving as fly master has this.)                                                   
- UNIT_NPC_FLAG_SPIRITHEALER      |  16384     |  0000 0000 0000 0000 0100 0000 0000 0000 |  (Makes the NPC invisible to alive characters and has the resurrect function.)               
+ UNIT_NPC_FLAG_ARMORER           |  4096      |  0000 0000 0000 0000 0001 0000 0000 0000 |  (NPC with this flag can repair items.)
+ UNIT_NPC_FLAG_TAXIVENDOR        |  8192      |  0000 0000 0000 0000 0010 0000 0000 0000 |  (Any NPC serving as fly master has this.)
+ UNIT_NPC_FLAG_SPIRITHEALER      |  16384     |  0000 0000 0000 0000 0100 0000 0000 0000 |  (Makes the NPC invisible to alive characters and has the resurrect function.)
  UNIT_NPC_FLAG_SPIRITGUIDE       |  32768     |  0000 0000 0000 0000 1000 0000 0000 0000
- UNIT_NPC_FLAG_INNKEEPER         |  65536     |  0000 0000 0000 0001 0000 0000 0000 0000 | (NPC with this flag can set hearthstone locations.)                                          
- UNIT_NPC_FLAG_BANKER            |  131072    |  0000 0000 0000 0010 0000 0000 0000 0000 |  (NPC with this flag can show the bank)                                                      
+ UNIT_NPC_FLAG_INNKEEPER         |  65536     |  0000 0000 0000 0001 0000 0000 0000 0000 | (NPC with this flag can set hearthstone locations.)
+ UNIT_NPC_FLAG_BANKER            |  131072    |  0000 0000 0000 0010 0000 0000 0000 0000 |  (NPC with this flag can show the bank)
  UNIT_NPC_FLAG_ARENACHARTER      |  262144    |  0000 0000 0000 0100 0000 0000 0000 0000
- UNIT_NPC_FLAG_TABARDVENDOR      |  524288    |  0000 0000 0000 1000 0000 0000 0000 0000 |  (Allows the designing of guild tabards.)                                                    
+ UNIT_NPC_FLAG_TABARDVENDOR      |  524288    |  0000 0000 0000 1000 0000 0000 0000 0000 |  (Allows the designing of guild tabards.)
  UNIT_NPC_FLAG_BATTLEFIELDPERSON |  1048576   |  0000 0000 0001 0000 0000 0000 0000 0000 |  (NPC with this flag port players to battlegrounds. Like battlemasters, arena organzier etc.)
- UNIT_NPC_FLAG_AUCTIONEER        |  2097152   |  0000 0000 0010 0000 0000 0000 0000 0000 |  (Allows NPC to display auction list.)                                                       
- UNIT_NPC_FLAG_STABLE            |  4194304   |  0000 0000 0100 0000 0000 0000 0000 0000 |  (Has the option to stable pets for hunters.)                                                
+ UNIT_NPC_FLAG_AUCTIONEER        |  2097152   |  0000 0000 0010 0000 0000 0000 0000 0000 |  (Allows NPC to display auction list.)
+ UNIT_NPC_FLAG_STABLE            |  4194304   |  0000 0000 0100 0000 0000 0000 0000 0000 |  (Has the option to stable pets for hunters.)
  UNIT_NPC_FLAG_GUILD_BANK        |  8388608   |  0000 0000 1000 0000 0000 0000 0000 0000
- UNIT_NPC_FLAG_SPELLCLICK        |  16777216  |  0000 0001 0000 0000 0000 0000 0000 0000 |  (Needs data on npc_spellclick_spells table)                                                 
- Mailbox                         |  67108864  |  0000 0100 0000 0000 0000 0000 0000 0000 |  (NPC will act like a mailbox, opens mailbox with right-click)                               
- Guard                           |  268435456 |  0001 0000 0000 0000 0000 0000 0000 0000 |  (Cityguards, must be scripted)                                                              
+ UNIT_NPC_FLAG_SPELLCLICK        |  16777216  |  0000 0001 0000 0000 0000 0000 0000 0000 |  (Needs data on npc_spellclick_spells table)
+ Mailbox                         |  67108864  |  0000 0100 0000 0000 0000 0000 0000 0000 |  (NPC will act like a mailbox, opens mailbox with right-click)
+ Guard                           |  268435456 |  0001 0000 0000 0000 0000 0000 0000 0000 |  (Cityguards, must be scripted)
 
 ### attacktime
 
@@ -348,7 +366,7 @@ The delay between attacks, in milliseconds.
 
 ### attack_school
 
-The type of damage that is dealt by the creature. Determines damage reduction via armor or resistances. 
+The type of damage that is dealt by the creature. Determines damage reduction via armor or resistances.
 
 <pre>
 0 = SCHOOL_NORMAL
@@ -366,7 +384,7 @@ The minimum damage dealt by the creature.
 
 ### maxdamage
 
-The maximum damage dealt by the creature. 
+The maximum damage dealt by the creature.
 
 ### can_ranged
 
@@ -374,59 +392,59 @@ The maximum damage dealt by the creature.
 
 ### rangedattacktime
 
-The delay between ranged attacks, in milliseconds. 
+The delay between ranged attacks, in milliseconds.
 
 ### rangedmindamage
 
-The minimum ranged damage dealt by the creature. 
+The minimum ranged damage dealt by the creature.
 
 ### rangedmaxdamage
 
-The maximum damage dealt by the creature. 
+The maximum damage dealt by the creature.
 
 ### respawntime
 
-The time before the creature respawns, in milliseconds. 
+The time before the creature respawns, in milliseconds.
 
 ### armor
 
-The total armor of the creature. 
+The total armor of the creature.
 
 ### restistance1
 
-The Holy resistance of the creature. 
+The Holy resistance of the creature.
 
 ### restistance2
 
-The Fire resistance of the creature. 
+The Fire resistance of the creature.
 
 ### restistance3
 
-The Nature resistance of the creature. 
+The Nature resistance of the creature.
 
 ### restistance4
 
-The Frost resistance of the creature. 
+The Frost resistance of the creature.
 
 ### restistance5
 
-The Shadow resistance of the creature. 
+The Shadow resistance of the creature.
 
 ### restistance6
 
-The Arcane resistance of the creature. 
+The Arcane resistance of the creature.
 
 ### combat_reach
 
-The distance of where the creature can hit it's target. 
+The distance of where the creature can hit it's target.
 
 ### bounding_radius
 
-The amount of yards before the creature will reset. 
+The amount of yards before the creature will reset.
 
 ### auras
 
-The Spell IDs of auras that are present on the creature. IDs separated with a comma (,). 
+The Spell IDs of auras that are present on the creature. IDs separated with a comma (,).
 
 ### boss
 
@@ -437,29 +455,33 @@ The Spell IDs of auras that are present on the creature. IDs separated with a co
 
 ### money
 
-The money dropped by the creature in copper (1000 = 10s, 100000 = 1g, 111111 = 11g 11s 11c) 
+The money dropped by the creature in copper (1000 = 10s, 100000 = 1g, 111111 = 11g 11s 11c)
 
-### invisibility_type
+### isTriggerNpc
 
 <pre>
-0 = INVIS_FLAG_NORMAL
-1 = INVIS_FLAG_SPIRIT1
-2 = INVIS_FLAG_SPIRIT2
-3 = INVIS_FLAG_TRAP
-4 = INVIS_FLAG_QUEST
-5 = INVIS_FLAG_GHOST
-6 = INVIS_FLAG_UNKNOWN6
-7 = INVIS_FLAG_UNKNOWN7
-8 = INVIS_FLAG_SHADOWMOON
-9 = INVIS_FLAG_NETHERSTORM
-10 = INVIS_FLAG_BASHIR
-11 = INVIS_FLAG_UNKNOWN8
-12 = INVIS_FLAG_TOTAL
+0  = INVIS_FLAG_NORMAL              - Used by players
+1  = INVIS_FLAG_ELEMENTAL_SPIRIT    - Shaman totem quests
+2  = INVIS_FLAG_UNKNOWN_2           - Used by spell id 24306
+3  = INVIS_FLAG_TRAP                - Used by gameobjects only
+4  = INVIS_FLAG_QUEST_4             - Used by many quest creatures
+5  = INVIS_FLAG_DUNGEON_SET_NPC     - Used by dungeon set 2 npcs
+6  = INVIS_FLAG_DRUNK               - These can only be seen when drunk
+7  = INVIS_FLAG_QUEST_7             - Used by many quest creatures
+8  = INVIS_FLAG_QUEST_8             - Used by many quest creatures
+9  = INVIS_FLAG_QUEST_9             - Used by many quest creatures
+10 = INVIS_FLAG_QUEST_10            - Used by many quest creatures
+11 = INVIS_FLAG_UNKNOWN_11          - Used by spell id 49962
+12 = INVIS_FLAG_UNUSED_12
+13 = INVIS_FLAG_UNUSED_13
+14 = INVIS_FLAG_UNUSED_14
+15 = INVIS_FLAG_NEVER_VISIBLE       - Used by trigger or placeholder npcs
+INVIS_FLAG_TOTAL
 </pre>
 
 ### walk_speed
 
-The speed of the creature when it is walking. 
+The speed of the creature when it is walking.
 
 ### run_speed
 
@@ -475,11 +497,11 @@ NOTE currently not used!
 
 ### spells_1_8
 
-The spells that are available to the creature. These are the spells that used when the creature is a Totem, or Pet, Vehicle or when possessed (mind control) too. 
+The spells that are available to the creature. These are the spells that used when the creature is a Totem, or Pet, Vehicle or when possessed (mind control) too.
 
 ### spell_flags
 
-The flags for the spells in Spell1-4 
+The flags for the spells in Spell1-4
 
 <pre>
 1 = RANDOM_CAST
@@ -512,15 +534,15 @@ The flags for the spells in Spell1-4
 
 ### isTrainingDummy
 
-Whether or not the creature is a "Training Dummy". Training dummy's are not killable and cannot move. 
+Whether or not the creature is a "Training Dummy". Training dummy's are not killable and cannot move.
 
 ### guardtype
 
-The type of guard the creature is. Most city guards, bruisers and peace keepers has '2' here. 
+The type of guard the creature is. Most city guards, bruisers and peace keepers has '2' here.
 
 ### summonguard
 
-The guard that is summoned. Unknown (?) 
+The guard that is summoned. Unknown (?)
 
 ### spelldataid
 
@@ -528,7 +550,7 @@ The guard that is summoned. Unknown (?)
 
 ### vehicleid
 
-Vehicle data for this creature. Index of Vehicle.dbc 
+Vehicle data for this creature. Index of Vehicle.dbc
 
 ### rooted
 

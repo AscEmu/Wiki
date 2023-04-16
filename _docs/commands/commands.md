@@ -203,8 +203,6 @@ aimove              | d      |                                                  
 dist                | d      | Shows distance between you and target                                                    | .debug dist                         
 face                | d      |                                                                                          |                                     
 moveinfo            | d      | Shows movement info aof selected target                                                  | .debug moveinfo                     
-setbytes            | d      |                                                                                          |                                     
-getbytes            | d      |                                                                                          |                                     
 landwalk            | d      |                                                                                          |                                     
 waterwalk           | d      | Enables/disables Waterwalk for selected target                                           | .debug waterwalk                    
 castspell           | d      | Casts spell on selected target.                                                          | .debug castspell <spellid>          
@@ -217,12 +215,6 @@ threatMod           | d      | calls ModGeneratedThreatModifyer().              
 calcThreat          | d      | calculates threat.                                                                       | .debug calcThreat <dmg> <spellId>   
 threatList          | d      | returns all AI_Targets of the selected Creature.                                         | .debug threatList                   
 gettptime           | d      | grabs transporter travel time                                                            | .debug gettptime                    
-itempushresult      | d      | sends item push result                                                                   |                                     
-setbit              | d      |                                                                                          |                                     
-setvalue            | d      |                                                                                          |                                     
-aispelltestbegin    | d      |                                                                                          |                                     
-aispelltestcontinue | d      |                                                                                          |                                     
-aispelltestskip     | d      |                                                                                          |                                     
 dumpcoords          | d      | Dumps coords to db or file (needs to be checked)                                         | .debug dumpcoords                   
 sendpacket          | d      | Sending opcodes to you                                                                   | .debug <opcode ID>, <data>
 sqlquery            | d      |                                                                                          | .debug sqlquery <sql query>         
@@ -241,7 +233,9 @@ updateworldstate    | d      | Sets the specified worldstate field to the specif
 initworldstates     | d      | (re)initializes the worldstates.                                                         |                                     
 clearworldstates    | d      | Clears the worldstates                                                                   | .debug clearworldstates             
 pvpcredit           | m      | Sends PVP credit packet, with specified rank and points                                  | .debug pvpcredit                    
-calcdist            | d      | Displays distance between your current position and <x> <y> <z>                          | .debug calcdist                     
+calcdist            | d      | Displays distance between your current position and <x> <y> <z>                          | .debug calcdist
+dumpmovement        | d      | Dump movement                                                                            | .debug dumpmovement
+movefall            | d      | Makes the creature fall to the ground                                                    | .debug movefall
 
 ## .event
 
@@ -322,7 +316,7 @@ animprogress | o      | Sets anim progress                       | .gobject set 
 Subcommand      | Access | Description                                        | Usage                       
 --------------- | ------ | -------------------------------------------------- | ----------------------------
 gocreature      | v      | Teleports you to the creature with spawn id x.     | .gocreature <spawn_id>      
-gogameobject    | v      | Teleports you to the gameobject with spawn ID      | .gogameobject <spawn_ID>    
+gogameobject    | v      | Teleports you to the gameobject with spawn ID      | .gogameobject <spawn_id>    
 gostartlocation | m      | Teleports player target to names starting location | .gostartlocation <race_name>
 gotrig          | v      | Teleports you to the chosen area trigger position. | .gotrig <area_trigger_id>   
 
@@ -481,8 +475,8 @@ Usage: .dismount
 
 Subcommand       | Access | Description                                                                            | Usage                                                                                                                                  
 ---------------- | ------ | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------
-addagent         |  n     |                                                                                        | .npc addagent <agent> <procEvent> <procChance> <procCount> <spellId> <spellType> <spelltargetType> <spellCooldown> <floatMisc1> <Misc2>
-addtrainerspell  |  m     | Adds trainer spell to trainer                                                          |  .npc addtrainerspell <spell id> <training cost> <required spell id> <required player level> <delete spell id>                         
+addagent         | n      |                                                                                        | .npc addagent <agent> <procEvent> <procChance> <procCount> <spellId> <spellType> <spelltargetType> <spellCooldown> <floatMisc1> <Misc2>
+addtrainerspell  | m      | Adds trainer spell to trainer                                                          | .npc addtrainerspell <spell id> <training cost> <required spell id> <required player level> <delete spell id>
 set              | 0      | Shows set subcommands                                                                  | .npc set                                                                                                                               
 vendoradditem    | n      | Adds to vendor                                                                         | .npc vendoradditem <item_entry> <count>                                                                                                
 vendorremoveitem | n      | Removes from vendor.                                                                   | .npc vendorremoveitem <item_entry>                                                                                                     
