@@ -230,7 +230,7 @@ With the -b required_branch, you can select a branch.
 {: .info }
 
 ```console
-git clone -b master git://github.com/AscEmu/AscEmu.git ~/installer/ascemu_code
+git clone -b master https://github.com/AscEmu/AscEmu.git ~/installer/ascemu_code
 ```
 
 Update the code to the current version.
@@ -364,7 +364,7 @@ First, switch back to your installer folder and use git to clone the OneDB repos
 
 ```console
 cd ~/installer
-git clone git://github.com/AscEmu/OneDB.git onedb
+git clone https://github.com/AscEmu/OneDB.git onedb
 ```
 
 Go into 'fullDB' folder.
