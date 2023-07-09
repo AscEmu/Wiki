@@ -197,13 +197,25 @@ Usage: .commands
 
 Subcommand          | Access | Description                                                                              | Usage                               
 ------------------- | ------ | ---------------------------------------------------------------------------------------- | ------------------------------------
-infront             | d      |                                                                                          |                                     
-showreact           | d      |                                                                                          |                                     
-aimove              | d      |                                                                                          |                                     
+dumpscripts         | d      | Dumps aispells to a new table creature_ai_scripts_<mapid>                                | .debug dumpscripts <mapid>
+sendcreaturemove    | d      | Requests the target creature moves to you using movement manager.                        | .debug sendcreaturemove
+dopctdamage         | z      | Do percent damage to creature target                                                     | .debug dopctdamage <percent damage>
+setscriptphase      | z      | ScriptPhase test                                                                         | .debug setscriptphase <script phase>
+aicharge            | z      | AiCharge test                                                                            | .debug aicharge
+aiknockback         | z      | AiKnockBack test                                                                         | .debug aiknockback
+aijump              | z      | AiJump test                                                                              | .debug aijump
+aifalling           | z      | AiFalling test                                                                           | .debug aifalling
+movetospawn         | z      | Move target to spwn                                                                      | .debug movetospawn
+position            | z      | Show position                                                                            | .debug position
+setorientation      | z      | Sets orientation on npc                                                                  | .debug setorientation <orientation>
+infront             | d      |                                                                                          | .debug infront
+showreact           | d      |                                                                                          | .debug showreact <ai raction>
+aimove              | d      |                                                                                          | .debug aimove <move> <run> <time> <method>
 dist                | d      | Shows distance between you and target                                                    | .debug dist                         
-face                | d      |                                                                                          |                                     
+face                | d      |                                                                                          | .debug face
+dumpstate           | d      | Dumps server state to chat                                                               | .debug dumpstate
 moveinfo            | d      | Shows movement info aof selected target                                                  | .debug moveinfo                     
-landwalk            | d      |                                                                                          |                                     
+landwalk            | d      |                                                                                          | .debug landwalk
 waterwalk           | d      | Enables/disables Waterwalk for selected target                                           | .debug waterwalk                    
 castspell           | d      | Casts spell on selected target.                                                          | .debug castspell <spellid>          
 castself            | d      | Selected target casts spell <spellId> on itself.                                         | .debug castself <spellId>           
