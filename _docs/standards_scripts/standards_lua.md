@@ -24,19 +24,16 @@ Information About the typical function names:
 ### GameObject Methods
 
 
-GET | Description | Usage
+Command | Description | Usage
 ------------------------------------------------------------------------------------------------------------|----------|-----------
+**Get** |  | 
 [GetEntry()](/Wiki/docs/standards_scripts/methods_lua/GameObject_Methods/Lua_GetEntry)                       | Returns the entry ID | 
 GetHP()                                                                                                      | Returns the actual HP | 
 GetMaxHP()                                                                                                   | Returns the maximum HP | 
 [GetName()](/Wiki/docs/standards_scripts/methods_lua/GameObject_Methods/Lua_GetName)                         | Get the name | 
 GetObjectType()                                                                                              | Returns 'GameObject' | 
 [GetSpawnLocation()](/Wiki/docs/standards_scripts/methods_lua/GameObject_Methods/Lua_GetSpawnLocation)       | Get the Location of a spawned unit | 
-
-
-
-UNCATEGORIZED | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Misc** |  | 
 Activate()                                                                                                   | Activates/Deactivate a go, f.ex. opens a door | 
 Damage(damage, guid, spellid)                                                                                | Damages the GO if it's a destructible building, guid is the damaging Unit's GUID, spellid is the damaging spell. | 
 Rebuild()                                                                                                    | Rebuilds the GO, if it's a destructible building. Restores it's hp to max, and restores it's displayid to normal. | 
@@ -47,8 +44,9 @@ Rebuild()                                                                       
 ### Unit Methods
 
 
-GET | Description | Usage
+Command | Description | Usage
 ------------------------------------------------------------------------------------------------------------|----------|-----------
+**Get** |  | 
 [GetAccountName()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetAccountName)                                                                             | Returns the player's account name. | 
 [GetAddTank()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetAddTank)                                                                                     | Returns the Unit second on the Unit's threat table. | 
 GetAITargets()                                                                                                                                                           | Returns all units with threat on the Unit's threat table. | 
@@ -145,11 +143,7 @@ GetUInt64Value(field)                                                           
 [GetY()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetY)                                                                                                 | Returns the Unit's y co-ordinate. | 
 [GetZ()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetZ)                                                                                                 | Returns the Unit's z co-ordinate. | 
 GetZoneId()                                                                                                                                                              | Returns the Unit's zone id. | 
-
-
-
-GOSSIP | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Gossip** |  | 
 [GossipCreateMenu(npc_text, pPlayer, 0))](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipCreateMenu)                                                    | Creates a new NPC gossip menu with the TextID specified. | 
 [GossipMenuAddItem(Icon, "Name", intid, code[, messagebox, gold])](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipMenuAddItem)                          | Creates a new menu item, used after registering a new menu with GossipCreateMenu(). | 
 [GossipAddQuests(pPlayer)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipAddQuests)                                                                    | Adds quests to the gossip menu if any available. | 
@@ -157,11 +151,7 @@ GOSSIP | Description | Usage
 [GossipComplete()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipComplete)                                                                             | Completes (closes) the player's gossip window. | 
 [GossipSendPOI(X, Y, Icon, Flags, Data, Name)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipSendPOI)                                                  | Sets a mark on the player's mini map. Used when asking city guards where to go. | 
 [GossipMiscAction(action, creature, intid)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GossipMiscAction)                                                  | Performs a Gossip Action.  | 
-
-
-
-Modify/Set | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Modify/Set** |  | 
 [CallForHelpHp(hp)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_CallForHelpHp)                                                                             | Sets the Unit's 'call for help' HP to the hp specified. Basically, when the Unit hits this HP he flees for help. | 
 CanCallForHelp(true/false)                                                                                                                                               | Sets the Unit to be able/unable to call for help. | 
 ChangeTarget(new_target)                                                                                                                                                 | Sets the Unit's new target to new_target. | 
@@ -243,11 +233,7 @@ SetZoneWeather(zone, type, density)                                             
 WipeCurrentTarget()                                                                                                                                                      | Drops the Unit's current target. Also sets their threat to 0 (More specifically, removes them from the threat table). | 
 WipeTargetList()                                                                                                                                                         | Resets the Unit's target list. | 
 WipeThreatList()                                                                                                                                                         | Sets the threat of everyone on the unit's threat list to 0. | 
-
-
-
-Is/Has (Boolean) | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Is/Has (Boolean)** |  | 
 IsCasting()                                                                                                                                                              | Returns true if the Unit is casting, otherwise false. | 
 [IsGm()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_IsGm)                                                                                                 | Returns true if the Unit has GM levels, otherwise false. | 
 CanUseCommand("level")                                                                                                                                                   | Returns true if the Unit can use the specified level ("a" is usually GM, "az" for an admin). | 
@@ -292,11 +278,7 @@ IsFFAPvPFlagged()                                                               
 [IsInCombat()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_IsInCombat)                                                                                     | Returns true if the Unit is in Combat, otherwise false. | 
 IsAttackable(target)                                                                                                                                                     | Returns true if Unit can attack target, otherwise false. | 
 HasTitle(id)                                                                                                                                                             | Returns true if the Unit has the title specified, otherwise false. | 
-
-
-
-Uncategorized | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Misc** |  | 
 AddArenaPoints(amount)                                                                                                                                                   | Adds the specified amount of arena points to the Unit specified. | 
 [AddAura(id, duration[, temp])](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_AddAura)                                                                       | Buffs/Debuffs the current unit/player with the spell specified, with the duration specified. Setting temp to true allows it to stay on after logging.  | 
 [AddItem(item, quantity)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_AddItem)                                                                             | Gives the player an amount of items. Returns the item added or nil. | 
@@ -400,27 +382,15 @@ TeleportCreature(x, y, z)                                                       
 UnlearnSpell(spell)                                                                                                                                                      | Removes the spell from the unit's spell-book. | 
 Unpossess(unit)                                                                                                                                                          | Like the GM command .npc unpossess. | 
 [Unroot()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_Unroot)                                                                                             | Allows movement. | 
-
-
-
-Phasing | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Phasing** |  | 
 SetPhase(newphase[, save])                                                                                                                                               | Sets the Unit to the phase specified. If 'save' is set to true, and the Unit is a NPC/Object, then the Unit will be saved in that phase. Mapped to PhaseSet(newphase[, save]) and PhaseAdd(newphase[, save]). | 
 DeletePhase(phase[, save])                                                                                                                                               | Removes the phase specified. If 'save' is set to true, and the Unit is a NPC/Object, then the Unit will be saved to the new phase it is automatically set to. | 
 GetPhase()                                                                                                                                                               | Returns the phase the Unit is currently in. | 
-
-
-
-Vendor | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Vendor** |  | 
 VendorAddItem(item, quantity[, extendedcost])                                                                                                                            | Adds the specified amount of items to the Unit designated. Setting quantity to zero enables unlimited quantity. | 
 VendorRemoveItem(item)                                                                                                                                                   | Removes the specified item from the Unit designed. | 
 VendorRemoveAllItems()                                                                                                                                                   | Removes all items from the vendor. | 
-
-
-
-Send Window | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Send Window** |  | 
 SendBankWindow(pUnit)                                                                                                                                                    | Sends the player specified a bank window with the unit as the sender. | 
 SendTrainerWindow(pUnit)                                                                                                                                                 | Akin to SendBankWindow(), but with trainers instead of banks. | 
 SendBattlegroundWindow(pUnit, id)                                                                                                                                        | Sends the Player Unit's battleground window. The battleground window varies on the ID you give it - see page for more info. | 
@@ -428,11 +398,7 @@ SendVendorWindow(pUnit)                                                         
 SendLootWindow(guid, loottype)                                                                                                                                           | Sends a loot window to the Unit with the specified loottype. 1 (creature), 2 (skinning), 3 (pickpocket), 4 (fishing), 5 (herb/mining), 6 (disenchanting/prospecting/milling, etc). | 
 SendInnkeeperWindow(pUnit, loottype)                                                                                                                                     | Sends an innkeeper window to the Unit. | 
 SendAuctionWindow(pUnit)                                                                                                                                                 | Sends the player unit's auction window. | 
-
-
-
-Group | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Group** |  | 
 SendPacketToGroup(packet)                                                                                                                                                | Sends the Unit's group the packet specified. | 
 ExpandToRaid()                                                                                                                                                           | Forcibly changes the Unit's group to a raid. | 
 IsGroupFull()                                                                                                                                                            | Returns true if the group is full, false if not. | 
@@ -443,11 +409,7 @@ IsInGroup()                                                                     
 IsGroupedWith(target)                                                                                                                                                    | Returns true if the player is in a group with the target, false if not. | 
 AddGroupMember(target)                                                                                                                                                   | Adds the Target to the Player's group. | 
 [GetGroupPlayers()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetGroupPlayers)                                                                           | Returns a table with the userdata of all players in Unit's group. | 
-
-
-
-Guild | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Guild** |  | 
 [GetGuildLeader()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetGuildLeader)                                                                             | Returns a string value of the Guild Leader's name | 
 IsInGuild()                                                                                                                                                              | Returns true if the Unit is in a guild, otherwise false. | 
 GetGuildId()                                                                                                                                                             | Returns the player's Guild ID. *Note that the guild ID is NOT the guild name.* | 
@@ -472,29 +434,17 @@ DisbandGuild()                                                                  
 ChangeGuildMaster(newmaster)                                                                                                                                             | Changes the Guild Master to newmaster. | 
 SendGuildChatMessage(message[, officer])                                                                                                                                 | Forces Unit to send a message to guild. If officer is set to true, then the message is broadcasted in the officer chat instead. | 
 SendGuildLog()                                                                                                                                                           | Sends the Guild Log to the Unit. | 
-
-
-
-Achievement | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Achievement** |  | 
 AddAchievement(id)                                                                                                                                                       | Adds the Achievement with the ID specified to the player. | 
 HasAchievement(id)                                                                                                                                                       | Returns true if the player has the achievement, otherwise false. | 
 RemoveAchievement(id)                                                                                                                                                    | Removes the Achievement with the ID specified from the player. | 
-
-
-
-Arithmetic | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Arithmetic** |  | 
 CalcAngle(x, y, x2, y2)                                                                                                                                                  | Calculates the angle between x/y and x2/y2 and takes the Unit's position into account. See page for more info. | 
 CalcRadAngle(x, y, x2, y2)                                                                                                                                               | Returns an angle in radians from the numbers x/y, x2/y2 and the Unit's position. | 
 CalcToDistance(x, y, z)                                                                                                                                                  | Calculates the distance between the Unit and the point specified. | 
 GetLandHeight(x, y)                                                                                                                                                      | Returns the land height using the parameters given. | 
 IsInArc(target, degrees)                                                                                                                                                 | Returns true if the target is in an Arc that is degrees wide from the Unit. | 
-
-
-
-Quests | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Quest** |  | 
 StartQuest(Id)                                                                                                                                                           | Force-start the quest with the given ID. If any items are required for the quest, these are automatically added. | 
 FinishQuest(Id)                                                                                                                                                          | Forces the Unit to finish quest ID. Rewards are not given. | 
 HasQuest(Id)                                                                                                                                                             | Returns true if the Unit has the quest, returns false otherwise. | 
@@ -505,11 +455,7 @@ QuestAddFinisher(Id)                                                            
 AdvanceQuestObjective(Id, Objective)                                                                                                                                     | Advances the objective in quest id by 1. | 
 CreatureHasQuest(Id)                                                                                                                                                     | Returns true if the creature can give the quest, otherwise returns false. | 
 [GetQuestObjectiveCompletion(QuestID, Objective)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_GetQuestObjectiveCompletion)                                 | Returns how many mobs killed for the specified quest and objective. | 
-
-
-
-Channel | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Channel** |  | 
 IsInChannel(channel)                                                                                                                                                     | Returns true if the Unit is in the channel specified, otherwise false. | 
 JoinChannel(channel[, password])                                                                                                                                         | Force-joins the specified channel. | 
 LeaveChannel(channel)                                                                                                                                                    | Leaves the channel. | 
@@ -520,11 +466,7 @@ KickFromChannel(channel)                                                        
 BanFromChannel(channel)                                                                                                                                                  | Bans the Unit from the Channel. | 
 UnbanFromChannel(channel))                                                                                                                                               | Unbans the Unit from the Channel. | 
 GetChannelMemberCount(channel)                                                                                                                                           | Returns the number of members in Channel. | 
-
-
-
-Spell & Aura | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Spell & Aura** |  | 
 GetCaster()                                                                                                                                                              | Returns the userdata of the caster of the aura/spell. | 
 GetObjectType()                                                                                                                                                          | Will return "Aura" if the object is an userdata of an aura. | 
 GetDuration()                                                                                                                                                            | Will return the total duration left in miliseconds. (the duration which were left when the aura just was added.) | 
@@ -535,11 +477,7 @@ GetAuraSlot()                                                                   
 SetAuraSlot(slot)                                                                                                                                                        | Sets the slot of the aura. | 
 Remove()                                                                                                                                                                 | Removes *all* effects and events by the aura. (Triggers, effect, etc.)  | 
 GetTimeLeft()                                                                                                                                                            | Returns the duration left of the aura. | 
-
-
-
-Vehicle | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Vehicle** |  | 
 [AddVehiclePassenger(creature_entry)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_AddVehiclePassenger)                                                     | Spawns an NPC and adds it as a passenger to the vehicle. | 
 [DismissVehicle()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_DismissVehicle)                                                                             | Dismisses the vehicle of the selected unit. | 
 [EjectAllVehiclePassengers()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_EjectAllVehiclePassengers)                                                       | Ejects all passengers from the Unit's vehicle. | 
@@ -551,11 +489,7 @@ Vehicle | Description | Usage
 [IsOnVehicle()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_IsOnVehicle)                                                                                   | Tells if the unit is on a vehicle.  | 
 [HasEmptyVehicleSeat()](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_HasEmptyVehicleSeat)                                                                   | Tells if the Unit's vehicle has an empty seat.  | 
 [SpawnAndEnterVehicle(creature_entry, delay)](/Wiki/docs/standards_scripts/methods_lua/Unit_Methods/Lua_SpawnAndEnterVehicle)                                            | Spawns a new vehicle and makes the Unit enter it. | 
-
-
-
-Deprecated | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Deprecated** |  | 
 GetGameTime()                                                                                                                                                            | Deprecated. Use the global GetGameTime() instead. | 
 SendPacketToInstance(packet)                                                                                                                                             | Deprecated. Use SendPacketToInstance(packet) instead. | 
 
@@ -565,8 +499,9 @@ SendPacketToInstance(packet)                                                    
 
 
 
-GET | Description | Usage
+Command | Description | Usage
 ------------------------------------------------------------------------------------------------------------|----------|-----------
+**Get** |  | 
 GetCaster()                                                                                                                                                              | Returns the caster of the spell. Can return a Unit, Item or GameObject. | 
 GetEntry()                                                                                                                                                               | Returns the entry ID of the spell. | 
 [GetSpellType()](/Wiki/docs/standards_scripts/methods_lua/Spell_Methods/Lua_GetSpellType)                                                                                | Returns the type of the spell. | 
@@ -577,17 +512,9 @@ GetPossibleFriend([range])                                                      
 GetObjectType()                                                                                                                                                          | Returns Spell. | 
 GetVar(var [,subindex])                                                                                                                                                  | See SetVar(var [,subindex], value), but returns the value on success or nil on failure. | 
 GetCastedItemId()                                                                                                                                                        | Returns what item ID cast the spell. | 
-
-
-
-Modify/Set | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Modify/Set** |  | 
 SetVar(var [,subindex], value)                                                                                                                                           | var is a string referring to a parameter of Spell. subindex is optional; used when the variable you are setting has sub indexes. value is what you want to set it to. Returns true on success, false on failure. | 
-
-
-
-Is/Has (Boolean | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Is/Has (Boolean)** |  | 
 IsDuelSpell()                                                                                                                                                            | Returns true if the spell was cast in a duel. | 
 CanCast()                                                                                                                                                                | Returns true if the spell is castable. | 
 IsStealthSpell()                                                                                                                                                         | Returns true if the spell grants some kind of stealth. | 
@@ -595,11 +522,7 @@ IsInvisibilitySpell()                                                           
 HasPower()                                                                                                                                                               | Returns true if the caster has enough power to cast the spell. | 
 IsAspect()                                                                                                                                                               | Returns true if the spell is a hunter Aspect spell. | 
 IsSeal()                                                                                                                                                                 | Returns true if the spell is a paladin Seal spell. | 
-
-
-
-Uncategorized | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Misc** |  | 
 Cancel()                                                                                                                                                                 | Cancels the spell. | 
 Cast(check)                                                                                                                                                              | Casts the spell. Set check to true if you want to check if the spell is castable, or false to force cast. | 
 Finish()                                                                                                                                                                 | Finishes the spell, used post-casting. | 
@@ -616,26 +539,20 @@ ResetAllVars()                                                                  
 
 
 
-Database | Description | Usage
+Command | Description | Usage
 ------------------------------------------------------------------------------------------------------------|----------|-----------
+**Database** |  | 
 [WorldDBQuery(query)](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery)                                                                                                                                                      | Performs a query on the world database. Returns a "QueryResult" object. | 
 [CharDBQuery(query)](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery)                                                                                                                                                       | Performs a query on the character database. Returns a "QueryResult" object. | 
 
-
-
-Database Options | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Database Options** |  | 
 WorldDBQueryTable(query)                                                                                                                                                                                                                        | Similar to [WorldDBQuery(query)](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery). See core for more info. | 
 CharDBQueryTable(query)                                                                                                                                                                                                                         | Similar to [CharDBQuery(query)](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery). See core for more info. | 
 [GetColumn()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery)                                                                                                                                                              | Get a column by index in the query result | 
 [GetColumnCount()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery)                                                                                                                                                         | Get number of columns in the query result | 
 [GetRowCount()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery)                                                                                                                                                            | Get number of rows in the query result | 
 [NextRow()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_DBQuery)                                                                                                                                                                | Fetches the next row | 
-
-
-
-Core/Engine | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Core/Engine** |  | 
 [GetLUAEngine()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_GetLuaEngine)                                                                                                                                                      | Returns what engine the server is using. Should be ALE (AscEmu LuaEngine). | 
 [GetLuaEngineVersion()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_GetLuaEngineVersion)                                                                                                                                        | Returns what version ALE (AscEmu LuaEngine) on the server is. | 
 [ReloadLuaEngine()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_ReloadLuaEngine)                                                                                                                                                | Reloads the ALE (AscEmu LuaEngine) and scripts. | 
@@ -643,20 +560,12 @@ Core/Engine | Description | Usage
 [logcol(color)](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_logcol)                                                                                                                                                             | Changes the color of the log to the number given. | 
 [GetAERevision()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_GetAERevision)                                                                                                                                                    | Returns the server's AE revision. | 
 [GetPlatform()](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_GetPlatform)                                                                                                                                                        | Returns the platform ex. Win32.  | 
-
-
-
-Packet | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Packets** |  | 
 SendPacketToWorld(worldpacket)                                                                                                                                                                                                                  | Sends the packet to everyone online.  | 
 SendPacketToInstance(worldpacket, instance id)                                                                                                                                                                                                  | Sends the packet to everyone in the instance.  | 
 SendPacketToZone(worldpacket, zone id)                                                                                                                                                                                                          | Sends the packet to everyone in the zone.  | 
 SendPacketToChannel(worldpacket, channel name, team)                                                                                                                                                                                            | Sends the packet to the said team on the channel.  | 
-
-
-
-Timed | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Timed** |  | 
 [RegisterTimedEvent(function_name, delay, repeats [, optionalParamtersToFunction ...])](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_RegisterTimedEvent)                                                                         | Registers a timed event | 
 RemoveTimedEventsInTable(table)                                                                                                                                                                                                                 | Removes all timed events from the specified table (string). | 
 RemoveTimedEventsWithName(name)                                                                                                                                                                                                                 | Removes all timed events with the specified name. | 
@@ -665,11 +574,7 @@ HasTimedEvents()                                                                
 HasTimedEventInTable(table)                                                                                                                                                                                                                     | Returns true if an event with the specified table is registered. | 
 HasTimedEventWithName(name)                                                                                                                                                                                                                     | Returns true if an event with the specified name is registered. | 
 HasTimedEvent(reference)                                                                                                                                                                                                                        | Returns true if the specific event is still registered. reference is returned by RegisterTimedEvent. | 
-
-
-
-Other | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**Misc** |  | 
 [PerformIngameSpawn(spawntype, entry id, map, x, y, z, o, faction (unit) or scale (go), duration [, equip1, equip2, equip3, instance id, save])](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_PerformIngameSpawn)                | Spawns a unit or gameobject. | 
 [GetPlayer(name)](/Wiki/docs/standards_scripts/methods_lua/Global_Methods/Lua_GetPlayer)                                                                                                                                                        | Returns a player with the name given. | 
 GetGameTime()                                                                                                                                                                                                                                   | Returns server time in seconds.  | 
@@ -687,11 +592,7 @@ GetInstancePlayerCount(map id, instance id)                                     
 GetPlayersInInstance(map id, instance id)                                                                                                                                                                                                       | Returns a table containing all of the players in the instance. | 
 GetGuildByName(name)                                                                                                                                                                                                                            | Returns a guild with the name given. | 
 GetGuildByLeaderGuid(guid)                                                                                                                                                                                                                      | Returns a guild with the name given. | 
-
-
-
-C++ style bit functions | Description | Usage
-------------------------------------------------------------------------------------------------------------|----------|-----------
+**C++ style bit functions** |  | 
 bit_and(...)                                                                                                                                                                                                                                    | | 
 bit_or(...)                                                                                                                                                                                                                                     | | 
 bit_xor(...)                                                                                                                                                                                                                                    | | 
