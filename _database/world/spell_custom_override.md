@@ -12,7 +12,6 @@ layout: single_markdown
 Field                                                                             | Type         | Default                   | Comment
 --------------------------------------------------------------------------------- | ------------ | ------------------------- | -------
 [spell_id](#spell_id)                                                             | int(10)      | NOT NULL DEFAULT '0'      |
-[rank](#rank)                                                                     | tinyint(3)   | NULL                      |
 [assign_on_target_flag](#assign_on_target_flag)                                   | int(10)      | NULL                      |
 [assign_self_cast_only](#assign_self_cast_only)                                   | tinyint(1)   | NULL                      |
 [assign_c_is_flag](#assign_c_is_flag)                                             | int(10)      | NULL                      |
@@ -27,10 +26,6 @@ Field                                                                           
 [description](description)                                                        | varchar(100) | NULL                      |
 
 ## spell_id
-
-...
-
-## rank
 
 ...
 
