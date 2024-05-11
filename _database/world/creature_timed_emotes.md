@@ -53,6 +53,8 @@ Say something when creature is changing standstate/emote etc.
 14 = CHAT_MSG_MONSTER_YELL
 15 = CHAT_MSG_MONSTER_WHISPER
 16 = CHAT_MSG_MONSTER_EMOTE
+41 = CHAT_MSG_RAID_WARNING_WIDESCREEN
+42 = CHAT_MSG_RAID_BOSS_EMOTE
 </pre>
 
 ### msg_lang
