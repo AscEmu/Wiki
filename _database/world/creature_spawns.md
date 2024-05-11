@@ -71,15 +71,15 @@ Coordinates of the spawned creature. (Home position).
 
 ### movetype
 
- Pure Flags                  |   Decimal |  Description                                                  
+ Pure Flags                   | Decimal  | Description                                                  
 ----------------------------- | -------- | --------------------------------------------------------------
  MOVEMENTTYPE_NONE            |  0       | No WP movement                                                
- MOVEMENTTYPE_RANDOMWP        |  1       |   Walks random through waypoints (WP4, WP2, WP3, WP1)         
- MOVEMENTTYPE_CIRCLEWP        |  2       |  Walks in cirlce (WP1, WP2, WP3, WP1, WP2...)                 
- MOVEMENTTYPE_WANTEDWP        |  3       |  Coreside WP, walking only if script calls "Walk to WPx")     
- MOVEMENTTYPE_DONTMOVEWP      |  4       |  Coreside, if a creature has WPs, don't move it automatically.
- MOVEMENTTYPE_QUEST           |  10      |  If quest started, follow WPs                                 
- MOVEMENTTYPE_FORWARDTHENSTOP |  11      |                                                               
+ MOVEMENTTYPE_RANDOMWP        |  1       | Walks random through waypoints (WP4, WP2, WP3, WP1)         
+ MOVEMENTTYPE_CIRCLEWP        |  2       | Walks in cirlce (WP1, WP2, WP3, WP1, WP2...)                 
+ MOVEMENTTYPE_WANTEDWP        |  3       | Coreside WP, walking only if script calls "Walk to WPx")     
+ MOVEMENTTYPE_DONTMOVEWP      |  4       | Coreside, if a creature has WPs, don't move it automatically.
+ MOVEMENTTYPE_QUEST           |  10      | If quest started, follow WPs                                 
+ MOVEMENTTYPE_FORWARDTHENSTOP |  11      | 
 
 ### displayid
 
@@ -97,7 +97,7 @@ Note that most of these also require the "Gossip" [1] flag to work.
 
 So if you want a NPC that is a quest giver, a vendor and can repair you just add the specific flags together: 1 + 2 + 128 + 4096 = 4227. 
 
- Pure Flags                     |   Decimal  |  Binary (32 Bit)                         | Remarks                                                                                      
+ Pure Flags                      | Decimal   | Binary (32 Bit)                          | Remarks                                                                                      
 -------------------------------- | --------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------
  UNIT_NPC_FLAG_NONE              |  0        |  0000 0000 0000 0000 0000 0000 0000 0000
  UNIT_NPC_FLAG_GOSSIP            |  1        |  0000 0000 0000 0000 0000 0000 0000 0001 |  (If NPC has more gossip options, add this flag to bring up a menu.)                         
@@ -116,7 +116,7 @@ So if you want a NPC that is a quest giver, a vendor and can repair you just add
  UNIT_NPC_FLAG_TAXIVENDOR        |  8192     |  0000 0000 0000 0000 0010 0000 0000 0000 |  (Any NPC serving as fly master has this.)                                                   
  UNIT_NPC_FLAG_SPIRITHEALER      |  16384    |  0000 0000 0000 0000 0100 0000 0000 0000 |  (Makes the NPC invisible to alive characters and has the resurrect function.)               
  UNIT_NPC_FLAG_SPIRITGUIDE       |  32768    |  0000 0000 0000 0000 1000 0000 0000 0000
- UNIT_NPC_FLAG_INNKEEPER         |  65536    |  0000 0000 0000 0001 0000 0000 0000 0000 | (NPC with this flag can set hearthstone locations.)                                          
+ UNIT_NPC_FLAG_INNKEEPER         |  65536    |  0000 0000 0000 0001 0000 0000 0000 0000 |  (NPC with this flag can set hearthstone locations.)                                          
  UNIT_NPC_FLAG_BANKER            |  131072   |  0000 0000 0000 0010 0000 0000 0000 0000 |  (NPC with this flag can show the bank)                                                      
  UNIT_NPC_FLAG_ARENACHARTER      |  262144   |  0000 0000 0000 0100 0000 0000 0000 0000
  UNIT_NPC_FLAG_TABARDVENDOR      |  524288   |  0000 0000 0000 1000 0000 0000 0000 0000 |  (Allows the designing of guild tabards.)                                                    
@@ -145,7 +145,7 @@ Stand state
 6 = Sit on high chair
 7 = Dead
 8 = Kneel
-131072 = stealth mode
+131072 = Stealth mode
 </pre>
 
 ### bytes2
