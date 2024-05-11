@@ -357,7 +357,7 @@ So if you want a NPC that is a quest giver, a vendor and can repair you just add
  UNIT_NPC_FLAG_STABLE            |  4194304   |  0000 0000 0100 0000 0000 0000 0000 0000 |   Has the option to stable pets for hunters.
  UNIT_NPC_FLAG_GUILD_BANKER      |  8388608   |  0000 0000 1000 0000 0000 0000 0000 0000 |   Cause client to send 997 opcode.
  UNIT_NPC_FLAG_SPELLCLICK        |  16777216  |  0000 0001 0000 0000 0000 0000 0000 0000 |   Cause client to send 1015 opcode. Needs data on npc_spellclick_spells table.
- Mailbox                         |  67108864  |  0000 0100 0000 0000 0000 0000 0000 0000 |   NPC will act like a mailbox, opens mailbox with right-click.
+ UNIT_NPC_FLAG_MAILBOX           |  67108864  |  0000 0100 0000 0000 0000 0000 0000 0000 |   NPC will act like a mailbox, opens mailbox with right-click.
  Guard                           |  268435456 |  0001 0000 0000 0000 0000 0000 0000 0000 |   Cityguards, must be scripted.
 
 ### attacktime
