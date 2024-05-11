@@ -390,7 +390,7 @@ Emote ID of the creature.
 565 - ONESHOT_BREATHOFFIRE
 567 - STATE_ATTACK1H
 572 - STATE_USESTANDING
-574 - ONESHOT_LAUGH(No Sound)
+574 - ONESHOT_LAUGH (No Sound)
 </pre>
 
 ### npc_respawn_link

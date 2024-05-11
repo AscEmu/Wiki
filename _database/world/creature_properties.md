@@ -117,7 +117,7 @@ The name of the creature.
 
 The subname/title of the creature. Displayed in-game below the name, in <>'s.
 
-### info_str
+### icon_name
 
 Used to tell the player what kind of NPC this creature is (when you hover over the npc).
 
@@ -136,17 +136,17 @@ Pickup - shows a Hand Grasping icon of if this NPC can be picked up for quest/it
 LootAll - shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature).
 PVP - unused or Unknown.
 Quest - unused or Unknown.
+</pre>
 
+version above 4.x.x
+
+<pre>
 Transmogrify - added in patch 4.3.0
+SkinAlliance - added in patch 4.0.3
 Reforge - added in patch 4.0.1
-
-currently in use, it's worth standardizing. (don't use these values).
-
-Voidstorage
-SkinAlliance
-PickLock
-openhandglow
+Voidstorage - added in patch 4.0.1
 openhand
+openhandglow
 Interact
 Inspect
 GatherHerbs
