@@ -221,7 +221,7 @@ Emote ID of the creature.
 213 - ONESHOT_READYRIFLE
 214 - STATE_READYRIFLE
 233 - STATE_WORK_MINING
-234 - STATE_WORK_CHOPWOOD
+234 - STATE_WORK_CHOPWOOD // lazy-peon
 253 - STATE_APPLAUD
 254 - ONESHOT_LIFTOFF
 273 - ONESHOT_YES(DNR)
@@ -468,4 +468,4 @@ the distance the creature will move from initiated spawn point (only applied on 
 
 ### waypoint_group
 
-entry from table creature_waypoints_manual <- weird naming
+entry from table creature_waypoints <- weird naming
