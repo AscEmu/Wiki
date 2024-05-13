@@ -468,4 +468,4 @@ the distance the creature will move from initiated spawn point (only applied on 
 
 ### waypoint_group
 
-entry from table creature_waypoints <- weird naming
+entry from table creature_waypoints
