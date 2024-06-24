@@ -75,9 +75,16 @@ The client flags:
 
 The lanuguage code:
 
-    frFR = french
-    deDE = german
-    ruRU = russian
+Locale   | Name                         |
+-------- | ---------------------------- |
+koKR     | Korean                       |
+frFR     | French                       |
+deDE     | German                       |
+zhCN     | Chinese                      |
+zhTW     | Taiwanese                    |
+esES     | Spanish (EU)                 |
+esMX     | Spanish (Latin American)     |
+ruRU     | Russian                      |
 
 ### muted
 

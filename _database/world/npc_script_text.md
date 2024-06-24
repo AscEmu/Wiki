@@ -31,7 +31,7 @@ The unique entry ID for this text.
 
 ### text
 
-The text.
+The text the creature will say.
 
 ### creature_entry
 
@@ -45,21 +45,22 @@ The id of this Text (creature_entry + id = unique) not used at the moment.
 
 The SAY type.
 
-<pre>
-...
-12 = CHAT_MSG_MONSTER_SAY
-13 = CHAT_MSG_MONSTER_PARTY
-14 = CHAT_MSG_MONSTER_YELL
-15 = CHAT_MSG_MONSTER_WHISPER
-...
-</pre>
+Value    | Name                                 | Description
+-------- | ------------------------------------ | ----------------------------
+12       | CHAT_MSG_MONSTER_SAY                 | Creature says
+13       | CHAT_MSG_MONSTER_PARTY               |
+14       | CHAT_MSG_MONSTER_YELL                | Creature yells
+15       | CHAT_MSG_MONSTER_WHISPER             | Creature Whisper
+16       | CHAT_MSG_MONSTER_EMOTE               | Creature gestures wildly
+41       | CHAT_MSG_RAID_WARNING_WIDESCREEN     | Boss Emote
+42       | CHAT_MSG_RAID_BOSS_EMOTE             | Boss Whisper
 
 ### language
 
 The language...
 
 <pre>
-0  = Universal (Everyone understand)
+0  = Universal (The current default language will be used.)
 1  = Orcish
 2  = Darnassian
 3  = Taurahe
@@ -75,6 +76,8 @@ The language...
 33 = Gutterspeak
 35 = Draenei
 36 = Zombie
+37 = Gnomish Binary
+38 = Goblin Binary
 </pre>
 
 ### probability

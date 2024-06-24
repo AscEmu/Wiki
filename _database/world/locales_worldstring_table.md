@@ -24,11 +24,16 @@ The entry ID from [worldstring_tables](/Wiki/database/world/worldstring_tables/ 
 
 The lanuguage code:
 
-<pre>
-frFR = french
-deDE = german
-ruRU = russian
-</pre>
+Locale   | Name                         |
+-------- | ---------------------------- |
+koKR     | Korean                       |
+frFR     | French                       |
+deDE     | German                       |
+zhCN     | Chinese                      |
+zhTW     | Taiwanese                    |
+esES     | Spanish (EU)                 |
+esMX     | Spanish (Latin American)     |
+ruRU     | Russian                      |
 
 ### text
 

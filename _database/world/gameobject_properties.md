@@ -52,7 +52,7 @@ Field                             | Type         | Default | Comment
 [QuestItem5](#QuestItem_1_6)      | int(11)      | 0       |        
 [QuestItem6](#QuestItem_1_6)      | int(11)      | 0       |        
 
-## entry
+### entry
 
 The entry ID of the gameobject.
 
@@ -60,7 +60,7 @@ The entry ID of the gameobject.
 
 Build number to determine if the data is for our current compiled version.
 
-## type
+### type
 
 NOTE! These types needs more values in [sound & unknown](#spellfocus_-_sound_-_unknown)
 
@@ -103,15 +103,15 @@ Type34 = Guild Bank
 Type35 = Trap Door
 </pre>
 
-## display_id
+### display_id
 
 The Display ID of the gameobject itself.
 
-## name
+### name
 
 The name of the GO.
 
-## category_name
+### category_name
 
 Used category names (Icons)
 
@@ -126,15 +126,15 @@ Point
 PVP
 </pre>
 
-## cast_bar_text
+### cast_bar_text
 
 If there is a "Cast Bar" on the Object (Chests, etc.) whatever is here will show.
 
-## UnkStr
+### UnkStr
 
 ...
 
-## parameters
+### parameters
 
 ### Type 0 - Door
 

@@ -303,7 +303,7 @@ It remains only to **run logon.exe** and **run world.exe**
 
 #### Create an Account
 
-**1.** Go to your world console and create an account.
+**1.** Go to your **world** console and create an account.
 
 ```console
 createaccount <accountname> <password>
@@ -311,7 +311,7 @@ createaccount <accountname> <password>
 
 example: createaccount admin adminpassword
 
-**2.** Change permission(gmlevel) in your world console:
+**2.** Change permission(gmlevel) in your **world** console:
 
 ```console
 setaccpermission <accountname> <permission>

@@ -117,7 +117,7 @@ The name of the creature.
 
 The subname/title of the creature. Displayed in-game below the name, in <>'s.
 
-### info_str
+### icon_name
 
 Used to tell the player what kind of NPC this creature is (when you hover over the npc).
 
@@ -136,17 +136,17 @@ Pickup - shows a Hand Grasping icon of if this NPC can be picked up for quest/it
 LootAll - shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature).
 PVP - unused or Unknown.
 Quest - unused or Unknown.
+</pre>
 
+version above 4.x.x
+
+<pre>
 Transmogrify - added in patch 4.3.0
+SkinAlliance - added in patch 4.0.3
 Reforge - added in patch 4.0.1
-
-currently in use, it's worth standardizing. (don't use these values).
-
-Voidstorage
-SkinAlliance
-PickLock
-openhandglow
+Voidstorage - added in patch 4.0.1
 openhand
+openhandglow
 Interact
 Inspect
 GatherHerbs
@@ -329,36 +329,36 @@ Note that most of these also require the "Gossip" [1] flag to work.
 
 So if you want a NPC that is a quest giver, a vendor and can repair you just add the specific flags together: 1 + 2 + 128 + 4096 = 4227.
 
- Pure Flags                     |   Decimal   |  Binary (32 Bit)                         | Remarks
+ Pure Flags                      | Decimal    | Binary (32 Bit)                          | Remarks
 -------------------------------- | ---------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------
  UNIT_NPC_FLAG_NONE              |  0         |  0000 0000 0000 0000 0000 0000 0000 0000
- UNIT_NPC_FLAG_GOSSIP            |  1         |  0000 0000 0000 0000 0000 0000 0000 0001 |  (If NPC has more gossip options, add this flag to bring up a menu.)
- UNIT_NPC_FLAG_QUESTGIVER        |  2         |  0000 0000 0000 0000 0000 0000 0000 0010 |  (Any NPC giving or taking quests needs to have this flag.)
+ UNIT_NPC_FLAG_GOSSIP            |  1         |  0000 0000 0000 0000 0000 0000 0000 0001 |   If NPC has more gossip options, add this flag to bring up a menu.
+ UNIT_NPC_FLAG_QUESTGIVER        |  2         |  0000 0000 0000 0000 0000 0000 0000 0010 |   Any NPC giving or taking quests needs to have this flag.
  UNIT_NPC_FLAG_UNK1              |  4         |  0000 0000 0000 0000 0000 0000 0000 0100
  UNIT_NPC_FLAG_UNK2              |  8         |  0000 0000 0000 0000 0000 0000 0000 1000
- UNIT_NPC_FLAG_TRAINER           |  16        |  0000 0000 0000 0000 0000 0000 0001 0000 |  (Allows the NPC to have a trainer list to teach spells, all trainers must have this flag)
+ UNIT_NPC_FLAG_TRAINER           |  16        |  0000 0000 0000 0000 0000 0000 0001 0000 |   Allows the NPC to have a trainer list to teach spells, all trainers must have this flag.
  UNIT_NPC_FLAG_TRAINER_CLASS     |  32        |  0000 0000 0000 0000 0000 0000 0010 0000
  UNIT_NPC_FLAG_TRAINER_PROF      |  64        |  0000 0000 0000 0000 0000 0000 0100 0000
- UNIT_NPC_FLAG_VENDOR            |  128       |  0000 0000 0000 0000 0000 0000 1000 0000 |  (Any NPC selling items needs to have this flag)
+ UNIT_NPC_FLAG_VENDOR            |  128       |  0000 0000 0000 0000 0000 0000 1000 0000 |   Any NPC selling items needs to have this flag.
  UNIT_NPC_FLAG_VENDOR_AMMO       |  256       |  0000 0000 0000 0000 0000 0001 0000 0000
  UNIT_NPC_FLAG_VENDOR_FOOD       |  512       |  0000 0000 0000 0000 0000 0010 0000 0000
  UNIT_NPC_FLAG_VENDOR_POISON     |  1024      |  0000 0000 0000 0000 0000 0100 0000 0000
  UNIT_NPC_FLAG_VENDOR_REAGENT    |  2048      |  0000 0000 0000 0000 0000 1000 0000 0000
- UNIT_NPC_FLAG_ARMORER           |  4096      |  0000 0000 0000 0000 0001 0000 0000 0000 |  (NPC with this flag can repair items.)
- UNIT_NPC_FLAG_TAXIVENDOR        |  8192      |  0000 0000 0000 0000 0010 0000 0000 0000 |  (Any NPC serving as fly master has this.)
- UNIT_NPC_FLAG_SPIRITHEALER      |  16384     |  0000 0000 0000 0000 0100 0000 0000 0000 |  (Makes the NPC invisible to alive characters and has the resurrect function.)
- UNIT_NPC_FLAG_SPIRITGUIDE       |  32768     |  0000 0000 0000 0000 1000 0000 0000 0000
- UNIT_NPC_FLAG_INNKEEPER         |  65536     |  0000 0000 0000 0001 0000 0000 0000 0000 | (NPC with this flag can set hearthstone locations.)
- UNIT_NPC_FLAG_BANKER            |  131072    |  0000 0000 0000 0010 0000 0000 0000 0000 |  (NPC with this flag can show the bank)
- UNIT_NPC_FLAG_ARENACHARTER      |  262144    |  0000 0000 0000 0100 0000 0000 0000 0000
- UNIT_NPC_FLAG_TABARDVENDOR      |  524288    |  0000 0000 0000 1000 0000 0000 0000 0000 |  (Allows the designing of guild tabards.)
- UNIT_NPC_FLAG_BATTLEFIELDPERSON |  1048576   |  0000 0000 0001 0000 0000 0000 0000 0000 |  (NPC with this flag port players to battlegrounds. Like battlemasters, arena organzier etc.)
- UNIT_NPC_FLAG_AUCTIONEER        |  2097152   |  0000 0000 0010 0000 0000 0000 0000 0000 |  (Allows NPC to display auction list.)
- UNIT_NPC_FLAG_STABLE            |  4194304   |  0000 0000 0100 0000 0000 0000 0000 0000 |  (Has the option to stable pets for hunters.)
- UNIT_NPC_FLAG_GUILD_BANK        |  8388608   |  0000 0000 1000 0000 0000 0000 0000 0000
- UNIT_NPC_FLAG_SPELLCLICK        |  16777216  |  0000 0001 0000 0000 0000 0000 0000 0000 |  (Needs data on npc_spellclick_spells table)
- Mailbox                         |  67108864  |  0000 0100 0000 0000 0000 0000 0000 0000 |  (NPC will act like a mailbox, opens mailbox with right-click)
- Guard                           |  268435456 |  0001 0000 0000 0000 0000 0000 0000 0000 |  (Cityguards, must be scripted)
+ UNIT_NPC_FLAG_ARMORER           |  4096      |  0000 0000 0000 0000 0001 0000 0000 0000 |   NPC with this flag can repair items.
+ UNIT_NPC_FLAG_TAXIVENDOR        |  8192      |  0000 0000 0000 0000 0010 0000 0000 0000 |   Any NPC serving as fly master has this.
+ UNIT_NPC_FLAG_SPIRITHEALER      |  16384     |  0000 0000 0000 0000 0100 0000 0000 0000 |   Makes the NPC invisible to alive characters and has the resurrect function.
+ UNIT_NPC_FLAG_SPIRITGUIDE       |  32768     |  0000 0000 0000 0000 1000 0000 0000 0000 |   NPC Spirit healer.
+ UNIT_NPC_FLAG_INNKEEPER         |  65536     |  0000 0000 0000 0001 0000 0000 0000 0000 |   NPC with this flag can set hearthstone locations.
+ UNIT_NPC_FLAG_BANKER            |  131072    |  0000 0000 0000 0010 0000 0000 0000 0000 |   NPC with this flag can show the bank.
+ UNIT_NPC_FLAG_ARENACHARTER      |  262144    |  0000 0000 0000 0100 0000 0000 0000 0000 |   NPC supplier of the arena charter, the same supplier of the guild charter.
+ UNIT_NPC_FLAG_TABARDVENDOR      |  524288    |  0000 0000 0000 1000 0000 0000 0000 0000 |   Allows the designing of guild tabards.
+ UNIT_NPC_FLAG_BATTLEFIELDPERSON |  1048576   |  0000 0000 0001 0000 0000 0000 0000 0000 |   NPC with this flag port players to battlegrounds. Like battlemasters, arena organzier etc.
+ UNIT_NPC_FLAG_AUCTIONEER        |  2097152   |  0000 0000 0010 0000 0000 0000 0000 0000 |   Allows NPC to display auction list.
+ UNIT_NPC_FLAG_STABLE            |  4194304   |  0000 0000 0100 0000 0000 0000 0000 0000 |   Has the option to stable pets for hunters.
+ UNIT_NPC_FLAG_GUILD_BANKER      |  8388608   |  0000 0000 1000 0000 0000 0000 0000 0000 |   Cause client to send 997 opcode.
+ UNIT_NPC_FLAG_SPELLCLICK        |  16777216  |  0000 0001 0000 0000 0000 0000 0000 0000 |   Cause client to send 1015 opcode. Needs data on npc_spellclick_spells table.
+ UNIT_NPC_FLAG_MAILBOX           |  67108864  |  0000 0100 0000 0000 0000 0000 0000 0000 |   NPC will act like a mailbox, opens mailbox with right-click.
+ Guard                           |  268435456 |  0001 0000 0000 0000 0000 0000 0000 0000 |   Cityguards, must be scripted.
 
 ### attacktime
 

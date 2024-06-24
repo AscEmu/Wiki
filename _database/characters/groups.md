@@ -100,10 +100,10 @@ The number of subgroups.
 
 ### raiddifficulty
 
-    0 = Normal 10 men
-    1 = Normal 25 men
-    2 = Heroic 10 men
-    4 = Heroic 25 men
+    0 = Normal 10 man
+    1 = Normal 25 man
+    2 = Heroic 10 man
+    4 = Heroic 25 man
 
 ### assistant_leader
 

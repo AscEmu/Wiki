@@ -33,11 +33,16 @@ The entry ID of the quest from [quest_properties](/Wiki/database/world/quest_pro
 
 The lanuguage code:
 
-<pre>
-frFR = french
-deDE = german
-ruRU = russian
-</pre>
+Locale   | Name                         |
+-------- | ---------------------------- |
+koKR     | Korean                       |
+frFR     | French                       |
+deDE     | German                       |
+zhCN     | Chinese                      |
+zhTW     | Taiwanese                    |
+esES     | Spanish (EU)                 |
+esMX     | Spanish (Latin American)     |
+ruRU     | Russian                      |
 
 ### Title
 
