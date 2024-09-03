@@ -35,7 +35,7 @@ layout: single_markdown
 
 [OpenSSL](https://slproweb.com/products/Win32OpenSSL.html) - The Win32/Win64 OpenSSL Installation Project is dedicated to providing a simple installation of OpenSSL for Microsoft Windows.
 
-OpenSSL **3.0** is supported.
+OpenSSL **3.0 and higher** is required.
 {: .success }
 
 Do **NOT use the light version** of OpenSSL. Here are the direct links to the msi installer. Make sure to change the option to **The OpenSSL binaries (/bin) directory**
@@ -45,11 +45,11 @@ Do **NOT use the light version** of OpenSSL. Here are the direct links to the ms
 
 **Win64**
 
-Find the 64bit version by finding the latest 1.0.x, 1.1.x or 3.0.0 Win64 OpenSSL that is NOT the "light" version. (Example: Win64 OpenSSL v1.1.1o)
+Find the 64bit version by finding the latest 3.X Win64 OpenSSL that is NOT the "light" version. (Example of a working Version: Win64 OpenSSL v3.1.6)
 
 **Wind32**
 
-Find the 32bit version by finding the latest 1.0.x, 1.1.x or 3.0.0 Win32 OpenSSL that is NOT the "light" version. (Example: Win32 OpenSSL v1.1.1o)
+Find the 32bit version by finding the latest 3.X Win32 OpenSSL that is NOT the "light" version. (Example of a working Version: Win32 OpenSSL v3.1.6)
 
 #### Redistributable Package
 
