@@ -78,17 +78,25 @@ Use **version ≥ 5.7** with mysql server configuration.
 
 ![MySQL_2.png](/Wiki/images/installation.windows/MySQL_2.png)
 
+**3. MySQL Authentication Method**
+
+**3.1. Legacy Authentication** In most cases your current MySQL Server uses already the Legacy Authentication Method. Check out the config files and set "LegacyAuth" = "1"
+
 ![MySQL_3.png](/Wiki/images/installation.windows/MySQL_3.png)
 
-**3.** Set account login and password for root account : ascemu (login) ascemu (password).
+**3.2 Default: String Password Encryption (recommended)** We highly recommend using the Strong Password Encryption for new installed MySQL Servers. This is activated in your config files by default LegacyAuth = "0"
+
+![MySQL_3_NewAuthMethod.png](/Wiki/images/installation.windows/MySQL_3_NewAuthMethod.png)
+
+**4.** Set account login and password for root account : ascemu (login) ascemu (password).
 
 ![MySQL_4.png](/Wiki/images/installation.windows/MySQL_4.png)
 
-**4.** Check the configuration: MySQL should start as a Windows service at system startup.
+**5.** Check the configuration: MySQL should start as a Windows service at system startup.
 
 ![MySQL_5.png](/Wiki/images/installation.windows/MySQL_5.png)
 
-**5.** Optional: Config mysql server config
+**6.** Optional: Config mysql server config
 
 Sometimes you can receive a error: **MySQL server has gone away (error 2006)** 
 
