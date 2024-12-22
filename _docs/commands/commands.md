@@ -165,6 +165,7 @@ racechange    | m      | Allows char x to change the race on next login    | .ch
 Subcommand | Access | Description                                       | Usage                            
 ---------- | ------ | ------------------------------------------------- | ---------------------------------
 skills     | m      | Gets all the skills from targeted player.         | .char list skills                
+spells     | m      | Gets all the spells from targeted player.         | .char list spells                
 standing   | m      | Gets standing of faction from targeted character. | .char list standing  (faction_id)
 items      | m      | Shows items of selected Player                    | .char list items                 
 kills      | m      | Shows kills of selected Player                    | .char list kills                 
