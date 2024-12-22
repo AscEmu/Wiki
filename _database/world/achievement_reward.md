@@ -21,11 +21,11 @@ Field                                                                           
 [subject](#subject)                                                              | varchar(255) |         |        
 [text](#text)                                                                    | text         |         |        
 
-## entry
+### entry
 
 The entry ID of the achievement.
 
-## gender
+### gender
 
 <pre>
 0 = Male
@@ -33,26 +33,26 @@ The entry ID of the achievement.
 2 = all Genders
 </pre>
 
-## title_A
+### title_A
 
 The title ID for Alliance.
 
-## title_H
+### title_H
 
 The title ID for Horde.
 
-## item
+### item
 
 The recieve item entry ID from [item_properties](/Wiki/database/world/item_properties/ "Item properties") table (mail).
 
-## sender
+### sender
 
 The sender entry id mostly from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
-## subject
+### subject
 
 The text shown in subject field (mail).
 
-## text
+### text
 
 The text shown in body (mail).

@@ -67,7 +67,6 @@ Success
 {: .success }
 ```
 
-
 ## Tables
 
 Header 1   | Header 2

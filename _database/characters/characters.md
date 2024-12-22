@@ -452,7 +452,7 @@ Boolean
 
 ### raid_difficulty
 
-    0 = normal 10 men
-    1 = normal 25 men
-    3 = heroic 10 men
-    4 = heroic 25 men
+    0 = normal 10 man
+    1 = normal 25 man
+    3 = heroic 10 man
+    4 = heroic 25 man
