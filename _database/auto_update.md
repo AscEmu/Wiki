@@ -15,7 +15,7 @@ We made sure that everything was done automatically.
 After you have compiled AE build only the INSTALL project, and everything you need for auto db updates will be copied.
 
 ### *nix systems
-Copy the entire sql folder from the fork from github to the dir where you AE running.
+After you have compiled AE with 'make' command build the INSTALL project with 'make install' command, and everything you need for auto db updates will be copied.
 
 ## Create base databases
 You are tired of setting up the databases? No problem, AE will take care of it for you. If you have not applied the base databases AE will set it up for you. 
