@@ -12,7 +12,7 @@ position: 83
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x052      |  
-TBC        |            |  
+TBC        |            | 
 WotLK      | 0x052      |  
-Cata       |            |  
-MoP        |            |  
+Cata       |            | 
+MoP        |            | 

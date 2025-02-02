@@ -12,7 +12,7 @@ position: 563
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x232      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x232      | 
 Cata       | 0x3030     | 
 MoP        | 0x3030     | 

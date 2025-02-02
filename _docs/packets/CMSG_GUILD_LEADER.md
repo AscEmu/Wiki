@@ -12,7 +12,7 @@ position: 145
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x090      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x090      | 
 Cata       | 0x3034     | 
 MoP        | 0x3034     | 

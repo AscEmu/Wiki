@@ -12,7 +12,7 @@ position: 630
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x275      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x275      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

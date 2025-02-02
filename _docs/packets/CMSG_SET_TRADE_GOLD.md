@@ -12,7 +12,7 @@ position: 288
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x11F      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x11F      | 
 Cata       | 0x3008     | 
 MoP        | 0x3008     |  

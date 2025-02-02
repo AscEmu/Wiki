@@ -13,8 +13,8 @@ Send on uncheck "Show Tutorials".
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
-WotLK      |            | 
-Cata       |            | 
-MoP        |            | 
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       |            |
+MoP        |            |

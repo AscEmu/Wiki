@@ -11,7 +11,7 @@ Send on log into world.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0FE      |  
 TBC        | 0x0FE      |  

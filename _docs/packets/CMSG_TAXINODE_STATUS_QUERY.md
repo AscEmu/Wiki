@@ -12,7 +12,7 @@ position: 427
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1AA      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1AA      | 
 Cata       | 0x2F25     | 
 MoP        | 0x2F25     | 

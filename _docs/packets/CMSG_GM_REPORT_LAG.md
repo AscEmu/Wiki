@@ -11,8 +11,8 @@ position: 1012
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x502      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

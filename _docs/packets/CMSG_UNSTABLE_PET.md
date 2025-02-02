@@ -12,7 +12,7 @@ position: 626
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x271      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x271      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

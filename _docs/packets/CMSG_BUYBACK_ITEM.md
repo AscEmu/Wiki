@@ -12,7 +12,7 @@ position: 657
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x290      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x290      | 
 Cata       | 0x6C17     | 
 MoP        | 0x6C17     | 

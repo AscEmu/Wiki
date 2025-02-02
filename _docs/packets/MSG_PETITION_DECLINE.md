@@ -12,7 +12,7 @@ position: 451
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1C2      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1C2      | 
 Cata       | 0x4905     | 
 MoP        | 0x4905     | 

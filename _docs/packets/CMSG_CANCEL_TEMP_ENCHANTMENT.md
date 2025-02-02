@@ -12,7 +12,7 @@ position: 890
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x379      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x379      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

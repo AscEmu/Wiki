@@ -11,8 +11,8 @@ position: 1027
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x48A      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

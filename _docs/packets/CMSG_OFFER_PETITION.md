@@ -12,7 +12,7 @@ position: 452
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1C3      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1C3      | 
 Cata       | 0x4817     | 
 MoP        | 0x4817     | 

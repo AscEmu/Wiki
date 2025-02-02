@@ -11,7 +11,7 @@ position: 724
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
+Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       |            |

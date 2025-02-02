@@ -12,7 +12,7 @@ position: 602
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x259      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x259      | 
 Cata       | 0x0206     | 
 MoP        | 0x0206     | 

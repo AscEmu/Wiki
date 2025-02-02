@@ -12,7 +12,7 @@ position: 586
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x249      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x249      | 
 Cata       | 0x6104     | 
 MoP        | 0x6104     | 

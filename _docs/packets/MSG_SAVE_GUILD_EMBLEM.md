@@ -12,7 +12,7 @@ position: 498
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1F1      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1F1      | 
 Cata       | 0x2404     | 
 MoP        | 0x2404     | 

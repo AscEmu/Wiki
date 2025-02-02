@@ -11,7 +11,7 @@ Send when you click for example on your player image.
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x13D      | 
 TBC        | 0x13D      | 

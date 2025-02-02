@@ -12,7 +12,7 @@ position: 656
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x28F      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x28F      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

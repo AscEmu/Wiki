@@ -12,7 +12,7 @@ position: 121
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x078      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x078      | 
 Cata       | 0x4C17     | 
 MoP        | 0x4C17     | 

@@ -12,7 +12,7 @@ position: 497
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1F0      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1F0      | 
 Cata       | 0x6337     | 
 MoP        | 0x6337     | 

@@ -12,7 +12,7 @@ position: 756
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2F3      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2F3      | 
 Cata       | 0x2514     | 
 MoP        | 0x2514     | 

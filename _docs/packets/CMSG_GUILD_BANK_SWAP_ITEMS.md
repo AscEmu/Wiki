@@ -12,7 +12,7 @@ position: 1016
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3E8      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x3E9      | 
 Cata       | 0x2315     | 
 MoP        | 0x2315     | 

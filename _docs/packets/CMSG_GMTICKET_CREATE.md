@@ -11,7 +11,7 @@ position: 518
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
+Classic    |            |
 TBC        | 0x205      | 
 WotLK      | 0x205      | 
 Cata       | 0x0137     | 

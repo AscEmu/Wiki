@@ -12,7 +12,7 @@ position: 470
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1D5      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1D5      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

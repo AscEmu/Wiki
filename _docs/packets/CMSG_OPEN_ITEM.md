@@ -12,7 +12,7 @@ position: 173
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0AC      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x0AC      | 
 Cata       | 0x6A34     | 
 MoP        | 0x6A34     | 

@@ -12,7 +12,7 @@ position: 810
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x329      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x329      | 
 Cata       | 0x4925     | 
 MoP        | 0x1283     | 

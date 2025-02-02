@@ -12,7 +12,7 @@ position: 888
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x377      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x377      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

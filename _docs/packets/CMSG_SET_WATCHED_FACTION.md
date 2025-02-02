@@ -12,7 +12,7 @@ position: 793
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x318      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x318      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

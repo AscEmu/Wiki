@@ -12,7 +12,7 @@ position: 459
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1CA      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1CA      | 
 Cata       | 0x2520     | 
 MoP        | 0x2520     | 

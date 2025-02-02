@@ -12,7 +12,7 @@ position: 999
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3E5      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x3E6      | 
 Cata       | 0x2E37     | 
 MoP        | 0x2E37     | 

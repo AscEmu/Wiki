@@ -12,7 +12,7 @@ position: 430
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1AD      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1AD      | 
 Cata       | 0x6E06     | 
 MoP        | 0x6E06     | 

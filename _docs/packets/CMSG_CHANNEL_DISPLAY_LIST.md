@@ -12,7 +12,7 @@ position: 979
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3D1      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x3D2      | 
 Cata       | 0x2144     | 
 MoP        | 0x2144     | 

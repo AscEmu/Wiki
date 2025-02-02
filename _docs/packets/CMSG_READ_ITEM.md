@@ -12,7 +12,7 @@ position: 174
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0AD      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x0AD      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

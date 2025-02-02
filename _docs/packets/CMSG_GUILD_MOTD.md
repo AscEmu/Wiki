@@ -12,7 +12,7 @@ position: 146
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x091      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x091      | 
 Cata       | 0x1035     | 
 MoP        | 0x1035     | 

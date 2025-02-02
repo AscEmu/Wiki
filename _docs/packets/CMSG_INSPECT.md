@@ -12,7 +12,7 @@ position: 277
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x114      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x114      | 
 Cata       | 0x0927     | 
 MoP        | 0x0927     | 

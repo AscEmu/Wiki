@@ -12,7 +12,7 @@ position: 740
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2E3      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2E3      | 
 Cata       | 0x4815     | 
 MoP        | 0x4815     | 

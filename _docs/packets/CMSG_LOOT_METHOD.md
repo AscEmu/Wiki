@@ -12,7 +12,7 @@ position: 123
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x07A      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x07A      | 
 Cata       | 0x2F24     | 
 MoP        | 0x2F24     | 

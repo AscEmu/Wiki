@@ -12,7 +12,7 @@ position: 613
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x264      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x264      | 
 Cata       | 0x6937     | 
 MoP        | 0x6937     | 

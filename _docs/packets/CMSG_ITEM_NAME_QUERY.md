@@ -11,8 +11,8 @@ position: 709
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x2C4      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

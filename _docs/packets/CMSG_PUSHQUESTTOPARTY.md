@@ -12,7 +12,7 @@ position: 414
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x19D      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x19D      | 
 Cata       | 0x4B14     | 
 MoP        | 0x4B14     | 

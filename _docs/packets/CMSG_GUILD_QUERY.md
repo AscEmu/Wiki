@@ -12,7 +12,7 @@ position: 85
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x054      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x054      | 
 Cata       | 0x4426     | 
 MoP        | 0x4426     | 

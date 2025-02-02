@@ -12,7 +12,7 @@ position: 449
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1C0      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1C0      | 
 Cata       | 0x0E04     | 
 MoP        | 0x0E04     | 

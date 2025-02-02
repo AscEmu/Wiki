@@ -12,7 +12,7 @@ position: 857
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x358      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x358      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

@@ -12,7 +12,7 @@ position: 442
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1B9      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1B9      | 
 Cata       | 0x0425     | 
 MoP        | 0x0425     | 

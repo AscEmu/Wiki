@@ -12,7 +12,7 @@ position: 564
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x233      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x233      | 
 Cata       | 0x3234     | 
 MoP        | 0x3234     | 

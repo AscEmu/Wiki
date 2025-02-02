@@ -12,7 +12,7 @@ position: 566
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x235      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x235      | 
 Cata       | -          | not used
 MoP        | -          | not used

@@ -11,7 +11,7 @@ position: 981
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
+Classic    |            |
 TBC        | 0x3D3      | 
 WotLK      | 0x3D4      | 
 Cata       | 0x13D5     | 

@@ -12,7 +12,7 @@ position: 374
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x175      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x175      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

@@ -12,7 +12,7 @@ position: 1030
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3EF      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x3EF      | 
 Cata       | 0x4517     | 
 MoP        | 0x4517     | 

@@ -11,8 +11,8 @@ position: 1011
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x493      | 
 Cata       | 0x0C16     | 
 MoP        | 0x0C16     | 

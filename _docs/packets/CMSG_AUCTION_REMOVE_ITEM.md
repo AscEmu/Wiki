@@ -12,7 +12,7 @@ position: 600
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x257      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x257      | 
 Cata       | 0x6426     | 
 MoP        | 0x6426     | 

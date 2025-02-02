@@ -12,7 +12,7 @@ position: 751
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2EE      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2EE      | 
 Cata       | 0x7902     | 
 MoP        | 0x7902     | 

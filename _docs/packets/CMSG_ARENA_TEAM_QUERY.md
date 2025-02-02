@@ -12,7 +12,7 @@ position: 844
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x34B      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x34B      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

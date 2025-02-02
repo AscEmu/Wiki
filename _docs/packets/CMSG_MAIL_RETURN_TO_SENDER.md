@@ -12,7 +12,7 @@ position: 585
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x248      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x248      | 
 Cata       | 0x0816     | 
 MoP        | 0x0816     | 

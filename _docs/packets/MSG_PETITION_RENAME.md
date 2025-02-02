@@ -12,7 +12,7 @@ position: 706
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2BF      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2BF      | 
 Cata       | 0x2506     | 
 MoP        | 0x2506     | 

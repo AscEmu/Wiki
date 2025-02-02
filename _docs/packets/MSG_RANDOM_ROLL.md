@@ -12,7 +12,7 @@ position: 508
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1FB      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1FB      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

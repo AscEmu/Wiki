@@ -16,5 +16,5 @@ Version    | Hex        | Comment
 Classic    | 0x06C      | 
 TBC        | 0x06C      | 
 WotLK      | 0x06C      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

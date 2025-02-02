@@ -12,7 +12,7 @@ position: 131
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x082      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x082      | 
 Cata       | 0x24B0     | 
 MoP        | 0x24B0     | 

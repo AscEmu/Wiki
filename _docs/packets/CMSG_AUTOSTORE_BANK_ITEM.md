@@ -12,7 +12,7 @@ position: 643
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x282      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x282      | 
 Cata       | 0x0607     | 
 MoP        | 0x0607     | 

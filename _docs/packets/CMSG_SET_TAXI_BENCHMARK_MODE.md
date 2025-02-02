@@ -12,7 +12,7 @@ position: 906
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x389      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x389      | 
 Cata       | 0x4314     | 
 MoP        | 0x4314     | 

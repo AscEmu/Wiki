@@ -12,7 +12,7 @@ position: 118
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x075      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x075      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

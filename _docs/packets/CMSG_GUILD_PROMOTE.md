@@ -12,7 +12,7 @@ position: 140
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x08B      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x08B      | 
 Cata       | 0x1030     | 
 MoP        | 0x1030     | 

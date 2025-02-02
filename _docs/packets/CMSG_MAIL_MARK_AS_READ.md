@@ -12,7 +12,7 @@ position: 584
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x247      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x247      | 
 Cata       | 0x0C07     | 
 MoP        | 0x0C07     | 

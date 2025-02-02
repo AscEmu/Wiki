@@ -11,8 +11,8 @@ position: 881
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x36C      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

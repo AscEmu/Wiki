@@ -12,7 +12,7 @@ position: 1034
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3EE      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x3EE      | 
 Cata       | 0x3224     | 
 MoP        | 0x3224     | 

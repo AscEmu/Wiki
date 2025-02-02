@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x056      | 
 TBC        | 0x056      | 
 WotLK      | 0x056      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

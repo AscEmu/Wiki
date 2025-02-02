@@ -12,7 +12,7 @@ position: 640
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x27F      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x27F      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

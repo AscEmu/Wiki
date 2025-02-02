@@ -11,8 +11,8 @@ position: 1029
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x479      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

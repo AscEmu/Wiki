@@ -12,7 +12,7 @@ position: 181
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0B4      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x0B4      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

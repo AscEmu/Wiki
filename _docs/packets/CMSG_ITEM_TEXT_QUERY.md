@@ -12,7 +12,7 @@ position: 580
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x243      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x243      | 
 Cata       | 0x2406     | 
 MoP        | 0x2406     | 

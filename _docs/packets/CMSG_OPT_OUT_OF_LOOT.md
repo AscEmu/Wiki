@@ -12,7 +12,7 @@ position: 1058
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x408      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x409      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

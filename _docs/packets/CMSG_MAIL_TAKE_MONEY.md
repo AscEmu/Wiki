@@ -12,7 +12,7 @@ position: 582
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x245      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x245      | 
 Cata       | 0x4034     | 
 MoP        | 0x4034     | 

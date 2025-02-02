@@ -12,7 +12,7 @@ position: 1031
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x317      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x317      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

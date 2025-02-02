@@ -12,7 +12,7 @@ position: 599
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x256      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x256      | 
 Cata       | 0x4A06     | 
 MoP        | 0x4A06     | 

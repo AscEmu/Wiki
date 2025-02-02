@@ -12,7 +12,7 @@ position: 286
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x11D      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x11D      | 
 Cata       | 0x7B0C     | 
 MoP        | 0x7B0C     | 

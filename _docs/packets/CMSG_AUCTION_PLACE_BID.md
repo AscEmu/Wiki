@@ -12,7 +12,7 @@ position: 603
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x25A      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x25A      | 
 Cata       | 0x2306     | 
 MoP        | 0x2306     | 

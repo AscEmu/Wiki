@@ -12,7 +12,7 @@ position: 160
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x09F      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x09F      | 
 Cata       | 0x0146     | 
 MoP        | 0x0146     | 

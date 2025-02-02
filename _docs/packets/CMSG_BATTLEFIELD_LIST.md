@@ -12,7 +12,7 @@ position: 573
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x23C      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x23C      | 
 Cata       | 0x3814     | 
 MoP        | 0x3814     | 

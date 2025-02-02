@@ -12,7 +12,7 @@ position: 420
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1A3      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1A3      | 
 Cata       | 0x1A3      | 
 MoP        | 0x1A3      | 

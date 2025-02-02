@@ -12,7 +12,7 @@ position: 161
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0A0      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x0A0      | 
 Cata       | 0x1954     | 
 MoP        | 0x1954     | 

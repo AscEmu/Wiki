@@ -12,7 +12,7 @@ position: 429
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1AC      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1AC      | 
 Cata       | 0x6C06     | 
 MoP        | 0x6C06     | 

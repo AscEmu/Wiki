@@ -11,7 +11,7 @@ position: 535
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
+Classic    |            |
 TBC        | 0x216      | 
 WotLK      | 0x216      | 
 Cata       | 0x4336     | 

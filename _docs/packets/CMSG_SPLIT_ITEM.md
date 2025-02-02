@@ -12,7 +12,7 @@ position: 271
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x10E      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x10E      | 
 Cata       | 0x0F17     | 
 MoP        | 0x0F17     | 

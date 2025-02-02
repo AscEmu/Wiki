@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x008      |  
 TBC        | 0x008      |  
 WotLK      | 0x008      |  
-Cata       |            |  
-MoP        |            |  
+Cata       |            | 
+MoP        |            | 

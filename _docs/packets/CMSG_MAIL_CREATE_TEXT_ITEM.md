@@ -12,7 +12,7 @@ position: 587
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x24A      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x24A      | 
 Cata       | 0x0B14     | 
 MoP        | 0x0B14     | 

@@ -11,7 +11,7 @@ Send when client goes afk or on sit down
 
 ### Status
 
-Version | Hex | Comment
+Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x101      | 
 TBC        | 0x101      | 

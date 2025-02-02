@@ -12,7 +12,7 @@ position: 268
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x10B      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x10B      | 
 Cata       | 0x0236     | 
 MoP        | 0x0236     | 

@@ -12,7 +12,7 @@ position: 153
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x098      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x098      | 
 Cata       | 0x2D56     | 
 MoP        | 0x2D56     | 

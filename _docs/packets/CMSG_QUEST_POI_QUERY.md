@@ -11,8 +11,8 @@ position: 484
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x1E3      | 
 Cata       | 0x4037     | 
 MoP        | 0x4037     | 

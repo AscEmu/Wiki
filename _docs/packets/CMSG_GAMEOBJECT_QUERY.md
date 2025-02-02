@@ -11,7 +11,7 @@ position: 95
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
+Classic    |            |
 TBC        | 0x05E      | 
 WotLK      | 0x05E      | 
 Cata       | 0x4017     | 

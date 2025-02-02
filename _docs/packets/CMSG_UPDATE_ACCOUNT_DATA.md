@@ -12,7 +12,7 @@ position: 524
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x20B      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x20B      | 
 Cata       | 0x4736     | 
 MoP        | 0x4736     | 

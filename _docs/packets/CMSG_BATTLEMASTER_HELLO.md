@@ -12,7 +12,7 @@ position: 728
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2D7      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2D7      | 
 Cata       | 0x0234     | 
 MoP        | 0x0234     | 

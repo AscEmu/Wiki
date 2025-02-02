@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x3FD      | 
 TBC        | 0x3FD      | 
 WotLK      | 0x3FE      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

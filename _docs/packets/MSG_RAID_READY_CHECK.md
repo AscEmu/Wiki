@@ -12,7 +12,7 @@ position: 803
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x322      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x322      | 
 Cata       | 0x2304     | 
 MoP        | 0x2304     | 

@@ -12,7 +12,7 @@ position: 598
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x255      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x255      | 
 Cata       | 0x2307     | 
 MoP        | 0x2307     | 

@@ -12,7 +12,7 @@ position: 739
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2E2      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2E2      | 
 Cata       | 0x4907     | 
 MoP        | 0x4907     | 

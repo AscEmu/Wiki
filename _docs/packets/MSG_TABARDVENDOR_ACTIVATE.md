@@ -12,7 +12,7 @@ position: 499
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1F2      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1F2      | 
 Cata       | 0x6926     | 
-MoP        |            | 
+MoP        |            |

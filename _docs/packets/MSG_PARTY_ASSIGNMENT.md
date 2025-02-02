@@ -12,7 +12,7 @@ position: 911
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x38E      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x38E      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

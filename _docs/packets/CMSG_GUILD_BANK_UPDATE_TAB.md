@@ -12,7 +12,7 @@ position: 1017
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3EA      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x3EB      | 
 Cata       | 0x0106     | 
 MoP        | 0x0106     | 

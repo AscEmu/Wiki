@@ -12,7 +12,7 @@ position: 165
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0A4      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x0A4      | 
 Cata       | 0x3156     | 
 MoP        | 0x3156     | 

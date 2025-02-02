@@ -12,7 +12,7 @@ position: 178
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0B1      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x0B1      | 
 Cata       | 0x4E17     | 
 MoP        | 0x4E17     | 

@@ -12,7 +12,7 @@ position: 159
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x09E      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x09E      | 
 Cata       | 0x3D44     | 
 MoP        | 0x3D44     | 

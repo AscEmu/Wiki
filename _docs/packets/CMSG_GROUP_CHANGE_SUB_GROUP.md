@@ -12,7 +12,7 @@ position: 639
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x27E      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x27E      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

@@ -12,7 +12,7 @@ position: 433
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1B0      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1B0      | 
 Cata       | 0x2336     | 
 MoP        | 0x2336     | 

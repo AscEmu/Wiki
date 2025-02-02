@@ -12,7 +12,7 @@ position: 446
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1BD      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1BD      | 
 Cata       | 0x4E05     | 
 MoP        | 0x4E05     | 

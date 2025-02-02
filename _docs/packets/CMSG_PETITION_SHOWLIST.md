@@ -12,7 +12,7 @@ position: 444
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1BB      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1BB      | 
 Cata       | 0x1BB      | 
-MoP        |            | 
+MoP        |            |

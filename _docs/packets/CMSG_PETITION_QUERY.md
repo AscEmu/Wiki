@@ -12,7 +12,7 @@ position: 455
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1C6      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1C6      | 
 Cata       | 0x4424     | 
 MoP        | 0x4424     | 

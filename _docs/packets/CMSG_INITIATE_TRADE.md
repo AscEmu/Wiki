@@ -12,7 +12,7 @@ position: 279
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x116      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x116      | 
 Cata       | 0x7916     | 
 MoP        | 0x7916     | 

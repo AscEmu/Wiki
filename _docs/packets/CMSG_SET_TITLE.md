@@ -12,7 +12,7 @@ position: 885
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x374      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x374      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

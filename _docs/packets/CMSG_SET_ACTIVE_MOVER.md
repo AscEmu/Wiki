@@ -11,8 +11,8 @@ position: 619
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
+Classic    |            |
 TBC        | 0x26A      | 
 WotLK      | 0x26A      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

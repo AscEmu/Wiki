@@ -12,7 +12,7 @@ position: 681
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2A8      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2A8      | 
 Cata       | 0x2917     | 
 MoP        | 0x2917     | 

@@ -11,8 +11,8 @@ position: 867
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x362      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

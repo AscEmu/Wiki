@@ -12,7 +12,7 @@ position: 1014
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3EC      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x3EC      | 
 Cata       | 0x0707     | 
 MoP        | 0x0707     | 

@@ -12,7 +12,7 @@ position: 155
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x09A      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x09A      | 
 Cata       | 0x1556     | 
 MoP        | 0x1556     | 

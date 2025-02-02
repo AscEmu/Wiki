@@ -12,7 +12,7 @@ position: 515
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x202      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x202      | 
 Cata       | 0x6106     | 
 MoP        | 0x6106     | 

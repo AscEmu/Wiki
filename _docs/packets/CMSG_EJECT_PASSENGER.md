@@ -11,8 +11,8 @@ position: 1010
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            | 
-TBC        |            | 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x4A9      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

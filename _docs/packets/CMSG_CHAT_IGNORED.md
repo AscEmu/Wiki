@@ -12,7 +12,7 @@ position: 550
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x225      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x225      | 
 Cata       | 0x0D54     | 
 MoP        | 0x0D54     | 

@@ -12,7 +12,7 @@ position: 848
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x34F      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x34F      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

@@ -12,7 +12,7 @@ position: 435
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x1B2      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x1B2      | 
 Cata       | 0x4415     | 
 MoP        | 0x4415     | 

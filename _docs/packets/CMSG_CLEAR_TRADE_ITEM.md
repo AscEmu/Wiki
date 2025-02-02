@@ -12,7 +12,7 @@ position: 287
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x11E      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x11E      | 
 Cata       | 0x7018     | 
 MoP        | 0x7018     | 

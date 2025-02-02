@@ -12,7 +12,7 @@ position: 726
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2D5      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2D5      | 
-Cata       |            | 
-MoP        |            | 
+Cata       |            |
+MoP        |            |

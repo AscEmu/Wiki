@@ -12,7 +12,7 @@ position: 765
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2FC      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x2FC      | 
 Cata       | 0x3227     | 
 MoP        | 0x3227     | 

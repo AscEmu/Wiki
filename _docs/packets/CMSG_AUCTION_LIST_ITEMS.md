@@ -12,7 +12,7 @@ position: 601
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x258      | 
-TBC        |            | 
+TBC        |            |
 WotLK      | 0x258      | 
 Cata       | 0x0324     | 
 MoP        | 0x0324     | 
