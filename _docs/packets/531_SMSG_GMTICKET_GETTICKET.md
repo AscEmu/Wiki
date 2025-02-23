@@ -11,8 +11,8 @@ position: 531
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x212      | 
-TBC        | 0x212      | 
-WotLK      | 0x212      | 
-Cata       | 0x2C15     | 
-MoP        | 0x2C15     | 
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       | 0x2C15     |
+MoP        |            |

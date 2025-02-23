@@ -11,8 +11,8 @@ position: 1015
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | -          | not used
-Cata       | 0x3220     | 
-MoP        | 0x3220     | 
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       | 0x3220     |
+MoP        |            |

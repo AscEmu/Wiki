@@ -1,11 +1,11 @@
 ---
-title: CMSG_PET_LEVEL_CHEAT
+title: CMSG_LFG_LOCK_INFO_REQUEST
 type: packets
 layout: single_markdown_in_list
-position: 39
+position: 1129
 ---
 
-## CMSG_PET_LEVEL_CHEAT
+## CMSG_LFG_LOCK_INFO_REQUEST
 
 ### Status
 
@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    |            |
 TBC        |            |
 WotLK      |            |
-Cata       |            |
+Cata       | 0x0412     |
 MoP        |            |

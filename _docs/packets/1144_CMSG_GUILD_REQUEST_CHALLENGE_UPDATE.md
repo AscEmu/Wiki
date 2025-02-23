@@ -1,11 +1,11 @@
 ---
-title: MSG_RAID_READY_CHECK_FINISHED
+title: CMSG_GUILD_REQUEST_CHALLENGE_UPDATE
 type: packets
 layout: single_markdown_in_list
-position: 967
+position: 1144
 ---
 
-## MSG_RAID_READY_CHECK_FINISHED
+## CMSG_GUILD_REQUEST_CHALLENGE_UPDATE
 
 ### Status
 
@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    |            |
 TBC        |            |
 WotLK      |            |
-Cata       |            |
+Cata       | 0x1224     |
 MoP        |            |
