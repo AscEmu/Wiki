@@ -1,11 +1,11 @@
 ---
-title: SMSG_STANDSTATE_UPDATE
+title: SMSG_STAND_STATE_UPDATE
 type: packets
 layout: single_markdown_in_list
 position: 670
 ---
 
-## SMSG_STANDSTATE_UPDATE
+## SMSG_STAND_STATE_UPDATE
 
 ### Status
 

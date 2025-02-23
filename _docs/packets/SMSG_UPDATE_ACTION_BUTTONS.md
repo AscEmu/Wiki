@@ -1,11 +1,11 @@
 ---
-title: SMSG_ACTION_BUTTONS
+title: SMSG_UPDATE_ACTION_BUTTONS
 type: packets
 layout: single_markdown_in_list
 position: 298
 ---
 
-## SMSG_ACTION_BUTTONS
+## SMSG_UPDATE_ACTION_BUTTONS
 
 ### Status
 

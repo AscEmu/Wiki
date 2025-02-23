@@ -1,11 +1,11 @@
 ---
-title: CMSG_CHAR_ENUM
+title: CMSG_REQUEST_CEMETERY_LIST
 type: packets
 layout: single_markdown_in_list
-position: 56
+position: 274
 ---
 
-## CMSG_CHAR_ENUM
+## CMSG_REQUEST_CEMETERY_LIST
 
 ### Status
 

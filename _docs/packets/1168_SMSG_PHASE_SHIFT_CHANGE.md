@@ -1,11 +1,11 @@
 ---
-title: CMSG_REQUEST_CEMETERY_LIST
+title: SMSG_PHASE_SHIFT_CHANGE
 type: packets
 layout: single_markdown_in_list
-position: 1167
+position: 1168
 ---
 
-## CMSG_REQUEST_CEMETERY_LIST
+## SMSG_PHASE_SHIFT_CHANGE
 
 ### Status
 

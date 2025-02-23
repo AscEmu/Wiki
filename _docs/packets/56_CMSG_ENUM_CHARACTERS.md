@@ -2,7 +2,7 @@
 title: CMSG_ENUM_CHARACTERS
 type: packets
 layout: single_markdown_in_list
-position: 1072
+position: 56
 ---
 
 ## CMSG_ENUM_CHARACTERS
