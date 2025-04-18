@@ -116,7 +116,7 @@ Change on **max_allowed_packet**=128M or 500M and restart mysql service.
 
 [GitHub Desktop](https://desktop.github.com/) - Installation Project is an application that enables you to interact with GitHub using a GUI instead of the command line or a web browser.
 
-Before you start working with the program, read the instruction [Help guides](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop/).
+Before you start working with the program, read the instruction [Help guides](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/setting-up-github-desktop).
 {: .info }
 
 Sign in to GitHub and GitHub Desktop before you start to clone.
