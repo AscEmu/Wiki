@@ -25,9 +25,8 @@ Field                                                           | Type          
 [displayid](#displayid)                                         | mediumint(10) | 0       |         
 [faction](#faction)                                             | mediumint(10) | 14      |         
 [flags](#flags)                                                 | int(10)       | 0       |         
+[pvp_flagged](#pvp_flagged)                                     | tinyint(1)    | 0       |         
 [bytes0](#bytes0)                                               | int(10)       | 0       |         
-[bytes1](#bytes1)                                               | int(10)       | 0       |         
-[bytes2](#bytes2)                                               | int(10)       | 0       |         
 [emote_state](#emote_state)                                     | smallint(5)   | 0       |         
 [npc_respawn_link](#npc_respawn_link)                           | int(10)       | 0       |         
 [channel_spell](#channel_spell)                                 | int(10)       | 0       |         
@@ -36,6 +35,7 @@ Field                                                           | Type          
 [standstate](#standstate)                                       | tinyint(3)    | 0       |         
 [death_state](#death_state)                                     | tinyint(3)    | 0       |         
 [mountdisplayid](#mountdisplayid)                               | int(10)       | 0       |         
+[sheath_state](#sheath_state)                                   | tinyint(1)    | 0       |         
 [slot1item](#slot1item)                                         | int(10)       | 0       |         
 [slot2item](#slot2item)                                         | int(10)       | 0       |         
 [slot3item](#slot3item)                                         | int(10)       | 0       |         
@@ -128,29 +128,18 @@ So if you want a NPC that is a quest giver, a vendor and can repair you just add
  UNIT_NPC_FLAG_PLAYER_VEHICLE    |  33554432   |  0000 0010 0000 0000 0000 0000 0000 0000 |  (Needs data on npc_spellclick_spells table)                                                 
  UNIT_NPC_FLAG_MAILBOX           |  67108864   |  0000 0100 0000 0000 0000 0000 0000 0000 |  (Needs data on npc_spellclick_spells table)                                                 
 
+### pvp_flagged
+
+Creature's pvp flag state. Creature's faction must be either horde or alliance for this to work.
+
+<pre>
+0 = No pvp flag
+1 = Pvp flagged
+</pre>
+
 ### bytes0
 
 See creature_spawns bytes.
-
-### bytes1
-
-Stand state
-
-<pre>
-0 = Nothing
-1 = Sit on ground
-3 = Sleep
-4 = Sit on low chair
-5 = Sit on normal chair
-6 = Sit on high chair
-7 = Dead
-8 = Kneel
-131072 = Stealth mode
-</pre>
-
-### bytes2
-
-...
 
 ### emote_state
 
@@ -434,6 +423,14 @@ ID of a Spell that the creature will channel.
 ### mountdisplayid
 
 The Display ID of a mount to be used to make the creature appear mounted. The value here overrides the value for the creature's unit field UNIT_FIELD_MOUNTDISPLAYID. 
+
+### sheath_state
+
+<pre>
+0 = Creature's weapons are non prepared
+1 = Creature's melee weapon is prepared
+2 = Creature's ranged weapon is prepared
+</pre>
 
 ### slot1item
 
