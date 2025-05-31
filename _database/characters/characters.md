@@ -37,7 +37,7 @@ Field                                           | Type         | Default        
 [bytes](#bytes)                                 | int(30)      | NOT NULL                      |                                   
 [bytes2](#bytes2)                               | int(30)      | NOT NULL                      |                                   
 [player_flags](#player_flags)                   | int(30)      | NOT NULL                      |                                   
-[player_bytes](#player_bytes)                   | int(30)      | NOT NULL                      |                                   
+[enabled_actionbars](#enabled_actionbars)       | tinyint(1)   | unsigned NOT NULL DEFAULT '0' |                                   
 [positionX](#positionX-Z)                       | float        | NOT NULL DEFAULT '0'          |                                   
 [positionY](#positionX-Z)                       | float        | NOT NULL DEFAULT '0'          |                                   
 [positionZ](#positionX-Z)                       | float        | NOT NULL DEFAULT '0'          |                                   
@@ -228,7 +228,15 @@ The current power of the character.
 
 ### player_flags
 
-### player_bytes
+### enabled_actionbars
+
+Field controls which action bars are enabled clientside.
+
+    0 = None (default)
+    1 = Bottom left action bar
+    2 = Bottom right action bar
+    4 = Top right action bar
+    8 = Top left action bar
 
 ### positionX-Z
 
