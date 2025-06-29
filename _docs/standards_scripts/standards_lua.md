@@ -9,13 +9,11 @@ position: 1
 
 AscEmu LuaEngine (ALE) is a scripting engine that allows server developers to write custom game logic for AscEmu, a emulator based on the Antrix-Ascent-Arcemu cores. It uses the Lua scripting language to make it easier and faster to modify server behavior without recompiling the source code.
 
-Key Information:
+**Scripting Language:** Lua (is a powerful, fast, lightweight, embeddable scripting language.)
 
-Scripting Language: Lua (is a powerful, fast, lightweight, embeddable scripting language.)
+**Purpose:** To create scripts for NPC behavior, quests, events, spells, and more
 
-Purpose: To create scripts for NPC behavior, quests, events, spells, and more
-
-Advantages:
+**Advantages:**
 
 - Scripts can be loaded or modified without restarting the server
 
@@ -23,7 +21,7 @@ Advantages:
 
 - Highly flexible and ideal for custom content development
 
-Common Use Cases:
+**Common Use Cases:**
 
 - NPC dialogues and interactions
 
