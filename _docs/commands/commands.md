@@ -67,17 +67,19 @@ Description: Sends Widescreen Msg To All
 
 Usage: .wannounce (text to announce)
 
-## .ban
+## .ban and .unban
 
-.ban Subcommand   | Access | Description                               | Usage
+### .ban
+
+Subcommand        | Access | Description                               | Usage
 ----------------- | ------ | ----------------------------------------- | ---------------------------------------------------
 all               | a      | Bans account, ip, and character.          | .ban all (char_name) (duration) (reason_text)
 character         | b      | Bans character.                           | .ban character (char_name) (duration) (reason_text)
 ip                | m      | Adds an address to the IP ban table.      | .ban ip (ip_address) (duration) (reason_text)
 
-## .unban
+### .unban
 
-.unban Subcommand | Access | Description                               | Usage
+Subcommand        | Access | Description                               | Usage
 ----------------- | ------ | ----------------------------------------- | ---------------------------------------------------
 character         | b      | Unbans character.                         | .unban character (char_name)
 ip                | m      | Deletes an address from the IP ban table. | .unban ip (ip_address)
