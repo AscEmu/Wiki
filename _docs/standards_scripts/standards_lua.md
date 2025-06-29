@@ -7,15 +7,33 @@ position: 1
 
 # Information About ALE (AscEmu LuaEngine)
 
-Lua is a powerful, fast, lightweight, embeddable scripting language.
-Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics.
-Lua is dynamically typed, runs by interpreting bytecode for a register-based virtual machine, and has automatic memory management with incremental garbage collection, making it ideal for configuration, scripting, and rapid prototyping.
+AscEmu LuaEngine (ALE) is a scripting engine that allows server developers to write custom game logic for AscEmu, a emulator based on the Antrix-Ascent-Arcemu cores. It uses the Lua scripting language to make it easier and faster to modify server behavior without recompiling the source code.
 
-Because Lua can easily be embedded into applications, it is frequently used in games, such as World of Warcraft, Far Cry, Baldur's Gate, Garry's Mod and Warhammer titles.
+Key Information:
+
+Scripting Language: Lua (is a powerful, fast, lightweight, embeddable scripting language.)
+
+Purpose: To create scripts for NPC behavior, quests, events, spells, and more
+
+Advantages:
+
+- Scripts can be loaded or modified without restarting the server
+
+- Lua has a simple and lightweight syntax
+
+- Highly flexible and ideal for custom content development
+
+Common Use Cases:
+
+- NPC dialogues and interactions
+
+- Triggering events when players enter certain areas
+
+- Item usage effects
 
 ## API Documentation
 
-Information About the typical function names:
+Information About the typical function names.
 
 ### [Basic Lua](/Wiki/docs/standards_scripts/methods_lua/Basic_Lua)
 
