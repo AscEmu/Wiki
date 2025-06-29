@@ -67,7 +67,7 @@ Description: Sends Widescreen Msg To All
 
 Usage: .wannounce (text to announce)
 
-## .ban and .unban
+## .ban
 
 .ban Subcommand   | Access | Description                               | Usage
 ----------------- | ------ | ----------------------------------------- | ---------------------------------------------------
@@ -75,13 +75,17 @@ all               | a      | Bans account, ip, and character.          | .ban al
 character         | b      | Bans character.                           | .ban character (char_name) (duration) (reason_text)
 ip                | m      | Adds an address to the IP ban table.      | .ban ip (ip_address) (duration) (reason_text)
 
+.unban
+
 .unban Subcommand | Access | Description                               | Usage
 ----------------- | ------ | ----------------------------------------- | ---------------------------------------------------
 character         | b      | Unbans character.                         | .unban character (char_name)
 ip                | m      | Deletes an address from the IP ban table. | .unban ip (ip_address)
 
-Note: The (duration) for the ban commands includes a value and the types: (h)hours, (d)days, (w)weeks, (m)months, (y)years, default minutes
+Note: The (duration) for the ban commands includes a value and the types: (h)hours, (d)days, (w)weeks, (m)months, (y)years, default minutes.
+
 For example:
+
     .ban char (char_name) 30  = bans char for 30 minutes
     .ban char (char_name) 15d = bans char for 15 days
     .ban char (char_name) 1w  = bans char for 1 week
