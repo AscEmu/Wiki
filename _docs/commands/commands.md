@@ -75,7 +75,7 @@ all               | a      | Bans account, ip, and character.          | .ban al
 character         | b      | Bans character.                           | .ban character (char_name) (duration) (reason_text)
 ip                | m      | Adds an address to the IP ban table.      | .ban ip (ip_address) (duration) (reason_text)
 
-.unban
+## .unban
 
 .unban Subcommand | Access | Description                               | Usage
 ----------------- | ------ | ----------------------------------------- | ---------------------------------------------------
