@@ -15,19 +15,19 @@ AscEmu LuaEngine (ALE) is a scripting engine that allows server developers to wr
 
 **Advantages:**
 
-- Scripts can be loaded or modified without restarting the server
+- Scripts can be loaded or modified without restarting the server.
 
-- Lua has a simple and lightweight syntax
+- Lua has a simple and lightweight syntax.
 
-- Highly flexible and ideal for custom content development
+- Highly flexible and ideal for custom content development.
 
 **Common Use Cases:**
 
-- NPC dialogues and interactions
+- NPC dialogues and interactions.
 
-- Triggering events when players enter certain areas
+- Triggering events when players enter certain areas.
 
-- Item usage effects
+- Item usage effects.
 
 ## API Documentation
 
