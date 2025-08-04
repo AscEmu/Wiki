@@ -42,6 +42,7 @@ Press **RETURN/ENTER** to continue or any other key to abort.
 brew update
 brew install mysql openssl cmake
 brew config
+```
 
 We need to prepare Mysql now. If you do not have it, download it and install it [here](https://dev.mysql.com/downloads/mysql/).
 
