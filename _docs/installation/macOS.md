@@ -31,7 +31,8 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ![Homebrew_1.png](/Wiki/images/installation.mac/homebrew_1.png)
-Press **ENTER** to continue or any other key to abort.
+
+Press **RETURN/ENTER** to continue or any other key to abort.
 
 
 ### Getting the Files
