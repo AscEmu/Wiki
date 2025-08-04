@@ -12,6 +12,7 @@ layout: single_markdown
 * [Dependencies Setup](#dependencies-setup)
 * [Setup MySQL Environment](#setup-mysql-environment)
 * [How to update MySQL](#how-to-update-mysql)
+* [Getting the Files](#getting-the-files)
 
 ### macOS Guide
 
@@ -74,10 +75,17 @@ The easiest way to update your MySQL is to run ***brew upgrade mysql*** in Termi
 
 Note that in this case, a manual update is far less convenient - it means that you will have to uninstall your current MySQL and then install a new version from scratch.
 
+### Getting the Files
 
+Next, we need to download the AscEmu source files to compile them. Let’s make sure we are in the home directory:
 
+```console
+cd ~
+```
 
-
+```console
+sudo mkdir Development
+```
 
 
 
