@@ -103,7 +103,7 @@ With the -b required_branch, you can select a branch (master / develop).
 {: .info }
 
 ```console
-git clone -b master https://github.com/AscEmu/AscEmu.git
+git clone https://github.com/AscEmu/AscEmu.git --branch master
 ```
 
 ### Compiling
