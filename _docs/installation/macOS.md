@@ -95,8 +95,8 @@ sudo mkdir Development/server
 
 We will create an ***installer***, ***server***, and ***AscEmu*** directory so that we can keep all of our files straight.
 
-As you may have guessed, the installer directory will contain AscEmu source files, and the server directory will contain the actual compiled files (like the libraries and binaries) to run the server.<br />
-The next step is to download the source files, so we will change to our installer/ascemu_code directory and use git to get the files.
+As you may have guessed, the AscEmu directory will contain AscEmu source files, and the server directory will contain the actual compiled files (like the libraries and binaries) to run the server.<br />
+The next step is to download the source files, so we will change to our Development/AscEmu directory and use git to get the files.
 
 ```console
 mkdir ~/Development/AscEmu
