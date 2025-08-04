@@ -10,7 +10,7 @@ layout: single_markdown
 * [Xcode Setup](#xcode-setup)
 * [Homebrew Setup](#homebrew-setup)
 * [Dependencies Setup](#dependencies-setup)
-* [Setup MySQL](#setup-mysql)
+* [](#)
 
 ### macOS Guide
 
@@ -44,7 +44,7 @@ brew install mysql openssl cmake
 brew config
 ```
 
-We need to prepare Mysql now. If you do not have it, download it and install it [here](https://dev.mysql.com/downloads/mysql/).
+
 
 
 
