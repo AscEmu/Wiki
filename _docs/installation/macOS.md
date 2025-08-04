@@ -20,7 +20,7 @@ Please note: this guide is intended for the installation and configuration of ma
 
 ### Xcode Setup
 
-Xcode is available from the App Store for free. Run the following command from the terminal to install the required command line tools:
+[Xcode](https://developer.apple.com/xcode/) is available from the App Store for free. Run the following command from the terminal to install the required command line tools:
 
 ```console
 xcode-select --install
