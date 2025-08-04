@@ -47,13 +47,13 @@ brew config
 
 ### Setup MySQL Environment
 
-1. The installation will take a while. After it's finished, you can start your MySQL server with the following command:
+1.The installation will take a while. After it's finished, you can start your MySQL server with the following command:
 
 ```console
 brew services start mysql
 ```
 
-2. The next step is to run the following command to secure the MYSQL server. Securing the server is hugely important as it will help prevent unauthorized access.
+2.The next step is to run the following command to secure the MYSQL server. Securing the server is hugely important as it will help prevent unauthorized access.
 
 ```console
 mysql_secure_installation
@@ -61,7 +61,7 @@ mysql_secure_installation
 
 This command will trigger a series of prompts that you will need to read carefully. Most of the prompts are straightforward, such as allowing password verification, setting a root password, disallowing remote root access, removing the anonymous user, and more.
 
-3. To access your MYSQL server, enter the following command in the terminal. You will need to ensure that the server is running.
+3.To access your MYSQL server, enter the following command in the terminal. You will need to ensure that the server is running.
 
 ```console
 mysql -u root -p
