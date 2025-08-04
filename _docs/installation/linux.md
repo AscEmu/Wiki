@@ -187,7 +187,7 @@ Next, we need to download the AscEmu source files to compile them.  Let's make s
 cd ~
 ```
 
-I am a fan of organization, so let's make some directories and organize this mess.  We will create an installer, server, and ascemu directory so that we can keep all of our files straight.  The installer directory may seem like a waste for now, but it will come into play later when we install the database.
+I am a fan of organization, so let's make some directories and organize this mess.  We will create an ***installer***, ***server***, and ***ascemu_code*** directory so that we can keep all of our files straight.  The installer directory may seem like a waste for now, but it will come into play later when we install the database.
 
 ```console
 mkdir ~/installer
