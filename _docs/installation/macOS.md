@@ -10,7 +10,7 @@ layout: single_markdown
 * [Xcode Setup](#xcode-setup)
 * [Homebrew Setup](#homebrew-setup)
 * [Dependencies Setup](#dependencies-setup)
-* [Setup MySQL Environment](#setup-mysql-environment)
+* [MySQL Environment Setup](#mysql-environment-setup)
 * [How to update MySQL](#how-to-update-mysql)
 * [Getting the Files](#getting-the-files)
 
@@ -43,7 +43,7 @@ brew install mysql openssl cmake
 brew config
 ```
 
-### Setup MySQL Environment
+### MySQL Environment Setup
 
 1.The installation will take a while. After it's finished, you can start your MySQL server with the following command:
 
@@ -87,7 +87,7 @@ cd ~
 sudo mkdir Development
 ```
 
-
+We will create an installer, server, and ascemu directory so that we can keep all of our files straight.
 
 
 
