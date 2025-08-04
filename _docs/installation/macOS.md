@@ -121,13 +121,13 @@ cd ~/Development/AscEmu_build
 gcc
 
 ```console
-cmake -DCMAKE_INSTALL_PREFIX=~/Development/Server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../Development/AscEmu
+cmake -DCMAKE_INSTALL_PREFIX=~/Development/Server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ~/Development/AscEmu
 ```
 
 clang
 
 ```console
-cmake -DCMAKE_C_COMPILER= -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREFIX=~/Development/Server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../Development/AscEmu 
+cmake -DCMAKE_C_COMPILER= -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREFIX=~/Development/Server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ~/Development/AscEmu 
 ```
 
 <pre>
