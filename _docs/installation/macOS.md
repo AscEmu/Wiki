@@ -87,15 +87,15 @@ cd ~
 sudo mkdir Development
 ```
 ```console
-sudo mkdir Development/installer
+sudo mkdir Development/AscEmu_bin
 ```
 ```console
-sudo mkdir Development/server
+sudo mkdir Development/Server
 ```
 
-We will create an ***installer***, ***server***, and ***AscEmu*** directory so that we can keep all of our files straight.
+We will create an ***AscEmu_bin***, ***Server***, and ***AscEmu*** directory so that we can keep all of our files straight.
 
-As you may have guessed, the AscEmu directory will contain AscEmu source files, and the server directory will contain the actual compiled files (like the libraries and binaries) to run the server.<br />
+As you may have guessed, the AscEmu directory will contain AscEmu source files, and the Server directory will contain the actual compiled files (like the libraries and binaries) to run the Server.<br />
 The next step is to download the source files, so we will change to our Development/AscEmu directory and use git to get the files.
 
 ```console
