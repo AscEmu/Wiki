@@ -28,14 +28,11 @@ xcode-select --install
 
 ### Homebrew Setup
 
+[Homebrew](https://brew.sh/) — The Missing Package Manager for macOS.
+
 ```console
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-![Homebrew_1.png](/Wiki/images/installation.mac/homebrew_1.png)
-
-Press **RETURN/ENTER** to continue or any other key to abort.
-
 
 ### Dependencies Setup
 
