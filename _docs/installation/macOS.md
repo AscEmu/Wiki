@@ -50,7 +50,7 @@ brew config
 brew services start mysql
 ```
 
-2.The next step is to run the following command to secure the MYSQL server. Securing the server is hugely important as it will help prevent unauthorized access.
+2.The next step is to run the following command to secure the MySQL server. Securing the server is hugely important as it will help prevent unauthorized access.
 
 ```console
 mysql_secure_installation
@@ -58,7 +58,7 @@ mysql_secure_installation
 
 This command will trigger a series of prompts that you will need to read carefully. Most of the prompts are straightforward, such as allowing password verification, setting a root password, disallowing remote root access, removing the anonymous user, and more.
 
-3.To access your MYSQL server, enter the following command in the terminal. You will need to ensure that the server is running.
+3.To access your MySQL server, enter the following command in the terminal. You will need to ensure that the server is running.
 
 ```console
 mysql -u root -p
@@ -66,7 +66,7 @@ mysql -u root -p
 
 You will need to enter your password after entering the command above. It is the same password that you set in step 2.
 
-You can issue MYSQL commands once you are in the MYSQL prompt (***mysql>***). If you want to return to ***bash*** simply enter ***exit*** or ***\q***.
+You can issue MySQL commands once you are in the MySQL prompt (***mysql>***). If you want to return to ***bash*** simply enter ***exit*** or ***\q***.
 
 ### How to update MySQL
 
