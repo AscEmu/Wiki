@@ -13,6 +13,7 @@ layout: single_markdown
 * [MySQL Environment Setup](#mysql-environment-setup)
 * [How to update MySQL](#how-to-update-mysql)
 * [Getting the Files](#getting-the-files)
+* [Compiling](#compiling)
 
 ### macOS Guide
 
@@ -96,29 +97,53 @@ As you may have guessed, the AscEmu directory will contain AscEmu source files, 
 The next step is to download the source files, so we will change to our Development/AscEmu directory and use git to get the files.
 
 ```console
-mkdir ~/Development/AscEmu
-cd ~/Development/AscEmu
+cd ~/Development
 ```
 With the -b required_branch, you can select a branch (master / develop).
 {: .info }
 
 ```console
-git clone -b master https://github.com/AscEmu/AscEmu.git ~/Development/AscEmu
+git clone -b master https://github.com/AscEmu/AscEmu.git
 ```
 
+### Compiling
 
+Once we have the source files we can start compiling AscEmu. The first step is to create a configuration file that will be used to pass the variables to the make file so that AscEmu will compile properly.
 
+```console
+mkdir ~/Development/AscEmu_build
+```
 
+```console
+cd ~/Development/AscEmu_build
+```
 
+gcc
 
+```console
+cmake -DCMAKE_INSTALL_PREFIX=~/Development/Server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../Development/AscEmu
+```
 
+clang
 
+```console
+cmake -DCMAKE_C_COMPILER= -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREFIX=~/Development/Server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../Development/AscEmu 
+```
 
+<pre>
+-DCMAKE_INSTALL_PREFIX = the location where AscEmu binaries are installed
+-DCMAKE_BUILD_TYPE = choose from Release or Debug mode
+-DBUILD_WITH_WARNINGS = 0 (disabled) or 1 (enabled)
+-DBUILD_TOOLS = 0 (disabled) or 1 (enabled)
+-DASCEMU_VERSION = choose from Classic, TBC, WotLK, Cata or MoP
+-DAE_USE_PCH = 0 (disabled) or 1 (enabled) - Precompiled headers are enabled by default
+</pre>
 
+Then we now simply invoke make and make install to install to the prefix directory.
 
-
-
-
+```console
+make && make install
+```
 
 
 
