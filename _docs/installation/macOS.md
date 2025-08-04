@@ -7,7 +7,7 @@ layout: single_markdown
 
 ### Requirements
 
-* [xcode Setup](#xcode-setup)
+* [Xcode Setup](#xcode-setup)
 * [Homebrew Setup](#homebrew-setup)
 * [Getting the Files](#getting-the-files) soon
 * [Setup MySQL](#setup-mysql)
