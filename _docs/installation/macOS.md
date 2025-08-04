@@ -17,7 +17,7 @@ layout: single_markdown
 Please note: this guide is intended for the installation and configuration of macOS on systems with Intel processors.
 {: .success }
 
-#### Xcode Setup
+### Xcode Setup
 
 Xcode is available from the App Store for free. Run the following command from the terminal to install the required command line tools:
 
@@ -25,7 +25,7 @@ Xcode is available from the App Store for free. Run the following command from t
 xcode-select --install
 ```
 
-#### Homebrew Setup
+### Homebrew Setup
 
 ```console
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -34,9 +34,9 @@ xcode-select --install
 Press **ENTER** to continue or any other key to abort.
 
 
-#### Getting the Files
+### Getting the Files
 
-#### Setup MySQL
+### Setup MySQL
 
 We need to prepare Mysql now. If you do not have it, download it and install it [here](https://dev.mysql.com/downloads/mysql/).
 
