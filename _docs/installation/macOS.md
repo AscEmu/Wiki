@@ -9,7 +9,7 @@ layout: single_markdown
 
 * [Xcode Setup](#xcode-setup)
 * [Homebrew Setup](#homebrew-setup)
-* [Getting the Files](#getting-the-files) soon
+* [Dependencies Setup](#dependencies-setup)
 * [Setup MySQL](#setup-mysql)
 
 ### macOS Guide
@@ -30,14 +30,18 @@ xcode-select --install
 ```console
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
 ![Homebrew_1.png](/Wiki/images/installation.mac/homebrew_1.png)
 
 Press **RETURN/ENTER** to continue or any other key to abort.
 
 
-### Getting the Files
+### Dependencies Setup
 
-### Setup MySQL
+```console
+brew update
+brew install mysql openssl cmake
+brew config
 
 We need to prepare Mysql now. If you do not have it, download it and install it [here](https://dev.mysql.com/downloads/mysql/).
 
