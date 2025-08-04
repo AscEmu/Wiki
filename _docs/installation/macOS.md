@@ -47,38 +47,29 @@ brew config
 
 ### Setup MySQL Environment
 
-The installation will take a while. After it's finished, you can start your MySQL server with the following command:
+1. The installation will take a while. After it's finished, you can start your MySQL server with the following command:
 
 ```console
 brew services start mysql
 ```
 
-To secure your MySQL with a root password, run the following:
+2. The next step is to run the following command to secure the MYSQL server. Securing the server is hugely important as it will help prevent unauthorized access.
 
 ```console
 mysql_secure_installation
 ```
 
-***MySQL*** can be further configured from Terminal. For instance, it allows you to manage users. To create a new database user from Terminal and grant all privileges on all databases, enter the following command, replace "username" with the user you want to create, and replace "password" with the user's password.
+This command will trigger a series of prompts that you will need to read carefully. Most of the prompts are straightforward, such as allowing password verification, setting a root password, disallowing remote root access, removing the anonymous user, and more.
+
+3. To access your MYSQL server, enter the following command in the terminal. You will need to ensure that the server is running.
 
 ```console
-CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
+mysql -u root -p
 ```
 
-You may also need to grant specific permissions. For instance, use the following command to explicitly grant the SELECT permission to the user.
+You will need to enter your password after entering the command above. It is the same password that you set in step 2.
 
-```console
-GRANT SELECT ON *.* TO 'username'@'localhost'
-```
-
-If you want to narrow down user access to a specific database, enter the following command and replace "database" with the name of your database.
-
-```console
-GRANT ALL PRIVILEGES ON database.* TO 'username'@'localhost';
-```
-
-To enable remote access to MySQL, we suggest creating a user with access from a specific IP address ('username'@'192.172.1.111') or from any host ('username'@'%').
+You can issue MYSQL commands once you are in the MYSQL prompt (***mysql>***). If you want to return to ***bash*** simply enter ***exit*** or ***\q***.
 
 ### How to update MySQL
 
