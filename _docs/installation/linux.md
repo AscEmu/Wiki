@@ -251,7 +251,7 @@ Then we now simply invoke make and make install to install to the prefix directo
 make && make install
 ```
 
-If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1.  For example, with 2 cores x would be 3.<br />
+If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1. For example, with 2 cores x would be 3.<br />
 If you want to use all your cores just use a large number like 32.
 {: .info }
 
@@ -266,7 +266,7 @@ If this last step is successful then you are ready to configure your server and 
 
 ### DBC and Map Files
 
-Next you will transfer the DBC and map files over to your server.
+Next you will transfer the ***DBC*** and ***Map*** files over to your server.
 
 Use Wine if you must but preferably a Windows machine to extract the DBC and map files.
 {: .info }
