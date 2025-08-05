@@ -266,7 +266,7 @@ If this last step is successful then you are ready to configure your server and 
 
 ### DBC and Map Files
 
-Next you will transfer the ***DBC*** and ***Map*** files over to your server.
+Next you will transfer the ***DBC*** and ***Maps*** files over to your server.
 
 Use Wine if you must but preferably a Windows machine to extract the DBC and map files.
 {: .info }
