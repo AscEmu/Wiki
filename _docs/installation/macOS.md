@@ -15,6 +15,7 @@ layout: single_markdown
 * [Getting the Files](#getting-the-files)
 * [Compiling](#compiling)
 * [DBC and Map files](#dbc-and-map-files)
+* [Logon Database](#logon-database)
 
 ### macOS Guide
 
@@ -167,7 +168,18 @@ Next you will transfer the ***DBC*** and ***Map*** files over to your server.
 Use Wine if you must but preferably a Windows machine to extract the DBC and Map files.
 {: .info }
 
+```console
+mkdir ~/Development/Server/dbc
+```
 
+```console
+mkdir ~/Development/Server/maps
+```
+
+Place the ***DBC*** and map files in their respective directories above.<br />
+Extracting ***Vmaps*** and ***MMaps*** files is not required but is **highly** recommended.
+
+### Logon Database
 
 
 
