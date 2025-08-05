@@ -100,7 +100,7 @@ The next step is to download the source files, so we will change to our Developm
 ```console
 cd ~/Development
 ```
-With the -b required_branch, you can select a branch (master / develop).
+With the --branch required_branch, you can select a branch (master / develop).
 {: .info }
 
 ```console
@@ -146,9 +146,13 @@ Then we now simply invoke make and make install to install to the prefix directo
 make && make install
 ```
 
+If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1. For example, with 2 cores x would be 3.
+If you want to use all your cores just use a large number like 32.
+{: .info }
 
-
-
+```console
+make -j x && make install
+```
 
 
 
