@@ -163,9 +163,10 @@ If this last step is successful then you are ready to configure your server and 
 
 ### DBC and Map Files
 
-Next you will transfer the ***DBC*** and ***Map*** files over to your server.
 
-Use Wine if you must but preferably a Windows machine to extract the DBC and Map files.
+Next you will transfer the ***DBC*** and ***Maps*** files over to your server.
+
+Use Wine if you must but preferably a Windows machine to extract the DBC and map files.
 {: .info }
 
 ```console
@@ -181,9 +182,13 @@ Extracting ***Vmaps*** and ***MMaps*** files is not required but is **highly** r
 
 ### Logon Database
 
+Next you must apply base logon database manually because there is one column you must change before running your server.
 
+Login to MySQL. Replace your_username with the username you used in “Setup MySQL Environment” section.
 
-
+```console
+mysql -u your_username -p
+```
 
 
 
