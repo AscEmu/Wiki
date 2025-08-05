@@ -70,11 +70,11 @@ mysql -u root -p
 
 You will need to enter your password after entering the command above. It is the same password that you set in step 2.
 
-You can issue MySQL commands once you are in the MySQL prompt (***mysql>***). If you want to return to ***bash*** simply enter ***exit*** or ***\q***.
+You can issue MySQL commands once you are in the MySQL prompt (**mysql>**). If you want to return to **bash** simply enter **exit** or **\q**.
 
 ### How to update MySQL
 
-The easiest way to update your MySQL is to run ***brew upgrade mysql*** in Terminal.
+The easiest way to update your MySQL is to run **brew upgrade mysql** in Terminal.
 
 Note that in this case, a manual update is far less convenient - it means that you will have to uninstall your current MySQL and then install a new version from scratch.
 
@@ -86,7 +86,7 @@ Next, we need to download the AscEmu source files to compile them. Let’s make 
 cd ~
 ```
 
-We will create an ***Server***, and ***AscEmu*** directory so that we can keep all of our files straight.
+We will create an **Server**, and **AscEmu** directory so that we can keep all of our files straight.
 
 ```console
 sudo mkdir Development
@@ -164,7 +164,7 @@ If this last step is successful then you are ready to configure your server and 
 ### DBC and Map Files
 
 
-Next you will transfer the ***DBC*** and ***Maps*** files over to your server.
+Next you will transfer the **DBC** and **Maps** files over to your server.
 
 Use Wine if you must but preferably a Windows machine to extract the DBC and map files.
 {: .info }
@@ -177,8 +177,8 @@ mkdir ~/Development/Server/dbc
 mkdir ~/Development/Server/maps
 ```
 
-Place the ***DBC*** and map files in their respective directories above.<br />
-Extracting ***Vmaps*** and ***MMaps*** files is not required but is **highly** recommended.
+Place the **DBC** and map files in their respective directories above.<br />
+Extracting **Vmaps** and **MMaps** files is not required but is **highly** recommended.
 
 ### Logon Database
 
