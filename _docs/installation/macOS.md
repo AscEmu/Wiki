@@ -70,6 +70,24 @@ mysql -u root -p
 
 You will need to enter your password after entering the command above. It is the same password that you set in step 2.
 
+4.Let's create the databases. Again replace *your_username* with the username you used in the previous step.
+
+```console
+CREATE DATABASE `ascemu_world`;
+GRANT ALL PRIVILEGES ON ascemu_world.* TO 'your_username'@'%';
+CREATE DATABASE `ascemu_char`;
+GRANT ALL PRIVILEGES ON ascemu_char.* TO 'your_username'@'%';
+CREATE DATABASE `ascemu_logon`;
+GRANT ALL PRIVILEGES ON ascemu_logon.* TO 'your_username'@'%';
+FLUSH PRIVILEGES;
+```
+
+Check create the databases.
+
+```console
+SHOW DATABASES;
+```
+
 You can issue MySQL commands once you are in the MySQL prompt (**mysql>**). If you want to return to **bash** simply enter **exit** or **\q**.
 
 ### How to update MySQL
@@ -142,18 +160,18 @@ cmake -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREF
 -DAE_USE_PCH = 0 (disabled) or 1 (enabled) - Precompiled headers are enabled by default
 </pre>
 
-Then we now simply invoke make and make install to install to the prefix directory.
+Then we now simply invoke **make and make install** to install to the prefix directory.
 
 ```console
 make && make install
 ```
 
-If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1. For example, with 2 cores x would be 3.<br />
-If you want to use all your cores just use a large number like 32.
+It's common to use -j$(($(sysctl -n hw.ncpu) + 1)) — which adds one extra thread beyond the number of CPU cores - to maximize CPU usage.<br />
+However, this is only recommended if your system has good thermal management and cooling.
 {: .info }
 
 ```console
-make -j x && make install
+make -j$(sysctl -n hw.ncpu) && make install
 ```
 
 This will not effect your server, this will only tell “make” to compile using all of your available CPU power.
@@ -162,7 +180,6 @@ This will not effect your server, this will only tell “make” to compile usin
 If this last step is successful then you are ready to configure your server and get on your way.
 
 ### DBC and Map Files
-
 
 Next you will transfer the **DBC** and **Maps** files over to your server.
 
@@ -184,7 +201,7 @@ Extracting **Vmaps** and **MMaps** files is not required but is **highly** recom
 
 Next you must apply base logon database manually because there is one column you must change before running your server.
 
-Login to MySQL. Replace your_username with the username you used in “Setup MySQL Environment” section.
+Login to MySQL. Replace your_username with the username you used in “MySQL Environment Setup” section.
 
 ```console
 mysql -u your_username -p

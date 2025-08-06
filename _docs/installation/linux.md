@@ -113,8 +113,15 @@ GRANT ALL PRIVILEGES ON ascemu_char.* TO 'your_username'@'%';
 CREATE DATABASE `ascemu_logon`;
 GRANT ALL PRIVILEGES ON ascemu_logon.* TO 'your_username'@'%';
 FLUSH PRIVILEGES;
-quit
 ```
+
+Check create the databases.
+
+```console
+SHOW DATABASES;
+```
+
+You can issue MySQL commands once you are in the MySQL prompt (**mysql>**). If you want to return to **bash** simply enter **exit** or **\q**.
 
 Optionally if you wish to have remote access to your new MySQL / MariaDB server, open up the MySQL configuration file with your favourite text editor.
 
