@@ -279,8 +279,8 @@ mkdir ~/server/dbc
 mkdir ~/server/maps
 ```
 
-Place the DBC and map files in their respective directories above.<br />
-Extracting Vmap and Mmap files is not required but is **highly** recommended.
+Place the **DBC** and map files in their respective directories above.<br />
+Extracting **Vmaps** and **MMaps** files is not required but is **highly** recommended.
 
 ### Logon Database
 
