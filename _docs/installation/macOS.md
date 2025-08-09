@@ -338,6 +338,3 @@ setaccpermission <accountname> <permission>
 example: setaccpermission admin az
 
 **For further information about access levels, have a look to this page [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
-
-Note: This how-to is incomplete because of these murlocs, they turned everything upside down.
-
