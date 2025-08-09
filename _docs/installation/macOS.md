@@ -119,7 +119,7 @@ As you may have guessed, the AscEmu directory will contain AscEmu source files, 
 The next step is to download the source files, so we will change to our Development/AscEmu directory and use git to get the files.
 
 ```console
-cd ~/Development
+sudo cd ~/Development
 ```
 With the --branch required_branch, you can select a branch (master / develop).
 {: .info }
@@ -133,7 +133,7 @@ git clone https://github.com/AscEmu/AscEmu.git --branch master
 Once we have the source files we can start compiling AscEmu. The first step is to create a configuration file that will be used to pass the variables to the make file so that AscEmu will compile properly.
 
 ```console
-mkdir ~/Development/AscEmu_build
+sudo mkdir ~/Development/AscEmu_build
 ```
 
 ```console
@@ -188,11 +188,11 @@ Use Wine if you must but preferably a Windows machine to extract the DBC and map
 {: .info }
 
 ```console
-mkdir ~/Development/Server/dbc
+sudo mkdir ~/Development/Server/dbc
 ```
 
 ```console
-mkdir ~/Development/Server/maps
+sudo mkdir ~/Development/Server/maps
 ```
 
 Place the **DBC** and map files in their respective directories above.<br />
