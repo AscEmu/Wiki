@@ -257,9 +257,9 @@ All future world database updates are added to AscEmu base repository so you don
 All that is left to do is to create the /configs/ directory and move the configuration files there.
 
 ```console
-cd ~/Development/Server  
+cd ~/Development/Server
 sudo mkdir configs
-mv ~/Development/AscEmu/configs/*.conf ~/Development/Server/configs
+sudo mv ~/Development/AscEmu/configs/*.conf ~/Development/Server/configs
 ```
 
 Now your configuration files are in the ~/Development/Server/configs folder ready to be edited, and used by the AscEmu server.
@@ -268,8 +268,8 @@ Use an editor of your choice. Make sure to read all config files at least once, 
 
 ```console
 cd ~/Development/Server/configs
-TextEdit logon.conf
-TextEdit world.conf
+cat logon.conf
+cat world.conf
 ```
 
 #### Configuring logon.conf
@@ -278,10 +278,10 @@ Enter your MySQL information you created in MySQL Setup at the the following sec
 
 ```console
 <LogonDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_logon"
-Port     = "3306">
+               Username = "ascemu"
+               Password = "ascemu"
+               Name     = "ascemu_logon"
+               Port     = "3306">
 ```
 
 #### Configuring world.conf
@@ -290,16 +290,16 @@ Enter your MySQL information you created in MySQL Setup at the the following sec
 
 ```console
 <WorldDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_world"
-Port     = "3306">
+               Username = "ascemu"
+               Password = "ascemu"
+               Name     = "ascemu_world"
+               Port     = "3306">
 
 <CharacterDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_char"
-Port     = "3306">
+                   Username = "ascemu"
+                   Password = "ascemu"
+                   Name     = "ascemu_char"
+                   Port     = "3306">
 ```
 
 Make sure RemotePassword matches the password in realms table in logon database that you set in "Logon Database" section.
@@ -312,6 +312,12 @@ Make sure RemotePassword matches the password in realms table in logon database 
              DisablePings   = "0"
              RemotePassword = "change_me_logon">
 ```
+
+That's it! You should now have a fully functioning copy of AscEmu.<br />
+When you first time run the binaries your databases are automatically populated and updated to latest version. This process is fully automated. You can read about it [more here.](https://ascemu.github.io/Wiki/database/auto_update/)
+
+Applying especially world database or some large updates can take some time.
+{: .info }
 
 ### Create an Account
 
