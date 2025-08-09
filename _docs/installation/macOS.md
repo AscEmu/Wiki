@@ -16,6 +16,7 @@ layout: single_markdown
 * [Compiling](#compiling)
 * [DBC and Map files](#dbc-and-map-files)
 * [Logon Database](#logon-database)
+* [World Database](#world-database)
 
 ### macOS Guide
 
@@ -222,12 +223,28 @@ UPDATE realms SET password="your_password" WHERE id=1;
 quit
 ```
 
+### World Database
 
+AscEmu supports only OneDB world database which is maintained by AscEmu team. OneDB, as the name suggests, has all versions (Classic - Mop) packed into a single database. ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
+{: .info }
 
+First, switch back to your installer folder and use git to clone the OneDB repository.
 
+```console
+cd ~/Development
+git clone https://github.com/AscEmu/OneDB.git OneDB
+```
 
+Let's copy the world database to server directory and unzip it.
 
+```console
+cp OneDB/world_base.zip ~/Development/Server/sql/world/
+cd ~/Development/Server/sql/world
+unzip world_base.zip
+```
 
+World database is now ready to be applied.<br />
+All future world database updates are added to AscEmu base repository so you don't need to update your OneDB repository.
 
 
 
