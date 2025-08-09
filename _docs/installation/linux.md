@@ -363,10 +363,10 @@ Enter your MySQL information you created in MySQL Setup at the the following sec
 
 ```console
 <LogonDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_logon"
-Port     = "3306">
+               Username = "ascemu"
+               Password = "ascemu"
+               Name     = "ascemu_logon"
+               Port     = "3306">
 ```
 
 #### Configuring world.conf
@@ -375,16 +375,16 @@ Enter your MySQL information you created in MySQL Setup at the the following sec
 
 ```console
 <WorldDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_world"
-Port     = "3306">
+               Username = "ascemu"
+               Password = "ascemu"
+               Name     = "ascemu_world"
+               Port     = "3306">
 
 <CharacterDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_char"
-Port     = "3306">
+                   Username = "ascemu"
+                   Password = "ascemu"
+                   Name     = "ascemu_char"
+                   Port     = "3306">
 ```
 
 Make sure RemotePassword matches the password in realms table in logon database that you set in "Logon Database" section.
