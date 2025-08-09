@@ -211,7 +211,7 @@ Select logon database and execute SQL file.
 
 ```console
 use ascemu_logon;
-source ~/Development/Server/sql/logon/logon_base.sql
+source ~/Development/AscEmu/sql/logon/logon_base.sql
 ```
 
 Now you must set a password for logonserver. This is an unique password that prevents unauthorized worldservers to register with your logonserver.<br />
