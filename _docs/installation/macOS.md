@@ -102,7 +102,7 @@ Note that in this case, a manual update is far less convenient - it means that y
 Next, we need to download the AscEmu source files to compile them. Let’s make sure we are in the home directory:
 
 ```console
-cd ~
+sudo cd ~
 ```
 
 We will create an **Server**, and **AscEmu** directory so that we can keep all of our files straight.
@@ -137,7 +137,7 @@ sudo mkdir ~/Development/AscEmu_build
 ```
 
 ```console
-cd ~/Development/AscEmu_build
+sudo cd ~/Development/AscEmu_build
 ```
 
 gcc
@@ -231,7 +231,7 @@ AscEmu supports only OneDB world database which is maintained by AscEmu team. On
 First, switch back to your installer folder and use git to clone the OneDB repository.
 
 ```console
-cd ~/Development
+sudo cd ~/Development
 git clone https://github.com/AscEmu/OneDB.git OneDB
 ```
 
@@ -241,7 +241,7 @@ Let's copy the world database to server directory and unzip it.
 sudo mkdir ~/Development/Server/sql
 sudo mkdir ~/Development/Server/sql/world/
 cp OneDB/world_base.zip ~/Development/Server/sql/world/
-cd ~/Development/Server/sql/world
+sudo cd ~/Development/Server/sql/world
 unzip world_base.zip
 ```
 
