@@ -18,6 +18,9 @@ layout: single_markdown
 * [Logon Database](#logon-database)
 * [World Database](#world-database)
 
+
+* [Create an Account](#create-an-account)
+
 ### macOS Guide
 
 Please note: this guide is intended for the installation and configuration of macOS on systems with Intel processors.
@@ -262,6 +265,25 @@ All future world database updates are added to AscEmu base repository so you don
 
 
 
+### Create an Account
+
+**1.** Go to your **world** console and create an account.
+
+```console
+createaccount <accountname> <password>
+```
+
+example: createaccount admin adminpassword
+
+**2.** Change permission(gmlevel) in your **world** console:
+
+```console
+setaccpermission <accountname> <permission>
+```
+
+example: setaccpermission admin az
+
+**For further information about access levels, have a look to this page [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
 
 
 
