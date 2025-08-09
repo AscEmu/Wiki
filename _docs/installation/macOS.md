@@ -51,7 +51,6 @@ brew config
 ```
 
 Alternative GUI installation: [MySQL](https://dev.mysql.com/downloads/mysql/), [CMake](https://cmake.org/download/).
-{: .info }
 
 ### MySQL Environment Setup
 
