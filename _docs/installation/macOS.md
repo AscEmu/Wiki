@@ -207,6 +207,20 @@ Login to MySQL. Replace your_username with the username you used in “MySQL Env
 mysql -u your_username -p
 ```
 
+Select logon database and execute SQL file.
+
+```console
+use ascemu_logon;
+source ~/Development/Server/sql/logon/logon_base.sql
+```
+
+Now you must set a password for logonserver. This is an unique password that prevents unauthorized worldservers to register with your logonserver.<br />
+Memorize the password because you'll need it later.
+
+```console
+UPDATE realms SET password="your_password" WHERE id=1;
+quit
+```
 
 
 
