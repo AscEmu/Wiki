@@ -17,8 +17,7 @@ layout: single_markdown
 * [DBC and Map files](#dbc-and-map-files)
 * [Logon Database](#logon-database)
 * [World Database](#world-database)
-
-
+* [Configuration Files](#configuration-files)
 * [Create an Account](#create-an-account)
 
 ### macOS Guide
@@ -253,16 +252,66 @@ sudo unzip world_base.zip
 World database is now ready to be applied.<br />
 All future world database updates are added to AscEmu base repository so you don't need to update your OneDB repository.
 
+### Configuration Files
 
+All that is left to do is to create the /configs/ directory and move the configuration files there.
 
+```console
+cd ~/Development/Server  
+sudo mkdir configs
+mv ~/Development/AscEmu/configs/*.conf ~/Development/Server/configs
+```
 
+Now your configuration files are in the ~/Development/Server/configs folder ready to be edited, and used by the AscEmu server.
 
+Use an editor of your choice. Make sure to read all config files at least once, so you know what configuration is where and you don't end up with an administrator account with default password you didn't know about ;)
 
+```console
+cd ~/Development/Server/configs
+TextEdit logon.conf
+TextEdit world.conf
+```
 
+#### Configuring logon.conf
 
+Enter your MySQL information you created in MySQL Setup at the the following section.
 
+```console
+<LogonDatabase Hostname = "localhost"
+Username = "ascemu"
+Password = "ascemu"
+Name     = "ascemu_logon"
+Port     = "3306">
+```
 
+#### Configuring world.conf
 
+Enter your MySQL information you created in MySQL Setup at the the following section.
+
+```console
+<WorldDatabase Hostname = "localhost"
+Username = "ascemu"
+Password = "ascemu"
+Name     = "ascemu_world"
+Port     = "3306">
+
+<CharacterDatabase Hostname = "localhost"
+Username = "ascemu"
+Password = "ascemu"
+Name     = "ascemu_char"
+Port     = "3306">
+```
+
+Make sure RemotePassword matches the password in realms table in logon database that you set in "Logon Database" section.
+
+```console
+<LogonServer Address        = "127.0.0.1"
+             Port           = "8093"
+             Name           = "Default Logon"
+             RealmCount     = "1"
+             DisablePings   = "0"
+             RemotePassword = "change_me_logon">
+```
 
 ### Create an Account
 
@@ -284,12 +333,3 @@ example: setaccpermission admin az
 
 **For further information about access levels, have a look to this page [GM Access Levels](/Wiki/docs/commands/access_levels/ "GM Access Levels")**
 
-
-
-
-
-
-
-
-
-Note: This how-to is incomplete because of these murlocs, they turned everything upside down.
