@@ -47,6 +47,9 @@ brew install mysql openssl cmake unzip
 brew config
 ```
 
+Alternative GUI installation: [MySQL](https://dev.mysql.com/downloads/mysql/), [CMake](https://cmake.org/download/).
+{: .info }
+
 ### MySQL Environment Setup
 
 1.The installation will take a while. After it's finished, you can start your MySQL server with the following command:
