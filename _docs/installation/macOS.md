@@ -43,7 +43,7 @@ xcode-select --install
 
 ```console
 brew update
-brew install mysql openssl cmake
+brew install mysql openssl cmake unzip
 brew config
 ```
 
@@ -238,6 +238,8 @@ git clone https://github.com/AscEmu/OneDB.git OneDB
 Let's copy the world database to server directory and unzip it.
 
 ```console
+sudo mkdir ~/Development/Server/sql
+sudo mkdir ~/Development/Server/sql/world/
 cp OneDB/world_base.zip ~/Development/Server/sql/world/
 cd ~/Development/Server/sql/world
 unzip world_base.zip
