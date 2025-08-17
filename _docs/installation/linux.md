@@ -113,8 +113,15 @@ GRANT ALL PRIVILEGES ON ascemu_char.* TO 'your_username'@'%';
 CREATE DATABASE `ascemu_logon`;
 GRANT ALL PRIVILEGES ON ascemu_logon.* TO 'your_username'@'%';
 FLUSH PRIVILEGES;
-quit
 ```
+
+Check create the databases.
+
+```console
+SHOW DATABASES;
+```
+
+You can issue MySQL commands once you are in the MySQL prompt (**mysql>**). If you want to return to **bash** simply enter **exit** or **\q**.
 
 Optionally if you wish to have remote access to your new MySQL / MariaDB server, open up the MySQL configuration file with your favourite text editor.
 
@@ -187,7 +194,7 @@ Next, we need to download the AscEmu source files to compile them.  Let's make s
 cd ~
 ```
 
-I am a fan of organization, so let's make some directories and organize this mess.  We will create an ***installer***, ***server***, and ***ascemu_code*** directory so that we can keep all of our files straight.  The installer directory may seem like a waste for now, but it will come into play later when we install the database.
+I am a fan of organization, so let's make some directories and organize this mess.  We will create an **installer**, **server**, and **ascemu_code** directory so that we can keep all of our files straight.  The installer directory may seem like a waste for now, but it will come into play later when we install the database.
 
 ```console
 mkdir ~/installer
@@ -251,7 +258,7 @@ Then we now simply invoke make and make install to install to the prefix directo
 make && make install
 ```
 
-If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1.  For example, with 2 cores x would be 3.<br />
+If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1. For example, with 2 cores x would be 3.<br />
 If you want to use all your cores just use a large number like 32.
 {: .info }
 
@@ -266,7 +273,7 @@ If this last step is successful then you are ready to configure your server and 
 
 ### DBC and Map Files
 
-Next you will transfer the DBC and map files over to your server.
+Next you will transfer the **DBC** and **Maps** files over to your server.
 
 Use Wine if you must but preferably a Windows machine to extract the DBC and map files.
 {: .info }
@@ -279,8 +286,8 @@ mkdir ~/server/dbc
 mkdir ~/server/maps
 ```
 
-Place the DBC and map files in their respective directories above.<br />
-Extracting Vmap and Mmap files is not required but is **highly** recommended.
+Place the **DBC** and map files in their respective directories above.<br />
+Extracting **Vmaps** and **MMaps** files is not required but is **highly** recommended.
 
 ### Logon Database
 
@@ -356,10 +363,10 @@ Enter your MySQL information you created in MySQL Setup at the the following sec
 
 ```console
 <LogonDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_logon"
-Port     = "3306">
+               Username = "ascemu"
+               Password = "ascemu"
+               Name     = "ascemu_logon"
+               Port     = "3306">
 ```
 
 #### Configuring world.conf
@@ -368,16 +375,16 @@ Enter your MySQL information you created in MySQL Setup at the the following sec
 
 ```console
 <WorldDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_world"
-Port     = "3306">
+               Username = "ascemu"
+               Password = "ascemu"
+               Name     = "ascemu_world"
+               Port     = "3306">
 
 <CharacterDatabase Hostname = "localhost"
-Username = "ascemu"
-Password = "ascemu"
-Name     = "ascemu_char"
-Port     = "3306">
+                   Username = "ascemu"
+                   Password = "ascemu"
+                   Name     = "ascemu_char"
+                   Port     = "3306">
 ```
 
 Make sure RemotePassword matches the password in realms table in logon database that you set in "Logon Database" section.
