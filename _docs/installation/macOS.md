@@ -314,7 +314,7 @@ Make sure RemotePassword matches the password in realms table in logon database 
 ```
 
 That's it! You should now have a fully functioning copy of AscEmu.<br />
-When you first time run the binaries your databases are automatically populated and updated to latest version. This process is fully automated. You can read about it [github.svg](/Wiki/images/mark-github.svg) more here.](https://ascemu.github.io/Wiki/database/auto_update/)
+When you first time run the binaries your databases are automatically populated and updated to latest version. This process is fully automated. You can read about it ![github.svg](/Wiki/images/mark-github.svg) [more here.](https://ascemu.github.io/Wiki/database/auto_update/).
 
 Applying especially world database or some large updates can take some time.
 {: .info }
