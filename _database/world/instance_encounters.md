@@ -22,7 +22,7 @@ Field                                                          | Type         | 
 
 ### entry
 
-The entry of the creature from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties")
+The entry of the encounter from DungeonEncounterList.dbc
 
 ### creditType
 
