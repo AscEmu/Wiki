@@ -341,7 +341,7 @@ The display ID of the item.
 32         =    ITEM_FLAG_INDESTRUCTIBLE   = 0x20,     // can't destruct this item
 64         =    ITEM_FLAG_UNKNOWN_07       = 0x40,     // many consumables
 128        =    ITEM_FLAG_UNKNOWN_08       = 0x80,     // only 1 wand uses this
-256        =    ITEM_FLAG_UNKNOWN_09       = 0x100,    // some wands & relics
+256        =    ITEM_FLAG_BOP_TRADEABLE       = 0x100,    // Allows trading soulbound items
 512        =    ITEM_FLAG_WRAP_GIFT        = 0x200,
 1024       =    ITEM_FLAG_CREATE_ITEM      = 0x400,    // probably worng
 2048       =    ITEM_FLAG_FREE_FOR_ALL     = 0x800,    // can be looted ffa
@@ -358,10 +358,10 @@ The display ID of the item.
 4194304    =    ITEM_FLAG_THROWN           = 0x400000,
 8388608    =    ITEM_FLAG_SHAPESHIFT_OK    = 0x800000,
 16777216   =    ITEM_FLAG_UNKNOWN_25       = 0x1000000,
-33554432   =    ITEM_FLAG_UNKNOWN_26       = 0x2000000,
-67108864   =    ITEM_FLAG_UNKNOWN_27       = 0x4000000,
+33554432   =    ITEM_FLAG_SMART_LOOT       = 0x2000000, // Profession recipes: can only be looted if you meet requirements and don't already know it
+67108864   =    ITEM_FLAG_NOT_USEABLE_IN_ARENA       = 0x4000000,
 134217728  =    ITEM_FLAG_ACCOUNTBOUND     = 0x8000000,
-268435456  =    ITEM_FLAG_UNKNOWN_29       = 0x10000000,
+268435456  =    ITEM_FLAG_ENCHANT_SCROLL   = 0x10000000,  // enchant scrolls
 536870912  =    ITEM_FLAG_MILLABLE         = 0x20000000,
 1073741824 =    ITEM_FLAG_UNKNOWN_31       = 0x40000000,
 2147483648 =    ITEM_FLAG_UNKNOWN_32       = 0x80000000
@@ -374,6 +374,12 @@ The display ID of the item.
 2   = Alliance only
 4   = Ext. cost requires gold
 256 = Need roll disabled
+512 = Extra caster Weapon
+16384 = Has normal price
+131072 = Bnet account bound
+2097152 = Can not be Transmog
+4194304 = Can not Transmog
+8388608 = Can Transmog
 </pre>
 
 ### buyprice
