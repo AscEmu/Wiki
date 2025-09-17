@@ -295,13 +295,13 @@ Subcommand                       | Access | Description                         
 get                              | c      | Gets GM Ticket list.                                         | .gmticket get                                |  Yes
 getId                            | c      | Gets GM Ticket by ticket ID.                                 | .gmticket getId (ticket_id)                  |  Yes
 delId                            | c      | Deletes GM Ticket by ticket ID.                              | .gmticket delId (ticket_id                   |  Yes
-(strike)list(/strike)            | c      | Lists all active GM Tickets.                                 | .gmticket list                               |
-(strike)get(/strike)             | c      | Gets GM Ticket with ID x.                                    | .gmticket get (ticket_id)                    |
-(strike)remove(/strike)          | c      | Removes GM Ticket with ID x.                                 | .gmticket remove (ticket_id)                 |
-(strike)deletepermanent(/strike) | z      | Deletes GM Ticket with ID x permanently.                     | .gmticket deletepermanent (ticket_id)        |
-(strike)assign(/strike)          | c      | Assigns GM Ticket with id x to GM y (if empty to your self). | .gmticket assign (ticket_id) (gm_name)       |
-(strike)release(/strike)         | c      | Releases assigned GM Ticket with ID x.                       | .gmticket release (ticket_id)                |
-(strike)comment(/strike)         | c      | Sets comment x to GM Ticket with ID y.                       | .gmticket comment (comment_text) (ticket_id) |
+list                             | c      | Lists all active GM Tickets.                                 | .gmticket list                               |
+get                              | c      | Gets GM Ticket with ID x.                                    | .gmticket get (ticket_id)                    |
+remove                           | c      | Removes GM Ticket with ID x.                                 | .gmticket remove (ticket_id)                 |
+deletepermanent                  | z      | Deletes GM Ticket with ID x permanently.                     | .gmticket deletepermanent (ticket_id)        |
+assign                           | c      | Assigns GM Ticket with id x to GM y (if empty to your self). | .gmticket assign (ticket_id) (gm_name)       |
+release                          | c      | Releases assigned GM Ticket with ID x.                       | .gmticket release (ticket_id)                |
+comment                          | c      | Sets comment x to GM Ticket with ID y.                       | .gmticket comment (comment_text) (ticket_id) |
 toggle                           | z      | Toggles the ticket system status.                            | .gmticket toggle                             |  Yes
 
 ## .gobject

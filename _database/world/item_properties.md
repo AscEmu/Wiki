@@ -14,132 +14,132 @@ Field                                                         | Type         | D
 ------------------------------------------------------------- | ------------ | -------------------------------- | -------
 [entry](#entry)                                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    | key
 [build](#build)                                               | smallint(6)  | 12340                            | key
-[class](#class)                                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[subclass](#subclass)                                         | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[field4](#field4)                                             | int(11)      | NOT NULL DEFAULT '-1'            |        
-[name1](#name1)                                               | varchar(255) | NOT NULL DEFAULT                 |         
-[displayid](#displayid)                                       | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[quality](#quality)                                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[flags](#flags)                                               | int(11)      | unsigned NOT NULL DEFAULT '0'    |        
-[flags2](#flags2)                                             | int(11)      | unsigned NOT NULL DEFAULT '0'    |        
-[buyprice](#buyprice)                                         | int(10)      | unsigned NOT NULL DEFAULT '0'    |        
-[sellprice](#sellprice)                                       | int(10)      | unsigned NOT NULL DEFAULT '0'    |        
-[inventorytype](#inventorytype)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[allowableclass](#allowableclass)                             | int(11)      | NOT NULL DEFAULT '-1'            |        
-[allowablerace](#allowablerace)                               | int(11)      | NOT NULL DEFAULT '-1'            |        
-[itemlevel](#itemlevel)                                       | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[requiredlevel](#requiredlevel)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[RequiredSkill](#RequiredSkill)                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[RequiredSkillRank](#RequiredSkillRank)                       | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[RequiredSpell](#RequiredSpell)                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[RequiredPlayerRank1](#RequiredPlayerRank1)                   | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[RequiredPlayerRank2](#RequiredPlayerRank2)                   | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[RequiredFaction](#RequiredFaction)                           | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[RequiredFactionStanding](#RequiredFactionStanding)           | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[Unique](#Unique)                                             | int(11)      | NOT NULL DEFAULT '1'             |        
-[maxcount](#maxcount)                                         | int(11)      | NOT NULL DEFAULT '0'             |        
-[ContainerSlots](#ContainerSlots)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[itemstatscount](#itemstatscount)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_type1](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value1](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type2](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value2](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type3](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value3](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type4](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value4](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type5](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value5](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type6](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value6](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type7](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value7](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type8](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value8](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type9](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value9](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[stat_type10](#stat_type1_10)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[stat_value10](#stat_value1_10)                               | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[ScaledStatsDistributionId](#ScaledStatsDistributionId)       | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[ScaledStatsDistributionFlags](#ScaledStatsDistributionFlags) | int(6)       | unsigned NOT NULL DEFAULT '0'    |        
-[dmg_min1](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |        
-[dmg_max1](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |        
-[dmg_type1](#dmg_type1_2)                                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[dmg_min2](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |        
-[dmg_max2](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |        
-[dmg_type2](#dmg_type1_2)                                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[armor](#armor)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[holy_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[fire_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[nature_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[frost_res](#holy-arcane_res)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[shadow_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[arcane_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[delay](#delay)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '1000' |        
-[ammo_type](#ammo_type)                                       | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[range](#range)                                               | float        | NOT NULL DEFAULT '0'             |        
-[spellid_1](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_1](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_1](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_1](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_1](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_1](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellid_2](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_2](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_2](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_2](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_2](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_2](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellid_3](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_3](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_3](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_3](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_3](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_3](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellid_4](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_4](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_4](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_4](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_4](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_4](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellid_5](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[spelltrigger_5](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[spellcharges_5](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |        
-[spellcooldown_5](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[spellcategory_5](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[spellcategorycooldown_5](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |        
-[bonding](#bonding)                                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[description](#description)                                   | varchar(255) | NOT NULL DEFAULT                 |         
-[page_id](#page_id)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[page_language](#page_language)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[page_material](#page_material)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[quest_id](#quest_id)                                         | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[lock_id](#lock_id)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[lock_material](#lock_material)                               | tinyint(4)   | NOT NULL DEFAULT '0'             |        
-[sheathID](#sheathID)                                         | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |        
-[randomprop](#randomprop)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |        
-[randomsuffix](#randomsuffix)                                 | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[block](#block)                                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[itemset](#itemset)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[MaxDurability](#MaxDurability)                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |        
-[ZoneNameID](#ZoneNameID)                                     | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |        
-[mapid](#mapid)                                               | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[bagfamily](#bagfamily)                                       | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[TotemCategory](#TotemCategory)                               | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[socket_color_1](#socket_color_1_3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |        
-[unk201_3](#unk201_3)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[socket_color_2](#socket_color_1_3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |        
-[unk201_5](#unk201_5)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[socket_color_3](#socket_color_1_3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |        
-[unk201_7](#unk201_7)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[socket_bonus](#socket_bonus)                                 | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[GemProperties](#GemProperties)                               | mediumint(9) | NOT NULL DEFAULT '0'             |        
-[ReqDisenchantSkill](#ReqDisenchantSkill)                     | smallint(6)  | NOT NULL DEFAULT '-1'            |        
-[ArmorDamageModifier](#ArmorDamageModifier)                   | float        | NOT NULL DEFAULT '0'             |        
-[existingduration](#existingduration)                         | int(11)      | NOT NULL DEFAULT '0'             |        
-[ItemLimitCategoryId](#ItemLimitCategoryId)                   | smallint(6)  | NOT NULL DEFAULT '0'             |        
-[HolidayId](#HolidayId)                                       | int(11)      | unsigned NOT NULL DEFAULT '0'    |        
-[food_type](#food_type)                                       | smallint(1)  | unsigned NOT NULL DEFAULT '0'    |        
+[class](#class)                                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[subclass](#subclass)                                         | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[field4](#field4)                                             | int(11)      | NOT NULL DEFAULT '-1'            |
+[name1](#name1)                                               | varchar(255) | NOT NULL DEFAULT                 |
+[displayid](#displayid)                                       | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[quality](#quality)                                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[flags](#flags)                                               | int(11)      | unsigned NOT NULL DEFAULT '0'    |
+[flags2](#flags2)                                             | int(11)      | unsigned NOT NULL DEFAULT '0'    |
+[buyprice](#buyprice)                                         | int(10)      | unsigned NOT NULL DEFAULT '0'    |
+[sellprice](#sellprice)                                       | int(10)      | unsigned NOT NULL DEFAULT '0'    |
+[inventorytype](#inventorytype)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[allowableclass](#allowableclass)                             | int(11)      | NOT NULL DEFAULT '-1'            |
+[allowablerace](#allowablerace)                               | int(11)      | NOT NULL DEFAULT '-1'            |
+[itemlevel](#itemlevel)                                       | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[requiredlevel](#requiredlevel)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[RequiredSkill](#RequiredSkill)                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[RequiredSkillRank](#RequiredSkillRank)                       | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[RequiredSpell](#RequiredSpell)                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[RequiredPlayerRank1](#RequiredPlayerRank1)                   | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[RequiredPlayerRank2](#RequiredPlayerRank2)                   | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[RequiredFaction](#RequiredFaction)                           | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[RequiredFactionStanding](#RequiredFactionStanding)           | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[Unique](#Unique)                                             | int(11)      | NOT NULL DEFAULT '1'             |
+[maxcount](#maxcount)                                         | int(11)      | NOT NULL DEFAULT '0'             |
+[ContainerSlots](#ContainerSlots)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[itemstatscount](#itemstatscount)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_type1](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value1](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type2](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value2](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type3](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value3](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type4](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value4](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type5](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value5](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type6](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value6](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type7](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value7](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type8](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value8](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type9](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value9](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
+[stat_type10](#stat_type1_10)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[stat_value10](#stat_value1_10)                               | smallint(6)  | NOT NULL DEFAULT '0'             |
+[ScaledStatsDistributionId](#ScaledStatsDistributionId)       | smallint(6)  | NOT NULL DEFAULT '0'             |
+[ScaledStatsDistributionFlags](#ScaledStatsDistributionFlags) | int(6)       | unsigned NOT NULL DEFAULT '0'    |
+[dmg_min1](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |
+[dmg_max1](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |
+[dmg_type1](#dmg_type1_2)                                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[dmg_min2](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |
+[dmg_max2](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |
+[dmg_type2](#dmg_type1_2)                                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[armor](#armor)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[holy_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[fire_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[nature_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[frost_res](#holy-arcane_res)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[shadow_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[arcane_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[delay](#delay)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '1000' |
+[ammo_type](#ammo_type)                                       | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[range](#range)                                               | float        | NOT NULL DEFAULT '0'             |
+[spellid_1](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
+[spelltrigger_1](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[spellcharges_1](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
+[spellcooldown_1](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellcategory_1](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[spellcategorycooldown_1](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellid_2](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
+[spelltrigger_2](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[spellcharges_2](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
+[spellcooldown_2](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellcategory_2](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[spellcategorycooldown_2](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellid_3](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
+[spelltrigger_3](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[spellcharges_3](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
+[spellcooldown_3](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellcategory_3](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[spellcategorycooldown_3](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellid_4](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
+[spelltrigger_4](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[spellcharges_4](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
+[spellcooldown_4](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellcategory_4](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[spellcategorycooldown_4](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellid_5](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
+[spelltrigger_5](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[spellcharges_5](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
+[spellcooldown_5](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
+[spellcategory_5](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[spellcategorycooldown_5](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
+[bonding](#bonding)                                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[description](#description)                                   | varchar(255) | NOT NULL DEFAULT                 |
+[page_id](#page_id)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[page_language](#page_language)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[page_material](#page_material)                               | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[quest_id](#quest_id)                                         | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[lock_id](#lock_id)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[lock_material](#lock_material)                               | tinyint(4)   | NOT NULL DEFAULT '0'             |
+[sheathID](#sheathID)                                         | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
+[randomprop](#randomprop)                                     | mediumint(8) | NOT NULL DEFAULT '0'             | 
+[randomsuffix](#randomsuffix)                                 | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[block](#block)                                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[itemset](#itemset)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[MaxDurability](#MaxDurability)                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
+[ZoneNameID](#ZoneNameID)                                     | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
+[mapid](#mapid)                                               | smallint(6)  | NOT NULL DEFAULT '0'             |
+[bagfamily](#bagfamily)                                       | mediumint(9) | NOT NULL DEFAULT '0'             |
+[TotemCategory](#TotemCategory)                               | mediumint(9) | NOT NULL DEFAULT '0'             |
+[socket_color_1](#socket_color_1_3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |
+[unk201_3](#unk201_3)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |
+[socket_color_2](#socket_color_1_3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |
+[unk201_5](#unk201_5)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |
+[socket_color_3](#socket_color_1_3)                           | tinyint(4)   | NOT NULL DEFAULT '0'             |
+[unk201_7](#unk201_7)                                         | mediumint(9) | NOT NULL DEFAULT '0'             |
+[socket_bonus](#socket_bonus)                                 | mediumint(9) | NOT NULL DEFAULT '0'             |
+[GemProperties](#GemProperties)                               | mediumint(9) | NOT NULL DEFAULT '0'             |
+[ReqDisenchantSkill](#ReqDisenchantSkill)                     | smallint(6)  | NOT NULL DEFAULT '-1'            |
+[ArmorDamageModifier](#ArmorDamageModifier)                   | float        | NOT NULL DEFAULT '0'             |
+[existingduration](#existingduration)                         | int(11)      | NOT NULL DEFAULT '0'             |
+[ItemLimitCategoryId](#ItemLimitCategoryId)                   | smallint(6)  | NOT NULL DEFAULT '0'             |
+[HolidayId](#HolidayId)                                       | int(11)      | unsigned NOT NULL DEFAULT '0'    |
+[food_type](#food_type)                                       | smallint(1)  | unsigned NOT NULL DEFAULT '0'    |
 
 ### entry
 
@@ -333,38 +333,38 @@ The display ID of the item.
 ### flags
 
 <pre>
-1          =    ITEM_FLAG_SOULBOUND        = 0x1,      // not used in proto
-2          =    ITEM_FLAG_CONJURED         = 0x2,
-4          =    ITEM_FLAG_LOOTABLE         = 0x4,
-8          =    ITEM_FLAG_WRAPPED          = 0x8,      // not used in proto
-16         =    ITEM_FLAG_BROKEN           = 0x10,     // many equipable items and bags
-32         =    ITEM_FLAG_INDESTRUCTIBLE   = 0x20,     // can't destruct this item
-64         =    ITEM_FLAG_UNKNOWN_07       = 0x40,     // many consumables
-128        =    ITEM_FLAG_UNKNOWN_08       = 0x80,     // only 1 wand uses this
-256        =    ITEM_FLAG_BOP_TRADEABLE       = 0x100,    // Allows trading soulbound items
-512        =    ITEM_FLAG_WRAP_GIFT        = 0x200,
-1024       =    ITEM_FLAG_CREATE_ITEM      = 0x400,    // probably worng
-2048       =    ITEM_FLAG_FREE_FOR_ALL     = 0x800,    // can be looted ffa
-4096       =    ITEM_FLAG_REFUNDABLE       = 0x1000,
-8192       =    ITEM_FLAG_SIGNABLE         = 0x2000,   // charts
-16384      =    ITEM_FLAG_READABLE         = 0x4000,   // may be worng
-32768      =    ITEM_FLAG_UNKNOWN_16       = 0x8000,
-65536      =    ITEM_FLAG_EVENT_REQ        = 0x10000,  // may be wrong
-131072     =    ITEM_FLAG_UNKNOWN_18       = 0x20000,
-262144     =    ITEM_FLAG_PROSPECTABLE     = 0x40000,
-524288     =    ITEM_FLAG_UNIQUE_EQUIP     = 0x80000,
-1048576    =    ITEM_FLAG_UNKNOWN_21       = 0x100000, // not used in proto
-2097152    =    ITEM_FLAG_USEABLE_IN_ARENA = 0x200000, // useable in arenas
-4194304    =    ITEM_FLAG_THROWN           = 0x400000,
-8388608    =    ITEM_FLAG_SHAPESHIFT_OK    = 0x800000,
-16777216   =    ITEM_FLAG_UNKNOWN_25       = 0x1000000,
-33554432   =    ITEM_FLAG_SMART_LOOT       = 0x2000000, // Profession recipes: can only be looted if you meet requirements and don't already know it
-67108864   =    ITEM_FLAG_NOT_USEABLE_IN_ARENA       = 0x4000000,
-134217728  =    ITEM_FLAG_ACCOUNTBOUND     = 0x8000000,
-268435456  =    ITEM_FLAG_ENCHANT_SCROLL   = 0x10000000,  // enchant scrolls
-536870912  =    ITEM_FLAG_MILLABLE         = 0x20000000,
-1073741824 =    ITEM_FLAG_UNKNOWN_31       = 0x40000000,
-2147483648 =    ITEM_FLAG_UNKNOWN_32       = 0x80000000
+1          =    ITEM_FLAG_SOULBOUND              = 0x1,        // not used in proto
+2          =    ITEM_FLAG_CONJURED               = 0x2,
+4          =    ITEM_FLAG_LOOTABLE               = 0x4,
+8          =    ITEM_FLAG_WRAPPED                = 0x8,        // not used in proto
+16         =    ITEM_FLAG_BROKEN                 = 0x10,       // many equipable items and bags
+32         =    ITEM_FLAG_INDESTRUCTIBLE         = 0x20,       // can't destruct this item
+64         =    ITEM_FLAG_UNKNOWN_07             = 0x40,       // many consumables
+128        =    ITEM_FLAG_UNKNOWN_08             = 0x80,       // only 1 wand uses this
+256        =    ITEM_FLAG_BOP_TRADEABLE          = 0x100,      // Allows trading soulbound items
+512        =    ITEM_FLAG_WRAP_GIFT              = 0x200,
+1024       =    ITEM_FLAG_CREATE_ITEM            = 0x400,      // probably worng
+2048       =    ITEM_FLAG_FREE_FOR_ALL           = 0x800,      // can be looted ffa
+4096       =    ITEM_FLAG_REFUNDABLE             = 0x1000,
+8192       =    ITEM_FLAG_SIGNABLE               = 0x2000,     // charts
+16384      =    ITEM_FLAG_READABLE               = 0x4000,     // may be worng
+32768      =    ITEM_FLAG_UNKNOWN_16             = 0x8000,
+65536      =    ITEM_FLAG_EVENT_REQ              = 0x10000,    // may be wrong
+131072     =    ITEM_FLAG_UNKNOWN_18             = 0x20000,
+262144     =    ITEM_FLAG_PROSPECTABLE           = 0x40000,
+524288     =    ITEM_FLAG_UNIQUE_EQUIP           = 0x80000,
+1048576    =    ITEM_FLAG_UNKNOWN_21             = 0x100000,   // not used in proto
+2097152    =    ITEM_FLAG_USEABLE_IN_ARENA       = 0x200000,   // useable in arenas
+4194304    =    ITEM_FLAG_THROWN                 = 0x400000,
+8388608    =    ITEM_FLAG_SHAPESHIFT_OK          = 0x800000,
+16777216   =    ITEM_FLAG_UNKNOWN_25             = 0x1000000,
+33554432   =    ITEM_FLAG_SMART_LOOT             = 0x2000000,  // Profession recipes: can only be looted if you meet requirements and don't already know it
+67108864   =    ITEM_FLAG_NOT_USEABLE_IN_ARENA   = 0x4000000,
+134217728  =    ITEM_FLAG_ACCOUNTBOUND           = 0x8000000,
+268435456  =    ITEM_FLAG_ENCHANT_SCROLL         = 0x10000000, // enchant scrolls
+536870912  =    ITEM_FLAG_MILLABLE               = 0x20000000,
+1073741824 =    ITEM_FLAG_UNKNOWN_31             = 0x40000000,
+2147483648 =    ITEM_FLAG_UNKNOWN_32             = 0x80000000
 </pre>
 
 ### flags2
