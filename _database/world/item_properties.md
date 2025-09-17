@@ -569,6 +569,14 @@ The type of stat of the item.
 46 = Health regent
 47 = Spell penetration 
 48 = Block value
+49 = UNK
+50 = Bonus Armor
+51 = Arcane Resistance
+52 = Nature Resistance
+53 = UNK
+54 = Frost Resistance
+55 = Fire Resistance
+56 = Shadow Resistance
 </pre>
 
 ### stat_value1_10
