@@ -870,6 +870,8 @@ The map ID where the item can be used on.
 169 = Flint and Tinder
 189 = Runed Cobalt Rod
 190 = Runed Titanium Rod
+209 = Runed Elementium Rod
+210 = High-Powered Bolt Gun
 </pre>
 
 ### socket_color_1_3
