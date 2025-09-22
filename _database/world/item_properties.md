@@ -141,6 +141,7 @@ Build number to determine if the data is for our current compiled version.
 6 = Mining Bag
 7 = Leatherworking Bag
 8 = Inscription Bag
+9 = Tackle Box
 </pre>
 
 **Class = 2 => Weapons**
