@@ -39,27 +39,6 @@ Field                                                         | Type         | D
 [Unique](#Unique)                                             | int(11)      | NOT NULL DEFAULT '1'             |
 [maxcount](#maxcount)                                         | int(11)      | NOT NULL DEFAULT '0'             |
 [ContainerSlots](#ContainerSlots)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[itemstatscount](#itemstatscount)                             | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_type1](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value1](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type2](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value2](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type3](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value3](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type4](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value4](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type5](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value5](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type6](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value6](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type7](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value7](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type8](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value8](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type9](#stat_type1_10)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value9](#stat_value1_10)                                | smallint(6)  | NOT NULL DEFAULT '0'             |
-[stat_type10](#stat_type1_10)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[stat_value10](#stat_value1_10)                               | smallint(6)  | NOT NULL DEFAULT '0'             |
 [ScaledStatsDistributionId](#ScaledStatsDistributionId)       | smallint(6)  | NOT NULL DEFAULT '0'             |
 [ScaledStatsDistributionFlags](#ScaledStatsDistributionFlags) | int(6)       | unsigned NOT NULL DEFAULT '0'    |
 [dmg_min1](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |
@@ -69,45 +48,9 @@ Field                                                         | Type         | D
 [dmg_max2](#dmg_min_max_1_2)                                  | float        | NOT NULL DEFAULT '0'             |
 [dmg_type2](#dmg_type1_2)                                     | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
 [armor](#armor)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
-[holy_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[fire_res](#holy-arcane_res)                                  | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[nature_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[frost_res](#holy-arcane_res)                                 | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[shadow_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[arcane_res](#holy-arcane_res)                                | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
 [delay](#delay)                                               | smallint(5)  | unsigned NOT NULL DEFAULT '1000' |
 [ammo_type](#ammo_type)                                       | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
 [range](#range)                                               | float        | NOT NULL DEFAULT '0'             |
-[spellid_1](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
-[spelltrigger_1](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[spellcharges_1](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
-[spellcooldown_1](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellcategory_1](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
-[spellcategorycooldown_1](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellid_2](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
-[spelltrigger_2](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[spellcharges_2](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
-[spellcooldown_2](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellcategory_2](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
-[spellcategorycooldown_2](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellid_3](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
-[spelltrigger_3](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[spellcharges_3](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
-[spellcooldown_3](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellcategory_3](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
-[spellcategorycooldown_3](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellid_4](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
-[spelltrigger_4](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[spellcharges_4](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
-[spellcooldown_4](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellcategory_4](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
-[spellcategorycooldown_4](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellid_5](#spellid_1_5)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
-[spelltrigger_5](#spelltrigger_1_5)                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[spellcharges_5](#spellcharges_1_5)                           | smallint(4)  | NOT NULL DEFAULT '0'             |
-[spellcooldown_5](#spellcooldown_1_5)                         | int(11)      | NOT NULL DEFAULT '-1'            |
-[spellcategory_5](#spellcategory_1_5)                         | smallint(5)  | unsigned NOT NULL DEFAULT '0'    |
-[spellcategorycooldown_5](#spellcategorycooldown_1_5)         | int(11)      | NOT NULL DEFAULT '-1'            |
 [bonding](#bonding)                                           | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
 [description](#description)                                   | varchar(255) | NOT NULL DEFAULT                 |
 [page_id](#page_id)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
@@ -514,76 +457,6 @@ This defines the maximum stack count of this item in one slot.
 Defines how many container slots the item (bag) brings with it.
 (Currently there are maximum 16 slots reserved for containers.)
 
-### itemstatscount
-
-...
-
-### stat_type1_10
-
-The type of stat of the item.
-
-<pre>
- 0 = Power
- 1 = Health
- 2 = UNKNOWN - not used
- 3 = Agility
- 4 = Strength
- 5 = Intellect
- 6 = Spirit
- 7 = Stamina
-11 = Weapon skill rating
-12 = Defense rating
-13 = Dodge rating
-14 = Parry rating
-15 = Shield block rating
-16 = Melee hit rating
-17 = Ranged hit rating
-18 = Spell hit rating
-19 = Melee critical strike rating
-20 = Ranged critical strike rating
-21 = Spell critical strike rating
-22 = Melee hit avoidance rating
-23 = Ranged hit avoidance rating
-24 = Spell hit avoidance rating
-25 = Melee critical avoidance rating
-26 = Ranged critical avoidance rating
-27 = Spell critical avoidance rating
-28 = Melee haste rating
-29 = Ranged haste rating
-30 = Spell haste rating
-31 = Hit rating
-32 = Critical strike rating
-33 = Hit avoidance rating
-34 = Critical avoidance rating
-35 = Resilence rating
-36 = Haste rating
-37 = Expertise rating
-38 = Attackpower
-39 = Ranged attackpower
-40 = Feral attackpower
-41 = Spell healing done
-42 = Spell damage done
-43 = Mana regeneration
-44 = Armor penetration rating
-45 = Spell power
-46 = Health regent
-47 = Spell penetration 
-48 = Block value
-49 = Mastery
-50 = Bonus Armor
-51 = Arcane Resistance
-52 = Nature Resistance
-53 = Holy Resistance
-54 = Frost Resistance
-55 = Fire Resistance
-56 = Shadow Resistance
-</pre>
-
-### stat_value1_10
-
-The value for the stat type.
-
-(These values affect the characters stats by wearing this item).
 
 ### ScaledStatsDistributionId
 
@@ -618,10 +491,6 @@ The minimum/maximum damage of a weapon.
 
 The armor value of the item.
 
-### holy-arcane_res
-
-The resistance value against the attacking damage types.
-
 ### delay
 
 The time in milliseconds between the weapon hit a enemy (again).
@@ -641,44 +510,6 @@ The type ammunition the item use:
 
 The range in feets for a ranged weapon.
 
-### spellid_1_5
-
-The spell ID on the item.
-
-### spelltrigger_1_5
-
-The type how the spell triggers:
-
-<pre>
-0 = On use
-1 = On equip
-2 = Chance on hit
-4 = Soulstone
-5 = No delay - not used
-6 = Learn spell ID
-</pre>
-
-### spellcharges_1_5
-
-The number of times the item can cast the spell.
-
-<pre>
-0 = infinite charges
-</pre>
-
-If the number of charges is a negative value, the item deletes itself.
-
-### spellcooldown_1_5
-
-The cooldown for the spell in milliseconds. (If this value = -1, the normal cooldown of this spell is used)
-
-### spellcategory_1_5
-
-The spellcategory of the spell.
-
-### spellcategorycooldown_(1-5)
-
-The cooldown for the spellcategory in milliseconds. (If this value = -1, the normal cooldown of this spellcategory is used)
 
 ### bonding
 
