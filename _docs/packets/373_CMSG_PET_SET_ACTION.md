@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x174      |
 TBC        | 0x174      |
 WotLK      | 0x174      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x6904     |
+MoP        | 0x12E9     |

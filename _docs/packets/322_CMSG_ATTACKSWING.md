@@ -15,4 +15,4 @@ Classic    | 0x141      |
 TBC        | 0x141      |
 WotLK      | 0x141      |
 Cata       | 0x0926     |
-MoP        |            |
+MoP        | 0x02E7     |

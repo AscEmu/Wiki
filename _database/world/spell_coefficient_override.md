@@ -6,22 +6,48 @@ layout: single_markdown
 ---
 
 # spell_coefficient_override
-This table defines coeff overrides for spells
+
+This table overrides scaling coefficients used by the server for individual spell effects.
+
+It allows database developers to correct or adjust scaling values when the coefficients provided by DBC are incorrect or missing. 
+
+Overrides can be applied per spell, per effect index, and per client build range.
+
+If a record exists in this table and the current server build falls within the specified build range, the server will use the overridden values instead of the default scaling values.
 
 ## Structure
 
 Field                                         | Type         | Default | Comment        
 --------------------------------------------- | ------------ | ------- | ---------------
-[spell_id](#spell_id)                         | int(10)      | 0       | key
-[min_build](#min_build)                       | int(6)       | 12340   | key
-[max_build](#max_build)                       | int(6)       | 12340   |
-[direct_coefficient](#direct_coefficient)     | float(0)     | -1      |                
-[overtime_coefficient](#overtime_coefficient) | float(0)     | -1      |                
-[description](#description)                   | varchar(300) | NULL    |
+[spell_id](#spell_id)                         | int unsigned | 0       | Spell entry ID.
+[effectIndex](#effectIndex)                   | tinyint      | 0       | Spell effect index.
+[min_build](#min_build)                       | int unsigned | 12340   | Minimum client build this override applies to.
+[max_build](#max_build)                       | int unsigned | 12340   | Maximum client build this override applies to.
+[sp_coefficient](#sp_coefficient)             | float        | NULL    | Spell Power scaling coefficient override.
+[ap_coefficient](#ap_coefficient)             | float        | NULL    | Attack Power scaling coefficient override.
+[flags](#flags)                               | tinyint      | 0       | Override behavior flags.
+[description](#description)                   | varchar(100) | NULL    | Developer description.
+
 
 ### spell_id
 
-The entry ID of the spell...
+The entry ID of the spell from Spell.dbc.
+
+This identifies which spell the coefficient override applies to.
+
+
+### effectIndex
+
+Specifies which spell effect the override applies to.
+
+Spells may contain multiple effects (Effect[0], Effect[1], Effect[2]).
+This field allows overriding coefficients for a specific effect.
+
+Value                                         | Meaning
+--------------------------------------------- | ------------
+0                                             | First effect
+1                                             | Second effect
+2                                             | Third effect
 
 
 ### min_build
@@ -33,16 +59,75 @@ Build number this override is valid.
 
 Max Build number this override is valid for.
 
-### direct_coefficient
 
-...
+### sp_coefficient
 
-### overtime_coefficient
+Overrides the Spell Power scaling coefficient for the specified spell effect.
 
-...
+This value defines how much Spell Power contributes to the final damage or healing.
 
+If the value is:
+
+```
+NULL
+```
+
+
+the server will use the default value from DBC or internal calculation.
+
+Example:
+
+```
+0.857
+```
+
+
+Meaning the spell effect scales with 85.7% of Spell Power.
+
+
+### ap_coefficient
+
+Overrides the Attack Power scaling coefficient for the specified spell effect.
+
+Used for abilities that scale with Attack Power.
+
+Example:
+
+```
+0.2
+```
+
+
+Meaning the effect scales with 20% of Attack Power.
+
+If the value is:
+
+```
+NULL
+```
+
+
+the default scaling logic will be used.
+
+
+### flags
+
+
+Optional flags that modify how the override is applied.
+
+Default value:
+
+```
+0
+```
+
+
+Meaning no special behavior.
+
+This field is reserved for internal spell system logic.
 
 ### description
 
-The description... used by db devs.
+Optional developer comment explaining the purpose of the override.
 
+This field does not affect server behaviour.

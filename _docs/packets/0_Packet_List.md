@@ -185,7 +185,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_GUILD_COMMAND_RESULT](#smsg_guild_command_result) | serialized | serialized | serialized | serialized | serialized
 [UMSG_UPDATE_GUILD](#umsg_update_guild) |  |  |  |  | 
 [CMSG_MESSAGECHAT](#cmsg_messagechat) | not used | serialized | serialized | not used | not used
-[SMSG_MESSAGECHAT](#smsg_messagechat) | serialized | serialized | serialized | serialized | serialized
+[SMSG_MESSAGECHAT](#smsg_messagechat) | serialized | serialized | serialized | serialized | not used
 [CMSG_JOIN_CHANNEL](#cmsg_join_channel) | not used | serialized | serialized | serialized | not used
 [CMSG_LEAVE_CHANNEL](#cmsg_leave_channel) | serialized | serialized | serialized | serialized | not used
 [SMSG_CHANNEL_NOTIFY](#smsg_channel_notify) | serialized | serialized | serialized | serialized | serialized
@@ -207,7 +207,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_CHANNEL_MODERATE](#cmsg_channel_moderate) | serialized | serialized | serialized | serialized | not used
 [SMSG_UPDATE_OBJECT](#smsg_update_object) | not used | serialized | not used | not used | not used
 [SMSG_DESTROY_OBJECT](#smsg_destroy_object) | serialized | serialized | serialized | serialized | serialized
-[CMSG_USE_ITEM](#cmsg_use_item) | serialized | serialized | serialized | serialized | not used
+[CMSG_USE_ITEM](#cmsg_use_item) | serialized | serialized | serialized | serialized | serialized
 [CMSG_OPEN_ITEM](#cmsg_open_item) | serialized | serialized | serialized | serialized | not used
 [CMSG_READ_ITEM](#cmsg_read_item) | serialized | serialized | serialized | not used | not used
 [SMSG_READ_ITEM_OK](#smsg_read_item_ok) | serialized | serialized | serialized | serialized | serialized
@@ -233,7 +233,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [MSG_MOVE_SET_RUN_MODE](#msg_move_set_run_mode) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_WALK_MODE](#msg_move_set_walk_mode) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_TOGGLE_LOGGING](#msg_move_toggle_logging) |  |  |  |  | 
-[MSG_MOVE_TELEPORT](#msg_move_teleport) |  |  |  |  | 
+[MSG_MOVE_TELEPORT](#msg_move_teleport) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_TELEPORT_CHEAT](#msg_move_teleport_cheat) |  |  |  |  | 
 [MSG_MOVE_TELEPORT_ACK](#msg_move_teleport_ack) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_TOGGLE_FALL_LOGGING](#msg_move_toggle_fall_logging) |  |  |  |  | 
@@ -241,48 +241,48 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [MSG_MOVE_START_SWIM](#msg_move_start_swim) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_STOP_SWIM](#msg_move_stop_swim) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_RUN_SPEED_CHEAT](#msg_move_set_run_speed_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_RUN_SPEED](#msg_move_set_run_speed) |  |  |  |  | 
+[MSG_MOVE_SET_RUN_SPEED](#msg_move_set_run_speed) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_RUN_BACK_SPEED_CHEAT](#msg_move_set_run_back_speed_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_RUN_BACK_SPEED](#msg_move_set_run_back_speed) |  |  |  |  | 
+[MSG_MOVE_SET_RUN_BACK_SPEED](#msg_move_set_run_back_speed) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_WALK_SPEED_CHEAT](#msg_move_set_walk_speed_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_WALK_SPEED](#msg_move_set_walk_speed) |  |  |  |  | 
+[MSG_MOVE_SET_WALK_SPEED](#msg_move_set_walk_speed) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_SWIM_SPEED_CHEAT](#msg_move_set_swim_speed_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_SWIM_SPEED](#msg_move_set_swim_speed) |  |  |  |  | 
+[MSG_MOVE_SET_SWIM_SPEED](#msg_move_set_swim_speed) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_SWIM_BACK_SPEED_CHEAT](#msg_move_set_swim_back_speed_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_SWIM_BACK_SPEED](#msg_move_set_swim_back_speed) |  |  |  |  | 
+[MSG_MOVE_SET_SWIM_BACK_SPEED](#msg_move_set_swim_back_speed) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_ALL_SPEED_CHEAT](#msg_move_set_all_speed_cheat) |  |  |  |  | 
 [MSG_MOVE_SET_TURN_RATE_CHEAT](#msg_move_set_turn_rate_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_TURN_RATE](#msg_move_set_turn_rate) |  |  |  |  | 
+[MSG_MOVE_SET_TURN_RATE](#msg_move_set_turn_rate) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_TOGGLE_COLLISION_CHEAT](#msg_move_toggle_collision_cheat) |  |  |  |  | 
 [MSG_MOVE_SET_FACING](#msg_move_set_facing) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_SET_PITCH](#msg_move_set_pitch) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_WORLDPORT_ACK](#msg_move_worldport_ack) | serialized | serialized | serialized | serialized | not used
 [MSG_NOTIFY_PARTY_SQUELCH](#msg_notify_party_squelch) |  |  |  |  | 
 [SMSG_MONSTER_MOVE](#smsg_monster_move) |  |  |  |  | 
-[SMSG_MOVE_WATER_WALK](#smsg_move_water_walk) |  |  |  |  | 
-[SMSG_MOVE_LAND_WALK](#smsg_move_land_walk) |  |  |  |  | 
+[SMSG_MOVE_WATER_WALK](#smsg_move_water_walk) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_LAND_WALK](#smsg_move_land_walk) | serialized | serialized | serialized | serialized | serialized
 [MSG_MOVE_SET_RAW_POSITION_ACK](#msg_move_set_raw_position_ack) |  |  |  |  | 
 [CMSG_MOVE_SET_RAW_POSITION](#cmsg_move_set_raw_position) |  |  |  |  | 
-[SMSG_FORCE_RUN_SPEED_CHANGE](#smsg_force_run_speed_change) |  |  |  |  | 
+[SMSG_FORCE_RUN_SPEED_CHANGE](#smsg_force_run_speed_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_RUN_SPEED_CHANGE_ACK](#cmsg_force_run_speed_change_ack) | serialized | serialized | serialized | serialized | not used
-[SMSG_FORCE_RUN_BACK_SPEED_CHANGE](#smsg_force_run_back_speed_change) |  |  |  |  | 
+[SMSG_FORCE_RUN_BACK_SPEED_CHANGE](#smsg_force_run_back_speed_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_RUN_BACK_SPEED_CHANGE_ACK](#cmsg_force_run_back_speed_change_ack) | serialized | serialized | serialized | serialized | not used
-[SMSG_FORCE_SWIM_SPEED_CHANGE](#smsg_force_swim_speed_change) |  |  |  |  | 
+[SMSG_FORCE_SWIM_SPEED_CHANGE](#smsg_force_swim_speed_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_SWIM_SPEED_CHANGE_ACK](#cmsg_force_swim_speed_change_ack) | serialized | serialized | serialized | serialized | not used
-[SMSG_FORCE_MOVE_ROOT](#smsg_force_move_root) |  |  |  |  | 
+[SMSG_FORCE_MOVE_ROOT](#smsg_force_move_root) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_MOVE_ROOT_ACK](#cmsg_force_move_root_ack) | serialized | serialized | serialized | serialized | not used
-[SMSG_FORCE_MOVE_UNROOT](#smsg_force_move_unroot) |  |  |  |  | 
+[SMSG_FORCE_MOVE_UNROOT](#smsg_force_move_unroot) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_MOVE_UNROOT_ACK](#cmsg_force_move_unroot_ack) |  |  |  |  | 
 [MSG_MOVE_ROOT](#msg_move_root) |  |  |  |  | 
 [MSG_MOVE_UNROOT](#msg_move_unroot) |  |  |  |  | 
-[MSG_MOVE_HEARTBEAT](#msg_move_heartbeat) | serialized | serialized | serialized | serialized | not used
+[MSG_MOVE_HEARTBEAT](#msg_move_heartbeat) | serialized | serialized | serialized | serialized | serialized
 [SMSG_MOVE_KNOCK_BACK](#smsg_move_knock_back) | serialized | serialized | serialized | serialized | serialized
 [CMSG_MOVE_KNOCK_BACK_ACK](#cmsg_move_knock_back_ack) | serialized | serialized | serialized | not used | not used
 [MSG_MOVE_KNOCK_BACK](#msg_move_knock_back) |  |  |  |  | 
-[SMSG_MOVE_FEATHER_FALL](#smsg_move_feather_fall) |  |  |  |  | 
-[SMSG_MOVE_NORMAL_FALL](#smsg_move_normal_fall) |  |  |  |  | 
-[SMSG_MOVE_SET_HOVER](#smsg_move_set_hover) |  |  |  |  | 
-[SMSG_MOVE_UNSET_HOVER](#smsg_move_unset_hover) |  |  |  |  | 
+[SMSG_MOVE_FEATHER_FALL](#smsg_move_feather_fall) | serialized | serialized | serialized | serialized | serialized
+[SMSG_MOVE_NORMAL_FALL](#smsg_move_normal_fall) | serialized | serialized | serialized | serialized | serialized
+[SMSG_MOVE_SET_HOVER](#smsg_move_set_hover) | serialized | serialized | serialized | serialized | serialized
+[SMSG_MOVE_UNSET_HOVER](#smsg_move_unset_hover) | serialized | serialized | serialized | serialized | serialized
 [CMSG_MOVE_HOVER_ACK](#cmsg_move_hover_ack) | serialized | serialized | serialized | not used | not used
 [MSG_MOVE_HOVER](#msg_move_hover) |  |  |  |  | 
 [CMSG_TRIGGER_CINEMATIC_CHEAT](#cmsg_trigger_cinematic_cheat) |  |  |  |  | 
@@ -309,7 +309,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_AUTOEQUIP_ITEM](#cmsg_autoequip_item) | serialized | serialized | serialized | serialized | not used
 [CMSG_AUTOSTORE_BAG_ITEM](#cmsg_autostore_bag_item) | serialized | serialized | serialized | serialized | not used
 [CMSG_SWAP_ITEM](#cmsg_swap_item) | serialized | serialized | serialized | serialized | not used
-[CMSG_SWAP_INV_ITEM](#cmsg_swap_inv_item) | serialized | serialized | serialized | serialized | not used
+[CMSG_SWAP_INV_ITEM](#cmsg_swap_inv_item) | serialized | serialized | serialized | serialized | serialized
 [CMSG_SPLIT_ITEM](#cmsg_split_item) | serialized | serialized | serialized | serialized | not used
 [CMSG_AUTOEQUIP_ITEM_SLOT](#cmsg_autoequip_item_slot) | serialized | serialized | serialized | serialized | not used
 [OBSOLETE_DROP_ITEM](#obsolete_drop_item) |  |  |  |  | 
@@ -358,10 +358,10 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [MSG_CHANNEL_UPDATE](#msg_channel_update) | serialized | serialized | serialized | serialized | serialized
 [CMSG_CANCEL_CHANNELLING](#cmsg_cancel_channelling) | serialized | not used | serialized | serialized | not used
 [SMSG_AI_REACTION](#smsg_ai_reaction) | serialized | serialized | serialized | serialized | serialized
-[CMSG_SET_SELECTION](#cmsg_set_selection) | serialized | serialized | serialized | serialized | not used
+[CMSG_SET_SELECTION](#cmsg_set_selection) | serialized | serialized | serialized | serialized | serialized
 [CMSG_EQUIPMENT_SET_DELETE](#cmsg_equipment_set_delete) | not used | not used | serialized | not used | not used
 [CMSG_UNUSED2](#cmsg_unused2) |  |  |  |  | 
-[CMSG_ATTACKSWING](#cmsg_attackswing) | serialized | serialized | serialized | serialized | not used
+[CMSG_ATTACKSWING](#cmsg_attackswing) | serialized | serialized | serialized | serialized | serialized
 [CMSG_ATTACK_STOP](#cmsg_attack_stop) | serialized | serialized | serialized | serialized | not used
 [SMSG_ATTACK_START](#smsg_attack_start) | serialized | serialized | serialized | serialized | serialized
 [SMSG_ATTACK_STOP](#smsg_attack_stop) | serialized | serialized | serialized | serialized | serialized
@@ -417,11 +417,11 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_MOUNTSPECIAL_ANIM](#smsg_mountspecial_anim) | serialized | serialized | serialized | serialized | serialized
 [SMSG_PET_TAME_FAILURE](#smsg_pet_tame_failure) |  |  |  |  | 
 [CMSG_PET_SET_ACTION](#cmsg_pet_set_action) | serialized | serialized | serialized | not used | not used
-[CMSG_PET_ACTION](#cmsg_pet_action) | serialized | serialized | serialized | serialized | not used
+[CMSG_PET_ACTION](#cmsg_pet_action) | serialized | serialized | serialized | serialized | serialized
 [CMSG_PET_ABANDON](#cmsg_pet_abandon) | serialized | serialized | serialized | not used | not used
 [CMSG_PET_RENAME](#cmsg_pet_rename) | serialized | serialized | serialized | not used | not used
 [SMSG_PET_NAME_INVALID](#smsg_pet_name_invalid) |  |  |  |  | 
-[SMSG_PET_SPELLS](#smsg_pet_spells) |  |  |  |  | 
+[SMSG_PET_SPELLS](#smsg_pet_spells) | serialized | serialized | serialized | serialized | not used
 [SMSG_PET_MODE](#smsg_pet_mode) |  |  |  |  | 
 [CMSG_GOSSIP_HELLO](#cmsg_gossip_hello) | serialized | serialized | serialized | serialized | not used
 [CMSG_GOSSIP_SELECT_OPTION](#cmsg_gossip_select_option) | serialized | serialized | serialized | serialized | not used
@@ -576,7 +576,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_ACCOUNT_DATA_TIMES](#smsg_account_data_times) | serialized | serialized | serialized | serialized | serialized
 [SMSG_ACHIEVEMENT_DELETED](#smsg_achievement_deleted) | not used | not used | serialized | serialized | serialized
 [CMSG_REQUEST_ACCOUNT_DATA](#cmsg_request_account_data) | serialized | serialized | serialized | not used | not used
-[CMSG_UPDATE_ACCOUNT_DATA](#cmsg_update_account_data) | serialized | serialized | serialized | serialized | not used
+[CMSG_UPDATE_ACCOUNT_DATA](#cmsg_update_account_data) | serialized | serialized | serialized | serialized | serialized
 [SMSG_UPDATE_ACCOUNT_DATA](#smsg_update_account_data) |  |  |  |  | 
 [SMSG_UPDATE_ACCOUNT_DATA_COMPLETE](#smsg_update_account_data_complete) | not used | not used | serialized | serialized | serialized
 [SMSG_UPDATE_AURA_DURATION](#smsg_update_aura_duration) | serialized | serialized | not used | not used | not used
@@ -689,7 +689,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_SET_AMMO](#cmsg_set_ammo) | serialized | serialized | serialized | not used | not used
 [CMSG_SET_CHANNEL_WATCH](#cmsg_set_channel_watch) | serialized |  | serialized | serialized | serialized
 [SMSG_CORPSE_RECLAIM_DELAY](#smsg_corpse_reclaim_delay) | serialized | serialized | serialized | serialized | serialized
-[CMSG_SET_ACTIVE_MOVER](#cmsg_set_active_mover) | not used | serialized | serialized | not used | not used
+[CMSG_SET_ACTIVE_MOVER](#cmsg_set_active_mover) | not used | serialized | serialized | serialized | serialized
 [CMSG_SET_ACTIVE_VOICE_CHANNEL](#cmsg_set_active_voice_channel) | serialized | not used | serialized | not used | not used
 [CMSG_PET_CANCEL_AURA](#cmsg_pet_cancel_aura) | serialized | serialized | serialized | not used | not used
 [CMSG_PLAYER_AI_CHEAT](#cmsg_player_ai_cheat) |  |  |  |  | 
@@ -810,11 +810,11 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_BATTLEMASTER_HELLO](#cmsg_battlemaster_hello) | serialized | serialized | serialized | serialized | not used
 [CMSG_MOVE_START_SWIM_CHEAT](#cmsg_move_start_swim_cheat) |  |  |  |  | 
 [CMSG_MOVE_STOP_SWIM_CHEAT](#cmsg_move_stop_swim_cheat) |  |  |  |  | 
-[SMSG_FORCE_WALK_SPEED_CHANGE](#smsg_force_walk_speed_change) |  |  |  |  | 
+[SMSG_FORCE_WALK_SPEED_CHANGE](#smsg_force_walk_speed_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_WALK_SPEED_CHANGE_ACK](#cmsg_force_walk_speed_change_ack) | serialized | serialized | serialized | serialized | not used
-[SMSG_FORCE_SWIM_BACK_SPEED_CHANGE](#smsg_force_swim_back_speed_change) |  |  |  |  | 
+[SMSG_FORCE_SWIM_BACK_SPEED_CHANGE](#smsg_force_swim_back_speed_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_SWIM_BACK_SPEED_CHANGE_ACK](#cmsg_force_swim_back_speed_change_ack) | serialized | serialized | serialized | serialized | not used
-[SMSG_FORCE_TURN_RATE_CHANGE](#smsg_force_turn_rate_change) |  |  |  |  | 
+[SMSG_FORCE_TURN_RATE_CHANGE](#smsg_force_turn_rate_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_TURN_RATE_CHANGE_ACK](#cmsg_force_turn_rate_change_ack) | serialized | serialized | serialized | serialized | not used
 [MSG_PVP_LOG_DATA](#msg_pvp_log_data) | serialized | serialized | serialized | not used | not used
 [MSG_QUERY_GUILD_BANK_TEXT](#msg_query_guild_bank_text) | serialized | serialized | serialized | not used | not used
@@ -850,23 +850,23 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_COMPRESSED_MOVES](#smsg_compressed_moves) |  |  |  |  | 
 [CMSG_GUILD_INFO_TEXT](#cmsg_guild_info_text) | serialized | serialized | serialized | serialized | not used
 [SMSG_CHAT_RESTRICTED](#smsg_chat_restricted) |  |  |  |  | 
-[SMSG_SPLINE_SET_RUN_SPEED](#smsg_spline_set_run_speed) |  |  |  |  | 
-[SMSG_SPLINE_SET_RUN_BACK_SPEED](#smsg_spline_set_run_back_speed) |  |  |  |  | 
-[SMSG_SPLINE_SET_SWIM_SPEED](#smsg_spline_set_swim_speed) |  |  |  |  | 
-[SMSG_SPLINE_SET_WALK_SPEED](#smsg_spline_set_walk_speed) |  |  |  |  | 
-[SMSG_SPLINE_SET_SWIM_BACK_SPEED](#smsg_spline_set_swim_back_speed) |  |  |  |  | 
-[SMSG_SPLINE_SET_TURN_RATE](#smsg_spline_set_turn_rate) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_UNROOT](#smsg_spline_move_unroot) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_FEATHER_FALL](#smsg_spline_move_feather_fall) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_NORMAL_FALL](#smsg_spline_move_normal_fall) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_SET_HOVER](#smsg_spline_move_set_hover) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_UNSET_HOVER](#smsg_spline_move_unset_hover) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_WATER_WALK](#smsg_spline_move_water_walk) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_LAND_WALK](#smsg_spline_move_land_walk) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_START_SWIM](#smsg_spline_move_start_swim) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_STOP_SWIM](#smsg_spline_move_stop_swim) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_SET_RUN_MODE](#smsg_spline_move_set_run_mode) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_SET_WALK_MODE](#smsg_spline_move_set_walk_mode) |  |  |  |  | 
+[SMSG_SPLINE_SET_RUN_SPEED](#smsg_spline_set_run_speed) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_SET_RUN_BACK_SPEED](#smsg_spline_set_run_back_speed) | not used | not used | not used | serialized | not used
+[SMSG_SPLINE_SET_SWIM_SPEED](#smsg_spline_set_swim_speed) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_SET_WALK_SPEED](#smsg_spline_set_walk_speed) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_SET_SWIM_BACK_SPEED](#smsg_spline_set_swim_back_speed) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_SET_TURN_RATE](#smsg_spline_set_turn_rate) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_MOVE_UNROOT](#smsg_spline_move_unroot) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_MOVE_FEATHER_FALL](#smsg_spline_move_feather_fall) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_MOVE_NORMAL_FALL](#smsg_spline_move_normal_fall) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_MOVE_SET_HOVER](#smsg_spline_move_set_hover) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_UNSET_HOVER](#smsg_spline_move_unset_hover) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_WATER_WALK](#smsg_spline_move_water_walk) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_MOVE_LAND_WALK](#smsg_spline_move_land_walk) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_MOVE_START_SWIM](#smsg_spline_move_start_swim) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_STOP_SWIM](#smsg_spline_move_stop_swim) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_SET_RUN_MODE](#smsg_spline_move_set_run_mode) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_SET_WALK_MODE](#smsg_spline_move_set_walk_mode) | serialized | serialized | serialized | serialized | serialized
 [CMSG_GM_NUKE_ACCOUNT](#cmsg_gm_nuke_account) |  |  |  |  | 
 [CMSG_GM_REPORT_LAG](#cmsg_gm_report_lag) | not used | not used | serialized | not used | not used
 [MSG_GM_DESTROY_CORPSE](#msg_gm_destroy_corpse) |  |  |  |  | 
@@ -880,7 +880,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_SET_GUILD_BANK_TEXT](#cmsg_set_guild_bank_text) | serialized | serialized | serialized | serialized | not used
 [CMSG_SET_WATCHED_FACTION](#cmsg_set_watched_faction) | serialized | serialized | serialized | not used | not used
 [MSG_MOVE_TIME_SKIPPED](#msg_move_time_skipped) |  |  |  |  | 
-[SMSG_SPLINE_MOVE_ROOT](#smsg_spline_move_root) |  |  |  |  | 
+[SMSG_SPLINE_MOVE_ROOT](#smsg_spline_move_root) | serialized | serialized | serialized | serialized | serialized
 [CMSG_SET_EXPLORATION_ALL](#cmsg_set_exploration_all) |  |  |  |  | 
 [SMSG_INVALIDATE_PLAYER](#smsg_invalidate_player) |  |  |  |  | 
 [CMSG_RESET_INSTANCES](#cmsg_reset_instances) | serialized | serialized | serialized | serialized | not used
@@ -922,7 +922,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_MOVE_FLIGHT_ACK_OBSOLETE](#cmsg_move_flight_ack_obsolete) |  |  |  |  | 
 [MSG_MOVE_START_SWIM_CHEAT](#msg_move_start_swim_cheat) |  |  |  |  | 
 [MSG_MOVE_STOP_SWIM_CHEAT](#msg_move_stop_swim_cheat) |  |  |  |  | 
-[SMSG_MOVE_SET_CAN_FLY](#smsg_move_set_can_fly) |  |  |  |  | 
+[SMSG_MOVE_SET_CAN_FLY](#smsg_move_set_can_fly) | serialized | serialized | serialized | serialized | serialized
 [SMSG_MOVE_UNSET_CAN_FLY](#smsg_move_unset_can_fly) | serialized | serialized | serialized | serialized | serialized
 [CMSG_MOVE_SET_CAN_FLY_ACK](#cmsg_move_set_can_fly_ack) | serialized | serialized | not used | not used | not used
 [CMSG_MOVE_SET_FLY](#cmsg_move_set_fly) | serialized | serialized | serialized | not used | not used
@@ -983,15 +983,15 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_CHEAT_SET_HONOR_CURRENCY](#cmsg_cheat_set_honor_currency) |  |  |  |  | 
 [CMSG_CHEAT_SET_ARENA_CURRENCY](#cmsg_cheat_set_arena_currency) |  |  |  |  | 
 [MSG_MOVE_SET_FLIGHT_SPEED_CHEAT](#msg_move_set_flight_speed_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_FLIGHT_SPEED](#msg_move_set_flight_speed) |  |  |  |  | 
+[MSG_MOVE_SET_FLIGHT_SPEED](#msg_move_set_flight_speed) | serialized | serialized | serialized | serialized | serialized
 [MSG_MOVE_SET_FLIGHT_BACK_SPEED_CHEAT](#msg_move_set_flight_back_speed_cheat) |  |  |  |  | 
-[MSG_MOVE_SET_FLIGHT_BACK_SPEED](#msg_move_set_flight_back_speed) |  |  |  |  | 
-[SMSG_FORCE_FLIGHT_SPEED_CHANGE](#smsg_force_flight_speed_change) |  |  |  |  | 
+[MSG_MOVE_SET_FLIGHT_BACK_SPEED](#msg_move_set_flight_back_speed) | serialized | serialized | serialized | serialized | not used
+[SMSG_FORCE_FLIGHT_SPEED_CHANGE](#smsg_force_flight_speed_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_FLIGHT_SPEED_CHANGE_ACK](#cmsg_force_flight_speed_change_ack) | serialized | not used | serialized | serialized | not used
-[SMSG_FORCE_FLIGHT_BACK_SPEED_CHANGE](#smsg_force_flight_back_speed_change) |  |  |  |  | 
+[SMSG_FORCE_FLIGHT_BACK_SPEED_CHANGE](#smsg_force_flight_back_speed_change) | serialized | serialized | serialized | serialized | not used
 [CMSG_FORCE_FLIGHT_BACK_SPEED_CHANGE_ACK](#cmsg_force_flight_back_speed_change_ack) | serialized | not used | serialized | serialized | not used
-[SMSG_SPLINE_SET_FLIGHT_SPEED](#smsg_spline_set_flight_speed) |  |  |  |  | 
-[SMSG_SPLINE_SET_FLIGHT_BACK_SPEED](#smsg_spline_set_flight_back_speed) |  |  |  |  | 
+[SMSG_SPLINE_SET_FLIGHT_SPEED](#smsg_spline_set_flight_speed) | serialized | serialized | serialized | serialized | not used
+[SMSG_SPLINE_SET_FLIGHT_BACK_SPEED](#smsg_spline_set_flight_back_speed) | serialized | serialized | serialized | serialized | not used
 [CMSG_MAELSTROM_INVALIDATE_CACHE](#cmsg_maelstrom_invalidate_cache) |  |  |  |  | 
 [SMSG_FLIGHT_SPLINE_SYNC](#smsg_flight_spline_sync) |  |  |  |  | 
 [CMSG_SET_TAXI_BENCHMARK_MODE](#cmsg_set_taxi_benchmark_mode) | serialzed | not used | serialzed | serialzed | not used
@@ -1101,7 +1101,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_CALENDAR_EVENT_MODERATOR_STATUS](#cmsg_calendar_event_moderator_status) | not used | not used | serialized | not used | not used
 [CMSG_OBJECT_UPDATE_FAILED](#cmsg_object_update_failed) | not used | not used | not used | serialized | not used
 [CMSG_LOADING_SCREEN_NOTIFY](#cmsg_loading_screen_notify) | not used | not used | not used | serialized | serialized
-[CMSG_TIME_SYNC_RESPONSE](#cmsg_time_sync_response) | not used | not used | not used | serialized | not used
+[CMSG_TIME_SYNC_RESPONSE](#cmsg_time_sync_response) | not used | not used | not used | serialized | serialized
 [CMSG_MOVE_SET_CAN_FLY](#cmsg_move_set_can_fly) | not used | not used | not used | serialized | not used
 [CMSG_FORCE_PITCH_RATE_CHANGE_ACK](#cmsg_force_pitch_rate_change_ack) | not used | not used | not used | serialized | not used
 [CMSG_MESSAGECHAT_SAY](#cmsg_messagechat_say) | not used | not used | not used | serialized | not used
@@ -1159,7 +1159,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_REPORT](#cmsg_report) | not used | not used | not used | serialized | not used
 [CMSG_REPORT_PLAYER](#cmsg_report_player) | not used | not used | not used | serialized | not used
 [CMSG_REQUEST_CEMETERY_LIST](#cmsg_request_cemetery_list) | not used | not used | not used | serialized | not used
-[CMSG_REQUEST_HOTFIX](#cmsg_request_hotfix) | not used | not used | not used | serialized | not used
+[CMSG_REQUEST_HOTFIX](#cmsg_request_hotfix) | not used | not used | not used | serialized | serialized
 [CMSG_RETURN_TO_GRAVEYARD](#cmsg_return_to_graveyard) | not used | not used | not used | serialized | not used
 [CMSG_SUGGESTION_SUBMIT](#cmsg_suggestion_submit) | not used | not used | not used | serialized | not used
 [CMSG_LOG_DISCONNECT](#cmsg_log_disconnect) | not used | not used | not used | serialized | not used
@@ -1167,5 +1167,25 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_QUERY_BATTLEFIELD_STATE](#cmsg_query_battlefield_state) | not used | not used | not used | serialized | not used
 [CMSG_ADDON_REGISTERED_PREFIXES](#cmsg_addon_registered_prefixes) | not used | not used | not used | serialized | serialized
 [CMSG_UNREGISTER_ALL_ADDON_PREFIXES](#cmsg_unregister_all_addon_prefixes) | not used | not used | not used | serialized | serialized
+[SMSG_SPLINE_SET_PITCH_RATE](#smsg_spline_set_pitch_rate) | not used | not used | not used | serialized | not used
+[MSG_MOVE_SET_PITCH_RATE](#msg_move_set_pitch_rate) | not used | not used | serialized | serialized | serialized
+[SMSG_FORCE_PITCH_RATE_CHANGE](#smsg_force_pitch_rate_change) | not used | not used | serialized | serialized | not used
+[SMSG_MOVE_SET_SWIM_BACK_SPEED](#smsg_move_set_swim_back_speed) | not used | not used | not used | not used | serialized
+[SMSG_SPLINE_MOVE_SET_FLYING](#smsg_spline_move_set_flying) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_UNSET_FLYING](#smsg_spline_move_unset_flying) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_GRAVITY_DISABLE](#smsg_spline_move_gravity_disable) | not used | not used | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_GRAVITY_ENABLE](#smsg_spline_move_gravity_enable) | not used | not used | serialized | serialized | serialized
+[SMSG_MOVE_GRAVITY_DISABLE](#smsg_move_gravity_disable) | not used | not used | serialized | serialized | serialized
+[SMSG_MOVE_GRAVITY_ENABLE](#smsg_move_gravity_enable) | not used | not used | serialized | serialized | serialized
+[SMSG_MOVE_SET_WALK_SPEED](#smsg_move_set_walk_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_UPDATE_TELEPORT](#smsg_move_update_teleport) | not used | not used | not used | serialized | serialized
+[SMSG_SET_DUNGEON_DIFFICULTY](#smsg_set_dungeon_difficulty) | not used | not used | not used | not used | serialized
+[CMSG_SET_RAID_DIFFICULTY](#cmsg_set_raid_difficulty) | not used | not used | not used | not used | serialized
+[CMSG_SET_DUNGEON_DIFFICULTY](#cmsg_set_dungeon_difficulty) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_TURN_RATE](#smsg_move_set_turn_rate) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_SWIM_SPEED](#smsg_move_set_swim_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_RUN_SPEED](#smsg_move_set_run_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_RUN_BACK_SPEED](#smsg_move_set_run_back_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_FLIGHT_BACK_SPEED](#smsg_move_set_flight_back_speed) | not used | not used | not used | not used | serialized
 
-<!-- position next 1169 -->
+<!-- position next 1189 -->

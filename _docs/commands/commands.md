@@ -257,6 +257,8 @@ pvpcredit           | m      | Sends PVP credit packet, with specified rank and 
 calcdist            | d      | Displays distance between your current position and (x) (y) (z)                          | .debug calcdist
 dumpmovement        | d      | Dump movement                                                                            | .debug dumpmovement
 movefall            | d      | Makes the creature fall to the ground                                                    | .debug movefall
+dumpitemset         | d      | Dumps DBC itemset bonus to database                                                      | .debug dumpitemset
+dumpitems           | d      | Dumps DB2 items to database                                                              | .debug dumpitems
 
 ## .event
 

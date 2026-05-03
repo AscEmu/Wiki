@@ -6,7 +6,8 @@ layout: single_markdown
 ---
 
 # wordfilter_chat
-NOTE: DO NOT FILL ANY DATA INTO THIS TABLE. WORLDSERVER CRASH INSTANTLY!
+NOTE: Do not fill any data into this table. worldserver crash instantly!
+{: .info }
 
 ## Structure
 

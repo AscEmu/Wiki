@@ -15,4 +15,4 @@ Classic    | 0x20B      |
 TBC        | 0x20B      |
 WotLK      | 0x20B      |
 Cata       | 0x4736     |
-MoP        |            |
+MoP        | 0x0068     |

@@ -17,4 +17,4 @@ Classic    | 0x13D      |
 TBC        | 0x13D      |
 WotLK      | 0x13D      |
 Cata       | 0x0506     |
-MoP        |            |
+MoP        | 0x0740     |
