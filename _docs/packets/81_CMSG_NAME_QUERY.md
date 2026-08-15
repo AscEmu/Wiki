@@ -15,4 +15,4 @@ Classic    | 0x050      |
 TBC        | 0x050      |
 WotLK      | 0x050      |
 Cata       | 0x2224     |
-MoP        |            |
+MoP        | 0x0328     |

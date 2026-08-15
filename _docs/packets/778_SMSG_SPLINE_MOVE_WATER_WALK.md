@@ -15,4 +15,4 @@ Classic    | 0x309      |
 TBC        | 0x309      |
 WotLK      | 0x309      |
 Cata       | 0x50A2     |
-MoP        |            |
+MoP        | 0x1823     |

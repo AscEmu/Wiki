@@ -15,4 +15,4 @@ Classic    | 0x0C3      |
 TBC        | 0x0C3      |
 WotLK      | 0x0C3      |
 Cata       | 0x7002     |
-MoP        |            |
+MoP        | 0x08D1     |

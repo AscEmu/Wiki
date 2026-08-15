@@ -15,4 +15,4 @@ Classic    | 0x0C9      |
 TBC        | 0x0C9      |
 WotLK      | 0x0C9      |
 Cata       | 0x380A     |
-MoP        |            |
+MoP        | 0x08FA     |

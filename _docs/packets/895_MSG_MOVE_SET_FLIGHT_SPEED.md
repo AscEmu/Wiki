@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x37E      |
 TBC        | 0x37E      |
 WotLK      | 0x37E      |
-Cata       | 0x71A6     |
-MoP        | 0x006E     |
+Cata       | 0x30B1     |
+MoP        | 0x00E1     |

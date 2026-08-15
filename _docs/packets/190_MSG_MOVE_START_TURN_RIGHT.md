@@ -15,4 +15,4 @@ Classic    | 0x0BD      |
 TBC        | 0x0BD      |
 WotLK      | 0x0BD      |
 Cata       | 0x7000     |
-MoP        |            |
+MoP        | 0x107B     |

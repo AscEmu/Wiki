@@ -15,4 +15,4 @@ Classic    | 0x359      |
 TBC        | 0x359      |
 WotLK      | 0x359      |
 Cata       | 0x390A     |
-MoP        |            |
+MoP        | 0x11FA     |

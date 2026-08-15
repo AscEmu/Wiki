@@ -15,4 +15,4 @@ Classic    | 0x30A      |
 TBC        | 0x30A      |
 WotLK      | 0x30A      |
 Cata       | 0x3DA7     |
-MoP        |            |
+MoP        | 0x18B6     |

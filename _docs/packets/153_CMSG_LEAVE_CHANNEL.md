@@ -15,4 +15,4 @@ Classic    | 0x098      |
 TBC        | 0x098      |
 WotLK      | 0x098      |
 Cata       | 0x2D56     |
-MoP        |            |
+MoP        | 0x042A     |

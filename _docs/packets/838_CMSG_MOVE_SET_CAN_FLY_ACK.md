@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x345      |
 TBC        | 0x345      |
 WotLK      | 0x345      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x790C     |
+MoP        | 0x1052     |

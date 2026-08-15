@@ -15,4 +15,4 @@ Classic    | 0x27F      |
 TBC        | 0x27F      |
 WotLK      | 0x27F      |
 Cata       |            |
-MoP        |            |
+MoP        | 0x0806     |

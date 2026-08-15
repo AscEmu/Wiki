@@ -15,4 +15,4 @@ Classic    | 0x385      |
 TBC        | 0x385      |
 WotLK      | 0x385      |
 Cata       | 0x39A0     |
-MoP        |            |
+MoP        | 0x1DAB     |

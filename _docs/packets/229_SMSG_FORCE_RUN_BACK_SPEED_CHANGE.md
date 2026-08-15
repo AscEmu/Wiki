@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x0E4      |
 TBC        | 0x0E4      |
 WotLK      | 0x0E4      |
-Cata       | 0x3DA6     |
-MoP        |            |
+Cata       | 0x71B1     |
+MoP        | 0x0A83     |

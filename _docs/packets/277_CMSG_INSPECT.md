@@ -15,4 +15,4 @@ Classic    | 0x114      |
 TBC        | 0x114      |
 WotLK      | 0x114      |
 Cata       | 0x0927     |
-MoP        |            |
+MoP        | 0x1259     |

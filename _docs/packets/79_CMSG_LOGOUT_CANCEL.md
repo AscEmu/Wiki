@@ -15,4 +15,4 @@ Classic    | 0x04E      |
 TBC        | 0x04E      |
 WotLK      | 0x04E      |
 Cata       | 0x2324     |
-MoP        |            |
+MoP        | 0x06C1     |

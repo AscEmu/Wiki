@@ -11,8 +11,8 @@ position: 223
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0          |
+TBC        | 0          |
+WotLK      | 0          |
+Cata       | 0x75B1     |
 MoP        | 0x1F9A     |

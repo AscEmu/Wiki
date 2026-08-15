@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x381      |
 TBC        | 0x381      |
 WotLK      | 0x381      |
-Cata       | 0x30B1     |
-MoP        |            |
+Cata       | 0x71A6     |
+MoP        | 0x006E     |

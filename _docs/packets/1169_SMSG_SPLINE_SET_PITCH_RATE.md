@@ -11,8 +11,8 @@ position: 1169
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | -          | not used
+TBC        | -          | not used
+WotLK      | 0x45E      |
 Cata       | 0x14B0     |
-MoP        |            |
+MoP        | 0x0AB3     |

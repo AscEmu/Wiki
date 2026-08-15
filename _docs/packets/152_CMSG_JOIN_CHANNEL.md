@@ -17,4 +17,4 @@ Classic    |            |
 TBC        | 0x097      |
 WotLK      | 0x097      |
 Cata       | 0x0156     |
-MoP        |            |
+MoP        | 0x148E     |
