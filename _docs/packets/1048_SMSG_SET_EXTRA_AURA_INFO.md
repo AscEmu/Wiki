@@ -2,7 +2,7 @@
 title: SMSG_RATED_BG_STATS
 type: packets
 layout: single_markdown_in_list
-position: 1047
+position: 1048
 ---
 
 ## SMSG_RATED_BG_STATS

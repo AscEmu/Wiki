@@ -2,7 +2,7 @@
 title: SMSG_REQUEST_CEMETERY_LIST_RESPONSE
 type: packets
 layout: single_markdown_in_list
-position: 1185
+position: 1060
 ---
 
 ## SMSG_REQUEST_CEMETERY_LIST_RESPONSE

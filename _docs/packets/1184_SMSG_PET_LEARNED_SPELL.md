@@ -2,7 +2,7 @@
 title: SMSG_PET_LEARNED_SPELL
 type: packets
 layout: single_markdown_in_list
-position: 
+position: 1184
 ---
 
 ## SMSG_PET_LEARNED_SPELL

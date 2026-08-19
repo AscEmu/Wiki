@@ -2,7 +2,7 @@
 title: SMSG_USERLIST_ADD
 type: packets
 layout: single_markdown_in_list
-position: 1184
+position: 1072
 ---
 
 ## SMSG_USERLIST_ADD
