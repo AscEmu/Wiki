@@ -528,7 +528,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_CLEAR_COOLDOWN](#smsg_clear_cooldown) | serialized | serialized | serialized | serialized | serialized
 [SMSG_CLEAR_EXTRA_AURA_INFO](#smsg_clear_extra_aura_info) | serialized | serialized | not used | not used | not used
 [SMSG_GAMEOBJECT_PAGETEXT](#smsg_gameobject_pagetext) | serialized | serialized | serialized | serialized | serialized
-[CMSG_SETSHEATHED](#cmsg_setsheathed) | serialized | serialized | serialized | serialized | not used
+[CMSG_SETSHEATHED](#cmsg_setsheathed) | serialized | serialized | serialized | serialized | serialized
 [SMSG_COOLDOWN_CHEAT](#smsg_cooldown_cheat) |  |  |  |  | 
 [SMSG_SPELL_DELAYED](#smsg_spell_delayed) | serialized | serialized | serialized | serialized | serialized
 [CMSG_QUEST_POI_QUERY](#cmsg_quest_poi_query) | not used | not used | serialized | serialized | not used
