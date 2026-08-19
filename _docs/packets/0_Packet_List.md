@@ -1188,4 +1188,4 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_THREAT_REMOVE](#smsg_threat_remove) | not used | not used | serialized | serialized | serialized
 [SMSG_THREAT_UPDATE](#smsg_threat_update) | not used | not used | serialized | serialized | serialized
 
-<!-- position next 1189 -->
+<!-- position next 1186 -->

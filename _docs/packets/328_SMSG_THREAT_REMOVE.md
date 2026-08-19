@@ -2,7 +2,7 @@
 title: SMSG_THREAT_REMOVE
 type: packets
 layout: single_markdown_in_list
-position: 1187
+position: 328
 ---
 
 ## SMSG_THREAT_REMOVE
