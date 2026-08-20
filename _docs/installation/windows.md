@@ -142,7 +142,8 @@ Sign in to GitHub and GitHub Desktop before you start to clone.
 
 ![VisualStudio_1.png](/Wiki/images/installation.windows/VisualStudio_1.png)
 
-Installing Visual Studio make sure to select 'Desktop Development with C++' and install all required components. 
+Installing Visual Studio make sure to select '**Desktop Development with C++**' and install all required components. 
+{: .success }
 
 #### CMake
 
