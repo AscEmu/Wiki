@@ -11,8 +11,8 @@ position: 941
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x3AC      |
+TBC        | 0x3AC      |
+WotLK      | 0x3AC      |
+Cata       | 0x2135     |
+MoP        | 0x0E3A     |

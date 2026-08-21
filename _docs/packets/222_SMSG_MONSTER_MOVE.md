@@ -11,8 +11,8 @@ position: 222
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x0DD      |
+TBC        | 0x0DD      |
+WotLK      | 0x0DD      |
+Cata       | 0x6E17     |
+MoP        | 0x1A07     |

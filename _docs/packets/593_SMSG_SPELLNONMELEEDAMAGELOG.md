@@ -11,8 +11,8 @@ position: 593
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x250      |
+TBC        | 0x250      |
+WotLK      | 0x250      |
+Cata       | 0x4315     |
+MoP        | 0x1450     |

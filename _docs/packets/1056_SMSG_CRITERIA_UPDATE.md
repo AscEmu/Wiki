@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | not used
 TBC        | -          | not used
-WotLK      | 0x46A      | 
-Cata       | 0x6E37     | 
-MoP        | 0x6E37     | 
+WotLK      | 0x46A      |
+Cata       | 0x6E37     |
+MoP        | 0x0E9B     |

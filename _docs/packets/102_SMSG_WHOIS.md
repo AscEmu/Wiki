@@ -11,8 +11,8 @@ position: 102
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x065      |
+TBC        | 0x065      |
+WotLK      | 0x065      |
+Cata       | 0x6917     |
+MoP        | 0x12BA     |

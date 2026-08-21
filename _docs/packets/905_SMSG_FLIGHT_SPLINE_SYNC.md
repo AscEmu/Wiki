@@ -11,8 +11,8 @@ position: 905
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x388      |
+TBC        | 0x388      |
+WotLK      | 0x388      |
+Cata       | 0x0924     |
+MoP        | 0x0063     |

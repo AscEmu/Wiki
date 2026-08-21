@@ -15,4 +15,4 @@ Classic    | 0x0EB      |
 TBC        | 0x0EB      |
 WotLK      | 0x0EB      |
 Cata       | 0x7808     |
-MoP        |            |
+MoP        | 0x1051     |

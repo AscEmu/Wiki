@@ -11,8 +11,8 @@ position: 354
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x161      | 
-TBC        | 0x161      | 
-WotLK      | 0x161      | 
-Cata       | 0x6D25     | 
-MoP        | 0x6D25     | 
+Classic    | 0x161      |
+TBC        | 0x161      |
+WotLK      | 0x161      |
+Cata       | 0x6D25     |
+MoP        | 0x123F     |

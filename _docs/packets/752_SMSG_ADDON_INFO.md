@@ -11,8 +11,8 @@ position: 752
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x2EF      |
+TBC        | 0x2EF      |
+WotLK      | 0x2EF      |
+Cata       | 0x2C14     |
+MoP        | 0x160A     |

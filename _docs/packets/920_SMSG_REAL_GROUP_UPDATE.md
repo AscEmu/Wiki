@@ -11,8 +11,8 @@ position: 920
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x397      |
+TBC        | 0x397      |
+WotLK      | 0x397      |
+Cata       | 0x0F34     |
+MoP        | 0          | - not used

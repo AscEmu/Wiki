@@ -11,8 +11,8 @@ position: 356
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x163      | 
-TBC        | 0x163      | 
-WotLK      | 0x163      | 
-Cata       | 0x2836     | 
-MoP        | 0x2836     | 
+Classic    | 0x163      |
+TBC        | 0x163      |
+WotLK      | 0x163      |
+Cata       | 0x2836     |
+MoP        | 0x14C0     |

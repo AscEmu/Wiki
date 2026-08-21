@@ -11,8 +11,8 @@ position: 574
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x23D      |
+TBC        | 0x23D      |
+WotLK      | 0x23D      |
+Cata       | 0x71B5     |
+MoP        | 0x160E     |

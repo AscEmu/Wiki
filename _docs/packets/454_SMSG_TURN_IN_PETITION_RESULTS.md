@@ -11,8 +11,8 @@ position: 454
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x1C5      |
+TBC        | 0x1C5      |
+WotLK      | 0x1C5      |
+Cata       | 0x0F07     |
+MoP        | 0x0E13     |

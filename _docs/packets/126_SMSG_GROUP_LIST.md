@@ -11,8 +11,8 @@ position: 126
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x07D      | 
-TBC        | 0x07D      | 
-WotLK      | 0x07D      | 
-Cata       | 0x4C24     | 
-MoP        | 0x4C24     | 
+Classic    | 0x07D      |
+TBC        | 0x07D      |
+WotLK      | 0x07D      |
+Cata       | 0x4C24     |
+MoP        | 0x0CBB     |

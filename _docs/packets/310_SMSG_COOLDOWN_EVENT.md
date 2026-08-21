@@ -11,8 +11,8 @@ position: 310
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x135      | 
-TBC        | 0x135      | 
-WotLK      | 0x135      | 
-Cata       | 0x4F26     | 
-MoP        | 0x4F26     | 
+Classic    | 0x135      |
+TBC        | 0x135      |
+WotLK      | 0x135      |
+Cata       | 0x4F26     |
+MoP        | 0x1163     |

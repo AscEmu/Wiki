@@ -11,8 +11,8 @@ position: 618
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x269      | 
-TBC        | 0x269      | 
-WotLK      | 0x269      | 
-Cata       | 0x0D34     | 
-MoP        | 0x0D34     | 
+Classic    | 0x269      |
+TBC        | 0x269      |
+WotLK      | 0x269      |
+Cata       | 0x0D34     |
+MoP        | 0x022A     |

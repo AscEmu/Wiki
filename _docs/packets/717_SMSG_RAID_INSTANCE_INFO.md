@@ -11,8 +11,8 @@ position: 717
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x2CC      |
+TBC        | 0x2CC      |
+WotLK      | 0x2CC      |
+Cata       | 0x6626     |
+MoP        | 0x16BF     |
