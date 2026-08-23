@@ -11,8 +11,8 @@ position: 696
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2B7      | 
-TBC        | 0x2B7      | 
-WotLK      | 0x2B7      | 
-Cata       | 0x4836     | 
-MoP        | 0x4836     | 
+Classic    | 0x2B7      |
+TBC        | 0x2B7      |
+WotLK      | 0x2B7      |
+Cata       | 0x4836     |
+MoP        | 0x129F     |

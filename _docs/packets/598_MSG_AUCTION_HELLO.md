@@ -15,4 +15,4 @@ Classic    | 0x255      |
 TBC        | 0x255      |
 WotLK      | 0x255      |
 Cata       | 0x2307     |
-MoP        |            |
+MoP        | 0          |

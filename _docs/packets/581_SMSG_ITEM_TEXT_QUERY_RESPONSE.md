@@ -11,8 +11,8 @@ position: 581
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x244      | 
-TBC        | 0x244      | 
-WotLK      | 0x244      | 
-Cata       | 0x2725     | 
-MoP        | 0x2725     | 
+Classic    | 0x244      |
+TBC        | 0x244      |
+WotLK      | 0x244      |
+Cata       | 0x2725     |
+MoP        | 0          |

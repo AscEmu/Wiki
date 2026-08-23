@@ -11,8 +11,8 @@ position: 697
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2B8      | 
-TBC        | 0x2B8      | 
-WotLK      | 0x2B8      | 
-Cata       | 0x4505     | 
-MoP        | 0x4505     | 
+Classic    | 0x2B8      |
+TBC        | 0x2B8      |
+WotLK      | 0x2B8      |
+Cata       | 0x4505     |
+MoP        | 0          |

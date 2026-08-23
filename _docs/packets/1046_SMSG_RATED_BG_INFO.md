@@ -11,8 +11,8 @@ position: 1046
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | -          | not used
-Cata       | 0x34A1     | 
-MoP        | 0x34A1     | 
+Classic    | 0          |
+TBC        | 0          |
+WotLK      | 0          |
+Cata       | 0x34A1     |
+MoP        | 0          |

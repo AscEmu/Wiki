@@ -11,8 +11,8 @@ position: 462
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1CD      | 
-TBC        | 0x1CD      | 
-WotLK      | 0x1CD      | 
-Cata       | 0x6037     | 
-MoP        | 0x6037     | 
+Classic    | 0x1CD      |
+TBC        | 0x1CD      |
+WotLK      | 0x1CD      |
+Cata       | 0x6037     |
+MoP        | 0x11E2     |

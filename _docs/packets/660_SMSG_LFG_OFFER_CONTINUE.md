@@ -15,4 +15,4 @@ Classic    | -          | not used
 TBC        | -          | not used
 WotLK      | 0x293      | 
 Cata       | 0x6B27     | 
-MoP        | 0x6B27     | 
+MoP        | 0x1EAB     |

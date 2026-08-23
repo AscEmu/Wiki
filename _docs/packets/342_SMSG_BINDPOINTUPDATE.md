@@ -11,8 +11,8 @@ position: 342
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x155      | 
-TBC        | 0x155      | 
-WotLK      | 0x155      | 
-Cata       | 0x0527     | 
-MoP        | 0x0527     | 
+Classic    | 0x155      |
+TBC        | 0x155      |
+WotLK      | 0x155      |
+Cata       | 0x0527     |
+MoP        | 0x0E3B     |

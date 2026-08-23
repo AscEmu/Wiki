@@ -11,8 +11,8 @@ position: 1045
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x417      | 
-TBC        | 0x417      | 
-WotLK      | 0x418      | 
-Cata       | 0x4F25     | 
-MoP        | 0x4F25     | 
+Classic    | 0x417      |
+TBC        | 0x417      |
+WotLK      | 0x418      |
+Cata       | 0x4F25     |
+MoP        | 0x06CE     |

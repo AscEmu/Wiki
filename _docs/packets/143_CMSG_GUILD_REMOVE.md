@@ -11,8 +11,8 @@ position: 143
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x08E      | 
-TBC        |            |
-WotLK      | 0x08E      | 
-Cata       | 0x1231     | 
-MoP        | 0x1231     | 
+Classic    | 0x08E      |
+TBC        | 0x08E      |
+WotLK      | 0x08E      |
+Cata       | 0x1231     |
+MoP        | 0x0CD8     |

@@ -17,4 +17,4 @@ Classic    | 0x0FE      |
 TBC        | 0x0FE      |
 WotLK      | 0x0FE      |
 Cata       | 0x6C26     |
-MoP        |            |
+MoP        | 0x1D36     |

@@ -11,8 +11,8 @@ position: 240
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0EF      | 
-TBC        | 0x0EF      | 
-WotLK      | 0x0EF      | 
-Cata       | 0x5CB4     | 
-MoP        | 0x5CB4     | 
+Classic    | 0x0EF      |
+TBC        | 0x0EF      |
+WotLK      | 0x0EF      |
+Cata       | 0x5CB4     |
+MoP        | 0x0562     |

@@ -11,8 +11,8 @@ position: 476
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1DB      | 
-TBC        | 0x1DB      | 
-WotLK      | 0x1DB      | 
-Cata       | 0x0B06     | 
-MoP        | 0x0B06     | 
+Classic    | 0x1DB      |
+TBC        | 0x1DB      |
+WotLK      | 0x1DB      |
+Cata       | 0x0B06     |
+MoP        | 0x1026     |

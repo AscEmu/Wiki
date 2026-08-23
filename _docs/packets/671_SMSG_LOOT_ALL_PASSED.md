@@ -11,8 +11,8 @@ position: 671
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x29E      | 
-TBC        | 0x29E      | 
-WotLK      | 0x29E      | 
-Cata       | 0x6237     | 
-MoP        | 0x6237     | 
+Classic    | 0x29E      |
+TBC        | 0x29E      |
+WotLK      | 0x29E      |
+Cata       | 0x6237     |
+MoP        | 0x0EBB     |

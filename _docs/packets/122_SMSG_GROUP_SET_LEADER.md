@@ -11,8 +11,8 @@ position: 122
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x079      | 
-TBC        | 0x079      | 
-WotLK      | 0x079      | 
-Cata       | 0x0526     | 
-MoP        | 0x0526     | 
+Classic    | 0x079      |
+TBC        | 0x079      |
+WotLK      | 0x079      |
+Cata       | 0x0526     |
+MoP        | 0x0CE1     |

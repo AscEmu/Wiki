@@ -11,8 +11,8 @@ position: 505
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1F8      | 
-TBC        | 0x1F8      | 
-WotLK      | 0x1F8      | 
-Cata       | 0x6716     | 
-MoP        | 0x6716     | 
+Classic    | 0x1F8      |
+TBC        | 0x1F8      |
+WotLK      | 0x1F8      |
+Cata       | 0x6716     |
+MoP        | 0x189A     |

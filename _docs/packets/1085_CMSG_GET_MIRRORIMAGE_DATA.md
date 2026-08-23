@@ -12,7 +12,7 @@ position: 1085
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x400      |
-TBC        |            |
+TBC        | 0x400      |
 WotLK      | 0x401      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x0C25     |
+MoP        | 0x02A3     |

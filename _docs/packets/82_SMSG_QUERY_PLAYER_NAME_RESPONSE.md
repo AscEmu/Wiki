@@ -15,4 +15,4 @@ Classic    | 0x051      |
 TBC        | 0x051      |
 WotLK      | 0x051      |
 Cata       | 0x6E04     |
-MoP        | 0x6E04     |
+MoP        | 0x169B     |

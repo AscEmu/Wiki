@@ -11,8 +11,8 @@ position: 403
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x192      | 
-TBC        | 0x192      | 
-WotLK      | 0x192      | 
-Cata       | 0x4236     | 
-MoP        | 0x4236     | 
+Classic    | 0x192      |
+TBC        | 0x192      |
+WotLK      | 0x192      |
+Cata       | 0x4236     |
+MoP        | 0x12DE     |

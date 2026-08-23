@@ -15,4 +15,4 @@ Classic    | -          | not used
 TBC        | -          | not used
 WotLK      | -          | not used
 Cata       | 0x5DB4     | 
-MoP        | 0x5DB4     | 
+MoP        | 0x0B78     | 

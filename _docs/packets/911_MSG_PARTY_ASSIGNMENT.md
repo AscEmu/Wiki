@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x38E      |
 TBC        | 0x38E      |
 WotLK      | 0x38E      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x0424     |
+MoP        | 0          |

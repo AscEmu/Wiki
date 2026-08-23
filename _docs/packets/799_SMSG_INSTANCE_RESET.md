@@ -11,8 +11,8 @@ position: 799
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x31E      | 
-TBC        | 0x31E      | 
-WotLK      | 0x31E      | 
-Cata       | 0x6F05     | 
-MoP        | 0x6F05     | 
+Classic    | 0x31E      |
+TBC        | 0x31E      |
+WotLK      | 0x31E      |
+Cata       | 0x6F05     |
+MoP        | 0x160F     |

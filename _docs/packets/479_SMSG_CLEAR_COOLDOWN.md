@@ -11,8 +11,8 @@ position: 479
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1DE      | 
-TBC        | 0x1DE      | 
-WotLK      | 0x1DE      | 
-Cata       | 0x0627     | 
-MoP        | 0x0627     | 
+Classic    | 0x1DE      |
+TBC        | 0x1DE      |
+WotLK      | 0x1DE      |
+Cata       | 0x0627     |
+MoP        | 0x162A     |

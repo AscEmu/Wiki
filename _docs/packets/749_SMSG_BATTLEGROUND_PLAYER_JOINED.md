@@ -11,8 +11,8 @@ position: 749
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2EC      | 
-TBC        | 0x2EC      | 
-WotLK      | 0x2EC      | 
-Cata       | 0x50B0     | 
-MoP        | 0x50B0     | 
+Classic    | 0x2EC      |
+TBC        | 0x2EC      |
+WotLK      | 0x2EC      |
+Cata       | 0x50B0     |
+MoP        | 0x1E2F     |

@@ -11,8 +11,8 @@ position: 708
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2C3      | 
-TBC        | 0x2C3      | 
-WotLK      | 0x2C3      | 
-Cata       | 0x4816     | 
-MoP        | 0x121B     | 
+Classic    | 0x2C3      |
+TBC        | 0x2C3      |
+WotLK      | 0x2C3      |
+Cata       | 0x4816     |
+MoP        | 0x121B     |

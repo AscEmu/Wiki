@@ -11,8 +11,8 @@ position: 363
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x16A      | 
-TBC        | 0x16A      | 
-WotLK      | 0x16A      | 
-Cata       | 0x2527     | 
-MoP        | 0x2527     | 
+Classic    | 0x16A      |
+TBC        | 0x16A      |
+WotLK      | 0x16A      |
+Cata       | 0x2527     |
+MoP        | 0x1C0A     |

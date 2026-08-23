@@ -11,8 +11,8 @@ position: 820
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x333      | 
-TBC        | 0x333      | 
-WotLK      | 0x333      | 
-Cata       | 0x4E26     | 
-MoP        | 0x4E26     | 
+Classic    | 0x333      |
+TBC        | 0x333      |
+WotLK      | 0x333      |
+Cata       | 0x4E26     |
+MoP        | 0          |

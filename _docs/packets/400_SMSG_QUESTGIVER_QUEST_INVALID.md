@@ -11,8 +11,8 @@ position: 400
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x18F      | 
-TBC        | 0x18F      | 
-WotLK      | 0x18F      | 
-Cata       | 0x4016     | 
-MoP        | 0x4016     | 
+Classic    | 0x18F      |
+TBC        | 0x18F      |
+WotLK      | 0x18F      |
+Cata       | 0x4016     |
+MoP        | 0x027D     |

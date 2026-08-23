@@ -11,8 +11,8 @@ position: 402
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x191      | 
-TBC        | 0x191      | 
-WotLK      | 0x191      | 
-Cata       | 0x55A4     | 
-MoP        | 0x55A4     | 
+Classic    | 0x191      |
+TBC        | 0x191      |
+WotLK      | 0x191      |
+Cata       | 0x55A4     |
+MoP        | 0x0346     |

@@ -11,8 +11,8 @@ position: 1180
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0          |
+TBC        | 0          |
+WotLK      | 0          |
 Cata       | 0x50B2     |
 MoP        | 0x15A9     |

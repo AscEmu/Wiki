@@ -11,8 +11,8 @@ position: 615
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x266      | 
-TBC        | 0x266      | 
-WotLK      | 0x266      | 
-Cata       | 0x2834     | 
-MoP        | 0x2834     | 
+Classic    | 0x266      |
+TBC        | 0x266      |
+WotLK      | 0x266      |
+Cata       | 0x2834     |
+MoP        | 0x10F2     |

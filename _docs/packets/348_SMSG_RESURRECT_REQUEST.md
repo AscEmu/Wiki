@@ -11,8 +11,8 @@ position: 348
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x15B      | 
-TBC        | 0x15B      | 
-WotLK      | 0x15B      | 
-Cata       | 0x2905     | 
-MoP        | 0x2905     | 
+Classic    | 0x15B      |
+TBC        | 0x15B      |
+WotLK      | 0x15B      |
+Cata       | 0x2905     |
+MoP        | 0x1062     |

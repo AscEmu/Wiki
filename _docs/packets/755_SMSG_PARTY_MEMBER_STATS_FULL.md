@@ -11,8 +11,8 @@ position: 755
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2F2      | 
-TBC        | 0x2F2      | 
-WotLK      | 0x2F2      | 
-Cata       | 0x0215     | 
-MoP        | 0x0215     | 
+Classic    | 0x2F2      |
+TBC        | 0x2F2      |
+WotLK      | 0x2F2      |
+Cata       | 0x0215     |
+MoP        | 0          |

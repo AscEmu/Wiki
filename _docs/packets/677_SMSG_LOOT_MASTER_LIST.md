@@ -11,8 +11,8 @@ position: 677
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2A4      | 
-TBC        | 0x2A4      | 
-WotLK      | 0x2A4      | 
-Cata       | 0x0325     | 
-MoP        | 0x0325     | 
+Classic    | 0x2A4      |
+TBC        | 0x2A4      |
+WotLK      | 0x2A4      |
+Cata       | 0x0325     |
+MoP        | 0x02BF     |

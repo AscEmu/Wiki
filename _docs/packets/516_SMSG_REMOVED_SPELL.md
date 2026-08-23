@@ -11,8 +11,8 @@ position: 516
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x203      | 
-TBC        | 0x203      | 
-WotLK      | 0x203      | 
-Cata       | 0x4804     | 
-MoP        | 0x4804     | 
+Classic    | 0x203      |
+TBC        | 0x203      |
+WotLK      | 0x203      |
+Cata       | 0x4804     |
+MoP        | 0x14C3     |

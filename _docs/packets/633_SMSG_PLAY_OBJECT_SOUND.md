@@ -11,8 +11,8 @@ position: 633
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x278      | 
-TBC        | 0x278      | 
-WotLK      | 0x278      | 
-Cata       | 0x2635     | 
-MoP        | 0x2635     | 
+Classic    | 0x278      |
+TBC        | 0x278      |
+WotLK      | 0x278      |
+Cata       | 0x2635     |
+MoP        | 0x1443     |

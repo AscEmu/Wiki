@@ -11,8 +11,8 @@ position: 436
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1B3      | 
-TBC        | 0x1B3      | 
-WotLK      | 0x1B3      | 
-Cata       | 0x6A05     | 
-MoP        | 0x6A05     | 
+Classic    | 0x1B3      |
+TBC        | 0x1B3      |
+WotLK      | 0x1B3      |
+Cata       | 0x6A05     |
+MoP        | 0          |

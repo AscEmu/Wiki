@@ -11,8 +11,8 @@ position: 493
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1EC      | 
-TBC        | 0x1EC      | 
-WotLK      | 0x1EC      | 
-Cata       | 0x4542     | 
-MoP        | 0x0949     | 
+Classic    | 0x1EC      |
+TBC        | 0x1EC      |
+WotLK      | 0x1EC      |
+Cata       | 0x4542     |
+MoP        | 0x0949     |

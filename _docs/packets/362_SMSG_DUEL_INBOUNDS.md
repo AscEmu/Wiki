@@ -11,8 +11,8 @@ position: 362
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x169      | 
-TBC        | 0x169      | 
-WotLK      | 0x169      | 
-Cata       | 0x0A27     | 
-MoP        | 0x0A27     | 
+Classic    | 0x169      |
+TBC        | 0x169      |
+WotLK      | 0x169      |
+Cata       | 0x0A27     |
+MoP        | 0x163A     |

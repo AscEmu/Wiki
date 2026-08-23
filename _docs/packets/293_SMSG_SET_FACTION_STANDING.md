@@ -11,8 +11,8 @@ position: 293
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x124      | 
-TBC        | 0x124      | 
-WotLK      | 0x124      | 
-Cata       | 0x0126     | 
-MoP        | 0x1969     | 
+Classic    | 0x124      |
+TBC        | 0x124      |
+WotLK      | 0x124      |
+Cata       | 0x0126     |
+MoP        | 0x10AA     |

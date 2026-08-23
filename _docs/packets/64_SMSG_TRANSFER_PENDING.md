@@ -11,8 +11,8 @@ position: 64
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x03F      | 
-TBC        | 0x03F      | 
-WotLK      | 0x03F      | 
-Cata       | 0x18A6     | 
-MoP        | 0x18A6     | 
+Classic    | 0x03F      |
+TBC        | 0x03F      |
+WotLK      | 0x03F      |
+Cata       | 0x18A6     |
+MoP        | 0x061B     |

@@ -15,4 +15,4 @@ Classic    | 0x1DF      |
 TBC        | 0x1DF      | 
 WotLK      | 0x1DF      | 
 Cata       | 0x2925     | 
-MoP        | 0x2925     | 
+MoP        | 0          |

@@ -11,8 +11,8 @@ position: 809
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x328      | 
-TBC        | 0x328      | 
-WotLK      | 0x328      | 
-Cata       | 0x2C25     | 
-MoP        | 0x2C25     | 
+Classic    | 0x328      |
+TBC        | 0x328      |
+WotLK      | 0x328      |
+Cata       | 0x2C25     |
+MoP        | 0x02A6     |

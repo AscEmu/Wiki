@@ -11,8 +11,8 @@ position: 812
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x32B      | 
-TBC        | 0x32B      | 
-WotLK      | 0x32B      | 
-Cata       | 0x4915     | 
-MoP        | 0x10E0     | 
+Classic    | 0x32B      |
+TBC        | 0x32B      |
+WotLK      | 0x32B      |
+Cata       | 0x4915     |
+MoP        | 0x10E0     |

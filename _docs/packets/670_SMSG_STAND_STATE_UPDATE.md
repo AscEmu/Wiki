@@ -11,8 +11,8 @@ position: 670
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x29D      | 
-TBC        | 0x29D      | 
-WotLK      | 0x29D      | 
-Cata       | 0x6F04     | 
-MoP        | 0x6F04     | 
+Classic    | 0x29D      |
+TBC        | 0x29D      |
+WotLK      | 0x29D      |
+Cata       | 0x6F04     |
+MoP        | 0x1C12     |

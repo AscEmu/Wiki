@@ -11,8 +11,8 @@ position: 113
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
+Classic    | 0x070      |
+TBC        | 0x070      |
 WotLK      | 0x070      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x070      |
+MoP        | 0          |

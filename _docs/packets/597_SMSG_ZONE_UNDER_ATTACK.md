@@ -11,8 +11,8 @@ position: 597
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x254      | 
-TBC        | 0x254      | 
-WotLK      | 0x254      | 
-Cata       | 0x0A06     | 
-MoP        | 0x0A06     | 
+Classic    | 0x254      |
+TBC        | 0x254      |
+WotLK      | 0x254      |
+Cata       | 0x0A06     |
+MoP        | 0x10C2     |

@@ -11,8 +11,8 @@ position: 300
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x12B      | 
-TBC        | 0x12B      | 
-WotLK      | 0x12B      | 
-Cata       | 0x58A2     | 
-MoP        | 0x58A2     | 
+Classic    | 0x12B      |
+TBC        | 0x12B      |
+WotLK      | 0x12B      |
+Cata       | 0x58A2     |
+MoP        | 0x129A     |

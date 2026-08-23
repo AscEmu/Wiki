@@ -11,8 +11,8 @@ position: 908
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x38B      | 
-TBC        | 0x38B      | 
-WotLK      | 0x38B      | 
-Cata       | 0x2714     | 
-MoP        | 0x2714     | 
+Classic    | 0x38B      |
+TBC        | 0x38B      |
+WotLK      | 0x38B      |
+Cata       | 0x2714     |
+MoP        | 0x1A2E     |

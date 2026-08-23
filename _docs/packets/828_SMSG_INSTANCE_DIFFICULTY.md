@@ -15,4 +15,4 @@ Classic    | 0x33B      |
 TBC        | 0x33B      | 
 WotLK      | 0x33B      | 
 Cata       | 0x33B      | 
-MoP        |            | 
+MoP        | 0          |

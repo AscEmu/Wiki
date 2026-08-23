@@ -11,8 +11,8 @@ position: 608
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x25F      | 
-TBC        | 0x25F      | 
-WotLK      | 0x25F      | 
-Cata       | 0x4116     | 
-MoP        | 0x4116     | 
+Classic    | 0x25F      |
+TBC        | 0x25F      |
+WotLK      | 0x25F      |
+Cata       | 0x4116     |
+MoP        | 0x1A8E     |

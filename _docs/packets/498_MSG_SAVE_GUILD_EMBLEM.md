@@ -15,4 +15,4 @@ Classic    | 0x1F1      |
 TBC        | 0x1F1      |
 WotLK      | 0x1F1      |
 Cata       | 0x2404     |
-MoP        |            |
+MoP        | 0          |

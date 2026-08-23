@@ -15,4 +15,4 @@ Classic    | 0x232      |
 TBC        | 0x232      |
 WotLK      | 0x232      |
 Cata       | 0x3030     |
-MoP        |            |
+MoP        | 0x047A     |

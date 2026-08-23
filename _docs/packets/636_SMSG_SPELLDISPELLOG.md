@@ -11,8 +11,8 @@ position: 636
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x27B      | 
-TBC        | 0x27B      | 
-WotLK      | 0x27B      | 
-Cata       | 0x4516     | 
-MoP        | 0x4516     | 
+Classic    | 0x27B      |
+TBC        | 0x27B      |
+WotLK      | 0x27B      |
+Cata       | 0x4516     |
+MoP        | 0x0DF9     |

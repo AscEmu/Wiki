@@ -12,7 +12,7 @@ position: 787
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x312      |
-TBC        |            |
+TBC        | 0x312      |
 WotLK      | 0x312      |
 Cata       | 0x0515     |
-MoP        |            |
+MoP        | 0x06FB     |

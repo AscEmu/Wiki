@@ -11,8 +11,8 @@ position: 59
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x03A      |  
-TBC        | 0x03A      |  
-WotLK      | 0x03A      |  
-Cata       | 0x2D05     |  
-MoP        | 0x1CAA     |  
+Classic    | 0x03A      |
+TBC        | 0x03A      |
+WotLK      | 0x03A      |
+Cata       | 0x2D05     |
+MoP        | 0x1CAA     |

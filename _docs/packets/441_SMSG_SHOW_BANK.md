@@ -11,8 +11,8 @@ position: 441
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1B8      | 
-TBC        | 0x1B8      | 
-WotLK      | 0x1B8      | 
-Cata       | 0x2627     | 
-MoP        | 0x2627     | 
+Classic    | 0x1B8      |
+TBC        | 0x1B8      |
+WotLK      | 0x1B8      |
+Cata       | 0x2627     |
+MoP        | 0x0007     |

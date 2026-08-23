@@ -11,8 +11,8 @@ position: 512
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0          |
+TBC        | 0          |
+WotLK      | 0x1FF      |
+Cata       | 0x6834     |
+MoP        | 0x121A     |

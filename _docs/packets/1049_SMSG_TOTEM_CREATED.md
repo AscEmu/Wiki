@@ -11,8 +11,8 @@ position: 1049
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x412      | 
-TBC        | 0x412      | 
-WotLK      | 0x413      | 
-Cata       | 0x2414     | 
-MoP        | 0x2414     | 
+Classic    | 0x412      |
+TBC        | 0x412      |
+WotLK      | 0x413      |
+Cata       | 0x2414     |
+MoP        | 0x1C8F     |

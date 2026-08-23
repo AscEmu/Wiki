@@ -11,8 +11,8 @@ position: 450
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1C1      | 
-TBC        | 0x1C1      | 
-WotLK      | 0x1C1      | 
-Cata       | 0x6217     | 
-MoP        | 0x6217     | 
+Classic    | 0x1C1      |
+TBC        | 0x1C1      |
+WotLK      | 0x1C1      |
+Cata       | 0x6217     |
+MoP        | 0x06AE     |

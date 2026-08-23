@@ -11,8 +11,8 @@ position: 345
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x158      | 
-TBC        | 0x158      | 
-WotLK      | 0x158      | 
-Cata       | 0x2516     | 
-MoP        | 0x2516     | 
+Classic    | 0x158      |
+TBC        | 0x158      |
+WotLK      | 0x158      |
+Cata       | 0x2516     |
+MoP        | 0x1B60     |

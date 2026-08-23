@@ -11,8 +11,8 @@ position: 889
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x378      | 
-TBC        | 0x378      | 
-WotLK      | 0x378      | 
-Cata       | 0x2F07     | 
-MoP        | 0x2F07     | 
+Classic    | 0x378      |
+TBC        | 0x378      |
+WotLK      | 0x378      |
+Cata       | 0x2F07     |
+MoP        | 0x1063     |

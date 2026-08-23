@@ -11,8 +11,8 @@ position: 1128
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0          |
+TBC        | 0          |
+WotLK      | 0          |
 Cata       | 0x7B14     |
-MoP        |            |
+MoP        | 0x0444     |

@@ -11,8 +11,8 @@ position: 361
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x168      | 
-TBC        | 0x168      | 
-WotLK      | 0x168      | 
-Cata       | 0x0C26     | 
-MoP        | 0x0C26     | 
+Classic    | 0x168      |
+TBC        | 0x168      |
+WotLK      | 0x168      |
+Cata       | 0x0C26     |
+MoP        | 0x001A     |

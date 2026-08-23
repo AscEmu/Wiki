@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x321      |
 TBC        | 0x321      |
 WotLK      | 0x321      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x2C36     |
+MoP        | 0          |

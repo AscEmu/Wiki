@@ -15,4 +15,4 @@ Classic    | -          | not used
 TBC        | -          | not used
 WotLK      | 0x463      | 
 Cata       | 0x2015     | 
-MoP        | 0x2015     | 
+MoP        | 0          |

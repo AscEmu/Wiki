@@ -11,8 +11,8 @@ position: 465
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1D0      | 
-TBC        | 0x1D0      | 
-WotLK      | 0x1D0      | 
-Cata       | 0x4514     | 
-MoP        | 0x4514     | 
+Classic    | 0x1D0      |
+TBC        | 0x1D0      |
+WotLK      | 0x1D0      |
+Cata       | 0x4514     |
+MoP        | 0x1E9A     |

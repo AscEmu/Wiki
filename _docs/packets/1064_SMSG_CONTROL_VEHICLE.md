@@ -15,4 +15,4 @@ Classic    | -          |
 TBC        | -          | 
 WotLK      | 0x49D      | 
 Cata       | 0x49D      | 
-MoP        | 0x49D      | 
+MoP        | 0          |

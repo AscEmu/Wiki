@@ -11,8 +11,8 @@ position: 92
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x05B      | 
-TBC        | 0x05B      | 
-WotLK      | 0x05B      | 
-Cata       | 0x2B14     | 
-MoP        | 0x2B14     | 
+Classic    | 0x05B      |
+TBC        | 0x05B      |
+WotLK      | 0x05B      |
+Cata       | 0x2B14     |
+MoP        | 0x081E     |

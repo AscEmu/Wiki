@@ -11,8 +11,8 @@ position: 1009
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    |            |
-TBC        |            |
+Classic    | 0          |
+TBC        | 0          |
 WotLK      | 0x48D      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x4227     |
+MoP        | 0x12DB     |

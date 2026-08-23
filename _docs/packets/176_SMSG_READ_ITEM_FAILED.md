@@ -11,8 +11,8 @@ position: 176
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0AF      | 
-TBC        | 0x0AF      | 
-WotLK      | 0x0AF      | 
-Cata       | 0x0F16     | 
-MoP        | 0x0F16     | 
+Classic    | 0x0AF      |
+TBC        | 0x0AF      |
+WotLK      | 0x0AF      |
+Cata       | 0x0F16     |
+MoP        | 0          |

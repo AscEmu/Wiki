@@ -11,8 +11,8 @@ position: 355
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x162      | 
-TBC        | 0x162      | 
-WotLK      | 0x162      | 
-Cata       | 0x6817     | 
-MoP        | 0x6817     | 
+Classic    | 0x162      |
+TBC        | 0x162      |
+WotLK      | 0x162      |
+Cata       | 0x6817     |
+MoP        | 0x0C3E     |

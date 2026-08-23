@@ -11,8 +11,8 @@ position: 296
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x127      | 
-TBC        | 0x127      | 
-WotLK      | 0x127      | 
-Cata       | 0x1440     | 
-MoP        | 0x1440     | 
+Classic    | 0x127      |
+TBC        | 0x127      |
+WotLK      | 0x127      |
+Cata       | 0x6207     |
+MoP        | 0x1440     |

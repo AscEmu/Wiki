@@ -17,4 +17,4 @@ Classic    | 0x0FF      |
 TBC        | 0x0FF      |
 WotLK      | 0x0FF      |
 Cata       | 0x6515     |
-MoP        |            |
+MoP        | 0x0F23     |

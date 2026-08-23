@@ -11,8 +11,8 @@ position: 301
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x12C      | 
-TBC        | 0x12C      | 
-WotLK      | 0x12C      | 
-Cata       | 0x35B0     | 
-MoP        | 0x35B0     | 
+Classic    | 0x12C      |
+TBC        | 0x12C      |
+WotLK      | 0x12C      |
+Cata       | 0x35B0     |
+MoP        | 0x1943     |

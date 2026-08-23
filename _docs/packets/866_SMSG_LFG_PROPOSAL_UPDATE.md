@@ -11,8 +11,8 @@ position: 866
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0          |
+TBC        | 0          |
+WotLK      | 0x361      |
+Cata       | 0x7DA6     |
+MoP        | 0          |

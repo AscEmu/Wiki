@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x2BA      |
 TBC        | 0x2BA      |
 WotLK      | 0x2BA      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x2BA      |
+MoP        | 0          |

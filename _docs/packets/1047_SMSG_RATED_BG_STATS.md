@@ -15,4 +15,4 @@ Classic    | -          | not used
 TBC        | -          | not used
 WotLK      | -          | not used
 Cata       | 0x54A3     | 
-MoP        | 0x54A3     | 
+MoP        | 0          | 

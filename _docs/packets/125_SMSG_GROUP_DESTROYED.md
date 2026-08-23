@@ -11,8 +11,8 @@ position: 125
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x07C      | 
-TBC        | 0x07C      | 
-WotLK      | 0x07C      | 
-Cata       | 0x2207     | 
-MoP        | 0x2207     | 
+Classic    | 0x07C      |
+TBC        | 0x07C      |
+WotLK      | 0x07C      |
+Cata       | 0x2207     |
+MoP        | 0x1B27     |

@@ -11,8 +11,8 @@ position: 175
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0AE      | 
-TBC        | 0x0AE      | 
-WotLK      | 0x0AE      | 
-Cata       | 0x2605     | 
-MoP        | 0x2605     | 
+Classic    | 0x0AE      |
+TBC        | 0x0AE      |
+WotLK      | 0x0AE      |
+Cata       | 0x2605     |
+MoP        | 0          |

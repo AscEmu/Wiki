@@ -11,8 +11,8 @@ position: 1132
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0          |
+TBC        | 0          |
+WotLK      | 0          |
 Cata       | 0x790A     |
-MoP        |            |
+MoP        | 0x0140     |

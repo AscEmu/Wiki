@@ -11,8 +11,8 @@ position: 326
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x145      | 
-TBC        | 0x145      | 
-WotLK      | 0x145      | 
-Cata       | 0x0B36     | 
-MoP        | 0x0B36     | 
+Classic    | 0x145      |
+TBC        | 0x145      |
+WotLK      | 0x145      |
+Cata       | 0x0B36     |
+MoP        | 0          |

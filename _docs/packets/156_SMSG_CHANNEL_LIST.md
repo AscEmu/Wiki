@@ -11,8 +11,8 @@ position: 156
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x09B      | 
-TBC        | 0x09B      | 
-WotLK      | 0x09B      | 
-Cata       | 0x2214     | 
-MoP        | 0x2214     | 
+Classic    | 0x09B      |
+TBC        | 0x09B      |
+WotLK      | 0x09B      |
+Cata       | 0x2214     |
+MoP        | 0x0B22     |

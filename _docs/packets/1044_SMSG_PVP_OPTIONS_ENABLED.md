@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | -          | not used
 TBC        | -          | not used
 WotLK      | -          | not used
-Cata       | 0x50A1     | 
-MoP        | 0x50A1     | 
+Cata       | 0x50A1     |
+MoP        | 0x080A     |

@@ -11,8 +11,8 @@ position: 750
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2ED      | 
-TBC        | 0x2ED      | 
-WotLK      | 0x2ED      | 
-Cata       | 0x59A6     | 
-MoP        | 0x59A6     | 
+Classic    | 0x2ED      |
+TBC        | 0x2ED      |
+WotLK      | 0x2ED      |
+Cata       | 0x59A6     |
+MoP        | 0x0206     |

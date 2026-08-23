@@ -15,4 +15,4 @@ Classic    | 0x264      |
 TBC        | 0x264      |
 WotLK      | 0x264      |
 Cata       | 0x6937     |
-MoP        |            |
+MoP        | 0x12D0     |

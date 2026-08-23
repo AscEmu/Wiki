@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | not used
 TBC        | -          | not used
-WotLK      | 0x200      | 
-Cata       | 0x0E14     | 
-MoP        | 0x0E14     | 
+WotLK      | 0x200      |
+Cata       | 0x0E14     |
+MoP        | 0x063B     |

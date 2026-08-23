@@ -11,8 +11,8 @@ position: 416
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x19F      |
+TBC        | 0x19F      |
+WotLK      | 0x19F      |
+Cata       | 0x7CB0     |
+MoP        | 0x1AAE     |

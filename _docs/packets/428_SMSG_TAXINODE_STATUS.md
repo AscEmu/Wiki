@@ -11,8 +11,8 @@ position: 428
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1AB      | 
-TBC        | 0x1AB      | 
-WotLK      | 0x1AB      | 
-Cata       | 0x2936     | 
-MoP        | 0x2936     | 
+Classic    | 0x1AB      |
+TBC        | 0x1AB      |
+WotLK      | 0x1AB      |
+Cata       | 0x2936     |
+MoP        | 0x169E     |

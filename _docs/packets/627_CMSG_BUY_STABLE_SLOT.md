@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x272      |
 TBC        | 0x272      |
 WotLK      | 0x272      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x272      |
+MoP        | 0          |

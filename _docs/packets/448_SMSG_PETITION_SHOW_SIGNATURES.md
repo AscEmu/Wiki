@@ -11,8 +11,8 @@ position: 448
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1BF      | 
-TBC        | 0x1BF      | 
-WotLK      | 0x1BF      | 
-Cata       | 0x0716     | 
-MoP        | 0x0716     | 
+Classic    | 0x1BF      |
+TBC        | 0x1BF      |
+WotLK      | 0x1BF      |
+Cata       | 0x0716     |
+MoP        | 0x00AA     |

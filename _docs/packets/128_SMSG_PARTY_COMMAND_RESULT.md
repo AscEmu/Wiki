@@ -11,8 +11,8 @@ position: 128
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x07F      | 
-TBC        | 0x07F      | 
-WotLK      | 0x07F      | 
-Cata       | 0x6E07     | 
-MoP        | 0x6E07     | 
+Classic    | 0x07F      |
+TBC        | 0x07F      |
+WotLK      | 0x07F      |
+Cata       | 0x6E07     |
+MoP        | 0x0F86     |

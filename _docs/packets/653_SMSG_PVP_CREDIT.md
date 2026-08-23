@@ -11,8 +11,8 @@ position: 653
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x28C      |  
-TBC        | 0x28C      |  
-WotLK      | 0x28C      |  
-Cata       | 0x6015     |  
-MoP        | 0x6015     |  
+Classic    | 0x28C      |
+TBC        | 0x28C      |
+WotLK      | 0x28C      |
+Cata       | 0x6015     |
+MoP        | 0x100A     |

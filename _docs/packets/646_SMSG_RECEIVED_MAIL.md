@@ -11,8 +11,8 @@ position: 646
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x285      | 
-TBC        | 0x285      | 
-WotLK      | 0x285      | 
-Cata       | 0x2924     | 
-MoP        | 0x2924     | 
+Classic    | 0x285      |
+TBC        | 0x285      |
+WotLK      | 0x285      |
+Cata       | 0x2924     |
+MoP        | 0x182B     |

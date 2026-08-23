@@ -11,8 +11,8 @@ position: 519
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x206      | 
-TBC        | 0x206      | 
-WotLK      | 0x206      | 
-Cata       | 0x2107     | 
-MoP        | 0x2107     | 
+Classic    | 0x206      |
+TBC        | 0x206      |
+WotLK      | 0x206      |
+Cata       | 0x2107     |
+MoP        | 0          |

@@ -11,8 +11,8 @@ position: 827
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x33A      | 
-TBC        | 0x33A      | 
-WotLK      | 0x33A      | 
-Cata       | 0x0314     | 
-MoP        | 0x0314     | 
+Classic    | 0x33A      |
+TBC        | 0x33A      |
+WotLK      | 0x33A      |
+Cata       | 0x0314     |
+MoP        | 0x0A1F     |

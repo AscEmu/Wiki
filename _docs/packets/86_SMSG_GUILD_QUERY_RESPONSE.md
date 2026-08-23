@@ -11,8 +11,8 @@ position: 86
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x055      |
+TBC        | 0x055      |
+WotLK      | 0x055      |
+Cata       | 0x0E06     |
+MoP        | 0x1B79     |

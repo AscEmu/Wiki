@@ -11,8 +11,8 @@ position: 371
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x172      | 
-TBC        | 0x172      | 
-WotLK      | 0x172      | 
-Cata       | 0x0217     | 
-MoP        | 0x0217     | 
+Classic    | 0x172      |
+TBC        | 0x172      |
+WotLK      | 0x172      |
+Cata       | 0x0217     |
+MoP        | 0x003A     |

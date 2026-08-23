@@ -15,4 +15,4 @@ Classic    | 0x259      |
 TBC        | 0x259      |
 WotLK      | 0x259      |
 Cata       | 0x0206     |
-MoP        |            |
+MoP        | 0x0361     |

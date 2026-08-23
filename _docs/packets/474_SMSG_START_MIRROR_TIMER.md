@@ -11,8 +11,8 @@ position: 474
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1D9      | 
-TBC        | 0x1D9      | 
-WotLK      | 0x1D9      | 
-Cata       | 0x6824     | 
-MoP        | 0x6824     | 
+Classic    | 0x1D9      |
+TBC        | 0x1D9      |
+WotLK      | 0x1D9      |
+Cata       | 0x6824     |
+MoP        | 0x0E12     |

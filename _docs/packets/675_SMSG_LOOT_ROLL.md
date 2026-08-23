@@ -11,8 +11,8 @@ position: 675
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2A2      | 
-TBC        | 0x2A2      | 
-WotLK      | 0x2A2      | 
-Cata       | 0x6507     | 
-MoP        | 0x6507     | 
+Classic    | 0x2A2      |
+TBC        | 0x2A2      |
+WotLK      | 0x2A2      |
+Cata       | 0x6507     |
+MoP        | 0x1840     |

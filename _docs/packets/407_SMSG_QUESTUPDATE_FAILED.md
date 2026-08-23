@@ -11,8 +11,8 @@ position: 407
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x196      | 
-TBC        | 0x196      | 
-WotLK      | 0x196      | 
-Cata       | 0x6324     | 
-MoP        | 0x6324     | 
+Classic    | 0x196      |
+TBC        | 0x196      |
+WotLK      | 0x196      |
+Cata       | 0x6324     |
+MoP        | 0          |

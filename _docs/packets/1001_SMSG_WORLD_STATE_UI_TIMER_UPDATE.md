@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    | -          | not used
 TBC        | -          | not used
-WotLK      | 0x4F7      | 
-Cata       | 0x4A14     | 
-MoP        | 0x4A14     | 
+WotLK      | 0x4F7      |
+Cata       | 0x4A14     |
+MoP        | 0x0027     |

@@ -11,8 +11,8 @@ position: 492
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1EB      | 
-TBC        | 0x1EB      | 
-WotLK      | 0x1EB      | 
-Cata       | 0x0F27     | 
-MoP        | 0x0F27     | 
+Classic    | 0x1EB      |
+TBC        | 0x1EB      |
+WotLK      | 0x1EB      |
+Cata       | 0x0F27     |
+MoP        | 0x10A2     |

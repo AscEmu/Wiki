@@ -11,8 +11,8 @@ position: 711
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2C6      | 
-TBC        | 0x2C6      | 
-WotLK      | 0x2C6      | 
-Cata       | 0x0807     | 
-MoP        | 0x0807     | 
+Classic    | 0x2C6      |
+TBC        | 0x2C6      |
+WotLK      | 0x2C6      |
+Cata       | 0x0807     |
+MoP        | 0x080E     |

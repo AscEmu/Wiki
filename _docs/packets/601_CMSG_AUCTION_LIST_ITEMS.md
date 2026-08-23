@@ -15,4 +15,4 @@ Classic    | 0x258      |
 TBC        | 0x258      |
 WotLK      | 0x258      |
 Cata       | 0x0324     |
-MoP        |            |
+MoP        | 0x02EA     |

@@ -11,8 +11,8 @@ position: 251
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0FA      | 
-TBC        | 0x0FA      | 
-WotLK      | 0x0FA      | 
-Cata       | 0x6C27     | 
-MoP        | 0x6C27     | 
+Classic    | 0x0FA      |
+TBC        | 0x0FA      |
+WotLK      | 0x0FA      |
+Cata       | 0x6C27     |
+MoP        | 0x0B01     |

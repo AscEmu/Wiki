@@ -11,8 +11,8 @@ position: 628
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x273      | 
-TBC        | 0x273      | 
-WotLK      | 0x273      | 
-Cata       | 0x2204     | 
-MoP        | 0x2204     | 
+Classic    | 0x273      |
+TBC        | 0x273      |
+WotLK      | 0x273      |
+Cata       | 0x2204     |
+MoP        | 0x14BE     |

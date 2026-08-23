@@ -11,8 +11,8 @@ position: 445
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1BC      | 
-TBC        | 0x1BC      | 
-WotLK      | 0x1BC      | 
-Cata       | 0x6405     | 
-MoP        | 0x6405     | 
+Classic    | 0x1BC      |
+TBC        | 0x1BC      |
+WotLK      | 0x1BC      |
+Cata       | 0x6405     |
+MoP        | 0x10A3     |

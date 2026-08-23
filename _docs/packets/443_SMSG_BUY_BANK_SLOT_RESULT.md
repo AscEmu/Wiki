@@ -15,4 +15,4 @@ Classic    | 0x1BA      |
 TBC        | 0x1BA      | 
 WotLK      | 0x1BA      | 
 Cata       | 0x4806     | 
-MoP        | 0x4806     | 
+MoP        | 0          |

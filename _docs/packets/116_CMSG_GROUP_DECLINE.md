@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x073      |
 TBC        | 0x073      |
 WotLK      | 0x073      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x073      |
+MoP        | 0          |

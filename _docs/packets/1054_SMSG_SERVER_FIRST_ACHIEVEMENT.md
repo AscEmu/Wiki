@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | -          | not used
 TBC        | -          | not used
-WotLK      | 0x498      | 
-Cata       | 0x6424     | 
-MoP        | 0x6424     | 
+WotLK      | 0x498      |
+Cata       | 0x6424     |
+MoP        | 0x028B     |

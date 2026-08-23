@@ -11,8 +11,8 @@ position: 549
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x224      | 
-TBC        | 0x224      | 
-WotLK      | 0x224      | 
-Cata       | 0x4316     | 
-MoP        | 0x4316     | 
+Classic    | 0x224      |
+TBC        | 0x224      |
+WotLK      | 0x224      |
+Cata       | 0x4316     |
+MoP        | 0x0785     |

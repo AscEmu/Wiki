@@ -11,8 +11,8 @@ position: 702
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2BD      | 
-TBC        | 0x2BD      | 
-WotLK      | 0x2BD      | 
-Cata       | 0x4C27     | 
-MoP        | 0x4C27     | 
+Classic    | 0x2BD      |
+TBC        | 0x2BD      |
+WotLK      | 0x2BD      |
+Cata       | 0x4C27     |
+MoP        | 0x1E3E     |

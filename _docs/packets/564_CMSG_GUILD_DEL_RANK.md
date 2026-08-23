@@ -11,8 +11,8 @@ position: 564
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x233      |
-TBC        | 0x233      |
-WotLK      | 0x233      |
+Classic    |            |
+TBC        |            |
+WotLK      |            |
 Cata       | 0x3234     |
-MoP        |            |
+MoP        | 0x0D79     |

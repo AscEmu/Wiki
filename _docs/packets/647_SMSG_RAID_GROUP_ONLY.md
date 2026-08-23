@@ -11,8 +11,8 @@ position: 647
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x286      |  
-TBC        | 0x286      |  
-WotLK      | 0x286      |  
-Cata       | 0x0837     |  
-MoP        | 0x0837     |  
+Classic    | 0x286      |
+TBC        | 0x286      |
+WotLK      | 0x286      |
+Cata       | 0x0837     |
+MoP        | 0          |

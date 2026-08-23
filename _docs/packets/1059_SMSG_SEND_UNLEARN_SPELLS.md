@@ -11,8 +11,8 @@ position: 1059
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x41D      | 
-TBC        | 0x41D      | 
-WotLK      | 0x41E      | 
-Cata       | 0x4E25     | 
-MoP        | 0x10F1     | 
+Classic    | 0x41D      |
+TBC        | 0x41D      |
+WotLK      | 0x41E      |
+Cata       | 0x4E25     |
+MoP        | 0x10F1     |

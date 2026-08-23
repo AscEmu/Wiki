@@ -11,8 +11,8 @@ position: 521
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x208      | 
-TBC        | 0x208      | 
-WotLK      | 0x208      | 
-Cata       | 0x6535     | 
-MoP        | 0x6535     | 
+Classic    | 0x208      |
+TBC        | 0x208      |
+WotLK      | 0x208      |
+Cata       | 0x6535     |
+MoP        | 0          |
