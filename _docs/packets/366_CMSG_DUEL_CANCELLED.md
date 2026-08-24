@@ -15,4 +15,4 @@ Classic    | 0x16D      |
 TBC        | 0x16D      |
 WotLK      | 0x16D      |
 Cata       | 0x6624     |
-MoP        |            |
+MoP        | 0          |

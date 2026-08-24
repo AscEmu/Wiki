@@ -15,4 +15,4 @@ Classic    | 0x18C      |
 TBC        | 0x18C      |
 WotLK      | 0x18C      |
 Cata       | 0x2534     |
-MoP        |            |
+MoP        | 0x0378     |

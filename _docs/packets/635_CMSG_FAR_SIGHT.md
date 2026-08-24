@@ -11,8 +11,8 @@ position: 635
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
+Classic    | 0x27A      |
+TBC        | 0x27A      |
 WotLK      | 0x27A      |
 Cata       | 0x4835     |
-MoP        |            |
+MoP        | 0x1341     |

@@ -15,4 +15,4 @@ Classic    | 0x194      |
 TBC        | 0x194      |
 WotLK      | 0x194      |
 Cata       | 0x0D16     |
-MoP        |            |
+MoP        | 0x0779     |

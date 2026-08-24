@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x358      |
 TBC        | 0x358      |
 WotLK      | 0x358      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x710C     |
+MoP        | 0x02D2     |

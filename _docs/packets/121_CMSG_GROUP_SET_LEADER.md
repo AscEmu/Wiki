@@ -15,4 +15,4 @@ Classic    | 0x078      |
 TBC        | 0x078      |
 WotLK      | 0x078      |
 Cata       | 0x4C17     |
-MoP        |            |
+MoP        | 0x15BB     |

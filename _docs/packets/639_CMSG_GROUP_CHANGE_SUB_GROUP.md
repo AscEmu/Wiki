@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x27E      |
 TBC        | 0x27E      |
 WotLK      | 0x27E      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x4124     |
+MoP        | 0x1799     |

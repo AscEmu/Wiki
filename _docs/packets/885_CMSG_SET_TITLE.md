@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x374      |
 TBC        | 0x374      |
 WotLK      | 0x374      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x2117     |
+MoP        | 0x03C7     |

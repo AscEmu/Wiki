@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x317      |
 TBC        | 0x317      |
 WotLK      | 0x317      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x0E37     |
+MoP        | 0x0778     |

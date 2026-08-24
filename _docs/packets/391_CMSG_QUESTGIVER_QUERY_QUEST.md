@@ -15,4 +15,4 @@ Classic    | 0x186      |
 TBC        | 0x186      |
 WotLK      | 0x186      |
 Cata       | 0x2F14     |
-MoP        |            |
+MoP        | 0x12F0     |

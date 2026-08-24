@@ -15,4 +15,4 @@ Classic    | 0x245      |
 TBC        | 0x245      |
 WotLK      | 0x245      |
 Cata       | 0x4034     |
-MoP        |            |
+MoP        | 0x06FA     |

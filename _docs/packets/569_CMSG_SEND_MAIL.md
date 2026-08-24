@@ -15,4 +15,4 @@ Classic    | 0x238      |
 TBC        | 0x238      |
 WotLK      | 0x238      |
 Cata       | 0x0523     |
-MoP        |            |
+MoP        | 0x1DBA     |

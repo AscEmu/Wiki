@@ -15,4 +15,4 @@ Classic    | 0x389      |
 TBC        |            |
 WotLK      | 0x389      |
 Cata       | 0x4314     |
-MoP        |            |
+MoP        | 0x0762     |
