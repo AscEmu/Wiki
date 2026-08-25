@@ -13,7 +13,7 @@ Send by adding note to friend in contact list.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          |
+Classic    |            |
 TBC        | 0x06B      |
 WotLK      | 0x06B      |
 Cata       | 0x6135     |

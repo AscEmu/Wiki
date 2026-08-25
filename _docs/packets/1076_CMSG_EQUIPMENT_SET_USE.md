@@ -11,8 +11,8 @@ position: 1076
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x4D5      |
 Cata       | 0x0417     |
 MoP        | 0x036E     |

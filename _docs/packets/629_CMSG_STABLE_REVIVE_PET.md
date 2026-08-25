@@ -11,8 +11,8 @@ position: 629
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x274      |
+TBC        | 0x274      |
+WotLK      | 0x274      |
+Cata       | 0x274      |
 MoP        |            |

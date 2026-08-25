@@ -11,8 +11,8 @@ position: 588
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x24B      | 
-TBC        | 0x24B      | 
-WotLK      | 0x24B      | 
-Cata       | 0x0625     | 
-MoP        | 0x0625     | 
+Classic    | 0x24B      |
+TBC        | 0x24B      |
+WotLK      | 0x24B      |
+Cata       | 0x0625     |
+MoP        | 0x1570     |

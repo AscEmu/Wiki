@@ -11,8 +11,8 @@ position: 915
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x392      |
+TBC        | 0x392      |
+WotLK      | 0x392      |
+Cata       | 0x392      |
 MoP        |            |

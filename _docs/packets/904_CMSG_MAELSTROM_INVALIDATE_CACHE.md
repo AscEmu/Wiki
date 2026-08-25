@@ -11,8 +11,8 @@ position: 904
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x387      |
+TBC        | 0x387      |
+WotLK      | 0x387      |
+Cata       | 0x387      |
 MoP        |            |

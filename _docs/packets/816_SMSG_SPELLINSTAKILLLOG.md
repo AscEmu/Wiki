@@ -11,8 +11,8 @@ position: 816
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x32F      |
+TBC        | 0x32F      |
+WotLK      | 0x32F      |
+Cata       | 0x6216     |
+MoP        | 0x09F8     |

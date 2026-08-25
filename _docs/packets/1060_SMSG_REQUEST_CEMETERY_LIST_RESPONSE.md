@@ -11,8 +11,8 @@ position: 1060
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
-WotLK      | 0          |
+Classic    |            |
+TBC        |            |
+WotLK      |            |
 Cata       | 0x30A7     |
 MoP        | 0x042A     |

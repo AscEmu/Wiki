@@ -11,8 +11,8 @@ position: 1006
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x474      |
 Cata       | 0x4F16     |
 MoP        | 0x1432     |

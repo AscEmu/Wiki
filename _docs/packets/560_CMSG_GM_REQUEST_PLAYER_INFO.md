@@ -11,8 +11,8 @@ position: 560
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x22F      |
+TBC        | 0x22F      |
+WotLK      | 0x22F      |
+Cata       | 0x22F      |
 MoP        |            |

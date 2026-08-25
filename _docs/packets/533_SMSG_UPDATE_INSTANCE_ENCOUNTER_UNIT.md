@@ -15,4 +15,4 @@ Classic    | 0x214      |
 TBC        | 0x214      |
 WotLK      | 0x214      |
 Cata       | 0x4007     |
-MoP        | 0x0000     |
+MoP        |            |

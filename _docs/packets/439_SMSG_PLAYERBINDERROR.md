@@ -15,4 +15,4 @@ Classic    | 0x1B6      |
 TBC        | 0x1B6      |
 WotLK      | 0x1B6      |
 Cata       | 0x6A24     |
-MoP        | 0          | - not used
+MoP        |            |- not used

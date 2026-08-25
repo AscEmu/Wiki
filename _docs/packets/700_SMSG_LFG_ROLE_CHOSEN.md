@@ -11,8 +11,8 @@ position: 700
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x2BB      |
 Cata       | 0x6A26     |
 MoP        | 0x1A1F     |

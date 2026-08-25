@@ -11,8 +11,8 @@ position: 679
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2A6      | 
-TBC        | 0x2A6      | 
-WotLK      | 0x2A6      | 
-Cata       | 0x4535     | 
-MoP        | 0x4535     | 
+Classic    | 0x2A6      |
+TBC        | 0x2A6      |
+WotLK      | 0x2A6      |
+Cata       | 0x4535     |
+MoP        | 0x040B     |

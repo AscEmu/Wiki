@@ -11,8 +11,8 @@ position: 534
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x215      |  
-TBC        | 0x215      |  
-WotLK      | 0x215      |  
-Cata       | 0x6735     |  
-MoP        | 0x6735     |  
+Classic    | 0x215      |
+TBC        | 0x215      |
+WotLK      | 0x215      |
+Cata       | 0x6735     |
+MoP        | 0x108B     |

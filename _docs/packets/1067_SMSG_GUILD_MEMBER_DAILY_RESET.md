@@ -11,8 +11,8 @@ position: 1067
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | 
-TBC        | -          | 
-WotLK      | -          | 
-Cata       | 0x10A5     | 
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       | 0x10A5     |
 MoP        | 0x1BE8     |

@@ -11,8 +11,8 @@ position: 496
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0x1EF      |
+TBC        | 0x1EF      |
+WotLK      | 0x1EF      |
 Cata       |            |
 MoP        |            |

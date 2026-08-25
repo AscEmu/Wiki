@@ -11,8 +11,8 @@ position: 471
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x1D6      |
+TBC        | 0x1D6      |
+WotLK      | 0x1D6      |
+Cata       | 0x1D6      |
 MoP        |            |

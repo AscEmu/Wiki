@@ -11,8 +11,8 @@ position: 1093
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x42D      |
 Cata       | 0x0726     |
 MoP        | 0x0A37     |

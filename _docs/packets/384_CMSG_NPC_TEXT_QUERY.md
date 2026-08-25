@@ -15,4 +15,4 @@ Classic    | 0x17F      |
 TBC        | 0x17F      |
 WotLK      | 0x17F      |
 Cata       | 0x4E24     |
-MoP        |            |
+MoP        | 0x0287     |

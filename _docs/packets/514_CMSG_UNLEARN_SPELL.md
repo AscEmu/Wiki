@@ -11,8 +11,8 @@ position: 514
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x201      |
+TBC        | 0x201      |
+WotLK      | 0x201      |
+Cata       | 0x1202     |
 MoP        |            |

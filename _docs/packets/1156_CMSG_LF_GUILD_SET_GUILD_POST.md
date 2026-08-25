@@ -11,8 +11,8 @@ position: 1156
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
-WotLK      | 0          |
+Classic    |            |
+TBC        |            |
+WotLK      |            |
 Cata       | 0x0448     |
-MoP        | 0x1D9F     |
+MoP        |            |

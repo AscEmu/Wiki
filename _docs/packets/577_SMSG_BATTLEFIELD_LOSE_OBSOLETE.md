@@ -11,8 +11,8 @@ position: 577
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x240      |
+TBC        | 0x240      |
+WotLK      | 0x240      |
+Cata       | 0x240      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 1037
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x428      |
-Cata       | 0x6125     |
-MoP        | 0x0C3F     |
+Cata       |            |
+MoP        |            |

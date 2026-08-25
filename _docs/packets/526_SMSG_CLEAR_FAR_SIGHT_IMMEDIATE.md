@@ -11,8 +11,8 @@ position: 526
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x20D      |
+TBC        | 0x20D      |
+WotLK      | 0x20D      |
+Cata       | 0x2A04     |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 74
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x049      |
+TBC        | 0x049      |
+WotLK      | 0x049      |
+Cata       | 0x6327     |
 MoP        |            |

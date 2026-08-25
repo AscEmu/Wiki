@@ -11,8 +11,8 @@ position: 334
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x14D      |
+TBC        | 0x14D      |
+WotLK      | 0x14D      |
+Cata       | 0x14D      |
 MoP        |            |

@@ -15,4 +15,4 @@ Classic    | 0x286      |
 TBC        | 0x286      |
 WotLK      | 0x286      |
 Cata       | 0x0837     |
-MoP        | 0          |
+MoP        |            |

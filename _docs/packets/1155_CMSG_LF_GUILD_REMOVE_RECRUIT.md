@@ -11,8 +11,8 @@ position: 1155
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
-WotLK      | 0          |
+Classic    |            |
+TBC        |            |
+WotLK      |            |
 Cata       | 0x3027     |
-MoP        | 0          |
+MoP        |            |

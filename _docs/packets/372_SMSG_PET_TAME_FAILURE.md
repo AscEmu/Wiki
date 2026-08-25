@@ -11,8 +11,8 @@ position: 372
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x173      |
+TBC        | 0x173      |
+WotLK      | 0x173      |
+Cata       | 0x6B24     |
 MoP        |            |

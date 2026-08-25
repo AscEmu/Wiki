@@ -11,8 +11,8 @@ position: 995
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3E1      |
+TBC        | 0x3E1      |
+WotLK      | 0x3E2      |
+Cata       | 0x6317     |
 MoP        |            |

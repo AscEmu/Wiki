@@ -11,8 +11,8 @@ position: 317
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x13C      | 
-TBC        | 0x13C      | 
-WotLK      | 0x13C      | 
-Cata       | 0x0637     | 
-MoP        | 0x0637     | 
+Classic    | 0x13C      |
+TBC        | 0x13C      |
+WotLK      | 0x13C      |
+Cata       | 0x0637     |
+MoP        | 0x06AF     |

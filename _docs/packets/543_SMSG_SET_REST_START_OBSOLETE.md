@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    |            |
 TBC        |            |
-WotLK      |            |
-Cata       |            |
+WotLK      | 0x21E      |
+Cata       | 0x21E      |
 MoP        |            |

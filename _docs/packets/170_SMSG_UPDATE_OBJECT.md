@@ -11,8 +11,8 @@ position: 170
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | 0x0A9      | 
-WotLK      | -          | not used
-Cata       | -          | not used
-MoP        | -          | not used
+Classic    | 0x0A9      |
+TBC        | 0x0A9      |
+WotLK      | 0x0A9      |
+Cata       | 0x4715     |
+MoP        | 0x1792     |

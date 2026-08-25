@@ -11,8 +11,8 @@ position: 665
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x298      |
+TBC        | 0x298      |
+WotLK      | 0x298      |
+Cata       | 0x2D35     |
 MoP        |            |

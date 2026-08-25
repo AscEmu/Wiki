@@ -11,8 +11,8 @@ position: 956
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3BA      |
+TBC        | 0x3BA      |
+WotLK      | 0x3BB      |
+Cata       | 0x2F36     |
 MoP        |            |

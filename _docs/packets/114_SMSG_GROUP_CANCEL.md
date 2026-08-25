@@ -11,8 +11,8 @@ position: 114
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x071      |
+TBC        | 0x071      |
+WotLK      | 0x071      |
+Cata       | 0x4D25     |
 MoP        |            |

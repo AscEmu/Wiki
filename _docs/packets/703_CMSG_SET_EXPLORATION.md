@@ -11,8 +11,8 @@ position: 703
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x2BE      |
+TBC        | 0x2BE      |
+WotLK      | 0x2BE      |
+Cata       | 0x2BE      |
 MoP        |            |

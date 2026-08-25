@@ -11,8 +11,8 @@ position: 744
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x2E7      |
+TBC        | 0x2E7      |
+WotLK      | 0x2E7      |
+Cata       | 0x25A2     |
+MoP        | 0x1816     |

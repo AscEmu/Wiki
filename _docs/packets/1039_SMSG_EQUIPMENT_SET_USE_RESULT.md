@@ -11,8 +11,8 @@ position: 1039
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x4D6      |
 Cata       | 0x2424     |
-MoP        | 0          |
+MoP        |            |

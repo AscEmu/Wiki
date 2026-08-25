@@ -11,8 +11,8 @@ position: 1170
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x45B      |
-Cata       |            |
+Cata       | 0x1DB5     |
 MoP        | 0x09E2     |

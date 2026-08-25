@@ -11,8 +11,8 @@ position: 199
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x0C6      |
+TBC        | 0x0C6      |
+WotLK      | 0x0C6      |
+Cata       | 0x10C7     |
 MoP        |            |

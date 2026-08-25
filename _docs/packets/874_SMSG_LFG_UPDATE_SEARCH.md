@@ -11,8 +11,8 @@ position: 874
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x369      |
 Cata       | 0x136A     |
 MoP        | 0x1161     |

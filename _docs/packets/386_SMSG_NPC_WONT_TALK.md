@@ -11,8 +11,8 @@ position: 386
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x181      |
+TBC        | 0x181      |
+WotLK      | 0x181      |
+Cata       | 0x1182     |
 MoP        |            |

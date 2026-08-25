@@ -12,7 +12,7 @@ position: 1004
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    |            |
-TBC        | 0          |
+TBC        |            |
 WotLK      | 0x48F      |
 Cata       | 0x2C17     |
 MoP        |            |

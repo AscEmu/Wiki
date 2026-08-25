@@ -11,8 +11,8 @@ position: 488
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x1E7      |
+TBC        | 0x1E7      |
+WotLK      | 0x1E7      |
+Cata       | 0x6F25     |
 MoP        |            |

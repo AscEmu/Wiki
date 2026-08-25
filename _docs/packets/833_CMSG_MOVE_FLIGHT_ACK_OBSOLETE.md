@@ -11,8 +11,8 @@ position: 833
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x340      |
+TBC        | 0x340      |
+WotLK      | 0x340      |
+Cata       | 0x340      |
 MoP        |            |

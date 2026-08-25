@@ -11,8 +11,8 @@ position: 1001
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x4F7      |
 Cata       | 0x4A14     |
 MoP        | 0x0027     |

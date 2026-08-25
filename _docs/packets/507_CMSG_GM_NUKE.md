@@ -11,8 +11,8 @@ position: 507
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0x1FA      |
+TBC        | 0x1FA      |
+WotLK      | 0x1FA      |
 Cata       |            |
 MoP        |            |

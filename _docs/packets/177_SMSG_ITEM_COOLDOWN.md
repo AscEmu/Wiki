@@ -11,8 +11,8 @@ position: 177
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x0B0      |
+TBC        | 0x0B0      |
+WotLK      | 0x0B0      |
+Cata       | 0x4D14     |
+MoP        | 0x1904     |

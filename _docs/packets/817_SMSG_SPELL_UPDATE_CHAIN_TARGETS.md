@@ -11,8 +11,8 @@ position: 817
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x330      |
+TBC        | 0x330      |
+WotLK      | 0x330      |
+Cata       | 0x1331     |
 MoP        |            |

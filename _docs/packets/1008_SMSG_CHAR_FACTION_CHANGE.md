@@ -10,9 +10,9 @@ position: 1008
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ----------
-Classic    | -          | not used
-TBC        | -          | not used
+---------- | ---------- | ---------- 
+Classic    |            |
+TBC        |            |
 WotLK      | 0x4DA      |
 Cata       | 0x4C06     |
-MoP        | 0x0000     |
+MoP        |            |

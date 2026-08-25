@@ -15,4 +15,4 @@ Classic    | 0x1AE      |
 TBC        | 0x1AE      |
 WotLK      | 0x1AE      |
 Cata       | 0x6A37     |
-MoP        | 0x6A37     |
+MoP        | 0x02A7     |

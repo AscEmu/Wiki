@@ -15,4 +15,4 @@ Classic    | 0x23C      |
 TBC        | 0x23C      |
 WotLK      | 0x23C      |
 Cata       | 0x3814     |
-MoP        |            |
+MoP        | 0x1C41     |

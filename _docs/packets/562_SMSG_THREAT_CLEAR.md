@@ -11,8 +11,8 @@ position: 562
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x485      |
 Cata       | 0x6437     |
 MoP        | 0x180B     |

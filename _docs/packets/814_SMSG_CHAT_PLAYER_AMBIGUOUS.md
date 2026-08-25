@@ -11,8 +11,8 @@ position: 814
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x32D      |
+TBC        | 0x32D      |
+WotLK      | 0x32D      |
+Cata       | 0x2F34     |
+MoP        | 0x061A     |

@@ -11,8 +11,8 @@ position: 1098
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x42F      |
 Cata       | 0x6636     |
 MoP        | 0x0C61     |

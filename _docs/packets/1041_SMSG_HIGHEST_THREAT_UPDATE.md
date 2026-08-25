@@ -11,8 +11,8 @@ position: 1041
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x482      |
 Cata       | 0x4104     |
 MoP        | 0x14AE     |

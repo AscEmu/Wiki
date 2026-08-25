@@ -11,8 +11,8 @@ position: 561
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x230      |
+TBC        | 0x230      |
+WotLK      | 0x230      |
+Cata       | 0x4A15     |
 MoP        |            |

@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x176      |
 TBC        | 0x176      |
 WotLK      | 0x176      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x0C24     |
+MoP        | 0x07D0     |

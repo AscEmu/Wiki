@@ -15,4 +15,4 @@ Classic    | 0x38E      |
 TBC        | 0x38E      |
 WotLK      | 0x38E      |
 Cata       | 0x0424     |
-MoP        | 0          |
+MoP        |            |

@@ -11,8 +11,8 @@ position: 559
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x22E      |
+TBC        | 0x22E      |
+WotLK      | 0x22E      |
+Cata       | 0x22E      |
 MoP        |            |

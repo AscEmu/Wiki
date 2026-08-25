@@ -11,8 +11,8 @@ position: 137
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x088      | 
-TBC        | 0x088      | 
-WotLK      | 0x088      | 
-Cata       | 0          | not used
-MoP        | 0          | not used
+Classic    | 0x088      |
+TBC        | 0x088      |
+WotLK      | 0x088      |
+Cata       |            |
+MoP        |            |

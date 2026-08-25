@@ -15,4 +15,4 @@ Classic    | 0x252      |
 TBC        | 0x252      |
 WotLK      | 0x252      |
 Cata       | 0x6705     |
-MoP        | 0          |
+MoP        |            |

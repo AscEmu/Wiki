@@ -15,4 +15,4 @@ Classic    | 0x075      |
 TBC        | 0x075      |
 WotLK      | 0x075      |
 Cata       | 0x075      |
-MoP        | 0          |
+MoP        |            |

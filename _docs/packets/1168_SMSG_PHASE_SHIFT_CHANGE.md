@@ -11,8 +11,8 @@ position: 1168
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          |
-TBC        | -          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x47C      |
 Cata       | 0x70A0     |
 MoP        | 0x02A2     |

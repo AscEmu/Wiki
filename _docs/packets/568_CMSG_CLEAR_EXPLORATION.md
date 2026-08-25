@@ -11,8 +11,8 @@ position: 568
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x237      |
+TBC        | 0x237      |
+WotLK      | 0x237      |
+Cata       | 0x237      |
 MoP        |            |

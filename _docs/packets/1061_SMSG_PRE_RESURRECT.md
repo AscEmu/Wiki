@@ -11,8 +11,8 @@ position: 1061
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x494      |
 Cata       | 0x6C36     |
-MoP        | 0x6C36     |
+MoP        | 0x19C0     |

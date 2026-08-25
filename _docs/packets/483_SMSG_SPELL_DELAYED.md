@@ -11,8 +11,8 @@ position: 483
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1E2      | 
-TBC        | 0x1E2      | 
-WotLK      | 0x1E2      | 
-Cata       | 0x0715     | 
-MoP        | 0x0715     | 
+Classic    | 0x1E2      |
+TBC        | 0x1E2      |
+WotLK      | 0x1E2      |
+Cata       | 0x0715     |
+MoP        | 0x087A     |

@@ -11,8 +11,8 @@ position: 747
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x2EA      |
+TBC        | 0x2EA      |
+WotLK      | 0x2EA      |
+Cata       | 0x6C14     |
+MoP        | 0x065B     |

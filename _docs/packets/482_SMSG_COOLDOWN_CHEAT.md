@@ -11,8 +11,8 @@ position: 482
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x1E1      |
+TBC        | 0x1E1      |
+WotLK      | 0x1E1      |
+Cata       | 0x4537     |
 MoP        |            |

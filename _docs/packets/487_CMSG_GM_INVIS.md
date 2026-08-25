@@ -11,8 +11,8 @@ position: 487
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0x1E6      |
+TBC        | 0x1E6      |
+WotLK      | 0x1E6      |
 Cata       |            |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 302
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x12D      |
+TBC        | 0x12D      |
+WotLK      | 0x12D      |
+Cata       | 0x112E     |
 MoP        |            |

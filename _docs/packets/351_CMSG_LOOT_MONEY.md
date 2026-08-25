@@ -15,4 +15,4 @@ Classic    | 0x15E      |
 TBC        | 0x15E      |
 WotLK      | 0x15E      |
 Cata       | 0x6227     |
-MoP        |            |
+MoP        | 0x02F6     |

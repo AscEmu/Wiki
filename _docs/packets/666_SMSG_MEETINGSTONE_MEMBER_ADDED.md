@@ -11,8 +11,8 @@ position: 666
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x299      |
+TBC        | 0x299      |
+WotLK      | 0x299      |
+Cata       | 0x299      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 88
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x057      |
+TBC        | 0x057      |
+WotLK      | 0x057      |
+Cata       | 0x057      |
 MoP        |            |

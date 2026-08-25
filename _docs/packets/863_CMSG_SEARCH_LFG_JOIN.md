@@ -11,8 +11,8 @@ position: 863
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x35E      |
 Cata       | 0x35E      |
-MoP        | 0          |
+MoP        |            |

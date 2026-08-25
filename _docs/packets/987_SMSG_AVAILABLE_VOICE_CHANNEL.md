@@ -11,8 +11,8 @@ position: 987
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3D9      |
+TBC        | 0x3D9      |
+WotLK      | 0x3DA      |
+Cata       | 0x13DB     |
 MoP        |            |

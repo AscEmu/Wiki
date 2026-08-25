@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x366      |
 TBC        | 0x366      |
 WotLK      | 0x366      |
-Cata       | 0          |
-MoP        | 0          |
+Cata       |            |
+MoP        |            |

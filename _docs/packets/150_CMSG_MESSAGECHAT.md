@@ -13,8 +13,8 @@ Send message.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x095      |
+Classic    |            |
 TBC        | 0x095      |
 WotLK      | 0x095      |
-Cata       | 0x095      |
-MoP        | 0x0000     | Replaced by CMSG_MESSAGECHAT_*
+Cata       |            |
+MoP        |            |Replaced by CMSG_MESSAGECHAT_*

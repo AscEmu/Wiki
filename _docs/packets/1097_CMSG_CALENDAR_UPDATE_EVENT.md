@@ -11,8 +11,8 @@ position: 1097
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x42E      |
 Cata       | 0x2114     |
 MoP        | 0x1F8D     |

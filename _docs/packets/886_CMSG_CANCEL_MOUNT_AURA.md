@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x375      |
 TBC        | 0x375      |
 WotLK      | 0x375      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x0635     |
+MoP        | 0x1552     |

@@ -11,8 +11,8 @@ position: 480
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1DF      | 
-TBC        | 0x1DF      | 
-WotLK      | 0x1DF      | 
-Cata       | 0x2925     | 
-MoP        | 0          |
+Classic    | 0x1DF      |
+TBC        | 0x1DF      |
+WotLK      | 0x1DF      |
+Cata       | 0x2925     |
+MoP        |            |

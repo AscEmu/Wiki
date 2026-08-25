@@ -15,4 +15,4 @@ Classic    | 0x058      |
 TBC        | 0x058      |
 WotLK      | 0x058      |
 Cata       | 0x058      |
-MoP        | 0x0000     |
+MoP        |            |

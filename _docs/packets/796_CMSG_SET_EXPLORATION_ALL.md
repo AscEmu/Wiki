@@ -11,8 +11,8 @@ position: 796
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x31B      |
+TBC        | 0x31B      |
+WotLK      | 0x31B      |
+Cata       | 0x31B      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 1054
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x498      |
 Cata       | 0x6424     |
 MoP        | 0x028B     |

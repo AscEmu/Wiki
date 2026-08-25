@@ -11,8 +11,8 @@ position: 260
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x103      | 
-TBC        | 0x103      | 
-WotLK      | 0x103      | 
-Cata       | 0x0A34     | 
-MoP        | 0x0A34     | 
+Classic    | 0x103      |
+TBC        | 0x103      |
+WotLK      | 0x103      |
+Cata       | 0x0A34     |
+MoP        | 0x0987     |

@@ -11,8 +11,8 @@ position: 694
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x2B5      |
+TBC        | 0x2B5      |
+WotLK      | 0x2B5      |
+Cata       | 0x2B5      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 1047
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | -          | not used
-Cata       | 0x54A3     | 
-MoP        | 0          | 
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       | 0x54A3     |
+MoP        |            |

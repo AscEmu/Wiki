@@ -11,8 +11,8 @@ position: 404
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x193      |
+TBC        | 0x193      |
+WotLK      | 0x193      |
+Cata       | 0x1194     |
 MoP        |            |

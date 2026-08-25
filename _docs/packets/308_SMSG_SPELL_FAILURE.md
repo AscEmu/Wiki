@@ -11,8 +11,8 @@ position: 308
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x133      | 
-TBC        | 0x133      | 
-WotLK      | 0x133      | 
-Cata       | 0x0C34     | 
-MoP        | 0x04AF     | 
+Classic    | 0x133      |
+TBC        | 0x133      |
+WotLK      | 0x133      |
+Cata       | 0x0C34     |
+MoP        | 0x04AF     |

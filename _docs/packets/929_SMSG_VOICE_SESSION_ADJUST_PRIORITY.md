@@ -11,8 +11,8 @@ position: 929
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3A0      |
+TBC        | 0x3A0      |
+WotLK      | 0x3A0      |
+Cata       | 0x3A0      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 823
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x336      |
+TBC        | 0x336      |
+WotLK      | 0x336      |
+Cata       | 0x336      |
 MoP        |            |

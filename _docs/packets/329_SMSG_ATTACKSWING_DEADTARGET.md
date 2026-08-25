@@ -11,8 +11,8 @@ position: 329
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x148      |
+TBC        | 0x148      |
+WotLK      | 0x148      |
+Cata       | 0x2B26     |
 MoP        |            |

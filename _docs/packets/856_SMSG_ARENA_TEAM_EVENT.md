@@ -11,8 +11,8 @@ position: 856
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x357      |
+TBC        | 0x357      |
+WotLK      | 0x357      |
+Cata       | 0x0617     |
 MoP        |            |

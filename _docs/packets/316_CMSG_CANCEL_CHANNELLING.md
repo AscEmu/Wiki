@@ -15,4 +15,4 @@ Classic    | 0x13B      |
 TBC        |            |
 WotLK      | 0x13B      |
 Cata       | 0x6C25     |
-MoP        |            |
+MoP        | 0x08C0     |

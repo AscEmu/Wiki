@@ -11,8 +11,8 @@ position: 379
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x17A      |
+TBC        | 0x17A      |
+WotLK      | 0x17A      |
+Cata       | 0x2235     |
 MoP        |            |

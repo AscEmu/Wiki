@@ -11,8 +11,8 @@ position: 545
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x220      |
+TBC        | 0x220      |
+WotLK      | 0x220      |
+Cata       | 0x220      |
 MoP        |            |

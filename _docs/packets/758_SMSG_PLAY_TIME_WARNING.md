@@ -11,8 +11,8 @@ position: 758
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x2F5      |
+TBC        | 0x2F5      |
+WotLK      | 0x2F5      |
+Cata       | 0x4814     |
 MoP        |            |

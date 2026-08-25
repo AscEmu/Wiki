@@ -15,4 +15,4 @@ Classic    | 0x19A      |
 TBC        | 0x19A      |
 WotLK      | 0x19A      |
 Cata       | 0x119B     |
-MoP        | 0x0000     |
+MoP        |            |

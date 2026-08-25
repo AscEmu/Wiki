@@ -11,8 +11,8 @@ position: 207
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x0CE      |
+TBC        | 0x0CE      |
+WotLK      | 0x0CE      |
+Cata       | 0x10CF     |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 135
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x086      |
+TBC        | 0x086      |
+WotLK      | 0x086      |
+Cata       | 0x2C07     |
+MoP        | 0x1AF9     |

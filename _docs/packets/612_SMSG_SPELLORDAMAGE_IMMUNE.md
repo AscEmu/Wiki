@@ -11,8 +11,8 @@ position: 612
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x263      | 
-TBC        | 0x263      | 
-WotLK      | 0x263      | 
-Cata       | 0x263      | 
-MoP        | 0x263      | 
+Classic    | 0x263      |
+TBC        | 0x263      |
+WotLK      | 0x263      |
+Cata       | 0x263      |
+MoP        | 0x08FB     |

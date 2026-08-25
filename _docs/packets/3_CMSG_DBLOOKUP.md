@@ -11,8 +11,8 @@ position: 3
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x002      |
+TBC        | 0x002      |
+WotLK      | 0x002      |
+Cata       | 0x002      |
 MoP        |            |

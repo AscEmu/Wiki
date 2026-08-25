@@ -11,8 +11,8 @@ position: 94
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x05D      |
+TBC        | 0x05D      |
+WotLK      | 0x05D      |
+Cata       | 0x6936     |
+MoP        | 0x0276     |

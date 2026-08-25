@@ -11,8 +11,8 @@ position: 661
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x294      |
+TBC        | 0x294      |
+WotLK      | 0x294      |
+Cata       | 0x294      |
 MoP        |            |

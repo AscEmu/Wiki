@@ -11,8 +11,8 @@ position: 321
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x140      |
+TBC        | 0x140      |
+WotLK      | 0x140      |
+Cata       | 0x140      |
 MoP        |            |

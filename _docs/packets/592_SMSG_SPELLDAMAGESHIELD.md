@@ -11,8 +11,8 @@ position: 592
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x24F      | 
-TBC        | 0x24F      | 
-WotLK      | 0x24F      | 
-Cata       | 0x2927     | 
-MoP        | 0x2927     | 
+Classic    | 0x24F      |
+TBC        | 0x24F      |
+WotLK      | 0x24F      |
+Cata       | 0x2927     |
+MoP        | 0x05F3     |

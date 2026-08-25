@@ -11,8 +11,8 @@ position: 1063
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          | not used
-TBC        | 0          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x496      |
 Cata       | 0x4707     |
 MoP        | 0x0072     |

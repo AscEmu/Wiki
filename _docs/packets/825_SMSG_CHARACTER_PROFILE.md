@@ -11,8 +11,8 @@ position: 825
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x338      |
+TBC        | 0x338      |
+WotLK      | 0x338      |
+Cata       | 0x338      |
 MoP        |            |

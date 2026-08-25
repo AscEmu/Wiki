@@ -11,8 +11,8 @@ position: 1094
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x42A      |
 Cata       | 0x6416     |
 MoP        | 0x030C     |

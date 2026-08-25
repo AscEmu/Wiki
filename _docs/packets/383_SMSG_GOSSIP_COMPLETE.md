@@ -11,8 +11,8 @@ position: 383
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x17E      | 
-TBC        | 0x17E      | 
-WotLK      | 0x17E      | 
-Cata       | 0x0806     | 
-MoP        | 0x0806     | 
+Classic    | 0x17E      |
+TBC        | 0x17E      |
+WotLK      | 0x17E      |
+Cata       | 0x0806     |
+MoP        | 0x034E     |

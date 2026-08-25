@@ -11,8 +11,8 @@ position: 590
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x24D      |
+TBC        | 0x24D      |
+WotLK      | 0x24D      |
+Cata       | 0x24D      |
 MoP        |            |

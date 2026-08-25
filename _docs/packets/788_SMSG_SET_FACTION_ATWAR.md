@@ -11,8 +11,8 @@ position: 788
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x313      |
+TBC        | 0x313      |
+WotLK      | 0x313      |
+Cata       | 0x4216     |
 MoP        |            |

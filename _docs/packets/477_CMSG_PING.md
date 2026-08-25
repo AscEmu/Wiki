@@ -11,8 +11,8 @@ position: 477
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x1DC      |
+TBC        | 0x1DC      |
+WotLK      | 0x1DC      |
+Cata       | 0x444D     |
+MoP        | 0x0012     |

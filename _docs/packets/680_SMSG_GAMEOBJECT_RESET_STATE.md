@@ -11,8 +11,8 @@ position: 680
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x2A7      |
+TBC        | 0x2A7      |
+WotLK      | 0x2A7      |
+Cata       | 0x2A16     |
 MoP        |            |

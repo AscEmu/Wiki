@@ -11,8 +11,8 @@ position: 659
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x292      |
+TBC        | 0x292      |
+WotLK      | 0x292      |
+Cata       | 0x292      |
 MoP        |            |

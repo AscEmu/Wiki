@@ -11,8 +11,8 @@ position: 872
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x367      |
-Cata       | 0          |
-MoP        | 0          |
+Cata       | 0x1368     |
+MoP        |            |

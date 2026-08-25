@@ -11,8 +11,8 @@ position: 171
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0AA      | 
-TBC        | 0x0AA      | 
-WotLK      | 0x0AA      | 
-Cata       | 0x4724     | 
-MoP        | 0x14C2     | 
+Classic    | 0x0AA      |
+TBC        | 0x0AA      |
+WotLK      | 0x0AA      |
+Cata       | 0x4724     |
+MoP        | 0x14C2     |

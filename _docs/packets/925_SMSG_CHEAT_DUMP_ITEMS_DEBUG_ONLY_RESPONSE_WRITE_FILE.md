@@ -11,8 +11,8 @@ position: 925
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x39C      |
+TBC        | 0x39C      |
+WotLK      | 0x39C      |
+Cata       | 0x39C      |
 MoP        |            |

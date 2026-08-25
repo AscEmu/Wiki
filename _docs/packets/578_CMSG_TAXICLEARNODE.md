@@ -11,8 +11,8 @@ position: 578
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x241      |
+TBC        | 0x241      |
+WotLK      | 0x241      |
+Cata       | 0x241      |
 MoP        |            |

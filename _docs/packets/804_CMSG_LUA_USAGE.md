@@ -11,8 +11,8 @@ position: 804
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x323      |
+TBC        | 0x323      |
+WotLK      | 0x323      |
+Cata       | 0x323      |
 MoP        |            |

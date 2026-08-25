@@ -11,8 +11,8 @@ position: 341
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x154      |
+TBC        | 0x154      |
+WotLK      | 0x154      |
+Cata       | 0x154      |
 MoP        |            |

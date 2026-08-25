@@ -11,8 +11,8 @@ position: 1044
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | -          | not used
+Classic    |            |
+TBC        |            |
+WotLK      |            |
 Cata       | 0x50A1     |
 MoP        | 0x080A     |

@@ -11,8 +11,8 @@ position: 842
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x349      |
+TBC        | 0x349      |
+WotLK      | 0x349      |
+Cata       | 0x39B3     |
 MoP        |            |

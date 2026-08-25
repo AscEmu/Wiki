@@ -11,8 +11,8 @@ position: 990
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3DC      |
+TBC        | 0x3DC      |
+WotLK      | 0x3DD      |
+Cata       | 0x6B26     |
 MoP        |            |

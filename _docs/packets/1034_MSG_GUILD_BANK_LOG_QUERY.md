@@ -15,4 +15,4 @@ Classic    | 0x3ED      |
 TBC        | 0x3ED      |
 WotLK      | 0x3EE      |
 Cata       | 0x3224     |
-MoP        | 0x0000     |
+MoP        |            |

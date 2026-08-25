@@ -15,4 +15,4 @@ Classic    | 0x070      |
 TBC        | 0x070      |
 WotLK      | 0x070      |
 Cata       | 0x070      |
-MoP        | 0          |
+MoP        |            |

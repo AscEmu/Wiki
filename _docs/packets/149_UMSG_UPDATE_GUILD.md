@@ -11,8 +11,8 @@ position: 149
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0x094      |
+TBC        | 0x094      |
+WotLK      | 0x094      |
 Cata       |            |
 MoP        |            |

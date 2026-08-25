@@ -11,8 +11,8 @@ position: 766
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x2FD      |
+TBC        | 0x2FD      |
+WotLK      | 0x2FD      |
+Cata       | 0x6536     |
+MoP        | 0x1A3B     |

@@ -12,7 +12,7 @@ position: 532
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x213      |
-TBC        | 0          |
+TBC        |            |
 WotLK      | 0x213      |
 Cata       | 0x213      |
-MoP        | 0          |
+MoP        |            |

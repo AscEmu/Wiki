@@ -11,8 +11,8 @@ position: 891
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x37A      |
+TBC        | 0x37A      |
+WotLK      | 0x37A      |
+Cata       | 0x2606     |
+MoP        | 0x0E8F     |

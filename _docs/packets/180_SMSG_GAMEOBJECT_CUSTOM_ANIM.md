@@ -11,8 +11,8 @@ position: 180
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x0B3      |  
-TBC        | 0x0B3      |  
-WotLK      | 0x0B3      |  
-Cata       | 0x4936     |  
-MoP        | 0x4936     |  
+Classic    | 0x0B3      |
+TBC        | 0x0B3      |
+WotLK      | 0x0B3      |
+Cata       | 0x4936     |
+MoP        | 0x001F     |

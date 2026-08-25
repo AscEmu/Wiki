@@ -11,8 +11,8 @@ position: 955
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3B9      |
+TBC        | 0x3B9      |
+WotLK      | 0x3BA      |
+Cata       | 0x3BA      |
 MoP        |            |

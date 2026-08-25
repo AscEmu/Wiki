@@ -11,8 +11,8 @@ position: 29
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x01C      |
+TBC        | 0x01C      |
+WotLK      | 0x01C      |
+Cata       | 0x01C      |
 MoP        |            |

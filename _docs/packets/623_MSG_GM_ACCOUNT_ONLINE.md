@@ -11,8 +11,8 @@ position: 623
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x26E      |
+TBC        | 0x26E      |
+WotLK      | 0x26E      |
+Cata       | 0x26E      |
 MoP        |            |

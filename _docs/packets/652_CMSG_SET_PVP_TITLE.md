@@ -11,8 +11,8 @@ position: 652
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x28B      |
+TBC        | 0x28B      |
+WotLK      | 0x28B      |
+Cata       | 0x28B      |
 MoP        |            |

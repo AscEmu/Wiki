@@ -11,8 +11,8 @@ position: 1130
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          |
-TBC        | -          |
-WotLK      | -          |
+Classic    |            |
+TBC        |            |
+WotLK      |            |
 Cata       | 0x3B0E     |
 MoP        | 0x06D7     |

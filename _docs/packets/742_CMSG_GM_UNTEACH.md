@@ -11,8 +11,8 @@ position: 742
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x2E5      |
+TBC        | 0x2E5      |
+WotLK      | 0x2E5      |
+Cata       | 0x2E5      |
 MoP        |            |

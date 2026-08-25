@@ -11,8 +11,8 @@ position: 870
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x365      |
 Cata       | 0x78B4     |
-MoP        | 0x1006     |
+MoP        |            |

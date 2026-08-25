@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       | 0x0548     |
-MoP        | 0x159A     |
+MoP        |            |

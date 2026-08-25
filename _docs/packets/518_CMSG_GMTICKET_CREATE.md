@@ -15,4 +15,4 @@ Classic    |            |
 TBC        | 0x205      |
 WotLK      | 0x205      |
 Cata       | 0x0137     |
-MoP        | 0x1A86     |
+MoP        |            |

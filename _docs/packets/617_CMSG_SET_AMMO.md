@@ -15,4 +15,4 @@ Classic    | 0x268      |
 TBC        | 0x268      |
 WotLK      | 0x268      |
 Cata       | 0x268      |
-MoP        | 0          |
+MoP        |            |

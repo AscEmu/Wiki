@@ -11,8 +11,8 @@ position: 997
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x3E3      |
+TBC        | 0x3E3      |
+WotLK      | 0x3E4      |
+Cata       | 0x6734     |
+MoP        | 0x06F9     |

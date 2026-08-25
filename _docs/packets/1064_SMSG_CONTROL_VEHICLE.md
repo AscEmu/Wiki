@@ -11,8 +11,8 @@ position: 1064
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | 
-TBC        | -          | 
-WotLK      | 0x49D      | 
-Cata       | 0x49D      | 
-MoP        | 0          |
+Classic    |            |
+TBC        |            |
+WotLK      | 0x49D      |
+Cata       | 0x49D      |
+MoP        |            |

@@ -11,8 +11,8 @@ position: 576
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x23F      |
+TBC        | 0x23F      |
+WotLK      | 0x23F      |
+Cata       | 0x23F      |
 MoP        |            |

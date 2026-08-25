@@ -11,8 +11,8 @@ position: 68
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x043      |
+TBC        | 0x043      |
+WotLK      | 0x043      |
+Cata       | 0x4127     |
+MoP        | 0x0E1B     |

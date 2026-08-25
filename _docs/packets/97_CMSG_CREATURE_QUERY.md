@@ -11,8 +11,8 @@ position: 97
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
+Classic    | 0x060      |
 TBC        | 0x060      |
 WotLK      | 0x060      |
 Cata       | 0x2706     |
-MoP        |            |
+MoP        | 0x0842     |

@@ -11,8 +11,8 @@ position: 1053
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x49F      |
 Cata       | 0x6A16     |
 MoP        | 0x1A2F     |

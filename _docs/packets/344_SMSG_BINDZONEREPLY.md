@@ -11,8 +11,8 @@ position: 344
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x157      |
+TBC        | 0x157      |
+WotLK      | 0x157      |
+Cata       | 0x4C34     |
 MoP        |            |

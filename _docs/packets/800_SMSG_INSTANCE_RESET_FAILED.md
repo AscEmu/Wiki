@@ -11,8 +11,8 @@ position: 800
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x31F      |
+TBC        | 0x31F      |
+WotLK      | 0x31F      |
+Cata       | 0x4725     |
+MoP        | 0x0026     |

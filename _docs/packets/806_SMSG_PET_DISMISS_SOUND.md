@@ -11,8 +11,8 @@ position: 806
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x325      |
+TBC        | 0x325      |
+WotLK      | 0x325      |
+Cata       | 0x2B05     |
 MoP        |            |

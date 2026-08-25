@@ -15,4 +15,4 @@ Classic    | 0x321      |
 TBC        | 0x321      |
 WotLK      | 0x321      |
 Cata       | 0x2C36     |
-MoP        | 0          |
+MoP        |            |

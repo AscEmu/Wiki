@@ -15,4 +15,4 @@ Classic    | 0x091      |
 TBC        | 0x091      |
 WotLK      | 0x091      |
 Cata       | 0x1035     |
-MoP        | 0x1473     |
+MoP        |            |

@@ -11,8 +11,8 @@ position: 828
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x33B      | 
-TBC        | 0x33B      | 
-WotLK      | 0x33B      | 
-Cata       | 0x33B      | 
-MoP        | 0          |
+Classic    | 0x33B      |
+TBC        | 0x33B      |
+WotLK      | 0x33B      |
+Cata       | 0x33B      |
+MoP        |            |

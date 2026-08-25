@@ -11,8 +11,8 @@ position: 490
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0x1E9      |
+TBC        | 0x1E9      |
+WotLK      | 0x1E9      |
 Cata       |            |
 MoP        |            |

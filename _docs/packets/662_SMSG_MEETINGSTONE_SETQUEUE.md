@@ -15,4 +15,4 @@ Classic    | 0x295      |
 TBC        | 0x295      |
 WotLK      | 0x295      |
 Cata       | 0x295      |
-MoP        | 0          |
+MoP        |            |

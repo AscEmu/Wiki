@@ -11,8 +11,8 @@ position: 343
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x156      |
+TBC        | 0x156      |
+WotLK      | 0x156      |
+Cata       | 0x156      |
 MoP        |            |

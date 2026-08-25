@@ -11,8 +11,8 @@ position: 917
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x394      |
+TBC        | 0x394      |
+WotLK      | 0x394      |
+Cata       | 0x394      |
 MoP        |            |

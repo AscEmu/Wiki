@@ -11,8 +11,8 @@ position: 509
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1FC      | 
-TBC        | 0x1FC      | 
-WotLK      | 0x1FC      | 
-Cata       | 0x6C05     | 
-MoP        | 0x6C05     | 
+Classic    | 0x1FC      |
+TBC        | 0x1FC      |
+WotLK      | 0x1FC      |
+Cata       | 0x6C05     |
+MoP        | 0x0DF1     |

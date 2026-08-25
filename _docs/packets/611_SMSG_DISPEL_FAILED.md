@@ -11,8 +11,8 @@ position: 611
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x262      |
+TBC        | 0x262      |
+WotLK      | 0x262      |
+Cata       | 0x0307     |
+MoP        | 0x085B     |

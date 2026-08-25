@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x0D8      |
 TBC        | 0x0D8      |
 WotLK      | 0x0D8      |
-Cata       |            |
+Cata       | 0x5DA1     |
 MoP        | 0x0D62     |

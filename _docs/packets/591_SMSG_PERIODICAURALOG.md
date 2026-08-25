@@ -11,8 +11,8 @@ position: 591
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x24E      | 
-TBC        | 0x24E      | 
-WotLK      | 0x24E      | 
-Cata       | 0x0416     | 
-MoP        | 0x0416     | 
+Classic    | 0x24E      |
+TBC        | 0x24E      |
+WotLK      | 0x24E      |
+Cata       | 0x0416     |
+MoP        | 0x0CF2     |

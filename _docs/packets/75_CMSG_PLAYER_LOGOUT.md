@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x04A      |
 TBC        | 0x04A      |
 WotLK      | 0x04A      |
-Cata       |            |
-MoP        | 0x0000     |
+Cata       | 0x04A      |
+MoP        |            |

@@ -11,8 +11,8 @@ position: 701
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x2BC      |
+TBC        | 0x2BC      |
+WotLK      | 0x2BC      |
+Cata       | 0x0116     |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 682
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2A9      | 
-TBC        | 0x2A9      | 
-WotLK      | 0x2A9      | 
-Cata       | 0x2526     | 
-MoP        | 0x2526     | 
+Classic    | 0x2A9      |
+TBC        | 0x2A9      |
+WotLK      | 0x2A9      |
+Cata       | 0x2526     |
+MoP        | 0x1082     |

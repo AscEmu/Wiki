@@ -11,8 +11,8 @@ position: 425
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0x1A8      |
+TBC        | 0x1A8      |
+WotLK      | 0x1A8      |
 Cata       |            |
 MoP        |            |

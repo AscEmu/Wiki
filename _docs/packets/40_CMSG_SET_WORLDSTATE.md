@@ -11,8 +11,8 @@ position: 40
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x027      |
+TBC        | 0x027      |
+WotLK      | 0x027      |
+Cata       | 0x027      |
 MoP        |            |

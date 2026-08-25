@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x087      |
 TBC        | 0x087      |
 WotLK      | 0x087      |
-Cata       | 0          |
-MoP        | 0          |
+Cata       |            |
+MoP        |            |

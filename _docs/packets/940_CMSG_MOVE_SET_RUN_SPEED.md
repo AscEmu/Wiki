@@ -11,8 +11,8 @@ position: 940
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3AB      |
+TBC        | 0x3AB      |
+WotLK      | 0x3AB      |
+Cata       | 0x3AB      |
 MoP        |            |

@@ -11,7 +11,7 @@ position: 91
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          |
+Classic    |            |
 TBC        | 0x05A      |
 WotLK      | 0x05A      |
 Cata       | 0x6614     |

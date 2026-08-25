@@ -11,8 +11,8 @@ position: 554
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x229      |
+TBC        | 0x229      |
+WotLK      | 0x229      |
+Cata       | 0x229      |
 MoP        |            |

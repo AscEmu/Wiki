@@ -11,8 +11,8 @@ position: 927
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x39E      |
+TBC        | 0x39E      |
+WotLK      | 0x39E      |
+Cata       | 0x2A17     |
 MoP        |            |

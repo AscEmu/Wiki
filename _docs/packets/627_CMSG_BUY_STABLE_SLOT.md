@@ -15,4 +15,4 @@ Classic    | 0x272      |
 TBC        | 0x272      |
 WotLK      | 0x272      |
 Cata       | 0x272      |
-MoP        | 0          |
+MoP        |            |

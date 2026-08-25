@@ -11,8 +11,8 @@ position: 634
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x279      |
+TBC        | 0x279      |
+WotLK      | 0x279      |
+Cata       | 0x4924     |
+MoP        | 0x135B     |

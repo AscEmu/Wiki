@@ -11,8 +11,8 @@ position: 1090
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x429      |
 Cata       | 0x2814     |
 MoP        | 0x1F9F     |

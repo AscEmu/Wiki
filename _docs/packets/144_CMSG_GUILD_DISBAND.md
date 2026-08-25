@@ -15,5 +15,4 @@ Classic    | 0x08F      |
 TBC        | 0x08F      |
 WotLK      | 0x08F      |
 Cata       | 0x3226     |
-MoP        |            |
- 
+MoP        | 0x0D73     |

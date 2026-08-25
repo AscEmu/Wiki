@@ -11,8 +11,8 @@ position: 649
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x288      |
+TBC        | 0x288      |
+WotLK      | 0x288      |
+Cata       | 0x288      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 835
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x342      |
+TBC        | 0x342      |
+WotLK      | 0x342      |
+Cata       | 0x1343     |
 MoP        |            |

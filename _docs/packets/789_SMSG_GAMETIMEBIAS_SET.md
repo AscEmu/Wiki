@@ -11,8 +11,8 @@ position: 789
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x314      |
+TBC        | 0x314      |
+WotLK      | 0x314      |
+Cata       | 0x314      |
 MoP        |            |

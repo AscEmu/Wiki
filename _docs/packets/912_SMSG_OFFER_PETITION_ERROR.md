@@ -11,8 +11,8 @@ position: 912
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x38F      |
+TBC        | 0x38F      |
+WotLK      | 0x38F      |
+Cata       | 0x2716     |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 1057
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x4EB      |
 Cata       | 0x0614     |
-MoP        | 0          |
+MoP        |            |

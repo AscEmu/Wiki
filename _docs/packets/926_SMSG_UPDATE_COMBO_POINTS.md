@@ -11,8 +11,8 @@ position: 926
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x39D      |
+TBC        | 0x39D      |
+WotLK      | 0x39D      |
+Cata       | 0x6B34     |
+MoP        | 0x082F     |

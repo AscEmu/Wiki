@@ -11,8 +11,8 @@ position: 319
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x13E      |
 Cata       | 0x4D07     |
 MoP        | 0x02E8     |

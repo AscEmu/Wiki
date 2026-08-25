@@ -11,8 +11,8 @@ position: 921
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    | 0x398      |
+TBC        | 0x398      |
 WotLK      | 0x398      |
 Cata       | 0x0815     |
-MoP        | 0x008E     |
+MoP        |            |

@@ -11,8 +11,8 @@ position: 517
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x204      |
+TBC        | 0x204      |
+WotLK      | 0x204      |
+Cata       | 0x204      |
 MoP        |            |

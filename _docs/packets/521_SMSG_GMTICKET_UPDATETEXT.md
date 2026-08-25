@@ -15,4 +15,4 @@ Classic    | 0x208      |
 TBC        | 0x208      |
 WotLK      | 0x208      |
 Cata       | 0x6535     |
-MoP        | 0          |
+MoP        |            |

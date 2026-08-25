@@ -11,8 +11,8 @@ position: 120
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x077      |
+TBC        | 0x077      |
+WotLK      | 0x077      |
+Cata       | 0x0A07     |
+MoP        | 0x1313     |

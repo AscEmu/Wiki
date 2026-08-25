@@ -11,8 +11,8 @@ position: 503
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x1F6      |
+TBC        | 0x1F6      |
+WotLK      | 0x1F6      |
+Cata       | 0x11F7     |
 MoP        |            |

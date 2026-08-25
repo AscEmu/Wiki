@@ -11,8 +11,8 @@ position: 23
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x016      |
+TBC        | 0x016      |
+WotLK      | 0x016      |
+Cata       | 0x016      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 412
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x19B      |
+TBC        | 0x19B      |
+WotLK      | 0x19B      |
+Cata       | 0x0D15     |
+MoP        | 0x124B     |

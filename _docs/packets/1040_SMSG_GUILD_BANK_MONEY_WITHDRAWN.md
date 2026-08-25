@@ -11,8 +11,8 @@ position: 1040
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | -          | not used
-Cata       | 0x5DB4     | 
-MoP        | 0x0B78     | 
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       | 0x5DB4     |
+MoP        | 0x0B78     |

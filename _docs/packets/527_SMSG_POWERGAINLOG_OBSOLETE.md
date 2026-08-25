@@ -11,8 +11,8 @@ position: 527
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x20E      |
+TBC        | 0x20E      |
+WotLK      | 0x20E      |
+Cata       | 0x20E      |
 MoP        |            |

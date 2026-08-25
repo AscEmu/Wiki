@@ -11,8 +11,8 @@ position: 869
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x364      |
 Cata       | 0x1365     |
 MoP        | 0x18E3     |

@@ -11,8 +11,8 @@ position: 552
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x227      |
+TBC        | 0x227      |
+WotLK      | 0x227      |
+Cata       | 0x227      |
 MoP        |            |

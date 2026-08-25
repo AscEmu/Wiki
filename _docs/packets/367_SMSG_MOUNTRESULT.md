@@ -15,4 +15,4 @@ Classic    | 0x16E      |
 TBC        | 0x16E      |
 WotLK      | 0x16E      |
 Cata       | 0x2225     |
-MoP        | 0          |
+MoP        |            |

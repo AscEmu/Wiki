@@ -11,8 +11,8 @@ position: 834
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x341      |
+TBC        | 0x341      |
+WotLK      | 0x341      |
+Cata       | 0x1342     |
 MoP        |            |

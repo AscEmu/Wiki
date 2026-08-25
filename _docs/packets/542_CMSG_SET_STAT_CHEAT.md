@@ -11,8 +11,8 @@ position: 542
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x21D      |
+TBC        | 0x21D      |
+WotLK      | 0x21D      |
+Cata       | 0x21D      |
 MoP        |            |

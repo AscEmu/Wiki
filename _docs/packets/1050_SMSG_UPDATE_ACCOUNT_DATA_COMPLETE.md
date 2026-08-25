@@ -11,8 +11,8 @@ position: 1050
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | 0x463      | 
-Cata       | 0x2015     | 
-MoP        | 0          |
+Classic    |            |
+TBC        |            |
+WotLK      | 0x463      |
+Cata       | 0x2015     |
+MoP        |            |

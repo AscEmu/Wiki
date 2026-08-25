@@ -11,8 +11,8 @@ position: 1075
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x4BD      |
 Cata       | 0x4F27     |
 MoP        | 0x0669     |

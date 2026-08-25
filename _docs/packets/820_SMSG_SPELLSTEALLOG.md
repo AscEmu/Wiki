@@ -15,4 +15,4 @@ Classic    | 0x333      |
 TBC        | 0x333      |
 WotLK      | 0x333      |
 Cata       | 0x4E26     |
-MoP        | 0          |
+MoP        |            |

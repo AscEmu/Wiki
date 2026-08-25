@@ -11,8 +11,8 @@ position: 664
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x297      |
+TBC        | 0x297      |
+WotLK      | 0x297      |
+Cata       | 0x297      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 513
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x200      |
 Cata       | 0x0E14     |
-MoP        | 0x063B     |
+MoP        |            |

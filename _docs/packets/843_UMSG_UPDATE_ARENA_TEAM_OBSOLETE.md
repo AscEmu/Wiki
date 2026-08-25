@@ -11,8 +11,8 @@ position: 843
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x34A      |
+TBC        | 0x34A      |
+WotLK      | 0x34A      |
+Cata       | 0x34A      |
 MoP        |            |

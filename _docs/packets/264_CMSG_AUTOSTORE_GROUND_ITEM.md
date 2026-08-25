@@ -11,8 +11,8 @@ position: 264
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x107      |
+TBC        | 0x107      |
+WotLK      | 0x107      |
+Cata       | 0x1108     |
 MoP        |            |

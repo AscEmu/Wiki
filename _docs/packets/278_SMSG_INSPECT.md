@@ -11,8 +11,8 @@ position: 278
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x115      |
+TBC        | 0x115      |
+WotLK      | 0x115      |
+Cata       | 0x4014     |
 MoP        |            |

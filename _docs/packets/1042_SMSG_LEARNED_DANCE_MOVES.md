@@ -11,8 +11,8 @@ position: 1042
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
+Classic    |            |
+TBC        |            |
 WotLK      | 0x455      |
 Cata       | 0x0E05     |
-MoP        | 0x0000     |
+MoP        |            |

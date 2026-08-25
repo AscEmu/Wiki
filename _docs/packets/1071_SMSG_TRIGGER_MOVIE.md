@@ -11,8 +11,8 @@ position: 1071
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x464      |
 Cata       | 0x4625     |
 MoP        | 0x1C2E     |

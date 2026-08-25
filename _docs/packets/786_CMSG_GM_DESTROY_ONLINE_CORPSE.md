@@ -11,8 +11,8 @@ position: 786
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x311      |
+TBC        | 0x311      |
+WotLK      | 0x311      |
+Cata       | 0x311      |
 MoP        |            |

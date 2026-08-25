@@ -11,8 +11,8 @@ position: 794
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x319      |
+TBC        | 0x319      |
+WotLK      | 0x319      |
+Cata       | 0x19B3     |
 MoP        |            |

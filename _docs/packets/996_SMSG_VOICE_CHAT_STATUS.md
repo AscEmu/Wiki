@@ -11,8 +11,8 @@ position: 996
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x3E2      |
+TBC        | 0x3E2      |
+WotLK      | 0x3E3      |
+Cata       | 0x0F15     |
 MoP        |            |

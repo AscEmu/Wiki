@@ -11,8 +11,8 @@ position: 723
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2D2      | 
-TBC        | 0x2D2      | 
-WotLK      | 0x2D2      | 
-Cata       | 0x2134     | 
-MoP        | 0x2134     | 
+Classic    | 0x2D2      |
+TBC        | 0x2D2      |
+WotLK      | 0x2D2      |
+Cata       | 0x2134     |
+MoP        | 0x102A     |

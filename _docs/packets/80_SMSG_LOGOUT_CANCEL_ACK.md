@@ -11,8 +11,8 @@ position: 80
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x04F      | 
-TBC        | 0x04F      | 
-WotLK      | 0x04F      | 
-Cata       | 0x6514     | 
-MoP        | 0x6514     | 
+Classic    | 0x04F      |
+TBC        | 0x04F      |
+WotLK      | 0x04F      |
+Cata       | 0x6514     |
+MoP        | 0x0AAF     |

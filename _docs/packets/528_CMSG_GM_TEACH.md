@@ -11,8 +11,8 @@ position: 528
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x20F      |
+TBC        | 0x20F      |
+WotLK      | 0x20F      |
+Cata       | 0x20F      |
 MoP        |            |

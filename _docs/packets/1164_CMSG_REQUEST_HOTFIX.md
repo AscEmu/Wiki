@@ -11,8 +11,8 @@ position: 1164
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | -          | not used
+Classic    |            |
+TBC        |            |
+WotLK      |            |
 Cata       | 0x2401     |
 MoP        | 0x158D     |

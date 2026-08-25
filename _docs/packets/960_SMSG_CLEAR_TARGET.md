@@ -11,8 +11,8 @@ position: 960
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x3BE      | 
-TBC        | 0x3BE      | 
-WotLK      | 0x3BF      | 
-Cata       | 0x4B26     | 
-MoP        | 0x4B26     | 
+Classic    |            |
+TBC        |            |
+WotLK      |            |
+Cata       | 0x4B26     |
+MoP        | 0x1061     |

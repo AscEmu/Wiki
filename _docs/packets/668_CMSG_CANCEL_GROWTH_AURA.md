@@ -11,8 +11,8 @@ position: 668
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x29B      |
+TBC        | 0x29B      |
+WotLK      | 0x29B      |
+Cata       | 0x0237     |
 MoP        |            |

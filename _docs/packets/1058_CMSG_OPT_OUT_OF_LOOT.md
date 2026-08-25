@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x408      |
 TBC        | 0x408      |
 WotLK      | 0x409      |
-Cata       |            |
+Cata       | 0x6B16     |
 MoP        |            |

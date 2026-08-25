@@ -11,8 +11,8 @@ position: 437
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x120      |
-TBC        | 0x120      |
-WotLK      | 0x120      |
-Cata       | 0x5CA3     |
-MoP        | 0x1963     |
+Classic    | 0x1B4      |
+TBC        | 0x1B4      |
+WotLK      | 0x1B4      |
+Cata       | 0x0004     |
+MoP        | 0x042E     |

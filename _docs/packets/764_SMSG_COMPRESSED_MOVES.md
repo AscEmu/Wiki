@@ -11,8 +11,8 @@ position: 764
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x2FB      |
+TBC        | 0x2FB      |
+WotLK      | 0x2FB      |
+Cata       | 0x0517     |
 MoP        |            |

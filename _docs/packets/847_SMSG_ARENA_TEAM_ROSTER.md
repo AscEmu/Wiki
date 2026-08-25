@@ -15,4 +15,4 @@ Classic    | 0x34E      |
 TBC        | 0x34E      |
 WotLK      | 0x34E      |
 Cata       | 0x2717     |
-MoP        | 0x0000     |
+MoP        |            |

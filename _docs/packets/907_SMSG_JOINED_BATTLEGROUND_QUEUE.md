@@ -11,8 +11,8 @@ position: 907
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x38A      |
+TBC        | 0x38A      |
+WotLK      | 0x38A      |
+Cata       | 0x38A      |
 MoP        |            |

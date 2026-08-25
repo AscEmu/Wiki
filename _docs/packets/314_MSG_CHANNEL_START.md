@@ -15,4 +15,4 @@ Classic    | 0x139      |
 TBC        | 0x139      |
 WotLK      | 0x139      |
 Cata       | 0x0A15     |
-MoP        | 0x0000     |
+MoP        |            |

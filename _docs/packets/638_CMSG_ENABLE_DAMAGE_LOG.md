@@ -11,8 +11,8 @@ position: 638
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x27D      |
+TBC        | 0x27D      |
+WotLK      | 0x27D      |
+Cata       | 0x27D      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 78
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x04D      | 
-TBC        | 0x04D      | 
-WotLK      | 0x04D      | 
-Cata       | 0x2137     | 
-MoP        | 0x142F     | 
+Classic    | 0x04D      |
+TBC        | 0x04D      |
+WotLK      | 0x04D      |
+Cata       | 0x2137     |
+MoP        | 0x142F     |

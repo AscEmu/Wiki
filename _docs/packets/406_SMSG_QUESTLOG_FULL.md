@@ -11,8 +11,8 @@ position: 406
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x195      | 
-TBC        | 0x195      | 
-WotLK      | 0x195      | 
-Cata       | 0x0E36     | 
-MoP        | 0x0E36     | 
+Classic    | 0x195      |
+TBC        | 0x195      |
+WotLK      | 0x195      |
+Cata       | 0x0E36     |
+MoP        | 0x07FD     |

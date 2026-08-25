@@ -11,8 +11,8 @@ position: 877
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x36C      |
 Cata       | 0x04B3     |
-MoP        | 0          |
+MoP        |            |

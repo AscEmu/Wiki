@@ -15,4 +15,4 @@ Classic    | 0x073      |
 TBC        | 0x073      |
 WotLK      | 0x073      |
 Cata       | 0x073      |
-MoP        | 0          |
+MoP        |            |

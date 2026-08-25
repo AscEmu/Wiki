@@ -11,8 +11,8 @@ position: 966
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x3C4      |
+TBC        | 0x3C4      |
+WotLK      | 0x3C5      |
+Cata       | 0x4027     |
+MoP        | 0x4027     |

@@ -11,8 +11,8 @@ position: 413
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x19C      |
+TBC        | 0x19C      |
+WotLK      | 0x19C      |
+Cata       | 0x6F07     |
+MoP        | 0x13C7     |

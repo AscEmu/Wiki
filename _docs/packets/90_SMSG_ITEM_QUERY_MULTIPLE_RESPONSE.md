@@ -11,8 +11,8 @@ position: 90
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x059      |
+TBC        | 0x059      |
+WotLK      | 0x059      |
+Cata       | 0x059      |
 MoP        |            |

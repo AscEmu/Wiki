@@ -11,8 +11,8 @@ position: 338
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x151      | 
-TBC        | 0x151      | 
-WotLK      | 0x151      | 
-Cata       | 0x0414     | 
-MoP        | 0x0414     | 
+Classic    | 0x151      |
+TBC        | 0x151      |
+WotLK      | 0x151      |
+Cata       | 0x0414     |
+MoP        | 0x0D79     |

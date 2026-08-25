@@ -11,8 +11,8 @@ position: 320
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0          |
-TBC        | 0          |
+Classic    |            |
+TBC        |            |
 WotLK      | 0x483      |
 Cata       | 0x4735     |
 MoP        | 0x0632     |

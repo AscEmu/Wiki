@@ -10,9 +10,9 @@ position: 1051
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ----------
-Classic    | 0x137      | 
-TBC        | 0x137      | 
-WotLK      | 0          | not used
-Cata       | 0          | not used
-MoP        | 0          | not used
+---------- | ---------- | ---------- 
+Classic    | 0x137      |
+TBC        | 0x137      |
+WotLK      |            |
+Cata       |            |
+MoP        |            |

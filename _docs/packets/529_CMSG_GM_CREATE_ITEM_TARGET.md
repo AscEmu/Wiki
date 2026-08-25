@@ -11,8 +11,8 @@ position: 529
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x210      |
+TBC        | 0x210      |
+WotLK      | 0x210      |
+Cata       | 0x210      |
 MoP        |            |

@@ -11,8 +11,8 @@ position: 641
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
+Classic    | 0x280      |
+TBC        | 0x280      |
+WotLK      | 0x280      |
+Cata       | 0x0034     |
 MoP        |            |

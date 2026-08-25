@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    |            |
 TBC        |            |
 WotLK      | 0x36E      |
-Cata       |            |
+Cata       | 0x36E      |
 MoP        |            |
