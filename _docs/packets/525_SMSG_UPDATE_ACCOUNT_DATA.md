@@ -11,8 +11,8 @@ position: 525
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x20C      |
+TBC        | 0x20C      |
+WotLK      | 0x20C      |
+Cata       | 0x6837     |
+MoP        | 0x0AAE     |

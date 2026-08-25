@@ -11,8 +11,8 @@ position: 390
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x185      |
+TBC        | 0x185      |
+WotLK      | 0x185      |
+Cata       | 0x0134     |
+MoP        | 0x02D4     |

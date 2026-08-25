@@ -17,4 +17,4 @@ Classic    | 0x06E      |
 TBC        | 0x06E      |
 WotLK      | 0x06E      |
 Cata       | 0x0513     |
-MoP        |            |
+MoP        | 0x072D     |

@@ -11,8 +11,8 @@ position: 398
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x18D      |
+TBC        | 0x18D      |
+WotLK      | 0x18D      |
+Cata       | 0x2427     |
+MoP        | 0x074F     |

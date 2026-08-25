@@ -11,8 +11,8 @@ position: 100
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x063      |
+TBC        | 0x063      |
+WotLK      | 0x063      |
+Cata       | 0x6907     |
+MoP        | 0x161B     |

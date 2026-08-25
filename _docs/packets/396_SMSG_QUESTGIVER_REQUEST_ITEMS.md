@@ -11,8 +11,8 @@ position: 396
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x18B      |
+TBC        | 0x18B      |
+WotLK      | 0x18B      |
+Cata       | 0x6236     |
+MoP        | 0x0277     |
