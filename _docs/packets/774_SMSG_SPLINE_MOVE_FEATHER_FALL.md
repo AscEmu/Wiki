@@ -15,4 +15,4 @@ Classic    | 0x305      |
 TBC        | 0x305      |
 WotLK      | 0x305      |
 Cata       | 0x3DA5     |
-MoP        |            |
+MoP        | 0x1893     |

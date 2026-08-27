@@ -11,8 +11,8 @@ position: 154
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x099      | 
-TBC        | 0x099      | 
-WotLK      | 0x099      | 
-Cata       | 0x0825     | 
-MoP        | 0x0825     | 
+Classic    | 0x099      |
+TBC        | 0x099      |
+WotLK      | 0x099      |
+Cata       | 0x0825     |
+MoP        | 0x0F06     |

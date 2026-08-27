@@ -15,4 +15,4 @@ Classic    | 0x248      |
 TBC        | 0x248      |
 WotLK      | 0x248      |
 Cata       | 0x0816     |
-MoP        |            |
+MoP        | 0x1FA8     |

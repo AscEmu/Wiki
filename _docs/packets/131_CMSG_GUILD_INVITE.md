@@ -15,4 +15,4 @@ Classic    | 0x082      |
 TBC        | 0x082      |
 WotLK      | 0x082      |
 Cata       | 0x24B0     |
-MoP        |            |
+MoP        | 0x0869     |

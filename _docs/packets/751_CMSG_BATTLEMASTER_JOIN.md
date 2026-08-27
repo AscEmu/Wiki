@@ -15,4 +15,4 @@ Classic    | 0x2EE      |
 TBC        | 0x2EE      |
 WotLK      | 0x2EE      |
 Cata       | 0x7902     |
-MoP        |            |
+MoP        | 0x0769     |

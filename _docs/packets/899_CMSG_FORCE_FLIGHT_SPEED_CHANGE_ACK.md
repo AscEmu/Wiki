@@ -15,4 +15,4 @@ Classic    | 0x382      |
 TBC        |            |
 WotLK      | 0x382      |
 Cata       | 0x7314     |
-MoP        |            |
+MoP        | 0x09DA     |

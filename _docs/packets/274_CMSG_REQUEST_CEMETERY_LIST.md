@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       | 0x720A     |
-MoP        |            |
+MoP        | 0x06E4     |

@@ -837,7 +837,3 @@ You may find some of these terms within the Wiki pages.
 ##### **Function:** A block of code in Lua.
 
 ##### **Command:** Usually assumed to be any Lua Method, it is incorrect terminology. It is not a command.
-
-##### **Statement:** A piece of code that performs a single action.
-
-##### **Expression:** A statement that evaluates true or false.

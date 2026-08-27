@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x119      |
 TBC        | 0x119      |
 WotLK      | 0x119      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x7112     |
+MoP        | 0x0276     |

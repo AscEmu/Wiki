@@ -15,4 +15,4 @@ Classic    | 0x19E      |
 TBC        | 0x19E      |
 WotLK      | 0x19E      |
 Cata       | 0x2806     |
-MoP        |            |
+MoP        | 0x02D8     |

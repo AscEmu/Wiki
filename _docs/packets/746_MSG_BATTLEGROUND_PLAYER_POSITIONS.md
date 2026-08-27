@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x2E9      |
 TBC        | 0x2E9      |
 WotLK      | 0x2E9      |
-Cata       |            |
+Cata       | 0x2E9      |
 MoP        |            |

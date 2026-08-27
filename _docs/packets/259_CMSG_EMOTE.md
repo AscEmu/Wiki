@@ -15,4 +15,4 @@ Classic    | 0x102      |
 TBC        | 0x102      |
 WotLK      | 0x102      |
 Cata       | 0x4C26     |
-MoP        |            |
+MoP        | 0x1924     |

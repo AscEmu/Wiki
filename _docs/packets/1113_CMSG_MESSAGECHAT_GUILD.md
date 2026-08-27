@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       | 0x3956     |
-MoP        |            |
+MoP        | 0x0CAE     |

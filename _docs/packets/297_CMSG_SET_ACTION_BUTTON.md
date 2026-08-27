@@ -15,4 +15,4 @@ Classic    | 0x128      |
 TBC        | 0x128      |
 WotLK      | 0x128      |
 Cata       | 0x6F06     |
-MoP        |            |
+MoP        | 0x1F8C     |

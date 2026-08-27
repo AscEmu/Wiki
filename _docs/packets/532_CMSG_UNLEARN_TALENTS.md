@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x213      |
 TBC        |            |
 WotLK      | 0x213      |
-Cata       |            |
+Cata       | 0x213      |
 MoP        |            |

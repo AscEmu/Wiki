@@ -17,4 +17,4 @@ Classic    | 0x066      |
 TBC        | 0x066      |
 WotLK      | 0x066      |
 Cata       | 0x4534     |
-MoP        |            |
+MoP        | 0x0BB4     |

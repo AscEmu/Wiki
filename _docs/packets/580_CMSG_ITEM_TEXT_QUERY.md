@@ -15,4 +15,4 @@ Classic    | 0x243      |
 TBC        | 0x243      |
 WotLK      | 0x243      |
 Cata       | 0x2406     |
-MoP        |            |
+MoP        | 0x0123     |

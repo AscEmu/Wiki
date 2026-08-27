@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    |            |
 TBC        |            |
 WotLK      | 0x42A      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x6416     |
+MoP        | 0x030C     |

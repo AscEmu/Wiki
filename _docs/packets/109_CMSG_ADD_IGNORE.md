@@ -12,9 +12,9 @@ Called on adding ignored player to list.
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ----------
+---------- | ---------- | ---------- 
 Classic    | 0x06C      |
 TBC        | 0x06C      |
 WotLK      | 0x06C      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x4726     |
+MoP        | 0x0D20     |

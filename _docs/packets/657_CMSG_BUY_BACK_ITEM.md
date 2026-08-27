@@ -15,4 +15,4 @@ Classic    | 0x290      |
 TBC        | 0x290      |
 WotLK      | 0x290      |
 Cata       | 0x6C17     |
-MoP        |            |
+MoP        | 0x0661     |

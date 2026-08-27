@@ -15,4 +15,4 @@ Classic    | 0x1C4      |
 TBC        | 0x1C4      |
 WotLK      | 0x1C4      |
 Cata       | 0x0B27     |
-MoP        |            |
+MoP        | 0x0673     |

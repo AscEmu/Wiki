@@ -13,6 +13,6 @@ Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    |            |
 TBC        |            |
-WotLK      | 0x36C      |
-Cata       |            |
-MoP        |            |
+WotLK      | 0x370      |
+Cata       | 0x2482     |
+MoP        | 0x1AA6     |

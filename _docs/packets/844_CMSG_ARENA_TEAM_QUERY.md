@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    |            |
 TBC        | 0x34B      |
 WotLK      | 0x34B      |
-Cata       |            |
+Cata       | 0x0514     |
 MoP        |            |

@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x270      |
 TBC        | 0x270      |
 WotLK      | 0x270      |
-Cata       |            |
+Cata       | 0x270      |
 MoP        |            |

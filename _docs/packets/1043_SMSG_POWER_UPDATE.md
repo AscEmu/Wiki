@@ -11,8 +11,8 @@ position: 1043
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | -          | not used
-TBC        | -          | not used
-WotLK      | 0x480      | 
-Cata       | 0x4A07     | 
-MoP        | 0x109F     | 
+Classic    |            |
+TBC        |            |
+WotLK      | 0x480      |
+Cata       | 0x4A07     |
+MoP        | 0x109F     |

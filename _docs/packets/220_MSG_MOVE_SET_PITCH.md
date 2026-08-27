@@ -15,4 +15,4 @@ Classic    | 0x0DB      |
 TBC        | 0x0DB      |
 WotLK      | 0x0DB      |
 Cata       | 0x7312     |
-MoP        |            |
+MoP        | 0x017A     |

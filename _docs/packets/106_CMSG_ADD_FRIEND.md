@@ -16,5 +16,5 @@ Version    | Hex        | Comment
 Classic    | 0x069      |
 TBC        | 0x069      |
 WotLK      | 0x069      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x6527     |
+MoP        | 0x09A6     |

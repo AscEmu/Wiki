@@ -14,43 +14,52 @@ Field                             | Type         | Default | Comment
 --------------------------------- | ------------ | ------- | -------
 [entry](#entry)                   | int(10)      | 0       | key
 [build](#build)                   | smallint(6)  | 12340   | key
-[type](#type)                     | tinyint(3)   | 0       |        
-[display_id](#display_id)         | mediumint(8) | 0       |        
-[name](#name)                     | varchar(100) |         |        
-[category_name](#category_name)   | varchar(100) |         |        
-[cast_bar_text](#cast_bar_text)   | varchar(100) |         |        
-[UnkStr](#UnkStr)                 | varchar(100) |         |        
-[parameter_0](#parameters)        | int(10)      | 0       |        
-[parameter_1](#parameters)        | int(10)      | 0       |        
-[parameter_2](#parameters)        | int(10)      | 0       |        
-[parameter_3](#parameters)        | int(10)      | 0       |        
-[parameter_4](#parameters)        | int(10)      | 0       |        
-[parameter_5](#parameters)        | int(10)      | 0       |        
-[parameter_6](#parameters)        | int(10)      | 0       |        
-[parameter_7](#parameters)        | int(10)      | 0       |        
-[parameter_8](#parameters)        | int(10)      | 0       |        
-[parameter_9](#parameters)        | int(10)      | 0       |        
-[parameter_10](#parameters)       | int(10)      | 0       |        
-[parameter_11](#parameters)       | int(10)      | 0       |        
-[parameter_12](#parameters)       | int(10)      | 0       |        
-[parameter_13](#parameters)       | int(10)      | 0       |        
-[parameter_14](#parameters)       | int(10)      | 0       |        
-[parameter_15](#parameters)       | int(10)      | 0       |        
-[parameter_16](#parameters)       | int(10)      | 0       |        
-[parameter_17](#parameters)       | int(10)      | 0       |        
-[parameter_18](#parameters)       | int(10)      | 0       |        
-[parameter_19](#parameters)       | int(10)      | 0       |        
-[parameter_20](#parameters)       | int(10)      | 0       |        
-[parameter_21](#parameters)       | int(10)      | 0       |        
-[parameter_22](#parameters)       | int(10)      | 0       |        
-[parameter_23](#parameters)       | int(10)      | 0       |        
-[size](#size)                     | float(0)     | 1       |        
-[QuestItem1](#QuestItem_1_6)      | int(11)      | 0       |        
-[QuestItem2](#QuestItem_1_6)      | int(11)      | 0       |        
-[QuestItem3](#QuestItem_1_6)      | int(11)      | 0       |        
-[QuestItem4](#QuestItem_1_6)      | int(11)      | 0       |        
-[QuestItem5](#QuestItem_1_6)      | int(11)      | 0       |        
-[QuestItem6](#QuestItem_1_6)      | int(11)      | 0       |        
+[type](#type)                     | tinyint(3)   | 0       |
+[display_id](#display_id)         | mediumint(8) | 0       |
+[name](#name)                     | varchar(100) | ''      |
+[category_name](#category_name)   | varchar(100) | ''      |
+[cast_bar_text](#cast_bar_text)   | varchar(100) | ''      |
+[UnkStr](#UnkStr)                 | varchar(100) | NULL    |
+[parameter_0](#parameters)        | int(10)      | NULL    |
+[parameter_1](#parameters)        | int(10)      | 0       |
+[parameter_2](#parameters)        | int(10)      | 0       |
+[parameter_3](#parameters)        | int(10)      | 0       |
+[parameter_4](#parameters)        | int(10)      | 0       |
+[parameter_5](#parameters)        | int(10)      | 0       |
+[parameter_6](#parameters)        | int(10)      | NULL    |
+[parameter_7](#parameters)        | int(10)      | 0       |
+[parameter_8](#parameters)        | int(10)      | 0       |
+[parameter_9](#parameters)        | int(10)      | 0       |
+[parameter_10](#parameters)       | int(10)      | 0       |
+[parameter_11](#parameters)       | int(10)      | 0       |
+[parameter_12](#parameters)       | int(10)      | 0       |
+[parameter_13](#parameters)       | int(10)      | 0       |
+[parameter_14](#parameters)       | int(10)      | 0       |
+[parameter_15](#parameters)       | int(10)      | 0       |
+[parameter_16](#parameters)       | int(10)      | 0       |
+[parameter_17](#parameters)       | int(10)      | 0       |
+[parameter_18](#parameters)       | int(10)      | 0       |
+[parameter_19](#parameters)       | int(10)      | 0       |
+[parameter_20](#parameters)       | int(10)      | 0       |
+[parameter_21](#parameters)       | int(10)      | 0       |
+[parameter_22](#parameters)       | int(10)      | 0       |
+[parameter_23](#parameters)       | int(10)      | 0       |
+[parameter_24](#parameters)       | int(10)      | 0       |
+[parameter_25](#parameters)       | int(10)      | 0       |
+[parameter_26](#parameters)       | int(10)      | 0       |
+[parameter_27](#parameters)       | int(10)      | 0       |
+[parameter_28](#parameters)       | int(10)      | 0       |
+[parameter_29](#parameters)       | int(10)      | 0       |
+[parameter_30](#parameters)       | int(10)      | 0       |
+[parameter_31](#parameters)       | int(10)      | 0       |
+[parameter_32](#parameters)       | int(10)      | 0       |
+[size](#size)                     | float(0)     | 1       |
+[QuestItem1](#QuestItem_1_6)      | int(11)      | 0       |
+[QuestItem2](#QuestItem_1_6)      | int(11)      | 0       |
+[QuestItem3](#QuestItem_1_6)      | int(11)      | 0       |
+[QuestItem4](#QuestItem_1_6)      | int(11)      | 0       |
+[QuestItem5](#QuestItem_1_6)      | int(11)      | 0       |
+[QuestItem6](#QuestItem_1_6)      | int(11)      | 0       |
 
 ### entry
 

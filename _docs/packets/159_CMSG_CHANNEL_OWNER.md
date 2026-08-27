@@ -15,4 +15,4 @@ Classic    | 0x09E      |
 TBC        | 0x09E      |
 WotLK      | 0x09E      |
 Cata       | 0x3D44     |
-MoP        |            |
+MoP        | 0x00AF     |

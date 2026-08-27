@@ -46,7 +46,7 @@ Alternatively if you wish to use Clang instead of gcc compiler.
 sudo apt-get install clang
 ```
 
-AscEmu supports Clang 16 and higher. By default Debian 12.8 installs Clang 14 so on Debian you must install clang-16 or higher package.
+AscEmu supports Clang 16 and higher. Debian 13 provides Clang 16 by default, while older Debian releases may require installing a newer Clang package manually.
 {: .info }
 
 ### MySQL Setup
@@ -61,7 +61,7 @@ On other distros skip Debian only commands.
 **Debian only**
 Download the latest MySQL repository package. Check for the latest version at [MySQL APT page.](https://dev.mysql.com/downloads/repo/apt/)
 ```console
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.33-1_all.deb -O /tmp/mysql-apt-config.deb
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.39-1_all.deb -O /tmp/mysql-apt-config.deb
 ```
 
 **Debian only**

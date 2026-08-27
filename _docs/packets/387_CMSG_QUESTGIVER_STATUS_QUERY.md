@@ -15,4 +15,4 @@ Classic    | 0x182      |
 TBC        | 0x182      |
 WotLK      | 0x182      |
 Cata       | 0x4407     |
-MoP        |            |
+MoP        | 0x036A     |

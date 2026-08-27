@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      | 0x481      |
 Cata       | 0x4827     |
-MoP        |            |
+MoP        | 0x06D8     |

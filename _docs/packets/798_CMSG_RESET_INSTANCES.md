@@ -15,4 +15,4 @@ Classic    | 0x31D      |
 TBC        | 0x31D      |
 WotLK      | 0x31D      |
 Cata       | 0x6E14     |
-MoP        |            |
+MoP        | 0x0C69     |

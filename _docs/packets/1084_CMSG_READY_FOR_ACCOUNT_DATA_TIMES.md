@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      | 0x4FF      |
 Cata       | 0x2B16     |
-MoP        |            |
+MoP        | 0x031C     |

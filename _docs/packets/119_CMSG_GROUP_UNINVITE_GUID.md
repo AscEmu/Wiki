@@ -15,4 +15,4 @@ Classic    | 0x076      |
 TBC        | 0x076      |
 WotLK      | 0x076      |
 Cata       | 0x2E07     |
-MoP        |            |
+MoP        | 0x0CE1     |

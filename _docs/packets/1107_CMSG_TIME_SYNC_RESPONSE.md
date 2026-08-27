@@ -11,8 +11,8 @@ position: 1107
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
+Classic    | 0x391      |
+TBC        | 0x391      |
+WotLK      | 0x391      |
 Cata       | 0x3B0C     |
 MoP        | 0x01DB     |

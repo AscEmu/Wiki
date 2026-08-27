@@ -12,7 +12,7 @@ position: 167
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x0A6      |
-TBC        |            |
+TBC        | 0x0A6      |
 WotLK      | 0x0A6      |
 Cata       | 0x2D46     |
-MoP        | 0x2D46     |
+MoP        | 0x081F     |

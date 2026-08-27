@@ -11,7 +11,7 @@ position: 1032
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
+Classic    | 0x418      |
 TBC        | 0x418      |
 WotLK      | 0x419      |
 Cata       | 0x6316     |

@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x409      |
 TBC        | 0x409      |
 WotLK      | 0x40A      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x75A3     |
+MoP        | 0x1AE0     |

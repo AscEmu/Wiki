@@ -12,7 +12,7 @@ position: 1011
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    |            |
-TBC        | 0x493      |
+TBC        |            |
 WotLK      | 0x493      |
 Cata       | 0x0C16     |
 MoP        |            |

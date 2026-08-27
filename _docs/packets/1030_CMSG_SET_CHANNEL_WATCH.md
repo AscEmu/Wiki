@@ -11,7 +11,7 @@ position: 1030
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x3EF      |
+Classic    | 0x3EE      |
 TBC        |            |
 WotLK      | 0x3EF      |
 Cata       | 0x4517     |

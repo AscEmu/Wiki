@@ -15,4 +15,4 @@ Classic    | 0x1BE      |
 TBC        | 0x1BE      |
 WotLK      | 0x1BE      |
 Cata       | 0x4F15     |
-MoP        |            |
+MoP        | 0x136B     |

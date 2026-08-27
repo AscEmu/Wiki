@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x2B3      |
 TBC        | 0x2B3      |
 WotLK      | 0x2B3      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x6115     |
+MoP        | 0x0360     |

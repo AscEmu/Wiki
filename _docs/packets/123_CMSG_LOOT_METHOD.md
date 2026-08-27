@@ -15,4 +15,4 @@ Classic    | 0x07A      |
 TBC        | 0x07A      |
 WotLK      | 0x07A      |
 Cata       | 0x2F24     |
-MoP        |            |
+MoP        | 0x0DE1     |

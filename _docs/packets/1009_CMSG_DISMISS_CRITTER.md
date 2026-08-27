@@ -10,9 +10,9 @@ position: 1009
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ----------
+---------- | ---------- | ---------- 
 Classic    |            |
 TBC        |            |
 WotLK      | 0x48D      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x4227     |
+MoP        | 0x12DB     |

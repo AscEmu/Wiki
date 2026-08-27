@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x11B      |
 TBC        | 0x11B      |
 WotLK      | 0x11B      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x391A     |
+MoP        | 0x0023     |

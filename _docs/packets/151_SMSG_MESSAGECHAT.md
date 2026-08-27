@@ -11,8 +11,8 @@ position: 151
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x096      | 
-TBC        | 0x096      | 
-WotLK      | 0x096      | 
-Cata       | 0x2026     | 
-MoP        |            | 
+Classic    | 0x096      |
+TBC        | 0x096      |
+WotLK      | 0x096      |
+Cata       | 0x2026     |
+MoP        | 0x1A9A     |

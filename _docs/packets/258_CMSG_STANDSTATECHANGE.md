@@ -17,4 +17,4 @@ Classic    | 0x101      |
 TBC        | 0x101      |
 WotLK      | 0x101      |
 Cata       | 0x0535     |
-MoP        |            |
+MoP        | 0x03E6     |

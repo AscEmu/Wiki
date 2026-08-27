@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x383      |
 TBC        | 0x383      |
 WotLK      | 0x383      |
-Cata       | 0x74A0     |
-MoP        |            |
+Cata       | 0x30A2     |
+MoP        | 0x0319     |

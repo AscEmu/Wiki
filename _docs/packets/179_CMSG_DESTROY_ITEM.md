@@ -15,4 +15,4 @@ Classic    | 0x111      |
 TBC        | 0x111      |
 WotLK      | 0x111      |
 Cata       | 0x4A27     |
-MoP        |            |
+MoP        | 0x0026     |

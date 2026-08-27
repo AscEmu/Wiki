@@ -15,4 +15,4 @@ Classic    | 0x386      |
 TBC        | 0x386      |
 WotLK      | 0x386      |
 Cata       | 0x38B3     |
-MoP        |            |
+MoP        | 0x0B28     |

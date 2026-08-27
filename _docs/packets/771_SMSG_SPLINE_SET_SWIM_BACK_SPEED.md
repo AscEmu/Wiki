@@ -15,4 +15,4 @@ Classic    | 0x302      |
 TBC        | 0x302      |
 WotLK      | 0x302      |
 Cata       | 0x59A1     |
-MoP        |            |
+MoP        | 0x0046     |

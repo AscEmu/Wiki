@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x268      |
 TBC        | 0x268      |
 WotLK      | 0x268      |
-Cata       |            |
+Cata       | 0x268      |
 MoP        |            |

@@ -23,11 +23,13 @@ layout: single_markdown
 ### Helpful Program
 
 * [Notepad++](https://notepad-plus-plus.org/download/)
-* [HeidiSQL](https://www.heidisql.com/download.php)
+* [HeidiSQL](https://www.heidisql.com/download.php/)
+* [TortoiseGit](https://tortoisegit.org/)
 * [MySQL Notifier](https://downloads.mysql.com/archives/notifier/)
-* [SQLyog](https://github.com/webyog/sqlyog-community/wiki/Downloads)
+* [SQLyog](https://github.com/webyog/sqlyog-community/wiki/Downloads/)
+* [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 * [DBeaver](https://dbeaver.io/download/)
-* [7-Zip](https://sourceforge.net/projects/sevenzip/?source=directory)
+* [7-Zip](https://sourceforge.net/projects/sevenzip/?source=directory/)
 
 ### Windows Guide
 
@@ -47,7 +49,7 @@ Do **NOT use the light version** of OpenSSL. Here are the direct links to the ms
 
 Find the 64bit version by finding the latest 3.X Win64 OpenSSL that is NOT the "light" version. (Example of a working Version: Win64 OpenSSL v3.1.6)
 
-**Wind32**
+**Win32**
 
 Find the 32bit version by finding the latest 3.X Win32 OpenSSL that is NOT the "light" version. (Example of a working Version: Win32 OpenSSL v3.1.6)
 
@@ -57,11 +59,11 @@ The Visual C++ [Redistributable Package](https://docs.microsoft.com/en-us/cpp/wi
 
 **Win64**
 
-64bit version [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+64bit version [https://aka.ms/vc14/vc_redist.x64.exe](https://aka.ms/vc14/vc_redist.x64.exe) - for Visual Studio 17, 18
 
-**Wind32**
+**Win32**
 
-32bit version [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+32bit version [https://aka.ms/vc14/vc_redist.x86.exe](https://aka.ms/vc14/vc_redist.x86.exe) - for Visual Studio 17, 18
 
 #### MySQL Setup
 
@@ -140,7 +142,8 @@ Sign in to GitHub and GitHub Desktop before you start to clone.
 
 ![VisualStudio_1.png](/Wiki/images/installation.windows/VisualStudio_1.png)
 
-Installing Visual Studio make sure to select 'Desktop Development with C++' and install all required components. 
+Installing Visual Studio make sure to select '**Desktop Development with C++**' and install all required components. 
+{: .success }
 
 #### CMake
 
@@ -152,7 +155,7 @@ Installing Visual Studio make sure to select 'Desktop Development with C++' and 
 
 **2.** Choose your compiler **Visual Studio** or other.
 
-Visual Studio **16, 17** is supported.
+Visual Studio **16, 17, 18** is supported.
 {: .success }
 
 ![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)

@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x2DA      |
 TBC        | 0x2DA      |
 WotLK      | 0x2DA      |
-Cata       | 0x54A2     |
-MoP        |            |
+Cata       | 0x1DA4     |
+MoP        | 0x0469     |

@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x0CF      |
 TBC        | 0x0CF      |
 WotLK      | 0x0CF      |
-Cata       | 0x71B1     |
-MoP        |            |
+Cata       | 0x3DA6     |
+MoP        | 0x08A3     |

@@ -11,7 +11,7 @@ position: 968
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x3C7      |
+Classic    | 0x3C6      |
 TBC        |            |
 WotLK      | 0x3C7      |
 Cata       |            |

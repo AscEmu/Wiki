@@ -17,6 +17,4 @@ Classic    | 0x253      |
 TBC        | 0x253      |
 WotLK      | 0x253      |
 Cata       | 0x6815     |
-MoP        |            |
-
-PlayerFlags PLAYER_FLAG_PVP_TOGGLE gets added/removed.
+MoP        | 0x0644     |PlayerFlags PLAYER_FLAG_PVP_TOGGLE gets added/removed.

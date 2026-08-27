@@ -15,4 +15,4 @@ Classic    | 0x108      |
 TBC        | 0x108      |
 WotLK      | 0x108      |
 Cata       | 0x0E34     |
-MoP        |            |
+MoP        | 0x0354     |

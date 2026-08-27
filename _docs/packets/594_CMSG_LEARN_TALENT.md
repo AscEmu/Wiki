@@ -12,7 +12,7 @@ position: 594
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x251      |
-TBC        |            |
+TBC        | 0x251      |
 WotLK      | 0x251      |
 Cata       | 0x6E24     |
-MoP        |            |
+MoP        | 0x02A7     |

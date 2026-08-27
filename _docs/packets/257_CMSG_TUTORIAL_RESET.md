@@ -17,4 +17,4 @@ Classic    | 0x100      |
 TBC        | 0x100      |
 WotLK      | 0x100      |
 Cata       | 0x2726     |
-MoP        |            |
+MoP        | 0x0307     |

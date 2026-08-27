@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       | 0x380E     |
-MoP        |            |
+MoP        | 0x1440     |

@@ -15,4 +15,4 @@ Classic    |            |
 TBC        | 0x347      |
 WotLK      | 0x347      |
 Cata       | 0x2F04     |
-MoP        |            |
+MoP        | 0x02CB     |

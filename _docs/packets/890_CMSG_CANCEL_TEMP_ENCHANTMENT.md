@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    | 0x379      |
 TBC        | 0x379      |
 WotLK      | 0x379      |
-Cata       |            |
-MoP        |            |
+Cata       | 0x6C37     |
+MoP        | 0x024B     |

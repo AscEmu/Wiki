@@ -15,4 +15,4 @@ Classic    | 0x12E      |
 TBC        | 0x12E      |
 WotLK      | 0x12E      |
 Cata       | 0x4C07     |
-MoP        |            |
+MoP        | 0x0206     |
