@@ -15,4 +15,4 @@ Classic    | 0x142      |
 TBC        | 0x142      |
 WotLK      | 0x142      |
 Cata       | 0x4106     |
-MoP        | 0x4106     |
+MoP        | 0x0345     |

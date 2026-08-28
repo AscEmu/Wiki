@@ -15,4 +15,4 @@ Classic    | 0x3AE      |
 TBC        | 0x3AE      |
 WotLK      | 0x3AE      |
 Cata       | 0x4F05     |
-MoP        | 0x158B     |
+MoP        |            |

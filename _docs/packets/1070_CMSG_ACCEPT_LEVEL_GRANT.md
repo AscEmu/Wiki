@@ -11,8 +11,8 @@ position: 1070
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x41F      |
+TBC        | 0x41F      |
+WotLK      | 0x420      |
+Cata       | 0x0205     |
+MoP        | 0x02FB     |

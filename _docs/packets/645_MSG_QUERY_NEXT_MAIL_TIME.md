@@ -15,4 +15,4 @@ Classic    | 0x284      |
 TBC        | 0x284      |
 WotLK      | 0x284      |
 Cata       | 0x0F04     |
-MoP        |            |
+MoP        | 0x077B     |

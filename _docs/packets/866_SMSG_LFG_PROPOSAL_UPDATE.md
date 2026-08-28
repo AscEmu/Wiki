@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      | 0x361      |
 Cata       | 0x7DA6     |
-MoP        |            |
+MoP        | 0x1E3B     |

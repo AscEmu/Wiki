@@ -10,7 +10,7 @@ position: 1003
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ----------
+---------- | ---------- | ---------- 
 Classic    |            |
 TBC        |            |
 WotLK      | 0x426      |

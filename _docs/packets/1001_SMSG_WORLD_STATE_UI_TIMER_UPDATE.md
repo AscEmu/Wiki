@@ -10,7 +10,7 @@ position: 1001
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ----------
+---------- | ---------- | ---------- 
 Classic    |            |
 TBC        |            |
 WotLK      | 0x4F7      |
