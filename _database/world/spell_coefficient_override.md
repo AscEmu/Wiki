@@ -115,16 +115,9 @@ the default scaling logic will be used.
 
 Optional flags that modify how the override is applied.
 
-Default value:
-
-```
-0
-```
-
-
-Meaning no special behavior.
-
-This field is reserved for internal spell system logic.
+    0 = Default behaviour (coefficient is applied to all ranks, low level spells receive a penalty to coefficient value)
+    1 = If spell has ranks, coefficient will only be applied to this spell
+    2 = Low level coefficient penalty disabled
 
 ### description
 
