@@ -25,7 +25,8 @@ layout: single_markdown
 
 ### Linux Guide
 
-Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu/Debian.
+Please note: this guide has been written with the objective of setting up a Linux server running a generic kernel/OS, like Ubuntu/Debian.<br />
+AscEmu officially targets and supports the latest stable Debian and Ubuntu LTS.
 {: .success }
 This guide file has been written with strict use of the console in mind so it suites both Linux desktop and server users. Linux was made to run command line, so there isn’t an easier, quicker way to do things than the way we are about to do them.
 {: .info }
@@ -37,17 +38,21 @@ For the following commands, log in as the Linux root administrator.
 
 ```console
 sudo apt-get update && sudo apt-get dist-upgrade
-sudo apt-get install g++ git-core git cmake build-essential zlib1g-dev libssl-dev libpcre3-dev libbz2-dev unzip screen
 ```
 
-Alternatively if you wish to use Clang instead of gcc compiler.
+You can choose from two compilers.
+
+#### 1. Installing GCC
 
 ```console
-sudo apt-get install clang
+sudo apt-get install git cmake build-essential ninja-build mold zlib1g-dev libssl-dev libpcre2-dev libbz2-dev unzip screen
 ```
 
-AscEmu supports Clang 16 and higher. Debian 13 provides Clang 16 by default, while older Debian releases may require installing a newer Clang package manually.
-{: .info }
+#### 2. Installing Clang
+
+```console
+sudo apt-get install git cmake build-essential clang ninja-build mold zlib1g-dev libssl-dev libpcre2-dev libbz2-dev unzip screen
+```
 
 ### MySQL Setup
 
@@ -230,43 +235,43 @@ mkdir ~/installer/build
 cd ~/installer/build
 ```
 
+If you chose to use GCC compiler:
 ```console
-cmake -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../ascemu_code
+cmake -G Ninja -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../ascemu_code
 ```
 
-If you chose to use Clang compiler you'll need to add two additional variables to cmake command.<br />
-Also, if you had to install i.e. clang-16 instead of default clang package, replace clang with clang-16 and clang++ with clang++-16 in the command.
-
+If you chose to use Clang compiler:
 ```console
-cmake -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../ascemu_code
+cmake -G Ninja -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREFIX=~/server -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_WARNINGS=0 -DBUILD_TOOLS=0 -DASCEMU_VERSION=WotLK ../ascemu_code
 ```
 
 Here is a quick view of the variables you can include with cmake command:
 
 <pre>
 -DCMAKE_INSTALL_PREFIX = the location where AscEmu binaries are installed
--DCMAKE_BUILD_TYPE = choose from Release or Debug mode
+-DCMAKE_BUILD_TYPE = choose from Release, RelWithDebInfo, MinSizeRel or Debug mode
 -DBUILD_WITH_WARNINGS = 0 (disabled) or 1 (enabled)
 -DBUILD_TOOLS = 0 (disabled) or 1 (enabled)
 -DASCEMU_VERSION = choose from Classic, TBC, WotLK, Cata or MoP
 -DAE_USE_PCH = 0 (disabled) or 1 (enabled) - Precompiled headers are enabled by default
 </pre>
 
-Then we now simply invoke make and make install to install to the prefix directory.
+Then we now simply invoke ninja and ninja install to install to the prefix directory.
 
 ```console
-make && make install
+ninja && ninja install
 ```
 
-If you have a multicore machine, then you can substitute that final command with this one, where x is equal to the number of cores + 1. For example, with 2 cores x would be 3.<br />
-If you want to use all your cores just use a large number like 32.
+Note: Ninja will automatically use all available CPU cores to compile AscEmu as fast as possible.<br />
+If you want to keep your computer responsive while compiling, use ninja -j X, where X is the number of cores to use.
+For example, if you have a 8-core CPU, using "-j 6" will leave 2 cores free for other tasks.
 {: .info }
 
 ```console
-make -j x && make install
+ninja -j X && ninja install
 ```
 
-This will not effect your server, this will only tell "make" to compile using all of your available CPU power.
+This only changes the compilation speed and will not alter output or performance of your server.
 {: .info }
 
 If this last step is successful then you are ready to configure your server and get on your way.
@@ -498,12 +503,11 @@ example: setaccpermission admin az
 
 Keeping your AscEmu up-to-date is pretty straightforward. You only need to pull new changes from AscEmu repository, compile and start the server.
 
-Again, replace X in make command with a high number if you have a multicore machine.
 ```console
 cd ~/installer/ascemu_code
 git pull
 cd ~/installer/build
-make -j X && make install
+ninja && ninja install
 cd ~/server
 ```
 
