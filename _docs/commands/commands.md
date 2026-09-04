@@ -18,6 +18,8 @@ level      | z      | Sets gm level on account. Pass it username and 0,1,2,3,az,
 mute       | a      | Mutes account for (timeperiod).                                 | .account mute (acc_id)
 unban      | z      | Unbans account.                                                 | .account unban (account_name)
 unmute     | a      | Unmutes account (x)                                             | .account unmute (acc_id)
+setgm      | z      | Sets GM level on account.                                       | .account setgm (account_name) (level)
+getid      | 1      | Gets Account ID for account name.                               | .account getid (account_name)
 
 ## .achieve
 
@@ -106,10 +108,17 @@ pause          | e      | Pauses current battleground match.                    
 playsound      | e      | Plays sound_id to all characters in the current bg.           | .battleground playsound (sound_id)
 start          | e      | Starts current battleground match.                            | .battleground start
 setscore       | e      | Sets battleground score. 2 Arguments.                         | .battleground setscore (Teamid) (Score)
+sendstatus     | e      | Sends status of battleground by type.                         | .battleground sendstatus (type)
 setstatus      | e      | NYI                                                           | .battleground setstatus (status)
 setworldstate  | e      | Var can be in hex. WS Value.                                  | .battleground setworldstate (var)
 setworldstates | e      | Var can be in hex. WS Value.                                  | .battleground setworldstate (var)
 
+
+## .blockappear / .blocksummon
+
+Access: v
+
+Usage: .blockappear / .blocksummon
 
 ## .char
 
@@ -216,6 +225,14 @@ aijump              | z      | AiJump test                                      
 aifalling           | z      | AiFalling test                                                                           | .debug aifalling
 movetospawn         | z      | Move target to spwn                                                                      | .debug movetospawn
 position            | z      | Show position                                                                            | .debug position
+offmesh             | d      | Captures a pathfinding off-mesh endpoint.                                                | .debug offmesh (cancel) (radius) - run again at the other end to create and inject it
+showpath            | d      | Calculates the path from your selected creature to you and spawns small.                 | .debug showpath
+hover               | d      | Toggles hover movement for the selected unit.                                            | .debug hover
+swim                | d      | Toggles swim movement for the selected unit.                                             | .debug swim
+fly                 | d      | Toggles fly movement for the selected unit.                                              | .debug fly
+disablegravity      | d      | Toggles disabled gravity for the selected unit.                                          | .debug disablegravity
+featherfall         | d      | Toggles feather-fall movement for the selected unit.                                     | .debug featherfall
+speed               | d      | Sets movement speed for the selected unit.                                               | .debug speed (value)
 setorientation      | z      | Sets orientation on npc                                                                  | .debug setorientation (orientation)
 infront             | d      |                                                                                          | .debug infront
 showreact           | d      |                                                                                          | .debug showreact (ai raction)
@@ -233,18 +250,18 @@ aggrorange          | d      | Shows aggro Range of the selected Creature.      
 knockback           | d      | Knocks selected target back (default target you).                                        | .debug knockback (value)
 fade                | d      | calls ModThreatModifyer().                                                               | .debug fade (value)
 threatMod           | d      | calls ModGeneratedThreatModifyer().                                                      | .debug threatMod (value)
-calcThreat          | d      | calculates threat.                                                                       | .debug calcThreat (dmg) (spellId)
 threatList          | d      | returns all AI_Targets of the selected Creature.                                         | .debug threatList
 gettptime           | d      | grabs transporter travel time                                                            | .debug gettptime
 dumpcoords          | d      | Dumps coords to db or file (needs to be checked)                                         | .debug dumpcoords
-sendpacket          | d      | Sending opcodes to you                                                                   | .debug (opcode ID), (data)
-sqlquery            | d      |                                                                                          | .debug sqlquery (sql query)
 rangecheck          | d      | Checks the yard range and internal range between the player and the target.              | .debug rangecheck
-setallratings       | d      | Sets rating values to incremental numbers based on their index.                          | .debug setallratings
 testlos             | d      | tests los                                                                                | .debug testlos
 testindoor          | d      | tests indoor                                                                             | .debug testindoor
 getheight           | d      | Gets height                                                                              | .debug getheight
 deathstate          | d      | returns current deathstate for target                                                    | .debug deathstate
+setunitbyte         | d      | Sets a unit byte value at the specified offset.                                          | .debug setunitbyte (offset) (byte) (value)
+setplayerflags      | d      | Adds player flags to the selected player.                                                | .debug setplayerflags (flags)
+getplayerflags      | d      | Displays current player flags of the selected player.                                    | .debug getplayerflags
+setweather          | d      | Changes zone weather.                                                                    | .debug setweather (type) (density)
 sendfailed          | d      |                                                                                          |
 playmovie           | d      | Triggers a movie for a player                                                            | .debug playmovie (movie_id)
 auraupdate          | d      | (SpellID) (Flags) (StackCount) (caster guid = player target)                             |
@@ -288,7 +305,7 @@ announce      | u      | Send an announce to all online GMs                     
 blockwhispers | c      | Blocks whispers from player revert .gm allowwhispers mode.   | .gm blockwhispers
 devtag        | 1      | Set/Remove (DEV) tag.                                        | .gm devtag
 list          | 0      | Shows active GM's                                            | .gm list
-logcomment    | t      | Adds a comment to the gm log                                 | .gm log (Your comment)
+logcomment    | t      | Adds a comment to the gm log                                 | .gm logcomment (Your comment)
 
 ## .gmticket
 
@@ -312,16 +329,16 @@ Subcommand | Access | Description                                               
 ---------- | ------ | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------
 select     | o      | Selects the nearest GameObject to you                                   | .gobject select
 selectguid | o      | Selects the GO with GUID                                                | .gobject selectguid (guid)
-delete     | o      | Deletes selected GameObject                                             | .go delete
+delete     | o      | Deletes selected GameObject                                             | .gobject delete
 spawn      | o      | Spawns a GameObject by entry ID                                         | .gobject spawn (entry_id)
 info       | o      | Gives you information about selected GO                                 | .gobject info
 damage     | o      | Damages the GO for the specified hitpoints                              | .gobject damage (hitpoints)
 rebuild    | o      | Rebuilds the selected GO.                                               | .gobject rebuild
-open       | o      | Opens/Closes the selected GO.                                           | .go open
+open       | o      | Opens/Closes the selected GO.                                           | .gobject open
 enable     | o      | Enables the selected GO for use.                                        | .gobject enable
 export     | o      | Exports the current GO selected                                         | .gobject export
 movehere   | g      | Moves selected GO to your position                                      | .gobject movehere
-rotate     | g      | Rotates the selected GO (x-, y-,o-axis). Default o.                     | .go rotate o (setting the rotation of GO = rotation of player)
+rotate     | g      | Rotates the selected GO (x-, y-,o-axis). Default o.                     | .gobject rotate o (setting the rotation of GO = rotation of player)
 
 ### .gobject set
 
@@ -372,14 +389,16 @@ Usage: .help (command)
 
 ## .instance
 
-Subcommand | Access | Description                                                       | Usage
----------- | ------ | ----------------------------------------------------------------- | -------------------------------------------------------------
-create     | z      | Generically instances a map that requires instancing, mapid x y z | .instance create (instancin) (map_id) (x-pos) (y-pos) (z-pos)
-reset      | z      | Removes instance ID x from target player                          | .instance reset (instance_id)
-resetall   | m      | Removes all instance IDs from target player.                      | .instance resetall
-shutdown   | z      | Shutdown instance with ID x (default is current instance).        | .instance shutdown (instance_id)
-info       | m      | Gets info about instance with ID x (default is current instance). | .instance info (instance_id)
-exit       | m      | Exits current instance, return to entry point.                    | .instance exit
+Subcommand          | Access | Description                                                       | Usage
+------------------- | ------ | ----------------------------------------------------------------- | -------------------------------------------------------------
+create              | z      | Generically instances a map that requires instancing, mapid x y z | .instance create (instancin) (map_id) (x-pos) (y-pos) (z-pos)
+reset               | z      | Removes instance ID x from target player                          | .instance reset (instance_id)
+resetall            | m      | Removes all instance IDs from target player.                      | .instance resetall
+shutdown            | z      | Shutdown instance with ID x (default is current instance).        | .instance shutdown (instance_id)
+info                | m      | Gets info about instance with ID x (default is current instance). | .instance info (instance_id)
+countcreature       | z      | Returns number of creatures with entry x.                         | .instance countcreature (entry)
+showtimers          | m      | Shows timers for current instance.                                | .instance showtimers
+exit                | m      | Exits current instance, return to entry point.                    | .instance exit
 
 ## invin/invis
 
@@ -447,10 +466,10 @@ hp              | m      | Modifies health points (HP) of selected target       
 mana            | m      | Modifies mana points (MP) of selected target.                  | .modify mana (value)
 rage            | m      | Modifies rage points of selected target.                       | .modify rage (value)
 energy          | m      | Modifies energy points of selected target.                     | .modify energy (value)
-runicpower      | m      | Modifies runic power points of selected target.                | .modify runicpower (value)
+runicpower      | m      | Mods runic power points of selected target. (WotLK and above)  | .modify runicpower (value)
 strength        | m      | Modifies the strength value of the selected target.            | .modify strength (value)
 agility         | m      | Modifies the agility value of the selected target.             | .modify agility (value)
-intelligence    | m      | Modifies the intelligence value of the selected target.        | .modify int (value)
+intelligence    | m      | Modifies the intelligence value of the selected target.        | .modify intelligence (value)
 spirit          | m      | Modifies the spirit value of the selected target.              | .modify spirit (value)
 armor           | m      | Modifies the armor of selected target.                         | .modify armor (value)
 holy            | m      | Modifies the holy resistance of selected target.               | .modify holy (value)
@@ -469,7 +488,7 @@ flags           | m      | Modifies the flags of the selected target.           
 faction         | m      | Modifies the faction template of the selected target.          | .modify faction (faction_id)
 dynamicflags    | m      | Modifies the dynamic flags of the selected target.             | .modify dynamicflags (value)
 happiness       | m      | Modifies the happiness value of the selected pet.              | .modify happiness (value)
-boundingraidius | m      | Modifies the bounding radius of the selected target.           | .modify boundinfradius (value)
+boundingradius  | m      | Modifies the bounding radius of the selected target.           | .modify boundingradius (value)
 combatreach     | m      | Modifies the combat reach of the selected target.              | .modify combatreach (value_in_feet)
 emotestate      | m      | Modifies the Unit emote state of the selected target.          | .modify npcemotestate (emote_id)
 bytes0          | m      | WARNING! Modifies the bytes0 entry of selected target.         | .modify bytes0 (values)
@@ -511,7 +530,8 @@ yell             | n      | Makes selected mob yell text (text).                
 come             | n      | Makes npc move to your position                                                        | .npc come
 return           | n      | Returns ncp to spawnpoint.                                                             | .npc return
 spawn            | n      | Spawns npc of entry (id)                                                               | .npc spawn
-respawn          | n      | Respawns a dead npc from its corpse.                                                   | .respawn
+showtimers       | m      | Shows timers for selected creature.                                                    | .npc showtimers
+respawn          | n      | Respawns a dead NPC from its corpse.                                                   | .npc respawn
 possess          | n      | Possess an npc (mind control)                                                          | .npc possess
 unpossess        | n      | Unpossess any currently possessed npc.                                                 | .npc unpossess
 select           | n      | selects npc closest                                                                    | .npc select
@@ -528,19 +548,23 @@ canfly          | n      | Toggles selected NPC CanFly state                    
 emote           | n      | Sets emote state of the targeted npc.                       | .npc set emote (emote_id) (sets emote temporarily) .npc set emote (emote)
 equip           | m      | Equipping selected npc.                                     | .npc set equip (slot) (itemid) (to equip item) .npc set equip (slot) 0 (to remove equiped item) Slots: 0 =melee, 1 = offhand, 2 = ranged
 formationmaster | m      | Sets formation master.                                      | .npc set formationmaster to you
+formationslave  | m      | Sets formation slave with distance and angle.               | .npc set formationslave (distance) (angle)
+formationclear  | m      | Removes formation from creature.                            | .npc set formationclear
 flags           | m      | Change flags for creature spawn. You may dclear your cache. | .npc set flags (flags) .npc set flags (flags)
-phase           | n      | Sets phase of selected creature.                            | .npc set (phase) .npc set phase (phase)
+phase           | n      | Sets phase of selected creature.                            | .npc set phase (phase)
+entry           | m      | Sets a new entry for selected creature.                     | .npc set entry (entry)
 standstate      | m      | Change standstate for creature spawn.                       | .npc set standstate (standstate) .npc set standstate (standstate)
 
 ## .pet
 
-Subcommand  | Access | Description                         | Usage
------------ | ------ | ----------------------------------- | ---------------------------
-create      | m      | Creates a pet with (entry).         | .pet create (entry_id)
-dismiss     | m      | Dismisses selected pet.             | .pet dismiss
-rename      | m      | Renames a selected.                 | .pet rename (name)
-removespell | m      | Removes pet spell for selected pet. | .pet removespell (spell_id)
-setlevel    | m      | Sets pet level of selected pet.     | .pet setlevel (level)
+Subcommand  | Access | Description                          | Usage
+----------- | ------ | ------------------------------------ | ---------------------------
+create      | m      | Creates a pet with (entry).          | .pet create (entry_id)
+dismiss     | m      | Dismisses selected pet.              | .pet dismiss
+rename      | m      | Renames a selected.                  | .pet rename (name)
+addspell    | m      | Teaches a spell to the selected pet. | .pet addspell (spell_id)
+removespell | m      | Removes pet spell for selected pet.  | .pet removespell (spell_id)
+setlevel    | m      | Sets pet level of selected pet.      | .pet setlevel (level)
 
 ## .playerinfo
 
