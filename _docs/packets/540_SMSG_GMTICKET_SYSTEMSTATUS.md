@@ -15,4 +15,4 @@ Classic    | 0x21B      |
 TBC        | 0x21B      |
 WotLK      | 0x21B      |
 Cata       | 0x0D35     |
-MoP        |            |
+MoP        | 0x163B     |

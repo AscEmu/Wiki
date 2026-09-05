@@ -15,4 +15,4 @@ Classic    | 0x090      |
 TBC        | 0x090      |
 WotLK      | 0x090      |
 Cata       | 0x3034     |
-MoP        |            |
+MoP        | 0x1A83     |

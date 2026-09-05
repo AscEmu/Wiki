@@ -15,4 +15,4 @@ Classic    |            |
 TBC        | 0x211      |
 WotLK      | 0x211      |
 Cata       | 0x0326     |
-MoP        |            |
+MoP        | 0x1F89     |

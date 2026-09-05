@@ -15,4 +15,4 @@ Classic    | 0x408      |
 TBC        | 0x408      |
 WotLK      | 0x409      |
 Cata       | 0x6B16     |
-MoP        |            |
+MoP        | 0x06E0     |

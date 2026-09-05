@@ -15,4 +15,4 @@ Classic    | 0x346      |
 TBC        | 0x346      |
 WotLK      | 0x346      |
 Cata       |            |
-MoP        |            |
+MoP        | 0x01F1     |

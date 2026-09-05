@@ -15,4 +15,4 @@ Classic    | 0x10F      |
 TBC        | 0x10F      |
 WotLK      | 0x10F      |
 Cata       | 0x4A17     |
-MoP        |            |
+MoP        | 0x036F     |
