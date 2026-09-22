@@ -9,16 +9,17 @@ layout: single_markdown
 
 ## Structure
 
-Field                                                                                                | Type     | Default | Comment
----------------------------------------------------------------------------------------------------- | -------- | ------- | -----------------
-[entryid](#entryid)                                                                                  | int(10)  | 0       |
-[itemid](#itemid)                                                                                    | int(11)  | 0       |
-[normal10percentchance](#normal10percentchance)                                                      | float(5) | 0.00    | Floating? Really?
-[normal25percentchance](#normal25percentchance)                                                      | float(5) | 0.00    |
-[heroic10percentchance](#heroic10percentchance)                                                      | float(5) | 0.00    |
-[heroic25percentchance](#heroic25percentchance)                                                      | float(5) | 0.00    |
-[mincount](#mincount)                                                                                | int(10)  | 0       |
-[maxcount](#maxcount)                                                                                | int(10)  | 0       |
+Field                                                                                                    | Type             | Default | Comment          
+-------------------------------------------------------------------------------------------------------- | ---------------- | ------- | -----------------
+[entryid](#entryid)                                                                                      | int(10)          | 0       |
+[itemid](#itemid)                                                                                        | int(11)          | 0       |
+[normal10percentchance](#normal10percentchance)                                                          | float(5)         | 0.00    | Floating? Really?
+[normal25percentchance](#normal25percentchance)                                                          | float(5)         | 0.00    |
+[heroic10percentchance](#heroic10percentchance)                                                          | float(5)         | 0.00    |
+[heroic25percentchance](#heroic25percentchance)                                                          | float(5)         | 0.00    |
+[mincount](#mincount)                                                                                    | int(10)          | 0       |
+[maxcount](#maxcount)                                                                                    | int(10)          | 0       |
+is_currency                                                                                              |                  |         |
 
 ### entryid
 
