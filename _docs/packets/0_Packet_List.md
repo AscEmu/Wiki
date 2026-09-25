@@ -183,7 +183,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_GUILD_EVENT](#smsg_guild_event) | serialized | serialized | serialized | serialized | not used
 [SMSG_GUILD_COMMAND_RESULT](#smsg_guild_command_result) | serialized | serialized | serialized | serialized | serialized
 [UMSG_UPDATE_GUILD](#umsg_update_guild) | serialized | serialized | serialized | not used | not used
-[CMSG_MESSAGECHAT](#cmsg_messagechat) | not used | serialized | serialized | not used | not used
+[CMSG_MESSAGECHAT](#cmsg_messagechat) | serialized | serialized | serialized | not used | not used
 [SMSG_MESSAGECHAT](#smsg_messagechat) | serialized | serialized | serialized | serialized | serialized
 [CMSG_JOIN_CHANNEL](#cmsg_join_channel) | not used | serialized | serialized | serialized | serialized
 [CMSG_LEAVE_CHANNEL](#cmsg_leave_channel) | serialized | serialized | serialized | serialized | serialized

@@ -13,7 +13,7 @@ Send message.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
+Classic    | 0x095      |
 TBC        | 0x095      |
 WotLK      | 0x095      |
 Cata       |            |
