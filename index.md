@@ -26,16 +26,31 @@ We moved our complete Wiki to github pages. Feel free to create issues, open pul
 
 [Link to Tables](#Tables)
 
-***Bold Text***
+**Bold Text**
 
 <del>stroke this</del>
+
+<details>
+<summary>Click here</summary>
+* Alliance
+* Horde
+* Neutral
+</details>
 
 ```
 [Link to Tables](#Tables)
 
-***Bold Text***
+**Bold Text**
 
 <del>stroke this</del>
+
+<details>
+<summary>Click here</summary>
+* Alliance
+* Horde
+* Neutral
+</details>
+
 ```
 
 ## Special text
@@ -99,25 +114,6 @@ SELECT * FROM account_names WHERE id = 254;
 ```
 - [x] checked task
 - [ ] unchecked task
-```
-
-## Details and Summary
-
-<details>
-<summary>Click here</summary>
-* Alliance
-* Horde
-* Neutral
-</details>
-
-Example
-```
-<details>
-<summary>Click here</summary>
-* Alliance
-* Horde
-* Neutral
-</details>
 ```
 
 ## Picture

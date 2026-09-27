@@ -96,9 +96,9 @@ The faction assigned to the gameobject.
 
 ### scale
 
-The custom scale of the gameobject. This value is saved when using `.go mod scale X`.
+The custom scale of the gameobject. This value is saved when using **.go mod scale X**.
 
-By default, this field uses the `Scale` value from the corresponding row in the [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table.
+By default, this field uses the **Scale** value from the corresponding row in the [gameobject_properties](/Wiki/database/world/gameobject_properties/ "Gameobject properties") table.
 
 ### respwnNpcLink
 
@@ -122,4 +122,4 @@ The phase in which the gameobject is visible.
 
 ### event_entry
 
-The entry from the `event_properties` table.
+The entry from the **event_properties** table.

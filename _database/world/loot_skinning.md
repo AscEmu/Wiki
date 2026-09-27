@@ -56,10 +56,10 @@ The maximum amount of the Item that will drop.
 
 ### is_currency
 
-Determines whether ***itemid*** contains an item ID or a currency ID.
+Determines whether **itemid** contains an item ID or a currency ID.
 
-When set to ***0***, ***itemid*** refers to an entry from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
+When set to **0**, **itemid** refers to an entry from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
 
-When set to a non-zero value, ***itemid*** refers to a currency ID from ***CurrencyTypes.dbc***.
+When set to a non-zero value, **itemid** refers to a currency ID from **CurrencyTypes.dbc**.
 
 This field is available for Cata and later versions and is always the last column in the loot table.

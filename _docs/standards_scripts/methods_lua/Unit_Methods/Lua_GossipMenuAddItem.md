@@ -9,9 +9,9 @@ position: 68
 
 ## Description
 
-After creating a new gossip menu with `GossipCreateMenu()`, you can add items, or options, to the menu for players to use. These options appear in the gossip window, which opens when interacting with an NPC.
+After creating a new gossip menu with **GossipCreateMenu()**, you can add items, or options, to the menu for players to use. These options appear in the gossip window, which opens when interacting with an NPC.
 
-To display the menu to the player, use `GossipSendMenu()` at the end of the menu.
+To display the menu to the player, use **GossipSendMenu()** at the end of the menu.
 
 ## Syntax
 
@@ -19,19 +19,19 @@ To display the menu to the player, use `GossipSendMenu()` at the end of the menu
 pUnit:GossipMenuAddItem(int Icon, char Name, int Intid, int (bool) Code[, char Popup, uint32 Gold])
 ```
 
-`pUnit`: Usually an NPC, GameObject, or Item. A Player is also accepted. It should be the same object used with `GossipCreateMenu()`.
+**pUnit**: Usually an NPC, GameObject, or Item. A Player is also accepted. It should be the same object used with **GossipCreateMenu()**.
 
-`Icon`: The icon displayed before the option name in the gossip window.
+**Icon**: The icon displayed before the option name in the gossip window.
 
-`Name`: The option name or label displayed in the gossip window.
+**Name**: The option name or label displayed in the gossip window.
 
-`Intid`: A key value used by the gossip select hook to identify the selected option and link it to a script.
+**Intid**: A key value used by the gossip select hook to identify the selected option and link it to a script.
 
-`Code`: Determines whether the player must enter a value in a code box before proceeding. If `0`, no code box is shown. If `1`, a code box is shown. The entered value is passed to the gossip select hook.
+**Code**: Determines whether the player must enter a value in a code box before proceeding. If **0**, no code box is shown. If **1**, a code box is shown. The entered value is passed to the gossip select hook.
 
-`Popup`: Determines whether a popup is shown to the player and what text it contains. Use an empty string (`""`) to display no popup. Optional.
+**Popup**: Determines whether a popup is shown to the player and what text it contains. Use an empty string (**""**) to display no popup. Optional.
 
-`Gold`: The amount of copper required to access the menu option. The player is notified if they do not have enough copper. The required amount is displayed when the option is selected. The copper is **not** removed automatically and must be removed in the gossip select hook. Optional.
+**Gold**: The amount of copper required to access the menu option. The player is notified if they do not have enough copper. The required amount is displayed when the option is selected. The copper is **not** removed automatically and must be removed in the gossip select hook. Optional.
 
 ## Usage/Example
 
@@ -50,7 +50,7 @@ RegisterUnitGossipEvent(123, 1, NPC_GossipHello)
 
 ## Attaching scripts
 
-After creating the menu and adding its options, you can use `if` statements to assign actions to each option using the `Intid` assigned to it.
+After creating the menu and adding its options, you can use **if** statements to assign actions to each option using the **Intid** assigned to it.
 
 **Note:** If a Player is the sender of the initial menu, the buttons do not work and you cannot run scripts from gossip selection. Gossip selection cannot be registered for a Player.
 

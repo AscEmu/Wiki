@@ -21,4 +21,4 @@ The entry ID of the worldstring. Defined in core.
 
 ### text
 
-The text (Gossip menu items...)
+The text (Gossip menu items)

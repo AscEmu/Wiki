@@ -111,10 +111,10 @@ Display/model IDs used by the creature.
 
 The available display IDs are:
 
-* `male_displayid` - primary male display ID.
-* `female_displayid` - primary female display ID.
-* `male_displayid2` - secondary male display ID.
-* `female_displayid2` - secondary female display ID.
+- **male_displayid**    - primary male display ID.
+- **female_displayid**  - primary female display ID.
+- **male_displayid2**   - secondary male display ID.
+- **female_displayid2** - secondary female display ID.
 
 If multiple display IDs are configured, one of the available IDs can be selected when the creature is spawned.
 
@@ -309,7 +309,7 @@ The maximum level of the creature when it is spawned in-game. Must be higher tha
 
 ### faction
 
-Faction ID of the creature, based on `FactionTemplate.dbc`.
+Faction ID of the creature, based on **FactionTemplate.dbc**.
 
 Common faction IDs:
 
@@ -343,11 +343,11 @@ A value of `1` represents the normal scale.
 
 Flags defining the NPC's available interactions.
 
-Most interaction flags require the `UNIT_NPC_FLAG_GOSSIP` flag to be present.
+Most interaction flags require the **UNIT_NPC_FLAG_GOSSIP** flag to be present.
 
 For example, a creature that is a quest giver, vendor, and repair NPC can use:
 
-`1 + 2 + 128 + 4096 = 4227`
+**1 + 2 + 128 + 4096 = 4227**
 
 Pure flags:
 

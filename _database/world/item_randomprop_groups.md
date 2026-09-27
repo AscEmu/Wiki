@@ -20,13 +20,13 @@ Field                                                                           
 
 This is the numerical identifier of the random property group.
 
-This identifier is referenced in the `randomprop` field in the [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
+This identifier is referenced in the **randomprop** field in the [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### randomprops_entryid
 
 This is the numerical identifier of the individual random enchants that items in the group can gain on drop.
 
-This identifier is the index of ItemRandomProperties.dbc.
+This identifier is the index of **ItemRandomProperties.dbc**.
 
 ### chance
 

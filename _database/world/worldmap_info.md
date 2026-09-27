@@ -90,15 +90,39 @@ map ID where entrance to this map is (graveyards use this)
 ### flags
 
 <pre>
-1   = Enable (If its 1 you can enter the instance else[This instance is unvalidable])
-2   = Welcome (if its 2 you get an message on enter[Welcome to Utgarde Keep, Instancelocks are scheduled to reset at (TIME))
-4   = Multimode(This is if you want the instance to support Heroic mode)[if its not support and you enter while heroic is on the player you cant enter and get a message with This instance is not for heroic or something]) This is only needed for dungeons, not for raids!
-8   = Outland (You require TBC expansion to enter this zone)
-16  = Northend (You require WOtlk expansion to enter this zone)
-32  = Map has normal 10man raid difficulty
-64  = Map has normal 25man raid difficulty
-128 = Map has heroic 10man raid difficulty
-256 = Map has heroic 25man raid difficulty
+1   = Enable
+        Enables the instance. If not set, players cannot enter the instance.
+
+2   = Welcome
+        Displays a welcome message when entering the instance
+        (e.g. "Welcome to Utgarde Keep. Instance locks are scheduled to reset at (TIME).").
+
+4   = Multimode
+        Allows the instance to support Heroic mode.
+        If this flag is not set and a player attempts to enter while Heroic mode
+        is enabled, the player is denied entry and receives a message indicating
+        that the instance does not support Heroic mode.
+        This flag is only required for dungeons, not raids.
+
+8   = Outland
+        Requires the player to have access to the Burning Crusade expansion
+        to enter this zone.
+
+16  = Northrend
+        Requires the player to have access to the Wrath of the Lich King expansion
+        to enter this zone.
+
+32  = Normal 10-man
+        The map supports Normal 10-player raid difficulty.
+
+64  = Normal 25-man
+        The map supports Normal 25-player raid difficulty.
+
+128 = Heroic 10-man
+        The map supports Heroic 10-player raid difficulty.
+
+256 = Heroic 25-man
+        The map supports Heroic 25-player raid difficulty.
 </pre>
 
 You can combine these flags via addition (1+8 = 9)

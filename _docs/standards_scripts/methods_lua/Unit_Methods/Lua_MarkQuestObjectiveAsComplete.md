@@ -15,8 +15,8 @@ When the completion condition for a bugged quest is known, this method can be us
 pPlayer:MarkQuestObjectiveAsComplete(questid, objective)
 ```
 
-`questid`: The ID of the quest.
-`objective`: The numeric index of the objective, starting from zero.
+- **questid**: The ID of the quest.
+- **objective**: The numeric index of the objective, starting from zero.
 
 Check the quest first to determine which objectives are required. If the quest has only one objective, it is enough to call the method as follows:
 

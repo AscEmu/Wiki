@@ -15,7 +15,7 @@ A simple "Hello World!" example in Lua:
 print("Hello World")
 ```
 
-This prints `Hello World` to the console.
+This prints **Hello World** to the console.
 
 ## Factorial
 
@@ -40,7 +40,7 @@ method_1 = nil
 local method_2 = 1234
 ```
 
-`method_1` is a global variable, while `method_2` is local to the current scope.
+**method_1** is a global variable, while **method_2** is local to the current scope.
 
 Lua variables are case-sensitive. Identifiers can contain letters, digits, and underscores, but cannot begin with a digit.
 
@@ -52,7 +52,7 @@ Single-line comments start with two hyphens:
 local AE = 1 -- "comment here"
 ```
 
-Multi-line comments use `--[[` and `]]`:
+Multi-line comments use **--[[** and **]]**:
 
 ```lua
 --[[
@@ -63,11 +63,11 @@ Multi-line comments use `--[[` and `]]`:
 
 # Operators
 
-Lua provides the logical operators `and`, `or`, and `not`.
+Lua provides the logical operators **and**, **or**, and **not**.
 
-In logical expressions, `nil` and `false` are treated as false. All other values, including `0` and empty strings, are treated as true.
+In logical expressions, **nil** and **false** are treated as false. All other values, including **0** and empty strings, are treated as true.
 
-## `true` and `false`
+## true and false
 
 ```lua
 false == nil       -- false: they are both false in a logical expression, but they are different values
@@ -77,9 +77,9 @@ true ~= false      -- true
 example_variable   -- nil because it has not been defined
 ```
 
-## `not`
+## not
 
-The `not` operator negates a logical value:
+The **not** operator negates a logical value:
 
 ```lua
 not true           -- false
@@ -89,14 +89,14 @@ not not true       -- true
 not "abc"          -- false
 ```
 
-## `and`
+## and
 
-The `and` operator does not necessarily return a boolean value.
+The **and** operator does not necessarily return a boolean value.
 
-For `x and y`:
+For **x and y**:
 
-* If `x` is `nil` or `false`, `x` is returned.
-* Otherwise, `y` is returned.
+* If **x** is **nil** or **false**, **x** is returned.
+* Otherwise, **y** is returned.
 
 ```lua
 false and true     -- false
@@ -106,7 +106,7 @@ nil and "hello"    -- nil
 false and "hello"  -- false
 ```
 
-When the first value is neither `nil` nor `false`, the second value is returned:
+When the first value is neither **nil** nor **false**, the second value is returned:
 
 ```lua
 true and false     -- false
@@ -116,14 +116,14 @@ true and true      -- true
 true and nil       -- nil
 ```
 
-## `or`
+## or
 
-The `or` operator also does not necessarily return a boolean value.
+The **or** operator also does not necessarily return a boolean value.
 
-For `x or y`:
+For **x or y**:
 
-* If `x` is neither `nil` nor `false`, `x` is returned.
-* Otherwise, `y` is returned.
+* If **x** is neither **nil** nor **false**, **x** is returned.
+* Otherwise, **y** is returned.
 
 ```lua
 true or false       -- true
@@ -132,7 +132,7 @@ true or nil         -- true
 1 or 0              -- 1
 ```
 
-If the first value is `nil` or `false`, the second value is returned:
+If the first value is **nil** or **false**, the second value is returned:
 
 ```lua
 false or true       -- true
@@ -156,7 +156,7 @@ abc("hello")        -- Returns hello, hello
 
 # Arithmetic
 
-Lua supports the usual arithmetic operators. The `-` operator can also be used for unary negation, and `^` is used for exponentiation.
+Lua supports the usual arithmetic operators. The **-** operator can also be used for unary negation, and **^** is used for exponentiation.
 
 ```lua
 -- Negation
@@ -179,7 +179,7 @@ The following C expression:
 value = test ? x : y;
 ```
 
-can often be approximated in Lua using `and` and `or`:
+can often be approximated in Lua using **and** and **or**:
 
 ```lua
 value = test and x or y
@@ -194,7 +194,7 @@ print(3 < 1 and "True" or "False")  -- False
 print(3 > 1 and true or "false")    -- true
 ```
 
-There is an important limitation: this pattern does not work correctly when `x` is `nil` or `false`.
+There is an important limitation: this pattern does not work correctly when **x** is **nil** or **false**.
 
 ```
 print( 3>1 and 1 or "False" )       -- works and returns 1
@@ -202,7 +202,7 @@ print( 3>1 and false or "oops" )    -- failed, should return false, still return
 print( 3>1 and nil or "oops" )      -- failed, should return nil, still returns oops
 ```
 
-When the true branch must be able to return `false` or `nil`, use an explicit `if` statement instead.
+When the true branch must be able to return **false** or **nil**, use an explicit **if** statement instead.
 
 ## Adding Color
 
@@ -226,7 +226,7 @@ WHITE   = FFFFFF
 
 To color text in-game, use `|c` followed by an 8-digit color value and `|r` to reset the color.
 
-The first two hexadecimal digits represent the alpha channel. For fully opaque text, use `FF`.
+The first two hexadecimal digits represent the alpha channel. For fully opaque text, use **FF**.
 
 ## Example
 
@@ -246,7 +246,7 @@ Two color codes are used in this example: orange and brown. Each color begins wi
 
 ## Coloring Your Console
 
-Console output can be colored using the global `logcol` function. It uses the following color values:
+Console output can be colored using the global **logcol** function. It uses the following color values:
 
 ```text
 BLUE      = 1
@@ -255,7 +255,7 @@ RED       = 4
 BRIGHTEN  = 8
 ```
 
-These values can be combined. For example, red (`4`) + blue (`1`) produces purple (`5`).
+These values can be combined. For example, red (**4**) + blue (**1**) produces purple (**5**).
 
 ### Example
 

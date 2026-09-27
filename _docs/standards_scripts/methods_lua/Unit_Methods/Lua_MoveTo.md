@@ -29,4 +29,4 @@ end
 
 The examle checks if its health is lower then one, and if so, it then moves to another location, specified in the MoveTo parameters.
 
-Those GPS Locations are ***Example***. That Script will not work in every location.
+Those GPS Locations are **Example**. That Script will not work in every location.

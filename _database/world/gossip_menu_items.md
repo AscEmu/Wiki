@@ -44,25 +44,25 @@ Icon displayed beside the option.
 
 ### on_choose_action
 
-***Action 0***
+**Action 0**
 - None
 
-***Action 1***
+**Action 1**
 - Sends point of Interest (on_choose_data = poiId)
 
-***Action 2***
+**Action 2**
 - Casts Spell on Player (on_choose_data = spellId)
 
-***Action 3***
+**Action 3**
 - Starts taxi (on_choose_data = taxiId, on_choose_data2 = modelId)
 
-***Action 4***
+**Action 4**
 - required standing (wip) (on_choose_data = factionId, on_choose_data2 = standing, on_choose_data3 = broadcastTextId, on_choose_data4 = spellId)
 
-***Action 5***
+**Action 5**
 - No data, close gossip on clicking on option.
 
-***Action 6***
+**Action 6**
 - Toggle gain XP, (on_choose_data = box money, on_choose_data2 = box textId)
 
 ### next_gossip_menu
@@ -74,17 +74,17 @@ Next gossip menu id in this table.
 The unique text id in [npc_text](/Wiki/database/world/npc_text/ "Npc text") table.
 
 ### requirement_type
-***Type 0***
+**Type 0**
 - None
 
-***Type 1***
+**Type 1**
 - Check for active quest (requirement_data = questId)
 
-***Type 2***
+**Type 2**
 - Check for completed quest (wip) (requirement_data = questId)
 
-***Type 3***
+**Type 3**
 - Check if player can gain xp
 
-***Type 4***
+**Type 4**
 - Check if player can not gain xp

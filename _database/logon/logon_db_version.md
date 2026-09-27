@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # logon_db_version
-This table contains the `logon` database version information.
+This table contains the **logon** database version information.
 
 ## Structure
 

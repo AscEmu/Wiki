@@ -9,4 +9,4 @@ position: 101
 
 ## Description
 
-Returns ***true*** if the unit is attacking with melee or direct spells. Returns ***false*** when the unit is not attacking or is attacking by AOE spells with apperently are not considered to count as attack.
+Returns **true** if the unit is attacking with melee or direct spells. Returns **false** when the unit is not attacking or is attacking by AOE spells with apperently are not considered to count as attack.

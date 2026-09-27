@@ -7,7 +7,7 @@ position: 2
 
 ## Register Quest Events
 
-Quest callbacks are made by using the function ***RegisterQuestEvent(QuestId, EventId, function)***
+Quest callbacks are made by using the function **RegisterQuestEvent(QuestId, EventId, function)**
 
 ```
 QUEST_EVENT_ON_ACCEPT                       = 1    -- (pPlayer, QuestId)
@@ -21,7 +21,7 @@ QUEST_EVENT_ON_PLAYER_ITEMPICKUP            = 7    -- (ItemId, Count, pPlayer, Q
 
 ## Register Unit Events
 
-Unit callbacks are made by using the function ***RegisterUnitEvent(UnitId, EventId, function)***
+Unit callbacks are made by using the function **RegisterUnitEvent(UnitId, EventId, function)**
 
 ```
 CREATURE_EVENT_ON_ENTER_COMBAT              = 1    -- (pUnit, event, pAttacker)
@@ -56,7 +56,7 @@ CREATURE_EVENT_ON_LAST_PASSENGER_LEFT       = 28   -- (pUnit, Passenger)
 
 ## Register GameObject Events
 
-GameObject callbacks are made by using the function ***RegisterGameObjectEvent(GameObjectId, EventId, function)***
+GameObject callbacks are made by using the function **RegisterGameObjectEvent(GameObjectId, EventId, function)**
 
 ```
 GAMEOBJECT_EVENT_ON_CREATE                  = 1    -- (pGameObject)
@@ -73,8 +73,8 @@ GAMEOBJECT_EVENT_ON_DESTROYED               = 8    -- (pGameObject)
 
 Gossip Event callbacks can be made using any of the following functions. Note that the pUnit in the arguments of these functions variate depending on the register you use.       
 [RegisterUnitGossipEvent(UnitId, EventId, function)](/Wiki/docs/standards_scripts/methods_lua/List_of_all_Events/Lua_RegisterUnitGossipEvent) (Applies to Creatures only)            
-***RegisterGOGossipEvent(GameObjectId, EventId, function)***        
-***RegisterItemGossipEvent(ItemId, EventId, function)***     
+**RegisterGOGossipEvent(GameObjectId, EventId, function)**      
+**RegisterItemGossipEvent(ItemId, EventId, function)**
 
 ```
 GOSSIP_EVENT_ON_TALK                        = 1    -- (pUnit, event, pPlayer)
@@ -93,7 +93,7 @@ Dummy Spell callbacks can be made by using the function [RegisterDummySpell(Spel
 
 ## Register Instance Events
 
-Instance Hook callbacks can be made by using the function ***RegisterInstanceEvent(MapId, EventId, function)***
+Instance Hook callbacks can be made by using the function **RegisterInstanceEvent(MapId, EventId, function)**
 
 ```
 INSTANCE_EVENT_ON_PLAYER_DEATH              = 1    -- (InstanceID, pPlayer, pKiller)
@@ -110,7 +110,7 @@ INSTANCE_EVENT_DESTROY                      = 10   -- (InstanceID) {When the ins
 
 ## Register Server Hooks
 
-Server Hook callbacks can be made by using the function ***RegisterServerHook(EventId, function)***
+Server Hook callbacks can be made by using the function **RegisterServerHook(EventId, function)**
 
 ```
 SERVER_HOOK_EVENT_ON_NEW_CHARACTER          = 1    -- (event, pName, int Race, int Class)
