@@ -10,9 +10,11 @@ position: 921
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x398      |
 TBC        | 0x398      |
 WotLK      | 0x398      |
 Cata       | 0x0815     |
 MoP        | 0x008E     |
+WoD        |            |
+Legion     |            |

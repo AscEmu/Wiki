@@ -10,9 +10,11 @@ position: 360
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x167      |
 TBC        | 0x167      |
 WotLK      | 0x167      |
 Cata       | 0x4504     |
 MoP        | 0x0022     |
+WoD        |            |
+Legion     |            |

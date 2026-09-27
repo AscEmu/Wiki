@@ -10,9 +10,11 @@ position: 160
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x09F      |
 TBC        | 0x09F      |
 WotLK      | 0x09F      |
 Cata       | 0x0146     |
 MoP        | 0x00AE     |
+WoD        |            |
+Legion     |            |

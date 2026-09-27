@@ -10,9 +10,11 @@ position: 390
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x185      |
 TBC        | 0x185      |
 WotLK      | 0x185      |
 Cata       | 0x0134     |
 MoP        | 0x02D4     |
+WoD        |            |
+Legion     |            |

@@ -12,9 +12,11 @@ Send message.
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x095      |
 TBC        | 0x095      |
 WotLK      | 0x095      |
 Cata       |            |
 MoP        |            |Replaced by CMSG_MESSAGECHAT_*
+WoD        |            |
+Legion     |            |

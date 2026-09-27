@@ -10,9 +10,11 @@ position: 623
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x26E      |
 TBC        | 0x26E      |
 WotLK      | 0x26E      |
 Cata       | 0x26E      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

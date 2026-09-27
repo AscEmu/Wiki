@@ -10,9 +10,11 @@ position: 221
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x0DC      |
 TBC        | 0x0DC      |
 WotLK      | 0x0DC      |
 Cata       | 0x2411     |
 MoP        | 0x1FAD     |
+WoD        |            |
+Legion     |            |

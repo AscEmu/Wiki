@@ -10,9 +10,11 @@ position: 1404
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
 WotLK      | 0x504      |
 Cata       | 0x504      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

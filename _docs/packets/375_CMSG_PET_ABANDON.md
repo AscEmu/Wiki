@@ -10,9 +10,11 @@ position: 375
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x176      |
 TBC        | 0x176      |
 WotLK      | 0x176      |
 Cata       | 0x0C24     |
 MoP        | 0x07D0     |
+WoD        |            |
+Legion     |            |

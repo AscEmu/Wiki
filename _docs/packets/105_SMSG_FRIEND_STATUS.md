@@ -10,9 +10,11 @@ position: 105
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x068      |
 TBC        | 0x068      |
 WotLK      | 0x068      |
 Cata       | 0x0717     |
 MoP        | 0x0532     |
+WoD        |            |
+Legion     |            |

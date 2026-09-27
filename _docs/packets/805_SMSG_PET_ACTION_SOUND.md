@@ -10,9 +10,11 @@ position: 805
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x324      |
 TBC        | 0x324      |
 WotLK      | 0x324      |
 Cata       | 0x4324     |
 MoP        | 0x15E2     |
+WoD        |            |
+Legion     |            |

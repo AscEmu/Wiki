@@ -10,9 +10,11 @@ position: 914
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x147      |
 TBC        | 0x147      |
 WotLK      | 0x147      |
 Cata       | 0x2B26     |
 MoP        | 0x00A7     |
+WoD        |            |
+Legion     |            |

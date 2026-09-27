@@ -10,9 +10,11 @@ position: 808
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x327      |
 TBC        | 0x327      |
 WotLK      | 0x327      |
 Cata       | 0x327      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

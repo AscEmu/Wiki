@@ -10,9 +10,11 @@ position: 333
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x14C      |
 TBC        | 0x14C      |
 WotLK      | 0x14C      |
 Cata       | 0x14C      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 795
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x31A      |
 TBC        | 0x31A      |
 WotLK      | 0x31A      |
 Cata       | 0x51B4     |
 MoP        | 0x0728     |
+WoD        |            |
+Legion     |            |

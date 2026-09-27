@@ -10,9 +10,11 @@ position: 633
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x278      |
 TBC        | 0x278      |
 WotLK      | 0x278      |
 Cata       | 0x2635     |
 MoP        | 0x1443     |
+WoD        |            |
+Legion     |            |

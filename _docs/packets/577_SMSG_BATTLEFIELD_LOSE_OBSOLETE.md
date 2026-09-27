@@ -10,9 +10,11 @@ position: 577
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x240      |
 TBC        | 0x240      |
 WotLK      | 0x240      |
 Cata       | 0x240      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

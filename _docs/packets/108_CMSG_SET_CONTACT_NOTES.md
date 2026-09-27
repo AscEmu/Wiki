@@ -12,9 +12,11 @@ Send by adding note to friend in contact list.
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    |            |
 TBC        | 0x06B      |
 WotLK      | 0x06B      |
 Cata       | 0x6135     |
 MoP        | 0x0937     |
+WoD        |            |
+Legion     |            |

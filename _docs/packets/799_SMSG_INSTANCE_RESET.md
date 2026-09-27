@@ -10,9 +10,11 @@ position: 799
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x31E      |
 TBC        | 0x31E      |
 WotLK      | 0x31E      |
 Cata       | 0x6F05     |
 MoP        | 0x160F     |
+WoD        |            |
+Legion     |            |

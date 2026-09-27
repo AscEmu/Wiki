@@ -10,9 +10,11 @@ position: 378
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x179      |
 TBC        | 0x179      |
 WotLK      | 0x179      |
 Cata       | 0x4114     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

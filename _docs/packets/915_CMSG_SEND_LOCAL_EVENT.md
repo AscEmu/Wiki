@@ -10,9 +10,11 @@ position: 915
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x392      |
 TBC        | 0x392      |
 WotLK      | 0x392      |
 Cata       | 0x392      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

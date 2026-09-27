@@ -10,9 +10,11 @@ position: 627
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x272      |
 TBC        | 0x272      |
 WotLK      | 0x272      |
 Cata       | 0x272      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

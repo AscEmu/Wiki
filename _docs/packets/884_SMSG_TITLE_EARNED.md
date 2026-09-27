@@ -10,9 +10,11 @@ position: 884
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x373      |
 TBC        | 0x373      |
 WotLK      | 0x373      |
 Cata       | 0x2426     |
 MoP        | 0x068E     |
+WoD        |            |
+Legion     |            |

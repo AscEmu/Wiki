@@ -10,9 +10,11 @@ position: 644
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x283      |
 TBC        | 0x283      |
 WotLK      | 0x283      |
 Cata       | 0x2537     |
 MoP        | 0x066D     |
+WoD        |            |
+Legion     |            |

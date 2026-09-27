@@ -10,9 +10,11 @@ position: 571
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x23A      |
 TBC        | 0x23A      |
 WotLK      | 0x23A      |
 Cata       | 0x4D37     |
 MoP        | 0x077A     |
+WoD        |            |
+Legion     |            |

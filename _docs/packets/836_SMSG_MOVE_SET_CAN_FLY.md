@@ -10,9 +10,11 @@ position: 836
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x343      |
 TBC        | 0x343      |
 WotLK      | 0x343      |
 Cata       | 0x3DA1     |
 MoP        | 0x178D     |
+WoD        |            |
+Legion     |            |

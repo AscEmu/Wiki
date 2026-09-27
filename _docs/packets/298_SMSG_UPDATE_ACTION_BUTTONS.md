@@ -10,9 +10,11 @@ position: 298
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x129      |
 TBC        | 0x129      |
 WotLK      | 0x129      |
 Cata       | 0x38B5     |
 MoP        | 0x081A     |
+WoD        |            |
+Legion     |            |

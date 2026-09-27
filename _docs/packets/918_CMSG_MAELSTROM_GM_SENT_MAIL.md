@@ -10,9 +10,11 @@ position: 918
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x395      |
 TBC        | 0x395      |
 WotLK      | 0x395      |
 Cata       | 0x395      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

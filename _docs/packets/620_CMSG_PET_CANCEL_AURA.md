@@ -10,9 +10,11 @@ position: 620
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x26B      |
 TBC        | 0x26B      |
 WotLK      | 0x26B      |
 Cata       | 0x4B25     |
 MoP        | 0x12DA     |
+WoD        |            |
+Legion     |            |

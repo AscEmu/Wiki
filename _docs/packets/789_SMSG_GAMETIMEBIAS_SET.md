@@ -10,9 +10,11 @@ position: 789
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x314      |
 TBC        | 0x314      |
 WotLK      | 0x314      |
 Cata       | 0x314      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

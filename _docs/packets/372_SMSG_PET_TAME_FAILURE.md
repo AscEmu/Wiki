@@ -10,9 +10,11 @@ position: 372
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x173      |
 TBC        | 0x173      |
 WotLK      | 0x173      |
 Cata       | 0x6B24     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

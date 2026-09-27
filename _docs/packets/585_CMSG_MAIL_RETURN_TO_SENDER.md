@@ -10,9 +10,11 @@ position: 585
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x248      |
 TBC        | 0x248      |
 WotLK      | 0x248      |
 Cata       | 0x0816     |
 MoP        | 0x1FA8     |
+WoD        |            |
+Legion     |            |

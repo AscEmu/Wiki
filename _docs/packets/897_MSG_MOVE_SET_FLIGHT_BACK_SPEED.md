@@ -10,9 +10,11 @@ position: 897
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x380      |
 TBC        | 0x380      |
 WotLK      | 0x380      |
 Cata       | 0x74A0     |
 MoP        | 0x036A     |
+WoD        |            |
+Legion     |            |

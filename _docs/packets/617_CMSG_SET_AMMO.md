@@ -10,9 +10,11 @@ position: 617
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x268      |
 TBC        | 0x268      |
 WotLK      | 0x268      |
 Cata       | 0x268      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

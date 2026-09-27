@@ -10,9 +10,11 @@ position: 885
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x374      |
 TBC        | 0x374      |
 WotLK      | 0x374      |
 Cata       | 0x2117     |
 MoP        | 0x03C7     |
+WoD        |            |
+Legion     |            |

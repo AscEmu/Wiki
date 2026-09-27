@@ -10,9 +10,11 @@ position: 170
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x0A9      |
 TBC        | 0x0A9      |
 WotLK      | 0x0A9      |
 Cata       | 0x4715     |
 MoP        | 0x1792     |
+WoD        |            |
+Legion     |            |

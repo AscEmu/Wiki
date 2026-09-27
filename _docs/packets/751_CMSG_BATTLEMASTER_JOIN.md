@@ -10,9 +10,11 @@ position: 751
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x2EE      |
 TBC        | 0x2EE      |
 WotLK      | 0x2EE      |
 Cata       | 0x7902     |
 MoP        | 0x0769     |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 665
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x298      |
 TBC        | 0x298      |
 WotLK      | 0x298      |
 Cata       | 0x2D35     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

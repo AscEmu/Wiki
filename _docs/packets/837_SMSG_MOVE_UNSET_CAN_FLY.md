@@ -10,9 +10,11 @@ position: 837
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x344      |
 TBC        | 0x344      |
 WotLK      | 0x344      |
 Cata       | 0x15A2     |
 MoP        | 0x0162     |
+WoD        |            |
+Legion     |            |

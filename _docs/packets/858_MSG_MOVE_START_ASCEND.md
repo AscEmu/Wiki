@@ -10,9 +10,11 @@ position: 858
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x359      |
 TBC        | 0x359      |
 WotLK      | 0x359      |
 Cata       | 0x390A     |
 MoP        | 0x11FA     |
+WoD        |            |
+Legion     |            |

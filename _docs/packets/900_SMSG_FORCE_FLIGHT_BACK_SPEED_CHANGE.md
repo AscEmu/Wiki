@@ -10,9 +10,11 @@ position: 900
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x383      |
 TBC        | 0x383      |
 WotLK      | 0x383      |
 Cata       | 0x30A2     |
 MoP        | 0x0319     |
+WoD        |            |
+Legion     |            |

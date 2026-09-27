@@ -10,9 +10,11 @@ position: 555
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x22A      |
 TBC        | 0x22A      |
 WotLK      | 0x22A      |
 Cata       | 0x22A      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

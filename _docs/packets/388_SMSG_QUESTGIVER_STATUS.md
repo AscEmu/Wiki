@@ -10,9 +10,11 @@ position: 388
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x183      |
 TBC        | 0x183      |
 WotLK      | 0x183      |
 Cata       | 0x2115     |
 MoP        | 0x1275     |
+WoD        |            |
+Legion     |            |

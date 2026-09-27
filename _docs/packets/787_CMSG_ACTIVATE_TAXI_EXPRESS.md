@@ -10,9 +10,11 @@ position: 787
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x312      |
 TBC        | 0x312      |
 WotLK      | 0x312      |
 Cata       | 0x0515     |
 MoP        | 0x06FB     |
+WoD        |            |
+Legion     |            |

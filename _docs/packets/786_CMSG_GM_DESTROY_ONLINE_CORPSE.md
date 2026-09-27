@@ -10,9 +10,11 @@ position: 786
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x311      |
 TBC        | 0x311      |
 WotLK      | 0x311      |
 Cata       | 0x311      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 126
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x07D      |
 TBC        | 0x07D      |
 WotLK      | 0x07D      |
 Cata       | 0x4C24     |
 MoP        | 0x0CBB     |
+WoD        |            |
+Legion     |            |

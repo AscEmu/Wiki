@@ -10,9 +10,11 @@ position: 80
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x04F      |
 TBC        | 0x04F      |
 WotLK      | 0x04F      |
 Cata       | 0x6514     |
 MoP        | 0x0AAF     |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 95
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    |            |
 TBC        | 0x05E      |
 WotLK      | 0x05E      |
 Cata       | 0x4017     |
 MoP        | 0x1461     |
+WoD        |            |
+Legion     |            |

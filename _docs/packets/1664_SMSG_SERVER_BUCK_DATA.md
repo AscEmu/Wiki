@@ -10,9 +10,11 @@ position: 1664
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x41C      |
 TBC        | 0x41C      |
 WotLK      | 0x41D      |
 Cata       | 0x041D     |
 MoP        |            |
+WoD        |            |
+Legion     |            |
