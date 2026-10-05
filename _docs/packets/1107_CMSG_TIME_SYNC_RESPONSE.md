@@ -10,9 +10,11 @@ position: 1107
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x391      |
 TBC        | 0x391      |
 WotLK      | 0x391      |
 Cata       | 0x3B0C     |
 MoP        | 0x01DB     |
+WoD        |            |
+Legion     |            |

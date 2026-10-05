@@ -10,9 +10,11 @@ position: 661
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x294      |
 TBC        | 0x294      |
 WotLK      | 0x294      |
 Cata       | 0x294      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

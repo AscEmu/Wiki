@@ -28,7 +28,7 @@ pUnit:Emote(3, 5000)
 You plug these into the :Emote function for it to work. ;)
 Emotes pre-fixed with a double slash (//) are commented out and may not work.
 
-(../world/Units/UnitDefines.hpp)
+(../world/Objects/Units/UnitDefines.hpp)
 
 ```
 enum EmoteType

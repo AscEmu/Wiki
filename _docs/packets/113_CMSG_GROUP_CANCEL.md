@@ -10,9 +10,11 @@ position: 113
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x070      |
 TBC        | 0x070      |
 WotLK      | 0x070      |
 Cata       | 0x070      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

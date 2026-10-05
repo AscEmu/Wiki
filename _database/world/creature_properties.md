@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # creature_properties
-This table contains creature properties information.
+This table contains the properties and configuration data used by creatures.
 
 ## Structure
 
@@ -22,7 +22,7 @@ Field                                               | Type          | Default | 
 [female_displayid2](#displayids_male_female)        | int(10)       | 0       |
 [name](#name)                                       | varchar(100)  |         |
 [subname](#subname)                                 | varchar(100)  |         |
-[info_str](#info_str)                               | varchar(500)  |         |
+[icon_name](#icon_name)                             | varchar(100)  |         |
 [type_flags](#type_flags)                           | int(10)       | 0       |
 [type](#type)                                       | int(10)       | 0       |
 [family](#family)                                   | int(10)       | 0       |
@@ -49,18 +49,18 @@ Field                                               | Type          | Default | 
 [rangedmaxdamage](#rangedmaxdamage)                 | float(0)      | 0       |
 [respawntime](#respawntime)                         | int(30)       | 0       |
 [armor](#armor)                                     | mediumint(10) | 0       |
-[resistance1](#restistance1)                        | smallint(5)   | 0       | Holy
-[resistance2](#restistance2)                        | smallint(5)   | 0       | Fire
-[resistance3](#restistance3)                        | smallint(5)   | 0       | Nature
-[resistance4](#restistance4)                        | smallint(5)   | 0       | Frost
-[resistance5](#restistance5)                        | smallint(5)   | 0       | Shadow
-[resistance6](#restistance6)                        | smallint(5)   | 0       | Arcane
+[resistance1](#resistance1)                         | smallint(5)   | 0       | Holy resistance.
+[resistance2](#resistance2)                         | smallint(5)   | 0       | Fire resistance.
+[resistance3](#resistance3)                         | smallint(5)   | 0       | Nature resistance.
+[resistance4](#resistance4)                         | smallint(5)   | 0       | Frost resistance.
+[resistance5](#resistance5)                         | smallint(5)   | 0       | Shadow resistance.
+[resistance6](#resistance6)                         | smallint(5)   | 0       | Arcane resistance.
 [combat_reach](#combat_reach)                       | float(0)      | 1       |
 [bounding_radius](#bounding_radius)                 | float(0)      | 1       |
 [auras](#auras)                                     | longtext(0)   |         |
 [boss](#boss)                                       | int(11)       | 0       |
 [money](#money)                                     | int(30)       | 0       |
-[isTriggerNpc](isTriggerNpc)                        | smallint(5)   | 0       |
+[isTriggerNpc](#istriggernpc)                       | smallint(5)   | 0       |
 [walk_speed](#walk_speed)                           | float(0)      | 2.5     |
 [run_speed](#run_speed)                             | float(0)      | 8       |
 [fly_speed](#fly_speed)                             | float(0)      | 14      |
@@ -74,8 +74,8 @@ Field                                               | Type          | Default | 
 [spell7](#spells_1_8)                               | int(10)       | 0       |
 [spell8](#spells_1_8)                               | int(10)       | 0       |
 [spell_flags](#spell_flags)                         | int(30)       | 0       |
-[modImmunities](#modImmunities)                     | int(30)       | 0       |
-[isTrainingDummy](#isTrainingDummy)                 | int(10)       | 0       |
+[modImmunities](#modimmunities)                     | int(30)       | 0       |
+[isTrainingDummy](#istrainingdummy)                 | int(10)       | 0       |
 [guardtype](#guardtype)                             | int(10)       | 0       |
 [summonguard](#summonguard)                         | int(10)       | 0       |
 [spelldataid](#spelldataid)                         | int(10)       | 0       |
@@ -91,7 +91,7 @@ Field                                               | Type          | Default | 
 
 ### entry
 
-The entry ID of the creature.
+The unique entry ID of the creature.
 
 ### build
 
@@ -99,19 +99,28 @@ Build number to determine if the data is for our current compiled version.
 
 ### killcredit_1
 
-...
+Creature entry ID that receives kill credit when this creature is killed.
 
 ### killcredit_2
 
-...
+Creature entry ID that receives additional kill credit when this creature is killed.
 
 ### displayids_male_female
 
-The Display/Model ID of the creature. If more than 1 filled, randomly picks between them on creature spawn.
+Display/model IDs used by the creature.
+
+The available display IDs are:
+
+- **male_displayid**    - primary male display ID.
+- **female_displayid**  - primary female display ID.
+- **male_displayid2**   - secondary male display ID.
+- **female_displayid2** - secondary female display ID.
+
+If multiple display IDs are configured, one of the available IDs can be selected when the creature is spawned.
 
 ### name
 
-The name of the creature.
+The name of the creature displayed in-game.
 
 ### subname
 
@@ -119,26 +128,28 @@ The subname/title of the creature. Displayed in-game below the name, in <>'s.
 
 ### icon_name
 
-Used to tell the player what kind of NPC this creature is (when you hover over the npc).
+Defines the interaction icon displayed when the player hovers over the creature.
+
+Common values include:
 
 <pre>
-Repair - shows a Anvil icon identifying this npc as a Repair NPC.
-Speak - shows a Chat Bubble icon if this NPC has Quest/Gossip options.
-Taxi - shows a Boot wings icon identifying this NPC as a "Taxi".
-Trainer - shows a Book icon, identifying this NPC as a "Trainer".
-vehichleCursor - indicator that this is a Player Controlled Vehicle.
-Gunner - indicator of a Turret NPC/Player Controlled.
-Directions - used for Guards and Teleporter NPC's.
-Buy - shows a Brown Bag icon usually if the NPC only sells things.
-Attack - shows a Sword icon indicating you can attack this target.
-Point - used for Guards and Teleporter NPC's.
-Pickup - shows a Hand Grasping icon of if this NPC can be picked up for quest/items.
-LootAll - shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature).
-PVP - unused or Unknown.
-Quest - unused or Unknown.
+Repair          - Shows a Anvil icon identifying this npc as a Repair NPC.
+Speak           - Shows a Chat Bubble icon if this NPC has Quest/Gossip options.
+Taxi            - Shows a Boot wings icon identifying this NPC as a "Taxi".
+Trainer         - Shows a Book icon, identifying this NPC as a "Trainer".
+vehichleCursor  - Indicator that this is a Player Controlled Vehicle.
+Gunner          - Indicator of a Turret NPC/Player Controlled.
+Directions      - Used for Guards and Teleporter NPC's.
+Buy             - Shows a Brown Bag icon usually if the NPC only sells things.
+Attack          - Shows a Sword icon indicating you can attack this target.
+Point           - Used for Guards and Teleporter NPC's.
+Pickup          - Shows a Hand Grasping icon of if this NPC can be picked up for quest/items.
+LootAll         - Shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature).
+PVP             - Unused or unknown.
+Quest           - Unused or unknown.
 </pre>
 
-version above 4.x.x
+For client versions above 4.x.x:
 
 <pre>
 Transmogrify - added in patch 4.3.0
@@ -157,25 +168,27 @@ Cast
 
 ### type_flags
 
+Flags that define additional properties of the creature.
+
 <pre>
-1        = Makes the mob tamable. Must be type "Beast" [1] and "family" set.
+1        = Makes the creature tamable. The creature must have type "Beast" and a family set.
 2        = This creature can be seen also when player is dead.
-4        = Creature is a world boss
-128      = Player can interact with creature while it is dead.
-256      = Makes mob herb-able.
-512      = Makes mob mine-able.
-1024     = Death event will not show up in combat log.
-2048     = Creature will fight mounted if has mount.
-4096     = Creature can heal players?
-32768    = Engineer can loot this npc.
-65536    = Exotic pet
-524288   = Reacts on projectile?
-67108864 = Counts for party members?
+4        = Creature is a world boss.
+128      = Player can interact with the creature while it is dead.
+256      = Makes the creature herb-lootable.
+512      = Makes the creature mine-lootable.
+1024     = Death event is not shown in the combat log.
+2048     = Creature can fight while mounted if it has a mount.
+4096     = Creature can heal players.
+32768    = Engineer can loot this creature.
+65536    = Creature is an exotic pet.
+524288   = Creature reacts to projectiles.
+67108864 = Counts for party members.
 </pre>
 
 ### type
 
-The type of creature.
+The creature type.
 
 <pre>
 0  = None
@@ -196,7 +209,7 @@ The type of creature.
 
 ### family
 
-The family of the creature.
+The creature family.
 
 <pre>
 0  = No family
@@ -271,9 +284,15 @@ This row shows if a creature is an encounter. Currently it is used as boolean.
 
 ### base_attack_mod
 
+Modifier applied to the creature's base attack values.
+
 ### range_attack_mod
 
+Modifier applied to the creature's ranged attack values.
+
 ### leader
+
+Indicates whether the creature is a leader.
 
 <pre>
 0 = Non-Leader
@@ -290,7 +309,9 @@ The maximum level of the creature when it is spawned in-game. Must be higher tha
 
 ### faction
 
-The faction ID of the creature, from FactionTemplate.DBC.
+Faction ID of the creature, based on **FactionTemplate.dbc**.
+
+Common faction IDs:
 
 <pre>
 7    = Neutral
@@ -302,67 +323,68 @@ The faction ID of the creature, from FactionTemplate.DBC.
 
 ### minhealth
 
-The minimum health of the creature.
+The minimum health value of the creature.
 
 ### maxhealth
 
-The maximum health of the creature.
+The maximum health value of the creature.
 
 ### mana
 
-The maximum mana of the creature.
+The maximum mana value of the creature.
 
 ### scale
 
-The scale/size of the creature.
+The creature's model scale.
 
-<pre>
-1 = Normal
-2 = 1 x 2
-</pre>
+A value of `1` represents the normal scale.
 
 ### npcflags
 
-The flags of the creature.
+Flags defining the NPC's available interactions.
 
-Note that most of these also require the "Gossip" [1] flag to work.
+Most interaction flags require the **UNIT_NPC_FLAG_GOSSIP** flag to be present.
 
-So if you want a NPC that is a quest giver, a vendor and can repair you just add the specific flags together: 1 + 2 + 128 + 4096 = 4227.
+For example, a creature that is a quest giver, vendor, and repair NPC can use:
+
+**1 + 2 + 128 + 4096 = 4227**
+
+Pure flags:
 
  Pure Flags                      | Decimal    | Binary (32 Bit)                          | Remarks
 -------------------------------- | ---------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------
- UNIT_NPC_FLAG_NONE              |  0         |  0000 0000 0000 0000 0000 0000 0000 0000
- UNIT_NPC_FLAG_GOSSIP            |  1         |  0000 0000 0000 0000 0000 0000 0000 0001 |   If NPC has more gossip options, add this flag to bring up a menu.
- UNIT_NPC_FLAG_QUESTGIVER        |  2         |  0000 0000 0000 0000 0000 0000 0000 0010 |   Any NPC giving or taking quests needs to have this flag.
- UNIT_NPC_FLAG_UNK1              |  4         |  0000 0000 0000 0000 0000 0000 0000 0100
- UNIT_NPC_FLAG_UNK2              |  8         |  0000 0000 0000 0000 0000 0000 0000 1000
- UNIT_NPC_FLAG_TRAINER           |  16        |  0000 0000 0000 0000 0000 0000 0001 0000 |   Allows the NPC to have a trainer list to teach spells, all trainers must have this flag.
- UNIT_NPC_FLAG_TRAINER_CLASS     |  32        |  0000 0000 0000 0000 0000 0000 0010 0000
- UNIT_NPC_FLAG_TRAINER_PROF      |  64        |  0000 0000 0000 0000 0000 0000 0100 0000
- UNIT_NPC_FLAG_VENDOR            |  128       |  0000 0000 0000 0000 0000 0000 1000 0000 |   Any NPC selling items needs to have this flag.
- UNIT_NPC_FLAG_VENDOR_AMMO       |  256       |  0000 0000 0000 0000 0000 0001 0000 0000
- UNIT_NPC_FLAG_VENDOR_FOOD       |  512       |  0000 0000 0000 0000 0000 0010 0000 0000
- UNIT_NPC_FLAG_VENDOR_POISON     |  1024      |  0000 0000 0000 0000 0000 0100 0000 0000
- UNIT_NPC_FLAG_VENDOR_REAGENT    |  2048      |  0000 0000 0000 0000 0000 1000 0000 0000
- UNIT_NPC_FLAG_ARMORER           |  4096      |  0000 0000 0000 0000 0001 0000 0000 0000 |   NPC with this flag can repair items.
- UNIT_NPC_FLAG_TAXIVENDOR        |  8192      |  0000 0000 0000 0000 0010 0000 0000 0000 |   Any NPC serving as fly master has this.
- UNIT_NPC_FLAG_SPIRITHEALER      |  16384     |  0000 0000 0000 0000 0100 0000 0000 0000 |   Makes the NPC invisible to alive characters and has the resurrect function.
- UNIT_NPC_FLAG_SPIRITGUIDE       |  32768     |  0000 0000 0000 0000 1000 0000 0000 0000 |   NPC Spirit healer.
- UNIT_NPC_FLAG_INNKEEPER         |  65536     |  0000 0000 0000 0001 0000 0000 0000 0000 |   NPC with this flag can set hearthstone locations.
- UNIT_NPC_FLAG_BANKER            |  131072    |  0000 0000 0000 0010 0000 0000 0000 0000 |   NPC with this flag can show the bank.
- UNIT_NPC_FLAG_ARENACHARTER      |  262144    |  0000 0000 0000 0100 0000 0000 0000 0000 |   NPC supplier of the arena charter, the same supplier of the guild charter.
- UNIT_NPC_FLAG_TABARDVENDOR      |  524288    |  0000 0000 0000 1000 0000 0000 0000 0000 |   Allows the designing of guild tabards.
- UNIT_NPC_FLAG_BATTLEFIELDPERSON |  1048576   |  0000 0000 0001 0000 0000 0000 0000 0000 |   NPC with this flag port players to battlegrounds. Like battlemasters, arena organzier etc.
- UNIT_NPC_FLAG_AUCTIONEER        |  2097152   |  0000 0000 0010 0000 0000 0000 0000 0000 |   Allows NPC to display auction list.
- UNIT_NPC_FLAG_STABLE            |  4194304   |  0000 0000 0100 0000 0000 0000 0000 0000 |   Has the option to stable pets for hunters.
- UNIT_NPC_FLAG_GUILD_BANKER      |  8388608   |  0000 0000 1000 0000 0000 0000 0000 0000 |   Cause client to send 997 opcode.
- UNIT_NPC_FLAG_SPELLCLICK        |  16777216  |  0000 0001 0000 0000 0000 0000 0000 0000 |   Cause client to send 1015 opcode. Needs data on npc_spellclick_spells table.
- UNIT_NPC_FLAG_MAILBOX           |  67108864  |  0000 0100 0000 0000 0000 0000 0000 0000 |   NPC will act like a mailbox, opens mailbox with right-click.
- Guard                           |  268435456 |  0001 0000 0000 0000 0000 0000 0000 0000 |   Cityguards, must be scripted.
+UNIT_NPC_FLAG_NONE               | 0          | 0000 0000 0000 0000 0000 0000 0000 0000  | No NPC flags.
+UNIT_NPC_FLAG_GOSSIP             | 1          | 0000 0000 0000 0000 0000 0000 0000 0001  | If NPC has more gossip options, add this flag to bring up a menu.
+UNIT_NPC_FLAG_QUESTGIVER         | 2          | 0000 0000 0000 0000 0000 0000 0000 0010  | Any NPC giving or taking quests needs to have this flag.
+UNIT_NPC_FLAG_UNK1               | 4          | 0000 0000 0000 0000 0000 0000 0000 0100  | Unknown.
+UNIT_NPC_FLAG_UNK2               | 8          | 0000 0000 0000 0000 0000 0000 0000 1000  | Unknown.
+UNIT_NPC_FLAG_TRAINER            | 16         | 0000 0000 0000 0000 0000 0000 0001 0000  | Allows the NPC to have a trainer list to teach spells, all trainers must have this flag.
+UNIT_NPC_FLAG_TRAINER_CLASS      | 32         | 0000 0000 0000 0000 0000 0000 0010 0000  | Class trainer.
+UNIT_NPC_FLAG_TRAINER_PROF       | 64         | 0000 0000 0000 0000 0000 0000 0100 0000  | Profession trainer.
+UNIT_NPC_FLAG_VENDOR             | 128        | 0000 0000 0000 0000 0000 0000 1000 0000  | Any NPC selling items needs to have this flag.
+UNIT_NPC_FLAG_VENDOR_AMMO        | 256        | 0000 0000 0000 0000 0000 0001 0000 0000  | Ammunition vendor.
+UNIT_NPC_FLAG_VENDOR_FOOD        | 512        | 0000 0000 0000 0000 0000 0010 0000 0000  | Food vendor.
+UNIT_NPC_FLAG_VENDOR_POISON      | 1024       | 0000 0000 0000 0000 0000 0100 0000 0000  | Poison vendor.
+UNIT_NPC_FLAG_VENDOR_REAGENT     | 2048       | 0000 0000 0000 0000 0000 1000 0000 0000  | Reagent vendor.
+UNIT_NPC_FLAG_ARMORER            | 4096       | 0000 0000 0000 0000 0001 0000 0000 0000  | NPC with this flag can repair items.
+UNIT_NPC_FLAG_TAXIVENDOR         | 8192       | 0000 0000 0000 0000 0010 0000 0000 0000  | Any NPC serving as fly master has this.
+UNIT_NPC_FLAG_SPIRITHEALER       | 16384      | 0000 0000 0000 0000 0100 0000 0000 0000  | Makes the NPC invisible to alive characters and has the resurrect function.
+UNIT_NPC_FLAG_SPIRITGUIDE        | 32768      | 0000 0000 0000 0000 1000 0000 0000 0000  | NPC Spirit healer.
+UNIT_NPC_FLAG_INNKEEPER          | 65536      | 0000 0000 0000 0001 0000 0000 0000 0000  | NPC with this flag can set hearthstone locations.
+UNIT_NPC_FLAG_BANKER             | 131072     | 0000 0000 0000 0010 0000 0000 0000 0000  | NPC with this flag can show the bank.
+UNIT_NPC_FLAG_ARENACHARTER       | 262144     | 0000 0000 0000 0100 0000 0000 0000 0000  | NPC supplier of the arena charter, the same supplier of the guild charter.
+UNIT_NPC_FLAG_TABARDVENDOR       | 524288     | 0000 0000 0000 1000 0000 0000 0000 0000  | Allows the designing of guild tabards.
+UNIT_NPC_FLAG_BATTLEFIELDPERSON  | 1048576    | 0000 0000 0001 0000 0000 0000 0000 0000  | NPC with this flag port players to battlegrounds. Like battlemasters, arena organzier etc.
+UNIT_NPC_FLAG_AUCTIONEER         | 2097152    | 0000 0000 0010 0000 0000 0000 0000 0000  | Allows NPC to display auction list.
+UNIT_NPC_FLAG_STABLE             | 4194304    | 0000 0000 0100 0000 0000 0000 0000 0000  | Has the option to stable pets for hunters.
+UNIT_NPC_FLAG_GUILD_BANKER       | 8388608    | 0000 0000 1000 0000 0000 0000 0000 0000  | Cause client to send 997 opcode.
+UNIT_NPC_FLAG_SPELLCLICK         | 16777216   | 0000 0001 0000 0000 0000 0000 0000 0000  | Cause client to send 1015 opcode. Needs data on npc_spellclick_spells table.
+UNIT_NPC_FLAG_MAILBOX            | 67108864   | 0000 0100 0000 0000 0000 0000 0000 0000  | NPC will act like a mailbox, opens mailbox with right-click.
+Guard                            | 268435456  | 0001 0000 0000 0000 0000 0000 0000 0000  | Cityguards, must be scripted.
 
 ### attacktime
 
-The delay between attacks, in milliseconds.
+Delay between the creature's melee attacks, in milliseconds.
 
 ### attack_school
 
@@ -380,73 +402,83 @@ The type of damage that is dealt by the creature. Determines damage reduction vi
 
 ### mindamage
 
-The minimum damage dealt by the creature.
+Minimum melee damage dealt by the creature.
 
 ### maxdamage
 
-The maximum damage dealt by the creature.
+Maximum melee damage dealt by the creature.
 
 ### can_ranged
 
-...
+Indicates whether the creature can perform ranged attacks.
 
 ### rangedattacktime
 
-The delay between ranged attacks, in milliseconds.
+Delay between ranged attacks, in milliseconds.
 
 ### rangedmindamage
 
-The minimum ranged damage dealt by the creature.
+Minimum ranged damage dealt by the creature.
 
 ### rangedmaxdamage
 
-The maximum damage dealt by the creature.
+Maximum ranged damage dealt by the creature.
 
 ### respawntime
 
-The time before the creature respawns, in milliseconds.
+Time before the creature respawns after being removed, in milliseconds.
 
 ### armor
 
-The total armor of the creature.
+Total armor value of the creature.
 
-### restistance1
+### resistance1
 
-The Holy resistance of the creature.
+Holy resistance.
 
-### restistance2
+### resistance2
 
-The Fire resistance of the creature.
+Fire resistance.
 
-### restistance3
+### resistance3
 
-The Nature resistance of the creature.
+Nature resistance.
 
-### restistance4
+### resistance4
 
-The Frost resistance of the creature.
+Frost resistance.
 
-### restistance5
+### resistance5
 
-The Shadow resistance of the creature.
+Shadow resistance.
 
-### restistance6
+### resistance6
 
-The Arcane resistance of the creature.
+Arcane resistance.
 
 ### combat_reach
 
-The distance of where the creature can hit it's target.
+The distance from which the creature can reach and attack its target.
 
 ### bounding_radius
 
-The amount of yards before the creature will reset.
+The creature's bounding radius used for distance and collision calculations.
 
 ### auras
 
-The Spell IDs of auras that are present on the creature. IDs separated with a comma (,).
+Spell IDs of auras applied to the creature.
+
+Multiple spell IDs are separated by commas.
+
+Example:
+
+<pre>
+1234,5678,9012
+</pre>
 
 ### boss
+
+Indicates whether the creature is a boss.
 
 <pre>
 0 = Normal
@@ -455,45 +487,56 @@ The Spell IDs of auras that are present on the creature. IDs separated with a co
 
 ### money
 
-The money dropped by the creature in copper (1000 = 10s, 100000 = 1g, 111111 = 11g 11s 11c)
+Amount of money dropped by the creature, specified in copper.
+
+Examples:
+
+<pre>
+1000   = 10s
+100000 = 1g
+111111 = 11g 11s 11c
+</pre>
 
 ### isTriggerNpc
 
+Defines the creature's
+
 <pre>
 0  = INVIS_FLAG_NORMAL              - Used by players
-1  = INVIS_FLAG_ELEMENTAL_SPIRIT    - Shaman totem quests
-2  = INVIS_FLAG_UNKNOWN_2           - Used by spell id 24306
+1  = INVIS_FLAG_ELEMENTAL_SPIRIT    - Used by Shaman totem quests
+2  = INVIS_FLAG_UNKNOWN_2           - Used by spell ID 24306
 3  = INVIS_FLAG_TRAP                - Used by gameobjects only
 4  = INVIS_FLAG_QUEST_4             - Used by many quest creatures
-5  = INVIS_FLAG_DUNGEON_SET_NPC     - Used by dungeon set 2 npcs
-6  = INVIS_FLAG_DRUNK               - These can only be seen when drunk
+5  = INVIS_FLAG_DUNGEON_SET_NPC     - Used by dungeon set 2 NPCs
+6  = INVIS_FLAG_DRUNK               - Visible only while drunk
 7  = INVIS_FLAG_QUEST_7             - Used by many quest creatures
 8  = INVIS_FLAG_QUEST_8             - Used by many quest creatures
 9  = INVIS_FLAG_QUEST_9             - Used by many quest creatures
 10 = INVIS_FLAG_QUEST_10            - Used by many quest creatures
-11 = INVIS_FLAG_UNKNOWN_11          - Used by spell id 49962
-12 = INVIS_FLAG_UNUSED_12
-13 = INVIS_FLAG_UNUSED_13
-14 = INVIS_FLAG_UNUSED_14
-15 = INVIS_FLAG_NEVER_VISIBLE       - Used by trigger or placeholder npcs
-INVIS_FLAG_TOTAL
+11 = INVIS_FLAG_UNKNOWN_11          - Used by spell ID 49962
+12 = INVIS_FLAG_UNUSED_12           - Unused
+13 = INVIS_FLAG_UNUSED_13           - Unused
+14 = INVIS_FLAG_UNUSED_14           - Unused
+15 = INVIS_FLAG_NEVER_VISIBLE       - Used by triggers or placeholder NPCs
 </pre>
 
 ### walk_speed
 
-The speed of the creature when it is walking.
+The movement speed of the creature while walking.
 
 ### run_speed
 
-The speed of the creature when it is running.
+The movement speed of the creature while running.
 
 ### fly_speed
 
-The speed of the creature when it is flying.
+The movement speed of the creature while flying.
 
 ### extra_a9_flags
 
-NOTE currently not used!
+Additional flags.
+
+**NOTE:** Currently unused.
 
 ### spells_1_8
 
@@ -501,7 +544,7 @@ The spells that are available to the creature. These are the spells that used wh
 
 ### spell_flags
 
-The flags for the spells in Spell1-4
+The flags for the spells in Spell1-4.
 
 <pre>
 1 = RANDOM_CAST
@@ -511,9 +554,11 @@ The flags for the spells in Spell1-4
 
 ### modImmunities
 
+Flags defining immunities to various crowd-control effects and spell mechanics.
+
 <pre>
 1      = Charm (Mind Control, enslave demon)
-2      = Confuse (Blind etc)
+2      = Confuse (Blind, etc.)
 4      = Fear
 8      = Root
 16     = Silence
@@ -526,7 +571,7 @@ The flags for the spells in Spell1-4
 2048   = Sleep
 4096   = Taunt (aura)
 8192   = Decrease Speed (Hamstring) (aura)
-16384  = Spell Haste (Curse of Tongues) (aura
+16384  = Spell Haste (Curse of Tongues) (aura)
 32768  = Interrupt Cast
 65536  = Mod Healing % (Mortal Strike) (aura)
 131072 = Total Stats % (Vindication) (aura)
@@ -534,35 +579,49 @@ The flags for the spells in Spell1-4
 
 ### isTrainingDummy
 
-Whether or not the creature is a "Training Dummy". Training dummy's are not killable and cannot move.
+Indicates whether the creature is a training dummy.
+
+Training dummies cannot be killed and cannot move.
 
 ### guardtype
 
-The type of guard the creature is. Most city guards, bruisers and peace keepers has '2' here.
+Defines the type of guard represented by the creature.
+
+Most city guards, bruisers, and peacekeepers use `2`.
 
 ### summonguard
 
-The guard that is summoned. Unknown (?)
+Creature entry ID of the guard summoned by this creature.
+
+The exact usage is unknown.
 
 ### spelldataid
 
-...
+Spell data ID associated with the creature.
 
 ### vehicleid
 
-Vehicle data for this creature. Index of Vehicle.dbc
+Vehicle data ID associated with the creature.
+
+This corresponds to the vehicle data entry.
 
 ### rooted
 
+Indicates whether the creature is rooted.
+
 <pre>
-1 = rooted
-0 = unrooted
+0 = Unrooted
+1 = Rooted
 </pre>
 
 ### questitems_1_6
 
-ID of the Questitem which can be looted from npc. (untested)
+Quest item IDs that can be looted from the creature.
+
+Up to six quest items can be configured.
 
 ### waypointid
 
-The waypoint ID from [creature_waypoints](/Wiki/database/world/creature_waypoints/ "Creature waypoints")
+Waypoint path ID used by the creature.
+
+The path is defined in [creature_waypoints](/Wiki/database/world/creature_waypoints/ "Creature waypoints").

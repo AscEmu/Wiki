@@ -9,7 +9,7 @@ position: 3
 
 ## Description
 
-Returns the Unit's spawn location. This returns ***4*** values, x, y, z and o. Don't forget you can use a trash variable (_) to omit results you don't want.     
+Returns the Unit's spawn location. This returns **4** values, x, y, z and o. Don't forget you can use a trash variable (_) to omit results you don't want.     
 
 This command works for NPC as well as for game objects.    
 

@@ -10,9 +10,11 @@ position: 911
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x38E      |
 TBC        | 0x38E      |
 WotLK      | 0x38E      |
 Cata       | 0x0424     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

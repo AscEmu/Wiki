@@ -10,9 +10,11 @@ position: 2
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x001      |
 TBC        | 0x001      |
 WotLK      | 0x001      |
 Cata       | 0x001      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

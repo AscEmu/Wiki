@@ -18,7 +18,7 @@ Field                                                                        | T
 
 ### entry
 
-The unique ID for the page. this id is used in row `page_id` in table [item_properties](/Wiki/database/world/item_properties/ "Item properties")
+The unique ID for the page. this id is used in row **page_id** in table [item_properties](/Wiki/database/world/item_properties/ "Item properties")
 
 ### text
 

@@ -10,9 +10,11 @@ position: 850
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    |            |
 TBC        | 0x351      |
 WotLK      | 0x351      |
 Cata       | 0x2A25     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

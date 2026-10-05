@@ -10,9 +10,11 @@ position: 901
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x384      |
 TBC        |            |
 WotLK      | 0x384      |
 Cata       | 0x0333     |
 MoP        | 0x105B     |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 337
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x150      |
 TBC        | 0x150      |
 WotLK      | 0x150      |
 Cata       | 0x2816     |
 MoP        | 0x09FB     |
+WoD        |            |
+Legion     |            |

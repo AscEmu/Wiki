@@ -4,7 +4,6 @@ layout: default
 # Welcome to AscEmu Wiki
 We moved our complete Wiki to github pages. Feel free to create issues, open pullrequest and discuss with us this wiki on github.
 
-
 # Wiki pages and types (Markdown)
 
 # Heading 1
@@ -27,18 +26,32 @@ We moved our complete Wiki to github pages. Feel free to create issues, open pul
 
 [Link to Tables](#Tables)
 
-***Bold Text***
+**Bold Text**
 
 <del>stroke this</del>
+
+<details>
+<summary>Click here</summary>
+* Alliance
+* Horde
+* Neutral
+</details>
 
 ```
 [Link to Tables](#Tables)
 
-***Bold Text***
+**Bold Text**
 
 <del>stroke this</del>
-```
 
+<details>
+<summary>Click here</summary>
+* Alliance
+* Horde
+* Neutral
+</details>
+
+```
 
 ## Special text
 Error
@@ -70,13 +83,14 @@ Success
 ## Tables
 
 Header 1   | Header 2
----------- | ---------- 
+---------- | ----------
 Cell 1     | Cell 2
 
 
+Example
 ```
 Header 1   | Header 2
----------- | ---------- 
+---------- | ----------
 Cell 1     | Cell 2
 ```
 
@@ -92,7 +106,6 @@ SELECT * FROM account_names WHERE id = 254;
 ```
 </pre>
 
-
 ## Tasks
 
 - [x] checked task
@@ -103,8 +116,7 @@ SELECT * FROM account_names WHERE id = 254;
 - [ ] unchecked task
 ```
 
-
-## Picture 
+## Picture
 
 ![alt text example](/Wiki/images/logon_icon_s.jpg "Code Tag example")
 

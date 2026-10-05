@@ -10,9 +10,11 @@ position: 97
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x060      |
 TBC        | 0x060      |
 WotLK      | 0x060      |
 Cata       | 0x2706     |
 MoP        | 0x0842     |
+WoD        |            |
+Legion     |            |

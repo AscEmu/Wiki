@@ -10,9 +10,11 @@ position: 125
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x07C      |
 TBC        | 0x07C      |
 WotLK      | 0x07C      |
 Cata       | 0x2207     |
 MoP        | 0x1B27     |
+WoD        |            |
+Legion     |            |

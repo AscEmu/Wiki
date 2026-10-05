@@ -10,9 +10,11 @@ position: 655
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x28E      |
 TBC        | 0x28E      |
 WotLK      | 0x28E      |
 Cata       | 0x6E27     |
 MoP        | 0x032C     |
+WoD        |            |
+Legion     |            |

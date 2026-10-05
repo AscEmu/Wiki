@@ -10,9 +10,11 @@ position: 384
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x17F      |
 TBC        | 0x17F      |
 WotLK      | 0x17F      |
 Cata       | 0x4E24     |
 MoP        | 0x0287     |
+WoD        |            |
+Legion     |            |

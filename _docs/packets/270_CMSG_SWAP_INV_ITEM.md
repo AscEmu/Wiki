@@ -10,9 +10,11 @@ position: 270
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x10D      |
 TBC        | 0x10D      |
 WotLK      | 0x10D      |
 Cata       | 0x2614     |
 MoP        | 0x03DF     |
+WoD        |            |
+Legion     |            |

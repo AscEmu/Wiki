@@ -12,9 +12,11 @@ Colled on removing friend from list.
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x06A      |
 TBC        | 0x06A      |
 WotLK      | 0x06A      |
 Cata       | 0x6A15     |
 MoP        | 0x1103     |
+WoD        |            |
+Legion     |            |

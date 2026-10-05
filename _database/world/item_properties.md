@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # item_properties
-This table contains most of the items information. 
+This table contains most of the items information.
 
 ## Structure
 
@@ -60,7 +60,7 @@ Field                                                         | Type         | D
 [lock_id](#lock_id)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
 [lock_material](#lock_material)                               | tinyint(4)   | NOT NULL DEFAULT '0'             |
 [sheathID](#sheathID)                                         | tinyint(3)   | unsigned NOT NULL DEFAULT '0'    |
-[randomprop](#randomprop)                                     | mediumint(8) | NOT NULL DEFAULT '0'             | 
+[randomprop](#randomprop)                                     | mediumint(8) | NOT NULL DEFAULT '0'             |
 [randomsuffix](#randomsuffix)                                 | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
 [block](#block)                                               | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
 [itemset](#itemset)                                           | mediumint(8) | unsigned NOT NULL DEFAULT '0'    |
@@ -399,7 +399,7 @@ If you allow only two or three classes to use this item, simply add up the value
    7 = Gnome
    8 = Troll
   10 = Bloodelf
-  11 = Dranei 
+  11 = Dranei
  690 = All Horde races
 1101 = All Alliance races
 </pre>
@@ -466,7 +466,7 @@ The scaling stat distribution ID (from .dbc).
 ### ScaledStatsDistributionFlag
 
 <pre>
-0 = Scaling stat stat? what?         - not used
+0 = Unknown                          - not used
 1 = Scaling stat armor               - not used
 2 = Scaling stat damage              - not used
 3 = Scaling stat spell power         - not used

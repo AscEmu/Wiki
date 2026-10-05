@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # character_db_version
-This table contains the `character` database version information.
+This table contains the **character** database version information.
 
 ## Structure
 

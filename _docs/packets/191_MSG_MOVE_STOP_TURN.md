@@ -10,9 +10,11 @@ position: 191
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x0BE      |
 TBC        | 0x0BE      |
 WotLK      | 0x0BE      |
 Cata       | 0x331E     |
 MoP        | 0x1170     |
+WoD        |            |
+Legion     |            |

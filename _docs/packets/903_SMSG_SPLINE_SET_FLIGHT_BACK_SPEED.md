@@ -10,9 +10,11 @@ position: 903
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x386      |
 TBC        | 0x386      |
 WotLK      | 0x386      |
 Cata       | 0x38B3     |
 MoP        | 0x0B28     |
+WoD        |            |
+Legion     |            |

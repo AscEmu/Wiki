@@ -10,9 +10,11 @@ position: 920
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x397      |
 TBC        | 0x397      |
 WotLK      | 0x397      |
 Cata       | 0x0F34     |
 MoP        |            |- not used
+WoD        |            |
+Legion     |            |

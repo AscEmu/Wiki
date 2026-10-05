@@ -9,20 +9,21 @@ position: 80
 
 ## Description
 
-This command sets the units faction to the given number.
+This method sets the Unit's faction to the specified faction ID.
 
 ## Usage/Example
 
-```
-function FactionChange (pUnit, Event)
-pUnit:SetFaction(35) -- This will set the unit's faction to 35, which is friendly to all.
+```lua
+function FactionChange(pUnit, Event)
+    pUnit:SetFaction(35) -- Sets the Unit's faction to 35, which is friendly to all.
 end
 ```
 
 ## List of Faction IDs
 
-Faction IDs control faction targets for commands or what faction a creature belongs to.        
-(This will be outdated with every patch that adds a faction)
+Faction IDs determine how creatures interact with other factions and which faction a creature belongs to.
+
+(This list may become outdated with each patch that adds new factions.)
 
 ```
 1684 - Actor Evil

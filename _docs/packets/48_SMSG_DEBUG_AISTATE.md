@@ -10,9 +10,11 @@ position: 48
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x02F      |
 TBC        | 0x02F      |
 WotLK      | 0x02F      |
 Cata       | 0x02F      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

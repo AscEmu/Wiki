@@ -10,9 +10,11 @@ position: 841
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x348      |
 TBC        | 0x348      |
 WotLK      | 0x348      |
 Cata       | 0x04A1     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

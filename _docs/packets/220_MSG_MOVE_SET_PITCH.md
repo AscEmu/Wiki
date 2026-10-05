@@ -10,9 +10,11 @@ position: 220
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x0DB      |
 TBC        | 0x0DB      |
 WotLK      | 0x0DB      |
 Cata       | 0x7312     |
 MoP        | 0x017A     |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 434
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x1B1      |
 TBC        | 0x1B1      |
 WotLK      | 0x1B1      |
 Cata       | 0x4414     |
 MoP        | 0x189F     |
+WoD        |            |
+Legion     |            |

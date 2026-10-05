@@ -10,9 +10,11 @@ position: 369
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x170      |
 TBC        | 0x170      |
 WotLK      | 0x170      |
 Cata       | 0x170      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

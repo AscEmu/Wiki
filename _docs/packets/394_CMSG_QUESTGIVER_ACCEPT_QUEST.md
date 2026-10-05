@@ -10,9 +10,11 @@ position: 394
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x189      |
 TBC        | 0x189      |
 WotLK      | 0x189      |
 Cata       | 0x6B37     |
 MoP        | 0x06D1     |
+WoD        |            |
+Legion     |            |

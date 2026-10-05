@@ -10,9 +10,11 @@ position: 894
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x37D      |
 TBC        | 0x37D      |
 WotLK      | 0x37D      |
 Cata       | 0x71A6     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

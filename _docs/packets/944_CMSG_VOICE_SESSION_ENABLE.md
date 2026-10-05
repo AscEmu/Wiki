@@ -10,9 +10,11 @@ position: 944
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x3AF      |
 TBC        |            |
 WotLK      | 0x3AF      |
 Cata       | 0x2314     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

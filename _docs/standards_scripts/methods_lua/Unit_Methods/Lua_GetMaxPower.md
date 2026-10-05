@@ -13,7 +13,7 @@ Returns the Unit's maximum power based upon the argument passed. If no argument 
 
 ## Power Types 
 
-(../world/Spell/Definitions/PowerType.h)
+(../world/Spell/Definitions/PowerType.hpp)
 
 ```
 POWER_TYPE_HEALTH      = -2,

@@ -454,7 +454,7 @@ EXP your are rewarded with when you complete a custom quest.
 
 ### RewSpell
 
-Spell you ATTAIN when finishing quest, SHOULD BE AVOIDED (only use it if you know what you are doing).
+Spell learned upon completing the quest. Avoid using this field unless you know what you are doing.
 
 ### CastSpell
 

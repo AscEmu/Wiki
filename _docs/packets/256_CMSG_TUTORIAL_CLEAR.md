@@ -12,9 +12,11 @@ Send on uncheck "Show Tutorials".
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x0FF      |
 TBC        | 0x0FF      |
 WotLK      | 0x0FF      |
 Cata       | 0x6515     |
 MoP        | 0x0F23     |
+WoD        |            |
+Legion     |            |

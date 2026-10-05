@@ -10,9 +10,11 @@ position: 365
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x16C      |
 TBC        | 0x16C      |
 WotLK      | 0x16C      |
 Cata       | 0x2136     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

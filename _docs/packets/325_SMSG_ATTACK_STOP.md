@@ -10,9 +10,11 @@ position: 325
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x144      |
 TBC        | 0x144      |
 WotLK      | 0x144      |
 Cata       | 0x0934     |
 MoP        | 0x12AF     |
+WoD        |            |
+Legion     |            |

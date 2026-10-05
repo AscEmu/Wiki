@@ -9,11 +9,11 @@ position: 80
 
 ## Description
 
-A number value indicating what you want. Possible values below:
+A numeric value that specifies the Unit's death state. Possible values:
 
 ## Usage/Example
 
-```
+```text
 0 ALIVE
 1 JUST_DIED
 2 CORPSE

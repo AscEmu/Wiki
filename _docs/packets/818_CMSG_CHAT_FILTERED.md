@@ -10,9 +10,11 @@ position: 818
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x331      |
 TBC        | 0x331      |
 WotLK      | 0x331      |
 Cata       | 0x1332     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

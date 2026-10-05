@@ -10,9 +10,11 @@ position: 839
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x346      |
 TBC        | 0x346      |
 WotLK      | 0x346      |
 Cata       |            |
 MoP        | 0x01F1     |
+WoD        |            |
+Legion     |            |

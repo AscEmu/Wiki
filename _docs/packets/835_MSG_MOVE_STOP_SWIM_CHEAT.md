@@ -10,9 +10,11 @@ position: 835
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x342      |
 TBC        | 0x342      |
 WotLK      | 0x342      |
 Cata       | 0x1343     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

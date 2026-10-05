@@ -10,9 +10,11 @@ position: 582
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x245      |
 TBC        | 0x245      |
 WotLK      | 0x245      |
 Cata       | 0x4034     |
 MoP        | 0x06FA     |
+WoD        |            |
+Legion     |            |

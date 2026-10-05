@@ -10,9 +10,11 @@ position: 1350
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
 WotLK      | 0x466      |
 Cata       | 0x466      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 904
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x387      |
 TBC        | 0x387      |
 WotLK      | 0x387      |
 Cata       | 0x387      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

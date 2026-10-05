@@ -10,9 +10,11 @@ position: 290
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x121      |
 TBC        | 0x121      |
 WotLK      | 0x121      |
 Cata       | 0x70A2     |
 MoP        | 0x181E     |
+WoD        |            |
+Legion     |            |

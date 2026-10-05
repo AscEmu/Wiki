@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # world_db_version
-This table contains the `world` database version information.
+This table contains the **world** database version information.
 
 ## Structure
 

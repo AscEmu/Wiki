@@ -25,54 +25,54 @@ Field                                                                           
 [proc_effect_trigger_spell_2](#proc_effect_trigger_spell_2)                       | int(10)      | NULL                      |
 [description](description)                                                        | varchar(100) | NULL                      |
 
-## spell_id
+### spell_id
 
 ...
 
-## assign_on_target_flag
+### assign_on_target_flag
 
 ...
 
-## assign_self_cast_only
+### assign_self_cast_only
 
 ...
 
-## assign_c_is_flag
+### assign_c_is_flag
 
 ...
 
-## proc_flags
+### proc_flags
 
 ...
 
-## proc_target_selfs
+### proc_target_selfs
 
 ...
 
-## proc_chance
+### proc_chance
 
 ...
 
-## proc_charges
+### proc_charges
 
 ...
 
-## proc_interval
+### proc_interval
 
 ...
 
-## proc_effect_trigger_spell_0
+### proc_effect_trigger_spell_0
 
 ...
 
-## proc_effect_trigger_spell_1
+### proc_effect_trigger_spell_1
 
 ...
 
-## proc_effect_trigger_spell_2
+### proc_effect_trigger_spell_2
 
 ...
 
-## description
+### description
 
 ...

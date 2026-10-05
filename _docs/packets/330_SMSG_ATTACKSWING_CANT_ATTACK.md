@@ -10,9 +10,11 @@ position: 330
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x149      |
 TBC        | 0x149      |
 WotLK      | 0x149      |
 Cata       | 0x0016     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

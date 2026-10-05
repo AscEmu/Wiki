@@ -10,9 +10,11 @@ position: 361
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x168      |
 TBC        | 0x168      |
 WotLK      | 0x168      |
 Cata       | 0x0C26     |
 MoP        | 0x001A     |
+WoD        |            |
+Legion     |            |

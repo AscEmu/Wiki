@@ -10,9 +10,11 @@ position: 49
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x030      |
 TBC        | 0x030      |
 WotLK      | 0x030      |
 Cata       | 0x030      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

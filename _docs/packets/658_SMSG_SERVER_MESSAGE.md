@@ -10,9 +10,11 @@ position: 658
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x291      |
 TBC        | 0x291      |
 WotLK      | 0x291      |
 Cata       | 0x6C04     |
 MoP        | 0x0302     |
+WoD        |            |
+Legion     |            |

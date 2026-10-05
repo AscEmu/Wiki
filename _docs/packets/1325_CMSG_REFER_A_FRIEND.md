@@ -10,9 +10,11 @@ position: 1325
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x40D      |
 TBC        | 0x40D      |
 WotLK      | 0x40E      |
 Cata       | 0x40E      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

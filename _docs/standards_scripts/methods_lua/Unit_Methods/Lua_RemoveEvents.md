@@ -9,17 +9,17 @@ position: 135
 
 ## Description
 
-RemoveEvents() Is used to remove events from a Unit.
+RemoveEvents() - is used to remove events from a Unit.
 
 It is commonly used when a boss dies or leaves combat.
 
 ## Usage/Example
 
-```
+```lua
 function Boss_Dead(unit, event)
-Unit:SendChatMessage(14, 0, "Now I can no longer use any events from before this!")
-Unit:RemoveEvents()
+    Unit:SendChatMessage(14, 0, "Now I can no longer use any events from before this!")
+    Unit:RemoveEvents()
 end
 
--- Putting RemoveEvents() in the middle of a function, unless your knowing what you're doing, you'll bug your script. Use it with caution.
+-- Using RemoveEvents() in the middle of a function, unless you know what you're doing, can break your script. Use it with caution.
 ```

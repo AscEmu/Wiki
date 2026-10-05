@@ -10,9 +10,11 @@ position: 200
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x0C7      |
 TBC        | 0x0C7      |
 WotLK      | 0x0C7      |
 Cata       | 0x390C     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 301
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x12C      |
 TBC        | 0x12C      |
 WotLK      | 0x12C      |
 Cata       | 0x35B0     |
 MoP        | 0x1943     |
+WoD        |            |
+Legion     |            |

@@ -10,9 +10,11 @@ position: 538
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x219      |
 TBC        | 0x219      |
 WotLK      | 0x219      |
 Cata       | 0x6724     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

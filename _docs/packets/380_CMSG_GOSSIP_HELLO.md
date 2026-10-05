@@ -10,9 +10,11 @@ position: 380
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x17B      |
 TBC        | 0x17B      |
 WotLK      | 0x17B      |
 Cata       | 0x4525     |
 MoP        | 0x12F3     |
+WoD        |            |
+Legion     |            |

@@ -12,9 +12,11 @@ Send after inviting a player to a group.
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x06F      |
 TBC        | 0x06F      |
 WotLK      | 0x06F      |
 Cata       | 0x31B2     |
 MoP        | 0x0A8F     |
+WoD        |            |
+Legion     |            |

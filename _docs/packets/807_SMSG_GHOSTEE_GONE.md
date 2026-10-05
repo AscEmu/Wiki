@@ -10,9 +10,11 @@ position: 807
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x326      |
 TBC        | 0x326      |
 WotLK      | 0x326      |
 Cata       | 0x326      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

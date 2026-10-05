@@ -10,9 +10,11 @@ position: 923
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x39A      |
 TBC        | 0x39A      |
 WotLK      | 0x39A      |
 Cata       | 0x39A      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

@@ -6,28 +6,32 @@ layout: single_markdown
 ---
 
 # loot_creatures
-This table contains the loots for creatures. 
+This table contains the loot items and currencies that can be dropped by creatures.
 
 ## Structure
 
-Field                                                                                                    | Type     | Default | Comment
--------------------------------------------------------------------------------------------------------- | -------- | ------- | -------
-[entryid](#entryid)                                                                                      | int(10)  | 0       |        
-[itemid](#itemid)                                                                                        | int(11)  | 0       |        
-[normal10percentchance](#normal10percentchance)                                                          | float(5) | 0.00    |        
-[normal25percentchance](#normal25percentchance)                                                          | float(5) | 0.00    |        
-[heroic10percentchance](#heroic10percentchance)                                                          | float(5) | 0.00    |        
-[heroic25percentchance](#heroic25percentchance)                                                          | float(5) | 0.00    |        
-[mincount](#mincount)                                                                                    | int(10)  | 0       |        
-[maxcount](#maxcount)                                                                                    | int(10)  | 0       |        
+Field                                                                                                    | Type             | Default | Comment          
+-------------------------------------------------------------------------------------------------------- | ---------------- | ------- | -------
+[entryid](#entryid)                                                                                      | int unsigned     | 0       |
+[itemid](#itemid)                                                                                        | int              | 0       |
+[normal10percentchance](#normal10percentchance)                                                          | float            | 0.00    |
+[normal25percentchance](#normal25percentchance)                                                          | float            | 0.00    |
+[heroic10percentchance](#heroic10percentchance)                                                          | float            | 0.00    |
+[heroic25percentchance](#heroic25percentchance)                                                          | float            | 0.00    |
+[mincount](#mincount)                                                                                    | int unsigned     | 1       |
+[maxcount](#maxcount)                                                                                    | int unsigned     | 1       |
+[comment](#comment)                                                                                      | varchar(100)     | ''      |
+[is_currency](#is_currency)                                                                              | tinyint unsigned | 0       |
 
 ### entryid
 
-The Entry ID of the creature from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties").
+The Entry ID of the creature from the [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ### itemid
 
-The Entry ID of the Item that will drop, from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
+The Entry ID of the item that can be dropped, from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
+
+**For Cata** and later versions, when [is_currency](#is_currency) is enabled, this value contains a currency ID from **CurrencyTypes.dbc** instead of an **item_properties** entry ID.
 
 ### normal10percentchance
 
@@ -51,4 +55,18 @@ The minimum amount of the Item that will drop.
 
 ### maxcount
 
-The maximum amount of the Item that will drop.
+The maximum amount of the Item or currency that can be dropped.
+
+### comment
+
+An optional comment describing the loot entry.
+
+### is_currency
+
+Determines whether **itemid** contains an item ID or a currency ID.
+
+When set to **0**, **itemid** refers to an entry from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
+
+When set to a non-zero value, **itemid** refers to a currency ID from **CurrencyTypes.dbc**.
+
+This field is available for Cata and later versions and is always the last column in the loot table.

@@ -63,7 +63,7 @@ function OnSelect(pUnit, event, pPlayer, id, intid, code)
 end
 ```
 
-***Please note with caution:***         
+**Please note with caution:**       
 The following code will reset your talents when the gossip is ended!     
 
 ```
@@ -81,4 +81,4 @@ RegisterUnitGossipEvent(NPC-ID, 2, "OnSelect")    -- will register the second fu
 RegisterUnitGossipEvent(NPC-ID, 3, "GossipOnEnd") -- will register the second function
 ```
 
-You must change ***NPC-ID*** with the id of your npc that you will want to register this script on.
+You must change **NPC-ID** with the id of your npc that you will want to register this script on.

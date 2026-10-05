@@ -10,9 +10,11 @@ position: 770
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x301      |
 TBC        | 0x301      |
 WotLK      | 0x301      |
 Cata       | 0x34A5     |
 MoP        | 0x08B2     |
+WoD        |            |
+Legion     |            |

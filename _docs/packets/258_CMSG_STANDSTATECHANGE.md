@@ -12,9 +12,11 @@ Send when client goes afk or on sit down
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x101      |
 TBC        | 0x101      |
 WotLK      | 0x101      |
 Cata       | 0x0535     |
 MoP        | 0x03E6     |
+WoD        |            |
+Legion     |            |

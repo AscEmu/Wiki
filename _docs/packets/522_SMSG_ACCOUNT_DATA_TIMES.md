@@ -10,9 +10,11 @@ position: 522
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x209      |
 TBC        | 0x209      |
 WotLK      | 0x209      |
 Cata       | 0x4B05     |
 MoP        | 0x162B     |
+WoD        |            |
+Legion     |            |

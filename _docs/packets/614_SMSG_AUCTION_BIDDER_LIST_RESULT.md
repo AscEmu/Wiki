@@ -10,9 +10,11 @@ position: 614
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x265      |
 TBC        | 0x265      |
 WotLK      | 0x265      |
 Cata       | 0x0027     |
 MoP        | 0x0B24     |
+WoD        |            |
+Legion     |            |

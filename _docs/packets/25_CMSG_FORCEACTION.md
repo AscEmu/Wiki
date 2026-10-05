@@ -10,9 +10,11 @@ position: 25
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x018      |
 TBC        | 0x018      |
 WotLK      | 0x018      |
 Cata       | 0x018      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

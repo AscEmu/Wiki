@@ -10,9 +10,11 @@ position: 854
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    |            |
 TBC        | 0x355      |
 WotLK      | 0x355      |
 Cata       | 0x6504     |
 MoP        |            |
+WoD        |            |
+Legion     |            |

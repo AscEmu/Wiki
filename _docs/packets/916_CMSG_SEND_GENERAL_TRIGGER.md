@@ -10,9 +10,11 @@ position: 916
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x393      |
 TBC        | 0x393      |
 WotLK      | 0x393      |
 Cata       | 0x393      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

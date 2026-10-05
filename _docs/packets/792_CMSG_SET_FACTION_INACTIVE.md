@@ -10,9 +10,11 @@ position: 792
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x317      |
 TBC        | 0x317      |
 WotLK      | 0x317      |
 Cata       | 0x0E37     |
 MoP        | 0x0778     |
+WoD        |            |
+Legion     |            |

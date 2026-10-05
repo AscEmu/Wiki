@@ -20,13 +20,13 @@ Field                                                                           
 
 This is the numerical identifier of the random suffix group.
 
-This identifier is referenced in the `randomsuffix` field in the [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
+This identifier is referenced in the **randomsuffix** field in the [item_properties](/Wiki/database/world/item_properties/ "Item properties") table.
 
 ### randomsuffix
 
 This is the numerical identifier of the individual random enchants that items in the group can gain on drop.
 
-This identifier is the index of ItemRandomSuffix.dbc.
+This identifier is the index of **ItemRandomSuffix.dbc**.
 
 ### chance
 

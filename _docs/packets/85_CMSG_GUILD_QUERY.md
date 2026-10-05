@@ -10,9 +10,11 @@ position: 85
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x054      |
 TBC        | 0x054      |
 WotLK      | 0x054      |
 Cata       | 0x4426     |
 MoP        | 0x1AB6     |
+WoD        |            |
+Legion     |            |

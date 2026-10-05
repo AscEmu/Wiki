@@ -11,9 +11,9 @@ position: 48
 
 Returns a numerical value to indicate the type of power.
 
-## Power Types 
+## Power Types
 
-(../world/Spell/Definitions/PowerType.h)
+(../world/Spell/Definitions/PowerType.hpp)
 
 ```
 POWER_TYPE_HEALTH      = -2,
@@ -50,15 +50,15 @@ POWER_TYPE_WRATH       = 142
 
 ```
 PowerTypes = {
-[0] = "Mana", 
+[0] = "Mana",
 [1] = "Rage",
-[2] = "Focus", 
-[3] = "Energy", 
+[2] = "Focus",
+[3] = "Energy",
 [4] = "Happiness",
 [5] = "Runes",
 [6] = "Runic Power"
 }
- 
+
 function ReturnPowerType(pUnit)
 print(PowerTypes[pUnit:GetPowerType()])
 end

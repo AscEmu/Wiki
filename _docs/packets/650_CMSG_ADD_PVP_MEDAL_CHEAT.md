@@ -10,9 +10,11 @@ position: 650
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x289      |
 TBC        | 0x289      |
 WotLK      | 0x289      |
 Cata       | 0x289      |
 MoP        |            |
+WoD        |            |
+Legion     |            |

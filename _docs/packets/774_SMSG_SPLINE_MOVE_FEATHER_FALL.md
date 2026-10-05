@@ -10,9 +10,11 @@ position: 774
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x305      |
 TBC        | 0x305      |
 WotLK      | 0x305      |
 Cata       | 0x3DA5     |
 MoP        | 0x1893     |
+WoD        |            |
+Legion     |            |

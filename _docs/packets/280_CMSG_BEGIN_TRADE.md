@@ -10,9 +10,11 @@ position: 280
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x117      |
 TBC        | 0x117      |
 WotLK      | 0x117      |
 Cata       | 0x721E     |
 MoP        | 0x1CE3     |
+WoD        |            |
+Legion     |            |

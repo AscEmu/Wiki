@@ -10,9 +10,11 @@ position: 775
 ### Status
 
 Version    | Hex        | Comment
----------- | ---------- | ---------- 
+---------- | ---------- | ----------
 Classic    | 0x306      |
 TBC        | 0x306      |
 WotLK      | 0x306      |
 Cata       | 0x38B2     |
 MoP        | 0x0B08     |
+WoD        |            |
+Legion     |            |
