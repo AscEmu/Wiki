@@ -466,7 +466,7 @@ hp              | m      | Modifies health points (HP) of selected target       
 mana            | m      | Modifies mana points (MP) of selected target.                  | .modify mana (value)
 rage            | m      | Modifies rage points of selected target.                       | .modify rage (value)
 energy          | m      | Modifies energy points of selected target.                     | .modify energy (value)
-runicpower      | m      | Mods runic power points of selected target. (WotLK and above)  | .modify runicpower (value)
+runicpower      | m      | Mods runic power points of selected target. (:wotlk: and above)| .modify runicpower (value)
 strength        | m      | Modifies the strength value of the selected target.            | .modify strength (value)
 agility         | m      | Modifies the agility value of the selected target.             | .modify agility (value)
 intelligence    | m      | Modifies the intelligence value of the selected target.        | .modify intelligence (value)

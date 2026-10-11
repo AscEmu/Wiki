@@ -67,4 +67,4 @@ When set to **0**, **itemid** refers to an entry from [item_properties](/Wiki/da
 
 When set to a non-zero value, **itemid** refers to a currency ID from **CurrencyTypes.dbc**.
 
-This field is available for Cata and later versions and is always the last column in the loot table.
+This field is available for :cata: and later versions and is always the last column in the loot table.
