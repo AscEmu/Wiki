@@ -123,3 +123,15 @@ SELECT * FROM account_names WHERE id = 254;
 ```
 ![alt text example](/Wiki/images/logon_icon_s.jpg "Code Tag example")
 ```
+
+## Supported Expansions
+
+This section provides a brief overview of the extensions supported by AscEmu.
+
+Use the expansion icons below to quickly navigate to the documentation and version-specific information for each supported expansion.
+
+:classic: :tbc: :wotlk: :cata: :mop: :wod: :legion: :bfa: :shadowlands: :dragonflight: :warwithin: :midnight:
+
+```
+:classic: :tbc: :wotlk: :cata: :mop: :wod: :legion: :bfa: :shadowlands: :dragonflight: :warwithin: :midnight:
+```

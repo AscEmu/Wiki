@@ -31,7 +31,7 @@ The Entry ID of the creature from the [creature_properties](/Wiki/database/world
 
 The Entry ID of the item that can be dropped, from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
 
-**For Cata** and later versions, when [is_currency](#is_currency) is enabled, this value contains a currency ID from **CurrencyTypes.dbc** instead of an **item_properties** entry ID.
+:cata: and later versions, when [is_currency](#is_currency) is enabled, this value contains a currency ID from **CurrencyTypes.dbc** instead of an **item_properties** entry ID.
 
 ### normal10percentchance
 
@@ -69,4 +69,4 @@ When set to **0**, **itemid** refers to an entry from [item_properties](/Wiki/da
 
 When set to a non-zero value, **itemid** refers to a currency ID from **CurrencyTypes.dbc**.
 
-This field is available for Cata and later versions and is always the last column in the loot table.
+This field is available for :cata: and later versions and is always the last column in the loot table.

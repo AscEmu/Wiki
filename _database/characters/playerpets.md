@@ -69,7 +69,7 @@ The XP of the player pet.
 
 ### slot
 
-The slot of the player pet. Although 0-4 slots are reserved for active slots in all versions, classic - wotlk only use the first slot (0).
+The slot of the player pet. Although 0-4 slots are reserved for active slots in all versions, :classic: - :wotlk: only use the first slot (0).
 
     0-4 = active pet slot
     +5  = stable slot
@@ -108,11 +108,11 @@ We have 10 actionbar elements:
 
 ### reset_time
 
-Timestamp when pet's beast training skills (classic - tbc) or talents (wotlk+) were last resetted.
+Timestamp when pet's beast training skills (:classic: - :tbc:) or talents (:wotlk:+) were last resetted.
 
 ### reset_cost
 
-The last beast training skill reset (classic - tbc) or talent reset (wotlk+) cost of pet.
+The last beast training skill reset (:classic: - :tbc:) or talent reset (:wotlk:+) cost of pet.
 
 ### spellid
 
