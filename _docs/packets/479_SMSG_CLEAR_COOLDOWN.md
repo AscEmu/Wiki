@@ -11,10 +11,14 @@ position: 479
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1DE      |
-TBC        | 0x1DE      |
-WotLK      | 0x1DE      |
+Classic    | 0x01DE     |
+TBC        | 0x01DE     |
+WotLK      | 0x01DE     |
 Cata       | 0x0627     |
 MoP        | 0x162A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2667     |
+Legion     | 0x26E4     |
+BfA        | 0x26ED     |
+SL         | 0x26B1     |
+DF         | 0x26BA     |
+TWW        | 0x40015D   |

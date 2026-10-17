@@ -11,10 +11,14 @@ position: 718
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2CD      |
-TBC        | 0x2CD      |
-WotLK      | 0x2CD      |
+Classic    | 0x02CD     |
+TBC        | 0x02CD     |
+WotLK      | 0x02CD     |
 Cata       | 0x2F26     |
 MoP        | 0x0A87     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3655     |
+Legion     | 0x36C7     |
+BfA        | 0x36C8     |
+SL         | 0x36C6     |
+DF         | 0x36C5     |
+TWW        | 0x3E00F9   |

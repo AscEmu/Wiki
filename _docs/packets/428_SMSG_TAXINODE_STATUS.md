@@ -11,10 +11,14 @@ position: 428
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1AB      |
-TBC        | 0x1AB      |
-WotLK      | 0x1AB      |
+Classic    | 0x01AB     |
+TBC        | 0x01AB     |
+WotLK      | 0x01AB     |
 Cata       | 0x2936     |
 MoP        | 0x169E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2626     |
+Legion     | 0x26A5     |
+BfA        | 0x26AB     |
+SL         | 0x2674     |
+DF         | 0x267D     |
+TWW        | 0x400120   |

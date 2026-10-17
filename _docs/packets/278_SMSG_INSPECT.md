@@ -11,10 +11,14 @@ position: 278
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x115      |
-TBC        | 0x115      |
-WotLK      | 0x115      |
+Classic    | 0x0115     |
+TBC        | 0x0115     |
+WotLK      | 0x0115     |
 Cata       | 0x4014     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

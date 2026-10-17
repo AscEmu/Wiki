@@ -11,10 +11,14 @@ position: 891
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x37A      |
-TBC        | 0x37A      |
-WotLK      | 0x37A      |
+Classic    | 0x037A     |
+TBC        | 0x037A     |
+WotLK      | 0x037A     |
 Cata       | 0x2606     |
 MoP        | 0x0E8F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2688     |
+Legion     | 0x2706     |
+BfA        | 0x2711     |
+SL         | 0x26CA     |
+DF         | 0x26D4     |
+TWW        | 0x400177   |

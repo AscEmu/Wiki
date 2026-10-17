@@ -11,10 +11,14 @@ position: 792
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x317      |
-TBC        | 0x317      |
-WotLK      | 0x317      |
+Classic    | 0x0317     |
+TBC        | 0x0317     |
+WotLK      | 0x0317     |
 Cata       | 0x0E37     |
 MoP        | 0x0778     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3449     |
+Legion     | 0x34E4     |
+BfA        | 0x34E8     |
+SL         | 0x34EE     |
+DF         | 0x34F0     |
+TWW        | 0x3A0078   |

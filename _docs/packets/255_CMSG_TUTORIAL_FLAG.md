@@ -13,10 +13,14 @@ Send on log into world.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0FE      |
-TBC        | 0x0FE      |
-WotLK      | 0x0FE      |
+Classic    | 0x00FE     |
+TBC        | 0x00FE     |
+WotLK      | 0x00FE     |
 Cata       | 0x6C26     |
 MoP        | 0x1D36     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x366B     |
+Legion     | 0x36DC     |
+BfA        | 0x36DB     |
+SL         | 0x36D8     |
+DF         | 0x36D7     |
+TWW        | 0x3E010C   |

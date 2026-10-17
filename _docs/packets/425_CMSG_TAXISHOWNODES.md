@@ -11,10 +11,14 @@ position: 425
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1A8      |
-TBC        | 0x1A8      |
-WotLK      | 0x1A8      |
+Classic    | 0x01A8     |
+TBC        | 0x01A8     |
+WotLK      | 0x01A8     |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -18,3 +18,7 @@ Cata       | 0xBD84     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

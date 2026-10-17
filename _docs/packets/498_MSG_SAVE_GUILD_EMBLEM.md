@@ -11,10 +11,14 @@ position: 498
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1F1      |
-TBC        | 0x1F1      |
-WotLK      | 0x1F1      |
+Classic    | 0x01F1     |
+TBC        | 0x01F1     |
+WotLK      | 0x01F1     |
 Cata       | 0x2404     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31F4     |
+Legion     | 0x3299     |
+BfA        | 0x32AB     |
+SL         | 0x32BB     |
+DF         | 0x32C9     |
+TWW        | 0x390185   |

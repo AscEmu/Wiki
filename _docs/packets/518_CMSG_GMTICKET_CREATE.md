@@ -12,9 +12,13 @@ position: 518
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x205      |
-WotLK      | 0x205      |
+TBC        | 0x0205     |
+WotLK      | 0x0205     |
 Cata       | 0x0137     |
 MoP        | 0x1A86     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x35CC     |
+Legion     | 0x3645     |
+BfA        | 0x3645     |
+SL         |            |
+DF         |            |
+TWW        |            |

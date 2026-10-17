@@ -11,10 +11,14 @@ position: 1664
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x41C      |
-TBC        | 0x41C      |
-WotLK      | 0x41D      |
+Classic    | 0x041C     |
+TBC        | 0x041C     |
+WotLK      | 0x041D     |
 Cata       | 0x041D     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

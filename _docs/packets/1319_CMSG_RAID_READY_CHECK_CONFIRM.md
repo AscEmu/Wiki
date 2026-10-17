@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x158B     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

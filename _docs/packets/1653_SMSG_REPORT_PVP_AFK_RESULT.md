@@ -18,3 +18,7 @@ Cata       | 0x2D06     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

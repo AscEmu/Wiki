@@ -11,10 +11,14 @@ position: 134
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x085      |
-TBC        | 0x085      |
-WotLK      | 0x085      |
+Classic    | 0x0085     |
+TBC        | 0x0085     |
+WotLK      | 0x0085     |
 Cata       | 0x3231     |
 MoP        | 0x147B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2FDE     |
+Legion     | 0x3060     |
+BfA        | 0x3061     |
+SL         | 0x3061     |
+DF         | 0x5017     |
+TWW        | 0x3E002A   |

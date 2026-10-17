@@ -11,10 +11,14 @@ position: 302
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x12D      |
-TBC        | 0x12D      |
-WotLK      | 0x12D      |
+Classic    | 0x012D     |
+TBC        | 0x012D     |
+WotLK      | 0x012D     |
 Cata       | 0x112E     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

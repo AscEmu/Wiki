@@ -11,10 +11,14 @@ position: 558
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x22D      |
-TBC        | 0x22D      |
-WotLK      | 0x22D      |
-Cata       | 0x22D      |
+Classic    | 0x022D     |
+TBC        | 0x022D     |
+WotLK      | 0x022D     |
+Cata       | 0x022D     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

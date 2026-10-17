@@ -11,10 +11,14 @@ position: 86
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x055      |
-TBC        | 0x055      |
-WotLK      | 0x055      |
+Classic    | 0x0055     |
+TBC        | 0x0055     |
+WotLK      | 0x0055     |
 Cata       | 0x0E06     |
 MoP        | 0x1B79     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2962     |
+Legion     | 0x29E5     |
+BfA        | 0x29E5     |
+SL         | 0x29E5     |
+DF         | 0x29E6     |
+TWW        | 0x4C002D   |

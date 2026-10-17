@@ -11,10 +11,14 @@ position: 780
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x30B      |
-TBC        | 0x30B      |
-WotLK      | 0x30B      |
+Classic    | 0x030B     |
+TBC        | 0x030B     |
+WotLK      | 0x030B     |
 Cata       | 0x31A5     |
 MoP        | 0x0F29     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D6D     |
+Legion     | 0x2DF1     |
+BfA        | 0x2DF1     |
+SL         | 0x2E25     |
+DF         | 0x2E25     |
+TWW        | 0x580055   |

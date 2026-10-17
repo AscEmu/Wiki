@@ -11,10 +11,14 @@ position: 181
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0B4      |
-TBC        | 0x0B4      |
-WotLK      | 0x0B4      |
+Classic    | 0x00B4     |
+TBC        | 0x00B4     |
+WotLK      | 0x00B4     |
 Cata       | 0x0937     |
 MoP        | 0x1C44     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x313C     |
+Legion     | 0x31CD     |
+BfA        | 0x31D7     |
+SL         | 0x31D8     |
+DF         | 0x31D7     |
+TWW        | 0x390087   |

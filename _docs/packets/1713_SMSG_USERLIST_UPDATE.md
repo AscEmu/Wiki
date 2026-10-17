@@ -11,10 +11,14 @@ position: 1713
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3F1      |
-TBC        | 0x3F1      |
-WotLK      | 0x3F2      |
+Classic    | 0x03F1     |
+TBC        | 0x03F1     |
+WotLK      | 0x03F2     |
 Cata       | 0x0135     |
 MoP        | 0x063A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2B3E     |
+Legion     | 0x2BBB     |
+BfA        | 0x2BBB     |
+SL         | 0x2BBB     |
+DF         | 0x2BBB     |
+TWW        | 0x450011   |

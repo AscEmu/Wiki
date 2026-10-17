@@ -11,10 +11,14 @@ position: 1561
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x36A      |
-TBC        | 0x36A      |
+Classic    | 0x036A     |
+TBC        | 0x036A     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

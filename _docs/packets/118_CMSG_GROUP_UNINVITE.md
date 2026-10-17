@@ -11,10 +11,14 @@ position: 118
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x075      |
-TBC        | 0x075      |
-WotLK      | 0x075      |
-Cata       | 0x075      |
+Classic    | 0x0075     |
+TBC        | 0x0075     |
+WotLK      | 0x0075     |
+Cata       | 0x0075     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

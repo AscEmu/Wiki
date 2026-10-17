@@ -11,10 +11,14 @@ position: 995
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3E1      |
-TBC        | 0x3E1      |
-WotLK      | 0x3E2      |
+Classic    | 0x03E1     |
+TBC        | 0x03E1     |
+WotLK      | 0x03E2     |
 Cata       | 0x6317     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

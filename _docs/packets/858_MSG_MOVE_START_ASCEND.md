@@ -11,10 +11,14 @@ position: 858
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x359      |
-TBC        | 0x359      |
-WotLK      | 0x359      |
+Classic    | 0x0359     |
+TBC        | 0x0359     |
+WotLK      | 0x0359     |
 Cata       | 0x390A     |
 MoP        | 0x11FA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x399E     |
+Legion     | 0x3A26     |
+BfA        | 0x3A27     |
+SL         | 0x3A2A     |
+DF         | 0x3A29     |
+TWW        | 0x3C0046   |

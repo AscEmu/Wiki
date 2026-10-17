@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x075A     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

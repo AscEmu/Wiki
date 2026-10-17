@@ -12,9 +12,13 @@ position: 619
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x26A      |
-WotLK      | 0x26A      |
+TBC        | 0x026A     |
+WotLK      | 0x026A     |
 Cata       | 0x3314     |
 MoP        | 0x09F0     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x39AF     |
+Legion     | 0x3A37     |
+BfA        | 0x3A38     |
+SL         | 0x3A3D     |
+DF         | 0x3A3C     |
+TWW        | 0x3C0059   |

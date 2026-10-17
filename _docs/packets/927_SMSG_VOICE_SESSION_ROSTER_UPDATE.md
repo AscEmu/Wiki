@@ -11,10 +11,14 @@ position: 927
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x39E      |
-TBC        | 0x39E      |
-WotLK      | 0x39E      |
+Classic    | 0x039E     |
+TBC        | 0x039E     |
+WotLK      | 0x039E     |
 Cata       | 0x2A17     |
 MoP        |            |
-WoD        |            |
+WoD        | 0x2B33     |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

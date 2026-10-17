@@ -11,10 +11,14 @@ position: 1714
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3FB      |
-TBC        | 0x3FB      |
-WotLK      | 0x3FC      |
+Classic    | 0x03FB     |
+TBC        | 0x03FB     |
+WotLK      | 0x03FC     |
 Cata       | 0x6225     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

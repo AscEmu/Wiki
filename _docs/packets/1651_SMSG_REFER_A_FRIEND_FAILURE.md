@@ -11,10 +11,14 @@ position: 1651
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x420      |
-TBC        | 0x420      |
-WotLK      | 0x421      |
+Classic    | 0x0420     |
+TBC        | 0x0420     |
+WotLK      | 0x0421     |
 Cata       | 0x2037     |
 MoP        | 0x021E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x266E     |
+Legion     | 0x26EB     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

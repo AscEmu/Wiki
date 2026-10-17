@@ -11,10 +11,14 @@ position: 261
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x104      |
-TBC        | 0x104      |
-WotLK      | 0x104      |
+Classic    | 0x0104     |
+TBC        | 0x0104     |
+WotLK      | 0x0104     |
 Cata       | 0x2E24     |
 MoP        | 0x07E9     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x33F9     |
+Legion     | 0x348A     |
+BfA        | 0x3488     |
+SL         | 0x348E     |
+DF         | 0x348E     |
+TWW        | 0x3A0019   |

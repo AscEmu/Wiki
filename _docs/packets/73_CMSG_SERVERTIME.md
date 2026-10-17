@@ -11,10 +11,14 @@ position: 73
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x048      |
-TBC        | 0x048      |
-WotLK      | 0x048      |
-Cata       | 0x048      |
+Classic    | 0x0048     |
+TBC        | 0x0048     |
+WotLK      | 0x0048     |
+Cata       | 0x0048     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 80
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x04F      |
-TBC        | 0x04F      |
-WotLK      | 0x04F      |
+Classic    | 0x004F     |
+TBC        | 0x004F     |
+WotLK      | 0x004F     |
 Cata       | 0x6514     |
 MoP        | 0x0AAF     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x262F     |
+Legion     | 0x26AE     |
+BfA        | 0x26B4     |
+SL         | 0x267D     |
+DF         | 0x2686     |
+TWW        | 0x400129   |

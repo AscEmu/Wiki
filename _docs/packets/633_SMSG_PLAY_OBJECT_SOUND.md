@@ -11,10 +11,14 @@ position: 633
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x278      |
-TBC        | 0x278      |
-WotLK      | 0x278      |
+Classic    | 0x0278     |
+TBC        | 0x0278     |
+WotLK      | 0x0278     |
 Cata       | 0x2635     |
 MoP        | 0x1443     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2729     |
+Legion     | 0x27AC     |
+BfA        | 0x27B3     |
+SL         | 0x275D     |
+DF         | 0x2768     |
+TWW        | 0x40020C   |

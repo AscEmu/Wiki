@@ -11,10 +11,14 @@ position: 1256
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x410      |
-TBC        | 0x410      |
-WotLK      | 0x411      |
-Cata       | 0x411      |
+Classic    | 0x0410     |
+TBC        | 0x0410     |
+WotLK      | 0x0411     |
+Cata       | 0x0411     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

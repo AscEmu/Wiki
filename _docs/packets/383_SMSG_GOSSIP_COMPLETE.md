@@ -11,10 +11,14 @@ position: 383
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x17E      |
-TBC        | 0x17E      |
-WotLK      | 0x17E      |
+Classic    | 0x017E     |
+TBC        | 0x017E     |
+WotLK      | 0x017E     |
 Cata       | 0x0806     |
 MoP        | 0x034E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2A13     |
+Legion     | 0x2A96     |
+BfA        | 0x2A96     |
+SL         | 0x2A97     |
+DF         | 0x2A97     |
+TWW        | 0x5D0017   |

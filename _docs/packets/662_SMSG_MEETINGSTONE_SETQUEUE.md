@@ -11,10 +11,14 @@ position: 662
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x295      |
-TBC        | 0x295      |
-WotLK      | 0x295      |
-Cata       | 0x295      |
+Classic    | 0x0295     |
+TBC        | 0x0295     |
+WotLK      | 0x0295     |
+Cata       | 0x0295     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

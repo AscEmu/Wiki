@@ -11,10 +11,14 @@ position: 476
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1DB      |
-TBC        | 0x1DB      |
-WotLK      | 0x1DB      |
+Classic    | 0x01DB     |
+TBC        | 0x01DB     |
+WotLK      | 0x01DB     |
 Cata       | 0x0B06     |
 MoP        | 0x1026     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26D1     |
+Legion     | 0x2750     |
+BfA        | 0x2756     |
+SL         | 0x2705     |
+DF         | 0x2710     |
+TWW        | 0x4001B4   |

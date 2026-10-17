@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x1279     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

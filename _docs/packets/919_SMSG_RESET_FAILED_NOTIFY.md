@@ -11,10 +11,14 @@ position: 919
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x396      |
-TBC        | 0x396      |
-WotLK      | 0x396      |
+Classic    | 0x0396     |
+TBC        | 0x0396     |
+WotLK      | 0x0396     |
 Cata       | 0x4616     |
 MoP        | 0x10AE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2663     |
+Legion     | 0x26E1     |
+BfA        | 0x26EA     |
+SL         | 0x26AE     |
+DF         | 0x26B7     |
+TWW        | 0x40015A   |

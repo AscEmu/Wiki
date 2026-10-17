@@ -11,10 +11,14 @@ position: 271
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x10E      |
-TBC        | 0x10E      |
-WotLK      | 0x10E      |
+Classic    | 0x010E     |
+TBC        | 0x010E     |
+WotLK      | 0x010E     |
 Cata       | 0x0F17     |
 MoP        | 0x02EC     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x391C     |
+Legion     | 0x399E     |
+BfA        | 0x399E     |
+SL         | 0x399E     |
+DF         | 0x399E     |
+TWW        | 0x3B0008   |

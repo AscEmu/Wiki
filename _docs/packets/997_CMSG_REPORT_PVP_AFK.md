@@ -11,10 +11,14 @@ position: 997
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3E3      |
-TBC        | 0x3E3      |
-WotLK      | 0x3E4      |
+Classic    | 0x03E3     |
+TBC        | 0x03E3     |
+WotLK      | 0x03E4     |
 Cata       | 0x6734     |
 MoP        | 0x06F9     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x345E     |
+Legion     | 0x34F8     |
+BfA        | 0x34FC     |
+SL         | 0x3502     |
+DF         | 0x3504     |
+TWW        | 0x3A008C   |

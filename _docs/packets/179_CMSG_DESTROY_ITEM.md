@@ -11,10 +11,14 @@ position: 179
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x111      |
-TBC        | 0x111      |
-WotLK      | 0x111      |
+Classic    | 0x0111     |
+TBC        | 0x0111     |
+WotLK      | 0x0111     |
 Cata       | 0x4A27     |
 MoP        | 0x0026     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31E0     |
+Legion     | 0x3285     |
+BfA        | 0x3296     |
+SL         | 0x32A2     |
+DF         | 0x32B0     |
+TWW        | 0x39016B   |

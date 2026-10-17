@@ -11,10 +11,14 @@ position: 754
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2F1      |
-TBC        | 0x2F1      |
-WotLK      | 0x2F1      |
-Cata       | 0x2F1      |
+Classic    | 0x02F1     |
+TBC        | 0x02F1     |
+WotLK      | 0x02F1     |
+Cata       | 0x02F1     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

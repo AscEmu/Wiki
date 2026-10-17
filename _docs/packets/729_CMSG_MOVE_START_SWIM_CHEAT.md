@@ -11,10 +11,14 @@ position: 729
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2D8      |
-TBC        | 0x2D8      |
-WotLK      | 0x2D8      |
+Classic    | 0x02D8     |
+TBC        | 0x02D8     |
+WotLK      | 0x02D8     |
 Cata       | 0x12D9     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

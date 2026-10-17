@@ -11,10 +11,14 @@ position: 56
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x037      |
-TBC        | 0x037      |
-WotLK      | 0x037      |
+Classic    | 0x0037     |
+TBC        | 0x0037     |
+WotLK      | 0x0037     |
 Cata       | 0x0502     |
 MoP        | 0x00E0     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3568     |
+Legion     | 0x35E8     |
+BfA        | 0x35E8     |
+SL         | 0x35E8     |
+DF         | 0x35E8     |
+TWW        | 0x3E0014   |

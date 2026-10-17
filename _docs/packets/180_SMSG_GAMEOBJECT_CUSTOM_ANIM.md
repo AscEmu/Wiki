@@ -11,10 +11,14 @@ position: 180
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0B3      |
-TBC        | 0x0B3      |
-WotLK      | 0x0B3      |
+Classic    | 0x00B3     |
+TBC        | 0x00B3     |
+WotLK      | 0x00B3     |
 Cata       | 0x4936     |
 MoP        | 0x001F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x255C     |
+Legion     | 0x25D7     |
+BfA        | 0x25D8     |
+SL         | 0x25C0     |
+DF         | 0x25C5     |
+TWW        | 0x400061   |

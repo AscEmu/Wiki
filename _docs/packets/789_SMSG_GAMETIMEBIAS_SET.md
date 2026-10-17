@@ -11,10 +11,14 @@ position: 789
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x314      |
-TBC        | 0x314      |
-WotLK      | 0x314      |
-Cata       | 0x314      |
+Classic    | 0x0314     |
+TBC        | 0x0314     |
+WotLK      | 0x0314     |
+Cata       | 0x0314     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

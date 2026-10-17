@@ -11,10 +11,14 @@ position: 737
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2E0      |
-TBC        | 0x2E0      |
-WotLK      | 0x2E0      |
+Classic    | 0x02E0     |
+TBC        | 0x02E0     |
+WotLK      | 0x02E0     |
 Cata       | 0x7308     |
 MoP        | 0x14C2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30F8     |
+Legion     | 0x317A     |
+BfA        | 0x317B     |
+SL         | 0x317C     |
+DF         | 0x317C     |
+TWW        | 0x390028   |

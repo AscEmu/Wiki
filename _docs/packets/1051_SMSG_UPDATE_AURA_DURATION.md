@@ -11,10 +11,14 @@ position: 1051
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x137      |
-TBC        | 0x137      |
+Classic    | 0x0137     |
+TBC        | 0x0137     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

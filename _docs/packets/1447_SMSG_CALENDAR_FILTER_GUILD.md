@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x438      |
+WotLK      | 0x0438     |
 Cata       | 0x4A26     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2637     |
+Legion     | 0x26B6     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 950
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3B4      |
-TBC        | 0x3B4      |
-WotLK      | 0x3B5      |
+Classic    | 0x03B4     |
+TBC        | 0x03B4     |
+WotLK      | 0x03B5     |
 Cata       | 0x0B07     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3673     |
+Legion     | 0x35F0     |
+BfA        | 0x35F0     |
+SL         | 0x35F0     |
+DF         | 0x35F0     |
+TWW        | 0x3E001C   |

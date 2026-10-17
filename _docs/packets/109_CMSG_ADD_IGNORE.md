@@ -13,10 +13,14 @@ Called on adding ignored player to list.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x06C      |
-TBC        | 0x06C      |
-WotLK      | 0x06C      |
+Classic    | 0x006C     |
+TBC        | 0x006C     |
+WotLK      | 0x006C     |
 Cata       | 0x4726     |
 MoP        | 0x0D20     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3662     |
+Legion     | 0x36D3     |
+BfA        | 0x36D2     |
+SL         | 0x36D0     |
+DF         | 0x36CF     |
+TWW        | 0x3E0104   |

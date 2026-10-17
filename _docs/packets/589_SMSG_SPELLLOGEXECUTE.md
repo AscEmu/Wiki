@@ -11,10 +11,14 @@ position: 589
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x24C      |
-TBC        | 0x24C      |
-WotLK      | 0x24C      |
+Classic    | 0x024C     |
+TBC        | 0x024C     |
+WotLK      | 0x024C     |
 Cata       | 0x0626     |
 MoP        | 0x00D8     |
 WoD        |            |
-Legion     |            |
+Legion     | 0x2C40     |
+BfA        | 0x2C40     |
+SL         | 0x2C40     |
+DF         | 0x2C42     |
+TWW        | 0x5F0031   |

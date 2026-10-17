@@ -11,10 +11,14 @@ position: 697
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2B8      |
-TBC        | 0x2B8      |
-WotLK      | 0x2B8      |
+Classic    | 0x02B8     |
+TBC        | 0x02B8     |
+WotLK      | 0x02B8     |
 Cata       | 0x4505     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

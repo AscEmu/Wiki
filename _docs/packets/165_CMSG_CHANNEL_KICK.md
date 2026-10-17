@@ -11,10 +11,14 @@ position: 165
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0A4      |
-TBC        | 0x0A4      |
-WotLK      | 0x0A4      |
+Classic    | 0x00A4     |
+TBC        | 0x00A4     |
+WotLK      | 0x00A4     |
 Cata       | 0x3156     |
 MoP        | 0x0E0B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3762     |
+Legion     | 0x37E4     |
+BfA        | 0x37E0     |
+SL         | 0x37E0     |
+DF         | 0x37F4     |
+TWW        | 0x2B001C   |

@@ -11,10 +11,14 @@ position: 895
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x37E      |
-TBC        | 0x37E      |
-WotLK      | 0x37E      |
+Classic    | 0x037E     |
+TBC        | 0x037E     |
+WotLK      | 0x037E     |
 Cata       | 0x30B1     |
 MoP        | 0x00E1     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D27     |
+Legion     | 0x2DA9     |
+BfA        | 0x2DA9     |
+SL         | 0x2DDB     |
+DF         | 0x2DDB     |
+TWW        | 0x580009   |

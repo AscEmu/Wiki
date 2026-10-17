@@ -11,10 +11,14 @@ position: 762
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2F9      |
-TBC        | 0x2F9      |
-WotLK      | 0x2F9      |
-Cata       | 0x2F9      |
+Classic    | 0x02F9     |
+TBC        | 0x02F9     |
+WotLK      | 0x02F9     |
+Cata       | 0x02F9     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

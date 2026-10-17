@@ -11,10 +11,14 @@ position: 140
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x08B      |
-TBC        | 0x08B      |
-WotLK      | 0x08B      |
+Classic    | 0x008B     |
+TBC        | 0x008B     |
+WotLK      | 0x008B     |
 Cata       | 0x1030     |
 MoP        | 0x0571     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

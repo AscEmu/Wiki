@@ -11,10 +11,14 @@ position: 764
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2FB      |
-TBC        | 0x2FB      |
-WotLK      | 0x2FB      |
+Classic    | 0x02FB     |
+TBC        | 0x02FB     |
+WotLK      | 0x02FB     |
 Cata       | 0x0517     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

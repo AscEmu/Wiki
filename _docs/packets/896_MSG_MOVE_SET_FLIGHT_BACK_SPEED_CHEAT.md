@@ -11,10 +11,14 @@ position: 896
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x37F      |
-TBC        | 0x37F      |
-WotLK      | 0x37F      |
+Classic    | 0x037F     |
+TBC        | 0x037F     |
+WotLK      | 0x037F     |
 Cata       | 0x1380     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

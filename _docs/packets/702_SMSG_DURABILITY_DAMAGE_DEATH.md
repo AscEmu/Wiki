@@ -11,10 +11,14 @@ position: 702
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2BD      |
-TBC        | 0x2BD      |
-WotLK      | 0x2BD      |
+Classic    | 0x02BD     |
+TBC        | 0x02BD     |
+WotLK      | 0x02BD     |
 Cata       | 0x4C27     |
 MoP        | 0x1E3E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2708     |
+Legion     | 0x278A     |
+BfA        | 0x278D     |
+SL         | 0x2739     |
+DF         | 0x2743     |
+TWW        | 0x4001E6   |

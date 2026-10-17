@@ -11,10 +11,14 @@ position: 486
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1E5      |
-TBC        | 0x1E5      |
-WotLK      | 0x1E5      |
-Cata       | 0x1E5      |
+Classic    | 0x01E5     |
+TBC        | 0x01E5     |
+WotLK      | 0x01E5     |
+Cata       | 0x01E5     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

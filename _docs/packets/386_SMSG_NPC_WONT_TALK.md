@@ -11,10 +11,14 @@ position: 386
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x181      |
-TBC        | 0x181      |
-WotLK      | 0x181      |
+Classic    | 0x0181     |
+TBC        | 0x0181     |
+WotLK      | 0x0181     |
 Cata       | 0x1182     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 122
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x079      |
-TBC        | 0x079      |
-WotLK      | 0x079      |
+Classic    | 0x0079     |
+TBC        | 0x0079     |
+WotLK      | 0x0079     |
 Cata       | 0x0526     |
 MoP        | 0x0CE1     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25CA     |
+Legion     | 0x2649     |
+BfA        | 0x264D     |
+SL         | 0x2625     |
+DF         | 0x262C     |
+TWW        | 0x4000CF   |

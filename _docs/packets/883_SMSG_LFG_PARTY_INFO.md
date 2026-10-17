@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x372      |
+WotLK      | 0x0372     |
 Cata       | 0x1373     |
 MoP        | 0x168E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x29B5     |
+Legion     | 0x2A36     |
+BfA        | 0x2A36     |
+SL         | 0x2A36     |
+DF         | 0x2A36     |
+TWW        | 0x54001A   |

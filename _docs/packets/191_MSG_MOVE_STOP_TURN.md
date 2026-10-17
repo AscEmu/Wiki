@@ -11,10 +11,14 @@ position: 191
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0BE      |
-TBC        | 0x0BE      |
-WotLK      | 0x0BE      |
+Classic    | 0x00BE     |
+TBC        | 0x00BE     |
+WotLK      | 0x00BE     |
 Cata       | 0x331E     |
 MoP        | 0x1170     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x396B     |
+Legion     | 0x39EE     |
+BfA        | 0x39EE     |
+SL         | 0x39EE     |
+DF         | 0x39EE     |
+TWW        | 0x3C000A   |

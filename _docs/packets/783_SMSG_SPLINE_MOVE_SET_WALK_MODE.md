@@ -11,10 +11,14 @@ position: 783
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x30E      |
-TBC        | 0x30E      |
-WotLK      | 0x30E      |
+Classic    | 0x030E     |
+TBC        | 0x030E     |
+WotLK      | 0x030E     |
 Cata       | 0x54B6     |
 MoP        | 0x1865     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D70     |
+Legion     | 0x2DF4     |
+BfA        | 0x2DF4     |
+SL         | 0x2E28     |
+DF         | 0x2E28     |
+TWW        | 0x580058   |

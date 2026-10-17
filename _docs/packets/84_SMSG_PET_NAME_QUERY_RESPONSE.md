@@ -11,10 +11,14 @@ position: 84
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x053      |
-TBC        | 0x053      |
-WotLK      | 0x053      |
+Classic    | 0x0053     |
+TBC        | 0x0053     |
+WotLK      | 0x0053     |
 Cata       | 0x4C37     |
 MoP        | 0x0ABE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2684     |
+Legion     | 0x2702     |
+BfA        | 0x270D     |
+SL         | 0x2919     |
+DF         | 0x2919     |
+TWW        | 0x44000B   |

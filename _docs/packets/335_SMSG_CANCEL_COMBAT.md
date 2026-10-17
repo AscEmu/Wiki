@@ -11,10 +11,14 @@ position: 335
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x14E      |
-TBC        | 0x14E      |
-WotLK      | 0x14E      |
+Classic    | 0x014E     |
+TBC        | 0x014E     |
+WotLK      | 0x014E     |
 Cata       | 0x4F04     |
 MoP        | 0x0534     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26B3     |
+Legion     | 0x2731     |
+BfA        | 0x2737     |
+SL         | 0x2946     |
+DF         | 0x2947     |
+TWW        | 0x460025   |

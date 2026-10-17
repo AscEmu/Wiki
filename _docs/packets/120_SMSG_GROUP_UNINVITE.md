@@ -11,10 +11,14 @@ position: 120
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x077      |
-TBC        | 0x077      |
-WotLK      | 0x077      |
+Classic    | 0x0077     |
+TBC        | 0x0077     |
+WotLK      | 0x0077     |
 Cata       | 0x0A07     |
 MoP        | 0x1313     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x274E     |
+Legion     | 0x27D4     |
+BfA        | 0x27DA     |
+SL         | 0x2782     |
+DF         | 0x278A     |
+TWW        | 0x40022E   |

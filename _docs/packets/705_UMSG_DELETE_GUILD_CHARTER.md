@@ -11,10 +11,14 @@ position: 705
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2C0      |
-TBC        | 0x2C0      |
-WotLK      | 0x2C0      |
+Classic    | 0x02C0     |
+TBC        | 0x02C0     |
+WotLK      | 0x02C0     |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -12,9 +12,13 @@ position: 709
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x2C4      |
-WotLK      | 0x2C4      |
-Cata       | 0x2C4      |
+TBC        | 0x02C4     |
+WotLK      | 0x02C4     |
+Cata       | 0x02C4     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

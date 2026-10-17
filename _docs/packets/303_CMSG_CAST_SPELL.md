@@ -11,10 +11,14 @@ position: 303
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x12E      |
-TBC        | 0x12E      |
-WotLK      | 0x12E      |
+Classic    | 0x012E     |
+TBC        | 0x012E     |
+WotLK      | 0x012E     |
 Cata       | 0x4C07     |
 MoP        | 0x0206     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31E9     |
+Legion     | 0x328E     |
+BfA        | 0x329F     |
+SL         | 0x32AC     |
+DF         | 0x32BA     |
+TWW        | 0x390175   |

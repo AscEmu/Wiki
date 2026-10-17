@@ -11,10 +11,14 @@ position: 416
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x19F      |
-TBC        | 0x19F      |
-WotLK      | 0x19F      |
+Classic    | 0x019F     |
+TBC        | 0x019F     |
+WotLK      | 0x019F     |
 Cata       | 0x7CB0     |
 MoP        | 0x1AAE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x254F     |
+Legion     | 0x25CA     |
+BfA        | 0x25CB     |
+SL         | 0x25B4     |
+DF         | 0x25B9     |
+TWW        | 0x400055   |

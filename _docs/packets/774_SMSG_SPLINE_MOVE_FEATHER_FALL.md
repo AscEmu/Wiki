@@ -11,10 +11,14 @@ position: 774
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x305      |
-TBC        | 0x305      |
-WotLK      | 0x305      |
+Classic    | 0x0305     |
+TBC        | 0x0305     |
+WotLK      | 0x0305     |
 Cata       | 0x3DA5     |
 MoP        | 0x1893     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D67     |
+Legion     | 0x2DEB     |
+BfA        | 0x2DEB     |
+SL         | 0x2E1F     |
+DF         | 0x2E1F     |
+TWW        | 0x58004F   |

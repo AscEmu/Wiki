@@ -11,10 +11,14 @@ position: 651
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x28A      |
-TBC        | 0x28A      |
-WotLK      | 0x28A      |
-Cata       | 0x28A      |
+Classic    | 0x028A     |
+TBC        | 0x028A     |
+WotLK      | 0x028A     |
+Cata       | 0x028A     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

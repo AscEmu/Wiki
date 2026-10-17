@@ -11,10 +11,14 @@ position: 275
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x112      |
-TBC        | 0x112      |
-WotLK      | 0x112      |
+Classic    | 0x0112     |
+TBC        | 0x0112     |
+WotLK      | 0x0112     |
 Cata       | 0x2236     |
 MoP        | 0x0C1E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26E2     |
+Legion     | 0x2763     |
+BfA        | 0x2767     |
+SL         | 0x2DA5     |
+DF         | 0x2DA5     |
+TWW        | 0x600005   |

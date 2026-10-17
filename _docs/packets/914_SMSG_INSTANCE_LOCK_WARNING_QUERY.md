@@ -11,10 +11,14 @@ position: 914
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x147      |
-TBC        | 0x147      |
-WotLK      | 0x147      |
+Classic    | 0x0147     |
+TBC        | 0x0147     |
+WotLK      | 0x0147     |
 Cata       | 0x2B26     |
 MoP        | 0x00A7     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

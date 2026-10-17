@@ -11,10 +11,14 @@ position: 446
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1BD      |
-TBC        | 0x1BD      |
-WotLK      | 0x1BD      |
+Classic    | 0x01BD     |
+TBC        | 0x01BD     |
+WotLK      | 0x01BD     |
 Cata       | 0x4E05     |
 MoP        | 0x12D9     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3432     |
+Legion     | 0x34CD     |
+BfA        | 0x34C9     |
+SL         | 0x34CF     |
+DF         | 0x34D1     |
+TWW        | 0x3A005A   |

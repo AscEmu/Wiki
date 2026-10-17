@@ -11,10 +11,14 @@ position: 678
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2A5      |
-TBC        | 0x2A5      |
-WotLK      | 0x2A5      |
+Classic    | 0x02A5     |
+TBC        | 0x02A5     |
+WotLK      | 0x02A5     |
 Cata       | 0x4615     |
 MoP        | 0x068F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26DB     |
+Legion     | 0x275C     |
+BfA        | 0x2761     |
+SL         | 0x2711     |
+DF         | 0x271C     |
+TWW        |            |

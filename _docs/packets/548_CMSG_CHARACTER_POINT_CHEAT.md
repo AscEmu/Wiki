@@ -11,10 +11,14 @@ position: 548
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x223      |
-TBC        | 0x223      |
-WotLK      | 0x223      |
-Cata       | 0x223      |
+Classic    | 0x0223     |
+TBC        | 0x0223     |
+WotLK      | 0x0223     |
+Cata       | 0x0223     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

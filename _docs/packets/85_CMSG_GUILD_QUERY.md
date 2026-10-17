@@ -11,10 +11,14 @@ position: 85
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x054      |
-TBC        | 0x054      |
-WotLK      | 0x054      |
+Classic    | 0x0054     |
+TBC        | 0x0054     |
+WotLK      | 0x0054     |
 Cata       | 0x4426     |
 MoP        | 0x1AB6     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x361D     |
+Legion     | 0x368D     |
+BfA        | 0x368E     |
+SL         | 0x3689     |
+DF         | 0x3687     |
+TWW        | 0x3E00B6   |

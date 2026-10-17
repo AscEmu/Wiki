@@ -11,10 +11,14 @@ position: 905
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x388      |
-TBC        | 0x388      |
-WotLK      | 0x388      |
+Classic    | 0x0388     |
+TBC        | 0x0388     |
+WotLK      | 0x0388     |
 Cata       | 0x0924     |
 MoP        | 0x0063     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D73     |
+Legion     | 0x2DF7     |
+BfA        | 0x2DF7     |
+SL         | 0x2E2B     |
+DF         | 0x2E2B     |
+TWW        | 0x58005B   |

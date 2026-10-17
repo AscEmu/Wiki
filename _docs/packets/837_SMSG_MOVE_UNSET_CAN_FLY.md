@@ -11,10 +11,14 @@ position: 837
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x344      |
-TBC        | 0x344      |
-WotLK      | 0x344      |
+Classic    | 0x0344     |
+TBC        | 0x0344     |
+WotLK      | 0x0344     |
 Cata       | 0x15A2     |
 MoP        | 0x0162     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D50     |
+Legion     | 0x2DD4     |
+BfA        | 0x2DD4     |
+SL         | 0x2E06     |
+DF         | 0x2E06     |
+TWW        | 0x580034   |

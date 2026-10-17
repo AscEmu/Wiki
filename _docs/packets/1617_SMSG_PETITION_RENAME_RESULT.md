@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x082A     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

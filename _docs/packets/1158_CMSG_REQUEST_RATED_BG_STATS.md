@@ -17,4 +17,8 @@ WotLK      |            |
 Cata       | 0x05B3     |
 MoP        |            |
 WoD        |            |
-Legion     |            |
+Legion     | 0x35E3     |
+BfA        | 0x35E3     |
+SL         | 0x35E3     |
+DF         | 0x35E3     |
+TWW        | 0x3E000F   |

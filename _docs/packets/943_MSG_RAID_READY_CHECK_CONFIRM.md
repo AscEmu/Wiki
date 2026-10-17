@@ -11,10 +11,14 @@ position: 943
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3AE      |
-TBC        | 0x3AE      |
-WotLK      | 0x3AE      |
+Classic    | 0x03AE     |
+TBC        | 0x03AE     |
+WotLK      | 0x03AE     |
 Cata       | 0x4F05     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

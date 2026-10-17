@@ -13,10 +13,14 @@ Called by showing who is online list.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x062      |
-TBC        | 0x062      |
-WotLK      | 0x062      |
+Classic    | 0x0062     |
+TBC        | 0x0062     |
+WotLK      | 0x0062     |
 Cata       | 0x6C15     |
 MoP        | 0x18A3     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3611     |
+Legion     | 0x3681     |
+BfA        | 0x3681     |
+SL         | 0x3680     |
+DF         | 0x367E     |
+TWW        | 0x3E00AD   |

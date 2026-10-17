@@ -11,10 +11,14 @@ position: 74
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x049      |
-TBC        | 0x049      |
-WotLK      | 0x049      |
+Classic    | 0x0049     |
+TBC        | 0x0049     |
+WotLK      | 0x0049     |
 Cata       | 0x6327     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x262C     |
+Legion     | 0x26AB     |
+BfA        | 0x26B1     |
+SL         | 0x267A     |
+DF         | 0x2683     |
+TWW        | 0x400126   |

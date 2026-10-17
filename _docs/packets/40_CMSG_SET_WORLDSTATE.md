@@ -11,10 +11,14 @@ position: 40
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x027      |
-TBC        | 0x027      |
-WotLK      | 0x027      |
-Cata       | 0x027      |
+Classic    | 0x0027     |
+TBC        | 0x0027     |
+WotLK      | 0x0027     |
+Cata       | 0x0027     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

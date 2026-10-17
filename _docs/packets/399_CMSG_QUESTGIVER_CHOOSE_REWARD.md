@@ -11,10 +11,14 @@ position: 399
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x18E      |
-TBC        | 0x18E      |
-WotLK      | 0x18E      |
+Classic    | 0x018E     |
+TBC        | 0x018E     |
+WotLK      | 0x018E     |
 Cata       | 0x2125     |
 MoP        | 0x07CB     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x340E     |
+Legion     | 0x349D     |
+BfA        | 0x349A     |
+SL         | 0x34A0     |
+DF         | 0x34A1     |
+TWW        | 0x3A002C   |

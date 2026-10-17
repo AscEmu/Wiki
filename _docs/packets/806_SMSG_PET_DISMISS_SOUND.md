@@ -11,10 +11,14 @@ position: 806
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x325      |
-TBC        | 0x325      |
-WotLK      | 0x325      |
+Classic    | 0x0325     |
+TBC        | 0x0325     |
+WotLK      | 0x0325     |
 Cata       | 0x2B05     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x264B     |
+Legion     | 0x26CA     |
+BfA        | 0x26D0     |
+SL         | 0x2699     |
+DF         | 0x26A2     |
+TWW        | 0x400145   |

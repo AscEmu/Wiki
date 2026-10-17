@@ -11,10 +11,14 @@ position: 517
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x204      |
-TBC        | 0x204      |
-WotLK      | 0x204      |
-Cata       | 0x204      |
+Classic    | 0x0204     |
+TBC        | 0x0204     |
+WotLK      | 0x0204     |
+Cata       | 0x0204     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

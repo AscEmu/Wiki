@@ -18,3 +18,7 @@ Cata       | 0x4F57     |
 MoP        | 0x4F57     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 1058
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x408      |
-TBC        | 0x408      |
-WotLK      | 0x409      |
+Classic    | 0x0408     |
+TBC        | 0x0408     |
+WotLK      | 0x0409     |
 Cata       | 0x6B16     |
 MoP        | 0x06E0     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3460     |
+Legion     | 0x34FA     |
+BfA        | 0x34FE     |
+SL         | 0x3504     |
+DF         | 0x3506     |
+TWW        | 0x3A008E   |

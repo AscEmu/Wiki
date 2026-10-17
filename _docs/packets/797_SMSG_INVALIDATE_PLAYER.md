@@ -11,10 +11,14 @@ position: 797
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x31C      |
-TBC        | 0x31C      |
-WotLK      | 0x31C      |
+Classic    | 0x031C     |
+TBC        | 0x031C     |
+WotLK      | 0x031C     |
 Cata       | 0x6325     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2654     |
+Legion     | 0x26D2     |
+BfA        | 0x26DA     |
+SL         | 0x2FFF     |
+DF         | 0x2FFF     |
+TWW        | 0x5C0007   |

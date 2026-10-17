@@ -11,10 +11,14 @@ position: 575
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x23E      |
-TBC        | 0x23E      |
-WotLK      | 0x23E      |
+Classic    | 0x023E     |
+TBC        | 0x023E     |
+WotLK      | 0x023E     |
 Cata       | 0x123F     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

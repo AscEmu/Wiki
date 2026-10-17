@@ -11,10 +11,14 @@ position: 142
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x08D      |
-TBC        | 0x08D      |
-WotLK      | 0x08D      |
+Classic    | 0x008D     |
+TBC        | 0x008D     |
+WotLK      | 0x008D     |
 Cata       | 0x1021     |
 MoP        | 0x04D8     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2FE0     |
+Legion     | 0x3062     |
+BfA        | 0x3063     |
+SL         | 0x3063     |
+DF         | 0x5019     |
+TWW        | 0x2D0003   |

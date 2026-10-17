@@ -11,10 +11,14 @@ position: 750
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2ED      |
-TBC        | 0x2ED      |
-WotLK      | 0x2ED      |
+Classic    | 0x02ED     |
+TBC        | 0x02ED     |
+WotLK      | 0x02ED     |
 Cata       | 0x59A6     |
 MoP        | 0x0206     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2516     |
+Legion     | 0x2599     |
+BfA        | 0x259B     |
+SL         | 0x292C     |
+DF         | 0x292C     |
+TWW        | 0x46000A   |

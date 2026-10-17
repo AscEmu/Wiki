@@ -11,10 +11,14 @@ position: 1566
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x372      |
-TBC        | 0x372      |
+Classic    | 0x0372     |
+TBC        | 0x0372     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

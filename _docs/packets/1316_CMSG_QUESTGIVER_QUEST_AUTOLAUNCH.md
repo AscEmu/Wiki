@@ -11,10 +11,14 @@ position: 1316
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x187      |
-TBC        | 0x187      |
-WotLK      | 0x187      |
+Classic    | 0x0187     |
+TBC        | 0x0187     |
+WotLK      | 0x0187     |
 Cata       | 0x1188     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -12,9 +12,13 @@ position: 848
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x34F      |
-WotLK      | 0x34F      |
+TBC        | 0x034F     |
+WotLK      | 0x034F     |
 Cata       | 0x2F27     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

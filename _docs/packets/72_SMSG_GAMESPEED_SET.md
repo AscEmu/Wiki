@@ -11,10 +11,14 @@ position: 72
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x047      |
-TBC        | 0x047      |
-WotLK      | 0x047      |
+Classic    | 0x0047     |
+TBC        | 0x0047     |
+WotLK      | 0x0047     |
 Cata       | 0x4E34     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x262B     |
+Legion     | 0x26AA     |
+BfA        | 0x26B0     |
+SL         | 0x2679     |
+DF         | 0x2682     |
+TWW        | 0x400125   |

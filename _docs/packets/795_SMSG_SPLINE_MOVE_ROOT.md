@@ -11,10 +11,14 @@ position: 795
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x31A      |
-TBC        | 0x31A      |
-WotLK      | 0x31A      |
+Classic    | 0x031A     |
+TBC        | 0x031A     |
+WotLK      | 0x031A     |
 Cata       | 0x51B4     |
 MoP        | 0x0728     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D61     |
+Legion     | 0x2DE5     |
+BfA        | 0x2DE5     |
+SL         | 0x2E19     |
+DF         | 0x2E19     |
+TWW        | 0x580049   |

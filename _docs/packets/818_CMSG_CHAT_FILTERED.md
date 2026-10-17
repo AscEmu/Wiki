@@ -11,10 +11,14 @@ position: 818
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x331      |
-TBC        | 0x331      |
-WotLK      | 0x331      |
+Classic    | 0x0331     |
+TBC        | 0x0331     |
+WotLK      | 0x0331     |
 Cata       | 0x1332     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

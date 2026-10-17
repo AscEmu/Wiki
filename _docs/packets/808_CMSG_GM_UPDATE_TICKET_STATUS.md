@@ -11,10 +11,14 @@ position: 808
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x327      |
-TBC        | 0x327      |
-WotLK      | 0x327      |
-Cata       | 0x327      |
+Classic    | 0x0327     |
+TBC        | 0x0327     |
+WotLK      | 0x0327     |
+Cata       | 0x0327     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

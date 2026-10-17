@@ -11,10 +11,14 @@ position: 913
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x390      |
-TBC        | 0x390      |
-WotLK      | 0x390      |
+Classic    | 0x0390     |
+TBC        | 0x0390     |
+WotLK      | 0x0390     |
 Cata       | 0x3CA4     |
 MoP        | 0x1A8F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D1E     |
+Legion     | 0x2DA0     |
+BfA        | 0x2DA0     |
+SL         | 0x2DD2     |
+DF         | 0x2DD2     |
+TWW        | 0x580000   |

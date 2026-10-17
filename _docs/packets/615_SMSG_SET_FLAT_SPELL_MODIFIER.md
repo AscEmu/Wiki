@@ -11,10 +11,14 @@ position: 615
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x266      |
-TBC        | 0x266      |
-WotLK      | 0x266      |
+Classic    | 0x0266     |
+TBC        | 0x0266     |
+WotLK      | 0x0266     |
 Cata       | 0x2834     |
 MoP        | 0x10F2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BB5     |
+Legion     | 0x2C36     |
+BfA        | 0x2C36     |
+SL         | 0x2C36     |
+DF         | 0x2C38     |
+TWW        | 0x5F0027   |

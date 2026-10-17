@@ -11,10 +11,14 @@ position: 49
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x030      |
-TBC        | 0x030      |
-WotLK      | 0x030      |
-Cata       | 0x030      |
+Classic    | 0x0030     |
+TBC        | 0x0030     |
+WotLK      | 0x0030     |
+Cata       | 0x0030     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

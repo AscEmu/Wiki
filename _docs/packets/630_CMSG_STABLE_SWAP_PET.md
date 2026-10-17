@@ -11,10 +11,14 @@ position: 630
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x275      |
-TBC        | 0x275      |
-WotLK      | 0x275      |
-Cata       | 0x275      |
+Classic    | 0x0275     |
+TBC        | 0x0275     |
+WotLK      | 0x0275     |
+Cata       | 0x0275     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

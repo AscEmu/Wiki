@@ -11,10 +11,14 @@ position: 886
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x375      |
-TBC        | 0x375      |
-WotLK      | 0x375      |
+Classic    | 0x0375     |
+TBC        | 0x0375     |
+WotLK      | 0x0375     |
 Cata       | 0x0635     |
 MoP        | 0x1552     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31D5     |
+Legion     | 0x3272     |
+BfA        | 0x3284     |
+SL         | 0x3290     |
+DF         | 0x329B     |
+TWW        | 0x390154   |

@@ -11,10 +11,14 @@ position: 113
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x070      |
-TBC        | 0x070      |
-WotLK      | 0x070      |
-Cata       | 0x070      |
+Classic    | 0x0070     |
+TBC        | 0x0070     |
+WotLK      | 0x0070     |
+Cata       | 0x0070     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

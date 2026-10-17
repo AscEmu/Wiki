@@ -11,10 +11,14 @@ position: 1016
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3E8      |
-TBC        | 0x3E8      |
-WotLK      | 0x3E9      |
+Classic    | 0x03E8     |
+TBC        | 0x03E8     |
+WotLK      | 0x03E9     |
 Cata       | 0x2315     |
 MoP        |            |
-WoD        |            |
+WoD        | 0x342B     |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

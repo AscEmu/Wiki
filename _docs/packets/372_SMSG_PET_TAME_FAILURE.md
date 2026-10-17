@@ -11,10 +11,14 @@ position: 372
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x173      |
-TBC        | 0x173      |
-WotLK      | 0x173      |
+Classic    | 0x0173     |
+TBC        | 0x0173     |
+WotLK      | 0x0173     |
 Cata       | 0x6B24     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x265F     |
+Legion     | 0x26DD     |
+BfA        | 0x26E6     |
+SL         | 0x26AA     |
+DF         | 0x26B3     |
+TWW        | 0x400156   |

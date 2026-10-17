@@ -11,10 +11,14 @@ position: 531
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x212      |
-TBC        | 0x212      |
-WotLK      | 0x212      |
+Classic    | 0x0212     |
+TBC        | 0x0212     |
+WotLK      | 0x0212     |
 Cata       | 0x2C15     |
 MoP        | 0x129B     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

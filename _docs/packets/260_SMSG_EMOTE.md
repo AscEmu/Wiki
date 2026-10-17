@@ -11,10 +11,14 @@ position: 260
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x103      |
-TBC        | 0x103      |
-WotLK      | 0x103      |
+Classic    | 0x0103     |
+TBC        | 0x0103     |
+WotLK      | 0x0103     |
 Cata       | 0x0A34     |
 MoP        | 0x0987     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x277B     |
+Legion     | 0x280D     |
+BfA        | 0x280F     |
+SL         | 0x27B8     |
+DF         | 0x27C1     |
+TWW        | 0x400264   |

@@ -11,10 +11,14 @@ position: 341
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x154      |
-TBC        | 0x154      |
-WotLK      | 0x154      |
-Cata       | 0x154      |
+Classic    | 0x0154     |
+TBC        | 0x0154     |
+WotLK      | 0x0154     |
+Cata       | 0x0154     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

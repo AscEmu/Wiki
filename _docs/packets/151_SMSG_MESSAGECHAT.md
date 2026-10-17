@@ -11,10 +11,14 @@ position: 151
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x096      |
-TBC        | 0x096      |
-WotLK      | 0x096      |
+Classic    | 0x0096     |
+TBC        | 0x0096     |
+WotLK      | 0x0096     |
 Cata       | 0x2026     |
 MoP        | 0x1A9A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2B2B     |
+Legion     | 0x2BAD     |
+BfA        | 0x2BAD     |
+SL         | 0x2BAD     |
+DF         | 0x2BAD     |
+TWW        | 0x450001   |

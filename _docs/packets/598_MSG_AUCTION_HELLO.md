@@ -11,10 +11,14 @@ position: 598
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x255      |
-TBC        | 0x255      |
-WotLK      | 0x255      |
+Classic    | 0x0255     |
+TBC        | 0x0255     |
+WotLK      | 0x0255     |
 Cata       | 0x2307     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

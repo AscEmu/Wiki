@@ -11,10 +11,14 @@ position: 281
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x118      |
-TBC        | 0x118      |
-WotLK      | 0x118      |
+Classic    | 0x0118     |
+TBC        | 0x0118     |
+WotLK      | 0x0118     |
 Cata       | 0x331C     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30D6     |
+Legion     | 0x3158     |
+BfA        | 0x3158     |
+SL         | 0x3158     |
+DF         | 0x3158     |
+TWW        | 0x390002   |

@@ -11,10 +11,14 @@ position: 537
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x218      |
-TBC        | 0x218      |
-WotLK      | 0x218      |
+Classic    | 0x0218     |
+TBC        | 0x0218     |
+WotLK      | 0x0218     |
 Cata       | 0x6D17     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

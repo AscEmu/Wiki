@@ -11,10 +11,14 @@ position: 778
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x309      |
-TBC        | 0x309      |
-WotLK      | 0x309      |
+Classic    | 0x0309     |
+TBC        | 0x0309     |
+WotLK      | 0x0309     |
 Cata       | 0x50A2     |
 MoP        | 0x1823     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D6B     |
+Legion     | 0x2DEF     |
+BfA        | 0x2DEF     |
+SL         | 0x2E23     |
+DF         | 0x2E23     |
+TWW        | 0x580053   |

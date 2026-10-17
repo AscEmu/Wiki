@@ -11,10 +11,14 @@ position: 449
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1C0      |
-TBC        | 0x1C0      |
-WotLK      | 0x1C0      |
+Classic    | 0x01C0     |
+TBC        | 0x01C0     |
+WotLK      | 0x01C0     |
 Cata       | 0x0E04     |
 MoP        | 0x06DA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3499     |
+Legion     | 0x3537     |
+BfA        | 0x353D     |
+SL         | 0x3545     |
+DF         | 0x3548     |
+TWW        | 0x3A00D1   |

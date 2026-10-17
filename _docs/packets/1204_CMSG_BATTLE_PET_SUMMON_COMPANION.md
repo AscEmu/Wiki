@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x1896     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

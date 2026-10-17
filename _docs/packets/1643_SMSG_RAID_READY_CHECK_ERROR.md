@@ -11,10 +11,14 @@ position: 1643
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x407      |
-TBC        | 0x407      |
-WotLK      | 0x408      |
+Classic    | 0x0407     |
+TBC        | 0x0407     |
+WotLK      | 0x0408     |
 Cata       | 0x2607     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

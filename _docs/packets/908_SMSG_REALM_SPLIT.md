@@ -11,10 +11,14 @@ position: 908
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x38B      |
-TBC        | 0x38B      |
-WotLK      | 0x38B      |
+Classic    | 0x038B     |
+TBC        | 0x038B     |
+WotLK      | 0x038B     |
 Cata       | 0x2714     |
 MoP        | 0x1A2E     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

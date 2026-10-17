@@ -11,10 +11,14 @@ position: 898
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x381      |
-TBC        | 0x381      |
-WotLK      | 0x381      |
+Classic    | 0x0381     |
+TBC        | 0x0381     |
+WotLK      | 0x0381     |
 Cata       | 0x71A6     |
 MoP        | 0x006E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D40     |
+Legion     | 0x2DC2     |
+BfA        | 0x2DC2     |
+SL         | 0x2DF4     |
+DF         | 0x2DF4     |
+TWW        | 0x580022   |

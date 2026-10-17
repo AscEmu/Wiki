@@ -11,10 +11,14 @@ position: 206
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0CD      |
-TBC        | 0x0CD      |
-WotLK      | 0x0CD      |
+Classic    | 0x00CD     |
+TBC        | 0x00CD     |
+WotLK      | 0x00CD     |
 Cata       | 0x14A6     |
 MoP        | 0x158E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D22     |
+Legion     | 0x2DA4     |
+BfA        | 0x2DA4     |
+SL         | 0x2DD6     |
+DF         | 0x2DD6     |
+TWW        | 0x580004   |

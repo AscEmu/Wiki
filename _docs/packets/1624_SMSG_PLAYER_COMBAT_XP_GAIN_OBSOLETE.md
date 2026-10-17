@@ -11,10 +11,14 @@ position: 1624
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x14F      |
-TBC        | 0x14F      |
+Classic    | 0x014F     |
+TBC        | 0x014F     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

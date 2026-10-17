@@ -11,10 +11,14 @@ position: 563
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x232      |
-TBC        | 0x232      |
-WotLK      | 0x232      |
+Classic    | 0x0232     |
+TBC        | 0x0232     |
+WotLK      | 0x0232     |
 Cata       | 0x3030     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2FE2     |
+Legion     | 0x3064     |
+BfA        | 0x3065     |
+SL         | 0x3065     |
+DF         | 0x501B     |
+TWW        | 0x2D0005   |

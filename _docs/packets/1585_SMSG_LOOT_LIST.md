@@ -11,10 +11,14 @@ position: 1585
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3F8      |
-TBC        | 0x3F8      |
-WotLK      | 0x3F9      |
+Classic    | 0x03F8     |
+TBC        | 0x03F8     |
+WotLK      | 0x03F9     |
 Cata       | 0x6807     |
 MoP        | 0x1C3F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2702     |
+Legion     | 0x2783     |
+BfA        | 0x2787     |
+SL         | 0x2734     |
+DF         | 0x273F     |
+TWW        | 0x4001E2   |

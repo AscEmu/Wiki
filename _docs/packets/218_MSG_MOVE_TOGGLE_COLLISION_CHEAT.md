@@ -11,10 +11,14 @@ position: 218
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0D9      |
-TBC        | 0x0D9      |
-WotLK      | 0x0D9      |
+Classic    | 0x00D9     |
+TBC        | 0x00D9     |
+WotLK      | 0x00D9     |
 Cata       | 0x10DA     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x397F     |
+Legion     | 0x3A05     |
+BfA        | 0x3A06     |
+SL         |            |
+DF         |            |
+TWW        |            |

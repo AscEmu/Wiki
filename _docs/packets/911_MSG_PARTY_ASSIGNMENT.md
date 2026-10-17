@@ -11,10 +11,14 @@ position: 911
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x38E      |
-TBC        | 0x38E      |
-WotLK      | 0x38E      |
+Classic    | 0x038E     |
+TBC        | 0x038E     |
+WotLK      | 0x038E     |
 Cata       | 0x0424     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

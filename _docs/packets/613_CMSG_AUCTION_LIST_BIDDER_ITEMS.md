@@ -11,10 +11,14 @@ position: 613
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x264      |
-TBC        | 0x264      |
-WotLK      | 0x264      |
+Classic    | 0x0264     |
+TBC        | 0x0264     |
+WotLK      | 0x0264     |
 Cata       | 0x6937     |
 MoP        | 0x12D0     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x343A     |
+Legion     | 0x34D5     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

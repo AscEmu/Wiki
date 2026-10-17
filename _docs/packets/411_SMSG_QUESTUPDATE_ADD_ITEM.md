@@ -11,10 +11,14 @@ position: 411
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x19A      |
-TBC        | 0x19A      |
-WotLK      | 0x19A      |
+Classic    | 0x019A     |
+TBC        | 0x019A     |
+WotLK      | 0x019A     |
 Cata       | 0x119B     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

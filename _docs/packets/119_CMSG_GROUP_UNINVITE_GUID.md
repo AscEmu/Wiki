@@ -11,10 +11,14 @@ position: 119
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x076      |
-TBC        | 0x076      |
-WotLK      | 0x076      |
+Classic    | 0x0076     |
+TBC        | 0x0076     |
+WotLK      | 0x0076     |
 Cata       | 0x2E07     |
 MoP        | 0x0CE1     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x35CE     |
+Legion     | 0x3647     |
+BfA        | 0x3647     |
+SL         | 0x3646     |
+DF         | 0x3644     |
+TWW        | 0x3E0073   |

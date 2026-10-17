@@ -11,10 +11,14 @@ position: 666
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x299      |
-TBC        | 0x299      |
-WotLK      | 0x299      |
-Cata       | 0x299      |
+Classic    | 0x0299     |
+TBC        | 0x0299     |
+WotLK      | 0x0299     |
+Cata       | 0x0299     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

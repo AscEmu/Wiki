@@ -13,10 +13,14 @@ Send when activate/deactivate pvp.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x253      |
-TBC        | 0x253      |
-WotLK      | 0x253      |
+Classic    | 0x0253     |
+TBC        | 0x0253     |
+WotLK      | 0x0253     |
 Cata       | 0x6815     |
 MoP        | 0x0644     |PlayerFlags PLAYER_FLAG_PVP_TOGGLE gets added/removed.
-WoD        |            |
-Legion     |            |
+WoD        | 0x31F7     |
+Legion     | 0x329C     |
+BfA        | 0x32AE     |
+SL         | 0x32BE     |
+DF         | 0x32CD     |
+TWW        | 0x390189   |

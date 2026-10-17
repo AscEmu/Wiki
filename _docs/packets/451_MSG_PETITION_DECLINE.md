@@ -11,10 +11,14 @@ position: 451
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1C2      |
-TBC        | 0x1C2      |
-WotLK      | 0x1C2      |
+Classic    | 0x01C2     |
+TBC        | 0x01C2     |
+WotLK      | 0x01C2     |
 Cata       | 0x4905     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x349A     |
+Legion     | 0x3538     |
+BfA        | 0x353E     |
+SL         | 0x3546     |
+DF         | 0x3549     |
+TWW        | 0x3A00D2   |

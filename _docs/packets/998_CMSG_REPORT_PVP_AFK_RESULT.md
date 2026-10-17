@@ -11,10 +11,14 @@ position: 998
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3E4      |
-TBC        | 0x3E4      |
-WotLK      | 0x3E5      |
-Cata       | 0x3E5      |
+Classic    | 0x03E4     |
+TBC        | 0x03E4     |
+WotLK      | 0x03E5     |
+Cata       | 0x03E5     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

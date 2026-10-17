@@ -11,10 +11,14 @@ position: 1031
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x40A      |
-TBC        | 0x40A      |
-WotLK      | 0x40B      |
+Classic    | 0x040A     |
+TBC        | 0x040A     |
+WotLK      | 0x040B     |
 Cata       | 0x3023     |
 MoP        | 0x04D9     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3004     |
+Legion     | 0x3086     |
+BfA        | 0x3087     |
+SL         | 0x3087     |
+DF         | 0x5033     |
+TWW        | 0x2D001D   |

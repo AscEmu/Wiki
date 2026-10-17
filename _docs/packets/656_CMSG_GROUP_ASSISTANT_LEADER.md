@@ -11,10 +11,14 @@ position: 656
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x28F      |
-TBC        | 0x28F      |
-WotLK      | 0x28F      |
+Classic    | 0x028F     |
+TBC        | 0x028F     |
+WotLK      | 0x028F     |
 Cata       | 0x6025     |
 MoP        | 0x1897     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

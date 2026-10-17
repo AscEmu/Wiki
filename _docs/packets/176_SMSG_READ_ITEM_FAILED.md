@@ -11,10 +11,14 @@ position: 176
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0AF      |
-TBC        | 0x0AF      |
-WotLK      | 0x0AF      |
+Classic    | 0x00AF     |
+TBC        | 0x00AF     |
+WotLK      | 0x00AF     |
 Cata       | 0x0F16     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

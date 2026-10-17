@@ -11,10 +11,14 @@ position: 655
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x28E      |
-TBC        | 0x28E      |
-WotLK      | 0x28E      |
+Classic    | 0x028E     |
+TBC        | 0x028E     |
+WotLK      | 0x028E     |
 Cata       | 0x6E27     |
 MoP        | 0x032C     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x35D5     |
+Legion     | 0x364E     |
+BfA        | 0x364E     |
+SL         | 0x364D     |
+DF         | 0x364B     |
+TWW        | 0x3E007A   |

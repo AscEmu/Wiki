@@ -12,9 +12,13 @@ position: 854
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x355      |
-WotLK      | 0x355      |
+TBC        | 0x0355     |
+WotLK      | 0x0355     |
 Cata       | 0x6504     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

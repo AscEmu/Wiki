@@ -11,10 +11,14 @@ position: 736
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2DF      |
-TBC        | 0x2DF      |
-WotLK      | 0x2DF      |
+Classic    | 0x02DF     |
+TBC        | 0x02DF     |
+WotLK      | 0x02DF     |
 Cata       | 0x7316     |
 MoP        | 0x185A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3998     |
+Legion     | 0x3A20     |
+BfA        | 0x3A21     |
+SL         | 0x3A24     |
+DF         | 0x3A23     |
+TWW        | 0x3C003F   |

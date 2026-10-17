@@ -11,10 +11,14 @@ position: 360
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x167      |
-TBC        | 0x167      |
-WotLK      | 0x167      |
+Classic    | 0x0167     |
+TBC        | 0x0167     |
+WotLK      | 0x0167     |
 Cata       | 0x4504     |
 MoP        | 0x0022     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25F1     |
+Legion     | 0x2670     |
+BfA        | 0x2673     |
+SL         | 0x293B     |
+DF         | 0x293C     |
+TWW        | 0x46001A   |

@@ -11,10 +11,14 @@ position: 805
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x324      |
-TBC        | 0x324      |
-WotLK      | 0x324      |
+Classic    | 0x0324     |
+TBC        | 0x0324     |
+WotLK      | 0x0324     |
 Cata       | 0x4324     |
 MoP        | 0x15E2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x264A     |
+Legion     | 0x26C9     |
+BfA        | 0x26CF     |
+SL         | 0x2698     |
+DF         | 0x26A1     |
+TWW        | 0x400144   |

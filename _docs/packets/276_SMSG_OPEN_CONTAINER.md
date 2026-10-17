@@ -11,10 +11,14 @@ position: 276
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x113      |
-TBC        | 0x113      |
-WotLK      | 0x113      |
+Classic    | 0x0113     |
+TBC        | 0x0113     |
+WotLK      | 0x0113     |
 Cata       | 0x4714     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26E3     |
+Legion     | 0x2764     |
+BfA        | 0x2768     |
+SL         | 0x2DA6     |
+DF         | 0x2DA6     |
+TWW        | 0x600006   |

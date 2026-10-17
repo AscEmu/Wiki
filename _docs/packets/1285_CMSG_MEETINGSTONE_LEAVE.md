@@ -11,10 +11,14 @@ position: 1285
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x293      |
-TBC        | 0x293      |
+Classic    | 0x0293     |
+TBC        | 0x0293     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

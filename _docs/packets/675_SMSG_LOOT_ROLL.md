@@ -11,10 +11,14 @@ position: 675
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2A2      |
-TBC        | 0x2A2      |
-WotLK      | 0x2A2      |
+Classic    | 0x02A2     |
+TBC        | 0x02A2     |
+WotLK      | 0x02A2     |
 Cata       | 0x6507     |
 MoP        | 0x1840     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25B4     |
+Legion     | 0x2632     |
+BfA        | 0x2635     |
+SL         | 0x2616     |
+DF         | 0x261D     |
+TWW        | 0x4000C0   |

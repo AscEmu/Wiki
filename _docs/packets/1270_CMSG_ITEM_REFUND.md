@@ -18,3 +18,7 @@ Cata       | 0x6134     |
 MoP        | 0x074B     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

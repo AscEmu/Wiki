@@ -11,10 +11,14 @@ position: 838
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x345      |
-TBC        | 0x345      |
-WotLK      | 0x345      |
+Classic    | 0x0345     |
+TBC        | 0x0345     |
+WotLK      | 0x0345     |
 Cata       | 0x790C     |
 MoP        | 0x1052     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x399C     |
+Legion     | 0x3A24     |
+BfA        | 0x3A25     |
+SL         | 0x3A28     |
+DF         | 0x3A27     |
+TWW        | 0x3C0043   |

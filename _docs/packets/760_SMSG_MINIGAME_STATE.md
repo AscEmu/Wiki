@@ -11,10 +11,14 @@ position: 760
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2F7      |
-TBC        | 0x2F7      |
-WotLK      | 0x2F7      |
+Classic    | 0x02F7     |
+TBC        | 0x02F7     |
+WotLK      | 0x02F7     |
 Cata       | 0x2E17     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 373
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x174      |
-TBC        | 0x174      |
-WotLK      | 0x174      |
+Classic    | 0x0174     |
+TBC        | 0x0174     |
+WotLK      | 0x0174     |
 Cata       | 0x6904     |
 MoP        | 0x12E9     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x33FC     |
+Legion     | 0x348D     |
+BfA        | 0x348A     |
+SL         | 0x3490     |
+DF         | 0x3490     |
+TWW        | 0x3A001B   |
