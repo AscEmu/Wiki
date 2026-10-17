@@ -18,3 +18,7 @@ Cata       | 0x59A2     |
 MoP        | 0x11DB     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

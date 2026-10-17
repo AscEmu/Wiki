@@ -11,10 +11,14 @@ position: 807
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x326      |
-TBC        | 0x326      |
-WotLK      | 0x326      |
-Cata       | 0x326      |
+Classic    | 0x0326     |
+TBC        | 0x0326     |
+WotLK      | 0x0326     |
+Cata       | 0x0326     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

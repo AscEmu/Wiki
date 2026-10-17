@@ -11,10 +11,14 @@ position: 67
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x042      |
-TBC        | 0x042      |
-WotLK      | 0x042      |
+Classic    | 0x0042     |
+TBC        | 0x0042     |
+WotLK      | 0x0042     |
 Cata       | 0x4D15     |
 MoP        | 0x082B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26CD     |
+Legion     | 0x274C     |
+BfA        | 0x2752     |
+SL         | 0x2701     |
+DF         | 0x270C     |
+TWW        | 0x4001B0   |

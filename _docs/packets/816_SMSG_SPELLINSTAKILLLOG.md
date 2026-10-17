@@ -11,10 +11,14 @@ position: 816
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x32F      |
-TBC        | 0x32F      |
-WotLK      | 0x32F      |
+Classic    | 0x032F     |
+TBC        | 0x032F     |
+WotLK      | 0x032F     |
 Cata       | 0x6216     |
 MoP        | 0x09F8     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BB1     |
+Legion     | 0x2C33     |
+BfA        | 0x2C33     |
+SL         | 0x2C33     |
+DF         | 0x2C32     |
+TWW        | 0x5F0021   |

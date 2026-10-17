@@ -11,10 +11,14 @@ position: 123
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x07A      |
-TBC        | 0x07A      |
-WotLK      | 0x07A      |
+Classic    | 0x007A     |
+TBC        | 0x007A     |
+WotLK      | 0x007A     |
 Cata       | 0x2F24     |
 MoP        | 0x0DE1     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x35CF     |
+Legion     | 0x3648     |
+BfA        | 0x3648     |
+SL         | 0x3647     |
+DF         | 0x3645     |
+TWW        | 0x3E0074   |

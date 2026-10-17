@@ -11,10 +11,14 @@ position: 270
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x10D      |
-TBC        | 0x10D      |
-WotLK      | 0x10D      |
+Classic    | 0x010D     |
+TBC        | 0x010D     |
+WotLK      | 0x010D     |
 Cata       | 0x2614     |
 MoP        | 0x03DF     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x391B     |
+Legion     | 0x399D     |
+BfA        | 0x399D     |
+SL         | 0x399D     |
+DF         | 0x399D     |
+TWW        | 0x3B0007   |

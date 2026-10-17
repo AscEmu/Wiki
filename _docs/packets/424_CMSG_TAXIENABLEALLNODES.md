@@ -11,10 +11,14 @@ position: 424
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1A7      |
-TBC        | 0x1A7      |
-WotLK      | 0x1A7      |
+Classic    | 0x01A7     |
+TBC        | 0x01A7     |
+WotLK      | 0x01A7     |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

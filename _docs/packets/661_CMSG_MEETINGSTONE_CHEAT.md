@@ -11,10 +11,14 @@ position: 661
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x294      |
-TBC        | 0x294      |
-WotLK      | 0x294      |
-Cata       | 0x294      |
+Classic    | 0x0294     |
+TBC        | 0x0294     |
+WotLK      | 0x0294     |
+Cata       | 0x0294     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

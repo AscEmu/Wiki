@@ -11,10 +11,14 @@ position: 698
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2B9      |
-TBC        | 0x2B9      |
-WotLK      | 0x2B9      |
-Cata       | 0x2B9      |
+Classic    | 0x02B9     |
+TBC        | 0x02B9     |
+WotLK      | 0x02B9     |
+Cata       | 0x02B9     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

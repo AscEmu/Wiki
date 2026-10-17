@@ -11,10 +11,14 @@ position: 287
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x11E      |
-TBC        | 0x11E      |
-WotLK      | 0x11E      |
+Classic    | 0x011E     |
+TBC        | 0x011E     |
+WotLK      | 0x011E     |
 Cata       | 0x7018     |
 MoP        | 0x00A7     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30DC     |
+Legion     | 0x315E     |
+BfA        | 0x315E     |
+SL         | 0x315E     |
+DF         | 0x315E     |
+TWW        | 0x390008   |

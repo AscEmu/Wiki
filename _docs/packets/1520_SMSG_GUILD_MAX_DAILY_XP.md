@@ -18,3 +18,7 @@ Cata       | 0x79B5     |
 MoP        | 0x1BE1     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 482
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1E1      |
-TBC        | 0x1E1      |
-WotLK      | 0x1E1      |
+Classic    | 0x01E1     |
+TBC        | 0x01E1     |
+WotLK      | 0x01E1     |
 Cata       | 0x4537     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26F9     |
+Legion     | 0x277B     |
+BfA        | 0x277F     |
+SL         | 0x272C     |
+DF         | 0x2737     |
+TWW        | 0x4001DA   |

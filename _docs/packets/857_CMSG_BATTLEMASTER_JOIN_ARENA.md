@@ -11,10 +11,14 @@ position: 857
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x358      |
-TBC        | 0x358      |
-WotLK      | 0x358      |
+Classic    | 0x0358     |
+TBC        | 0x0358     |
+WotLK      | 0x0358     |
 Cata       | 0x710C     |
 MoP        | 0x02D2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x348A     |
+Legion     | 0x3525     |
+BfA        | 0x3529     |
+SL         | 0x3531     |
+DF         | 0x3533     |
+TWW        | 0x3A00BB   |

@@ -11,10 +11,14 @@ position: 584
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x247      |
-TBC        | 0x247      |
-WotLK      | 0x247      |
+Classic    | 0x0247     |
+TBC        | 0x0247     |
+WotLK      | 0x0247     |
 Cata       | 0x0C07     |
 MoP        | 0x0241     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x34A0     |
+Legion     | 0x353E     |
+BfA        | 0x3544     |
+SL         | 0x354C     |
+DF         | 0x354F     |
+TWW        | 0x3A00D8   |

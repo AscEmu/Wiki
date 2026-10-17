@@ -11,10 +11,14 @@ position: 540
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x21B      |
-TBC        | 0x21B      |
-WotLK      | 0x21B      |
+Classic    | 0x021B     |
+TBC        | 0x021B     |
+WotLK      | 0x021B     |
 Cata       | 0x0D35     |
 MoP        | 0x163B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x264D     |
+Legion     | 0x26CB     |
+BfA        | 0x26D1     |
+SL         | 0x269A     |
+DF         | 0x26A3     |
+TWW        | 0x400146   |

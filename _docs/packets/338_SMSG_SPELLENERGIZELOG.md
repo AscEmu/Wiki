@@ -11,10 +11,14 @@ position: 338
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x151      |
-TBC        | 0x151      |
-WotLK      | 0x151      |
+Classic    | 0x0151     |
+TBC        | 0x0151     |
+WotLK      | 0x0151     |
 Cata       | 0x0414     |
 MoP        | 0x0D79     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2B9A     |
+Legion     | 0x2C1C     |
+BfA        | 0x2C1C     |
+SL         | 0x2C1C     |
+DF         | 0x2C19     |
+TWW        | 0x5F0009   |

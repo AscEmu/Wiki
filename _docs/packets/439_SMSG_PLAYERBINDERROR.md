@@ -11,10 +11,14 @@ position: 439
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1B6      |
-TBC        | 0x1B6      |
-WotLK      | 0x1B6      |
+Classic    | 0x01B6     |
+TBC        | 0x01B6     |
+WotLK      | 0x01B6     |
 Cata       | 0x6A24     |
 MoP        |            |- not used
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

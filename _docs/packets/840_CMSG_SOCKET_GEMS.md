@@ -12,9 +12,13 @@ position: 840
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x347      |
-WotLK      | 0x347      |
+TBC        | 0x0347     |
+WotLK      | 0x0347     |
 Cata       | 0x2F04     |
 MoP        | 0x02CB     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3453     |
+Legion     | 0x34EF     |
+BfA        | 0x34F3     |
+SL         | 0x34F9     |
+DF         | 0x34FB     |
+TWW        | 0x3A0083   |

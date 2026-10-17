@@ -11,10 +11,14 @@ position: 414
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x19D      |
-TBC        | 0x19D      |
-WotLK      | 0x19D      |
+Classic    | 0x019D     |
+TBC        | 0x019D     |
+WotLK      | 0x019D     |
 Cata       | 0x4B14     |
 MoP        | 0x03D2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3413     |
+Legion     | 0x34A2     |
+BfA        | 0x349F     |
+SL         | 0x34A5     |
+DF         | 0x34A6     |
+TWW        | 0x3A0031   |

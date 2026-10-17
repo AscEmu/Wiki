@@ -11,10 +11,14 @@ position: 566
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x235      |
-TBC        | 0x235      |
-WotLK      | 0x235      |
+Classic    | 0x0235     |
+TBC        | 0x0235     |
+WotLK      | 0x0235     |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 240
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0EF      |
-TBC        | 0x0EF      |
-WotLK      | 0x0EF      |
+Classic    | 0x00EF     |
+TBC        | 0x00EF     |
+WotLK      | 0x00EF     |
 Cata       | 0x5CB4     |
 MoP        | 0x0562     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D4D     |
+Legion     | 0x2DD1     |
+BfA        | 0x2DD1     |
+SL         | 0x2E03     |
+DF         | 0x2E03     |
+TWW        | 0x580031   |

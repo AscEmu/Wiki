@@ -11,10 +11,14 @@ position: 892
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x37B      |
-TBC        | 0x37B      |
-WotLK      | 0x37B      |
-Cata       | 0x37B      |
+Classic    | 0x037B     |
+TBC        | 0x037B     |
+WotLK      | 0x037B     |
+Cata       | 0x037B     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

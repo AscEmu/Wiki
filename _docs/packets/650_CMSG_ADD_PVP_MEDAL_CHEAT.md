@@ -11,10 +11,14 @@ position: 650
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x289      |
-TBC        | 0x289      |
-WotLK      | 0x289      |
-Cata       | 0x289      |
+Classic    | 0x0289     |
+TBC        | 0x0289     |
+WotLK      | 0x0289     |
+Cata       | 0x0289     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

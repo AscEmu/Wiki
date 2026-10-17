@@ -11,10 +11,14 @@ position: 828
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x33B      |
-TBC        | 0x33B      |
-WotLK      | 0x33B      |
-Cata       | 0x33B      |
+Classic    | 0x033B     |
+TBC        | 0x033B     |
+WotLK      | 0x033B     |
+Cata       | 0x033B     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

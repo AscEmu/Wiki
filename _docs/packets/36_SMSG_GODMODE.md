@@ -11,10 +11,14 @@ position: 36
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x023      |
-TBC        | 0x023      |
-WotLK      | 0x023      |
+Classic    | 0x0023     |
+TBC        | 0x0023     |
+WotLK      | 0x0023     |
 Cata       | 0x0405     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26BA     |
+Legion     | 0x2738     |
+BfA        | 0x273E     |
+SL         | 0x26F0     |
+DF         | 0x26FB     |
+TWW        | 0x40019E   |

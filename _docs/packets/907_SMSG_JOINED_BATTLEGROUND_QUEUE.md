@@ -11,10 +11,14 @@ position: 907
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x38A      |
-TBC        | 0x38A      |
-WotLK      | 0x38A      |
-Cata       | 0x38A      |
+Classic    | 0x038A     |
+TBC        | 0x038A     |
+WotLK      | 0x038A     |
+Cata       | 0x038A     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

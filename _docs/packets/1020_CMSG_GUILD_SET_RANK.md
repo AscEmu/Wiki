@@ -11,10 +11,14 @@ position: 1020
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x231      |
+Classic    | 0x0231     |
 TBC        |            |
-WotLK      | 0x231      |
+WotLK      | 0x0231     |
 Cata       | 0x1024     |
 MoP        | 0x0C7A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2FE5     |
+Legion     | 0x3067     |
+BfA        | 0x3068     |
+SL         | 0x3068     |
+DF         | 0x501E     |
+TWW        | 0x2D0008   |

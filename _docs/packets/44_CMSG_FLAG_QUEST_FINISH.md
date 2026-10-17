@@ -11,10 +11,14 @@ position: 44
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x02B      |
-TBC        | 0x02B      |
-WotLK      | 0x02B      |
-Cata       | 0x02B      |
+Classic    | 0x002B     |
+TBC        | 0x002B     |
+WotLK      | 0x002B     |
+Cata       | 0x002B     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

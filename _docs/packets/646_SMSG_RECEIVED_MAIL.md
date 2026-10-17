@@ -11,10 +11,14 @@ position: 646
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x285      |
-TBC        | 0x285      |
-WotLK      | 0x285      |
+Classic    | 0x0285     |
+TBC        | 0x0285     |
+WotLK      | 0x0285     |
 Cata       | 0x2924     |
 MoP        | 0x182B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25D9     |
+Legion     | 0x2659     |
+BfA        | 0x265C     |
+SL         | 0x2634     |
+DF         | 0x263B     |
+TWW        | 0x4000DE   |

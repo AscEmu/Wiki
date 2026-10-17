@@ -11,10 +11,14 @@ position: 351
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x15E      |
-TBC        | 0x15E      |
-WotLK      | 0x15E      |
+Classic    | 0x015E     |
+TBC        | 0x015E     |
+WotLK      | 0x015E     |
 Cata       | 0x6227     |
 MoP        | 0x02F6     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x316E     |
+Legion     | 0x3204     |
+BfA        | 0x320F     |
+SL         | 0x3215     |
+DF         | 0x3217     |
+TWW        | 0x3900C9   |

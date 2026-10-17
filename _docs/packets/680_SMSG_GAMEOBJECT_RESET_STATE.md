@@ -11,10 +11,14 @@ position: 680
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2A7      |
-TBC        | 0x2A7      |
-WotLK      | 0x2A7      |
+Classic    | 0x02A7     |
+TBC        | 0x02A7     |
+WotLK      | 0x02A7     |
 Cata       | 0x2A16     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26DC     |
+Legion     | 0x275D     |
+BfA        | 0x2762     |
+SL         | 0x2712     |
+DF         | 0x271D     |
+TWW        | 0x4001C0   |

@@ -11,10 +11,14 @@ position: 672
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x29F      |
-TBC        | 0x29F      |
-WotLK      | 0x29F      |
+Classic    | 0x029F     |
+TBC        | 0x029F     |
+WotLK      | 0x029F     |
 Cata       | 0x6617     |
 MoP        | 0x0A3A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25B9     |
+Legion     | 0x2636     |
+BfA        | 0x2639     |
+SL         | 0x261A     |
+DF         | 0x2621     |
+TWW        | 0x4000C4   |

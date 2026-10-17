@@ -11,10 +11,14 @@ position: 343
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x156      |
-TBC        | 0x156      |
-WotLK      | 0x156      |
-Cata       | 0x156      |
+Classic    | 0x0156     |
+TBC        | 0x0156     |
+WotLK      | 0x0156     |
+Cata       | 0x0156     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

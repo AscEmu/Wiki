@@ -16,5 +16,9 @@ TBC        |            |
 WotLK      |            |
 Cata       | 0x3818     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x39B3     |
+Legion     | 0x3A3B     |
+BfA        | 0x3A3C     |
+SL         | 0x3A41     |
+DF         | 0x3A40     |
+TWW        | 0x3C005D   |

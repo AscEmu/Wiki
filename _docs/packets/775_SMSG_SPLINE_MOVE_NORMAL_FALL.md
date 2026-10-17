@@ -11,10 +11,14 @@ position: 775
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x306      |
-TBC        | 0x306      |
-WotLK      | 0x306      |
+Classic    | 0x0306     |
+TBC        | 0x0306     |
+WotLK      | 0x0306     |
 Cata       | 0x38B2     |
 MoP        | 0x0B08     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D68     |
+Legion     | 0x2DEC     |
+BfA        | 0x2DEC     |
+SL         | 0x2E20     |
+DF         | 0x2E20     |
+TWW        | 0x580050   |

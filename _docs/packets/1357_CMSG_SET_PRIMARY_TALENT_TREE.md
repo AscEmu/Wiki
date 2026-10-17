@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x06C6     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

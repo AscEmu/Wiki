@@ -11,10 +11,14 @@ position: 519
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x206      |
-TBC        | 0x206      |
-WotLK      | 0x206      |
+Classic    | 0x0206     |
+TBC        | 0x0206     |
+WotLK      | 0x0206     |
 Cata       | 0x2107     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

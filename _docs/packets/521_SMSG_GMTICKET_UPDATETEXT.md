@@ -11,10 +11,14 @@ position: 521
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x208      |
-TBC        | 0x208      |
-WotLK      | 0x208      |
+Classic    | 0x0208     |
+TBC        | 0x0208     |
+WotLK      | 0x0208     |
 Cata       | 0x6535     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

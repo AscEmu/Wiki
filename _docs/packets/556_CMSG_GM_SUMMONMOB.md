@@ -11,10 +11,14 @@ position: 556
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x22B      |
-TBC        | 0x22B      |
-WotLK      | 0x22B      |
+Classic    | 0x022B     |
+TBC        | 0x022B     |
+WotLK      | 0x022B     |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

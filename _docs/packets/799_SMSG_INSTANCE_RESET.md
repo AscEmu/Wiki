@@ -11,10 +11,14 @@ position: 799
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x31E      |
-TBC        | 0x31E      |
-WotLK      | 0x31E      |
+Classic    | 0x031E     |
+TBC        | 0x031E     |
+WotLK      | 0x031E     |
 Cata       | 0x6F05     |
 MoP        | 0x160F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2630     |
+Legion     | 0x26AF     |
+BfA        | 0x26B5     |
+SL         | 0x267E     |
+DF         | 0x2687     |
+TWW        | 0x40012A   |

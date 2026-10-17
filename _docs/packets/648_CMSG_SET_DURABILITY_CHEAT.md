@@ -11,10 +11,14 @@ position: 648
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x287      |
-TBC        | 0x287      |
-WotLK      | 0x287      |
-Cata       | 0x287      |
+Classic    | 0x0287     |
+TBC        | 0x0287     |
+WotLK      | 0x0287     |
+Cata       | 0x0287     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

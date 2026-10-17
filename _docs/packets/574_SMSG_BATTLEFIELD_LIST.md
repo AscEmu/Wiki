@@ -11,10 +11,14 @@ position: 574
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x23D      |
-TBC        | 0x23D      |
-WotLK      | 0x23D      |
+Classic    | 0x023D     |
+TBC        | 0x023D     |
+WotLK      | 0x023D     |
 Cata       | 0x71B5     |
 MoP        | 0x160E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2511     |
+Legion     | 0x2594     |
+BfA        | 0x2596     |
+SL         | 0x2927     |
+DF         | 0x2927     |
+TWW        | 0x460005   |

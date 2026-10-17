@@ -11,10 +11,14 @@ position: 1185
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x41F      |
-TBC        | 0x41F      |
-WotLK      | 0x420      |
+Classic    | 0x041F     |
+TBC        | 0x041F     |
+WotLK      | 0x0420     |
 Cata       | 0x0205     |
 MoP        | 0x02FB     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3463     |
+Legion     | 0x34FD     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

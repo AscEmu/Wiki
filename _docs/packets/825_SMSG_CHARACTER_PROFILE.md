@@ -11,10 +11,14 @@ position: 825
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x338      |
-TBC        | 0x338      |
-WotLK      | 0x338      |
-Cata       | 0x338      |
+Classic    | 0x0338     |
+TBC        | 0x0338     |
+WotLK      | 0x0338     |
+Cata       | 0x0338     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

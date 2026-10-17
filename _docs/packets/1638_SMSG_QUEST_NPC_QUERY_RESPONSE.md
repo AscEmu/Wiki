@@ -18,3 +18,7 @@ Cata       | 0x75A1     |
 MoP        | 0x036D     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

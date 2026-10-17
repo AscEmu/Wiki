@@ -11,10 +11,14 @@ position: 105
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x068      |
-TBC        | 0x068      |
-WotLK      | 0x068      |
+Classic    | 0x0068     |
+TBC        | 0x0068     |
+WotLK      | 0x0068     |
 Cata       | 0x0717     |
 MoP        | 0x0532     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2745     |
+Legion     | 0x27CB     |
+BfA        | 0x27D1     |
+SL         | 0x277A     |
+DF         | 0x2784     |
+TWW        | 0x400228   |

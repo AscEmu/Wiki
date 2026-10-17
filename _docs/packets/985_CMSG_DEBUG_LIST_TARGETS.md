@@ -11,10 +11,14 @@ position: 985
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3D7      |
-TBC        | 0x3D7      |
-WotLK      | 0x3D8      |
-Cata       | 0x3D8      |
+Classic    | 0x03D7     |
+TBC        | 0x03D7     |
+WotLK      | 0x03D8     |
+Cata       | 0x03D8     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

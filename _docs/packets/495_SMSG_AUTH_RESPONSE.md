@@ -11,10 +11,14 @@ position: 495
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1EE      |
-TBC        | 0x1EE      |
-WotLK      | 0x1EE      |
+Classic    | 0x01EE     |
+TBC        | 0x01EE     |
+WotLK      | 0x01EE     |
 Cata       | 0x5DB6     |
 MoP        | 0x0ABA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x24EA     |
+Legion     | 0x256C     |
+BfA        | 0x256D     |
+SL         | 0x256D     |
+DF         | 0x256D     |
+TWW        | 0x400001   |

@@ -11,10 +11,14 @@ position: 931
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3A2      |
-TBC        | 0x3A2      |
-WotLK      | 0x3A2      |
+Classic    | 0x03A2     |
+TBC        | 0x03A2     |
+WotLK      | 0x03A2     |
 Cata       | 0x6E35     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

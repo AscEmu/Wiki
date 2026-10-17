@@ -11,10 +11,14 @@ position: 602
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x259      |
-TBC        | 0x259      |
-WotLK      | 0x259      |
+Classic    | 0x0259     |
+TBC        | 0x0259     |
+WotLK      | 0x0259     |
 Cata       | 0x0206     |
 MoP        | 0x0361     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3439     |
+Legion     | 0x34D4     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

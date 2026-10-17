@@ -11,10 +11,14 @@ position: 98
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x061      |
-TBC        | 0x061      |
-WotLK      | 0x061      |
+Classic    | 0x0061     |
+TBC        | 0x0061     |
+WotLK      | 0x0061     |
 Cata       | 0x6024     |
 MoP        | 0x048B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x267D     |
+Legion     | 0x26FA     |
+BfA        | 0x2704     |
+SL         | 0x2914     |
+DF         | 0x2914     |
+TWW        | 0x440006   |

@@ -11,10 +11,14 @@ position: 917
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x394      |
-TBC        | 0x394      |
-WotLK      | 0x394      |
-Cata       | 0x394      |
+Classic    | 0x0394     |
+TBC        | 0x0394     |
+WotLK      | 0x0394     |
+Cata       | 0x0394     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

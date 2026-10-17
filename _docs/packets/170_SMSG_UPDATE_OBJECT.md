@@ -11,10 +11,14 @@ position: 170
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0A9      |
-TBC        | 0x0A9      |
-WotLK      | 0x0A9      |
+Classic    | 0x00A9     |
+TBC        | 0x00A9     |
+WotLK      | 0x00A9     |
 Cata       | 0x4715     |
 MoP        | 0x1792     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x277D     |
+Legion     | 0x280F     |
+BfA        | 0x2811     |
+SL         | 0x27BA     |
+DF         | 0x27C3     |
+TWW        | 0x560000   |

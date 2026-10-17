@@ -11,10 +11,14 @@ position: 921
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x398      |
-TBC        | 0x398      |
-WotLK      | 0x398      |
+Classic    | 0x0398     |
+TBC        | 0x0398     |
+WotLK      | 0x0398     |
 Cata       | 0x0815     |
 MoP        | 0x008E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x29B2     |
+Legion     | 0x2A33     |
+BfA        | 0x2A33     |
+SL         | 0x2A33     |
+DF         | 0x2A33     |
+TWW        | 0x540017   |

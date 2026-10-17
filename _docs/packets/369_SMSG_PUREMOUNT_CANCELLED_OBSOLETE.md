@@ -11,10 +11,14 @@ position: 369
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x170      |
-TBC        | 0x170      |
-WotLK      | 0x170      |
-Cata       | 0x170      |
+Classic    | 0x0170     |
+TBC        | 0x0170     |
+WotLK      | 0x0170     |
+Cata       | 0x0170     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

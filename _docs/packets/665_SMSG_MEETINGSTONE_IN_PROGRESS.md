@@ -11,10 +11,14 @@ position: 665
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x298      |
-TBC        | 0x298      |
-WotLK      | 0x298      |
+Classic    | 0x0298     |
+TBC        | 0x0298     |
+WotLK      | 0x0298     |
 Cata       | 0x2D35     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

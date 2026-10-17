@@ -12,9 +12,13 @@ position: 719
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x2CE      |
+TBC        | 0x02CE     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3991     |
+Legion     | 0x3A18     |
+BfA        | 0x3A19     |
+SL         | 0x3A1C     |
+DF         | 0x3A1B     |
+TWW        | 0x3C0037   |

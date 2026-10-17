@@ -11,10 +11,14 @@ position: 1059
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x41D      |
-TBC        | 0x41D      |
-WotLK      | 0x41E      |
+Classic    | 0x041D     |
+TBC        | 0x041D     |
+WotLK      | 0x041E     |
 Cata       | 0x4E25     |
 MoP        | 0x10F1     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BAC     |
+Legion     | 0x2C2E     |
+BfA        | 0x2C2E     |
+SL         | 0x2C2E     |
+DF         | 0x2C2D     |
+TWW        | 0x5F001C   |

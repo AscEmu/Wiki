@@ -11,10 +11,14 @@ position: 389
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x184      |
-TBC        | 0x184      |
-WotLK      | 0x184      |
+Classic    | 0x0184     |
+TBC        | 0x0184     |
+WotLK      | 0x0184     |
 Cata       | 0x0D17     |
 MoP        | 0x02DB     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3408     |
+Legion     | 0x3499     |
+BfA        | 0x3496     |
+SL         | 0x349C     |
+DF         | 0x349D     |
+TWW        | 0x3A0028   |

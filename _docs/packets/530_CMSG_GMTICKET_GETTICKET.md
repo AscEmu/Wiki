@@ -12,9 +12,13 @@ position: 530
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x211      |
-WotLK      | 0x211      |
+TBC        | 0x0211     |
+WotLK      | 0x0211     |
 Cata       | 0x0326     |
 MoP        | 0x1F89     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

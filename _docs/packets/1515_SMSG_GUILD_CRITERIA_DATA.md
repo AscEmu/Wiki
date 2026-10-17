@@ -18,3 +18,7 @@ Cata       | 0x14B4     |
 MoP        | 0x1BF0     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

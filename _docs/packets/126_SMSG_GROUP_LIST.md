@@ -11,10 +11,14 @@ position: 126
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x07D      |
-TBC        | 0x07D      |
-WotLK      | 0x07D      |
+Classic    | 0x007D     |
+TBC        | 0x007D     |
+WotLK      | 0x007D     |
 Cata       | 0x4C24     |
 MoP        | 0x0CBB     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x258E     |
+Legion     | 0x260B     |
+BfA        | 0x260D     |
+SL         | 0x25EE     |
+DF         | 0x25F4     |
+TWW        | 0x400090   |

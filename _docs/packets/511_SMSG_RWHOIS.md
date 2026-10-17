@@ -11,10 +11,14 @@ position: 511
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1FE      |
-TBC        | 0x1FE      |
-WotLK      | 0x1FE      |
+Classic    | 0x01FE     |
+TBC        | 0x01FE     |
+WotLK      | 0x01FE     |
 Cata       | 0x2437     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

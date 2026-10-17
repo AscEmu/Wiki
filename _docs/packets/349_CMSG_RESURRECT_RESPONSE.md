@@ -11,10 +11,14 @@ position: 349
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x15C      |
-TBC        | 0x15C      |
-WotLK      | 0x15C      |
+Classic    | 0x015C     |
+TBC        | 0x015C     |
+WotLK      | 0x015C     |
 Cata       | 0x6827     |
 MoP        | 0x0B0C     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3614     |
+Legion     | 0x3684     |
+BfA        | 0x3684     |
+SL         | 0x3682     |
+DF         | 0x3680     |
+TWW        | 0x3E00AF   |

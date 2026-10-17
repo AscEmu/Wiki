@@ -18,3 +18,7 @@ Cata       | 0x54A3     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

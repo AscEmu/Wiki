@@ -11,10 +11,14 @@ position: 483
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1E2      |
-TBC        | 0x1E2      |
-WotLK      | 0x1E2      |
+Classic    | 0x01E2     |
+TBC        | 0x01E2     |
+WotLK      | 0x01E2     |
 Cata       | 0x0715     |
 MoP        | 0x087A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BBC     |
+Legion     | 0x2C3F     |
+BfA        | 0x2C3F     |
+SL         | 0x2C3F     |
+DF         | 0x2C41     |
+TWW        | 0x5F0030   |

@@ -11,10 +11,14 @@ position: 65
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x040      |
-TBC        | 0x040      |
-WotLK      | 0x040      |
+Classic    | 0x0040     |
+TBC        | 0x0040     |
+WotLK      | 0x0040     |
 Cata       | 0x0537     |
 MoP        | 0x0C8F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26C2     |
+Legion     | 0x2740     |
+BfA        | 0x2746     |
+SL         | 0x26F7     |
+DF         | 0x2702     |
+TWW        | 0x4001A5   |

@@ -11,10 +11,14 @@ position: 606
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x25D      |
-TBC        | 0x25D      |
-WotLK      | 0x25D      |
+Classic    | 0x025D     |
+TBC        | 0x025D     |
+WotLK      | 0x025D     |
 Cata       | 0x6C34     |
 MoP        | 0x1785     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26AD     |
+Legion     | 0x272B     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

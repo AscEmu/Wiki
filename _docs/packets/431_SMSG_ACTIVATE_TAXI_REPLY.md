@@ -11,10 +11,14 @@ position: 431
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1AE      |
-TBC        | 0x1AE      |
-WotLK      | 0x1AE      |
+Classic    | 0x01AE     |
+TBC        | 0x01AE     |
+WotLK      | 0x01AE     |
 Cata       | 0x6A37     |
 MoP        | 0x02A7     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2627     |
+Legion     | 0x26A6     |
+BfA        | 0x26AC     |
+SL         | 0x2675     |
+DF         | 0x267E     |
+TWW        | 0x400121   |

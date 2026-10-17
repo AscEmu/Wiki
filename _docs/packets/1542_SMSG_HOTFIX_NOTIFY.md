@@ -16,5 +16,9 @@ TBC        |            |
 WotLK      |            |
 Cata       | 0x55A7     |
 MoP        | 0x0EBF     |
-WoD        |            |
+WoD        | 0x2529     |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

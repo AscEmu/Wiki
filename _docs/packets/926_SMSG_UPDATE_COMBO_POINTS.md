@@ -11,10 +11,14 @@ position: 926
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x39D      |
-TBC        | 0x39D      |
-WotLK      | 0x39D      |
+Classic    | 0x039D     |
+TBC        | 0x039D     |
+WotLK      | 0x039D     |
 Cata       | 0x6B34     |
 MoP        | 0x082F     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

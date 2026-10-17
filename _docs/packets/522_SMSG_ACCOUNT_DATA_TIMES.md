@@ -11,10 +11,14 @@ position: 522
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x209      |
-TBC        | 0x209      |
-WotLK      | 0x209      |
+Classic    | 0x0209     |
+TBC        | 0x0209     |
+WotLK      | 0x0209     |
 Cata       | 0x4B05     |
 MoP        | 0x162B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26CA     |
+Legion     | 0x2749     |
+BfA        | 0x274F     |
+SL         | 0x26FE     |
+DF         | 0x2709     |
+TWW        | 0x4001AD   |

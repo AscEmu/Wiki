@@ -18,3 +18,7 @@ Cata       | 0x301E     |
 MoP        | 0x12EA     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

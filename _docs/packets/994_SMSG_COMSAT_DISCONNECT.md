@@ -11,10 +11,14 @@ position: 994
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3E0      |
-TBC        | 0x3E0      |
-WotLK      | 0x3E1      |
+Classic    | 0x03E0     |
+TBC        | 0x03E0     |
+WotLK      | 0x03E1     |
 Cata       | 0x0316     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

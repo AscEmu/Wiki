@@ -11,10 +11,14 @@ position: 701
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2BC      |
-TBC        | 0x2BC      |
-WotLK      | 0x2BC      |
+Classic    | 0x02BC     |
+TBC        | 0x02BC     |
+WotLK      | 0x02BC     |
 Cata       | 0x0116     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2706     |
+Legion     | 0x2788     |
+BfA        | 0x278C     |
+SL         | 0x3006     |
+DF         | 0x3006     |
+TWW        | 0x5C000F   |

@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x023A     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

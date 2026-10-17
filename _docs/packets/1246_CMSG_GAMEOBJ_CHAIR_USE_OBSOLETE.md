@@ -11,10 +11,14 @@ position: 1246
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0B2      |
-TBC        | 0x0B2      |
+Classic    | 0x00B2     |
+TBC        | 0x00B2     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

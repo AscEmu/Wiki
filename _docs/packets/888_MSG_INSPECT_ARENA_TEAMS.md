@@ -12,9 +12,13 @@ position: 888
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x377      |
-WotLK      | 0x377      |
+TBC        | 0x0377     |
+WotLK      | 0x0377     |
 Cata       | 0x2704     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

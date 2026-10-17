@@ -11,10 +11,14 @@ position: 382
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x17D      |
-TBC        | 0x17D      |
-WotLK      | 0x17D      |
+Classic    | 0x017D     |
+TBC        | 0x017D     |
+WotLK      | 0x017D     |
 Cata       | 0x2035     |
 MoP        | 0x0244     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2A14     |
+Legion     | 0x2A97     |
+BfA        | 0x2A97     |
+SL         | 0x2A98     |
+DF         | 0x2A98     |
+TWW        | 0x5D0018   |

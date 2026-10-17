@@ -11,10 +11,14 @@ position: 435
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1B2      |
-TBC        | 0x1B2      |
-WotLK      | 0x1B2      |
+Classic    | 0x01B2     |
+TBC        | 0x01B2     |
+WotLK      | 0x01B2     |
 Cata       | 0x4415     |
 MoP        | 0x0352     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3422     |
+Legion     | 0x34B1     |
+BfA        | 0x34AE     |
+SL         | 0x34B4     |
+DF         | 0x34B6     |
+TWW        | 0x3A0041   |

@@ -11,10 +11,14 @@ position: 567
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x236      |
-TBC        | 0x236      |
-WotLK      | 0x236      |
+Classic    | 0x0236     |
+TBC        | 0x0236     |
+WotLK      | 0x0236     |
 Cata       | 0x2005     |
 MoP        | 0x1C0F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2532     |
+Legion     | 0x25AC     |
+BfA        | 0x25AE     |
+SL         | 0x2599     |
+DF         | 0x2598     |
+TWW        | 0x40002F   |

@@ -11,10 +11,14 @@ position: 547
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x222      |
-TBC        | 0x222      |
-WotLK      | 0x222      |
+Classic    | 0x0222     |
+TBC        | 0x0222     |
+WotLK      | 0x0222     |
 Cata       | 0x4917     |
 MoP        | 0x1EAA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26D5     |
+Legion     | 0x2754     |
+BfA        | 0x275A     |
+SL         | 0x2709     |
+DF         |            |
+TWW        |            |

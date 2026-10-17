@@ -14,9 +14,13 @@ Join chat channels.
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x097      |
-WotLK      | 0x097      |
+TBC        | 0x0097     |
+WotLK      | 0x0097     |
 Cata       | 0x0156     |
 MoP        | 0x148E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3746     |
+Legion     | 0x37C8     |
+BfA        | 0x37C8     |
+SL         | 0x37C8     |
+DF         | 0x37DC     |
+TWW        | 0x2B0000   |

@@ -11,10 +11,14 @@ position: 116
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x073      |
-TBC        | 0x073      |
-WotLK      | 0x073      |
-Cata       | 0x073      |
+Classic    | 0x0073     |
+TBC        | 0x0073     |
+WotLK      | 0x0073     |
+Cata       | 0x0073     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

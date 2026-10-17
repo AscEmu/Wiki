@@ -11,10 +11,14 @@ position: 124
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x07B      |
-TBC        | 0x07B      |
-WotLK      | 0x07B      |
+Classic    | 0x007B     |
+TBC        | 0x007B     |
+WotLK      | 0x007B     |
 Cata       | 0x2804     |
 MoP        | 0x1798     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

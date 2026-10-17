@@ -11,10 +11,14 @@ position: 353
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x160      |
-TBC        | 0x160      |
-WotLK      | 0x160      |
+Classic    | 0x0160     |
+TBC        | 0x0160     |
+WotLK      | 0x0160     |
 Cata       | 0x4C16     |
 MoP        | 0x128A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25AA     |
+Legion     | 0x2628     |
+BfA        | 0x262C     |
+SL         | 0x260D     |
+DF         | 0x2614     |
+TWW        | 0x4000B7   |

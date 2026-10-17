@@ -11,10 +11,14 @@ position: 357
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x164      |
-TBC        | 0x164      |
-WotLK      | 0x164      |
+Classic    | 0x0164     |
+TBC        | 0x0164     |
+WotLK      | 0x0164     |
 Cata       | 0x6D15     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 786
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x311      |
-TBC        | 0x311      |
-WotLK      | 0x311      |
-Cata       | 0x311      |
+Classic    | 0x0311     |
+TBC        | 0x0311     |
+WotLK      | 0x0311     |
+Cata       | 0x0311     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

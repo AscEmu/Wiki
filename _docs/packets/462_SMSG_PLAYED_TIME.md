@@ -11,10 +11,14 @@ position: 462
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1CD      |
-TBC        | 0x1CD      |
-WotLK      | 0x1CD      |
+Classic    | 0x01CD     |
+TBC        | 0x01CD     |
+WotLK      | 0x01CD     |
 Cata       | 0x6037     |
 MoP        | 0x11E2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x268A     |
+Legion     | 0x2708     |
+BfA        | 0x2713     |
+SL         | 0x26CB     |
+DF         | 0x26D5     |
+TWW        | 0x400178   |

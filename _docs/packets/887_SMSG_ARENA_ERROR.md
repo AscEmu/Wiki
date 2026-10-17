@@ -11,10 +11,14 @@ position: 887
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x376      |
-TBC        | 0x376      |
-WotLK      | 0x376      |
+Classic    | 0x0376     |
+TBC        | 0x0376     |
+WotLK      | 0x0376     |
 Cata       | 0x2D17     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2693     |
+Legion     | 0x2711     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

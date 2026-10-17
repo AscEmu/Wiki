@@ -11,10 +11,14 @@ position: 182
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0B5      |
-TBC        | 0x0B5      |
-WotLK      | 0x0B5      |
+Classic    | 0x00B5     |
+TBC        | 0x00B5     |
+WotLK      | 0x00B5     |
 Cata       | 0x7814     |
 MoP        | 0x095A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3962     |
+Legion     | 0x39E4     |
+BfA        | 0x39E4     |
+SL         | 0x39E4     |
+DF         | 0x39E4     |
+TWW        | 0x3C0000   |

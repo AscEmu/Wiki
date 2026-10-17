@@ -11,10 +11,14 @@ position: 101
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x064      |
+Classic    | 0x0064     |
 TBC        |            |
-WotLK      | 0x064      |
+WotLK      | 0x0064     |
 Cata       | 0x6B05     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3610     |
+Legion     | 0x3680     |
+BfA        | 0x3680     |
+SL         | 0x367F     |
+DF         | 0x367D     |
+TWW        | 0x3E00AC   |

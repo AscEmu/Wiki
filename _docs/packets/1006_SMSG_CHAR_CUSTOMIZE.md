@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x474      |
+WotLK      | 0x0474     |
 Cata       | 0x4F16     |
 MoP        | 0x1432     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x269B     |
+Legion     | 0x2719     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

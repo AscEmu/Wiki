@@ -11,10 +11,14 @@ position: 528
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x20F      |
-TBC        | 0x20F      |
-WotLK      | 0x20F      |
-Cata       | 0x20F      |
+Classic    | 0x020F     |
+TBC        | 0x020F     |
+WotLK      | 0x020F     |
+Cata       | 0x020F     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 94
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x05D      |
-TBC        | 0x05D      |
-WotLK      | 0x05D      |
+Classic    | 0x005D     |
+TBC        | 0x005D     |
+WotLK      | 0x005D     |
 Cata       | 0x6936     |
 MoP        | 0x0276     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2A12     |
+Legion     | 0x2A95     |
+BfA        | 0x2A95     |
+SL         | 0x2A96     |
+DF         | 0x2A96     |
+TWW        | 0x5D0016   |

@@ -12,9 +12,13 @@ position: 846
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x34D      |
-WotLK      | 0x34D      |
+TBC        | 0x034D     |
+WotLK      | 0x034D     |
 Cata       | 0x6F37     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

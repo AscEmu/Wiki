@@ -11,10 +11,14 @@ position: 441
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1B8      |
-TBC        | 0x1B8      |
-WotLK      | 0x1B8      |
+Classic    | 0x01B8     |
+TBC        | 0x01B8     |
+WotLK      | 0x01B8     |
 Cata       | 0x2627     |
 MoP        | 0x0007     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2629     |
+Legion     | 0x26A8     |
+BfA        | 0x26AE     |
+SL         | 0x2677     |
+DF         |            |
+TWW        |            |

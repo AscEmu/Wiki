@@ -11,10 +11,14 @@ position: 480
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1DF      |
-TBC        | 0x1DF      |
-WotLK      | 0x1DF      |
+Classic    | 0x01DF     |
+TBC        | 0x01DF     |
+WotLK      | 0x01DF     |
 Cata       | 0x2925     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

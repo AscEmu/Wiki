@@ -11,10 +11,14 @@ position: 748
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2EB      |
-TBC        | 0x2EB      |
-WotLK      | 0x2EB      |
+Classic    | 0x02EB     |
+TBC        | 0x02EB     |
+WotLK      | 0x02EB     |
 Cata       | 0x2835     |
 MoP        | 0x1287     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26BB     |
+Legion     | 0x2739     |
+BfA        | 0x273F     |
+SL         | 0x26F1     |
+DF         |            |
+TWW        |            |

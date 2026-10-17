@@ -11,10 +11,14 @@ position: 721
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2D0      |
-TBC        | 0x2D0      |
-WotLK      | 0x2D0      |
+Classic    | 0x02D0     |
+TBC        | 0x02D0     |
+WotLK      | 0x02D0     |
 Cata       | 0x3B00     |
 MoP        | 0x10F2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3993     |
+Legion     | 0x3A1A     |
+BfA        | 0x3A1B     |
+SL         | 0x3A1E     |
+DF         | 0x3A1D     |
+TWW        | 0x3C0039   |

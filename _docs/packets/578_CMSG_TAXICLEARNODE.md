@@ -11,10 +11,14 @@ position: 578
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x241      |
-TBC        | 0x241      |
-WotLK      | 0x241      |
-Cata       | 0x241      |
+Classic    | 0x0241     |
+TBC        | 0x0241     |
+WotLK      | 0x0241     |
+Cata       | 0x0241     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

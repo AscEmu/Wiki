@@ -11,10 +11,14 @@ position: 17
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x010      |
-TBC        | 0x010      |
-WotLK      | 0x010      |
+Classic    | 0x0010     |
+TBC        | 0x0010     |
+WotLK      | 0x0010     |
 Cata       | 0x1011     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

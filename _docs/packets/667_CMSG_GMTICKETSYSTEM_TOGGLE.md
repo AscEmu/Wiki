@@ -12,9 +12,13 @@ position: 667
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x29A      |
-WotLK      | 0x29A      |
-Cata       | 0x29A      |
+TBC        | 0x029A     |
+WotLK      | 0x029A     |
+Cata       | 0x029A     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

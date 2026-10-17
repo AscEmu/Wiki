@@ -11,10 +11,14 @@ position: 66
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x041      |
-TBC        | 0x041      |
-WotLK      | 0x041      |
+Classic    | 0x0041     |
+TBC        | 0x0041     |
+WotLK      | 0x0041     |
 Cata       | 0x4417     |
 MoP        | 0x1A0B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26C5     |
+Legion     | 0x2744     |
+BfA        | 0x274A     |
+SL         | 0x26F9     |
+DF         | 0x2704     |
+TWW        | 0x4001A7   |

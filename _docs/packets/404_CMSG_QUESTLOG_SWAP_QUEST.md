@@ -11,10 +11,14 @@ position: 404
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x193      |
-TBC        | 0x193      |
-WotLK      | 0x193      |
+Classic    | 0x0193     |
+TBC        | 0x0193     |
+WotLK      | 0x0193     |
 Cata       | 0x1194     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

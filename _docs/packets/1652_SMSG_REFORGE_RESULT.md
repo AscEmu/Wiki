@@ -18,3 +18,7 @@ Cata       | 0x58A4     |
 MoP        | 0x141E     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

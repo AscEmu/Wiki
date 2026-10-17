@@ -11,10 +11,14 @@ position: 958
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3BC      |
-TBC        | 0x3BC      |
-WotLK      | 0x3BD      |
+Classic    | 0x03BC     |
+TBC        | 0x03BC     |
+WotLK      | 0x03BD     |
 Cata       | 0x6136     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3574     |
+Legion     | 0x35F5     |
+BfA        | 0x35F5     |
+SL         | 0x35F5     |
+DF         | 0x35F5     |
+TWW        | 0x3E0021   |

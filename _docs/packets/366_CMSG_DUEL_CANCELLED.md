@@ -11,10 +11,14 @@ position: 366
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x16D      |
-TBC        | 0x16D      |
-WotLK      | 0x16D      |
+Classic    | 0x016D     |
+TBC        | 0x016D     |
+WotLK      | 0x016D     |
 Cata       | 0x6624     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

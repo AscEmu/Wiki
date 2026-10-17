@@ -18,3 +18,7 @@ Cata       | 0x6D34     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 19
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x012      |
-TBC        | 0x012      |
-WotLK      | 0x012      |
-Cata       | 0x012      |
+Classic    | 0x0012     |
+TBC        | 0x0012     |
+WotLK      | 0x0012     |
+Cata       | 0x0012     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 470
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1D5      |
-TBC        | 0x1D5      |
-WotLK      | 0x1D5      |
+Classic    | 0x01D5     |
+TBC        | 0x01D5     |
+WotLK      | 0x01D5     |
 Cata       | 0x6635     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 746
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2E9      |
-TBC        | 0x2E9      |
-WotLK      | 0x2E9      |
-Cata       | 0x2E9      |
+Classic    | 0x02E9     |
+TBC        | 0x02E9     |
+WotLK      | 0x02E9     |
+Cata       | 0x02E9     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2512     |
+Legion     | 0x2595     |
+BfA        | 0x2597     |
+SL         | 0x2928     |
+DF         | 0x2928     |
+TWW        | 0x460006   |

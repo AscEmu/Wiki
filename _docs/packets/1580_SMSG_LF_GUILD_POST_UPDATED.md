@@ -18,3 +18,7 @@ Cata       | 0x35B7     |
 MoP        | 0x1B71     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

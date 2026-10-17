@@ -11,10 +11,14 @@ position: 90
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x059      |
-TBC        | 0x059      |
-WotLK      | 0x059      |
-Cata       | 0x059      |
+Classic    | 0x0059     |
+TBC        | 0x0059     |
+WotLK      | 0x0059     |
+Cata       | 0x0059     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 703
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2BE      |
-TBC        | 0x2BE      |
-WotLK      | 0x2BE      |
-Cata       | 0x2BE      |
+Classic    | 0x02BE     |
+TBC        | 0x02BE     |
+WotLK      | 0x02BE     |
+Cata       | 0x02BE     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

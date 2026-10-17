@@ -11,10 +11,14 @@ position: 785
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x310      |
-TBC        | 0x310      |
-WotLK      | 0x310      |
-Cata       | 0x310      |
+Classic    | 0x0310     |
+TBC        | 0x0310     |
+WotLK      | 0x0310     |
+Cata       | 0x0310     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

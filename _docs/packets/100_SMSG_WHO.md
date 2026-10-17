@@ -11,10 +11,14 @@ position: 100
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x063      |
-TBC        | 0x063      |
-WotLK      | 0x063      |
+Classic    | 0x0063     |
+TBC        | 0x0063     |
+WotLK      | 0x0063     |
 Cata       | 0x6907     |
 MoP        | 0x161B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2B2C     |
+Legion     | 0x2BAE     |
+BfA        | 0x2BAE     |
+SL         | 0x2BAE     |
+DF         | 0x2BAE     |
+TWW        | 0x450002   |

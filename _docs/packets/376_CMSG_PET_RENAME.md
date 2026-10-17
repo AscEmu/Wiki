@@ -11,10 +11,14 @@ position: 376
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x177      |
-TBC        | 0x177      |
-WotLK      | 0x177      |
+Classic    | 0x0177     |
+TBC        | 0x0177     |
+WotLK      | 0x0177     |
 Cata       | 0x6406     |
 MoP        | 0x0A32     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3615     |
+Legion     | 0x3685     |
+BfA        | 0x3685     |
+SL         | 0x3683     |
+DF         | 0x3681     |
+TWW        | 0x3E00B0   |

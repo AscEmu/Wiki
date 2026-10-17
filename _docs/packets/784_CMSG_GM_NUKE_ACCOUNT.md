@@ -11,10 +11,14 @@ position: 784
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x30F      |
-TBC        | 0x30F      |
-WotLK      | 0x30F      |
-Cata       | 0x30F      |
+Classic    | 0x030F     |
+TBC        | 0x030F     |
+WotLK      | 0x030F     |
+Cata       | 0x030F     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

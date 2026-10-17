@@ -11,10 +11,14 @@ position: 787
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x312      |
-TBC        | 0x312      |
-WotLK      | 0x312      |
+Classic    | 0x0312     |
+TBC        | 0x0312     |
+WotLK      | 0x0312     |
 Cata       | 0x0515     |
 MoP        | 0x06FB     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

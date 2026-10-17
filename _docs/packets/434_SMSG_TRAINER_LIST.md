@@ -11,10 +11,14 @@ position: 434
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1B1      |
-TBC        | 0x1B1      |
-WotLK      | 0x1B1      |
+Classic    | 0x01B1     |
+TBC        | 0x01B1     |
+WotLK      | 0x01B1     |
 Cata       | 0x4414     |
 MoP        | 0x189F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2696     |
+Legion     | 0x2714     |
+BfA        | 0x271D     |
+SL         | 0x26D4     |
+DF         | 0x26DE     |
+TWW        | 0x400181   |

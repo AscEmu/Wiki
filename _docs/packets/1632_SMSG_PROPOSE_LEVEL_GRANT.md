@@ -11,10 +11,14 @@ position: 1632
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x41E      |
-TBC        | 0x41E      |
-WotLK      | 0x41F      |
+Classic    | 0x041E     |
+TBC        | 0x041E     |
+WotLK      | 0x041F     |
 Cata       | 0x6114     |
 MoP        | 0x109A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2692     |
+Legion     | 0x2710     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

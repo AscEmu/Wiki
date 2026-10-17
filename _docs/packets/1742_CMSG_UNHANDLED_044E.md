@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x044E     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 289
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x120      |
-TBC        | 0x120      |
-WotLK      | 0x120      |
+Classic    | 0x0120     |
+TBC        | 0x0120     |
+WotLK      | 0x0120     |
 Cata       | 0x5CA3     |
 MoP        | 0x1963     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x24FF     |
+Legion     | 0x2581     |
+BfA        | 0x2583     |
+SL         | 0x2582     |
+DF         | 0x2583     |
+TWW        | 0x400017   |

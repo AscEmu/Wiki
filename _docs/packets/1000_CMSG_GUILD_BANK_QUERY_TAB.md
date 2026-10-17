@@ -11,10 +11,14 @@ position: 1000
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3E6      |
-TBC        | 0x3E6      |
-WotLK      | 0x3E7      |
+Classic    | 0x03E6     |
+TBC        | 0x03E6     |
+WotLK      | 0x03E7     |
 Cata       | 0x2E35     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x342C     |
+Legion     | 0x34C7     |
+BfA        | 0x34C3     |
+SL         | 0x34C9     |
+DF         | 0x34CB     |
+TWW        | 0x3A0054   |

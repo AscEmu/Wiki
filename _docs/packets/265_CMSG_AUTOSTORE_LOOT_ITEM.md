@@ -11,10 +11,14 @@ position: 265
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x108      |
-TBC        | 0x108      |
-WotLK      | 0x108      |
+Classic    | 0x0108     |
+TBC        | 0x0108     |
+WotLK      | 0x0108     |
 Cata       | 0x0E34     |
 MoP        | 0x0354     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x316F     |
+Legion     | 0x3205     |
+BfA        | 0x3210     |
+SL         | 0x3216     |
+DF         | 0x3218     |
+TWW        | 0x3900CA   |

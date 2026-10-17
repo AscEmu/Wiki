@@ -11,10 +11,14 @@ position: 1033
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x419      |
-TBC        | 0x419      |
-WotLK      | 0x41A      |
+Classic    | 0x0419     |
+TBC        | 0x0419     |
+WotLK      | 0x041A     |
 Cata       | 0x2B25     |
 MoP        | 0x180E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2689     |
+Legion     | 0x2707     |
+BfA        | 0x2712     |
+SL         | 0x3003     |
+DF         | 0x3003     |
+TWW        | 0x5C000C   |

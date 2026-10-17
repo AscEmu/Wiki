@@ -11,10 +11,14 @@ position: 408
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x197      |
-TBC        | 0x197      |
-WotLK      | 0x197      |
+Classic    | 0x0197     |
+TBC        | 0x0197     |
+WotLK      | 0x0197     |
 Cata       | 0x6427     |
 MoP        | 0x06FF     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2A07     |
+Legion     | 0x2A8A     |
+BfA        | 0x2A8A     |
+SL         | 0x2A8B     |
+DF         | 0x2A8B     |
+TWW        | 0x5D000B   |

@@ -11,10 +11,14 @@ position: 344
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x157      |
-TBC        | 0x157      |
-WotLK      | 0x157      |
+Classic    | 0x0157     |
+TBC        | 0x0157     |
+WotLK      | 0x0157     |
 Cata       | 0x4C34     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

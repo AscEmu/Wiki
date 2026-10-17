@@ -11,10 +11,14 @@ position: 264
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x107      |
-TBC        | 0x107      |
-WotLK      | 0x107      |
+Classic    | 0x0107     |
+TBC        | 0x0107     |
+WotLK      | 0x0107     |
 Cata       | 0x1108     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

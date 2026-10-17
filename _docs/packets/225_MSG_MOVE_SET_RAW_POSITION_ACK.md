@@ -11,10 +11,14 @@ position: 225
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0E0      |
-TBC        | 0x0E0      |
-WotLK      | 0x0E0      |
-Cata       | 0x0E0      |
+Classic    | 0x00E0     |
+TBC        | 0x00E0     |
+WotLK      | 0x00E0     |
+Cata       | 0x00E0     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

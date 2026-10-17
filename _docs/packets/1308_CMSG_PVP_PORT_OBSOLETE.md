@@ -11,10 +11,14 @@ position: 1308
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x032      |
-TBC        | 0x032      |
+Classic    | 0x0032     |
+TBC        | 0x0032     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

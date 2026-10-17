@@ -11,10 +11,14 @@ position: 554
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x229      |
-TBC        | 0x229      |
-WotLK      | 0x229      |
-Cata       | 0x229      |
+Classic    | 0x0229     |
+TBC        | 0x0229     |
+WotLK      | 0x0229     |
+Cata       | 0x0229     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

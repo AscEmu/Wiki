@@ -11,10 +11,14 @@ position: 1560
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x369      |
-TBC        | 0x369      |
+Classic    | 0x0369     |
+TBC        | 0x0369     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

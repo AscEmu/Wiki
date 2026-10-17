@@ -11,10 +11,14 @@ position: 622
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x26D      |
+Classic    | 0x026D     |
 TBC        |            |
-WotLK      | 0x26D      |
+WotLK      | 0x026D     |
 Cata       | 0x6C35     |
 MoP        | 0x1272     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x344F     |
+Legion     | 0x34EB     |
+BfA        | 0x34EF     |
+SL         | 0x34F5     |
+DF         | 0x34F7     |
+TWW        | 0x3A007F   |

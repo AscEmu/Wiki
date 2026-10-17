@@ -18,3 +18,7 @@ Cata       | 0x1237     |
 MoP        | 0x05F8     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 831
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x33E      |
-TBC        | 0x33E      |
-WotLK      | 0x33E      |
-Cata       | 0x33E      |
+Classic    | 0x033E     |
+TBC        | 0x033E     |
+WotLK      | 0x033E     |
+Cata       | 0x033E     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

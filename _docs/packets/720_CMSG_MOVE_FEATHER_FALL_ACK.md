@@ -11,10 +11,14 @@ position: 720
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2CF      |
-TBC        | 0x2CF      |
-WotLK      | 0x2CF      |
+Classic    | 0x02CF     |
+TBC        | 0x02CF     |
+WotLK      | 0x02CF     |
 Cata       | 0x3110     |
 MoP        | 0x08D0     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3992     |
+Legion     | 0x3A19     |
+BfA        | 0x3A1A     |
+SL         | 0x3A1D     |
+DF         | 0x3A1C     |
+TWW        | 0x3C0038   |

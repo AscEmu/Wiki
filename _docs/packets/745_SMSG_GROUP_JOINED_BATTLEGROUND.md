@@ -11,10 +11,14 @@ position: 745
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2E8      |
-TBC        | 0x2E8      |
-WotLK      | 0x2E8      |
-Cata       | 0x2E8      |
+Classic    | 0x02E8     |
+TBC        | 0x02E8     |
+WotLK      | 0x02E8     |
+Cata       | 0x02E8     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

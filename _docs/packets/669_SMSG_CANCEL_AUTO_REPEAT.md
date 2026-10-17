@@ -11,10 +11,14 @@ position: 669
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x29C      |
-TBC        | 0x29C      |
-WotLK      | 0x29C      |
+Classic    | 0x029C     |
+TBC        | 0x029C     |
+WotLK      | 0x029C     |
 Cata       | 0x6436     |
 MoP        | 0x1E0F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2694     |
+Legion     | 0x2712     |
+BfA        | 0x271B     |
+SL         | 0x26D3     |
+DF         | 0x26DD     |
+TWW        | 0x400180   |

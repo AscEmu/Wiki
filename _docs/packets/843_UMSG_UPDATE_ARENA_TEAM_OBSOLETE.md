@@ -11,10 +11,14 @@ position: 843
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x34A      |
-TBC        | 0x34A      |
-WotLK      | 0x34A      |
-Cata       | 0x34A      |
+Classic    | 0x034A     |
+TBC        | 0x034A     |
+WotLK      | 0x034A     |
+Cata       | 0x034A     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

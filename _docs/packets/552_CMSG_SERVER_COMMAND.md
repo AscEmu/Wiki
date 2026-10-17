@@ -11,10 +11,14 @@ position: 552
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x227      |
-TBC        | 0x227      |
-WotLK      | 0x227      |
-Cata       | 0x227      |
+Classic    | 0x0227     |
+TBC        | 0x0227     |
+WotLK      | 0x0227     |
+Cata       | 0x0227     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

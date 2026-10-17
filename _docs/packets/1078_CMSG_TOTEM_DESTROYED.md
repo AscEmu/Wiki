@@ -11,10 +11,14 @@ position: 1078
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x413      |
-TBC        | 0x413      |
-WotLK      | 0x414      |
+Classic    | 0x0413     |
+TBC        | 0x0413     |
+WotLK      | 0x0414     |
 Cata       | 0x4207     |
 MoP        | 0x1263     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3464     |
+Legion     | 0x34FE     |
+BfA        | 0x3500     |
+SL         | 0x3506     |
+DF         | 0x3508     |
+TWW        | 0x3A0090   |

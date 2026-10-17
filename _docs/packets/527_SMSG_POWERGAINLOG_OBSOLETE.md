@@ -11,10 +11,14 @@ position: 527
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x20E      |
-TBC        | 0x20E      |
-WotLK      | 0x20E      |
-Cata       | 0x20E      |
+Classic    | 0x020E     |
+TBC        | 0x020E     |
+WotLK      | 0x020E     |
+Cata       | 0x020E     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

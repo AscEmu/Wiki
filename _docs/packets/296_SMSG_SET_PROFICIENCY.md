@@ -11,10 +11,14 @@ position: 296
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x127      |
-TBC        | 0x127      |
-WotLK      | 0x127      |
+Classic    | 0x0127     |
+TBC        | 0x0127     |
+WotLK      | 0x0127     |
 Cata       | 0x6207     |
 MoP        | 0x1440     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26F4     |
+Legion     | 0x2776     |
+BfA        | 0x277A     |
+SL         | 0x2728     |
+DF         | 0x2733     |
+TWW        | 0x4001D6   |

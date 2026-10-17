@@ -18,3 +18,7 @@ Cata       | 0x54B7     |
 MoP        | 0x0EF8     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

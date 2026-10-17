@@ -11,10 +11,14 @@ position: 387
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x182      |
-TBC        | 0x182      |
-WotLK      | 0x182      |
+Classic    | 0x0182     |
+TBC        | 0x0182     |
+WotLK      | 0x0182     |
 Cata       | 0x4407     |
 MoP        | 0x036A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3410     |
+Legion     | 0x349F     |
+BfA        | 0x349C     |
+SL         | 0x34A2     |
+DF         | 0x34A3     |
+TWW        | 0x3A002E   |

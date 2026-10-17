@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x0886     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

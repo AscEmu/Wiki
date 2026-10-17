@@ -11,10 +11,14 @@ position: 280
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x117      |
-TBC        | 0x117      |
-WotLK      | 0x117      |
+Classic    | 0x0117     |
+TBC        | 0x0117     |
+WotLK      | 0x0117     |
 Cata       | 0x721E     |
 MoP        | 0x1CE3     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30D5     |
+Legion     | 0x3157     |
+BfA        | 0x3157     |
+SL         | 0x3157     |
+DF         | 0x3157     |
+TWW        | 0x390001   |

@@ -11,10 +11,14 @@ position: 189
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0BC      |
-TBC        | 0x0BC      |
-WotLK      | 0x0BC      |
+Classic    | 0x00BC     |
+TBC        | 0x00BC     |
+WotLK      | 0x00BC     |
 Cata       | 0x700C     |
 MoP        | 0x01D0     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3969     |
+Legion     | 0x39EC     |
+BfA        | 0x39EC     |
+SL         | 0x39EC     |
+DF         | 0x39EC     |
+TWW        | 0x3C0008   |

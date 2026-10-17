@@ -11,10 +11,14 @@ position: 763
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2FA      |
-TBC        | 0x2FA      |
-WotLK      | 0x2FA      |
+Classic    | 0x02FA     |
+TBC        | 0x02FA     |
+WotLK      | 0x02FA     |
 Cata       | 0x6E15     |
 MoP        | 0x0CAF     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2B37     |
+Legion     | 0x2BB4     |
+BfA        | 0x2BB4     |
+SL         | 0x2BB4     |
+DF         | 0x2BB4     |
+TWW        | 0x45000A   |

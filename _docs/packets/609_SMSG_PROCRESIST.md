@@ -11,10 +11,14 @@ position: 609
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x260      |
-TBC        | 0x260      |
-WotLK      | 0x260      |
+Classic    | 0x0260     |
+TBC        | 0x0260     |
+WotLK      | 0x0260     |
 Cata       | 0x0426     |
 MoP        | 0x12BE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x271C     |
+Legion     | 0x279E     |
+BfA        | 0x27A2     |
+SL         | 0x274E     |
+DF         | 0x2759     |
+TWW        | 0x4001FC   |

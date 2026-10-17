@@ -11,10 +11,14 @@ position: 493
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1EC      |
-TBC        | 0x1EC      |
-WotLK      | 0x1EC      |
+Classic    | 0x01EC     |
+TBC        | 0x01EC     |
+WotLK      | 0x01EC     |
 Cata       | 0x4542     |
 MoP        | 0x0949     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2FC6     |
+Legion     | 0x3048     |
+BfA        | 0x3048     |
+SL         | 0x3048     |
+DF         | 0x3048     |
+TWW        | 0x470000   |

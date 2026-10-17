@@ -11,10 +11,14 @@ position: 433
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1B0      |
-TBC        | 0x1B0      |
-WotLK      | 0x1B0      |
+Classic    | 0x01B0     |
+TBC        | 0x01B0     |
+WotLK      | 0x01B0     |
 Cata       | 0x2336     |
 MoP        | 0x034B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3421     |
+Legion     | 0x34B0     |
+BfA        | 0x34AD     |
+SL         | 0x34B3     |
+DF         | 0x34B5     |
+TWW        | 0x3A0040   |

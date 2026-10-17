@@ -11,10 +11,14 @@ position: 900
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x383      |
-TBC        | 0x383      |
-WotLK      | 0x383      |
+Classic    | 0x0383     |
+TBC        | 0x0383     |
+WotLK      | 0x0383     |
 Cata       | 0x30A2     |
 MoP        | 0x0319     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D41     |
+Legion     | 0x2DC3     |
+BfA        | 0x2DC3     |
+SL         | 0x2DF5     |
+DF         | 0x2DF5     |
+TWW        | 0x580023   |

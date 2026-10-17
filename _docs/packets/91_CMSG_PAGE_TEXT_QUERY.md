@@ -12,9 +12,13 @@ position: 91
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x05A      |
-WotLK      | 0x05A      |
+TBC        | 0x005A     |
+WotLK      | 0x005A     |
 Cata       | 0x6614     |
 MoP        | 0x1022     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31C9     |
+Legion     | 0x3266     |
+BfA        | 0x3278     |
+SL         | 0x3282     |
+DF         | 0x328D     |
+TWW        | 0x390146   |

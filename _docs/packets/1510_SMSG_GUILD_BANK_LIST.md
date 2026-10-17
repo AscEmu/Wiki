@@ -11,10 +11,14 @@ position: 1510
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3E7      |
-TBC        | 0x3E7      |
-WotLK      | 0x3E8      |
+Classic    | 0x03E7     |
+TBC        | 0x03E7     |
+WotLK      | 0x03E8     |
 Cata       | 0x78A5     |
 MoP        | 0x0B79     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x295B     |
+Legion     | 0x29DE     |
+BfA        | 0x29DE     |
+SL         | 0x29DE     |
+DF         | 0x29DF     |
+TWW        | 0x4C0026   |

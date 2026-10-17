@@ -11,10 +11,14 @@ position: 1271
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x406      |
-TBC        | 0x406      |
-WotLK      | 0x407      |
+Classic    | 0x0406     |
+TBC        | 0x0406     |
+WotLK      | 0x0407     |
 Cata       | 0x0015     |
 MoP        | 0x1A87     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x360F     |
+Legion     | 0x367F     |
+BfA        | 0x367F     |
+SL         | 0x367E     |
+DF         | 0x367C     |
+TWW        | 0x3E00AB   |

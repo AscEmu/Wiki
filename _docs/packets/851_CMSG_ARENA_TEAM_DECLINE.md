@@ -12,9 +12,13 @@ position: 851
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x352      |
-WotLK      | 0x352      |
+TBC        | 0x0352     |
+WotLK      | 0x0352     |
 Cata       | 0x6925     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

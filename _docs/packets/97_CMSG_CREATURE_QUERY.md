@@ -11,10 +11,14 @@ position: 97
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x060      |
-TBC        | 0x060      |
-WotLK      | 0x060      |
+Classic    | 0x0060     |
+TBC        | 0x0060     |
+WotLK      | 0x0060     |
 Cata       | 0x2706     |
 MoP        | 0x0842     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31C5     |
+Legion     | 0x3262     |
+BfA        | 0x3274     |
+SL         | 0x327E     |
+DF         | 0x3289     |
+TWW        | 0x390142   |

@@ -11,10 +11,14 @@ position: 834
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x341      |
-TBC        | 0x341      |
-WotLK      | 0x341      |
+Classic    | 0x0341     |
+TBC        | 0x0341     |
+WotLK      | 0x0341     |
 Cata       | 0x1342     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

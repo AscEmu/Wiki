@@ -11,10 +11,14 @@ position: 298
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x129      |
-TBC        | 0x129      |
-WotLK      | 0x129      |
+Classic    | 0x0129     |
+TBC        | 0x0129     |
+WotLK      | 0x0129     |
 Cata       | 0x38B5     |
 MoP        | 0x081A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2579     |
+Legion     | 0x25F5     |
+BfA        | 0x25F7     |
+SL         | 0x25D9     |
+DF         | 0x25E0     |
+TWW        | 0x40007C   |

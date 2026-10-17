@@ -11,10 +11,14 @@ position: 740
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2E3      |
-TBC        | 0x2E3      |
-WotLK      | 0x2E3      |
+Classic    | 0x02E3     |
+TBC        | 0x02E3     |
+WotLK      | 0x02E3     |
 Cata       | 0x4815     |
 MoP        | 0x12D8     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3425     |
+Legion     | 0x34B4     |
+BfA        | 0x34B1     |
+SL         | 0x34B7     |
+DF         | 0x34B9     |
+TWW        | 0x3A0044   |

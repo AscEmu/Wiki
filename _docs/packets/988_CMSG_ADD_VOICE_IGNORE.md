@@ -11,10 +11,14 @@ position: 988
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3DA      |
-TBC        | 0x3DA      |
-WotLK      | 0x3DB      |
+Classic    | 0x03DA     |
+TBC        | 0x03DA     |
+WotLK      | 0x03DB     |
 Cata       | 0x0F06     |
 MoP        |            |
-WoD        |            |
+WoD        | 0x35DD     |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

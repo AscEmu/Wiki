@@ -11,10 +11,14 @@ position: 494
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1ED      |
-TBC        | 0x1ED      |
-WotLK      | 0x1ED      |
+Classic    | 0x01ED     |
+TBC        | 0x01ED     |
+WotLK      | 0x01ED     |
 Cata       | 0x0449     |
 MoP        | 0x00B2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x36E3     |
+Legion     | 0x3765     |
+BfA        | 0x3765     |
+SL         | 0x3765     |
+DF         | 0x3779     |
+TWW        | 0x3F0001   |

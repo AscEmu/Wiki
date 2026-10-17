@@ -11,10 +11,14 @@ position: 804
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x323      |
-TBC        | 0x323      |
-WotLK      | 0x323      |
-Cata       | 0x323      |
+Classic    | 0x0323     |
+TBC        | 0x0323     |
+WotLK      | 0x0323     |
+Cata       | 0x0323     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

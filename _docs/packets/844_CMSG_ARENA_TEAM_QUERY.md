@@ -12,9 +12,13 @@ position: 844
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x34B      |
-WotLK      | 0x34B      |
+TBC        | 0x034B     |
+WotLK      | 0x034B     |
 Cata       | 0x0514     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

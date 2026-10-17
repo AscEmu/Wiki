@@ -11,10 +11,14 @@ position: 175
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0AE      |
-TBC        | 0x0AE      |
-WotLK      | 0x0AE      |
+Classic    | 0x00AE     |
+TBC        | 0x00AE     |
+WotLK      | 0x00AE     |
 Cata       | 0x2605     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

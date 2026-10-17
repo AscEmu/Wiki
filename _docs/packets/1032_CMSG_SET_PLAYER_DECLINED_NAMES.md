@@ -11,10 +11,14 @@ position: 1032
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x418      |
-TBC        | 0x418      |
-WotLK      | 0x419      |
+Classic    | 0x0418     |
+TBC        | 0x0418     |
+WotLK      | 0x0419     |
 Cata       | 0x6316     |
 MoP        | 0x09E2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x361A     |
+Legion     | 0x368A     |
+BfA        | 0x3689     |
+SL         | 0x3687     |
+DF         | 0x3685     |
+TWW        | 0x3E00B4   |

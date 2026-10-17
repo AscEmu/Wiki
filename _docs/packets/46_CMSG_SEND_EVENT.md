@@ -11,10 +11,14 @@ position: 46
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x02D      |
-TBC        | 0x02D      |
-WotLK      | 0x02D      |
-Cata       | 0x02D      |
+Classic    | 0x002D     |
+TBC        | 0x002D     |
+WotLK      | 0x002D     |
+Cata       | 0x002D     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

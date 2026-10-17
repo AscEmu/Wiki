@@ -11,10 +11,14 @@ position: 28
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x01B      |
-TBC        | 0x01B      |
-WotLK      | 0x01B      |
+Classic    | 0x001B     |
+TBC        | 0x001B     |
+WotLK      | 0x001B     |
 Cata       | 0x6126     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

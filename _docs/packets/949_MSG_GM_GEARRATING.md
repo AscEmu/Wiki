@@ -11,10 +11,14 @@ position: 949
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3B3      |
-TBC        | 0x3B3      |
-WotLK      | 0x3B4      |
-Cata       | 0x3B4      |
-MoP        | 0x3B4      |
+Classic    | 0x03B3     |
+TBC        | 0x03B3     |
+WotLK      | 0x03B4     |
+Cata       | 0x03B4     |
+MoP        | 0x03B4     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

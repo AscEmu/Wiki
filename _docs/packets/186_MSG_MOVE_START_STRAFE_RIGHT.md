@@ -11,10 +11,14 @@ position: 186
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0B9      |
-TBC        | 0x0B9      |
-WotLK      | 0x0B9      |
+Classic    | 0x00B9     |
+TBC        | 0x00B9     |
+WotLK      | 0x00B9     |
 Cata       | 0x3A02     |
 MoP        | 0x1058     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3966     |
+Legion     | 0x39E8     |
+BfA        | 0x39E8     |
+SL         | 0x39E8     |
+DF         | 0x39E8     |
+TWW        | 0x3C0004   |

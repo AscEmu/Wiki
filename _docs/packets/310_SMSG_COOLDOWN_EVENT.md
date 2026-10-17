@@ -11,10 +11,14 @@ position: 310
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x135      |
-TBC        | 0x135      |
-WotLK      | 0x135      |
+Classic    | 0x0135     |
+TBC        | 0x0135     |
+WotLK      | 0x0135     |
 Cata       | 0x4F26     |
 MoP        | 0x1163     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2666     |
+Legion     | 0x26E3     |
+BfA        | 0x26EC     |
+SL         | 0x26B0     |
+DF         | 0x26B9     |
+TWW        | 0x40015C   |

@@ -11,10 +11,14 @@ position: 442
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1B9      |
-TBC        | 0x1B9      |
-WotLK      | 0x1B9      |
+Classic    | 0x01B9     |
+TBC        | 0x01B9     |
+WotLK      | 0x01B9     |
 Cata       | 0x0425     |
 MoP        | 0x12F2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3428     |
+Legion     | 0x34B7     |
+BfA        | 0x34B4     |
+SL         | 0x34BA     |
+DF         | 0x34BC     |
+TWW        |            |

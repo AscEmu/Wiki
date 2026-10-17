@@ -11,10 +11,14 @@ position: 597
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x254      |
-TBC        | 0x254      |
-WotLK      | 0x254      |
+Classic    | 0x0254     |
+TBC        | 0x0254     |
+WotLK      | 0x0254     |
 Cata       | 0x0A06     |
 MoP        | 0x10C2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2B38     |
+Legion     | 0x2BB5     |
+BfA        | 0x2BB5     |
+SL         | 0x2BB5     |
+DF         | 0x2BB5     |
+TWW        | 0x45000B   |

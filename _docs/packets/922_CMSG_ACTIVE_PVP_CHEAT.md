@@ -11,10 +11,14 @@ position: 922
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x399      |
-TBC        | 0x399      |
-WotLK      | 0x399      |
-Cata       | 0x399      |
+Classic    | 0x0399     |
+TBC        | 0x0399     |
+WotLK      | 0x0399     |
+Cata       | 0x0399     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

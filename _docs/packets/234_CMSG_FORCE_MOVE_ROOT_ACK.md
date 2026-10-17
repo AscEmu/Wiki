@@ -11,10 +11,14 @@ position: 234
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0E9      |
-TBC        | 0x0E9      |
-WotLK      | 0x0E9      |
+Classic    | 0x00E9     |
+TBC        | 0x00E9     |
+WotLK      | 0x00E9     |
 Cata       | 0x701E     |
 MoP        | 0x107A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3985     |
+Legion     | 0x3A0B     |
+BfA        | 0x3A0C     |
+SL         | 0x3A0F     |
+DF         | 0x3A0E     |
+TWW        | 0x3C002A   |

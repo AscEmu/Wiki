@@ -11,10 +11,14 @@ position: 419
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1A2      |
-TBC        | 0x1A2      |
-WotLK      | 0x1A2      |
+Classic    | 0x01A2     |
+TBC        | 0x01A2     |
+WotLK      | 0x01A2     |
 Cata       | 0x0736     |
 MoP        | 0x02E2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3417     |
+Legion     | 0x34A6     |
+BfA        | 0x34A3     |
+SL         | 0x34A9     |
+DF         | 0x34AB     |
+TWW        | 0x3A0036   |

@@ -11,10 +11,14 @@ position: 847
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x34E      |
-TBC        | 0x34E      |
-WotLK      | 0x34E      |
+Classic    | 0x034E     |
+TBC        | 0x034E     |
+WotLK      | 0x034E     |
 Cata       | 0x2717     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

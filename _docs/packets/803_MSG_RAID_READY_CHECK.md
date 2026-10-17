@@ -11,10 +11,14 @@ position: 803
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x322      |
+Classic    | 0x0322     |
 TBC        |            |
-WotLK      | 0x322      |
+WotLK      | 0x0322     |
 Cata       | 0x2304     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x35BA     |
+Legion     | 0x3633     |
+BfA        | 0x3633     |
+SL         | 0x3634     |
+DF         | 0x3631     |
+TWW        | 0x3E005E   |

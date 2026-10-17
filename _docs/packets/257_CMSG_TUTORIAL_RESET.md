@@ -13,10 +13,14 @@ Send on tutorial reset.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x100      |
-TBC        | 0x100      |
-WotLK      | 0x100      |
+Classic    | 0x0100     |
+TBC        | 0x0100     |
+WotLK      | 0x0100     |
 Cata       | 0x2726     |
 MoP        | 0x0307     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

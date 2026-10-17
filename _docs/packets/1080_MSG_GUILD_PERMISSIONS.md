@@ -11,10 +11,14 @@ position: 1080
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3FC      |
-TBC        | 0x3FC      |
-WotLK      | 0x3FD      |
+Classic    | 0x03FC     |
+TBC        | 0x03FC     |
+WotLK      | 0x03FD     |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

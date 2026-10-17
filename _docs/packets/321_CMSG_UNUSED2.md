@@ -11,10 +11,14 @@ position: 321
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x140      |
-TBC        | 0x140      |
-WotLK      | 0x140      |
-Cata       | 0x140      |
+Classic    | 0x0140     |
+TBC        | 0x0140     |
+WotLK      | 0x0140     |
+Cata       | 0x0140     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

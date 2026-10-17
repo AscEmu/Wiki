@@ -11,10 +11,14 @@ position: 790
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x315      |
-TBC        | 0x315      |
-WotLK      | 0x315      |
-Cata       | 0x315      |
+Classic    | 0x0315     |
+TBC        | 0x0315     |
+WotLK      | 0x0315     |
+Cata       | 0x0315     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

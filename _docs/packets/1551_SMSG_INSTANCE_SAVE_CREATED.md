@@ -11,10 +11,14 @@ position: 1551
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2CB      |
-TBC        | 0x2CB      |
-WotLK      | 0x2CB      |
+Classic    | 0x02CB     |
+TBC        | 0x02CB     |
+WotLK      | 0x02CB     |
 Cata       | 0x0124     |
 MoP        | 0x1EAE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2737     |
+Legion     | 0x27BD     |
+BfA        | 0x27C5     |
+SL         | 0x276F     |
+DF         | 0x277A     |
+TWW        | 0x40021E   |

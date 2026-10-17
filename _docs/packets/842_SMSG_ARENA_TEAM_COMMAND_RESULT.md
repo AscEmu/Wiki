@@ -11,10 +11,14 @@ position: 842
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x349      |
-TBC        | 0x349      |
-WotLK      | 0x349      |
+Classic    | 0x0349     |
+TBC        | 0x0349     |
+WotLK      | 0x0349     |
 Cata       | 0x39B3     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

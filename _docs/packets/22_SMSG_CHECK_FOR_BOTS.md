@@ -11,10 +11,14 @@ position: 22
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x015      |
-TBC        | 0x015      |
-WotLK      | 0x015      |
-Cata       | 0x015      |
+Classic    | 0x0015     |
+TBC        | 0x0015     |
+WotLK      | 0x0015     |
+Cata       | 0x0015     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

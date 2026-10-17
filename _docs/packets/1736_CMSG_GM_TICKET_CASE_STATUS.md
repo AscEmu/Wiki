@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x15A8     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x13F      |
-Cata       | 0x13F      |
+WotLK      | 0x013F     |
+Cata       | 0x013F     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3479     |
+Legion     | 0x3511     |
+BfA        | 0x3514     |
+SL         | 0x351A     |
+DF         | 0x351C     |
+TWW        | 0x3A00A4   |

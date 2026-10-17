@@ -11,10 +11,14 @@ position: 788
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x313      |
-TBC        | 0x313      |
-WotLK      | 0x313      |
+Classic    | 0x0313     |
+TBC        | 0x0313     |
+WotLK      | 0x0313     |
 Cata       | 0x4216     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26BE     |
+Legion     | 0x273C     |
+BfA        | 0x2742     |
+SL         | 0x26F4     |
+DF         | 0x26FF     |
+TWW        | 0x4001A2   |

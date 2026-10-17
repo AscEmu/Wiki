@@ -11,10 +11,14 @@ position: 525
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x20C      |
-TBC        | 0x20C      |
-WotLK      | 0x20C      |
+Classic    | 0x020C     |
+TBC        | 0x020C     |
+WotLK      | 0x020C     |
 Cata       | 0x6837     |
 MoP        | 0x0AAE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26C9     |
+Legion     | 0x2748     |
+BfA        | 0x274E     |
+SL         | 0x26FD     |
+DF         | 0x2708     |
+TWW        | 0x4001AB   |
