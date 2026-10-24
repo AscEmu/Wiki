@@ -17,7 +17,6 @@ Field                                                                           
 [map](#map)                                                                                        | smallint(5)  | 0       |                 
 [screen](#screen)                                                                                  | smallint(5)  | 0       | Not used by core
 [name](#name)                                                                                      | varchar(100) | Unknown | Not used by core
-[maxcount](#maxcount)                                                                              | tinyint(3)   | 0       |                 
 [position_x](#positions)                                                                           | float(0)     | 0       |                 
 [position_y](#positions)                                                                           | float(0)     | 0       |                 
 [position_z](#positions)                                                                           | float(0)     | 0       |                 

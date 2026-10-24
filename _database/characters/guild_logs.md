@@ -18,7 +18,7 @@ Field                      | Type       | Default | Comment
 [playerGuid1](#playerGuid) | int(10)    |         |        
 [playerGuid2](#playerGuid) | int(20)    |         |        
 [newRank](#newRank)        | tinyint(3) |         |        
-[timestamp](#timestamp)    | int(10)    |         |        
+[timeStamp](#timeStamp)    | int(10)    |         |        
 
 ### guildId
 
@@ -45,6 +45,6 @@ Used for eventTypes.
 
 Log the new rank based on the eventType.
     
-### timestamp
+### timeStamp
 
-The Timestamp of the log entry.
+The UNIX time of the log entry.

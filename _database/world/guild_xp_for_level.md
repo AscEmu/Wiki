@@ -13,8 +13,7 @@ Defines required xp for Cataclysm guild level
 Field                                   | Type     | Default | Comment
 --------------------------------------- | -------- | ------- | -------
 [lvl](#lvl)                             | int(10)  | 0       | key
-[xp_for_next_level](#xp_for_next_level) | longtext |         |        
-[next_page](#next_page)                 | int(10)  | 0       |        
+[xp_for_next_level](#xp_for_next_level) | bigint unsigned | 0 |        
 
 ### lvl
 
@@ -23,7 +22,3 @@ The guild level
 ### xp_for_next_level
 
 The required xp for the next level.
-
-### next_page
-
-...

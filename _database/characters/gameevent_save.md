@@ -18,7 +18,7 @@ Field                       | Type       | Default | Comment
 
 ### event_entry
 
-The entry ID of the event from event_properties table.
+The entry ID of the event from the [gameevent_properties](/Wiki/database/world/gameevent_properties/ "Gameevent properties") table.
 
 ### state
 

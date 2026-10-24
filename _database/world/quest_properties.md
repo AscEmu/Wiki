@@ -48,12 +48,12 @@ Field                                                   | Type      | Default   
 [ReqItemId4](#ReqItemId)                                | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [ReqItemId5](#ReqItemId)                                | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [ReqItemId6](#ReqItemId)                                | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount1](ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount2](ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount3](ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount4](ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount5](ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount6](ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount1](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount2](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount3](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount4](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount5](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount6](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [ReqKillMobOrGOId1](#ReqKillMobOrGOId)                  | int(10)   | NOT NULL DEFAULT '0'                                |                 
 [ReqKillMobOrGOId2](#ReqKillMobOrGOId)                  | int(10)   | NOT NULL DEFAULT '0'                                |                 
 [ReqKillMobOrGOId3](#ReqKillMobOrGOId)                  | int(10)   | NOT NULL DEFAULT '0'                                |                 

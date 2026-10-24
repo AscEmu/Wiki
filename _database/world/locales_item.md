@@ -14,7 +14,8 @@ Field                                                                           
 -------------------------------------------------------------------------------------- | ---------- | ------- | ---------------------------------------------------
 [entry](#entry)                                                                        | int(10)    | 0       |                                                    
 [language_code](#language_code)                                                        | varchar(5) |         |                                                    
-[text](#text)                                                                          | text       |         | "Using the same type like in itempage! (longtext)!"
+[name](#name)                                                                          | varchar(100)  |         | 
+[description](#description)                                                            | varchar(100)  |         | 
 
 ### entry
 
@@ -35,6 +36,10 @@ esES     | Spanish (EU)                 |
 esMX     | Spanish (Latin American)     |
 ruRU     | Russian                      |
 
-### text
+### name
 
-The localized Text.
+The localized item name.
+
+### description
+
+The localized item description (the flavour text).

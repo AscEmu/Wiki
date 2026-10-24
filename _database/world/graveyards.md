@@ -6,13 +6,14 @@ layout: single_markdown
 ---
 
 # graveyards
-This table contains the graveyard positions. Unfortunately, it seems this table would be deleted in further development!
+This table contains the graveyard positions per client build. The positions of a graveyard change with the terrain of a build, a wrong height lets ghosts fall through the map.
 
 ## Structure
 
 Field                                                                                    | Type         | Default | Comment                    
 ---------------------------------------------------------------------------------------- | ------------ | ------- | ---------------------------
-[id](#id)                                                                                | smallint(4)  |         | Auto Num. Not used in core.
+[id](#id)                                                                                | int unsigned |         | key, the safe loc id of the client
+[build](#build)                                                                          | int unsigned  | 5875    | key
 [position_x](#position)                                                                  | float(0)     | 0       |                            
 [position_y](#position)                                                                  | float(0)     | 0       |                            
 [position_z](#position)                                                                  | float(0)     | 0       |                            
@@ -25,8 +26,11 @@ Field                                                                           
 
 ### id
 
-Unique value for ordering not used by core!
+The WorldSafeLocs id of the client. Together with the build it is the key of the row.
 
+### build
+
+Client build the row is valid from. The server loads, for every entry, the row with the highest build that does not exceed its own build, so a row is only needed where the data differs from the previous build.
 ### position
 
 The position on map and the orientation.

@@ -6,29 +6,52 @@ layout: single_markdown
 ---
 
 # creature_formations
-Contains information on creature formations. Ex. making an NPC follow a leader in a pack. 
+This table contains the formations of creature spawns: a leader and the members that follow it in a fixed distance and angle and assist it in combat.
 
 ## Structure
 
-Field                                                                                             | Type     | Default | Comment
-------------------------------------------------------------------------------------------------- | -------- | ------- | -------
-[spawn_id](#spawn_id)                                                                             | int(10)  | 0       |        
-[target_spawn_id](#target_spawn_id)                                                               | int(10)  | 0       |        
-[follow_angle](#follow_angle)                                                                     | float(0) | 0       |        
-[follow_dist](#follow_dist)                                                                       | float(0) | 0       |        
+Field                              | Type             | Default | Comment
+---------------------------------- | ---------------- | ------- | -------
+[leaderGUID](#leaderGUID)          | int unsigned     | 0       |
+[memberGUID](#memberGUID)          | int unsigned     | 0       | key
+[dist](#dist)                      | float unsigned   |         |
+[angle](#angle)                    | float unsigned   |         |
+[groupAI](#groupAI)                | int unsigned     |         |
+[point_1](#point_1)                | smallint unsigned| 0       |
+[point_2](#point_2)                | smallint unsigned| 0       |
 
-### spawn_id
+### leaderGUID
 
-The unique ID from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns"). This is the ID that will be following the "leader".
+The spawn id of the leader from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns"). The leader has a row of its own where leaderGUID equals memberGUID.
 
-### target_spawn_id
+### memberGUID
 
-The ID from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns"), this is the "leader" that is being followed.
+The spawn id of the member from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns").
 
-### follow_angle
+### dist
 
-The angle between the two creatures.
+The distance the member keeps to the leader. Ignored for the leader row.
 
-### follow_dist
+### angle
 
-The distance between the two creatures.
+The angle in degrees at which the member follows the leader, 0 = behind it. Ignored for the leader row.
+
+### groupAI
+
+Bit mask of the group behaviour.
+
+<pre>
+0   = no group behaviour
+1   = the members assist when the leader aggroes
+2   = the leader assists when a member aggroes
+3   = every member assists when any member is attacked
+512 = the member follows the leader while it walks its waypoints
+</pre>
+
+### point_1
+
+Waypoint id of the leader path at which the formation forms up, 0 = unused.
+
+### point_2
+
+Second waypoint id of the leader path at which the formation forms up, 0 = unused.

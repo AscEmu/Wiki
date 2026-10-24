@@ -88,6 +88,7 @@ Field                                               | Type          | Default | 
 [questitem5](#questitems_1_6)                       | int(11)       | 0       |
 [questitem6](#questitems_1_6)                       | int(11)       | 0       |
 [waypointid](#waypointid)                           | int(10)       | 0       |
+[gossipId](#gossipId)                               | int unsigned  | 0       | 
 
 ### entry
 
@@ -625,3 +626,7 @@ Up to six quest items can be configured.
 Waypoint path ID used by the creature.
 
 The path is defined in [creature_waypoints](/Wiki/database/world/creature_waypoints/ "Creature waypoints").
+
+### gossipId
+
+The menu of [gossip_menu](/Wiki/database/world/gossip_menu/ "Gossip menu") the creature opens when a player talks to it, 0 = no database gossip. A creature with a menu gets a database gossip script that builds the options from [gossip_menu_items](/Wiki/database/world/gossip_menu_items/ "Gossip menu items").

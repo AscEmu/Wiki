@@ -13,6 +13,7 @@ This table includes the linked difficulty entry IDs to basic creatures.
 Field                                                                                     | Type    | Default | Comment
 ----------------------------------------------------------------------------------------- | ------- | ------- | -------
 [entry](#entry)                                                                           | int(30) | 0       |        
+[build](#build)                                                                           | int unsigned  | 5875    | key
 [difficulty_1](#difficulty)                                                               | int(30) | 0       |        
 [difficulty_2](#difficulty)                                                               | int(30) | 0       |        
 [difficulty_3](#difficulty)                                                               | int(30) | 0       |        
@@ -21,6 +22,9 @@ Field                                                                           
 
 The basic entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") to link difficulty information.
 
+### build
+
+Client build the row is valid from. The server loads, for every entry, the row with the highest build that does not exceed its own build, so a row is only needed where the data differs from the previous build.
 ### difficulty
 
 The linked difficulty entry from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties").

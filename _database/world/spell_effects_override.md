@@ -12,7 +12,7 @@ This table defines which spelleffects gets override.
 
 Field                                                                                                      | Type          | Default | Comment
 ---------------------------------------------------------------------------------------------------------- | ------------- | ------- | -------
-[spellid](#spellid)                                                                                        | int(30)       | 0       |        
+[spellId](#spellId)                                                                                        | int(30)       | 0       |        
 [EffectID](#EffectID)                                                                                      | int(30)       | 0       |        
 [Disable](#Disable)                                                                                        | int(30)       | 0       |        
 [Effect](#Effect)                                                                                          | int(30)       | 0       |        
@@ -25,7 +25,7 @@ Field                                                                           
 [ImplicitTargetB](#ImplicitTargetB)                                                                        | smallint(5)   | 0       |        
 [EffectCustomFlag](#EffectCustomFlag)                                                                      | int(10)       | 0       |        
 
-### spellid
+### spellId
 
 The spell ID.
 

@@ -20,7 +20,7 @@ Field                             | Type        | Default | Comment
 [itemOrMoney](#itemOrMoney)       | int(10)     | 0       |        
 [itemStackCount](#itemStackCount) | smallint(5) | 0       |        
 [destTabId](#destTabId)           | tinyint(3)  | 0       |        
-[timestamp](#timestamp)           | int(10)     | 0       |        
+[timeStamp](#timeStamp)           | int(10)     | 0       |        
 
 ### guildId
 
@@ -65,6 +65,6 @@ The number of stacked items.
 
 the destination tab for the item in this log.
 
-### timestamp
+### timeStamp
 
-The timestamp of the log entry.
+The UNIX time of the log entry.

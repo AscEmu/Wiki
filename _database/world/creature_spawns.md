@@ -457,7 +457,7 @@ The phase of the creature.
 
 ### event_entry
 
-entry from table event_properties
+entry from the [gameevent_properties](/Wiki/database/world/gameevent_properties/ "Gameevent properties") table
 
 ### wander_distance
 

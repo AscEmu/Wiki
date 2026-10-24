@@ -14,13 +14,13 @@ Field                                                                           
 ---------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
 [entry](#entry)                                                                                      | int(10)    |         |        
 [language_code](#language_code)                                                                      | varchar(5) |         |        
-[text](#text)                                                                                        | text       |         |        
+[option_text](#option_text)                                                                                        | text       |         |        
 
 ### entry
 
 The unique ID from [gossip_menu_option](/Wiki/database/world/gossip_menu_option/ "Gossip menu option") for the text.
 
-### languages_code
+### language_code
 
 The lanuguage code:
 
@@ -35,6 +35,6 @@ esES     | Spanish (EU)                 |
 esMX     | Spanish (Latin American)     |
 ruRU     | Russian                      |
 
-### text
+### option_text
 
 The localized menu option text instead of the english text.

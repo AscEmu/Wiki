@@ -23,6 +23,7 @@ Field                                                                           
 [trainer_type](#trainer_type)                                                                                    | int(11) | 0       |        
 [trainer_ui_window_message](#trainer_ui_window_message)                                                          | text    | 0       |        
 [can_train_gossip_textid](#can_train_gossip_textid)                                                              | int(11) | 0       |        
+[cannot_train_gossip_textid](#cannot_train_gossip_textid)                                                        | int           | NULL    | 
 [spellset_id](#spellset_id)                                                                                      | int     | 0       |        
 [can_train_max_level](#can_train_max_level)                                                                      | int     | 0       |        
 [can_train_min_skill_value](#can_train_min_skill_value)                                                          | int     | 0       |        
@@ -68,10 +69,10 @@ Amount of reputation required to train. (always 0)
 The message Text for the trainer window.
 
 ### can_train_gossip_textid
-The TextID shown if trainer can train this spell from [npc_gossip_textid](/Wiki/database/world/npc_gossip_textid/ "Npc gossip textid") table.
+The TextID shown if trainer can train this spell from [npc_gossip_texts](/Wiki/database/world/npc_gossip_texts/ "Npc gossip texts") table.
 
 ### cannot_train_gossip_textid
-The TextID shown if trainer can not train this spell from [npc_gossip_textid](/Wiki/database/world/npc_gossip_textid/ "Npc gossip textid") table.
+The TextID shown if trainer can not train this spell from [npc_gossip_texts](/Wiki/database/world/npc_gossip_texts/ "Npc gossip texts") table.
 
 ### spellset_id
 ID to the spellset defined in [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/) table.

@@ -6,60 +6,63 @@ layout: single_markdown
 ---
 
 # loot_pickpocketing
-This table contains the loots for pick pocket creatures. 
+This table contains the pickpocketing loot of creatures.
 
 ## Structure
 
-Field                                                                                                    | Type             | Default | Comment
--------------------------------------------------------------------------------------------------------- | ---------------- | ------- | -----------------
-[entryid](#entryid)                                                                                      | int(10)          | 0       |
-[itemid](#itemid)                                                                                        | int(11)          | 0       |
-[normal10percentchance](#normal10percentchance)                                                          | float(5)         | 0.00    |
-[normal25percentchance](#normal25percentchance)                                                          | float(5)         | 0.00    |
-[heroic10percentchance](#heroic10percentchance)                                                          | float(5)         | 0.00    |
-[heroic25percentchance](#heroic25percentchance)                                                          | float(5)         | 0.00    |
-[mincount](#mincount)                                                                                    | int(10)          | 0       |
-[maxcount](#maxcount)                                                                                    | int(10)          | 0       |
-[is_currency](#is_currency)                                                                              | tinyint unsigned | 0       |
+Field                              | Type             | Default | Comment
+---------------------------------- | ---------------- | ------- | -------
+[entryid](#entryid)                | int unsigned     |         | key
+[build](#build)                    | int unsigned     | 0       | key
+[difficulty](#difficulty)          | tinyint unsigned | 0       | key
+[itemid](#itemid)                  | int unsigned     | 0       | key
+[groupid](#groupid)                | int unsigned     | 0       | key
+[chance](#chance)                  | float            | 0       |
+[groupindex](#groupindex)          | tinyint unsigned | 0       |
+[mincount](#mincount)              | int unsigned     | 1       |
+[maxcount](#maxcount)              | int unsigned     | 1       |
+[is_currency](#is_currency)        | tinyint unsigned | 0       |
+
+A row is either an item (`itemid` set, `groupid` 0) or a link to a group of [loot_groups](/Wiki/database/world/loot_groups/ "Loot groups") (`groupid` set, `itemid` 0). The rows of an entry form one loot set per build and difficulty.
 
 ### entryid
 
-The Entry ID of the zone from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties").
+The entry ID of the creature from the [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
+
+### build
+
+Client build the loot set is valid from. The server loads, for every entry, the rows with the highest build that does not exceed its own build. A set is only stored where the loot differs from the previous build.
+
+### difficulty
+
+The client difficulty id the set applies to, 0 = every difficulty. From 10.x on the dumps carry a set per difficulty.
 
 ### itemid
 
-The Entry ID of the Item that will drop, from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
+The entry ID of the item that drops, from [item_properties](/Wiki/database/world/item_properties/ "Item properties"). 0 for a group link.
 
-### normal10percentchance
+:cata: and later versions, when [is_currency](#is_currency) is enabled, this value contains a currency ID from **CurrencyTypes** instead of an item entry.
 
-The percent chance (1 - 100) you have of getting the item from Normal 10-mode.
+### groupid
 
-### normal25percentchance
+The group of [loot_groups](/Wiki/database/world/loot_groups/ "Loot groups") that is rolled instead of an item. 0 for an item row.
 
-The percent chance (1 - 100) you have of getting the item from Normal 25-mode.
+### chance
 
-### heroic10percentchance
+The percent chance (0 - 100) of the row. For a row with its own roll ([groupindex](#groupindex) 0) it is the drop chance. Inside an exclusive group it is the share of the row; rows with chance 0 split the rest of the group equally. A group link rolls its group with this chance for every roll.
 
-The percent chance (1 - 100) you have of getting the item from Heroic 10-mode.
+### groupindex
 
-### heroic25percentchance
-
-The percent change (1 - 100) you have of getting the item from Heroic 25-mode.
+0 = the row rolls on its own. Every other value forms an exclusive group with the rows of the same index: exactly one of them drops.
 
 ### mincount
 
-The minimum amount of the Item that will drop.
+The minimum amount of the item.
 
 ### maxcount
 
-The maximum amount of the Item that will drop.
+The maximum amount of the item. For a group link it is the number of rolls of the group.
 
 ### is_currency
 
-Determines whether **itemid** contains an item ID or a currency ID.
-
-When set to **0**, **itemid** refers to an entry from [item_properties](/Wiki/database/world/item_properties/ "Item properties").
-
-When set to a non-zero value, **itemid** refers to a currency ID from **CurrencyTypes.dbc**.
-
-This field is available for :cata: and later versions and is always the last column in the loot table.
+1 = [itemid](#itemid) is a currency, 0 = an item.

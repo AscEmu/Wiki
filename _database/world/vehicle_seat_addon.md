@@ -11,13 +11,13 @@ layout: single_markdown
 
 Field                                     | Type        | Default    | Comment
 ------------------------------------------| ----------- | ---------- | -------
-[SeatEntry](SeatEntry)                    | int(10)     | NOT NULL   |
-[SeatOrientation](SeatOrientation)        | float       | 0          |
-[ExitParamX](ExitParamX)                  | float       | 0          |
-[ExitParamY](ExitParamY)                  | float       | 0          |
-[ExitParamZ](ExitParamZ)                  | float       | 0          |
-[ExitParamO](ExitParamO)                  | float       | 0          |
-[ExitParamValue](ExitParamValue)          | tinyint(1)  | 0          |
+[SeatEntry](#SeatEntry)                    | int(10)     | NOT NULL   |
+[SeatOrientation](#SeatOrientation)        | float       | 0          |
+[ExitParamX](#ExitParamX)                  | float       | 0          |
+[ExitParamY](#ExitParamY)                  | float       | 0          |
+[ExitParamZ](#ExitParamZ)                  | float       | 0          |
+[ExitParamO](#ExitParamO)                  | float       | 0          |
+[ExitParamValue](#ExitParamValue)          | tinyint(1)  | 0          |
 
 ### SeatEntry
 

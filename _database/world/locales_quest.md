@@ -18,7 +18,7 @@ Field                                                                           
 [Details](#Details)                                                                                 | text       | 0       |        
 [Objectives](#Objectives)                                                                           | text       | 0       |        
 [CompletionText](#CompletionText)                                                                   | text       | 0       |        
-[IncompletionText](#IncompletionText)                                                               | text       | 0       |        
+[IncompleteText](#IncompleteText)                                                               | text       | 0       |        
 [EndText](#EndText)                                                                                 | text       | 0       |        
 [ObjectiveText1](#ObjectiveText_1_4)                                                                | text       | 0       |        
 [ObjectiveText2](#ObjectiveText_1_4)                                                                | text       | 0       |        
@@ -60,9 +60,9 @@ The localized Objectives.
 
 The localized CompletionText.
 
-### IncompletionText
+### IncompleteText
 
-The localized IncompletionText.
+The localized text shown while the quest is not complete.
 
 ### EndText
 

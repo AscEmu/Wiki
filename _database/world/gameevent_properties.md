@@ -1,11 +1,11 @@
 ---
-title: event_properties
+title: gameevent_properties
 type: worlddb
-category: E
+category: G
 layout: single_markdown
 ---
 
-# event_properties
+# gameevent_properties
 This table contains the start/endtime for auto events.
 
 ## Structure
@@ -15,8 +15,8 @@ Field                       | Type         | Default             | Comment
 [entry](#entry)             | tinyint(3)   |                     | key
 [min_build](#min_build)     | smallint(6)  | 12340               | key
 [max_build](#max_build)     | smallint(6)  | 12340               |
-[start_time](#start_time)   | timestamp    | 0000-00-00 00:00:00 |        
-[end_time](#end_time)       | timestamp    | 0000-00-00 00:00:00 |        
+[start_time](#start_time)   | timestamp    | NULL                |        
+[end_time](#end_time)       | timestamp    | NULL                |        
 [occurence](#occurence)     | bigint(20)   | 5184000             |        
 [length](#length)           | bigint(20)   | 2592000             |        
 [holiday](#holiday)         | mediumint(8) | 0                   |        
@@ -30,11 +30,11 @@ The entry ID of the event.
 
 ### min_build
 
-The version this event was introduced.
+First client build the row is valid for. A row is used when the build of the server lies between min_build and max_build. The dumps of the newer clients only add a row where occurence, length, holiday or the world event flag differ.
 
 ### max_build
 
-The max version this event is valid.
+Last client build the row is valid for.
 
 ### start_time
 

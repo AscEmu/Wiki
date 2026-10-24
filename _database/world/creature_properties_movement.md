@@ -13,6 +13,7 @@ This table contains creature movement properties
 Field                                                                                                      | Type                 | Default | Comment
 ---------------------------------------------------------------------------------------------------------- | -------------------- | ------- | -------
 [CreatureId](#CreatureId)                                                                                  | int(10)              | 0       |        
+[build](#build)                                                                                            | int unsigned  | 5875    | key
 [Ground](#Ground)                                                                                          | tinyint(10)          | 0       |        
 [Swim](#Swim)                                                                                              | tinyint(10)          | 0       |        
 [Flight](#Flight)                                                                                          | tinyint(10)          | 0       |        
@@ -25,6 +26,9 @@ Field                                                                           
 
 This is a unique ID from [creature_spawns](/Wiki/database/world/creature_spawns/ "Creature spawns").
 
+### build
+
+Client build the row is valid from. The server loads, for every entry, the row with the highest build that does not exceed its own build, so a row is only needed where the data differs from the previous build.
 ### Ground
 
 <pre>

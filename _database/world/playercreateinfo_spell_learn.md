@@ -12,15 +12,20 @@ This table contains the spells for new created players to learn.
 
 Field                       | Type          | Default | Comment
 --------------------------- | ------------- | ------- | -------
-[build](#build)             | smallint(6)   | 12340   | key
+[min_build](#min_build)     | int           | 5875    | key
+[max_build](#max_build)     | int           | 18414   | key
 [raceMask](#raceMask)       | int()         | 0       | key
 [classMask](#classMask)     | int()         | 0       | key
 [spellid](#spellid)         | mediumint(10) | 0       |        
 [note](#note)               | VARCHAR(200)  | 0       | 
 
-### build
+### min_build
 
-Build number used by AE to determine if the data is for our current compiled version.
+First client build the row is valid for. A row is used when the build of the server lies between min_build and max_build.
+
+### max_build
+
+Last client build the row is valid for.
 
 ### raceMask
 
