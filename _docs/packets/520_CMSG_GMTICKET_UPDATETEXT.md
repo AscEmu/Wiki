@@ -12,9 +12,13 @@ position: 520
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x207      |
-WotLK      | 0x207      |
+TBC        | 0x0207     |
+WotLK      | 0x0207     |
 Cata       | 0x0636     |
 MoP        | 0x0A26     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

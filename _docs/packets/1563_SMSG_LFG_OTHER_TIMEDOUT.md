@@ -11,10 +11,14 @@ position: 1563
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x368      |
-TBC        | 0x368      |
+Classic    | 0x0368     |
+TBC        | 0x0368     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

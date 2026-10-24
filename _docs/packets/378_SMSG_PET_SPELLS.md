@@ -11,10 +11,14 @@ position: 378
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x179      |
-TBC        | 0x179      |
-WotLK      | 0x179      |
+Classic    | 0x0179     |
+TBC        | 0x0179     |
+WotLK      | 0x0179     |
 Cata       | 0x4114     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BA2     |
+Legion     | 0x2C25     |
+BfA        | 0x2C25     |
+SL         | 0x2C25     |
+DF         | 0x2C24     |
+TWW        | 0x5F0014   |

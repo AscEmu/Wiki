@@ -11,10 +11,14 @@ position: 115
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x072      |
-TBC        | 0x072      |
-WotLK      | 0x072      |
-Cata       | 0x072      |
+Classic    | 0x0072     |
+TBC        | 0x0072     |
+WotLK      | 0x0072     |
+Cata       | 0x0072     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

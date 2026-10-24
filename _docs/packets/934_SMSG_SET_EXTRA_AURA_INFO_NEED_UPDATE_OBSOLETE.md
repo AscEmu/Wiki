@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x3A5      |
-Cata       | 0x3A5      |
+WotLK      | 0x03A5     |
+Cata       | 0x03A5     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

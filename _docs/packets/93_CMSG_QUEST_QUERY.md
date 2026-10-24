@@ -11,10 +11,14 @@ position: 93
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x05C      |
-TBC        | 0x05C      |
-WotLK      | 0x05C      |
+Classic    | 0x005C     |
+TBC        | 0x005C     |
+WotLK      | 0x005C     |
 Cata       | 0x0D06     |
 MoP        | 0x02D5     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31C8     |
+Legion     | 0x3265     |
+BfA        | 0x3277     |
+SL         | 0x3281     |
+DF         | 0x328C     |
+TWW        | 0x390145   |

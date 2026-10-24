@@ -11,10 +11,14 @@ position: 637
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x27C      |
-TBC        | 0x27C      |
-WotLK      | 0x27C      |
+Classic    | 0x027C     |
+TBC        | 0x027C     |
+WotLK      | 0x027C     |
 Cata       | 0x2436     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x277A     |
+Legion     | 0x280C     |
+BfA        | 0x280E     |
+SL         | 0x27B7     |
+DF         | 0x2C65     |
+TWW        | 0x5F0054   |

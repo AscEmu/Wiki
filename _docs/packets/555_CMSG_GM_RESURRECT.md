@@ -11,10 +11,14 @@ position: 555
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x22A      |
-TBC        | 0x22A      |
-WotLK      | 0x22A      |
-Cata       | 0x22A      |
+Classic    | 0x022A     |
+TBC        | 0x022A     |
+WotLK      | 0x022A     |
+Cata       | 0x022A     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

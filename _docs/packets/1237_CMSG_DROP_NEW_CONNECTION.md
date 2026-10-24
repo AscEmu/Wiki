@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x513      |
-Cata       | 0x513      |
+WotLK      | 0x0513     |
+Cata       | 0x0513     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

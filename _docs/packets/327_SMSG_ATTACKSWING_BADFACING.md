@@ -11,10 +11,14 @@ position: 327
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x146      |
-TBC        | 0x146      |
-WotLK      | 0x146      |
+Classic    | 0x0146     |
+TBC        | 0x0146     |
+WotLK      | 0x0146     |
 Cata       | 0x6C07     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

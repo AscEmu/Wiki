@@ -11,10 +11,14 @@ position: 53
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x034      |
-TBC        | 0x034      |
-WotLK      | 0x034      |
-Cata       | 0x034      |
+Classic    | 0x0034     |
+TBC        | 0x0034     |
+WotLK      | 0x0034     |
+Cata       | 0x0034     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

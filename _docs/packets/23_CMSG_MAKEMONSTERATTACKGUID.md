@@ -11,10 +11,14 @@ position: 23
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x016      |
-TBC        | 0x016      |
-WotLK      | 0x016      |
-Cata       | 0x016      |
+Classic    | 0x0016     |
+TBC        | 0x0016     |
+WotLK      | 0x0016     |
+Cata       | 0x0016     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

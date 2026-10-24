@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x460      |
-Cata       | 0x460      |
+WotLK      | 0x0460     |
+Cata       | 0x0460     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

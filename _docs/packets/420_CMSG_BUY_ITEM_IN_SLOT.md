@@ -11,10 +11,14 @@ position: 420
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1A3      |
-TBC        | 0x1A3      |
-WotLK      | 0x1A3      |
-Cata       | 0x1A3      |
+Classic    | 0x01A3     |
+TBC        | 0x01A3     |
+WotLK      | 0x01A3     |
+Cata       | 0x01A3     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

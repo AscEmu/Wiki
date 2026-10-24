@@ -11,10 +11,14 @@ position: 340
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x153      |
-TBC        | 0x153      |
-WotLK      | 0x153      |
-Cata       | 0x153      |
+Classic    | 0x0153     |
+TBC        | 0x0153     |
+WotLK      | 0x0153     |
+Cata       | 0x0153     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

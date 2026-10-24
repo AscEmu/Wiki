@@ -11,10 +11,14 @@ position: 1045
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x417      |
-TBC        | 0x417      |
-WotLK      | 0x418      |
+Classic    | 0x0417     |
+TBC        | 0x0417     |
+WotLK      | 0x0418     |
 Cata       | 0x4F25     |
 MoP        | 0x06CE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2A0D     |
+Legion     | 0x2A90     |
+BfA        | 0x2A90     |
+SL         | 0x2A91     |
+DF         | 0x2A91     |
+TWW        | 0x5D0011   |

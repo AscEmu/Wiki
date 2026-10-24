@@ -11,10 +11,14 @@ position: 1030
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3EE      |
+Classic    | 0x03EE     |
 TBC        |            |
-WotLK      | 0x3EF      |
+WotLK      | 0x03EF     |
 Cata       | 0x4517     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

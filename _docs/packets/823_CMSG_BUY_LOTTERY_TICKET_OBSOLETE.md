@@ -11,10 +11,14 @@ position: 823
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x336      |
-TBC        | 0x336      |
-WotLK      | 0x336      |
-Cata       | 0x336      |
+Classic    | 0x0336     |
+TBC        | 0x0336     |
+WotLK      | 0x0336     |
+Cata       | 0x0336     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

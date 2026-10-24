@@ -11,10 +11,14 @@ position: 1615
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x411      |
-TBC        | 0x411      |
-WotLK      | 0x412      |
+Classic    | 0x0411     |
+TBC        | 0x0411     |
+WotLK      | 0x0412     |
 Cata       | 0x4225     |
 MoP        | 0x068A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2669     |
+Legion     | 0x26E6     |
+BfA        | 0x26EF     |
+SL         | 0x26B2     |
+DF         | 0x26BB     |
+TWW        | 0x40015E   |

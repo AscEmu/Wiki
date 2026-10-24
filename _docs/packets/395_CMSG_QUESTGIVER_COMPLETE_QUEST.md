@@ -11,10 +11,14 @@ position: 395
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x18A      |
-TBC        | 0x18A      |
-WotLK      | 0x18A      |
+Classic    | 0x018A     |
+TBC        | 0x018A     |
+WotLK      | 0x018A     |
 Cata       | 0x0114     |
 MoP        | 0x0659     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x340C     |
+Legion     | 0x349C     |
+BfA        | 0x3499     |
+SL         | 0x349F     |
+DF         | 0x34A0     |
+TWW        | 0x3A002B   |

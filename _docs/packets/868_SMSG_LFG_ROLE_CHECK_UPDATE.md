@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x363      |
+WotLK      | 0x0363     |
 Cata       | 0x1364     |
 MoP        | 0x12BB     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x299F     |
+Legion     | 0x2A21     |
+BfA        | 0x2A21     |
+SL         | 0x2A21     |
+DF         | 0x2A21     |
+TWW        | 0x540005   |

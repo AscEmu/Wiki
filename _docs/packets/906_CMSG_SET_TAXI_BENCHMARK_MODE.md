@@ -11,10 +11,14 @@ position: 906
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x389      |
+Classic    | 0x0389     |
 TBC        |            |
-WotLK      | 0x389      |
+WotLK      | 0x0389     |
 Cata       | 0x4314     |
 MoP        | 0x0762     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x345D     |
+Legion     | 0x34F7     |
+BfA        | 0x34FB     |
+SL         | 0x3501     |
+DF         | 0x3503     |
+TWW        | 0x3A008B   |

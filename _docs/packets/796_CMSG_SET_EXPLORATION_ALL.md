@@ -11,10 +11,14 @@ position: 796
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x31B      |
-TBC        | 0x31B      |
-WotLK      | 0x31B      |
-Cata       | 0x31B      |
+Classic    | 0x031B     |
+TBC        | 0x031B     |
+WotLK      | 0x031B     |
+Cata       | 0x031B     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

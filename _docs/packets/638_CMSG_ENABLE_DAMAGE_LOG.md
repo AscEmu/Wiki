@@ -11,10 +11,14 @@ position: 638
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x27D      |
-TBC        | 0x27D      |
-WotLK      | 0x27D      |
-Cata       | 0x27D      |
+Classic    | 0x027D     |
+TBC        | 0x027D     |
+WotLK      | 0x027D     |
+Cata       | 0x027D     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

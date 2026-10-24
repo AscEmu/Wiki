@@ -11,10 +11,14 @@ position: 692
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2B3      |
-TBC        | 0x2B3      |
-WotLK      | 0x2B3      |
+Classic    | 0x02B3     |
+TBC        | 0x02B3     |
+WotLK      | 0x02B3     |
 Cata       | 0x6115     |
 MoP        | 0x0360     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3497     |
+Legion     | 0x3535     |
+BfA        | 0x353B     |
+SL         | 0x3543     |
+DF         | 0x3546     |
+TWW        | 0x3A00CF   |

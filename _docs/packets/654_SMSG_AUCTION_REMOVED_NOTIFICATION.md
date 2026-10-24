@@ -11,10 +11,14 @@ position: 654
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x28D      |
-TBC        | 0x28D      |
-WotLK      | 0x28D      |
+Classic    | 0x028D     |
+TBC        | 0x028D     |
+WotLK      | 0x028D     |
 Cata       | 0x2334     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

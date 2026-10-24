@@ -11,10 +11,14 @@ position: 92
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x05B      |
-TBC        | 0x05B      |
-WotLK      | 0x05B      |
+Classic    | 0x005B     |
+TBC        | 0x005B     |
+WotLK      | 0x005B     |
 Cata       | 0x2B14     |
 MoP        | 0x081E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2683     |
+Legion     | 0x2700     |
+BfA        | 0x270B     |
+SL         | 0x2917     |
+DF         | 0x2917     |
+TWW        | 0x440009   |

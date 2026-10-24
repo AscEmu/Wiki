@@ -13,10 +13,14 @@ Send when client goes afk or on sit down
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x101      |
-TBC        | 0x101      |
-WotLK      | 0x101      |
+Classic    | 0x0101     |
+TBC        | 0x0101     |
+WotLK      | 0x0101     |
 Cata       | 0x0535     |
 MoP        | 0x03E6     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3106     |
+Legion     | 0x3188     |
+BfA        | 0x3189     |
+SL         | 0x318A     |
+DF         | 0x3189     |
+TWW        | 0x390035   |

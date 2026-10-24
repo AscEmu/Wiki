@@ -11,10 +11,14 @@ position: 148
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x093      |
-TBC        | 0x093      |
-WotLK      | 0x093      |
+Classic    | 0x0093     |
+TBC        | 0x0093     |
+WotLK      | 0x0093     |
 Cata       | 0x2707     |
 MoP        | 0x0EF1     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2938     |
+Legion     | 0x29BA     |
+BfA        | 0x29BA     |
+SL         | 0x29BA     |
+DF         | 0x29BA     |
+TWW        | 0x4C0002   |

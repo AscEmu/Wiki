@@ -11,10 +11,14 @@ position: 1035
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3FD      |
-TBC        | 0x3FD      |
-WotLK      | 0x3FE      |
-Cata       | 0x3FE      |
+Classic    | 0x03FD     |
+TBC        | 0x03FD     |
+WotLK      | 0x03FE     |
+Cata       | 0x03FE     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 912
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x38F      |
-TBC        | 0x38F      |
-WotLK      | 0x38F      |
+Classic    | 0x038F     |
+TBC        | 0x038F     |
+WotLK      | 0x038F     |
 Cata       | 0x2716     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2662     |
+Legion     | 0x26E0     |
+BfA        | 0x26E9     |
+SL         | 0x26AD     |
+DF         | 0x26B6     |
+TWW        | 0x400159   |

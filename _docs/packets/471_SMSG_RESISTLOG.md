@@ -11,10 +11,14 @@ position: 471
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1D6      |
-TBC        | 0x1D6      |
-WotLK      | 0x1D6      |
-Cata       | 0x1D6      |
+Classic    | 0x01D6     |
+TBC        | 0x01D6     |
+WotLK      | 0x01D6     |
+Cata       | 0x01D6     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

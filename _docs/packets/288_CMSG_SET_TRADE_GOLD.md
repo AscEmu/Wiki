@@ -11,10 +11,14 @@ position: 288
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x11F      |
-TBC        | 0x11F      |
-WotLK      | 0x11F      |
+Classic    | 0x011F     |
+TBC        | 0x011F     |
+WotLK      | 0x011F     |
 Cata       | 0x3008     |
 MoP        | 0x14E3     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30DD     |
+Legion     | 0x315F     |
+BfA        | 0x315F     |
+SL         | 0x315F     |
+DF         | 0x315F     |
+TWW        | 0x390009   |

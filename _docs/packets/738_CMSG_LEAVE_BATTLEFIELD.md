@@ -11,10 +11,14 @@ position: 738
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2E1      |
-TBC        | 0x2E1      |
-WotLK      | 0x2E1      |
+Classic    | 0x02E1     |
+TBC        | 0x02E1     |
+WotLK      | 0x02E1     |
 Cata       | 0x3018     |
 MoP        | 0x0257     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30F0     |
+Legion     | 0x3171     |
+BfA        | 0x3173     |
+SL         | 0x3173     |
+DF         | 0x3173     |
+TWW        | 0x39001F   |

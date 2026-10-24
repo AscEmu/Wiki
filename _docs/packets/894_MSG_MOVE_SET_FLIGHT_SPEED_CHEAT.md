@@ -11,10 +11,14 @@ position: 894
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x37D      |
-TBC        | 0x37D      |
-WotLK      | 0x37D      |
+Classic    | 0x037D     |
+TBC        | 0x037D     |
+WotLK      | 0x037D     |
 Cata       | 0x71A6     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

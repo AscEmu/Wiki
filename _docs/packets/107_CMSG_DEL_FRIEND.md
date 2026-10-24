@@ -13,10 +13,14 @@ Colled on removing friend from list.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x06A      |
-TBC        | 0x06A      |
-WotLK      | 0x06A      |
+Classic    | 0x006A     |
+TBC        | 0x006A     |
+WotLK      | 0x006A     |
 Cata       | 0x6A15     |
 MoP        | 0x1103     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x365F     |
+Legion     | 0x36D0     |
+BfA        | 0x36CF     |
+SL         | 0x36CD     |
+DF         | 0x36CC     |
+TWW        | 0x3E0101   |

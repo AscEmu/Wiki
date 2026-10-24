@@ -11,10 +11,14 @@ position: 604
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x25B      |
-TBC        | 0x25B      |
-WotLK      | 0x25B      |
+Classic    | 0x025B     |
+TBC        | 0x025B     |
+WotLK      | 0x025B     |
 Cata       | 0x4C25     |
 MoP        | 0x1002     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26A7     |
+Legion     | 0x2725     |
+BfA        | 0x272E     |
+SL         | 0x26E4     |
+DF         | 0x26EF     |
+TWW        | 0x400192   |

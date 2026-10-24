@@ -11,10 +11,14 @@ position: 1390
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x40E      |
-TBC        | 0x40E      |
-WotLK      | 0x40F      |
-Cata       | 0x40F      |
+Classic    | 0x040E     |
+TBC        | 0x040E     |
+WotLK      | 0x040F     |
+Cata       | 0x040F     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

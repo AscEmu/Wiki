@@ -11,10 +11,14 @@ position: 266
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x109      |
-TBC        | 0x109      |
-WotLK      | 0x109      |
+Classic    | 0x0109     |
+TBC        | 0x0109     |
+WotLK      | 0x0109     |
 Cata       | 0x110A     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

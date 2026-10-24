@@ -11,10 +11,14 @@ position: 979
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3D1      |
-TBC        | 0x3D1      |
-WotLK      | 0x3D2      |
+Classic    | 0x03D1     |
+TBC        | 0x03D1     |
+WotLK      | 0x03D2     |
 Cata       | 0x2144     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3758     |
+Legion     | 0x37DA     |
+BfA        | 0x37D6     |
+SL         | 0x37D6     |
+DF         | 0x37EA     |
+TWW        | 0x2B0012   |

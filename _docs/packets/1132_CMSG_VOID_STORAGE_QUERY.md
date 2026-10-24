@@ -16,5 +16,9 @@ TBC        |            |
 WotLK      |            |
 Cata       | 0x790A     |
 MoP        | 0x0140     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x311A     |
+Legion     | 0x319D     |
+BfA        | 0x31A1     |
+SL         | 0x31A3     |
+DF         | 0x31A2     |
+TWW        |            |

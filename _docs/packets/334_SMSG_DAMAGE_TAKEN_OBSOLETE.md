@@ -11,10 +11,14 @@ position: 334
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x14D      |
-TBC        | 0x14D      |
-WotLK      | 0x14D      |
-Cata       | 0x14D      |
+Classic    | 0x014D     |
+TBC        | 0x014D     |
+WotLK      | 0x014D     |
+Cata       | 0x014D     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

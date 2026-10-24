@@ -11,10 +11,14 @@ position: 306
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x131      |
-TBC        | 0x131      |
-WotLK      | 0x131      |
+Classic    | 0x0131     |
+TBC        | 0x0131     |
+WotLK      | 0x0131     |
 Cata       | 0x6415     |
 MoP        | 0x107A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BB8     |
+Legion     | 0x2C3A     |
+BfA        | 0x2C3A     |
+SL         | 0x2C3A     |
+DF         | 0x2C3C     |
+TWW        | 0x5F002B   |

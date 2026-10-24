@@ -11,10 +11,14 @@ position: 849
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x350      |
-TBC        | 0x350      |
-WotLK      | 0x350      |
+Classic    | 0x0350     |
+TBC        | 0x0350     |
+WotLK      | 0x0350     |
 Cata       | 0x0F36     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

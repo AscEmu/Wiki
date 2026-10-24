@@ -11,10 +11,14 @@ position: 608
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x25F      |
-TBC        | 0x25F      |
-WotLK      | 0x25F      |
+Classic    | 0x025F     |
+TBC        | 0x025F     |
+WotLK      | 0x025F     |
 Cata       | 0x4116     |
 MoP        | 0x1A8E     |
 WoD        |            |
-Legion     |            |
+Legion     | 0x2729     |
+BfA        | 0x2732     |
+SL         | 0x26E8     |
+DF         | 0x26F3     |
+TWW        | 0x400196   |

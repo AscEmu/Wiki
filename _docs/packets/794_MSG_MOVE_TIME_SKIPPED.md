@@ -11,10 +11,14 @@ position: 794
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x319      |
-TBC        | 0x319      |
-WotLK      | 0x319      |
+Classic    | 0x0319     |
+TBC        | 0x0319     |
+WotLK      | 0x0319     |
 Cata       | 0x19B3     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D60     |
+Legion     | 0x2DE4     |
+BfA        | 0x2DE4     |
+SL         | 0x2E18     |
+DF         | 0x2E18     |
+TWW        | 0x580048   |

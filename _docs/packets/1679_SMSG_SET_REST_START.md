@@ -11,10 +11,14 @@ position: 1679
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x21E      |
-TBC        | 0x21E      |
+Classic    | 0x021E     |
+TBC        | 0x021E     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

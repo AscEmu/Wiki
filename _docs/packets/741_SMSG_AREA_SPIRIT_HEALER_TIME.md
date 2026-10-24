@@ -11,10 +11,14 @@ position: 741
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2E4      |
-TBC        | 0x2E4      |
-WotLK      | 0x2E4      |
+Classic    | 0x02E4     |
+TBC        | 0x02E4     |
+WotLK      | 0x02E4     |
 Cata       | 0x0734     |
 MoP        | 0x188E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2701     |
+Legion     | 0x2782     |
+BfA        | 0x2786     |
+SL         | 0x2733     |
+DF         | 0x273E     |
+TWW        | 0x4001E1   |

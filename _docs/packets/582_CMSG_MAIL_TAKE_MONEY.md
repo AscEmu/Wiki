@@ -11,10 +11,14 @@ position: 582
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x245      |
-TBC        | 0x245      |
-WotLK      | 0x245      |
+Classic    | 0x0245     |
+TBC        | 0x0245     |
+WotLK      | 0x0245     |
 Cata       | 0x4034     |
 MoP        | 0x06FA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x349D     |
+Legion     | 0x353B     |
+BfA        | 0x3541     |
+SL         | 0x3549     |
+DF         | 0x354C     |
+TWW        | 0x3A00D5   |

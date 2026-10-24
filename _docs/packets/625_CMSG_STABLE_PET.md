@@ -11,10 +11,14 @@ position: 625
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x270      |
-TBC        | 0x270      |
-WotLK      | 0x270      |
-Cata       | 0x270      |
+Classic    | 0x0270     |
+TBC        | 0x0270     |
+WotLK      | 0x0270     |
+Cata       | 0x0270     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 657
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x290      |
-TBC        | 0x290      |
-WotLK      | 0x290      |
+Classic    | 0x0290     |
+TBC        | 0x0290     |
+WotLK      | 0x0290     |
 Cata       | 0x6C17     |
 MoP        | 0x0661     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3418     |
+Legion     | 0x34A7     |
+BfA        | 0x34A4     |
+SL         | 0x34AA     |
+DF         | 0x34AC     |
+TWW        | 0x3A0037   |

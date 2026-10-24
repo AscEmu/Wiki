@@ -13,8 +13,12 @@ Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
 TBC        |            |
-WotLK      | 0x50D      |
+WotLK      | 0x050D     |
 Cata       | 0x0942     |
 MoP        | 0x1149     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2FCA     |
+Legion     | 0x304D     |
+BfA        | 0x304D     |
+SL         | 0x304D     |
+DF         | 0x304D     |
+TWW        | 0x470007   |

@@ -11,10 +11,14 @@ position: 379
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x17A      |
-TBC        | 0x17A      |
-WotLK      | 0x17A      |
+Classic    | 0x017A     |
+TBC        | 0x017A     |
+WotLK      | 0x017A     |
 Cata       | 0x2235     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2506     |
+Legion     | 0x2589     |
+BfA        | 0x258B     |
+SL         | 0x258B     |
+DF         | 0x2589     |
+TWW        | 0x40001F   |

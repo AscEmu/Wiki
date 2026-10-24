@@ -11,10 +11,14 @@ position: 573
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x23C      |
-TBC        | 0x23C      |
-WotLK      | 0x23C      |
+Classic    | 0x023C     |
+TBC        | 0x023C     |
+WotLK      | 0x023C     |
 Cata       | 0x3814     |
 MoP        | 0x1C41     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30FB     |
+Legion     | 0x317D     |
+BfA        | 0x317E     |
+SL         | 0x317F     |
+DF         | 0x317E     |
+TWW        | 0x39002A   |

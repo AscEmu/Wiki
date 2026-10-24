@@ -11,10 +11,14 @@ position: 331
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x14A      |
-TBC        | 0x14A      |
-WotLK      | 0x14A      |
+Classic    | 0x014A     |
+TBC        | 0x014A     |
+WotLK      | 0x014A     |
 Cata       | 0x0B25     |
 MoP        | 0x06AA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2749     |
+Legion     | 0x27CF     |
+BfA        | 0x27D5     |
+SL         | 0x294D     |
+DF         | 0x294E     |
+TWW        | 0x46002C   |

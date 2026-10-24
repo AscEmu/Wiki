@@ -11,10 +11,14 @@ position: 145
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x090      |
-TBC        | 0x090      |
-WotLK      | 0x090      |
+Classic    | 0x0090     |
+TBC        | 0x0090     |
+WotLK      | 0x0090     |
 Cata       | 0x3034     |
 MoP        | 0x1A83     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3653     |
+Legion     | 0x36C5     |
+BfA        | 0x36C6     |
+SL         | 0x36C4     |
+DF         | 0x36C3     |
+TWW        | 0x3E00F7   |

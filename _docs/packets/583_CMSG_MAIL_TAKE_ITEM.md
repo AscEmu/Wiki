@@ -11,10 +11,14 @@ position: 583
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x246      |
-TBC        | 0x246      |
-WotLK      | 0x246      |
+Classic    | 0x0246     |
+TBC        | 0x0246     |
+WotLK      | 0x0246     |
 Cata       | 0x2B06     |
 MoP        | 0x1371     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x349E     |
+Legion     | 0x353C     |
+BfA        | 0x3542     |
+SL         | 0x354A     |
+DF         | 0x354D     |
+TWW        | 0x3A00D6   |

@@ -11,10 +11,14 @@ position: 1503
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3F4      |
-TBC        | 0x3F4      |
-WotLK      | 0x3F5      |
-Cata       | 0x3F5      |
+Classic    | 0x03F4     |
+TBC        | 0x03F4     |
+WotLK      | 0x03F5     |
+Cata       | 0x03F5     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

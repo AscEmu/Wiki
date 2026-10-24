@@ -11,10 +11,14 @@ position: 64
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x03F      |
-TBC        | 0x03F      |
-WotLK      | 0x03F      |
+Classic    | 0x003F     |
+TBC        | 0x003F     |
+WotLK      | 0x003F     |
 Cata       | 0x18A6     |
 MoP        | 0x061B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2569     |
+Legion     | 0x25E5     |
+BfA        | 0x25E6     |
+SL         | 0x25C9     |
+DF         | 0x25CE     |
+TWW        | 0x40006A   |

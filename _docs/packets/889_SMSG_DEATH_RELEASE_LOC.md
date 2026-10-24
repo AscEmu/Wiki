@@ -11,10 +11,14 @@ position: 889
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x378      |
-TBC        | 0x378      |
-WotLK      | 0x378      |
+Classic    | 0x0378     |
+TBC        | 0x0378     |
+WotLK      | 0x0378     |
 Cata       | 0x2F07     |
 MoP        | 0x1063     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2687     |
+Legion     | 0x2705     |
+BfA        | 0x2710     |
+SL         | 0x26C9     |
+DF         | 0x26D3     |
+TWW        | 0x400176   |

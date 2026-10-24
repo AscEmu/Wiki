@@ -11,10 +11,14 @@ position: 83
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x052      |
-TBC        | 0x052      |
-WotLK      | 0x052      |
+Classic    | 0x0052     |
+TBC        | 0x0052     |
+WotLK      | 0x0052     |
 Cata       | 0x6F24     |
 MoP        | 0x1C62     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31CA     |
+Legion     | 0x3267     |
+BfA        | 0x3279     |
+SL         | 0x3283     |
+DF         | 0x328E     |
+TWW        | 0x390147   |

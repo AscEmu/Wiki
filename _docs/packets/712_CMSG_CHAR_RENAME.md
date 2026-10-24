@@ -11,10 +11,14 @@ position: 712
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2C7      |
-TBC        | 0x2C7      |
-WotLK      | 0x2C7      |
+Classic    | 0x02C7     |
+TBC        | 0x02C7     |
+WotLK      | 0x02C7     |
 Cata       | 0x2327     |
 MoP        | 0x0963     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

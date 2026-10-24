@@ -11,10 +11,14 @@ position: 714
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2C9      |
-TBC        | 0x2C9      |
-WotLK      | 0x2C9      |
+Classic    | 0x02C9     |
+TBC        | 0x02C9     |
+WotLK      | 0x02C9     |
 Cata       | 0x790E     |
 MoP        | 0x11D9     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x398F     |
+Legion     | 0x3A15     |
+BfA        | 0x3A16     |
+SL         | 0x3A19     |
+DF         | 0x3A18     |
+TWW        | 0x3C0034   |

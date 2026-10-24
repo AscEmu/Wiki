@@ -11,10 +11,14 @@ position: 696
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2B7      |
-TBC        | 0x2B7      |
-WotLK      | 0x2B7      |
+Classic    | 0x02B7     |
+TBC        | 0x02B7     |
+WotLK      | 0x02B7     |
 Cata       | 0x4836     |
 MoP        | 0x129F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25F4     |
+Legion     | 0x2673     |
+BfA        | 0x2677     |
+SL         | 0x293F     |
+DF         | 0x2940     |
+TWW        | 0x46001E   |

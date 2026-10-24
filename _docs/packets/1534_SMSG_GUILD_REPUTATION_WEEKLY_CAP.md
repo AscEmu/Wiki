@@ -18,3 +18,7 @@ Cata       | 0x30B7     |
 MoP        | 0x1A71     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

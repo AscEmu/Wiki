@@ -11,10 +11,14 @@ position: 492
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1EB      |
-TBC        | 0x1EB      |
-WotLK      | 0x1EB      |
+Classic    | 0x01EB     |
+TBC        | 0x01EB     |
+WotLK      | 0x01EB     |
 Cata       | 0x0F27     |
 MoP        | 0x10A2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2715     |
+Legion     | 0x2797     |
+BfA        | 0x279B     |
+SL         | 0x2748     |
+DF         | 0x2753     |
+TWW        | 0x4001F6   |

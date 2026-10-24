@@ -11,10 +11,14 @@ position: 725
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2D4      |
-TBC        | 0x2D4      |
-WotLK      | 0x2D4      |
+Classic    | 0x02D4     |
+TBC        | 0x02D4     |
+WotLK      | 0x02D4     |
 Cata       | 0x7DA1     |
 MoP        | 0x0433     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

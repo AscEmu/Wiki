@@ -17,4 +17,8 @@ WotLK      |            |
 Cata       | 0x0546     |
 MoP        |            |
 WoD        |            |
-Legion     |            |
+Legion     | 0x37EF     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -12,9 +12,13 @@ position: 463
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x1CE      |
-WotLK      | 0x1CE      |
+TBC        | 0x01CE     |
+WotLK      | 0x01CE     |
 Cata       | 0x0A36     |
 MoP        | 0x0640     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x343F     |
+Legion     | 0x34DA     |
+BfA        | 0x34DD     |
+SL         | 0x34E3     |
+DF         | 0x34E5     |
+TWW        | 0x3A006E   |

@@ -11,10 +11,14 @@ position: 403
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x192      |
-TBC        | 0x192      |
-WotLK      | 0x192      |
+Classic    | 0x0192     |
+TBC        | 0x0192     |
+WotLK      | 0x0192     |
 Cata       | 0x4236     |
 MoP        | 0x12DE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2A03     |
+Legion     | 0x2A85     |
+BfA        | 0x2A85     |
+SL         | 0x2A86     |
+DF         | 0x2A86     |
+TWW        | 0x5D0006   |

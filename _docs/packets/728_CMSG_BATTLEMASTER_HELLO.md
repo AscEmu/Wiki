@@ -11,10 +11,14 @@ position: 728
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2D7      |
-TBC        | 0x2D7      |
-WotLK      | 0x2D7      |
+Classic    | 0x02D7     |
+TBC        | 0x02D7     |
+WotLK      | 0x02D7     |
 Cata       | 0x0234     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31FC     |
+Legion     | 0x32A1     |
+BfA        | 0x32B4     |
+SL         | 0x32C5     |
+DF         | 0x32D4     |
+TWW        | 0x390190   |

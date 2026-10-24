@@ -11,10 +11,14 @@ position: 75
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x04A      |
-TBC        | 0x04A      |
-WotLK      | 0x04A      |
-Cata       | 0x04A      |
+Classic    | 0x004A     |
+TBC        | 0x004A     |
+WotLK      | 0x004A     |
+Cata       | 0x004A     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

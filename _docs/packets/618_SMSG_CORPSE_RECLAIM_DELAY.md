@@ -11,10 +11,14 @@ position: 618
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x269      |
-TBC        | 0x269      |
-WotLK      | 0x269      |
+Classic    | 0x0269     |
+TBC        | 0x0269     |
+WotLK      | 0x0269     |
 Cata       | 0x0D34     |
 MoP        | 0x022A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x270C     |
+Legion     | 0x278E     |
+BfA        | 0x2791     |
+SL         | 0x273D     |
+DF         | 0x2748     |
+TWW        | 0x4001EB   |

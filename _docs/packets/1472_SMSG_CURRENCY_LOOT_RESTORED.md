@@ -18,3 +18,7 @@ Cata       | 0x30A0     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

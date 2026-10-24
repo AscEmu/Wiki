@@ -11,10 +11,14 @@ position: 904
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x387      |
-TBC        | 0x387      |
-WotLK      | 0x387      |
-Cata       | 0x387      |
+Classic    | 0x0387     |
+TBC        | 0x0387     |
+WotLK      | 0x0387     |
+Cata       | 0x0387     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

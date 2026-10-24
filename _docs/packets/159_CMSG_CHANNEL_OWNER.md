@@ -11,10 +11,14 @@ position: 159
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x09E      |
-TBC        | 0x09E      |
-WotLK      | 0x09E      |
+Classic    | 0x009E     |
+TBC        | 0x009E     |
+WotLK      | 0x009E     |
 Cata       | 0x3D44     |
 MoP        | 0x00AF     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x375B     |
+Legion     | 0x37DD     |
+BfA        | 0x37D9     |
+SL         | 0x37D9     |
+DF         | 0x37ED     |
+TWW        | 0x2B0015   |

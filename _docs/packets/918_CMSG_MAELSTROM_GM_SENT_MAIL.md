@@ -11,10 +11,14 @@ position: 918
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x395      |
-TBC        | 0x395      |
-WotLK      | 0x395      |
-Cata       | 0x395      |
+Classic    | 0x0395     |
+TBC        | 0x0395     |
+WotLK      | 0x0395     |
+Cata       | 0x0395     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

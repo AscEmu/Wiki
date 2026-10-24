@@ -11,10 +11,14 @@ position: 629
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x274      |
-TBC        | 0x274      |
-WotLK      | 0x274      |
-Cata       | 0x274      |
+Classic    | 0x0274     |
+TBC        | 0x0274     |
+WotLK      | 0x0274     |
+Cata       | 0x0274     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

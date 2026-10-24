@@ -11,10 +11,14 @@ position: 670
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x29D      |
-TBC        | 0x29D      |
-WotLK      | 0x29D      |
+Classic    | 0x029D     |
+TBC        | 0x029D     |
+WotLK      | 0x029D     |
 Cata       | 0x6F04     |
 MoP        | 0x1C12     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26DA     |
+Legion     | 0x275B     |
+BfA        | 0x2760     |
+SL         | 0x2710     |
+DF         | 0x271B     |
+TWW        | 0x4001BF   |

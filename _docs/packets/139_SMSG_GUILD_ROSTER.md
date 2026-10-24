@@ -11,10 +11,14 @@ position: 139
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x08A      |
-TBC        | 0x08A      |
-WotLK      | 0x08A      |
+Classic    | 0x008A     |
+TBC        | 0x008A     |
+WotLK      | 0x008A     |
 Cata       | 0x3DA3     |
 MoP        | 0x0BE0     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2939     |
+Legion     | 0x29BB     |
+BfA        | 0x29BB     |
+SL         | 0x29BB     |
+DF         | 0x29BB     |
+TWW        | 0x4C0003   |

@@ -11,10 +11,14 @@ position: 128
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x07F      |
-TBC        | 0x07F      |
-WotLK      | 0x07F      |
+Classic    | 0x007F     |
+TBC        | 0x007F     |
+WotLK      | 0x007F     |
 Cata       | 0x6E07     |
 MoP        | 0x0F86     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2751     |
+Legion     | 0x27D7     |
+BfA        | 0x27DD     |
+SL         | 0x2785     |
+DF         | 0x278D     |
+TWW        | 0x400231   |

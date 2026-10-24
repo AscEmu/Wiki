@@ -11,10 +11,14 @@ position: 488
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1E7      |
-TBC        | 0x1E7      |
-WotLK      | 0x1E7      |
+Classic    | 0x01E7     |
+TBC        | 0x01E7     |
+WotLK      | 0x01E7     |
 Cata       | 0x6F25     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2713     |
+Legion     | 0x2795     |
+BfA        | 0x2799     |
+SL         | 0x2746     |
+DF         | 0x2751     |
+TWW        | 0x4001F4   |

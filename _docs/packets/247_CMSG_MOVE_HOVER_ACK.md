@@ -11,10 +11,14 @@ position: 247
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0F6      |
-TBC        | 0x0F6      |
-WotLK      | 0x0F6      |
+Classic    | 0x00F6     |
+TBC        | 0x00F6     |
+WotLK      | 0x00F6     |
 Cata       | 0x10F7     |
 MoP        | 0x0858     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x398A     |
+Legion     | 0x3A10     |
+BfA        | 0x3A11     |
+SL         | 0x3A14     |
+DF         | 0x3A13     |
+TWW        | 0x3C002F   |

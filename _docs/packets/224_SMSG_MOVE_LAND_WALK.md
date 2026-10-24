@@ -11,10 +11,14 @@ position: 224
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0DF      |
-TBC        | 0x0DF      |
-WotLK      | 0x0DF      |
+Classic    | 0x00DF     |
+TBC        | 0x00DF     |
+WotLK      | 0x00DF     |
 Cata       | 0x34B7     |
 MoP        | 0x086A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D48     |
+Legion     | 0x2DCC     |
+BfA        | 0x2DCC     |
+SL         | 0x2DFE     |
+DF         | 0x2DFE     |
+TWW        | 0x58002C   |

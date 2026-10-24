@@ -11,10 +11,14 @@ position: 829
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x33C      |
-TBC        | 0x33C      |
-WotLK      | 0x33C      |
-Cata       | 0x33C      |
+Classic    | 0x033C     |
+TBC        | 0x033C     |
+WotLK      | 0x033C     |
+Cata       | 0x033C     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

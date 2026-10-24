@@ -11,10 +11,14 @@ position: 841
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x348      |
-TBC        | 0x348      |
-WotLK      | 0x348      |
+Classic    | 0x0348     |
+TBC        | 0x0348     |
+WotLK      | 0x0348     |
 Cata       | 0x04A1     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

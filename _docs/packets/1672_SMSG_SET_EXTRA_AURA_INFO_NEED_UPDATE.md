@@ -11,10 +11,14 @@ position: 1672
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3A5      |
-TBC        | 0x3A5      |
+Classic    | 0x03A5     |
+TBC        | 0x03A5     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

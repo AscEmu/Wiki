@@ -11,10 +11,14 @@ position: 370
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x171      |
-TBC        | 0x171      |
-WotLK      | 0x171      |
+Classic    | 0x0171     |
+TBC        | 0x0171     |
+WotLK      | 0x0171     |
 Cata       | 0x2807     |
 MoP        | 0x0082     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x31D6     |
+Legion     | 0x3273     |
+BfA        | 0x3285     |
+SL         | 0x3291     |
+DF         | 0x329C     |
+TWW        | 0x390155   |

@@ -18,3 +18,7 @@ Cata       | 0x3108     |
 MoP        | 0x185B     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

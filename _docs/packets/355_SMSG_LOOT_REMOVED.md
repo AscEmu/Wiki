@@ -11,10 +11,14 @@ position: 355
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x162      |
-TBC        | 0x162      |
-WotLK      | 0x162      |
+Classic    | 0x0162     |
+TBC        | 0x0162     |
+WotLK      | 0x0162     |
 Cata       | 0x6817     |
 MoP        | 0x0C3E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25AB     |
+Legion     | 0x2629     |
+BfA        | 0x262D     |
+SL         | 0x260E     |
+DF         | 0x2615     |
+TWW        | 0x4000B8   |

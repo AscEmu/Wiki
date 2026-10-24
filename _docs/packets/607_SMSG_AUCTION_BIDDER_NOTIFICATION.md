@@ -11,10 +11,14 @@ position: 607
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x25E      |
-TBC        | 0x25E      |
-WotLK      | 0x25E      |
+Classic    | 0x025E     |
+TBC        | 0x025E     |
+WotLK      | 0x025E     |
 Cata       | 0x4E27     |
 MoP        | 0x11C1     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

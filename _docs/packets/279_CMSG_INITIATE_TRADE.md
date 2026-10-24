@@ -11,10 +11,14 @@ position: 279
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x116      |
-TBC        | 0x116      |
-WotLK      | 0x116      |
+Classic    | 0x0116     |
+TBC        | 0x0116     |
+WotLK      | 0x0116     |
 Cata       | 0x7916     |
 MoP        | 0x0267     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x30D4     |
+Legion     | 0x3156     |
+BfA        | 0x3156     |
+SL         | 0x3156     |
+DF         | 0x3156     |
+TWW        | 0x390000   |

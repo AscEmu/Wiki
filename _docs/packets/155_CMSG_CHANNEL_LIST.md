@@ -11,10 +11,14 @@ position: 155
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x09A      |
-TBC        | 0x09A      |
-WotLK      | 0x09A      |
+Classic    | 0x009A     |
+TBC        | 0x009A     |
+WotLK      | 0x009A     |
 Cata       | 0x1556     |
 MoP        | 0x0C1B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3757     |
+Legion     | 0x37D9     |
+BfA        | 0x37D5     |
+SL         | 0x37D5     |
+DF         | 0x37E9     |
+TWW        | 0x2B0011   |

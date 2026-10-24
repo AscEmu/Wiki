@@ -11,10 +11,14 @@ position: 1077
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3F7      |
+Classic    | 0x03F7     |
 TBC        |            |
-WotLK      | 0x3F8      |
+WotLK      | 0x03F8     |
 Cata       | 0x0805     |
 MoP        | 0x067A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3407     |
+Legion     | 0x3498     |
+BfA        | 0x3495     |
+SL         | 0x349B     |
+DF         | 0x349C     |
+TWW        | 0x3A0027   |

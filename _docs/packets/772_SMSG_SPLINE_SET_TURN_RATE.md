@@ -11,10 +11,14 @@ position: 772
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x303      |
-TBC        | 0x303      |
-WotLK      | 0x303      |
+Classic    | 0x0303     |
+TBC        | 0x0303     |
+WotLK      | 0x0303     |
 Cata       | 0x78B5     |
 MoP        | 0x0832     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D3A     |
+Legion     | 0x2DBC     |
+BfA        | 0x2DBC     |
+SL         | 0x2DEE     |
+DF         | 0x2DEE     |
+TWW        | 0x58001C   |

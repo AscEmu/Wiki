@@ -11,10 +11,14 @@ position: 171
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0AA      |
-TBC        | 0x0AA      |
-WotLK      | 0x0AA      |
+Classic    | 0x00AA     |
+TBC        | 0x00AA     |
+WotLK      | 0x00AA     |
 Cata       | 0x4724     |
 MoP        | 0x14C2     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

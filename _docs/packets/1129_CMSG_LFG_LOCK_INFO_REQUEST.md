@@ -18,3 +18,7 @@ Cata       | 0x0412     |
 MoP        | 0x006B     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

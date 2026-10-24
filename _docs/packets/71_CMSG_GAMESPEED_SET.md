@@ -11,10 +11,14 @@ position: 71
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x046      |
-TBC        | 0x046      |
-WotLK      | 0x046      |
-Cata       | 0x046      |
+Classic    | 0x0046     |
+TBC        | 0x0046     |
+WotLK      | 0x0046     |
+Cata       | 0x0046     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

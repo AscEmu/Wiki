@@ -11,10 +11,14 @@ position: 459
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1CA      |
-TBC        | 0x1CA      |
-WotLK      | 0x1CA      |
+Classic    | 0x01CA     |
+TBC        | 0x01CA     |
+WotLK      | 0x01CA     |
 Cata       | 0x2520     |
 MoP        | 0x09E1     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

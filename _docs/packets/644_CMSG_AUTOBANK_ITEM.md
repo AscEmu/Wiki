@@ -11,10 +11,14 @@ position: 644
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x283      |
-TBC        | 0x283      |
-WotLK      | 0x283      |
+Classic    | 0x0283     |
+TBC        | 0x0283     |
+WotLK      | 0x0283     |
 Cata       | 0x2537     |
 MoP        | 0x066D     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3917     |
+Legion     | 0x3996     |
+BfA        | 0x3996     |
+SL         | 0x3997     |
+DF         | 0x3997     |
+TWW        | 0x3B0003   |

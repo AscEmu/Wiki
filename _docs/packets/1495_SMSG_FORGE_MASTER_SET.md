@@ -18,3 +18,7 @@ Cata       | 0x70B7     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

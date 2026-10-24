@@ -11,10 +11,14 @@ position: 1363
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3F6      |
-TBC        | 0x3F6      |
-WotLK      | 0x3F7      |
-Cata       | 0x3F7      |
+Classic    | 0x03F6     |
+TBC        | 0x03F6     |
+WotLK      | 0x03F7     |
+Cata       | 0x03F7     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

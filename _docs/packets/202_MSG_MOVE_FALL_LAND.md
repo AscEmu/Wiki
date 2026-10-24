@@ -11,10 +11,14 @@ position: 202
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0C9      |
-TBC        | 0x0C9      |
-WotLK      | 0x0C9      |
+Classic    | 0x00C9     |
+TBC        | 0x00C9     |
+WotLK      | 0x00C9     |
 Cata       | 0x380A     |
 MoP        | 0x08FA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3975     |
+Legion     | 0x39F9     |
+BfA        | 0x39FA     |
+SL         | 0x39FB     |
+DF         | 0x39FB     |
+TWW        | 0x3C0017   |

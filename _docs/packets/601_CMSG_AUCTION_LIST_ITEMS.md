@@ -11,10 +11,14 @@ position: 601
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x258      |
-TBC        | 0x258      |
-WotLK      | 0x258      |
+Classic    | 0x0258     |
+TBC        | 0x0258     |
+WotLK      | 0x0258     |
 Cata       | 0x0324     |
 MoP        | 0x02EA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3437     |
+Legion     | 0x34D2     |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

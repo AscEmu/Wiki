@@ -11,10 +11,14 @@ position: 939
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3AA      |
-TBC        | 0x3AA      |
-WotLK      | 0x3AA      |
+Classic    | 0x03AA     |
+TBC        | 0x03AA     |
+WotLK      | 0x03AA     |
 Cata       | 0x13AB     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

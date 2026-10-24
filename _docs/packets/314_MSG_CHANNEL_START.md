@@ -11,10 +11,14 @@ position: 314
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x139      |
-TBC        | 0x139      |
-WotLK      | 0x139      |
+Classic    | 0x0139     |
+TBC        | 0x0139     |
+WotLK      | 0x0139     |
 Cata       | 0x0A15     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

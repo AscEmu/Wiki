@@ -11,10 +11,14 @@ position: 324
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x143      |
-TBC        | 0x143      |
-WotLK      | 0x143      |
+Classic    | 0x0143     |
+TBC        | 0x0143     |
+WotLK      | 0x0143     |
 Cata       | 0x2D15     |
 MoP        | 0x1A9E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x25EE     |
+Legion     | 0x266D     |
+BfA        | 0x2670     |
+SL         | 0x2938     |
+DF         | 0x2939     |
+TWW        | 0x460017   |

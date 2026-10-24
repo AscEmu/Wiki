@@ -11,10 +11,14 @@ position: 944
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3AF      |
+Classic    | 0x03AF     |
 TBC        |            |
-WotLK      | 0x3AF      |
+WotLK      | 0x03AF     |
 Cata       | 0x2314     |
 MoP        |            |
-WoD        |            |
+WoD        | 0x3613     |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

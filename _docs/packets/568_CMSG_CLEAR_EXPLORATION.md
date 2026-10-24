@@ -11,10 +11,14 @@ position: 568
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x237      |
-TBC        | 0x237      |
-WotLK      | 0x237      |
-Cata       | 0x237      |
+Classic    | 0x0237     |
+TBC        | 0x0237     |
+WotLK      | 0x0237     |
+Cata       | 0x0237     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

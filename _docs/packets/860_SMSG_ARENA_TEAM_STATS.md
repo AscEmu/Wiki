@@ -11,10 +11,14 @@ position: 860
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x35B      |
-TBC        | 0x35B      |
-WotLK      | 0x35B      |
+Classic    | 0x035B     |
+TBC        | 0x035B     |
+WotLK      | 0x035B     |
 Cata       | 0x4425     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

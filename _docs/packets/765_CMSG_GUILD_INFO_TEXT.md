@@ -11,10 +11,14 @@ position: 765
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2FC      |
-TBC        | 0x2FC      |
-WotLK      | 0x2FC      |
+Classic    | 0x02FC     |
+TBC        | 0x02FC     |
+WotLK      | 0x02FC     |
 Cata       | 0x3227     |
 MoP        | 0x0C70     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2FF3     |
+Legion     | 0x3075     |
+BfA        | 0x3076     |
+SL         | 0x3076     |
+DF         | 0x502C     |
+TWW        | 0x2D0016   |

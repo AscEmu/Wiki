@@ -11,10 +11,14 @@ position: 1695
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x423      |
-TBC        | 0x423      |
-WotLK      | 0x424      |
+Classic    | 0x0423     |
+TBC        | 0x0423     |
+WotLK      | 0x0424     |
 Cata       | 0x0B34     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x265A     |
+Legion     | 0x26D8     |
+BfA        | 0x26E1     |
+SL         | 0x26A8     |
+DF         | 0x26B1     |
+TWW        | 0x400154   |

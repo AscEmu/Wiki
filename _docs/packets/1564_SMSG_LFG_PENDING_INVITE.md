@@ -11,10 +11,14 @@ position: 1564
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x370      |
-TBC        | 0x370      |
+Classic    | 0x0370     |
+TBC        | 0x0370     |
 WotLK      |            |
 Cata       |            |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 198
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0C5      |
-TBC        | 0x0C5      |
-WotLK      | 0x0C5      |
+Classic    | 0x00C5     |
+TBC        | 0x00C5     |
+WotLK      | 0x00C5     |
 Cata       | 0x55A0     |
 MoP        | 0x0B39     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D4E     |
+Legion     | 0x2DD2     |
+BfA        | 0x2DD2     |
+SL         | 0x2E04     |
+DF         | 0x2E04     |
+TWW        | 0x580032   |

@@ -11,10 +11,14 @@ position: 711
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x2C6      |
-TBC        | 0x2C6      |
-WotLK      | 0x2C6      |
+Classic    | 0x02C6     |
+TBC        | 0x02C6     |
+WotLK      | 0x02C6     |
 Cata       | 0x0807     |
 MoP        | 0x080E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x270B     |
+Legion     | 0x278D     |
+BfA        | 0x2790     |
+SL         | 0x273C     |
+DF         | 0x2747     |
+TWW        | 0x4001EA   |

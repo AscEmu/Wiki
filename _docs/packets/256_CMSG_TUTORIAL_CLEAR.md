@@ -13,10 +13,14 @@ Send on uncheck "Show Tutorials".
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0FF      |
-TBC        | 0x0FF      |
-WotLK      | 0x0FF      |
+Classic    | 0x00FF     |
+TBC        | 0x00FF     |
+WotLK      | 0x00FF     |
 Cata       | 0x6515     |
 MoP        | 0x0F23     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

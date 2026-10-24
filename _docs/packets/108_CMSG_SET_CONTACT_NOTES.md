@@ -14,9 +14,13 @@ Send by adding note to friend in contact list.
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x06B      |
-WotLK      | 0x06B      |
+TBC        | 0x006B     |
+WotLK      | 0x006B     |
 Cata       | 0x6135     |
 MoP        | 0x0937     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3660     |
+Legion     | 0x36D1     |
+BfA        | 0x36D0     |
+SL         | 0x36CE     |
+DF         | 0x36CD     |
+TWW        | 0x3E0102   |

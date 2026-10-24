@@ -11,10 +11,14 @@ position: 254
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0FD      |
-TBC        | 0x0FD      |
-WotLK      | 0x0FD      |
+Classic    | 0x00FD     |
+TBC        | 0x00FD     |
+WotLK      | 0x00FD     |
 Cata       | 0x0B35     |
 MoP        | 0x1B90     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2770     |
+Legion     | 0x2800     |
+BfA        | 0x2802     |
+SL         | 0x27AC     |
+DF         | 0x27B6     |
+TWW        | 0x400259   |

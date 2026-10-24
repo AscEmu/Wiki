@@ -11,10 +11,14 @@ position: 569
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x238      |
-TBC        | 0x238      |
-WotLK      | 0x238      |
+Classic    | 0x0238     |
+TBC        | 0x0238     |
+WotLK      | 0x0238     |
 Cata       | 0x0523     |
 MoP        | 0x1DBA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3579     |
+Legion     | 0x35FA     |
+BfA        | 0x35FA     |
+SL         | 0x35FA     |
+DF         | 0x35FA     |
+TWW        | 0x3E0026   |

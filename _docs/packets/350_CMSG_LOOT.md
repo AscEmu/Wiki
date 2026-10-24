@@ -11,10 +11,14 @@ position: 350
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x15D      |
-TBC        | 0x15D      |
-WotLK      | 0x15D      |
+Classic    | 0x015D     |
+TBC        | 0x015D     |
+WotLK      | 0x015D     |
 Cata       | 0x0127     |
 MoP        | 0x1CE2     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

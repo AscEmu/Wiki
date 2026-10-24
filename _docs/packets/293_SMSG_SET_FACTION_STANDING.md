@@ -11,10 +11,14 @@ position: 293
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x124      |
-TBC        | 0x124      |
-WotLK      | 0x124      |
+Classic    | 0x0124     |
+TBC        | 0x0124     |
+WotLK      | 0x0124     |
 Cata       | 0x0126     |
 MoP        | 0x10AA     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26EB     |
+Legion     | 0x276D     |
+BfA        | 0x2771     |
+SL         | 0x271F     |
+DF         | 0x272A     |
+TWW        | 0x4001CD   |

@@ -18,3 +18,7 @@ Cata       | 0x6234     |
 MoP        | 0x12C0     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

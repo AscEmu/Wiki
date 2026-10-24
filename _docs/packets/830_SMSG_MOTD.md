@@ -11,10 +11,14 @@ position: 830
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x33D      |
-TBC        | 0x33D      |
-WotLK      | 0x33D      |
+Classic    | 0x033D     |
+TBC        | 0x033D     |
+WotLK      | 0x033D     |
 Cata       | 0x0A35     |
 MoP        | 0x183B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2B2D     |
+Legion     | 0x2BAF     |
+BfA        | 0x2BAF     |
+SL         | 0x2BAF     |
+DF         |            |
+TWW        | 0x450003   |

@@ -11,10 +11,14 @@ position: 268
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x10B      |
-TBC        | 0x10B      |
-WotLK      | 0x10B      |
+Classic    | 0x010B     |
+TBC        | 0x010B     |
+WotLK      | 0x010B     |
 Cata       | 0x0236     |
 MoP        | 0x067C     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3919     |
+Legion     | 0x399B     |
+BfA        | 0x399B     |
+SL         | 0x399B     |
+DF         | 0x399B     |
+TWW        | 0x3B0005   |

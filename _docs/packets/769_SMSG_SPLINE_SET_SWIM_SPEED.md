@@ -11,10 +11,14 @@ position: 769
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x300      |
-TBC        | 0x300      |
-WotLK      | 0x300      |
+Classic    | 0x0300     |
+TBC        | 0x0300     |
+WotLK      | 0x0300     |
 Cata       | 0x39A4     |
 MoP        | 0x1D8E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D35     |
+Legion     | 0x2DB7     |
+BfA        | 0x2DB7     |
+SL         | 0x2DE9     |
+DF         | 0x2DE9     |
+TWW        | 0x580017   |

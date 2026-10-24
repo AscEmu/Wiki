@@ -18,3 +18,7 @@ Cata       | 0x0606     |
 MoP        | 0x0FE1     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 817
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x330      |
-TBC        | 0x330      |
-WotLK      | 0x330      |
+Classic    | 0x0330     |
+TBC        | 0x0330     |
+WotLK      | 0x0330     |
 Cata       | 0x1331     |
 MoP        |            |
-WoD        |            |
+WoD        | 0x2BB2     |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

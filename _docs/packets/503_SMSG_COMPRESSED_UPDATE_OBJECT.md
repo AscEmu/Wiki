@@ -11,10 +11,14 @@ position: 503
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1F6      |
-TBC        | 0x1F6      |
-WotLK      | 0x1F6      |
+Classic    | 0x01F6     |
+TBC        | 0x01F6     |
+WotLK      | 0x01F6     |
 Cata       | 0x11F7     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

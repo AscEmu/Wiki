@@ -11,10 +11,14 @@ position: 836
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x343      |
-TBC        | 0x343      |
-WotLK      | 0x343      |
+Classic    | 0x0343     |
+TBC        | 0x0343     |
+WotLK      | 0x0343     |
 Cata       | 0x3DA1     |
 MoP        | 0x178D     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D4F     |
+Legion     | 0x2DD3     |
+BfA        | 0x2DD3     |
+SL         | 0x2E05     |
+DF         | 0x2E05     |
+TWW        | 0x580033   |

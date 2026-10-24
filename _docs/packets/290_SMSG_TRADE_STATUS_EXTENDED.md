@@ -11,10 +11,14 @@ position: 290
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x121      |
-TBC        | 0x121      |
-WotLK      | 0x121      |
+Classic    | 0x0121     |
+TBC        | 0x0121     |
+WotLK      | 0x0121     |
 Cata       | 0x70A2     |
 MoP        | 0x181E     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x24FE     |
+Legion     | 0x2580     |
+BfA        | 0x2582     |
+SL         | 0x2581     |
+DF         | 0x2582     |
+TWW        | 0x400016   |

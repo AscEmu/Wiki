@@ -11,10 +11,14 @@ position: 313
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x138      |
-TBC        | 0x138      |
-WotLK      | 0x138      |
+Classic    | 0x0138     |
+TBC        | 0x0138     |
+WotLK      | 0x0138     |
 Cata       | 0x2B15     |
 MoP        | 0x149B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BD3     |
+Legion     | 0x2C57     |
+BfA        | 0x2C57     |
+SL         | 0x2C58     |
+DF         | 0x2C5A     |
+TWW        | 0x5F0049   |

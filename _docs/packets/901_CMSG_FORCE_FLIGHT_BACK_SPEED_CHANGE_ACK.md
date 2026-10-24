@@ -11,10 +11,14 @@ position: 901
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x384      |
+Classic    | 0x0384     |
 TBC        |            |
-WotLK      | 0x384      |
+WotLK      | 0x0384     |
 Cata       | 0x0333     |
 MoP        | 0x105B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x39A3     |
+Legion     | 0x3A2B     |
+BfA        | 0x3A2C     |
+SL         | 0x3A2F     |
+DF         | 0x3A2E     |
+TWW        | 0x3C004B   |

@@ -11,10 +11,14 @@ position: 141
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x08C      |
-TBC        | 0x08C      |
-WotLK      | 0x08C      |
+Classic    | 0x008C     |
+TBC        | 0x008C     |
+WotLK      | 0x008C     |
 Cata       | 0x1020     |
 MoP        | 0x1553     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

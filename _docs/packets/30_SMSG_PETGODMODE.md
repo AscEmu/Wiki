@@ -11,10 +11,14 @@ position: 30
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x01D      |
-TBC        | 0x01D      |
-WotLK      | 0x01D      |
+Classic    | 0x001D     |
+TBC        | 0x001D     |
+WotLK      | 0x001D     |
 Cata       | 0x2E36     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2625     |
+Legion     | 0x26A4     |
+BfA        | 0x26AA     |
+SL         | 0x2673     |
+DF         | 0x267C     |
+TWW        | 0x40011F   |

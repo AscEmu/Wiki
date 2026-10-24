@@ -11,10 +11,14 @@ position: 474
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1D9      |
-TBC        | 0x1D9      |
-WotLK      | 0x1D9      |
+Classic    | 0x01D9     |
+TBC        | 0x01D9     |
+WotLK      | 0x01D9     |
 Cata       | 0x6824     |
 MoP        | 0x0E12     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26CF     |
+Legion     | 0x274E     |
+BfA        | 0x2754     |
+SL         | 0x2703     |
+DF         | 0x270E     |
+TWW        | 0x4001B2   |

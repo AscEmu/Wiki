@@ -12,9 +12,13 @@ position: 392
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x416      |
-WotLK      | 0x417      |
+TBC        | 0x0416     |
+WotLK      | 0x0417     |
 Cata       | 0x6305     |
 MoP        | 0x02F1     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3411     |
+Legion     | 0x34A0     |
+BfA        | 0x349D     |
+SL         | 0x34A3     |
+DF         | 0x34A4     |
+TWW        | 0x3A002F   |

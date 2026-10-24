@@ -11,10 +11,14 @@ position: 352
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x15F      |
-TBC        | 0x15F      |
-WotLK      | 0x15F      |
+Classic    | 0x015F     |
+TBC        | 0x015F     |
+WotLK      | 0x015F     |
 Cata       | 0x2007     |
 MoP        | 0x0840     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3173     |
+Legion     | 0x3209     |
+BfA        | 0x3214     |
+SL         | 0x321A     |
+DF         | 0x321C     |
+TWW        | 0x3900CE   |

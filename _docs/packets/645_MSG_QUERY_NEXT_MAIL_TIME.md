@@ -11,10 +11,14 @@ position: 645
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x284      |
-TBC        | 0x284      |
-WotLK      | 0x284      |
+Classic    | 0x0284     |
+TBC        | 0x0284     |
+WotLK      | 0x0284     |
 Cata       | 0x0F04     |
 MoP        | 0x077B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x349F     |
+Legion     | 0x353D     |
+BfA        | 0x3543     |
+SL         | 0x354B     |
+DF         | 0x354E     |
+TWW        | 0x3A00D7   |

@@ -11,10 +11,14 @@ position: 311
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x136      |
-TBC        | 0x136      |
-WotLK      | 0x136      |
+Classic    | 0x0136     |
+TBC        | 0x0136     |
+WotLK      | 0x0136     |
 Cata       | 0x0E26     |
 MoP        | 0x1861     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3126     |
+Legion     | 0x31AC     |
+BfA        | 0x31AD     |
+SL         | 0x31AF     |
+DF         | 0x31AE     |
+TWW        | 0x39005A   |

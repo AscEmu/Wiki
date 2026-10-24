@@ -11,10 +11,14 @@ position: 616
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x267      |
-TBC        | 0x267      |
-WotLK      | 0x267      |
+Classic    | 0x0267     |
+TBC        | 0x0267     |
+WotLK      | 0x0267     |
 Cata       | 0x0224     |
 MoP        | 0x09D3     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2BB6     |
+Legion     | 0x2C37     |
+BfA        | 0x2C37     |
+SL         | 0x2C37     |
+DF         | 0x2C39     |
+TWW        | 0x5F0028   |

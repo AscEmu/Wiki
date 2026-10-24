@@ -18,3 +18,7 @@ Cata       | 0x3DB1     |
 MoP        | 0x12A2     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

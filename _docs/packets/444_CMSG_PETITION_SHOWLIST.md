@@ -11,10 +11,14 @@ position: 444
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1BB      |
-TBC        | 0x1BB      |
-WotLK      | 0x1BB      |
+Classic    | 0x01BB     |
+TBC        | 0x01BB     |
+WotLK      | 0x01BB     |
 Cata       | 0x4617     |
 MoP        | 0x037B     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3431     |
+Legion     | 0x34CC     |
+BfA        | 0x34C8     |
+SL         | 0x34CE     |
+DF         | 0x34D0     |
+TWW        | 0x3A0059   |

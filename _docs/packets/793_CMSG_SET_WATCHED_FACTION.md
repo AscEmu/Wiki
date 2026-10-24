@@ -11,10 +11,14 @@ position: 793
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x318      |
-TBC        | 0x318      |
-WotLK      | 0x318      |
+Classic    | 0x0318     |
+TBC        | 0x0318     |
+WotLK      | 0x0318     |
 Cata       | 0x2434     |
 MoP        | 0x06C9     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x344A     |
+Legion     | 0x34E5     |
+BfA        | 0x34E9     |
+SL         | 0x34EF     |
+DF         | 0x34F1     |
+TWW        | 0x3A0079   |

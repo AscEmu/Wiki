@@ -11,10 +11,14 @@ position: 248
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0F7      |
-TBC        | 0x0F7      |
-WotLK      | 0x0F7      |
+Classic    | 0x00F7     |
+TBC        | 0x00F7     |
+WotLK      | 0x00F7     |
 Cata       | 0x10F8     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

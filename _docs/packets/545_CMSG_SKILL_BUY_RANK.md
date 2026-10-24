@@ -11,10 +11,14 @@ position: 545
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x220      |
-TBC        | 0x220      |
-WotLK      | 0x220      |
-Cata       | 0x220      |
+Classic    | 0x0220     |
+TBC        | 0x0220     |
+WotLK      | 0x0220     |
+Cata       | 0x0220     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

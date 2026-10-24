@@ -11,10 +11,14 @@ position: 393
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x188      |
-TBC        | 0x188      |
-WotLK      | 0x188      |
+Classic    | 0x0188     |
+TBC        | 0x0188     |
+WotLK      | 0x0188     |
 Cata       | 0x2425     |
 MoP        | 0x134C     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2A0E     |
+Legion     | 0x2A91     |
+BfA        | 0x2A91     |
+SL         | 0x2A92     |
+DF         | 0x2A92     |
+TWW        | 0x5D0012   |

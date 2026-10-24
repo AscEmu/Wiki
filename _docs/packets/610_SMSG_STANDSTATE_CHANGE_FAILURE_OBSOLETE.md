@@ -11,10 +11,14 @@ position: 610
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x261      |
-TBC        | 0x261      |
-WotLK      | 0x261      |
-Cata       | 0x261      |
+Classic    | 0x0261     |
+TBC        | 0x0261     |
+WotLK      | 0x0261     |
+Cata       | 0x0261     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 215
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0D6      |
-TBC        | 0x0D6      |
-WotLK      | 0x0D6      |
+Classic    | 0x00D6     |
+TBC        | 0x00D6     |
+WotLK      | 0x00D6     |
 Cata       | 0x10D7     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

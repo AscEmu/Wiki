@@ -11,10 +11,14 @@ position: 664
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x297      |
-TBC        | 0x297      |
-WotLK      | 0x297      |
-Cata       | 0x297      |
+Classic    | 0x0297     |
+TBC        | 0x0297     |
+WotLK      | 0x0297     |
+Cata       | 0x0297     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

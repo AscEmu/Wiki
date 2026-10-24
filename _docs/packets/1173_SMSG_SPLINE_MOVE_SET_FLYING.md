@@ -11,10 +11,14 @@ position: 1173
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x421      |
-TBC        | 0x421      |
-WotLK      | 0x422      |
+Classic    | 0x0421     |
+TBC        | 0x0421     |
+WotLK      | 0x0422     |
 Cata       | 0x31B5     |
 MoP        | 0x1046     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D71     |
+Legion     | 0x2DF5     |
+BfA        | 0x2DF5     |
+SL         | 0x2E29     |
+DF         | 0x2E29     |
+TWW        | 0x580059   |

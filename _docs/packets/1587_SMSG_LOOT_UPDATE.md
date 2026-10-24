@@ -18,3 +18,7 @@ Cata       | 0x14FE     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

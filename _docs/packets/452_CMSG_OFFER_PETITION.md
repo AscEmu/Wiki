@@ -11,10 +11,14 @@ position: 452
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1C3      |
-TBC        | 0x1C3      |
-WotLK      | 0x1C3      |
+Classic    | 0x01C3     |
+TBC        | 0x01C3     |
+WotLK      | 0x01C3     |
 Cata       | 0x4817     |
 MoP        | 0x15BE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3640     |
+Legion     | 0x36AF     |
+BfA        | 0x33B1     |
+SL         | 0x33CE     |
+DF         | 0x33DF     |
+TWW        | 0x390287   |

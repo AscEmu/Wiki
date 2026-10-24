@@ -17,4 +17,8 @@ WotLK      |            |
 Cata       | 0x71B6     |
 MoP        | 0x01DB     |
 WoD        |            |
-Legion     |            |
+Legion     | 0x2C17     |
+BfA        | 0x2C17     |
+SL         | 0x2C17     |
+DF         | 0x2C16     |
+TWW        | 0x5F0006   |

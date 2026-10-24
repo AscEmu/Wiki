@@ -11,10 +11,14 @@ position: 897
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x380      |
-TBC        | 0x380      |
-WotLK      | 0x380      |
+Classic    | 0x0380     |
+TBC        | 0x0380     |
+WotLK      | 0x0380     |
 Cata       | 0x74A0     |
 MoP        | 0x036A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2D28     |
+Legion     | 0x2DAA     |
+BfA        | 0x2DAA     |
+SL         | 0x2DDC     |
+DF         | 0x2DDC     |
+TWW        | 0x58000A   |

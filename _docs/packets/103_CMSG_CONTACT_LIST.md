@@ -13,10 +13,14 @@ Called for contact list.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x066      |
-TBC        | 0x066      |
-WotLK      | 0x066      |
+Classic    | 0x0066     |
+TBC        | 0x0066     |
+WotLK      | 0x0066     |
 Cata       | 0x4534     |
 MoP        | 0x0BB4     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x365D     |
+Legion     | 0x36CE     |
+BfA        | 0x36CD     |
+SL         | 0x36CB     |
+DF         | 0x36CA     |
+TWW        | 0x3E00FF   |

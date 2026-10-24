@@ -18,3 +18,7 @@ Cata       | 0x50A5     |
 MoP        | 0x10AB     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

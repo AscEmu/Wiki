@@ -11,10 +11,14 @@ position: 239
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0EE      |
-TBC        | 0x0EE      |
-WotLK      | 0x0EE      |
+Classic    | 0x00EE     |
+TBC        | 0x00EE     |
+WotLK      | 0x00EE     |
 Cata       | 0x3914     |
 MoP        | 0x01F2     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3987     |
+Legion     | 0x3A0D     |
+BfA        | 0x3A0E     |
+SL         | 0x3A11     |
+DF         | 0x3A10     |
+TWW        | 0x3C002C   |

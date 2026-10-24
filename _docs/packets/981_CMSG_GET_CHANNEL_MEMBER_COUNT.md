@@ -12,9 +12,13 @@ position: 981
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
 Classic    |            |
-TBC        | 0x3D3      |
-WotLK      | 0x3D4      |
+TBC        | 0x03D3     |
+WotLK      | 0x03D4     |
 Cata       | 0x13D5     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

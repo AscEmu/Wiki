@@ -11,10 +11,14 @@ position: 443
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1BA      |
-TBC        | 0x1BA      |
-WotLK      | 0x1BA      |
+Classic    | 0x01BA     |
+TBC        | 0x01BA     |
+WotLK      | 0x01BA     |
 Cata       | 0x4806     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

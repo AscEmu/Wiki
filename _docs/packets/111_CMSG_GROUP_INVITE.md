@@ -13,10 +13,14 @@ Send on inviting a player to group.
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x06E      |
-TBC        | 0x06E      |
-WotLK      | 0x06E      |
+Classic    | 0x006E     |
+TBC        | 0x006E     |
+WotLK      | 0x006E     |
 Cata       | 0x0513     |
 MoP        | 0x072D     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x3581     |
+Legion     | 0x3602     |
+BfA        | 0x3602     |
+SL         | 0x3602     |
+DF         | 0x3603     |
+TWW        | 0x3E0030   |

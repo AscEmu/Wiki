@@ -11,10 +11,14 @@ position: 194
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x0C1      |
-TBC        | 0x0C1      |
-WotLK      | 0x0C1      |
+Classic    | 0x00C1     |
+TBC        | 0x00C1     |
+WotLK      | 0x00C1     |
 Cata       | 0x7216     |
 MoP        | 0x007A     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x396E     |
+Legion     | 0x39F1     |
+BfA        | 0x39F1     |
+SL         | 0x39F1     |
+DF         | 0x39F1     |
+TWW        | 0x3C000D   |

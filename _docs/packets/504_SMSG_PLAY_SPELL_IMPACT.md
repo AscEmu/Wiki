@@ -11,10 +11,14 @@ position: 504
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1F7      |
-TBC        | 0x1F7      |
-WotLK      | 0x1F7      |
-Cata       | 0x1F7      |
+Classic    | 0x01F7     |
+TBC        | 0x01F7     |
+WotLK      | 0x01F7     |
+Cata       | 0x01F7     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

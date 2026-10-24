@@ -18,3 +18,7 @@ Cata       |            |
 MoP        | 0x1FAE     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 330
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x149      |
-TBC        | 0x149      |
-WotLK      | 0x149      |
+Classic    | 0x0149     |
+TBC        | 0x0149     |
+WotLK      | 0x0149     |
 Cata       | 0x0016     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

@@ -11,10 +11,14 @@ position: 561
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x230      |
-TBC        | 0x230      |
-WotLK      | 0x230      |
+Classic    | 0x0230     |
+TBC        | 0x0230     |
+WotLK      | 0x0230     |
 Cata       | 0x4A15     |
 MoP        |            |
-WoD        |            |
-Legion     |            |
+WoD        | 0x26F8     |
+Legion     | 0x277A     |
+BfA        | 0x277E     |
+SL         | 0x3005     |
+DF         | 0x3005     |
+TWW        | 0x5C000E   |

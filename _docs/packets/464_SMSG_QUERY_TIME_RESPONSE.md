@@ -11,10 +11,14 @@ position: 464
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x1CF      |
-TBC        | 0x1CF      |
-WotLK      | 0x1CF      |
+Classic    | 0x01CF     |
+TBC        | 0x01CF     |
+WotLK      | 0x01CF     |
 Cata       | 0x2124     |
 MoP        | 0x100F     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x269C     |
+Legion     | 0x271A     |
+BfA        | 0x2723     |
+SL         | 0x26D9     |
+DF         | 0x26E3     |
+TWW        | 0x400186   |

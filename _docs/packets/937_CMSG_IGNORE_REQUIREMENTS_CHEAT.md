@@ -11,10 +11,14 @@ position: 937
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x3A8      |
-TBC        | 0x3A8      |
-WotLK      | 0x3A8      |
-Cata       | 0x3A8      |
+Classic    | 0x03A8     |
+TBC        | 0x03A8     |
+WotLK      | 0x03A8     |
+Cata       | 0x03A8     |
 MoP        |            |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

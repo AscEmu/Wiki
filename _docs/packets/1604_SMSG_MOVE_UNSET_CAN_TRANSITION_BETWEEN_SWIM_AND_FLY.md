@@ -18,3 +18,7 @@ Cata       | 0x7DB2     |
 MoP        | 0x0868     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |

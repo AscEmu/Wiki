@@ -11,10 +11,14 @@ position: 628
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x273      |
-TBC        | 0x273      |
-WotLK      | 0x273      |
+Classic    | 0x0273     |
+TBC        | 0x0273     |
+WotLK      | 0x0273     |
 Cata       | 0x2204     |
 MoP        | 0x14BE     |
-WoD        |            |
-Legion     |            |
+WoD        | 0x2530     |
+Legion     | 0x25AA     |
+BfA        | 0x25AC     |
+SL         | 0x2597     |
+DF         | 0x2594     |
+TWW        | 0x40002A   |

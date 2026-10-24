@@ -11,10 +11,14 @@ position: 550
 
 Version    | Hex        | Comment
 ---------- | ---------- | ----------
-Classic    | 0x225      |
+Classic    | 0x0225     |
 TBC        |            |
-WotLK      | 0x225      |
+WotLK      | 0x0225     |
 Cata       | 0x0D54     |
 MoP        | 0x048A     |
 WoD        |            |
 Legion     |            |
+BfA        |            |
+SL         |            |
+DF         |            |
+TWW        |            |
