@@ -130,8 +130,8 @@ This section provides a brief overview of the extensions supported by AscEmu.
 
 Use the expansion icons below to quickly navigate to the documentation and version-specific information for each supported expansion.
 
-:classic: :tbc: :wotlk: :cata: :mop: :wod: :legion: :bfa: :shadowlands: :dragonflight: :warwithin: :midnight:
+:classic: :tbc: :wotlk: :cata: :mop: :wod: :legion: :bfa: :shadowlands: :dragonflight: :warwithin: :midnight: :forever:
 
 ```
-:classic: :tbc: :wotlk: :cata: :mop: :wod: :legion: :bfa: :shadowlands: :dragonflight: :warwithin: :midnight:
+:classic: :tbc: :wotlk: :cata: :mop: :wod: :legion: :bfa: :shadowlands: :dragonflight: :warwithin: :midnight: :forever: 
 ```
