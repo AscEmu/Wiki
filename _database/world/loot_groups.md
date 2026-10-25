@@ -23,7 +23,7 @@ Field                              | Type             | Default | Comment
 
 ### groupid
 
-The id of the group. The loot tables ([loot_creatures](/Wiki/database/world/loot_creatures/ "Loot creatures"), [loot_gameobjects](/Wiki/database/world/loot_gameobjects/ "Loot gameobjects"), [loot_items](/Wiki/database/world/loot_items/ "Loot items"), [loot_fishing](/Wiki/database/world/loot_fishing/ "Loot fishing"), [loot_pickpocketing](/Wiki/database/world/loot_pickpocketing/ "Loot pickpocketing"), [loot_skinning](/Wiki/database/world/loot_skinning/ "Loot skinning")) reference it in their `groupid` column. The disenchant groups use 900000 + the disenchant id of the item.
+The id of the group. The loot tables ([loot_creatures](/Wiki/database/world/loot_creatures/ "Loot creatures"), [loot_gameobjects](/Wiki/database/world/loot_gameobjects/ "Loot gameobjects"), [loot_items](/Wiki/database/world/loot_items/ "Loot items"), [loot_fishing](/Wiki/database/world/loot_fishing/ "Loot fishing"), [loot_pickpocketing](/Wiki/database/world/loot_pickpocketing/ "Loot pickpocketing"), [loot_skinning](/Wiki/database/world/loot_skinning/ "Loot skinning")) reference it in their **groupid** column. The disenchant groups use 900000 + the disenchant id of the item.
 
 ### build
 

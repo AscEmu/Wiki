@@ -10,15 +10,15 @@ This table contains the formations of creature spawns: a leader and the members 
 
 ## Structure
 
-Field                              | Type             | Default | Comment
----------------------------------- | ---------------- | ------- | -------
-[leaderGUID](#leaderGUID)          | int unsigned     | 0       |
-[memberGUID](#memberGUID)          | int unsigned     | 0       | key
-[dist](#dist)                      | float unsigned   |         |
-[angle](#angle)                    | float unsigned   |         |
-[groupAI](#groupAI)                | int unsigned     |         |
-[point_1](#point_1)                | smallint unsigned| 0       |
-[point_2](#point_2)                | smallint unsigned| 0       |
+Field                              | Type               | Default | Comment
+---------------------------------- | ------------------ | ------- | -------
+[leaderGUID](#leaderGUID)          | int unsigned       | 0       |
+[memberGUID](#memberGUID)          | int unsigned       | 0       | key
+[dist](#dist)                      | float unsigned     |         |
+[angle](#angle)                    | float unsigned     |         |
+[groupAI](#groupAI)                | int unsigned       |         |
+[point_1](#point_1)                | smallint unsigned  | 0       |
+[point_2](#point_2)                | smallint unsigned  | 0       |
 
 ### leaderGUID
 

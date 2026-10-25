@@ -23,7 +23,7 @@ Field                                                                           
 [trainer_type](#trainer_type)                                                                                    | int(11) | 0       |        
 [trainer_ui_window_message](#trainer_ui_window_message)                                                          | text    | 0       |        
 [can_train_gossip_textid](#can_train_gossip_textid)                                                              | int(11) | 0       |        
-[cannot_train_gossip_textid](#cannot_train_gossip_textid)                                                        | int           | NULL    | 
+[cannot_train_gossip_textid](#cannot_train_gossip_textid)                                                        | int     | NULL    | 
 [spellset_id](#spellset_id)                                                                                      | int     | 0       |        
 [can_train_max_level](#can_train_max_level)                                                                      | int     | 0       |        
 [can_train_min_skill_value](#can_train_min_skill_value)                                                          | int     | 0       |        
@@ -31,27 +31,35 @@ Field                                                                           
 [comment](#comment)                                                                                              | varchar | ''      |        
 
 ### entry
+
 The creature entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ### build
+
 The build the row applies from. A creature keeps one row for all builds; a further row for a later build is only needed where one of the other columns changes. The spells of a build live in [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/).
 
 ### required_skill
+
 The required skill ID. (always 0)
 
 ### required_skillvalue
+
 The tequired value of skill linked to required_skill. (always 0)
 
 ### req_class
+
 Required class.  
 
 ### RequiredRace
+
 Required race. (always 0)
 
 ### RequiredReputation
+
 ID of faction that certain standing with it is required. (always 0)
 
 ### RequiredReputationValue
+
 Amount of reputation required to train. (always 0)
 
 <pre>
@@ -59,6 +67,7 @@ Amount of reputation required to train. (always 0)
 </pre>
 
 ### trainer_type
+
 0 = class trainer
 1 = riding trainer
 2 = profession trainer
@@ -66,28 +75,37 @@ Amount of reputation required to train. (always 0)
 (we have creature flags for this?)
 
 ### trainer_ui_window_message
+
 The message Text for the trainer window.
 
 ### can_train_gossip_textid
+
 The TextID shown if trainer can train this spell from [npc_gossip_texts](/Wiki/database/world/npc_gossip_texts/ "Npc gossip texts") table.
 
 ### cannot_train_gossip_textid
+
 The TextID shown if trainer can not train this spell from [npc_gossip_texts](/Wiki/database/world/npc_gossip_texts/ "Npc gossip texts") table.
 
 ### spellset_id
+
 ID to the spellset defined in [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/) table. The same id over all builds of the creature, the rows of the set carry the build ranges.
 
 ### can_train_max_level
+
 Defines which level of spell can be trained. 0 = all levels in the spellset. [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/ "reqlevel")
 
 ### can_train_min_skill_value
+
 Defines which skill value of spell can be trained. 0 = no minimum skill values in the spellset. [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/ "reqskillvalue")
 
 ### can_train_max_skill_value
+
 Defines which skill value of spell can be trained. 0 = no maximum skill values in the spellset. [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/ "reqskillvalue")
 
 ### comment
+
 Internal comment for database devs.
 
 ### under development
+
 This table is not in production.

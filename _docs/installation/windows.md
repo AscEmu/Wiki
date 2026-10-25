@@ -307,7 +307,7 @@ In db ascemu_logon->realms. (**RemotePassword** must match).
 
 ![sql_2.png](/Wiki/images/installation.windows/sql_2.png)
 
-Set `ClientVersion` in the `<Realm1 ...>` section to the expansion the world server was compiled for, the index matches ASCEMU_VERSION: 0 = Classic, 1 = TBC, 2 = WotLK, 3 = Cata, 4 = MoP, 5 = WoD, 6 = Legion, 7 = BfA, 8 = Shadowlands, 9 = Dragonflight, 10 = TWW, 11 = Midnight. With a wrong value the client gets no answers: every NPC shows as Unknown and no button works.
+Set **ClientVersion** in the **<Realm1 ...>** section to the expansion the world server was compiled for, the index matches ASCEMU_VERSION: 0 = Classic, 1 = TBC, 2 = WotLK, 3 = Cata, 4 = MoP, 5 = WoD, 6 = Legion, 7 = BfA, 8 = Shadowlands, 9 = Dragonflight, 10 = TWW, 11 = Midnight. With a wrong value the client gets no answers: every NPC shows as Unknown and no button works.
 {: .info }
 
 How each client version finds the server, from realmlist.wtf to the launchers of the Battle.net clients, is described in the [Client Guide](/Wiki/docs/installation/client/).

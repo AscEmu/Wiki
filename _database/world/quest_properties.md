@@ -48,12 +48,12 @@ Field                                                   | Type      | Default   
 [ReqItemId4](#ReqItemId)                                | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [ReqItemId5](#ReqItemId)                                | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [ReqItemId6](#ReqItemId)                                | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount1](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount2](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount3](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount4](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount5](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
-[ReqItemCount6](#ReqItemCount)                           | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount1](#ReqItemCount)                          | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount2](#ReqItemCount)                          | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount3](#ReqItemCount)                          | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount4](#ReqItemCount)                          | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount5](#ReqItemCount)                          | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
+[ReqItemCount6](#ReqItemCount)                          | int(10)   | unsigned NOT NULL DEFAULT '0'                       |                 
 [ReqKillMobOrGOId1](#ReqKillMobOrGOId)                  | int(10)   | NOT NULL DEFAULT '0'                                |                 
 [ReqKillMobOrGOId2](#ReqKillMobOrGOId)                  | int(10)   | NOT NULL DEFAULT '0'                                |                 
 [ReqKillMobOrGOId3](#ReqKillMobOrGOId)                  | int(10)   | NOT NULL DEFAULT '0'                                |                 
@@ -362,7 +362,11 @@ The Quest Id of the next quest.
 
 ### srcItem
 
+...
+
 ### SrcItemCount
+
+...
 
 ### Title
 
@@ -389,6 +393,8 @@ The incomplete text of the Quest.
 The end text of the Quest.
 
 ### ObjectiveText
+
+...
 
 ### ReqItemId
 
@@ -474,11 +480,19 @@ The item entry ID which would be attached to the mail from [item_properties](/Wi
 
 ### PointMapId
 
+...
+
 ### PointX
+
+...
 
 ### PointY
 
+...
+
 ### PointOpt
+
+...
 
 ### RewardMoneyAtMaxLevel
 

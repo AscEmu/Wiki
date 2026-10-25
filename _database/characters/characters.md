@@ -52,7 +52,7 @@ Field                                           | Type         | Default        
 [bindpositionX](#bindpositionX)                 | float        | NOT NULL DEFAULT '0'          |                                   
 [bindpositionY](#bindpositionY)                 | float        | NOT NULL DEFAULT '0'          |                                   
 [bindpositionZ](#bindpositionZ)                 | float        | NOT NULL DEFAULT '0'          |                                   
-[bindpositionO](#bindpositionO)                 | float         | 0       | 
+[bindpositionO](#bindpositionO)                 | float        | 0                             | 
 [bindmapId](#bindmapId)                         | int(8)       | unsigned NOT NULL DEFAULT '0' |                                   
 [bindzoneId](#bindzoneId)                       | int(8)       | unsigned NOT NULL DEFAULT '0' |                                   
 [isResting](#isResting)                         | int(3)       | NOT NULL DEFAULT '0'          |                                   
@@ -108,7 +108,7 @@ Field                                           | Type         | Default        
 [dungeon_difficulty](#dungeon_difficulty)       | smallint(1)  | NOT NULL DEFAULT '0'          |                                   
 [raid_difficulty](#raid_difficulty)             | smallint(1)  | NOT NULL DEFAULT '0'          |
 [talentspecialization](#talentspecialization)   | varchar(50)  |                               |
-[last_login_build](#last_login_build)           | int unsigned  | 0       | 
+[last_login_build](#last_login_build)           | int unsigned | 0                             | 
 
 ### guid
 
@@ -315,6 +315,7 @@ The ban reason as cleartext.
 ### bindpositionO
 
 The orientation at the hearthstone bind position.
+
 ### bindmapId
 
 ...

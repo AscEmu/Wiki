@@ -23,7 +23,7 @@ Field                                                                           
 [proc_effect_trigger_spell_0](#proc_effect_trigger_spell_0)                       | int(10)      | NULL                      |
 [proc_effect_trigger_spell_1](#proc_effect_trigger_spell_1)                       | int(10)      | NULL                      |
 [proc_effect_trigger_spell_2](#proc_effect_trigger_spell_2)                       | int(10)      | NULL                      |
-[description](#description)                                                        | varchar(100) | NULL                      |
+[description](#description)                                                       | varchar(100) | NULL                      |
 
 ### spell_id
 

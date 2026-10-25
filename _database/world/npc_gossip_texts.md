@@ -11,20 +11,20 @@ This table contains the npc texts
 
 ## Structure
 
-Field                                                                                      | Type | Default | Comment
------------------------------------------------------------------------------------------- | ---- | ------- | -------
-[entry](#entry)                                                                            |      |         |        
-[build](#build)                                                                            | int unsigned  | 5875    | key
-[prob0-7](#prob0-7)                                                                        |      |         |        
-[text0_0-7_0](#text0_0-7_0)                                                                |      |         |        
-[text0_1-7_1](#text0_1-7_1)                                                                |      |         |        
-[lang0-7](#lang0-7)                                                                        |      |         |        
-[EmoteDelay0_0-7_0](#EmoteDelay0_0-7_0)                                                    |      |         |        
-[Emote0_0-7_0](#Emote0_0-7_0)                                                              |      |         |        
-[EmoteDelay0_1-7_1](#EmoteDelay0_1-7_1)                                                    |      |         |        
-[Emote0_1-7_1](#Emote0_1-7_1)                                                              |      |         |        
-[EmoteDelay0_2-7_2](#EmoteDelay0_2-7_2)                                                    |      |         |        
-[Emote0_2-7_2](#Emote0_2-7_2)                                                              |      |         |        
+Field                                                                                      | Type           | Default | Comment
+------------------------------------------------------------------------------------------ | -------------- | ------- | -------
+[entry](#entry)                                                                            |                |         |
+[build](#build)                                                                            | int unsigned   | 5875    | key
+[prob0-7](#prob0-7)                                                                        |                |         |
+[text0_0-7_0](#text0_0-7_0)                                                                |                |         |
+[text0_1-7_1](#text0_1-7_1)                                                                |                |         |
+[lang0-7](#lang0-7)                                                                        |                |         |
+[EmoteDelay0_0-7_0](#EmoteDelay0_0-7_0)                                                    |                |         |
+[Emote0_0-7_0](#Emote0_0-7_0)                                                              |                |         |
+[EmoteDelay0_1-7_1](#EmoteDelay0_1-7_1)                                                    |                |         |
+[Emote0_1-7_1](#Emote0_1-7_1)                                                              |                |         |
+[EmoteDelay0_2-7_2](#EmoteDelay0_2-7_2)                                                    |                |         |
+[Emote0_2-7_2](#Emote0_2-7_2)                                                              |                |         |
 
 ### entry
 
@@ -33,6 +33,7 @@ The entry ID of the creature text.
 ### build
 
 Client build the row is valid from. The server loads, for every entry, the row with the highest build that does not exceed its own build, so a row is only needed where the data differs from the previous build.
+
 ### prob0-7
 
 The probability (percent) this text is shown in the gossip.

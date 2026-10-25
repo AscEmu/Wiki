@@ -13,7 +13,7 @@ This table defines the relation between random suffix groups and random suffix e
 Field                                                                                            | Type        | Default | Comment
 ------------------------------------------------------------------------------------------------ | ----------- | ------- | -------
 [entry_id](#entry_id)                                                                            | smallint(3) |         |        
-[randomsuffix_entryid](#randomsuffix_entryid)                                                                   | tinyint(2)  |         |        
+[randomsuffix_entryid](#randomsuffix_entryid)                                                    | tinyint(2)  |         |        
 [chance](#chance)                                                                                | float(0)    |         |        
 
 ### entry_id

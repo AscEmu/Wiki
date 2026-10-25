@@ -13,7 +13,7 @@ This table contains the graveyard positions per client build. The positions of a
 Field                                                                                    | Type         | Default | Comment                    
 ---------------------------------------------------------------------------------------- | ------------ | ------- | ---------------------------
 [id](#id)                                                                                | int unsigned |         | key, the safe loc id of the client
-[build](#build)                                                                          | int unsigned  | 5875    | key
+[build](#build)                                                                          | int unsigned | 5875    | key
 [position_x](#position)                                                                  | float(0)     | 0       |                            
 [position_y](#position)                                                                  | float(0)     | 0       |                            
 [position_z](#position)                                                                  | float(0)     | 0       |                            
@@ -31,6 +31,7 @@ The WorldSafeLocs id of the client. Together with the build it is the key of the
 ### build
 
 Client build the row is valid from. The server loads, for every entry, the row with the highest build that does not exceed its own build, so a row is only needed where the data differs from the previous build.
+
 ### position
 
 The position on map and the orientation.

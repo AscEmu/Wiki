@@ -14,8 +14,8 @@ Field                                                                           
 ---------------------------------------------------------------------------------- | ------- | ------- | -------
 [id](#id)                                                                          | int(11) | 0       |        
 [quest](#quest)                                                                    | int(11) | 0       |        
-[min_build](#min_build)                                                            | int           | 12340   | key
-[max_build](#max_build)                                                            | int           | 12340   | 
+[min_build](#min_build)                                                            | int     | 12340   | key
+[max_build](#max_build)                                                            | int     | 12340   | 
 
 ### id
 

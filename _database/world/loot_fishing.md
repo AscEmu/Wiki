@@ -23,7 +23,7 @@ Field                              | Type             | Default | Comment
 [maxcount](#maxcount)              | int unsigned     | 1       |
 [is_currency](#is_currency)        | tinyint unsigned | 0       |
 
-A row is either an item (`itemid` set, `groupid` 0) or a link to a group of [loot_groups](/Wiki/database/world/loot_groups/ "Loot groups") (`groupid` set, `itemid` 0). The rows of an entry form one loot set per build and difficulty.
+A row is either an item (**itemid** set, **groupid** 0) or a link to a group of [loot_groups](/Wiki/database/world/loot_groups/ "Loot groups") (**groupid** set, **itemid** 0). The rows of an entry form one loot set per build and difficulty.
 
 ### entryid
 

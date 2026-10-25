@@ -10,10 +10,10 @@ Defines required xp for Cataclysm guild level
 
 ## Structure
 
-Field                                   | Type     | Default | Comment
---------------------------------------- | -------- | ------- | -------
-[lvl](#lvl)                             | int(10)  | 0       | key
-[xp_for_next_level](#xp_for_next_level) | bigint unsigned | 0 |        
+Field                                   | Type            | Default | Comment
+--------------------------------------- | --------------- | ------- | -------
+[lvl](#lvl)                             | int(10)         | 0       | key
+[xp_for_next_level](#xp_for_next_level) | bigint unsigned | 0       |        
 
 ### lvl
 

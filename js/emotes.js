@@ -16,7 +16,7 @@
         dragonflight: "dragonflight.png",
         warwithin: "warwithin.png",
         midnight: "midnight.png",
-        forever: "forever.gif",
+        forever: "forever.webp",
     };
 
     const EMOTE_REGEX = /:([a-z0-9_+-]+):/g;
