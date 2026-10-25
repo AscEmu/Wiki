@@ -161,7 +161,7 @@ cmake -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREF
 -DCMAKE_BUILD_TYPE = choose from Release or Debug mode
 -DBUILD_WITH_WARNINGS = 0 (disabled) or 1 (enabled)
 -DBUILD_TOOLS = 0 (disabled) or 1 (enabled)
--DASCEMU_VERSION = choose from Classic, TBC, WotLK, Cata or MoP
+-DASCEMU_VERSION = choose from Classic, TBC, WotLK, Cata, Mop, WoD, Legion, BfA, Shadowlands, Dragonflight, TheWarWithin or Midnight
 -DAE_USE_PCH = 0 (disabled) or 1 (enabled) - Precompiled headers are enabled by default
 </pre>
 
@@ -312,6 +312,12 @@ Make sure RemotePassword matches the password in realms table in logon database 
              DisablePings   = "0"
              RemotePassword = "change_me_logon">
 ```
+
+Set `ClientVersion` in the `<Realm1 ...>` section to the expansion the world server was compiled for, the index matches ASCEMU_VERSION: 0 = Classic, 1 = TBC, 2 = WotLK, 3 = Cata, 4 = MoP, 5 = WoD, 6 = Legion, 7 = BfA, 8 = Shadowlands, 9 = Dragonflight, 10 = TWW, 11 = Midnight. With a wrong value the client gets no answers: every NPC shows as Unknown and no button works.
+{: .info }
+
+How each client version finds the server, from realmlist.wtf to the launchers of the Battle.net clients, is described in the [Client Guide](/Wiki/docs/installation/client/).
+{: .info }
 
 That's it! You should now have a fully functioning copy of AscEmu.<br />
 When you first time run the binaries your databases are automatically populated and updated to latest version. This process is fully automated. You can read about it ![github.svg](/Wiki/images/mark-github.svg) [more here.](https://ascemu.github.io/Wiki/database/auto_update/).

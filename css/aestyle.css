@@ -88,13 +88,13 @@ a[aria-expanded="true"]::before {
     content: '\e260';
 }
 
-ul ul a {
+#sidebar ul ul a {
     font-size: 0.9em !important;
     padding-left: 20px !important;
     background: #353332;
 }
 
-ul ul ul a {
+#sidebar ul ul ul a {
     padding-left: 35px !important;
 }
 
@@ -127,6 +127,36 @@ a.article, a.article:hover {
     transition: all 0.3s;
     width: 100%;
     margin-left: 260px;
+}
+
+/* ---------------------------------------------------
+    headings: room between the sections of a page
+----------------------------------------------------- */
+#content h2 {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#content h3 {
+    margin-top: 40px;
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#content h4 {
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+#content h5 {
+    margin-top: 20px;
+}
+
+#content h1:first-child, #content h2:first-child, #content h3:first-child {
+    margin-top: 10px;
 }
 
 /* ---------------------------------------------------
