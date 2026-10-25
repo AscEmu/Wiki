@@ -30,10 +30,10 @@ Field                                                                           
 The Id for defining a set of spells for a trainer.
 
 ### min_build
-The minimum build number this spell is valid to train.
+The first build this row is valid to train. A set holds the rows of every build, the server loads the rows whose range contains its build.
 
 ### max_build
-The maximum build number this spell is valid to train.
+The last build this row is valid to train.
 
 ### cast_spell
 

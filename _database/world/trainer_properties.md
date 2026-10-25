@@ -34,7 +34,7 @@ Field                                                                           
 The creature entry ID from [creature_properties](/Wiki/database/world/creature_properties/ "Creature properties") table.
 
 ### build
-The build number the trainer was introduced to the game.
+The build the row applies from. A creature keeps one row for all builds; a further row for a later build is only needed where one of the other columns changes. The spells of a build live in [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/).
 
 ### required_skill
 The required skill ID. (always 0)
@@ -75,7 +75,7 @@ The TextID shown if trainer can train this spell from [npc_gossip_texts](/Wiki/d
 The TextID shown if trainer can not train this spell from [npc_gossip_texts](/Wiki/database/world/npc_gossip_texts/ "Npc gossip texts") table.
 
 ### spellset_id
-ID to the spellset defined in [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/) table.
+ID to the spellset defined in [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/) table. The same id over all builds of the creature, the rows of the set carry the build ranges.
 
 ### can_train_max_level
 Defines which level of spell can be trained. 0 = all levels in the spellset. [trainer_properties_spellset](/Wiki/database/world/trainer_properties_spellset/ "reqlevel")

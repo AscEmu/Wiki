@@ -44,6 +44,7 @@ The percent chance of the row. With [groupindex](#groupindex) 0 the row rolls on
 ### groupindex
 
 0 = own roll, every other value forms an exclusive group with the rows of the same index: one of them drops.
+A nested group link always rolls on its own; its groupindex names the exclusive group inside the linked group that is rolled, 0 rolls the whole group.
 
 ### mincount
 

@@ -54,6 +54,7 @@ The percent chance (0 - 100) of the row. For a row with its own roll ([groupinde
 ### groupindex
 
 0 = the row rolls on its own. Every other value forms an exclusive group with the rows of the same index: exactly one of them drops.
+A group link always rolls on its own; its groupindex names the exclusive group inside the linked group that is rolled, 0 rolls the whole group.
 
 ### mincount
 
