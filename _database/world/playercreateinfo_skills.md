@@ -12,10 +12,10 @@ This table contains the skills for the players on create.
 
 Field                           | Type                   | Default | Comment
 ------------------------------- | ---------------------- | ------- | -------
-[min_build](#min_build)         | int           | 5875    | key
-[max_build](#max_build)         | int           | 18414   | key
-[raceMask](#raceMask)           | int()                  | 0       | key
-[classMask](#classMask)         | int()                  | 0       | key
+[min_build](#min_build)         | int                    | 5875    | key
+[max_build](#max_build)         | int                    | 18414   | key
+[raceMask](#raceMask)           | int                    | 0       | key
+[classMask](#classMask)         | int                    | 0       | key
 [skillid](#skillid)             | smallint(5)            | 0       |        
 [level](#level)                 | smallint(5)            | 0       |        
 [note](#note)                   | VARCHAR(100)           | 0       |       

@@ -9,14 +9,14 @@ layout: single_markdown
 
 ## Structure
 
-Field                                     | Type        | Default    | Comment
-------------------------------------------| ----------- | ---------- | -------
+Field                                      | Type        | Default    | Comment
+------------------------------------------ | ----------- | ---------- | -------
 [SeatEntry](#SeatEntry)                    | int(10)     | NOT NULL   |
 [SeatOrientation](#SeatOrientation)        | float       | 0          |
-[ExitParamX](#ExitParamX)                  | float       | 0          |
-[ExitParamY](#ExitParamY)                  | float       | 0          |
-[ExitParamZ](#ExitParamZ)                  | float       | 0          |
-[ExitParamO](#ExitParamO)                  | float       | 0          |
+[ExitParamX](#ExitParamX-Y-Z-O)            | float       | 0          |
+[ExitParamY](#ExitParamX-Y-Z-O)            | float       | 0          |
+[ExitParamZ](#ExitParamX-Y-Z-O)            | float       | 0          |
+[ExitParamO](#ExitParamX-Y-Z-O)            | float       | 0          |
 [ExitParamValue](#ExitParamValue)          | tinyint(1)  | 0          |
 
 ### SeatEntry

@@ -35,7 +35,7 @@ The type of cooldown.
 
 ### cooldown_misc
 
-This field depends on the `cooldown_type`.
+This field depends on the **cooldown_type**.
 
 ```text
 cooldown_type = 0 → Spell ID

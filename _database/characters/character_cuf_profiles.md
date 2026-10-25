@@ -9,7 +9,7 @@ layout: single_markdown
 
 This table stores the player's Compact Unit Frames (CUF) profile settings.
 
-Each character can have up to **5 CUF profiles**. The `ownerguid` field identifies the character, while `id` identifies the profile.
+Each character can have up to **5 CUF profiles**. The **ownerguid** field identifies the character, while **id** identifies the profile.
 
 ## Structure
 
@@ -30,7 +30,7 @@ Each character can have up to **5 CUF profiles**. The `ownerguid` field identifi
 | [bottomOffset](#bottomoffset) | smallint unsigned | 0       | Bottom frame offset.                      |
 | [leftOffset](#leftoffset)     | smallint unsigned | 0       | Left frame offset.                        |
 
-The primary key consists of `ownerguid` and `id`.
+The primary key consists of **ownerguid** and **id**.
 
 ### ownerguid
 
@@ -40,7 +40,7 @@ This is the character guid from the characters table.
 
 Identifies the CUF profile.
 
-A character can have up to **5 profiles** (`0` through `4`).
+A character can have up to **5 profiles** (**0** through **4**).
 
 ### name
 

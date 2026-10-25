@@ -338,7 +338,7 @@ The maximum mana value of the creature.
 
 The creature's model scale.
 
-A value of `1` represents the normal scale.
+A value of **1** represents the normal scale.
 
 ### npcflags
 
@@ -588,7 +588,7 @@ Training dummies cannot be killed and cannot move.
 
 Defines the type of guard represented by the creature.
 
-Most city guards, bruisers, and peacekeepers use `2`.
+Most city guards, bruisers, and peacekeepers use **2**.
 
 ### summonguard
 

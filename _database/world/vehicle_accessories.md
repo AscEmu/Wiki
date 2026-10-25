@@ -10,15 +10,15 @@ This table defines the vehicle accessoires.
 
 ## Structure
 
-Field                                                                                             | Type    | Default | Comment
+Field                                                                                             | Type          | Default          | Comment
 ------------------------------------------------------------------------------------------------- | ------------- | ---------------- | -------
-[entry](#entry)                                                                                    | mediumint(8)  | 0                |
-[accessory_entry](#accessory_entry)                                                                | mediumint(8)  | 0                |
+[entry](#entry)                                                                                   | mediumint(8)  | 0                |
+[accessory_entry](#accessory_entry)                                                               | mediumint(8)  | 0                |
 [seat_id](#seat_id)                                                                               | tinyint(4)    | 0                |
-[minion](#minion)                                                                                  | tinyint(3)    | 0                |
-[description](#description)                                                                        | text          | NOT NULL         |
+[minion](#minion)                                                                                 | tinyint(3)    | 0                |
+[description](#description)                                                                       | text          | NOT NULL         |
 [summontype](#summontype)                                                                         | tinyint(3)    | 0                |
-[summontimer](#summontimer)                                                                        | INT(10)       | 0                |
+[summontimer](#summontimer)                                                                       | INT(10)       | 0                |
 
 ### entry
 

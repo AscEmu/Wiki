@@ -27,6 +27,7 @@ Field                             | Type        | Default | Comment
 This is the guild ID from guilds table.
 
 ### logGuid
+
 The id of the log for the guild.
 
 ### tabId

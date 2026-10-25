@@ -14,7 +14,7 @@ Field                                                                           
 ---------------------------------------------------------------------------------------------------- | ---------- | ------- | -------
 [entry](#entry)                                                                                      | int(10)    |         |        
 [language_code](#language_code)                                                                      | varchar(5) |         |        
-[option_text](#option_text)                                                                                        | text       |         |        
+[option_text](#option_text)                                                                          | text       |         |        
 
 ### entry
 

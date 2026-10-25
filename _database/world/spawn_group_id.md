@@ -13,8 +13,8 @@ Field                         | Type        | Default | Comment
 ------------------------------| ----------- | ------- | -------
 [groupId](#groupId)           | tinyint(4)  |         |        
 [groupName](#groupName)       | text        |         |        
-[groupFlags](#groupFlags)      | tinyint(4)  |         |        
-[extraFlags](#extraFlags)      | tinyint(4)  |         |        
+[groupFlags](#groupFlags)     | tinyint(4)  |         |        
+[extraFlags](#extraFlags)     | tinyint(4)  |         |        
 [BossId](#BossId)             | int(11)     |         |        
 
 ### groupId

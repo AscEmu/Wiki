@@ -10,10 +10,10 @@ This table defines the localization for itempages.
 
 ## Structure
 
-Field                                                                                  | Type       | Default | Comment                                            
--------------------------------------------------------------------------------------- | ---------- | ------- | ---------------------------------------------------
-[entry](#entry)                                                                        | int(10)    | 0       |                                                    
-[language_code](#language_code)                                                        | varchar(5) |         |                                                    
+Field                                                                                  | Type          | Default | Comment                                            
+-------------------------------------------------------------------------------------- | ------------- | ------- | ---------------------------------------------------
+[entry](#entry)                                                                        | int(10)       | 0       |                                                    
+[language_code](#language_code)                                                        | varchar(5)    |         |                                                    
 [name](#name)                                                                          | varchar(100)  |         | 
 [description](#description)                                                            | varchar(100)  |         | 
 
