@@ -70,6 +70,10 @@ Opcode | Name                             | Direction     | Purpose
 0x01C  | LRCMSG_BATTLE_PET_SAVE           | world → logon | changed and released pets, battle slots
 0x01D  | LRCMSG_BATTLE_PET_ADD            | world → logon | new pet, the logonserver checks the limits and hands out the id
 0x01E  | LRSMSG_BATTLE_PET_ADD_RESULT     | logon → world | the new pet with its id or the reason it was refused
+0x01F  | LRCMSG_ACHIEVEMENT_REQUEST       | world → logon | load the account wide achievements of an account
+0x020  | LRSMSG_ACHIEVEMENT_RESULT        | logon → world | achievements and criteria progress of the account
+0x021  | LRCMSG_ACHIEVEMENT_SAVE          | world → logon | new achievements and raised criteria progress
+0x022  | LRCMSG_ACHIEVEMENT_RESET         | world → logon | a game master removed an account wide achievement or criteria progress
 
 ## Threads
 

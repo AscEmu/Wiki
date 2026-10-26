@@ -26,4 +26,4 @@ The archievement ID
 
 ### date
 
-...
+Unix time of the completion.

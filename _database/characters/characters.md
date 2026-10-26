@@ -551,4 +551,12 @@ Boolean
 
 ### last_login_build
 
-The client build of the last login, 0 = unknown (a character that never logged in since the column exists). The server uses it to detect a character that comes from a client before the level squish.
+The client build of the last login, 0 = unknown (a character that never logged in since the column exists).
+
+At the start the server updates every character below its own build once and sets this column to its build afterwards:
+
+Step                | Server build    | Character below | Update
+------------------- | --------------- | --------------- | ------------------------------------------------------------------------------------------
+Terrain             | 15595 and later | 15595           | Height set to the ground of the current map data (terrain, model floors, deep liquid), characters on a transport stay
+Achievement trees   | 18414 and later | 18414           | Progress mapped to the criteria of the trees (see [achievement_criteria_legacy](/Wiki/database/world/achievement_criteria_legacy/ "Achievement criteria legacy")), account wide achievements moved to [account_achievement](/Wiki/database/logon/account_achievement/ "Account achievement")
+Level squish        | 45745 and later | 45745           | Level converted to the squished level, xp set to 0
