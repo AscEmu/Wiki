@@ -62,6 +62,7 @@ Requirement | Meaning                                                           
 43          | the losing team has a score in the range                                    | lowest score                         | highest score
 50          | a criteria script decides                                                   | 0                                    | 0
 51          | the criteria script of the instance decides                                 | 0                                    | 0
+60          | the criteria never counts                                                   | 0                                    | 0
 
 Requirements 42 and 43 are not evaluated yet. Their criteria never progress and the server reports them at the start. Requirements 50 and 51 need a criteria script, a criteria without one never progresses.
 
