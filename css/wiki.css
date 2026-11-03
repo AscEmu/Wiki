@@ -547,7 +547,8 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
     font: 600 11.5px var(--font-body); letter-spacing: .07em; text-transform: uppercase; border-bottom: 1px solid var(--line);
     white-space: nowrap;
 }
-.wk-content td { padding: 7px 12px; border-bottom: 1px dashed rgba(var(--line-rgb), .7); vertical-align: top; }
+.wk-content td { padding: 7px 12px; border-bottom: 1px dashed rgba(var(--line-rgb), .7); vertical-align: top; overflow-wrap: normal; }
+.wk-content td:first-child { white-space: nowrap; }
 .wk-content tr:last-child td { border-bottom: 0; }
 .wk-content tbody tr:hover td { background: rgba(var(--grid), .04); }
 .wk-content td code { white-space: nowrap; }
@@ -575,6 +576,12 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 }
 .wk-pagefoot a { display: inline-flex; align-items: center; gap: 6px; }
 .wk-pagefoot svg { width: 14px; height: 14px; fill: currentColor; }
+
+/* edit link above each part of the combined pages (packets) */
+.wk-content .wk-part-edit { margin: 24px 0 6px; text-align: right; font-size: 12.5px; }
+.wk-content .wk-part-edit:first-child { margin-top: 0; }
+.wk-content .wk-part-edit a { color: var(--fg-faint); }
+.wk-content .wk-part-edit a:hover { color: var(--accent-hi); }
 
 /* ---------- table of contents ---------- */
 .wk-toc { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; padding: 12px 14px; font-size: 13px; }

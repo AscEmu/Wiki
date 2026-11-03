@@ -2,12 +2,11 @@
 layout: default
 ---
 
-{% for packets in site.docs | sort: 'position' %}
+{% assign sorted_docs = site.docs | sort: 'position' %}
+{% for packets in sorted_docs %}
     {% if packets.type != 'packets' %}
         {% continue %}
     {% endif %}
-    <div class="topnav">
-        <a target="_blank" href="https://github.com/AscEmu/Wiki/tree/master/{{ packets.path }}"><i class="fas fa-code-branch"></i> Change this part</a>
-    </div>
+    <p class="wk-part-edit"><a target="_blank" rel="noopener" href="https://github.com/AscEmu/Wiki/edit/master/{{ packets.path }}">Edit this part on GitHub</a></p>
     {{ packets.content | markdownify }}
 {% endfor %}

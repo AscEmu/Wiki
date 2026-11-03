@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% for emu in site.docs | sort: 'position' %}
+{% assign sorted_docs = site.docs | sort: 'position' %}
+{% for emu in sorted_docs %}
     {% if emu.type != 'history' %}
         {% continue %}
     {% endif %}
