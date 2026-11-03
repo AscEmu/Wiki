@@ -1,52 +1,102 @@
 <!doctype html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>AscEmu Wiki</title>
-    <meta name="description" content="Official Wiki for AscEmu">
-    <meta name="author" content="Zyres">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}AscEmu Wiki</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}AscEmu Wiki: install, configure and develop the AscEmu World of Warcraft server emulator.{% endif %}">
+    <meta name="author" content="AscEmu Team">
+    {% if site.github.repository_nwo != "AscEmu/Wiki" %}<meta name="robots" content="noindex, nofollow">{% endif %}
+    <meta name="theme-color" content="#0f0c0a">
+    <link rel="shortcut icon" type="image/x-icon" href="/Wiki/images/favicon.png">
 
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="/Wiki/css/aestyle.css">
+    <script>
+        // apply the stored expansion palette and light/dark mode before the first paint
+        try {
+            var aeXp = localStorage.getItem('ae-xp');
+            if (/^(tbc|wotlk|cata|mop|wod|legion|bfa|sl|df|tww|midnight|forever)$/.test(aeXp))
+                document.documentElement.setAttribute('data-xp', aeXp);
+            if (localStorage.getItem('ae-mode') === 'light')
+                document.documentElement.setAttribute('data-mode', 'light');
+        } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600;700&family=Fira+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+    <link rel="stylesheet" href="/Wiki/css/wiki.css">
     <link rel="stylesheet" href="/Wiki/css/highlighter.css">
 
     <script src="/Wiki/js/emotes.js" defer></script>
-
-    <link rel="shortcut icon" type="image/x-icon" href="/Wiki/images/favicon.png">
-    
-    <style>
-        .topnav a {
-          float: right;
-          color: #333;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 15px;
-        }
-    </style>
-
+    <script src="/Wiki/js/wiki.js" defer></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        {% include sidebar.html %}
-        <div id="content">
-            <div class="topnav">
-                <a target="_blank" href="https://github.com/AscEmu/AscEmu"><i class="fab fa-github"></i> Github</a>
-                <a target="_blank" href="https://discordapp.com/invite/CBdgrh7"><i class="fab fa-discord"></i> Discord</a>
-                <a target="_blank" href="https://github.com/AscEmu/Wiki/tree/master/{{ page.path }}"><i class="fas fa-code-branch"></i> Change this page</a>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <defs>
+            <linearGradient id="aeLogoGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" style="stop-color: var(--logo-1)"/>
+                <stop offset=".55" style="stop-color: var(--logo-2)"/>
+                <stop offset="1" style="stop-color: var(--logo-3)"/>
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <div class="ae-grid-haze" aria-hidden="true"></div>
+    <div class="ae-grid" aria-hidden="true"></div>
+    <div class="ae-grid-glow" id="ae-glow" aria-hidden="true"></div>
+    <div class="ae-wipe-line" aria-hidden="true"></div>
+
+    <div class="ae-page">
+        <header class="ae-topbar wk-top">
+            <div class="ae-wrap">
+                <div class="wk-brand">
+                    <button type="button" class="wk-menu" id="wk-menu" aria-controls="wk-nav" aria-expanded="false" aria-label="Open navigation">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+                    </button>
+                    <a class="ae-logo" href="https://ascemu.org/" aria-label="AscEmu website">
+                        <svg viewBox="0 0 450.4 78.98" role="img" aria-label="AscEmu"><path d="M1.46.7H42.07Q79,.7,79,33.93V77.52L77.52,79h-14L62,77.52V56.84H17V77.52L15.53,79H1.46L0,77.52V2.23ZM17,17V39.84H62q0-21.68-14-22.79Z"/><path d="M103.41,28.81h27.31l.93.93v8.72l-.93.93H102.48q-8.13,0-10.17,9.2h38.41l.93.93v7.83q0,8.39-13.88,18A29.14,29.14,0,0,1,103.89,79H82.59l-.93-.93V69.78l.93-.93H98.77q17.44,0,21.78-10.58h-38l-.93-.93v-6.9q0-14.58,18-21.19Z"/><path d="M157.88,29h25.27l.89.67v9.13l-.93,1H158.81q-13.51,0-13.51,15V55q0,12.77,12.1,12.770h25.72l.93.93v9.35l-.93.93h-21Q134,79,134,53.19v-.33Q134,29,157.88,29Z"/><path d="M187.49.7H265l1.46,1.52V15.47L265,17H204.49V31.46h19.92l1.46,1.46v13.3l-1.46,1.46H204.49V62h27.3q6.91,0,17-8.85H265l1.46,1.46v3Q250.07,79,234.72,79H189l-1.46-1.46Z"/><path d="M322.26,11.84V0h13q31.35,0,32.4,31.76V77.52L366.2,79h-14l-1.52-1.46V36.15q0-17.17-18.46-17.7V50.8l-1.46,1.46h-14l-1.46-1.46V21.39q-1-4.39-12.6-4.39H287.22V77.52L285.75,79H271.69l-1.46-1.46V1.46L271.69,0h33.87Q322.26.76,322.26,11.84Z"/><path d="M372.88,0h13.3l1.46,1.46V42.89q0,19.22,23.14,19.22,21,0,22.62-16.35V1.46L434.93,0h14l1.46,1.46V46.52Q450.4,79,413.49,79h-5.16q-36.91,0-36.91-31.76V1.46Z"/></svg>
+                    </a>
+                    <a class="wk-brand-label" href="{{ site.url }}/Wiki/">Wiki</a>
+                </div>
+                <nav class="wk-links" aria-label="Project links">
+                    <a href="https://ascemu.org/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 11h3v9h5v-6h4v6h5v-9h3z"/></svg><span>Website</span></a>
+                    <a target="_blank" rel="noopener" href="https://github.com/AscEmu/AscEmu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg><span>GitHub</span></a>
+                    <a target="_blank" rel="noopener" href="https://discord.com/invite/CBdgrh7"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.3 5.3A16.6 16.6 0 0 0 15.2 4l-.5 1a15.3 15.3 0 0 0-5.4 0l-.5-1a16.5 16.5 0 0 0-4.1 1.3C2 9.3 1.3 13.1 1.6 16.9a16.7 16.7 0 0 0 5 2.6l1.1-1.7c-.6-.2-1.2-.5-1.7-.9l.4-.3a11.9 11.9 0 0 0 11.2 0l.4.3c-.5.4-1.1.7-1.7.9l1.1 1.7a16.6 16.6 0 0 0 5-2.6c.4-4.4-.7-8.2-3.1-11.6ZM8.7 14.6c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm6.6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z"/></svg><span>Discord</span></a>
+                    <button type="button" class="ae-mode" id="ae-mode" aria-pressed="false" aria-label="Switch to light design" title="Light design">
+                        <svg class="ae-mode-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1Z"/></svg>
+                        <span class="ae-mode-track"><span class="ae-mode-thumb"></span></span>
+                        <svg class="ae-mode-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+                    </button>
+                </nav>
             </div>
-            {{ content }}
+        </header>
+
+        <div class="wk-shade" id="wk-shade" hidden></div>
+        <div class="ae-wrap wk-layout" id="wk-layout">
+            {% include sidebar.html %}
+
+            <main class="ae-panel wk-doc" id="wk-doc">
+                <article class="wk-content" id="wk-content">
+                    {{ content }}
+                </article>
+                <footer class="wk-pagefoot">
+                    <a target="_blank" rel="noopener" href="https://github.com/AscEmu/Wiki/edit/master/{{ page.path }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17.25V21h3.75L17.8 9.94l-3.75-3.75L3 17.25ZM20.7 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83Z"/></svg>Improve this page on GitHub</a>
+                    <a target="_blank" rel="noopener" href="https://github.com/AscEmu/Wiki/issues">Report a problem</a>
+                </footer>
+            </main>
+
+            <aside class="ae-panel wk-toc" id="wk-toc" aria-label="On this page" hidden>
+                <h2>On this page</h2>
+                <ul></ul>
+            </aside>
         </div>
+
+        <footer class="wk-footer">
+            <div class="ae-wrap">
+                <p>AscEmu is an independent open source project and is not affiliated with, endorsed by or associated with Blizzard Entertainment. World of Warcraft, Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc.</p>
+                <span><a href="https://ascemu.org/">ascemu.org</a></span>
+            </div>
+        </footer>
     </div>
-    
 </body>
 </html>

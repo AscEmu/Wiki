@@ -109,7 +109,7 @@
     }
 
     document.addEventListener("DOMContentLoaded", function () {
-        const content = document.getElementById("content");
+        const content = document.getElementById("wk-content") || document.getElementById("content");
 
         if (content) {
             replaceEmotes(content);

@@ -1,90 +1,123 @@
-<nav id="sidebar">
-    <div class="sidebar-header">
-        <a href="{{ site.url }}/Wiki" title="Visit the main page"><img src="/Wiki/images/logo.png" alt="AscEmu Wiki" class="sidebar-brand"></a>
+<nav class="ae-panel wk-nav" id="wk-nav" aria-label="Wiki navigation">
+    <div class="wk-filter">
+        <input type="search" id="wk-filter" placeholder="Filter pages" aria-label="Filter pages" autocomplete="off">
     </div>
 
-    <ul class="list-unstyled components">
-        <li><a href="{{ site.url }}/Wiki">Wiki start</a></li>
-        <li>
-            <a href="#installGroup" data-toggle="collapse" aria-expanded="false">Getting started</a>
-            <ul class="collapse list-unstyled" id="installGroup">
-                {% for item in site.docs %}
-                {% if item.type != 'installguide' %}
-                    {% continue %}
-                {% endif %}
-                <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
-                {% endfor %}
-            </ul>
+    <div class="wk-tree" id="wk-tree">
+        <ul>
+            <li><a href="{{ site.url }}/Wiki/">Wiki start</a></li>
+            <li>
+                <details>
+                    <summary>Getting started</summary>
+                    <ul>
+                        {% for item in site.docs %}{% if item.type == 'installguide' %}
+                        <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                        {% endif %}{% endfor %}
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Database</summary>
+                    <ul>
+                        <li><a href="{{ site.url }}/Wiki/database/auto_update">Auto Database Update</a></li>
+                        <li>
+                            <details>
+                                <summary>Logon Database</summary>
+                                <ul>
+                                    {% assign dbdocs = site.database | where: "type","logondb" | group_by: 'category' %}
+                                    {% for cat in dbdocs %}{% assign items = cat.items | sort: 'order' %}{% for item in items %}
+                                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                                    {% endfor %}{% endfor %}
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Character Database</summary>
+                                <ul>
+                                    {% assign dbdocs = site.database | where: "type","characterdb" | group_by: 'category' %}
+                                    {% for cat in dbdocs %}{% assign items = cat.items | sort: 'order' %}{% for item in items %}
+                                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                                    {% endfor %}{% endfor %}
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>World Database</summary>
+                                <ul>
+                                    {% assign dbdocs = site.database | where: "type","worlddb" | group_by: 'category' %}
+                                    {% for cat in dbdocs %}{% assign items = cat.items | sort: 'order' %}{% for item in items %}
+                                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                                    {% endfor %}{% endfor %}
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Access &amp; Commands</summary>
+                    <ul>
+                        {% for item in site.docs %}{% if item.type == 'command' %}
+                        <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
+                        {% endif %}{% endfor %}
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Dev Docs</summary>
+                    <ul>
+                        <li><a href="{{ site.url }}/Wiki/docs/coding-standards/">Coding Standards</a></li>
+                        <li><a href="{{ site.url }}/Wiki/docs/mysql-standards/">MySQL Standards</a></li>
+                        <li><a href="{{ site.url }}/Wiki/docs/docs_dev/clientversions">Client Versions</a></li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Core Docs</summary>
+                    <ul>
+                        <li><a href="{{ site.url }}/Wiki/docs/docs_core/packet_serialization">Packet Serialization</a></li>
+                        <li><a href="{{ site.url }}/Wiki/docs/packets">Packets</a></li>
+                        <li><a href="{{ site.url }}/Wiki/docs/docs_core/wow_data">Wow Data</a></li>
+                        <li><a href="{{ site.url }}/Wiki/docs/docs_core/debugging">Debugging</a></li>
+                        <li><a href="{{ site.url }}/Wiki/docs/docs_core/logoncomm">LogonComm</a></li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Scripts Docs</summary>
+                    <ul>
+                        <li><a href="{{ site.url }}/Wiki/docs/standards_scripts/standards_lua">Lua Methods</a></li>
+                    </ul>
+                </details>
+            </li>
+            <li><a href="{{ site.url }}/Wiki/docs/history/">History</a></li>
+        </ul>
+        <p class="wk-empty" id="wk-empty" hidden>No page matches.</p>
+    </div>
 
-            <a href="#databaseGroup" data-toggle="collapse" aria-expanded="false">Database</a>
-            <ul class="collapse list-unstyled" id="databaseGroup">
-                <li><a href="{{ site.url }}/Wiki/database/auto_update">Auto Database Update</a></li>
-                <a href="#logonSubGroup" data-toggle="collapse" aria-expanded="false">Logon Database</a>
-                <ul class="collapse list-unstyled" id="logonSubGroup">
-                    {% assign dbdocs = site.database | where: "type","logondb" | group_by: 'category' %}
-                    {% for cat in dbdocs %}
-                        {% assign items = cat.items | sort: 'order' %}
-                        {% for item in items %}
-                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
-                        {% endfor %}
-                    {% endfor %}
-                </ul>
-
-                <a href="#charSubGroup" data-toggle="collapse" aria-expanded="false">Character Database</a>
-                <ul class="collapse list-unstyled" id="charSubGroup">
-                    {% assign dbdocs = site.database | where: "type","characterdb" | group_by: 'category' %}
-                    {% for cat in dbdocs %}
-                        {% assign items = cat.items | sort: 'order' %}
-                        {% for item in items %}
-                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
-                        {% endfor %}
-                    {% endfor %}
-                </ul>
-
-                <a href="#worldSubGroup" data-toggle="collapse" aria-expanded="false">World Database</a>
-                <ul class="collapse list-unstyled" id="worldSubGroup">
-                    {% assign dbdocs = site.database | where: "type","worlddb" | group_by: 'category' %}
-                    {% for cat in dbdocs %}
-                        {% assign items = cat.items | sort: 'order' %}
-                        {% for item in items %}
-                    <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
-                        {% endfor %}
-                    {% endfor %}
-                </ul>
-            </ul>
-
-            <a href="#accessGroup" data-toggle="collapse" aria-expanded="false">Access & Commands</a>
-            <ul class="collapse list-unstyled" id="accessGroup">
-                {% for item in site.docs %}
-                {% if item.type != 'command' %}
-                    {% continue %}
-                {% endif %}
-                <li><a href="{{ site.url }}/Wiki{{ item.url }}">{{ item.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-            <a href="#devGroup" data-toggle="collapse" aria-expanded="false">Dev Docs</a>
-            <ul class="collapse list-unstyled" id="devGroup">
-                <li><a href="{{ site.url }}/Wiki/docs/coding-standards/">Coding Standards</a></li>
-                <li><a href="{{ site.url }}/Wiki/docs/mysql-standards/">MySQL Standards</a></li>
-                <li><a href="{{ site.url }}/Wiki/docs/docs_dev/clientversions">Client Versions</a></li>
-            </ul>
-
-            <a href="#CoreGroup" data-toggle="collapse" aria-expanded="false">Core Docs</a>
-            <ul class="collapse list-unstyled" id="CoreGroup">
-                <li><a href="{{ site.url }}/Wiki/docs/docs_core/packet_serialization">Packet Serialization</a></li>
-                <li><a href="{{ site.url }}/Wiki/docs/packets">Packets</a></li>
-                <li><a href="{{ site.url }}/Wiki/docs/docs_core/wow_data">Wow Data</a></li>
-                <li><a href="{{ site.url }}/Wiki/docs/docs_core/debugging">Debugging</a></li>
-                <li><a href="{{ site.url }}/Wiki/docs/docs_core/logoncomm">LogonComm</a></li>
-            </ul>
-
-            <a href="#scriptsGroup" data-toggle="collapse" aria-expanded="false">Scripts Docs</a>
-            <ul class="collapse list-unstyled" id="scriptsGroup">
-                <li><a href="{{ site.url }}/Wiki/docs/standards_scripts/standards_lua">Lua Methods</a></li>
-            </ul>
-
-        </li>
-        <li><a href="{{ site.url }}/Wiki/docs/history/">History</a></li>
-    </ul>
+    <div class="wk-design">
+        <div class="wk-design-head"><span>Design</span></div>
+        <div class="wk-xps">
+            <button type="button" class="ae-xp" data-xp="classic" aria-pressed="true" title="Classic"><img src="/Wiki/images/emotes/classic.webp" alt="Classic"></button>
+            <button type="button" class="ae-xp" data-xp="tbc" aria-pressed="false" title="The Burning Crusade"><img src="/Wiki/images/emotes/tbc.webp" alt="TBC"></button>
+            <button type="button" class="ae-xp" data-xp="wotlk" aria-pressed="false" title="Wrath of the Lich King"><img src="/Wiki/images/emotes/wotlk.png" alt="WotLK"></button>
+            <button type="button" class="ae-xp" data-xp="cata" aria-pressed="false" title="Cataclysm"><img src="/Wiki/images/emotes/cata.png" alt="Cata"></button>
+            <button type="button" class="ae-xp" data-xp="mop" aria-pressed="false" title="Mists of Pandaria"><img src="/Wiki/images/emotes/mop.png" alt="MoP"></button>
+            <button type="button" class="ae-xp" data-xp="wod" aria-pressed="false" title="Warlords of Draenor"><img src="/Wiki/images/emotes/wod.webp" alt="WoD"></button>
+            <button type="button" class="ae-xp" data-xp="legion" aria-pressed="false" title="Legion"><img src="/Wiki/images/emotes/legion.png" alt="Legion"></button>
+            <button type="button" class="ae-xp" data-xp="bfa" aria-pressed="false" title="Battle for Azeroth"><img src="/Wiki/images/emotes/bfa.webp" alt="BfA"></button>
+            <button type="button" class="ae-xp" data-xp="sl" aria-pressed="false" title="Shadowlands"><img src="/Wiki/images/emotes/shadowlands.png" alt="Shadowlands"></button>
+            <button type="button" class="ae-xp" data-xp="df" aria-pressed="false" title="Dragonflight"><img src="/Wiki/images/emotes/dragonflight.png" alt="Dragonflight"></button>
+            <button type="button" class="ae-xp" data-xp="tww" aria-pressed="false" title="The War Within"><img src="/Wiki/images/emotes/warwithin.png" alt="The War Within"></button>
+            <button type="button" class="ae-xp" data-xp="midnight" aria-pressed="false" title="Midnight"><img src="/Wiki/images/emotes/midnight.png" alt="Midnight"></button>
+            <button type="button" class="ae-xp" data-xp="forever" aria-pressed="false" title="Forever"><img src="/Wiki/images/emotes/forever.webp" alt="Forever"></button>
+        </div>
+    </div>
 </nav>
