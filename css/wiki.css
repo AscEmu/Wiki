@@ -229,7 +229,7 @@
 }
 
 :root[data-mode="light"] .ae-grid { --a-major: .16; --a-minor: .07; }
-:root[data-mode="light"] .ae-grid-glow { --a-major: .5; --a-minor: .22; filter: drop-shadow(0 0 3px rgba(var(--grid), .45)) drop-shadow(0 0 10px rgba(var(--grid), .2)); }
+:root[data-mode="light"] .ae-grid-glow, :root[data-mode="light"] .ae-glow-grid { --a-major: .5; --a-minor: .22; filter: drop-shadow(0 0 3px rgba(var(--grid), .45)) drop-shadow(0 0 10px rgba(var(--grid), .2)); }
 :root[data-mode="light"] .ae-grid-haze {
     background:
         radial-gradient(ellipse 70% 40% at 50% -5%, rgba(var(--grid), .12), transparent 70%),
@@ -262,7 +262,7 @@ a:hover { color: var(--accent); text-decoration: underline; text-underline-offse
 img { max-width: 100%; }
 
 /* ---------- glowing grid ---------- */
-.ae-grid, .ae-grid-glow {
+.ae-grid, .ae-grid-glow, .ae-glow-grid {
     position: fixed; inset: 0; pointer-events: none; z-index: 0;
     --cell: 22px;
     background-image:
@@ -282,19 +282,31 @@ img { max-width: 100%; }
     -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 20%, #000 30%, rgba(0, 0, 0, .35) 100%);
             mask-image: radial-gradient(ellipse 90% 70% at 50% 20%, #000 30%, rgba(0, 0, 0, .35) 100%);
 }
-.ae-grid-glow {
+.ae-grid-glow, .ae-glow-grid {
     --a-major: .75; --a-minor: .38;
-    --mx: 50%; --my: 18%;
     filter: drop-shadow(0 0 3px rgba(var(--grid), .9)) drop-shadow(0 0 10px rgba(var(--grid), .5));
+}
+.ae-grid-glow {
     -webkit-mask-image:
-        radial-gradient(circle 260px at var(--mx) var(--my), #000 0%, rgba(0, 0, 0, .4) 45%, transparent 100%),
         radial-gradient(ellipse 45% 30% at 22% 8%, rgba(0, 0, 0, .45), transparent 70%),
         radial-gradient(ellipse 40% 30% at 85% 75%, rgba(0, 0, 0, .3), transparent 70%);
             mask-image:
-        radial-gradient(circle 260px at var(--mx) var(--my), #000 0%, rgba(0, 0, 0, .4) 45%, transparent 100%),
         radial-gradient(ellipse 45% 30% at 22% 8%, rgba(0, 0, 0, .45), transparent 70%),
         radial-gradient(ellipse 40% 30% at 85% 75%, rgba(0, 0, 0, .3), transparent 70%);
+}
+/* drifting spot: a masked window moved by transform, the grid inside moves back so it stays aligned */
+.ae-glow-spot {
+    position: fixed; left: 0; top: 0; width: 520px; height: 520px; overflow: hidden; pointer-events: none; z-index: 0;
+    transform: translate3d(calc(50vw - 260px), calc(18vh - 260px), 0);
+    -webkit-mask-image: radial-gradient(circle 260px at 50% 50%, #000 0%, rgba(0, 0, 0, .4) 45%, transparent 100%);
+            mask-image: radial-gradient(circle 260px at 50% 50%, #000 0%, rgba(0, 0, 0, .4) 45%, transparent 100%);
+    will-change: transform;
     animation: ae-breathe 7s ease-in-out infinite;
+}
+.ae-glow-spot .ae-glow-grid {
+    position: absolute; inset: auto; left: 0; top: 0; width: 100vw; height: 100vh;
+    transform: translate3d(calc(260px - 50vw), calc(260px - 18vh), 0);
+    will-change: transform;
 }
 .ae-grid-haze {
     position: fixed; inset: 0; pointer-events: none; z-index: 0;
@@ -303,7 +315,7 @@ img { max-width: 100%; }
         radial-gradient(ellipse 50% 40% at 100% 100%, rgba(var(--deep-rgb), .10), transparent 70%);
 }
 @keyframes ae-breathe { 0%, 100% { opacity: .75; } 50% { opacity: 1; } }
-@media (prefers-reduced-motion: reduce) { .ae-grid-glow { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .ae-glow-spot { animation: none; } }
 
 /* ---------- expansion switch: diagonal wipe (view transitions) ---------- */
 @property --ae-wipe {
@@ -487,7 +499,7 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 :root[data-mode="light"] .ae-panel { box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 0 6px 22px rgba(30, 28, 25, .10); }
 :root[data-mode="light"] .ae-topbar { box-shadow: 0 1px 0 rgba(var(--grid), .25), 0 6px 22px rgba(30, 28, 25, .10); }
 :root[data-mode="light"] .ae-grid { --a-major: .16; --a-minor: .07; }
-:root[data-mode="light"] .ae-grid-glow { --a-major: .5; --a-minor: .22; filter: drop-shadow(0 0 3px rgba(var(--grid), .45)) drop-shadow(0 0 10px rgba(var(--grid), .2)); }
+:root[data-mode="light"] .ae-grid-glow, :root[data-mode="light"] .ae-glow-grid { --a-major: .5; --a-minor: .22; filter: drop-shadow(0 0 3px rgba(var(--grid), .45)) drop-shadow(0 0 10px rgba(var(--grid), .2)); }
 :root[data-mode="light"] .ae-logo svg { filter: drop-shadow(0 1px 0 rgba(255, 255, 255, .6)); }
 
 .wk-doc { min-width: 0; padding: 18px 28px 8px; }

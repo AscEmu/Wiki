@@ -4,12 +4,15 @@
     var root = document.documentElement;
     var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    // Glow spot drifts slowly across the grid on its own.
+    // Glow spot drifts slowly across the grid on its own; transform only, so nothing is repainted.
     var glow = document.getElementById('ae-glow');
-    if (glow && !reduce) {
+    var glowGrid = glow && glow.firstElementChild;
+    if (glowGrid && !reduce) {
         var tick = function (t) {
-            glow.style.setProperty('--mx', (50 + Math.sin(t / 5200) * 32).toFixed(2) + '%');
-            glow.style.setProperty('--my', (30 + Math.cos(t / 4100) * 18).toFixed(2) + '%');
+            var x = Math.round(window.innerWidth * (50 + Math.sin(t / 5200) * 32) / 100) - 260;
+            var y = Math.round(window.innerHeight * (30 + Math.cos(t / 4100) * 18) / 100) - 260;
+            glow.style.transform = 'translate3d(' + x + 'px,' + y + 'px,0)';
+            glowGrid.style.transform = 'translate3d(' + (-x) + 'px,' + (-y) + 'px,0)';
             requestAnimationFrame(tick);
         };
         requestAnimationFrame(tick);
