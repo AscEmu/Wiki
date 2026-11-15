@@ -213,7 +213,7 @@ patch      | date       | client_build | interface | comment
 10.2.0     | 2023-11-07 | 52068        | 100200    | Guardians of the Dream
 10.2.5     | 2024-01-16 | 52902        | 100205    | Seeds of Renewal
 10.2.6     | 2024-03-19 | 53840        | 100206    | Plunderstorm
-10.2.7     | 2024-05-07 | 55664        | 100207    | Dark Heart
+10.2.7     | 2024-05-07 |              | 100207    | Dark Heart
 11.0.0     | 2024-07-23 | 54605        | 110000    | The War Within
 11.0.2     | 2024-08-13 | 55522        | 110002    | The War Within
 11.0.5     | 2024-10-22 | 57171        | 110005    | The War Within
