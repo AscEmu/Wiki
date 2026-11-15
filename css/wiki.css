@@ -592,7 +592,27 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
     background: transparent;
 }
 .wk-xps .ae-xp::before { display: none; }
-.wk-xps .ae-xp img { display: block; width: 20px; height: 20px; object-fit: contain; }
+.wk-xps .ae-emoji {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.wk-xps .ae-emoji[data-emoji=":classic:"] { background-image: url("/Wiki/images/emotes/classic.webp"); }
+.wk-xps .ae-emoji[data-emoji=":tbc:"] { background-image: url("/Wiki/images/emotes/tbc.webp"); }
+.wk-xps .ae-emoji[data-emoji=":wotlk:"] { background-image: url("/Wiki/images/emotes/wotlk.png"); }
+.wk-xps .ae-emoji[data-emoji=":cata:"] { background-image: url("/Wiki/images/emotes/cata.png"); }
+.wk-xps .ae-emoji[data-emoji=":mop:"] { background-image: url("/Wiki/images/emotes/mop.png"); }
+.wk-xps .ae-emoji[data-emoji=":wod:"] { background-image: url("/Wiki/images/emotes/wod.webp"); }
+.wk-xps .ae-emoji[data-emoji=":legion:"] { background-image: url("/Wiki/images/emotes/legion.png"); }
+.wk-xps .ae-emoji[data-emoji=":bfa:"] { background-image: url("/Wiki/images/emotes/bfa.webp"); }
+.wk-xps .ae-emoji[data-emoji=":shadowlands:"] { background-image: url("/Wiki/images/emotes/shadowlands.png"); }
+.wk-xps .ae-emoji[data-emoji=":dragonflight:"] { background-image: url("/Wiki/images/emotes/dragonflight.png"); }
+.wk-xps .ae-emoji[data-emoji=":warwithin:"] { background-image: url("/Wiki/images/emotes/warwithin.png"); }
+.wk-xps .ae-emoji[data-emoji=":midnight:"] { background-image: url("/Wiki/images/emotes/midnight.png"); }
+.wk-xps .ae-emoji[data-emoji=":forever:"] { background-image: url("/Wiki/images/emotes/forever.webp"); }
 .wk-xps .ae-xp:hover { background: transparent; filter: brightness(1.2); }
 .wk-xps .ae-xp[aria-pressed="true"] {
     border: 0;
