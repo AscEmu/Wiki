@@ -459,6 +459,7 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 /* ---------- navigation ---------- */
 .wk-nav {
     position: sticky;
+    z-index: 40;
     top: 0;
     align-self: start;
     width: 290px;
