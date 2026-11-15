@@ -57,6 +57,21 @@
         });
     });
 
+    // Close the version menu after selecting an expansion or clicking elsewhere.
+    var versionMenu = document.querySelector('.wk-version-menu');
+    if (versionMenu) {
+        Array.prototype.forEach.call(xpButtons, function (btn) {
+            btn.addEventListener('click', function () {
+                versionMenu.open = false;
+            });
+        });
+        document.addEventListener('click', function (e) {
+            if (!versionMenu.open) return;
+            if (!versionMenu.contains(e.target) || e.target.closest('.ae-xp'))
+                versionMenu.open = false;
+        });
+    }
+
     // Light / dark switch; dark is the default.
     var modeBtn = document.getElementById('ae-mode');
     var isLight = function () { return root.getAttribute('data-mode') === 'light'; };
