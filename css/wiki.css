@@ -410,7 +410,7 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 .wk-brand .wk-logo img {
     display: block;
     width: auto;
-    height: 34px;
+    height: 28px;
     object-fit: contain;
     filter: drop-shadow(0 0 8px rgba(var(--grid), .45));
     transition: filter .2s ease, transform .2s ease;
@@ -783,7 +783,7 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
     .wk-content h2 { font-size: 26px; }
 }
 @media (max-width: 480px) {
-    .wk-brand .wk-logo img { height: 28px; }
+    .wk-brand .wk-logo { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .wk-nav { transition: none; } }
 
