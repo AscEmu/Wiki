@@ -584,19 +584,27 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 .wk-xps .ae-xp {
     display: grid;
     place-items: center;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     padding: 0;
     border: 0;
     border-radius: 0;
     background: transparent;
 }
+.wk-xps .ae-xp[data-xp="forever"] {
+    width: 20px;
+    height: 20px;
+}
 .wk-xps .ae-xp::before { display: none; }
 .wk-xps .ae-emoji {
     display: block;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.wk-xps .ae-xp[data-xp="forever"] .ae-emoji {
     width: 20px;
     height: 20px;
-    object-fit: contain;
 }
 .wk-xps .ae-xp:hover { background: transparent; filter: brightness(1.2); }
 .wk-xps .ae-xp[aria-pressed="true"] {
