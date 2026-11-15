@@ -405,13 +405,20 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 
 
 /* ---------- top bar: wiki additions ---------- */
-.wk-brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
-.wk-brand .ae-logo svg { height: 28px; }
-.wk-brand-label {
-    font: 600 22px/1 var(--font-display); letter-spacing: .1em; text-transform: uppercase; color: var(--accent-hi);
-    border-left: 1px solid var(--line); padding-left: 12px; text-shadow: 0 0 12px rgba(var(--grid), .45);
+.wk-brand { display: flex; align-items: center; min-width: 0; }
+.wk-brand .wk-logo { display: inline-flex; align-items: center; }
+.wk-brand .wk-logo img {
+    display: block;
+    width: auto;
+    height: 34px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 8px rgba(var(--grid), .45));
+    transition: filter .2s ease, transform .2s ease;
 }
-.wk-brand-label:hover { color: var(--accent); text-decoration: none; }
+.wk-brand .wk-logo:hover img {
+    filter: drop-shadow(0 0 12px rgba(var(--grid), .7));
+    transform: translateY(-1px);
+}
 .wk-links { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
 .wk-links a {
     display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 3px;
@@ -776,8 +783,7 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
     .wk-content h2 { font-size: 26px; }
 }
 @media (max-width: 480px) {
-    .wk-brand .ae-logo { display: none; }
-    .wk-brand-label { border-left: 0; padding-left: 0; }
+    .wk-brand .wk-logo img { height: 28px; }
 }
 @media (prefers-reduced-motion: reduce) { .wk-nav { transition: none; } }
 
