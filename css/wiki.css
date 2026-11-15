@@ -753,7 +753,7 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 .wk-footer p { margin: 0; max-width: 820px; }
 .wk-footer .ae-wrap { align-items: center; }
 .wk-footer-logo { display: inline-flex; align-items: center; flex: 0 0 auto; }
-.wk-footer-logo img { display: block; width: 110px; height: auto; object-fit: contain; }
+.wk-footer-logo svg { display: block; width: 110px; height: auto; }
 
 
 /* ---------- smaller screens ---------- */
