@@ -450,6 +450,12 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
     grid-template-columns: 290px minmax(0, 1fr);
 }
 
+/* Keep the sidebar sticky on the short history page. */
+.wk-history-page .wk-layout {
+    min-height: calc(100vh + 100px);
+    align-items: start;
+}
+
 /* ---------- navigation ---------- */
 .wk-nav {
     position: sticky;
