@@ -403,8 +403,27 @@ Make sure RemotePassword matches the password in realms table in logon database 
              RemotePassword = "change_me_logon">
 ```
 
-Set **ClientVersion** in the **<Realm1 ...>** section to the expansion the world server was compiled for, the index matches ASCEMU_VERSION: 0 = Classic, 1 = TBC, 2 = WotLK, 3 = Cata, 4 = MoP, 5 = WoD, 6 = Legion, 7 = BfA, 8 = Shadowlands, 9 = Dragonflight, 10 = TWW, 11 = Midnight. With a wrong value the client gets no answers: every NPC shows as Unknown and no button works.
+Set **ClientVersion** in the **`<Realm1 ...>`** section to match the expansion the world server was compiled for.
+The value determines which client version the server communicates with. If the value is incorrect, the client receives no valid responses: NPCs appear as **Unknown**, and NPC interaction buttons do not work.
 {: .info }
+
+### ClientVersion values
+
+Value    | Expansion                    |
+-------- | ---------------------------- |
+0        | Classic                      |
+1        | TBC                          |
+2        | WotLK                        |
+3        | Cata                         |
+4        | MoP                          |
+5        | WoD                          |
+6        | Legion                       |
+7        | BfA                          |
+8        | Shadowlands                  |
+9        | Dragonflight                 |
+10       | TWW                          |
+11       | Midnight                     |
+F        | Forever                      |
 
 How each client version finds the server, from realmlist.wtf to the launchers of the Battle.net clients, is described in the [Client Guide](/Wiki/docs/installation/client/).
 {: .info }
@@ -420,7 +439,7 @@ chmod a+x world
 ```
 
 That's it! You should now have a fully functioning copy of AscEmu.<br />
-When you first time run the binaries your databases are automatically populated and updated to latest version. This process is fully automated. You can read about it [more here.](https://ascemu.github.io/Wiki/database/auto_update/)
+When you first time run the binaries your databases are automatically populated and updated to latest version. This process is fully automated. You can read about it [more here.](/Wiki/database/auto_update/)
 
 Applying especially world database or some large updates can take some time.
 {: .info }
