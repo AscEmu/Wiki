@@ -311,7 +311,7 @@ Set **ClientVersion** in the **`<Realm1 ...>`** section to match the expansion t
 The value determines which client version the server communicates with. If the value is incorrect, the client receives no valid responses: NPCs appear as **Unknown**, and NPC interaction buttons do not work.
 {: .info }
 
-### ClientVersion values
+#### ClientVersion values
 
 Value    | Expansion                    |
 -------- | ---------------------------- |

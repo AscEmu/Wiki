@@ -321,7 +321,7 @@ quit
 
 ### World Database
 
-AscEmu supports only OneDB world database which is maintained by AscEmu team. OneDB, as the name suggests, has all versions (Classic - Mop) packed into a single database. ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
+AscEmu supports only OneDB world database which is maintained by AscEmu team. OneDB, as the name suggests, has all versions packed into a single database. ![github.svg](/Wiki/images/mark-github.svg) [Link to Github](https://github.com/AscEmu/OneDB/).
 {: .info }
 
 First, switch back to your installer folder and use git to clone the OneDB repository.
@@ -407,7 +407,7 @@ Set **ClientVersion** in the **`<Realm1 ...>`** section to match the expansion t
 The value determines which client version the server communicates with. If the value is incorrect, the client receives no valid responses: NPCs appear as **Unknown**, and NPC interaction buttons do not work.
 {: .info }
 
-### ClientVersion values
+#### ClientVersion values
 
 Value    | Expansion                    |
 -------- | ---------------------------- |
