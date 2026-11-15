@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 67" role="img" aria-labelledby="title">
+  <title id="title">AscEmu</title>
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc45e"/>
+      <stop offset="1" stop-color="#f28a24"/>
+    </linearGradient>
+  </defs>
+  <g fill="#888">
+    <path d="M6 4h37v58H6z"/>
+    <path d="M80 23h58v30H80z"/>
+    <path d="M137 4h38v58h-38z"/>
+    <path d="M231 23h44v30h-44z"/>
+  </g>
+  <g fill="url(#orange)">
+    <path d="M42 12h27c7 0 12 5 12 12v29H42z"/>
+    <path d="M181 12h27c7 0 12 5 12 12v29h-39z"/>
+    <path d="M222 12h10v41h-10z"/>
+  </g>
+</svg>
