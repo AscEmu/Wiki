@@ -741,6 +741,10 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 .wk-footer { position: relative; z-index: 1; border-top: 1px solid var(--line); background: rgba(var(--bg-rgb), .92); }
 .wk-footer .ae-wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-block: 14px; font-size: 12px; color: var(--fg-faint); }
 .wk-footer p { margin: 0; max-width: 820px; }
+.wk-footer .ae-wrap { align-items: center; }
+.wk-footer-logo { display: inline-flex; align-items: center; flex: 0 0 auto; }
+.wk-footer-logo img { display: block; width: 110px; height: auto; object-fit: contain; }
+
 
 /* ---------- smaller screens ---------- */
 @media (max-width: 1200px) {
