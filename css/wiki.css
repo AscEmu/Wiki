@@ -756,6 +756,10 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
 .wk-footer-logo svg { display: block; width: 110px; height: auto; }
 
 
+@media (max-width: 860px) {
+    .wk-footer-logo { margin-inline: auto; }
+}
+
 /* ---------- smaller screens ---------- */
 @media (max-width: 1200px) {
     .wk-layout, .wk-layout.no-toc {
