@@ -588,8 +588,8 @@ html.ae-xp-wipe::view-transition-old(ae-wipe-line) { display: none; }
     background: transparent;
 }
 .wk-xps .ae-xp[data-xp="forever"] {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .wk-xps .ae-xp::before { display: none; }
 .wk-xps .ae-emoji {
