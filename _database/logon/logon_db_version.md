@@ -25,4 +25,4 @@ Each database update increases this value sequentially.
 
 Contains the identifier of the latest applied logon database update.
 
-For more information, see the [database auto-update documentation](https://ascemu.github.io/Wiki/database/auto_update/).
+For more information, see the [database auto-update documentation](/Wiki/database/auto_update/).

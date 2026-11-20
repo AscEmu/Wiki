@@ -7,5 +7,6 @@ layout: default
     {% if emu.type != 'mysqlstandard' %}
         {% continue %}
     {% endif %}
+    <p class="wk-part-edit"><a target="_blank" rel="noopener" href="https://github.com/AscEmu/Wiki/edit/master/{{ packets.path }}">Edit this part on GitHub</a></p>
     {{ emu.content | markdownify }}
 {% endfor %}

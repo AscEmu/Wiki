@@ -64,10 +64,63 @@
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
-.highlight .go{
-    color: #fff;
+.highlight .go{ color: #fff; }
+.highlight .gp{ color: #fff; }
+
+/* Light mode: plain text and console output */
+:root[data-mode="light"] .language-text .highlight pre,
+:root[data-mode="light"] .language-console .highlight pre {
+    background-color: #f6f3f1;
+    color: #211c17;
+}
+:root[data-mode="light"] .language-text .highlight pre span,
+:root[data-mode="light"] .language-console .highlight pre span {
+    color: #211c17;
+}
+:root[data-mode="light"] .language-text .highlight .hll,
+:root[data-mode="light"] .language-console .highlight .hll {
+    background-color: #e8e3de;
 }
 
-.highlight .gp{
-    color: #fff;
+/* Light mode: syntax-highlighted code */
+:root[data-mode="light"] .language-sql .highlight pre,
+:root[data-mode="light"] .language-cpp .highlight pre,
+:root[data-mode="light"] .language-lua .highlight pre {
+    background-color: #f6f3f1;
+    color: #211c17;
 }
+
+:root[data-mode="light"] .language-sql .highlight .hll,
+:root[data-mode="light"] .language-cpp .highlight .hll,
+:root[data-mode="light"] .language-lua .highlight .hll {
+    background-color: #e8e3de;
+}
+
+/* Replace light token colors that lose contrast on a light background. */
+:root[data-mode="light"] :is(.language-sql, .language-cpp, .language-lua) .highlight :is(
+    .n, .p, .nb, .ni, .nl, .nn, .nv, .w, .bp, .vc, .vg, .vi
+) { color: #211c17; }
+
+:root[data-mode="light"] :is(.language-sql, .language-cpp, .language-lua) .highlight :is(
+    .k, .kc, .kd, .kp, .kr, .kt
+) { color: #08718a; }
+
+:root[data-mode="light"] :is(.language-sql, .language-cpp, .language-lua) .highlight :is(
+    .l, .m, .mf, .mh, .mi, .mo, .il, .se
+) { color: #7040a0; }
+
+:root[data-mode="light"] :is(.language-sql, .language-cpp, .language-lua) .highlight :is(
+    .s, .ld, .sb, .sc, .sd, .s2, .sh, .si, .sx, .sr, .s1, .ss
+) { color: #806000; }
+
+:root[data-mode="light"] :is(.language-sql, .language-cpp, .language-lua) .highlight :is(
+    .na, .nc, .nd, .ne, .nf, .nx
+) { color: #397500; }
+
+:root[data-mode="light"] :is(.language-sql, .language-cpp, .language-lua) .highlight :is(
+    .o, .ow, .nt, .kn
+) { color: #b01845; }
+
+:root[data-mode="light"] :is(.language-sql, .language-cpp, .language-lua) .highlight :is(
+    .c, .cm, .cp, .c1, .cs, .gu
+) { color: #686052; }

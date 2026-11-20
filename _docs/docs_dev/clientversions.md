@@ -187,3 +187,50 @@ patch      | date       | client_build | interface | comment
 7.3.0      | 2017-08-29 | 24920        | 70300     | Shadows of Argus         
 7.3.2      | 2017-11-21 | 25549        | 70300     | Shadows of Argus         
 7.3.5      | 2018-02-07 | 25996        | 70300     | Shadows of Argus         
+8.0.1      | 2018-07-21 | 27026        | 80000     | Battle for Azeroth
+8.1.0      | 2018-12-11 | 28724        | 80100     | Tides of Vengeance
+8.1.0a     | 2019-01-22 | 29139        | 80100     | Tides of Vengeance
+8.1.5      | 2019-03-12 | 29683        | 80100     | Tides of Vengeance
+8.2.0      | 2019-06-25 | 30918        | 80200     | Rise of Azshara
+8.2.5      | 2019-09-24 | 31921        | 80200     | Rise of Azshara
+8.3.0      | 2020-01-14 | 33062        | 80300     | Visions of N'Zoth
+8.3.7      | 2020-07-21 | 35249        | 80307     | Visions of N'Zoth
+9.0.1      | 2020-10-13 | 36216        | 90001     | Shadowlands
+9.0.2      | 2020-11-17 | 37474        | 90002     | Shadowlands
+9.0.5      | 2021-03-09 | 37862        | 90005     | Shadowlands
+9.1.0      | 2021-06-29 | 39185        | 90100     | Chains of Domination
+9.1.5      | 2021-11-02 | 40871        | 90105     | Chains of Domination
+9.2.0      | 2022-02-22 | 42423        | 90200     | Eternity's End
+9.2.5      | 2022-05-31 | 43519        | 90205     | Eternity's End
+9.2.7      | 2022-08-16 | 44981        | 90207     | Eternity's End
+10.0.0     | 2022-10-25 | 46293        | 100000    | Dragonflight
+10.0.2     | 2022-11-15 | 46658        | 100002    | Dragonflight
+10.0.5     | 2023-01-24 | 47799        | 100005    | Dragonflight
+10.0.7     | 2023-03-21 | 48520        | 100007    | Dragonflight
+10.1.0     | 2023-05-02 | 49255        | 100100    | Embers of Neltharion
+10.1.5     | 2023-07-11 | 50401        | 100105    | Fractures in Time
+10.1.7     | 2023-09-05 | 50587        | 100107    | Fury Incarnate
+10.2.0     | 2023-11-07 | 52068        | 100200    | Guardians of the Dream
+10.2.5     | 2024-01-16 | 52902        | 100205    | Seeds of Renewal
+10.2.6     | 2024-03-19 | 53840        | 100206    | Plunderstorm
+10.2.7     | 2024-05-07 |              | 100207    | Dark Heart
+11.0.0     | 2024-07-23 | 54605        | 110000    | The War Within
+11.0.2     | 2024-08-13 | 55522        | 110002    | The War Within
+11.0.5     | 2024-10-22 | 57171        | 110005    | The War Within
+11.0.7     | 2024-12-17 | 58123        | 110007    | The War Within
+11.1.0     | 2025-02-25 | 59347        | 110100    | Undermine
+11.1.5     | 2025-04-22 | 60067        | 110105    | Undermine
+11.1.7     | 2025-06-17 | 61069        | 110105    | Undermine
+11.2.0     | 2025-08-05 | 62438        | 110200    | Ghosts of K'aresh
+11.2.5     | 2025-10-07 | 63660        | 110205    | The War Within
+11.2.7     | 2025-12-02 | 64632        | 110207    | The War Within
+12.0.0     | 2026-01-20 | 65459        | 120000    | Midnight
+12.0.1     | 2026-02-10 | 65867        | 120001    | Midnight
+12.0.5     | 2026-04-21 | 67088        | 120005    | Midnight
+12.0.7     | 2026-06-16 | 68182        | 120007    | Midnight
+12.1.0     | 2026-08-11 | 69214        | 120100    | Midnight
+12.1.5     | 2026-11-03 | 70783        | 120105    | Midnight
+1.60.1     | 2026-09-16 | 69893        | 16001     | World of Warcraft: Forever
+1.60.1     | 2026-09-24 | 70009        | 16001     | World of Warcraft: Forever
+1.60.1     | 2026-10-26 | 70532        | 16001     | World of Warcraft: Forever
+
